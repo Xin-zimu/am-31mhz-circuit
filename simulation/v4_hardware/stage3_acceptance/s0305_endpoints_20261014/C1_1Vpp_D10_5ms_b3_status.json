@@ -1,0 +1,19 @@
+﻿{
+    "tag":  "C1_1Vpp_D10_5ms_b3",
+    "status":  "EXCEPTION",
+    "entry":  "COM DoCommandLine source+tran engine",
+    "started_utc":  "2026-10-14T16:56:36.7210632Z",
+    "preflight_multisim_count":  0,
+    "owned_pids":  [
+                       25840
+                   ],
+    "wall_seconds":  27.34,
+    "last_error":  "Owned Multisim process exited before producing a complete result",
+    "raw_path":  "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C1_1Vpp_D10_5ms_b3.raw",
+    "raw_bytes":  0,
+    "log_path":  "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C1_1Vpp_D10_5ms_b3.log",
+    "log_tail":  [
+
+                 ],
+    "finished_utc":  "2026-10-14T16:57:06.1780451Z"
+}

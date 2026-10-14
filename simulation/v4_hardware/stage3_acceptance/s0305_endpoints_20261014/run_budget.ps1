@@ -45,9 +45,15 @@ $queues = @{
 
 if (-not $queues.ContainsKey($Queue)) { throw ('Unknown queue: ' + $Queue) }
 
-# Preflight: no Multisim may be running before the batch starts.
+# Preflight: no *live* Multisim may be running before the batch starts. A defunct
+# process record (0 threads, 0 handles -- left by a crashed engine whose process
+# record is held open) cannot simulate and cannot be killed, so counting it here
+# would block every future run indefinitely. Same rule as run_one.ps1.
 $pre = @(Get-Process -Name multisim -ErrorAction SilentlyContinue)
-if ($pre.Count -gt 0) { throw ('Preflight rejected: existing Multisim PIDs ' + ($pre.Id -join ',')) }
+$preLive = @($pre | Where-Object { $_.Threads.Count -gt 0 -or $_.Handles -gt 0 })
+$preDefunct = @($pre | Where-Object { $_.Threads.Count -eq 0 -and $_.Handles -eq 0 })
+if ($preLive.Count -gt 0) { throw ('Preflight rejected: existing Multisim PIDs ' + ($preLive.Id -join ',')) }
+if ($preDefunct.Count -gt 0) { Write-Output ('NOTE: ignoring defunct Multisim record(s) ' + ($preDefunct.Id -join ',') + ' (0 threads, 0 handles; cannot simulate)') }
 
 $results = @()
 foreach ($case in $queues[$Queue]) {
@@ -60,6 +66,18 @@ foreach ($case in $queues[$Queue]) {
     if (-not (Test-Path -LiteralPath $cmd)) {
       $results += [ordered]@{ case=$case.case; status='MISSING_CMD'; tag=$t }
       break
+    }
+    # Resume support: an attempt that already has a status file has been spent.
+    # Skip it without re-running and without double-counting the budget.
+    $spentStatus = Join-Path $PSScriptRoot ($t + '_status.json')
+    if (Test-Path -LiteralPath $spentStatus) {
+      $prev = (Get-Content -LiteralPath $spentStatus -Raw | ConvertFrom-Json).status
+      Write-Output ('  skipping spent attempt ' + $t + ' (status ' + $prev + ')')
+      if ($prev -eq 'COMPLETED') {
+        $outcome = 'COMPLETED'
+        $results += [ordered]@{ case=$case.case; status='COMPLETED_ALREADY'; tag=$t; attempts_used=$used; attempt_budget=$case.max }
+      }
+      continue
     }
     Write-Output ('ATTEMPT ' + $case.case + ' ' + $t + ' (' + $used + '/' + $case.max + ')')
     # run_one.ps1 lives next to this driver (the workspace), NOT in $runRoot:

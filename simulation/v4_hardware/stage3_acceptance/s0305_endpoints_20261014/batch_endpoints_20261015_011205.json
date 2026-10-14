@@ -1,0 +1,37 @@
+﻿{
+    "queue":  "endpoints",
+    "started_utc":  "2026-10-14T17:12:05.4246957Z",
+    "policy":  "baseline\u003c=2 attempts; others\u003c=3 attempts; every attempt preserved; success proves only this run",
+    "preflight_multisim_count":  1,
+    "results":  [
+                    {
+                        "case":  "C1",
+                        "status":  "BUDGET_LIMITED",
+                        "tag":  null,
+                        "attempts_used":  3,
+                        "attempt_budget":  3
+                    },
+                    {
+                        "case":  "C3",
+                        "status":  "BUDGET_LIMITED",
+                        "tag":  null,
+                        "attempts_used":  3,
+                        "attempt_budget":  3
+                    },
+                    {
+                        "case":  "C6",
+                        "status":  "BUDGET_LIMITED",
+                        "tag":  null,
+                        "attempts_used":  3,
+                        "attempt_budget":  3
+                    },
+                    {
+                        "case":  "C7",
+                        "status":  "BUDGET_LIMITED",
+                        "tag":  null,
+                        "attempts_used":  3,
+                        "attempt_budget":  3
+                    }
+                ],
+    "finished_utc":  "2026-10-14T17:12:05.4246957Z"
+}
