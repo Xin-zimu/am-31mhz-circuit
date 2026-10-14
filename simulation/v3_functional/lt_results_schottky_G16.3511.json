@@ -1,0 +1,122 @@
+[
+  {
+    "amplitude": 1,
+    "duty": 50,
+    "gain": 16.3511,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_schottky_A1_D50_G16.3511.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 1.0,
+        "vpp_max_min": 1.0,
+        "low": 0.0,
+        "high": 1.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 1.191396481163446,
+        "vpp_max_min": 1.203758609247723,
+        "low": 3.9368621629707583,
+        "high": 5.128258644134204,
+        "frequency_hz": 19999.7448122757,
+        "duty_pct": 50.12712895187056
+      }
+    }
+  },
+  {
+    "amplitude": 2,
+    "duty": 50,
+    "gain": 16.3511,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_schottky_A2_D50_G16.3511.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 2.0,
+        "vpp_max_min": 2.0,
+        "low": 0.0,
+        "high": 2.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 2.3806040935269093,
+        "vpp_max_min": 2.3981649284552597,
+        "low": 3.3449877520607436,
+        "high": 5.725591845587653,
+        "frequency_hz": 19999.928265261,
+        "duty_pct": 50.198854261568215
+      }
+    }
+  },
+  {
+    "amplitude": 3,
+    "duty": 50,
+    "gain": 16.3511,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_schottky_A3_D50_G16.3511.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 3.0,
+        "vpp_max_min": 3.0,
+        "low": 0.0,
+        "high": 3.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 3.584245909734188,
+        "vpp_max_min": 3.6062691235995468,
+        "low": 2.744193474512412,
+        "high": 6.3284393842466,
+        "frequency_hz": 19999.941231600853,
+        "duty_pct": 50.261766377915436
+      }
+    }
+  },
+  {
+    "amplitude": 4,
+    "duty": 50,
+    "gain": 16.3511,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_schottky_A4_D50_G16.3511.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 4.0,
+        "vpp_max_min": 4.0,
+        "low": 0.0,
+        "high": 4.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 4.800011035666959,
+        "vpp_max_min": 4.826580664626883,
+        "low": 2.1368140026173283,
+        "high": 6.936825038284287,
+        "frequency_hz": 19999.95009615202,
+        "duty_pct": 50.313188646250474
+      }
+    }
+  },
+  {
+    "amplitude": 4,
+    "duty": 10,
+    "gain": 16.3511,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_schottky_A4_D10_G16.3511.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 4.0,
+        "vpp_max_min": 4.0,
+        "low": 0.0,
+        "high": 4.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 10.039999999999417
+      },
+      "v(v2)": {
+        "vpp_98_2": 4.77236707487832,
+        "vpp_max_min": 4.795265870469056,
+        "low": 4.024823468269462,
+        "high": 8.797190543147781,
+        "frequency_hz": 19999.966870909044,
+        "duty_pct": 10.310343629689463
+      }
+    }
+  }
+]

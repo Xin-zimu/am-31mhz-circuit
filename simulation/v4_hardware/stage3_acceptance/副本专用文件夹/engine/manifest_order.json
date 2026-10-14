@@ -1,0 +1,77 @@
+{
+  "tran": "2n 2u 0 2n uic",
+  "cases": {
+    "V0_after": {
+      "set_position": "after",
+      "options": [
+        [
+          "reltol",
+          "0.0001"
+        ],
+        [
+          "trtol",
+          "1"
+        ],
+        [
+          "itl4",
+          "500"
+        ],
+        [
+          "method",
+          "gear"
+        ]
+      ],
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\V0_after.cmd"
+    },
+    "V1_before": {
+      "set_position": "before",
+      "options": [
+        [
+          "reltol",
+          "0.0001"
+        ],
+        [
+          "trtol",
+          "1"
+        ],
+        [
+          "itl4",
+          "500"
+        ],
+        [
+          "method",
+          "gear"
+        ]
+      ],
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\V1_before.cmd"
+    },
+    "V2_before_loose": {
+      "set_position": "before",
+      "options": [
+        [
+          "reltol",
+          "0.1"
+        ],
+        [
+          "trtol",
+          "20"
+        ]
+      ],
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\V2_before_loose.cmd"
+    },
+    "V3_after_loose": {
+      "set_position": "after",
+      "options": [
+        [
+          "reltol",
+          "0.1"
+        ],
+        [
+          "trtol",
+          "20"
+        ]
+      ],
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\V3_after_loose.cmd"
+    }
+  }
+}

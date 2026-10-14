@@ -1,0 +1,11 @@
+--- engine
++++ GUI
+@@ -107,7 +107,7 @@
+ rr110 tp6 0 10000 vresr110
+ .model vresr110 r( )
+ cc111 tp6 0 4.7e-11 ic=0
+-cc115 tp6 bb_in 1e-08 ic=0
++cc115 tp6 bb_in 1e-08 ic=-0
+ rr113 bb_in vref 100000 vresr113
+ .model vresr113 r( )
+ xu2_opa197_-eopabox bb_in bb_fb vcc 0 bbo opax197

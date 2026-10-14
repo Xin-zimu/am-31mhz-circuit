@@ -1,0 +1,11 @@
+{
+  "engine_points": 2075,
+  "engine_end_s": 2e-06,
+  "engine_dt_max_s": 1.0080645161298901e-09,
+  "engine_steps_200_260ns": 84,
+  "gui_points": 563,
+  "gui_end_s": 2.257976350349652e-07,
+  "gui_dt_min_s": 4.000000000000387e-15,
+  "gui_dt_max_s": 1.000000000000009e-09,
+  "gui_smallest_step_time_s": 1.0004000000000001e-11
+}

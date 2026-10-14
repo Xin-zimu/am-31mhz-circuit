@@ -1,0 +1,66 @@
+﻿[
+    {
+        "tag":  "orig_GEAR500_UIC_2ns",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.6,
+        "msg":  ""
+    },
+    {
+        "tag":  "proj_TMAX1ns",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.2,
+        "msg":  ""
+    },
+    {
+        "tag":  "V_2n_2n",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.6,
+        "msg":  ""
+    },
+    {
+        "tag":  "V_1n_1n",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.6,
+        "msg":  ""
+    },
+    {
+        "tag":  "V_2n_1n",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.6,
+        "msg":  ""
+    },
+    {
+        "tag":  "V_1n_2n",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.6,
+        "msg":  ""
+    },
+    {
+        "tag":  "V_2n_1500p",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.6,
+        "msg":  ""
+    },
+    {
+        "tag":  "V_2n_1050p",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.6,
+        "msg":  ""
+    }
+]

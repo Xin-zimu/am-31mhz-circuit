@@ -1,0 +1,92 @@
+{
+  "runs": [
+    {
+      "kind": "GUI",
+      "run": "GUI TRAP500  2/2 ns zero_ic",
+      "requested_tmax_s": 2e-09,
+      "points": 439,
+      "dt_max_s": 1.008064516129043e-09,
+      "dt_max_over_cap": 1.0000000000000107,
+      "dt_median_s": 4.538880804715803e-10,
+      "stop_s": 2.2579554774369283e-07,
+      "stop_over_period": 6.999661980054477
+    },
+    {
+      "kind": "GUI",
+      "run": "GUI GEAR500  2/2 ns zero_ic",
+      "requested_tmax_s": 2e-09,
+      "points": 557,
+      "dt_max_s": 1.008064516129043e-09,
+      "dt_max_over_cap": 1.0000000000000107,
+      "dt_median_s": 3.169422871541914e-10,
+      "stop_s": 2.2579842868014298e-07,
+      "stop_over_period": 6.999751289084432
+    },
+    {
+      "kind": "GUI",
+      "run": "GUI GEAR500  2/2 ns reopen",
+      "requested_tmax_s": 2e-09,
+      "points": 557,
+      "dt_max_s": 1.008064516129043e-09,
+      "dt_max_over_cap": 1.0000000000000107,
+      "dt_median_s": 3.169422871541914e-10,
+      "stop_s": 2.2579842868014298e-07,
+      "stop_over_period": 6.999751289084432
+    },
+    {
+      "kind": "GUI",
+      "run": "GUI GEAR500+UIC 1/1 ns",
+      "requested_tmax_s": 1e-09,
+      "points": 563,
+      "dt_max_s": 1.000000000000009e-09,
+      "dt_max_over_cap": 0.9920000000000088,
+      "dt_median_s": 3.0703663340017005e-10,
+      "stop_s": 2.257976350349652e-07,
+      "stop_over_period": 6.99972668608392
+    },
+    {
+      "kind": "ENGINE",
+      "run": "ENGINE 20 us  (2 ns request)",
+      "requested_tmax_s": 2e-09,
+      "points": 20176,
+      "dt_max_s": 1.0080645161320077e-09,
+      "dt_max_over_cap": 1.0000000000029516,
+      "dt_median_s": 1.0080645161286196e-09,
+      "stop_s": 2e-05,
+      "stop_over_period": 620.0
+    },
+    {
+      "kind": "ENGINE",
+      "run": "ENGINE 2 us   (2 ns request)",
+      "requested_tmax_s": 2e-09,
+      "points": 2075,
+      "dt_max_s": 1.0080645161298901e-09,
+      "dt_max_over_cap": 1.0000000000008509,
+      "dt_median_s": 1.008064516129043e-09,
+      "stop_s": 2e-06,
+      "stop_over_period": 61.99999999999999
+    },
+    {
+      "kind": "ENGINE",
+      "run": "ENGINE 2 ms   (1 ns request)",
+      "requested_tmax_s": 1e-09,
+      "points": 2023504,
+      "dt_max_s": 1.0000000009915272e-09,
+      "dt_max_over_cap": 0.9920000009835949,
+      "dt_median_s": 1.0000000000157452e-09,
+      "stop_s": 0.002,
+      "stop_over_period": 61999.99999999999
+    },
+    {
+      "kind": "ENGINE",
+      "run": "ENGINE 7 ms   (1 ns request)",
+      "requested_tmax_s": 1e-09,
+      "points": 7127505,
+      "dt_max_s": 1.0000000012083676e-09,
+      "dt_max_over_cap": 0.9920000011987006,
+      "dt_median_s": 1.0000000000157452e-09,
+      "stop_s": 0.007,
+      "stop_over_period": 217000.0
+    }
+  ]
+}

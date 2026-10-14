@@ -1,0 +1,38 @@
+﻿[
+    {
+        "tag":  "TMAX1ns",
+        "file":  "S03_COLD_ZERO_GEAR500_UIC_TMAX1ns_20us.ms14",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.3,
+        "msg":  ""
+    },
+    {
+        "tag":  "GEAR500_UIC_2n",
+        "file":  "S03_COLD_ZERO_GEAR500_UIC_20us.ms14",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.3,
+        "msg":  ""
+    },
+    {
+        "tag":  "GEAR500_2n",
+        "file":  "S03_COLD_ZERO_GEAR500_20us.ms14",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.3,
+        "msg":  ""
+    },
+    {
+        "tag":  "TRAP500_2n",
+        "file":  "S03_COLD_ZERO_TRAP500_20us.ms14",
+        "status":  "SOLVER-STOPPED",
+        "reached_s":  1,
+        "chunks":  1,
+        "wall_s":  1.1,
+        "msg":  ""
+    }
+]

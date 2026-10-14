@@ -1,0 +1,59 @@
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>source D:\ms_xsp\v3_20k\final_A4.cir
+_uc7676581ea547d4ee476848f9351fa
+source D:\ms_xsp\v3_20k\final_A4.cir
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>begin-scope page Transient Analysis
+_uc7676581ea547d4ee476848f9351fa
+begin-scope page Transient Analysis
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>checknodes 3
+_uc7676581ea547d4ee476848f9351fa
+checknodes 3
+checknodes: no such command available in XSPICE
+checknodes: no such command available in XSPICE
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>save $tp3 $tp6 $v1 $v2
+_uc7676581ea547d4ee476848f9351fa
+save $tp3 $tp6 $v1 $v2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>iplot $tp3 $tp6 $v1 $v2
+_uc7676581ea547d4ee476848f9351fa
+iplot $tp3 $tp6 $v1 $v2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>set trtol = 7
+_uc7676581ea547d4ee476848f9351fa
+set trtol = 7
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>set itl4 = 100
+_uc7676581ea547d4ee476848f9351fa
+set itl4 = 100
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>set convlimit
+_uc7676581ea547d4ee476848f9351fa
+set convlimit
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>set rshunt = 1e+012
+_uc7676581ea547d4ee476848f9351fa
+set rshunt = 1e+012
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>set dynamicdc
+_uc7676581ea547d4ee476848f9351fa
+set dynamicdc
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>set inertialdelay
+_uc7676581ea547d4ee476848f9351fa
+set inertialdelay
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:52)
+_uc3547d4ee4ff1a>tran -env-options 2e-09 200e-6 0 2e-09 auto_ic auto_tstep auto_tmax
+_uc7676581ea547d4ee476848f9351fa
+tran -env-options 2e-09 200e-6 0 2e-09 auto_ic auto_tstep auto_tmax
+Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09
+Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:54)
+_uc3547d4ee4ff1a>write-and-destroy-iplot "D:\ms_xsp\v3_20k\quick_A4.raw"
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:53:54)
+_uc3547d4ee4ff1a>end-scope
+_uc7676581ea547d4ee476848f9351fa
+end-scope

@@ -1,0 +1,36 @@
+{
+  "stage": "S03-03",
+  "status": "COMPLETE_GUI_2MS_REPRODUCTION_PASSED",
+  "scope_change": "User states 5 ms is not mandatory; 2 ms reproduction selected",
+  "project": "S03_GUI_2ms_V4_3.ms14",
+  "sha256": "e0b0ce967933099177b335b9c1a176381ebe8a18c626d8338ffd12abe83475cd",
+  "settings": "ANALYSIS:list{TSTEP:double{2e-09}\nTSTOP:double{0.002}\nTSTART:double{0}\nTMAX:double{2e-09}\nIC:string{uic}\n}\n",
+  "component_content_equal_ignoring_runtime_ids": true,
+  "nodes": [
+    "V(bb_in)",
+    "V(bbo)",
+    "V(v1)",
+    "V(v2)"
+  ],
+  "gra_saved": true,
+  "metrics_verified": true,
+  "prior_5ms_gui_attempt": "Out of memory at displayed 3.469 ms; not completed",
+  "comparison_passes": true,
+  "repeatability_passes": true,
+  "gra": {
+    "file": "S03_GUI_2ms_V4_3.gra",
+    "bytes": 193486150
+  },
+  "next": {
+    "stage": "S03-04",
+    "status": "UNRESOLVED_COLD_START_TRANSIENT_NONCONVERGENCE",
+    "project": "S03_COLD_ZERO_2ms_V4_3.ms14",
+    "observed_stop_s_approx": 5.2e-08,
+    "explicit_capacitor_IC_V": {
+      "C111": 0,
+      "C115": 0,
+      "CBB": 0
+    },
+    "passed": false
+  }
+}

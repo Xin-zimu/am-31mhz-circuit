@@ -1,0 +1,11 @@
+﻿finalize 10/08/2026 17:42:00
+connected=True
+=============== D:\实验报告文件夹\电路2\simulation\v3_functional\AM_20k_D50_A4V_V3_quick200us.ms14
+  size before = 360211
+  opened 'AM_20k_D50_A4V_V3_quick200us' components=21
+  variants = Default1
+  RLOAD=1000000 CBB=1.32629E-10 RRF=50
+  Save() -> D:\实验报告文件夹\电路2\simulation\v3_functional\AM_20k_D50_A4V_V3_quick200us.ms14
+  size after  = 182246
+app LastErrorMessage=''
+finalize done

@@ -1,0 +1,48 @@
+{
+  "source": "decoded_GEAR500_UIC_20us.xml (TSTEP=TMAX=2ns, TSTOP=20us, IC=uic)",
+  "changed": "only the TSTEP/TSTOP/TMAX quadruple",
+  "variants": {
+    "V_tstep2n_tmax2n": {
+      "tstep": "2e-09",
+      "tstop": "2e-05",
+      "tmax": "2e-09",
+      "xml_sha256": "e71da5b7d5776246",
+      "bytes": 2720151
+    },
+    "V_tstep1n_tmax1n": {
+      "tstep": "1e-09",
+      "tstop": "2e-05",
+      "tmax": "1e-09",
+      "xml_sha256": "795343ef74ba68ac",
+      "bytes": 2720151
+    },
+    "V_tstep2n_tmax1n": {
+      "tstep": "2e-09",
+      "tstop": "2e-05",
+      "tmax": "1e-09",
+      "xml_sha256": "582653e9fe0b2706",
+      "bytes": 2720151
+    },
+    "V_tstep1n_tmax2n": {
+      "tstep": "1e-09",
+      "tstop": "2e-05",
+      "tmax": "2e-09",
+      "xml_sha256": "23e2658bbd79ed8b",
+      "bytes": 2720151
+    },
+    "V_tstep2n_tmax1_5n": {
+      "tstep": "2e-09",
+      "tstop": "2e-05",
+      "tmax": "1.5e-09",
+      "xml_sha256": "ad8418271130a211",
+      "bytes": 2720153
+    },
+    "V_tstep2n_tmax1_05n": {
+      "tstep": "2e-09",
+      "tstop": "2e-05",
+      "tmax": "1.05e-09",
+      "xml_sha256": "de3e90a8cce3276d",
+      "bytes": 2720154
+    }
+  }
+}

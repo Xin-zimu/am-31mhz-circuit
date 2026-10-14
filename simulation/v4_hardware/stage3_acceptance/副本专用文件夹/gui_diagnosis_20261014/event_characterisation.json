@@ -1,0 +1,9 @@
+{
+  "event_s": 2.2580645161290325e-07,
+  "period_s": 3.2258064516129035e-08,
+  "ceiling_s": 1.0080645161290323e-09,
+  "gui_median_step_s": 3.0703663340017005e-10,
+  "engine_median_step_s": 1.0080645161290166e-09,
+  "gui_deepest_step_s": 4.000000000000387e-15,
+  "engine_deepest_step_s": 8.000000000000127e-14
+}

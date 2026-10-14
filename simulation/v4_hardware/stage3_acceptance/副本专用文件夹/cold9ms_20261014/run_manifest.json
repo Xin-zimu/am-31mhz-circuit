@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-14",
+  "tag": "COLD_9ms_tail",
+  "purpose": "cold-start settling beyond the 7 ms window; report only 8.5-9.0 ms",
+  "tran": "tran 1n 9m 8.5m 1n uic",
+  "tstart_s": 0.0085,
+  "tstop_s": 0.009,
+  "tstep_s": 1e-09,
+  "tmax_s": 1e-09,
+  "tstart_validated_by": "engine_acceptance_20261014/compare_tstart.py (bit-identical overlap vs full-window run)",
+  "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\L_7ms_1ns.cir",
+  "source_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+  "command_sha256": "bc5cc514706c7d6fea59193e0e6b2ed84bd58821ce501adaeaf6bbf7b2839fdd",
+  "entry": "COM DoCommandLine; source + tran command engine. No native GUI pass claimed.",
+  "runtime_dir": "D:\\ms_xsp\\stage3_acceptance\\s0304_cold9ms_20261014",
+  "risk": "9 ms unverified: 7 ms succeeded, 10 ms previously reported \"Internal simulation error\". If 9 ms fails, fall back to the longest verified window (7 ms) and record the drift rather than changing criteria."
+}

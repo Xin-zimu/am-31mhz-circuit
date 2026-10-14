@@ -1,0 +1,11 @@
+const fs=require('fs');
+const MDBReader=require('../../debug/ewb-decoder/node_modules/mdb-reader').default;
+const db=new MDBReader(fs.readFileSync('C:/ProgramData/National Instruments/Circuit Design Suite/14.3/database/MSCOMP_S.PRD'));
+const comps=db.getTable('SYS_COMPONENT').getData().filter(c=>/9013|BAT85|L7805|OPA197|OPA134|TL071/.test(c.Component_Name));
+const ids=new Set(comps.map(c=>c.Component_ID));
+const maps=db.getTable('SYS_MAPPING_COMP_MODEL').getData().filter(c=>ids.has(c.Component_ID));
+const mids=new Set(maps.map(c=>c.Model_ID));
+const models=db.getTable('SYS_MODEL').getData().filter(c=>mids.has(c.MODEL_ID));
+fs.writeFileSync(__dirname+'/models/next_models.json',JSON.stringify({comps,maps,models},null,2));
+console.log(comps.map(c=>[c.Component_Name,c.Manufacturer]));
+console.log(models.map(c=>({id:c.MODEL_ID,comments:c.COMMENTS,head:c.DATA?.slice(0,220)})));

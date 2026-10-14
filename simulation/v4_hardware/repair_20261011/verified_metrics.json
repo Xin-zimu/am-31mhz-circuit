@@ -1,0 +1,45 @@
+{
+  "source": "Multisim 14.3 GUI .gra; little-endian IEEE-754 doubles",
+  "measurement_window_s": [
+    0.0001,
+    0.0002
+  ],
+  "traces": {
+    "V(bb_fb)": {
+      "points": 306409,
+      "t_end_s": 0.0002,
+      "min_V": 4.3468142753252295,
+      "max_V": 4.6641914665268605,
+      "time_weighted_mean_V": 4.503276338851929
+    },
+    "V(bb_in)": {
+      "points": 306409,
+      "t_end_s": 0.0002,
+      "min_V": 4.338630605958179,
+      "max_V": 4.690259510826367,
+      "time_weighted_mean_V": 4.503256582065992
+    },
+    "V(bbo)": {
+      "points": 306409,
+      "t_end_s": 0.0002,
+      "min_V": 2.037712111638285,
+      "max_V": 7.074571537668313,
+      "time_weighted_mean_V": 4.553563872971888
+    },
+    "V(v2)": {
+      "points": 306409,
+      "t_end_s": 0.0002,
+      "min_V": 2.0668589288003036,
+      "max_V": 7.0278839398780155,
+      "time_weighted_mean_V": 4.548567334750534
+    }
+  },
+  "open_control_BBO_V": [
+    3.868112881329732,
+    3.871331834242758
+  ],
+  "connected_control_BBO_V": [
+    2.040922477792838,
+    7.082440926556149
+  ]
+}

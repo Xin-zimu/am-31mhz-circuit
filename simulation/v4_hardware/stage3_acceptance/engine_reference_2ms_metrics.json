@@ -1,0 +1,238 @@
+{
+  "run": "engine_reference_2ms",
+  "solver": "Multisim XSPICE command interface; full exported circuit",
+  "points": 2018492,
+  "t_end_s": 0.002,
+  "recorded_nodes": [
+    "time",
+    "V(bb_in)",
+    "V(bbo)",
+    "V(v1)",
+    "V(v2)"
+  ],
+  "initial_condition": "UIC with three precharged capacitors; not cold startup",
+  "cycles_measured": 39,
+  "last_five_cycles": [
+    {
+      "start_s": 0.0017405435886231407,
+      "end_s": 0.0017905506235910704,
+      "period_s": 5.0007034967929727e-05,
+      "frequency_hz": 19997.186408698602,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 49.99931597849044,
+      "V(v1)": {
+        "mean_v": 2.075415162853209,
+        "raw_min_v": 0.07481539287916993,
+        "raw_max_v": 4.074820743179506,
+        "raw_vpp": 4.000005350300336,
+        "robust_vpp": 4.000002886835224
+      },
+      "V(bb_in)": {
+        "mean_v": 4.500721240100758,
+        "raw_min_v": 4.336109101658735,
+        "raw_max_v": 4.687708190349779,
+        "raw_vpp": 0.35159908869104406,
+        "robust_vpp": 0.3466814357975716
+      },
+      "V(bbo)": {
+        "mean_v": 4.512177579461364,
+        "raw_min_v": 1.996033471181876,
+        "raw_max_v": 7.036114884386954,
+        "raw_vpp": 5.040081413205078,
+        "robust_vpp": 4.826001248379886
+      },
+      "V(v2)": {
+        "mean_v": 4.507221953071589,
+        "raw_min_v": 2.025218428344731,
+        "raw_max_v": 6.989871633820131,
+        "raw_vpp": 4.9646532054754005,
+        "robust_vpp": 4.816711622444515
+      },
+      "robust_gain": 1.2041770365459574
+    },
+    {
+      "start_s": 0.0017905506235910704,
+      "end_s": 0.001840557212200891,
+      "period_s": 5.0006588609820615e-05,
+      "frequency_hz": 19997.364903304235,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 49.999752371375784,
+      "V(v1)": {
+        "mean_v": 2.0754321242068947,
+        "raw_min_v": 0.07481539287920506,
+        "raw_max_v": 4.074824148636326,
+        "raw_vpp": 4.000008755757121,
+        "robust_vpp": 4.000002886558998
+      },
+      "V(bb_in)": {
+        "mean_v": 4.500698191833195,
+        "raw_min_v": 4.336068486966902,
+        "raw_max_v": 4.687655951265732,
+        "raw_vpp": 0.3515874642988299,
+        "robust_vpp": 0.34666586955941625
+      },
+      "V(bbo)": {
+        "mean_v": 4.511722695234023,
+        "raw_min_v": 1.995126225939465,
+        "raw_max_v": 7.035262846917938,
+        "raw_vpp": 5.040136620978473,
+        "robust_vpp": 4.826176242788394
+      },
+      "V(v2)": {
+        "mean_v": 4.50676719366135,
+        "raw_min_v": 2.024559175811194,
+        "raw_max_v": 6.989319435478621,
+        "raw_vpp": 4.964760259667427,
+        "robust_vpp": 4.816364155592866
+      },
+      "robust_gain": 1.2040901699788877
+    },
+    {
+      "start_s": 0.001840557212200891,
+      "end_s": 0.0018905632216339862,
+      "period_s": 5.0006009433095156e-05,
+      "frequency_hz": 19997.596515633508,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 50.00035390456136,
+      "V(v1)": {
+        "mean_v": 2.075455965913065,
+        "raw_min_v": 0.07481539287925838,
+        "raw_max_v": 4.074821078880014,
+        "raw_vpp": 4.000005686000756,
+        "robust_vpp": 4.000002887099543
+      },
+      "V(bb_in)": {
+        "mean_v": 4.500675034401654,
+        "raw_min_v": 4.336029872955641,
+        "raw_max_v": 4.687611677542677,
+        "raw_vpp": 0.3515818045870356,
+        "robust_vpp": 0.34666977537957866
+      },
+      "V(bbo)": {
+        "mean_v": 4.511247182365451,
+        "raw_min_v": 1.994316991048663,
+        "raw_max_v": 7.034348030023673,
+        "raw_vpp": 5.04003103897501,
+        "robust_vpp": 4.826061962248796
+      },
+      "V(v2)": {
+        "mean_v": 4.506292893863544,
+        "raw_min_v": 2.023888768141821,
+        "raw_max_v": 6.988547821108368,
+        "raw_vpp": 4.964659052966546,
+        "robust_vpp": 4.816173591332562
+      },
+      "robust_gain": 1.2040425287854817
+    },
+    {
+      "start_s": 0.0018905632216339862,
+      "end_s": 0.0019405681311728423,
+      "period_s": 5.00049095388561e-05,
+      "frequency_hz": 19998.036377267203,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 50.00145521565781,
+      "V(v1)": {
+        "mean_v": 2.075500481835927,
+        "raw_min_v": 0.0748153928793497,
+        "raw_max_v": 4.074821235542254,
+        "raw_vpp": 4.000005842662905,
+        "robust_vpp": 4.000002887044083
+      },
+      "V(bb_in)": {
+        "mean_v": 4.500640827618736,
+        "raw_min_v": 4.336009367438789,
+        "raw_max_v": 4.68758698618245,
+        "raw_vpp": 0.35157761874366056,
+        "robust_vpp": 0.3466687238482633
+      },
+      "V(bbo)": {
+        "mean_v": 4.510788303031053,
+        "raw_min_v": 1.993815283179842,
+        "raw_max_v": 7.033857019478888,
+        "raw_vpp": 5.040041736299046,
+        "robust_vpp": 4.825819421738322
+      },
+      "V(v2)": {
+        "mean_v": 4.505833551265251,
+        "raw_min_v": 2.023282517981718,
+        "raw_max_v": 6.987919999514275,
+        "raw_vpp": 4.964637481532557,
+        "robust_vpp": 4.816339583655777
+      },
+      "robust_gain": 1.204084026853028
+    },
+    {
+      "start_s": 0.0019405681311728423,
+      "end_s": 0.001990574960821088,
+      "period_s": 5.000682964824551e-05,
+      "frequency_hz": 19997.268513803592,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 49.99954042836256,
+      "V(v1)": {
+        "mean_v": 2.075423670695774,
+        "raw_min_v": 0.07481539287918251,
+        "raw_max_v": 4.074821008906458,
+        "raw_vpp": 4.000005616027275,
+        "robust_vpp": 4.000002886852332
+      },
+      "V(bb_in)": {
+        "mean_v": 4.5005908336791665,
+        "raw_min_v": 4.335973433767579,
+        "raw_max_v": 4.687553230010293,
+        "raw_vpp": 0.3515797962427136,
+        "robust_vpp": 0.3466634390293688
+      },
+      "V(bbo)": {
+        "mean_v": 4.510033303611013,
+        "raw_min_v": 1.993513587265631,
+        "raw_max_v": 7.033785479097776,
+        "raw_vpp": 5.040271891832145,
+        "robust_vpp": 4.826017794943052
+      },
+      "V(v2)": {
+        "mean_v": 4.505079433932374,
+        "raw_min_v": 2.022831207987146,
+        "raw_max_v": 6.987623772116932,
+        "raw_vpp": 4.964792564129786,
+        "robust_vpp": 4.816746606751707
+      },
+      "robust_gain": 1.204185782611293
+    }
+  ],
+  "output_cycles_in_last_300us": [
+    {
+      "frequency_hz": 19997.180521322927,
+      "falling_crossings": 1,
+      "duty_percent": 50.222319056524405
+    },
+    {
+      "frequency_hz": 19997.35550205728,
+      "falling_crossings": 1,
+      "duty_percent": 50.225254210801374
+    },
+    {
+      "frequency_hz": 19997.58071061173,
+      "falling_crossings": 1,
+      "duty_percent": 50.226875693192
+    },
+    {
+      "frequency_hz": 19997.96310657837,
+      "falling_crossings": 1,
+      "duty_percent": 50.22621690372071
+    },
+    {
+      "frequency_hz": 19997.235836632943,
+      "falling_crossings": 1,
+      "duty_percent": 50.22156360917787
+    }
+  ],
+  "repeatability_screen": {
+    "official_acceptance": false,
+    "threshold_fraction": 0.001,
+    "V2_mean_span_V": 0.00214251913921526,
+    "V2_robust_vpp_span_V": 0.0005730154191452286,
+    "period_relative_span": 4.250324779130715e-05,
+    "passes": true
+  },
+  "provenance": "First 2 ms extracted from existing nominal_5ms.npz; interpolated endpoint; not a new simulation"
+}

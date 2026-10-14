@@ -1,0 +1,20 @@
+{
+  "tran": "tran 2n 2u 0 2n uic",
+  "cases": {
+    "Y0_plain": {
+      "has_options": false
+    },
+    "Y1_opt_top": {
+      "has_options": true
+    },
+    "Y2_opt_bottom": {
+      "has_options": true
+    },
+    "Y3_opt_before_end": {
+      "has_options": true
+    },
+    "Y4_opt_two": {
+      "has_options": true
+    }
+  }
+}

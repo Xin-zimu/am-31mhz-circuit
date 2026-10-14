@@ -1,0 +1,42 @@
+[
+  {
+    "run": "GUI 2 ms PRECHARGED  (S03_GUI_2ms_V4_3)",
+    "ic": "precharged",
+    "points": 3063221,
+    "stop_s": 0.002,
+    "stop_over_period": 61999.99999999999,
+    "verdict": "PASSED"
+  },
+  {
+    "run": "GUI 2 ms PRECHARGED  (S03_COLD_2ms_V4_3)",
+    "ic": "precharged",
+    "points": 3063221,
+    "stop_s": 0.002,
+    "stop_over_period": 61999.99999999999,
+    "verdict": "PASSED"
+  },
+  {
+    "run": "GUI 20 us COLD START (TRAP500 zero_ic)",
+    "ic": "cold",
+    "points": 439,
+    "stop_s": 2.2579554774369283e-07,
+    "stop_over_period": 6.999661980054477,
+    "verdict": "DIED"
+  },
+  {
+    "run": "GUI 20 us COLD START (GEAR500 zero_ic)",
+    "ic": "cold",
+    "points": 557,
+    "stop_s": 2.2579842868014298e-07,
+    "stop_over_period": 6.999751289084432,
+    "verdict": "DIED"
+  },
+  {
+    "run": "GUI 20 us COLD START (GEAR500+UIC 1 ns)",
+    "ic": "cold",
+    "points": 563,
+    "stop_s": 2.257976350349652e-07,
+    "stop_over_period": 6.99972668608392,
+    "verdict": "DIED"
+  }
+]

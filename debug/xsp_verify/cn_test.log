@@ -1,0 +1,50 @@
+_uc775286237547d4ee45df26267884c   (2026_uc15e749_uc1670818_uc165e5, 0:45:50)
+_uc3547d4ee4ff1a>source D:\???????\??2\debug\xsp_verify\net_am.cir
+_uc7676581ea547d4ee476848f9351fa
+source D:\???????\??2\debug\xsp_verify\net_am.cir
+_uc775286237547d4ee45df26267884c   (2026_uc15e749_uc1670818_uc165e5, 0:45:50)
+_uc3547d4ee4ff1a>tran 2n 5u 0 2n
+_uc7676581ea547d4ee476848f9351fa
+tran 2n 5u 0 2n
+Error: there aren't any circuits loaded.
+Error: there aren't any circuits loaded.
+_uc775286237547d4ee45df26267884c   (2026_uc15e749_uc1670818_uc165e5, 0:45:50)
+_uc3547d4ee4ff1a>display
+_uc7676581ea547d4ee476848f9351fa
+display
+These vectors are currently active:
+These vectors are currently active:
+
+
+Title: Constant values
+Title: Constant values
+Name: const (constants)
+Name: const (constants)
+Date: Sat Aug 16 10:55:15 PDT 1986
+Date: Sat Aug 16 10:55:15 PDT 1986
+
+
+    boltz               : notype, real, 1 long
+    boltz               : notype, real, 1 long
+    c                   : notype, real, 1 long
+    c                   : notype, real, 1 long
+    e                   : notype, real, 1 long
+    e                   : notype, real, 1 long
+    echarge             : notype, real, 1 long
+    echarge             : notype, real, 1 long
+    false               : notype, real, 1 long
+    false               : notype, real, 1 long
+    i                   : notype, complex, 1 long
+    i                   : notype, complex, 1 long
+    kelvin              : notype, real, 1 long
+    kelvin              : notype, real, 1 long
+    no                  : notype, real, 1 long
+    no                  : notype, real, 1 long
+    pi                  : notype, real, 1 long
+    pi                  : notype, real, 1 long
+    planck              : notype, real, 1 long
+    planck              : notype, real, 1 long
+    true                : notype, real, 1 long
+    true                : notype, real, 1 long
+    yes                 : notype, real, 1 long [default scale]
+    yes                 : notype, real, 1 long [default scale]

@@ -1,0 +1,16 @@
+﻿poll 09/18/2026 01:00:22
+01:00:28.340 | opened 'AM_22k_D50_A4V_debug' state=0
+01:00:28.654 | RunSimulation(0.005, pause) accepted
+01:00:29.674 | t+1.3s state=1 ws=143.4MB err=''
+01:00:29.679 |    NICDS CIR21F6.tmp: -1 -> 4356
+01:00:29.685 |    NICDS Inst_multisim~13DC.tmp: -1 -> 0
+01:00:29.691 |    NICDS JET1EA8.tmp: -1 -> 0
+01:00:29.698 |    NICDS JET1EA9.tmp: -1 -> 0
+01:00:29.706 |    NICDS lvtl1395795836.rsc: -1 -> 32
+01:00:29.714 |    NICDS multisim_32_19.0.1f4_xin_cur.txt: 3805 -> 0
+01:00:29.719 |    NICDS {E024BAD0-4563-4EEC-B5BF-916DEE3080D3}: -1 -> 16384
+01:04:44.261 | t+255.9s state=0 ws=143.4MB err=''
+01:08:38.689 | *** multisim process GONE (crash)
+01:08:38.704 | StopSimulation ERR Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED))
+01:08:38.716 | final state= err='No connection.'
+01:08:38.737 | poll done

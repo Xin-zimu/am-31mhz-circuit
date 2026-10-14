@@ -1,0 +1,102 @@
+[
+  {
+    "file": "01_20us_parameters.png",
+    "bytes": 86814,
+    "sha256": "358b0617abd85ee1cf690f544240a40683366e7a9f156aefa31fe8983a273622"
+  },
+  {
+    "file": "01_20us_parameters.txt",
+    "bytes": 11164,
+    "sha256": "6d9c77e6a7b84b1e41aa39835b56deb7ce6aea05d75af4acab27b803b79c9909"
+  },
+  {
+    "file": "02_20us_outputs.png",
+    "bytes": 104953,
+    "sha256": "338287f401b6373fcf089c93906fb11262ea8f80417632bbc58f4bce6c048f53"
+  },
+  {
+    "file": "03_20us_options.png",
+    "bytes": 84286,
+    "sha256": "7a667a0ee9343d802bd7ff115d38395bfafce38e08008eb05bcbc6c736ea7dab"
+  },
+  {
+    "file": "04_20us_gui_failure.png",
+    "bytes": 126699,
+    "sha256": "512a8e43d24425f1fb9c22ae32a5a20b6ef6fccc317340863d607866a901932d"
+  },
+  {
+    "file": "audit_evidence.py",
+    "bytes": 9365,
+    "sha256": "89df11171ea6365a9ca97af182d3bad9cec7663d5a4b30be3d4932772b10f24e"
+  },
+  {
+    "file": "gui_20us_audit.json",
+    "bytes": 5423,
+    "sha256": "a2ee3eba767551253cc46acaee33d718137127993e3fca32c924e3dceff969b4"
+  },
+  {
+    "file": "S03_04_GUI与加权复核报告.md",
+    "bytes": 6711,
+    "sha256": "22aaf6263269c81b9dbb89d5b550caf5b706356570d3862131e84f285c3c611c"
+  },
+  {
+    "file": "S03_GUI_COLD_20us.gra",
+    "bytes": 46889,
+    "sha256": "166aa4bc05a92fedc526683bd062e4f3f88b3e56111e54c104e834dfa77f3f04"
+  },
+  {
+    "file": "S03_GUI_COLD_20us.ms14",
+    "bytes": 370334,
+    "sha256": "203901d780f158f3812687f63c9e5d02dab0df3e516657e7e9d126cf13ab7d7b"
+  },
+  {
+    "file": "S03_GUI_COLD_20us.ms14 (Security copy)",
+    "bytes": 772402,
+    "sha256": "10b971880847cbfb2c9d0b3e5c780c7856ba200998aa53d8e4ca8d4e69a5ac73"
+  },
+  {
+    "file": "S03_GUI_COLD_20us_actual.cir",
+    "bytes": 24357,
+    "sha256": "58c220168413955f64846bf66147eaa9a84a59384facb0bf1c1a2cc596fcaa98"
+  },
+  {
+    "file": "S03_GUI_COLD_20us_gra.xml",
+    "bytes": 87116,
+    "sha256": "1c7ab4e3e3c64061643e1c1e50c800dc1fe539e96b31f9817d484b4d9c48c7cf"
+  },
+  {
+    "file": "S03_GUI_COLD_20us_input.ms14",
+    "bytes": 772402,
+    "sha256": "10b971880847cbfb2c9d0b3e5c780c7856ba200998aa53d8e4ca8d4e69a5ac73"
+  },
+  {
+    "file": "S03_GUI_COLD_20us_saved.xml",
+    "bytes": 2727365,
+    "sha256": "5ca54d9143b87ea40a00ce697f8a056eaaeb10216a1664e2c9a27e51c82ef7db"
+  },
+  {
+    "file": "saved_project_netlist.txt",
+    "bytes": 13628,
+    "sha256": "b80d0f8640e1b4d4055a085488952301a2c76bb5c1f49868e1af21b019062788"
+  },
+  {
+    "file": "source_hash_verification.json",
+    "bytes": 6541,
+    "sha256": "193ac9e040837eecdd9eeee3bbe693afed5c2792ab4c06961c7e01065af41b2d"
+  },
+  {
+    "file": "updated_records_manifest.json",
+    "bytes": 1518,
+    "sha256": "5724e266b47d2daeb44e93f4c5eab92d7b281229ff2de55f6835e974ef7b0c4e"
+  },
+  {
+    "file": "update_records.py",
+    "bytes": 16177,
+    "sha256": "c1db29af8e01e36c4a2637cd8f5a383dab00e4b5cd3f8b1ce28a8cfdf0ccf882"
+  },
+  {
+    "file": "weighted_7ms_review.json",
+    "bytes": 13609,
+    "sha256": "4007766e9e4286047d71d4c3a5909145f3e8ffc8f8c7184c237350465be726ba"
+  }
+]

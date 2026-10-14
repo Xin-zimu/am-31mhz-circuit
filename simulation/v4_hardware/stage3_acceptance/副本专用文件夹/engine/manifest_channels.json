@@ -1,0 +1,46 @@
+{
+  "staging": "D:\\ms_xsp\\stage3_acceptance\\s0304",
+  "tran": "2n 500n 0 100n uic",
+  "cases": {
+    "T1_base": {
+      "options": null,
+      "set": [],
+      "note": "no control card at all",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb"
+    },
+    "T2_opt_loose": {
+      "options": ".options reltol=0.1 trtol=7",
+      "set": [],
+      "note": "very loose LTE via .options",
+      "netlist_sha256": "4e803efcc52f834da778fd4466ae536af70ce7db8ac6251f68d72e22f58120f9"
+    },
+    "T3_opt_tight": {
+      "options": ".options reltol=1e-9 trtol=1",
+      "set": [],
+      "note": "very tight LTE via .options",
+      "netlist_sha256": "3e1cb168220c93e897f3c0324d7df3affb3f9897c0531183a75298463bda105c"
+    },
+    "T4_set_loose": {
+      "options": null,
+      "set": [
+        "set reltol = 0.1"
+      ],
+      "note": "very loose LTE via set",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb"
+    },
+    "T5_set_rshunt1": {
+      "options": null,
+      "set": [
+        "set rshunt = 1"
+      ],
+      "note": "rshunt=1 ohm: must change values if set works",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb"
+    },
+    "T6_opt_rshunt1": {
+      "options": ".options rshunt=1",
+      "set": [],
+      "note": "rshunt=1 ohm via .options",
+      "netlist_sha256": "df1846c599fad5752d133612ba1642c5ce250807d568b171393de94aa297010a"
+    }
+  }
+}

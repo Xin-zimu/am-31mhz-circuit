@@ -1,0 +1,6 @@
+* LTE control probe
+V1 in 0 SIN(0 1 1k)
+R1 in out 1k
+C1 out 0 100n
+.options reltol=1e-3 trtol=0.01
+.end

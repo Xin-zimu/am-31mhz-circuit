@@ -1,0 +1,41 @@
+{
+  "LM393_20k_Stage1": {
+    "initial_condition": "zero_ic",
+    "tstop_s": 0.0015,
+    "sha256": "6f440a5c00097bde2849b5a28240fce5bf20f4ef798fc52decd71923ab633dc1"
+  },
+  "AM_20k_31MHz_V4_Hardware": {
+    "initial_condition": "zero_ic",
+    "tstop_s": 0.0002,
+    "sha256": "0f5d9491a084df0a23735f6052ab0c45282261f6f6f3f74cc194e2d3c2270581"
+  },
+  "integrated_v1": {
+    "frequency_hz": 19998.068184298827,
+    "duty_pct": 50.001554366123266,
+    "vpp": 4.0000028868435145,
+    "low_v": 0.07481539290322164,
+    "high_v": 4.0748182797467365,
+    "points": 305728,
+    "end_s": 0.0002
+  },
+  "am_modulation": {
+    "carrier_hz": 31000000.0,
+    "carrier_fit_amplitude": 0.9999999972608281,
+    "normalized_rms_error": 1.7623494038868165e-07,
+    "expected_low_envelope_peak_v": 0.6074815392903221,
+    "expected_high_envelope_peak_v": 1.0074818279746736,
+    "formula": "TP3=(0.6+0.1*V1)*sin(2*pi*31MHz*t)"
+  },
+  "v(tp6)": {
+    "min_v": 0.0,
+    "max_v": 0.6569558319859,
+    "end_s": 0.0002,
+    "inside_0_to_9v": true
+  },
+  "v(v2)": {
+    "min_v": -61.25647016211,
+    "max_v": 0.0,
+    "end_s": 0.0002,
+    "inside_0_to_9v": false
+  }
+}

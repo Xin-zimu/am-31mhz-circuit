@@ -1,0 +1,7 @@
+{
+  "cases": {
+    "L_5ms_1ns": {
+      "tran": "tran 1n 5m 0 1n uic"
+    }
+  }
+}

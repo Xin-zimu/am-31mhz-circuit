@@ -1,0 +1,26 @@
+[
+  {
+    "amplitude": 4,
+    "duty": 50,
+    "gain": 15,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_A4_D50_G15.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 4.0,
+        "vpp_max_min": 4.0,
+        "low": 0.0,
+        "high": 4.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 3.8188831898568503,
+        "vpp_max_min": 3.825434276672555,
+        "low": 2.58159895907863,
+        "high": 6.40048214893548,
+        "frequency_hz": 19999.969792522803,
+        "duty_pct": 50.58950490378378
+      }
+    }
+  }
+]

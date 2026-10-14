@@ -1,0 +1,98 @@
+from pathlib import Path
+import subprocess,sys
+from build_rf import OSC,MODEL,ROOT
+TX='''* Ideal PWM stimulus substitutes TP1 only; this is not a PWM-generator test.
+VIN V1 0 PULSE(0 {AMP} 20u 50n 50n {DUTY/FM-50n} {1/FM})
+R25 VCC_TX VCC_RF 22
+C21 VCC_RF 0 100n
+C22 VCC_RF 0 1n
+Q3 AM_RF MOD_B MOD_E Q3904
+R21 VCC_RF MOD_B 56k
+R22 MOD_B 0 15k
+C18 CARRIER_BUF MOD_B 4.7p
+C19 V1 MOD_AC 100n
+R23 MOD_AC VR4_IN 33k
+RVR4 VR4_IN MOD_B 25k
+R24 MOD_E 0 470
+C20 MOD_E 0 1n
+L2 VCC_RF MOD_L 1u
+RL2 MOD_L AM_RF 2
+C23 AM_RF TP3 2.2p
+R26 TP3 0 100k
+R30 VCC_TX VCC_PA 10
+C27 VCC_PA 0 100n
+C28 VCC_PA 0 1n
+C24 AM_RF PA_B 10p
+R27 VCC_PA PA_B 39k
+R28 PA_B 0 12k
+Q4 PA_C PA_B PA_E Q3904
+R29 PA_E 0 220
+C25 PA_E 0 1n
+L3 VCC_PA PA_L 470n
+RL3 PA_L PA_C 1
+C26 PA_C 0 39p
+CT2 PA_C 0 {CPA}
+C29 PA_C ANT_TX 10p
+R31 ANT_TX 0 1Meg
+* Resistive antenna termination is a chosen simulation fixture, not an antenna EM model.
+RANTTX ANT_TX 0 50
+* Fixed voltage loss: 0.02 = -33.98 dB voltage gain, no distance interpretation.
+ECHANNEL ANT_RX 0 ANT_TX 0 {CHANNEL}
+'''
+RX='''VRX VCC_RX 0 PWL(0 0 1u 9)
+R101 VCC_RX VCC_RX_RF 22
+C103 VCC_RX_RF 0 100n
+C104 VCC_RX_RF 0 1n
+R102 ANT_RX 0 1Meg
+C105 ANT_RX RX_B 10p
+R103 VCC_RX_RF RX_B 47k
+R104 RX_B 0 15k
+Q101 RX_RF RX_B RX_E Q3904
+R105 RX_E 0 330
+C106 RX_E 0 1n
+L101 VCC_RX_RF RX_L 470n
+RL101 RX_L RX_RF 1
+C107 RX_RF 0 39p
+CT101 RX_RF 0 {CRX}
+C108 RX_RF TP5 2.2p
+R106 TP5 0 100k
+C109 RX_RF RXBUF_B 4.7p
+R107 VCC_RX_RF RXBUF_B 39k
+R108 RXBUF_B 0 15k
+Q102 VCC_RX_RF RXBUF_B RXBUF_E Q3904
+R109 RXBUF_E 0 470
+* Corrected from original 22p to 220p, add DC return R117.
+C110 RXBUF_E DET_RF 220p
+R117 DET_RF 0 1k
+D101 DET_RF DET_ENV DI_BAS70
+R110 DET_ENV 0 10k
+C111 DET_ENV 0 47p
+'''
+DMODEL='''.model DI_BAS70 D(IS=99.5p RS=0.600 BV=70.0 IBV=10.0u
++ CJO=2.00p M=0.333 N=1.70 TT=7.20n)
+'''
+def build_run(name='rf_chain',cfix=33,ct=17.5,cpa=10,crx=10,amp=4,duty=.5,channel=.02,tstop='250u',origin_detector=False):
+ osc=OSC.replace('VTX VCC_TX 0 9','VTX VCC_TX 0 PWL(0 0 1u 9)').replace('RLOAD CARRIER_BUF 0 100k\n','').replace('* 1mV initial perturbation starts oscillation; no carrier source\n.ic V(OSC_C)=8.901\n','')
+ rx=RX
+ if origin_detector:rx=rx.replace('C110 RXBUF_E DET_RF 220p','C110 RXBUF_E DET_RF 22p').replace('R117 DET_RF 0 1k\n','')
+ s='''RF transistor chain - 2N3904 and Diodes Inc BAS70 surrogate device models
+* This file does not validate exact Nexperia MMBT3904/BAS70 parts or wireless distance.
+* 2N3904: local LTspice 26.0 standard.bjt electrical parameters.
+* BAS70: https://www.diodes.com/spice/download/484/BAS70.spice.txt
+'''+f'.param CFIX={cfix}p CTRIM={ct}p CPA={cpa}p CRX={crx}p AMP={amp} DUTY={duty} FM=22k CHANNEL={channel}\n'+osc+TX+rx+MODEL+DMODEL+'''.options plotwinsize=0 reltol=0.0003
+.tran 0 '''+tstop+''' 0 0.3n
+.meas TRAN OSC_PP PP V(OSC_C) FROM=150u TO=200u
+.meas TRAN AM_PP PP V(AM_RF) FROM=150u TO=200u
+.meas TRAN ANT_PP PP V(ANT_TX) FROM=150u TO=200u
+.meas TRAN RX_PP PP V(RX_RF) FROM=150u TO=200u
+.meas TRAN DET_PP PP V(DET_ENV) FROM=150u TO=200u
+.meas TRAN TX_CURRENT AVG -I(VTX) FROM=150u TO=200u
+.meas TRAN TX_RF_POWER PARAM 9*TX_CURRENT
+.meas TRAN PERIOD TRIG V(OSC_C) VAL=8 RISE=1 TD=150u TARG V(OSC_C) VAL=8 RISE=101 TD=150u
+.meas TRAN FREQ PARAM 100/PERIOD
+.save V(V1) V(OSC_C) V(AM_RF) V(ANT_TX) V(RX_RF) V(DET_ENV) V(DET_RF) I(VTX)
+.end
+'''
+ p=ROOT/(name+'.cir');p.write_text(s,encoding='ascii');subprocess.run(['D:/tlspice/LTspice.exe','-b',str(p)],timeout=180,capture_output=True)
+ print(p.with_suffix('.log').read_text(errors='replace')[-2000:])
+if __name__=='__main__':build_run()

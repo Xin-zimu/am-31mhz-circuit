@@ -1,0 +1,52 @@
+{
+  "gui": {
+    "V1_frequency_hz": 19998.068824342587,
+    "V1_duty_percent": 50.00155241560863,
+    "V2_frequency_hz": 19998.043312552258,
+    "V2_duty_percent": 50.22634880137146,
+    "V1_robust_vpp": 4.000002886883418,
+    "V2_robust_vpp": 4.813212967081347,
+    "V2_raw_vpp": 4.959650873802654,
+    "V2_mean_V": 4.505372864459424,
+    "gain_robust": 1.2033023733219195
+  },
+  "engine_same_time_window": {
+    "V1_frequency_hz": 19997.490543741427,
+    "V1_duty_percent": 50.000083579689594,
+    "V2_frequency_hz": 19997.463135440652,
+    "V2_duty_percent": 50.22444589468328,
+    "V1_robust_vpp": 4.000002886878036,
+    "V2_robust_vpp": 4.816467111955485,
+    "V2_raw_vpp": 4.9647005127543435,
+    "V2_mean_V": 4.506239005158822,
+    "gain_robust": 1.2041159089549296
+  },
+  "absolute_differences": {
+    "V1_frequency_hz": 0.5782806011593493,
+    "V1_duty_percent": 0.0014688359190344613,
+    "V2_frequency_hz": 0.5801771116057353,
+    "V2_duty_percent": 0.0019029066881799395,
+    "V1_robust_vpp": 5.381473044963059e-12,
+    "V2_robust_vpp": -0.0032541448741385537,
+    "V2_raw_vpp": -0.005049638951689417,
+    "V2_mean_V": -0.0008661406993972776,
+    "gain_robust": -0.0008135356330101207
+  },
+  "gui_repeatability_screen": {
+    "official_acceptance": false,
+    "threshold_fraction": 0.001,
+    "V2_mean_span_V": 0.0020567203074222107,
+    "V2_robust_vpp_span_V": 0.0005236694266077535,
+    "period_relative_span": 9.085799758751778e-08,
+    "passes": true
+  },
+  "scope": "2 ms native GUI reproduction, user authorized shorter window; 5 ms GUI attempt failed from memory shortage.",
+  "engineering_comparison_limits": {
+    "frequency_relative": 0.001,
+    "duty_percentage_points": 0.1,
+    "amplitude_relative": 0.001,
+    "bias_V": 0.01,
+    "official_acceptance": false
+  },
+  "comparison_passes": true
+}

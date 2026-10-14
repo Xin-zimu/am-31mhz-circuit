@@ -1,0 +1,14 @@
+﻿run start 09/18/2026 00:40:15 tag=netgen
+00:40:20.448 | connected=True ver=Multisim 14.3
+00:40:20.757 | opened 'AM_22k_D50_A4V_debug'
+00:40:20.761 | state=0
+00:40:21.272 | SetOutputRequest V(TP3) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:40:21.274 | SetOutputRequest V(TP2) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:40:21.283 | SetOutputRequest V(V1) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:40:21.291 | SetOutputRequest V(TP6) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:40:21.300 | SetOutputRequest V(V2) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:40:21.308 | SetOutputRequest V(TP5) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:40:21.435 | chunk 1 simt<=1us wall=0.11s state=1 err='è¾åºæªæ¾å°ã'
+00:40:21.440 | *** SIMULATOR MESSAGE: è¾åºæªæ¾å°ã
+00:40:21.444 | final state=1 err='è¾åºæªæ¾å°ã'
+00:40:21.777 | run done

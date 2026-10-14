@@ -1,0 +1,1 @@
+﻿TRAP500_2n       status=SOLVER-STOPPED   reached~1.000E+000s chunks=1 wall=1.1s msg=

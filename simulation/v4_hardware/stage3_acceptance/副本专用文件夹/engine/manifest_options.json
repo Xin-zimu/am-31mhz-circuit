@@ -1,0 +1,57 @@
+{
+  "source": {
+    "file": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\cold_gui_actual.cir",
+    "sha256": "a75c55258e9a9973f4b266574c814e2c4a388ef10db1ff5a03c85ec5f2e6f16d"
+  },
+  "mechanism": "netlist .options card appended, nothing else changed",
+  "cases": {
+    "O0_none": {
+      "options_card": "",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O0_none.cmd",
+      "raw_expected": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O0_none.raw"
+    },
+    "O1_gui_all": {
+      "options_card": ".options reltol=0.0001 trtol=1 itl4=500 method=gear",
+      "netlist_sha256": "b7dc99083f7b845fe5d35e9ba0165c1254d201c13a083202066dceade976c3da",
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O1_gui_all.cmd",
+      "raw_expected": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O1_gui_all.raw"
+    },
+    "O2_reltol": {
+      "options_card": ".options reltol=0.0001",
+      "netlist_sha256": "6f9e17b40312525bfec5752aefd84e4985aadbee5be8a38224e19b0ae05dd8a5",
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O2_reltol.cmd",
+      "raw_expected": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O2_reltol.raw"
+    },
+    "O3_trtol": {
+      "options_card": ".options trtol=1",
+      "netlist_sha256": "05ccd2cba90338a3c7415610edc94a0fe8837752c873136e5f3aec02fdf3dee6",
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O3_trtol.cmd",
+      "raw_expected": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O3_trtol.raw"
+    },
+    "O4_itl4": {
+      "options_card": ".options itl4=500",
+      "netlist_sha256": "58d370b53fdd4edb54fb14e7e770b82f6eac341de2917a572b24321e692bb40e",
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O4_itl4.cmd",
+      "raw_expected": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O4_itl4.raw"
+    },
+    "O5_gear": {
+      "options_card": ".options method=gear",
+      "netlist_sha256": "a0cbd5c44d89d859ee9653dd51c8eac82f4c7c55c224385d17f1b658f40d6b13",
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O5_gear.cmd",
+      "raw_expected": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O5_gear.raw"
+    },
+    "O6_xspice_def": {
+      "options_card": ".options reltol=0.001 trtol=7 itl4=100",
+      "netlist_sha256": "d9aa34887dc0cf1203a18b4279816e231c82e78c18db335204671ab096dc26d2",
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O6_xspice_def.cmd",
+      "raw_expected": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O6_xspice_def.raw"
+    },
+    "O7_convlimit": {
+      "options_card": ".options reltol=0.0001 trtol=1 itl4=500 method=gear convlimit",
+      "netlist_sha256": "ec7435e920a9e8bac03b28652ac7c2be785dfde3c9a30894e6c3499743e3021c",
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O7_convlimit.cmd",
+      "raw_expected": "D:\\ms_xsp\\stage3_acceptance\\s0304\\O7_convlimit.raw"
+    }
+  }
+}

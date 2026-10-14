@@ -1,0 +1,26 @@
+[
+  {
+    "amplitude": 4,
+    "duty": 50,
+    "gain": 15,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_schottky_A4_D50_G15.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 4.0,
+        "vpp_max_min": 4.0,
+        "low": 0.0,
+        "high": 4.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 4.403366608117569,
+        "vpp_max_min": 4.427737173288971,
+        "low": 2.331696384500914,
+        "high": 6.735062992618483,
+        "frequency_hz": 19999.949621626343,
+        "duty_pct": 50.31319213239735
+      }
+    }
+  }
+]

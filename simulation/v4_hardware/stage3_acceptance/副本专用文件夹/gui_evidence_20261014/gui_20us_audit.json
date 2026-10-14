@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-14",
+  "request_id": "ce2adca9-0487-493f-a701-528d635c486c",
+  "solver_entry": "Multisim 14.3 native GUI: Analyses and Simulation > Transient > Run",
+  "status": "FAIL_BEFORE_20US",
+  "passed": false,
+  "error": "Unable to converge during transient analysis. Consider increasing the ABSTOL, VNTOL, and RELTOL options. Simulation canceled.",
+  "settings_saved": {
+    "TSTEP": "1e-09",
+    "TSTOP": "2e-05",
+    "TSTART": "0",
+    "TMAX": "1e-09",
+    "IC": "uic"
+  },
+  "requested_gui_options": {
+    "itl4": {
+      "enabled": true,
+      "value": "500"
+    },
+    "method": {
+      "enabled": true,
+      "value": "gear"
+    },
+    "reltol": {
+      "enabled": true,
+      "value": "0.0001"
+    },
+    "trtol": {
+      "enabled": true,
+      "value": "1"
+    }
+  },
+  "effective_solver_options_proven_equal_to_engine": false,
+  "initial_conditions": "User-defined UIC with C111/C115/CBB explicitly zero; ideal supplies, no supply ramp",
+  "capacitor_netlist_lines": [
+    "cC111 TP6 0 4.7e-11 IC=0",
+    "cC115 TP6 BB_IN 1e-08 IC=-0",
+    "cCBB V2_OP 0 1.32629e-10 IC=0"
+  ],
+  "netlist_export_entry": "Native GUI SPICE netlist viewer Save after run. Separate COM ReportNetlist is only a connectivity report.",
+  "pages": [
+    {
+      "index_zero_based": 0,
+      "attributes": {
+        "Class": "CGraphPage",
+        "TabName": "&UNI_uc477ac600152066790",
+        "BackgroundColor": "16777215",
+        "Reversed": "1"
+      },
+      "project_labels": [
+        {
+          "Text": "&ASCS03_GUI_COLD_20us"
+        }
+      ],
+      "traces": {
+        "&ASCV(bb_in)": {
+          "points": 563,
+          "start_s": 0.0,
+          "end_s": 2.257976350349652e-07,
+          "first_positive_time_s": 1.0000000000000001e-11,
+          "first_positive_value_v": 1.411238393374948e-05,
+          "last_value_v": 0.5655062421679807
+        },
+        "&ASCV(bbo)": {
+          "points": 563,
+          "start_s": 0.0,
+          "end_s": 2.257976350349652e-07,
+          "first_positive_time_s": 1.0000000000000001e-11,
+          "first_positive_value_v": 0.08139698397625476,
+          "last_value_v": 0.005585872166207529
+        },
+        "&ASCV(v1)": {
+          "points": 563,
+          "start_s": 0.0,
+          "end_s": 2.257976350349652e-07,
+          "first_positive_time_s": 1.0000000000000001e-11,
+          "first_positive_value_v": 0.0007758743407398123,
+          "last_value_v": 4.032328911855264
+        },
+        "&ASCV(v2)": {
+          "points": 563,
+          "start_s": 0.0,
+          "end_s": 2.257976350349652e-07,
+          "first_positive_time_s": 1.0000000000000001e-11,
+          "first_positive_value_v": 6.136116749077727e-06,
+          "last_value_v": 0.01183823642098024
+        }
+      }
+    }
+  ],
+  "input_project_matches_com_matrix_byte_for_byte": true,
+  "input_project_hashes": [
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\S03_GUI_COLD_20us_input.ms14",
+      "bytes": 772402,
+      "sha256": "10b971880847cbfb2c9d0b3e5c780c7856ba200998aa53d8e4ca8d4e69a5ac73"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\工作副本\\W_1n_1n_from_GEAR500UIC.ms14",
+      "bytes": 772402,
+      "sha256": "10b971880847cbfb2c9d0b3e5c780c7856ba200998aa53d8e4ca8d4e69a5ac73"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\工作副本\\V_tstep1n_tmax1n.ms14",
+      "bytes": 772402,
+      "sha256": "10b971880847cbfb2c9d0b3e5c780c7856ba200998aa53d8e4ca8d4e69a5ac73"
+    },
+    {
+      "path": "D:\\ms_xsp\\stage3_acceptance\\proj\\V_1n_1n.ms14",
+      "bytes": 772402,
+      "sha256": "10b971880847cbfb2c9d0b3e5c780c7856ba200998aa53d8e4ca8d4e69a5ac73"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\S03_GUI_COLD_20us.ms14",
+      "bytes": 370334,
+      "sha256": "203901d780f158f3812687f63c9e5d02dab0df3e516657e7e9d126cf13ab7d7b"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\S03_GUI_COLD_20us.gra",
+      "bytes": 46889,
+      "sha256": "166aa4bc05a92fedc526683bd062e4f3f88b3e56111e54c104e834dfa77f3f04"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\S03_GUI_COLD_20us_actual.cir",
+      "bytes": 24357,
+      "sha256": "58c220168413955f64846bf66147eaa9a84a59384facb0bf1c1a2cc596fcaa98"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\saved_project_netlist.txt",
+      "bytes": 13628,
+      "sha256": "b80d0f8640e1b4d4055a085488952301a2c76bb5c1f49868e1af21b019062788"
+    }
+  ],
+  "next_steps_gated": [
+    "TSTART short-window comparison not run",
+    "7 ms tail-only native GUI run not run",
+    "2 Vpp/50% linearity not run"
+  ],
+  "scope": "No solver-internals investigation; no settings tuning after GUI failure."
+}

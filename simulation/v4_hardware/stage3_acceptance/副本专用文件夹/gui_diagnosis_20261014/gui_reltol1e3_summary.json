@@ -1,0 +1,26 @@
+{
+  "old_reltol_1e-4": {
+    "points": 563,
+    "end_s": 2.257976350349652e-07,
+    "end_over_periods": 6.99972668608392,
+    "median_step_s": 3.0703663340017005e-10,
+    "pct_at_cap": 11.743772241992882,
+    "deepest_step_at_event_s": 1.1609989705136872e-14,
+    "outcome": "ABORTED"
+  },
+  "new_reltol_1e-3": {
+    "points": 20038,
+    "end_s": 2e-05,
+    "end_over_periods": 620.0,
+    "median_step_s": 1.0000000000000751e-09,
+    "pct_at_cap": 99.74547087887409,
+    "deepest_step_at_event_s": 3.124999999998911e-11,
+    "outcome": "COMPLETED"
+  },
+  "engine_same_netlist": {
+    "points": 20176,
+    "median_step_s": 1.0080645161286196e-09,
+    "pct_at_cap": 91.71251548946717,
+    "deepest_step_at_event_s": 1.209549963793581e-12
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "run": "S03_GUI_2ms_V4_3",
+  "solver": "Multisim 14.3 native GUI Run; saved/reopened ms14; original .gra",
+  "points": 3063221,
+  "t_end_s": 0.002,
+  "recorded_nodes": [
+    "time",
+    "V(bb_in)",
+    "V(bbo)",
+    "V(v1)",
+    "V(v2)"
+  ],
+  "initial_condition": "User-defined precharged capacitor IC; not cold startup",
+  "cycles_measured": 39,
+  "last_five_cycles": [
+    {
+      "start_s": 0.0017405169483791596,
+      "end_s": 0.0017905217797083764,
+      "period_s": 5.0004831329216815e-05,
+      "frequency_hz": 19998.06765502917,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 50.00155953943734,
+      "V(v1)": {
+        "mean_v": 2.0755045232223246,
+        "raw_min_v": 0.07481539287935876,
+        "raw_max_v": 4.074826557891969,
+        "raw_vpp": 4.0000111650126104,
+        "robust_vpp": 4.000002886883302
+      },
+      "V(bb_in)": {
+        "mean_v": 4.500671113073858,
+        "raw_min_v": 4.336099164066266,
+        "raw_max_v": 4.687642937999092,
+        "raw_vpp": 0.35154377393282576,
+        "robust_vpp": 0.34700075330973146
+      },
+      "V(bbo)": {
+        "mean_v": 4.51131802625229,
+        "raw_min_v": 1.996722238823795,
+        "raw_max_v": 7.032095749521279,
+        "raw_vpp": 5.035373510697484,
+        "robust_vpp": 4.823169637727897
+      },
+      "V(v2)": {
+        "mean_v": 4.50636315828672,
+        "raw_min_v": 2.0257951947539197,
+        "raw_max_v": 6.985186730562477,
+        "raw_vpp": 4.959391535808557,
+        "robust_vpp": 4.813000550512644
+      },
+      "robust_gain": 1.2032492692181052
+    },
+    {
+      "start_s": 0.0017905217797083764,
+      "end_s": 0.0018405266090850466,
+      "period_s": 5.0004829376670184e-05,
+      "frequency_hz": 19998.068435896937,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 50.001553540860876,
+      "V(v1)": {
+        "mean_v": 2.075504309238757,
+        "raw_min_v": 0.0748153928793516,
+        "raw_max_v": 4.074826551319571,
+        "raw_vpp": 4.00001115844022,
+        "robust_vpp": 4.000002886883405
+      },
+      "V(bb_in)": {
+        "mean_v": 4.500647841922641,
+        "raw_min_v": 4.336038168521016,
+        "raw_max_v": 4.6876107041037836,
+        "raw_vpp": 0.35157253558276746,
+        "robust_vpp": 0.34697703675851166
+      },
+      "V(bbo)": {
+        "mean_v": 4.5108627090918185,
+        "raw_min_v": 1.9958399217770417,
+        "raw_max_v": 7.0314016648975874,
+        "raw_vpp": 5.035561743120546,
+        "robust_vpp": 4.823161440139817
+      },
+      "V(v2)": {
+        "mean_v": 4.505908561377877,
+        "raw_min_v": 2.0251442036942895,
+        "raw_max_v": 6.9846383270851895,
+        "raw_vpp": 4.9594941233909005,
+        "robust_vpp": 4.813039702213146
+      },
+      "robust_gain": 1.2032590571361355
+    },
+    {
+      "start_s": 0.0018405266090850466,
+      "end_s": 0.0018905314361720423,
+      "period_s": 5.000482708699566e-05,
+      "frequency_hz": 19998.069351589893,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 50.001550267949256,
+      "V(v1)": {
+        "mean_v": 2.075504159186184,
+        "raw_min_v": 0.07481539287934585,
+        "raw_max_v": 4.074826553452678,
+        "raw_vpp": 4.000011160573332,
+        "robust_vpp": 4.000002886883457
+      },
+      "V(bb_in)": {
+        "mean_v": 4.500618191839338,
+        "raw_min_v": 4.336041919657109,
+        "raw_max_v": 4.6875724042505,
+        "raw_vpp": 0.35153048459339065,
+        "robust_vpp": 0.34699718070870933
+      },
+      "V(bbo)": {
+        "mean_v": 4.510370254248026,
+        "raw_min_v": 1.9951122328220419,
+        "raw_max_v": 7.030740969819594,
+        "raw_vpp": 5.035628736997552,
+        "robust_vpp": 4.823256358938845
+      },
+      "V(v2)": {
+        "mean_v": 4.505416697004665,
+        "raw_min_v": 2.0242736872131397,
+        "raw_max_v": 6.984174570330707,
+        "raw_vpp": 4.959900883117568,
+        "robust_vpp": 4.813090691783106
+      },
+      "robust_gain": 1.20327180451941
+    },
+    {
+      "start_s": 0.0018905314361720423,
+      "end_s": 0.0019405362629579205,
+      "period_s": 5.0004826785878236e-05,
+      "frequency_hz": 19998.06947201361,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 50.00155001416464,
+      "V(v1)": {
+        "mean_v": 2.075504192341473,
+        "raw_min_v": 0.0748153928793543,
+        "raw_max_v": 4.074826565084035,
+        "raw_vpp": 4.000011172204681,
+        "robust_vpp": 4.000002886883459
+      },
+      "V(bb_in)": {
+        "mean_v": 4.50058177213382,
+        "raw_min_v": 4.336013435089858,
+        "raw_max_v": 4.687530018910165,
+        "raw_vpp": 0.3515165838203069,
+        "robust_vpp": 0.34700118298269356
+      },
+      "V(bbo)": {
+        "mean_v": 4.5098231796348,
+        "raw_min_v": 1.9948962307151348,
+        "raw_max_v": 7.030422289586077,
+        "raw_vpp": 5.035526058870942,
+        "robust_vpp": 4.8231673602802
+      },
+      "V(v2)": {
+        "mean_v": 4.504869467648561,
+        "raw_min_v": 2.0239129638056714,
+        "raw_max_v": 6.983680493962049,
+        "raw_vpp": 4.959767530156377,
+        "robust_vpp": 4.813409670958583
+      },
+      "robust_gain": 1.203351549255725
+    },
+    {
+      "start_s": 0.0019405362629579205,
+      "end_s": 0.0019905410904060023,
+      "period_s": 5.000482744808182e-05,
+      "frequency_hz": 19998.069207183315,
+      "input_falling_crossings": 1,
+      "input_duty_percent": 50.00154871563099,
+      "V(v1)": {
+        "mean_v": 2.0755041716040847,
+        "raw_min_v": 0.07481539287935009,
+        "raw_max_v": 4.074826549038597,
+        "raw_vpp": 4.000011156159246,
+        "robust_vpp": 4.000002886883464
+      },
+      "V(bb_in)": {
+        "mean_v": 4.500544780893718,
+        "raw_min_v": 4.335959629613795,
+        "raw_max_v": 4.6875196671056925,
+        "raw_vpp": 0.3515600374918977,
+        "robust_vpp": 0.34699343399183835
+      },
+      "V(bbo)": {
+        "mean_v": 4.509259560797134,
+        "raw_min_v": 1.9947079702769859,
+        "raw_max_v": 7.030177854112395,
+        "raw_vpp": 5.035469883835409,
+        "robust_vpp": 4.823107108926042
+      },
+      "V(v2)": {
+        "mean_v": 4.504306437979298,
+        "raw_min_v": 2.023577638383971,
+        "raw_max_v": 6.983277934923842,
+        "raw_vpp": 4.959700296539871,
+        "robust_vpp": 4.813524219939252
+      },
+      "robust_gain": 1.2033801864802227
+    }
+  ],
+  "output_cycles_in_last_300us": [
+    {
+      "frequency_hz": 19998.060633928333,
+      "falling_crossings": 1,
+      "duty_percent": 50.22663645996142
+    },
+    {
+      "frequency_hz": 19998.066027191948,
+      "falling_crossings": 1,
+      "duty_percent": 50.227983180675174
+    },
+    {
+      "frequency_hz": 19998.03556606871,
+      "falling_crossings": 1,
+      "duty_percent": 50.22778836773514
+    },
+    {
+      "frequency_hz": 19998.025520940795,
+      "falling_crossings": 1,
+      "duty_percent": 50.226013217681825
+    },
+    {
+      "frequency_hz": 19998.028814631492,
+      "falling_crossings": 1,
+      "duty_percent": 50.22332278080369
+    }
+  ],
+  "repeatability_screen": {
+    "official_acceptance": false,
+    "threshold_fraction": 0.001,
+    "V2_mean_span_V": 0.0020567203074222107,
+    "V2_robust_vpp_span_V": 0.0005236694266077535,
+    "period_relative_span": 9.085799758751778e-08,
+    "passes": true
+  },
+  "trace_integrity": {
+    "V(bb_in)": {
+      "points": 3063221,
+      "start_s": 0.0,
+      "end_s": 0.002,
+      "finite": true,
+      "monotonic": true,
+      "max_step_s": 1.008064516192994e-09
+    },
+    "V(bbo)": {
+      "points": 3063221,
+      "start_s": 0.0,
+      "end_s": 0.002,
+      "finite": true,
+      "monotonic": true,
+      "max_step_s": 1.008064516192994e-09
+    },
+    "V(v1)": {
+      "points": 3063221,
+      "start_s": 0.0,
+      "end_s": 0.002,
+      "finite": true,
+      "monotonic": true,
+      "max_step_s": 1.008064516192994e-09
+    },
+    "V(v2)": {
+      "points": 3063221,
+      "start_s": 0.0,
+      "end_s": 0.002,
+      "finite": true,
+      "monotonic": true,
+      "max_step_s": 1.008064516192994e-09
+    }
+  },
+  "source_files": {
+    "simulation\\v4_hardware\\stage3_acceptance\\S03_GUI_2ms_V4_3.gra": {
+      "sha256": "f585a801278ab3b9b668a0970785cc21a058c20f3275132c53f8270ecef0c172",
+      "bytes": 193486150
+    },
+    "simulation\\v4_hardware\\stage3_acceptance\\S03_GUI_2ms_V4_3.ms14": {
+      "sha256": "e0b0ce967933099177b335b9c1a176381ebe8a18c626d8338ffd12abe83475cd",
+      "bytes": 369168
+    }
+  }
+}

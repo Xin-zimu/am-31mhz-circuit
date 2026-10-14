@@ -1,0 +1,27 @@
+{
+  "note": "PWL rise time on the ideal 5 V rail; separate archive, changes test conditions",
+  "dc_lines": [
+    "vV5 V5 0 dc 5 ac 0 0",
+    "vVCC VCC 0 dc 9 ac 0 0",
+    "vVREF VREF 0 dc 4.5 ac 0 0",
+    "vVCARRIER TP2 0 dc 0 ac 1 0"
+  ],
+  "cases": {
+    "RT_ideal": {
+      "rise_time": "ideal step",
+      "tran": "1n 20u 0 1n uic"
+    },
+    "RT_1ns": {
+      "rise_time": "1n",
+      "tran": "1n 20u 0 1n uic"
+    },
+    "RT_10ns": {
+      "rise_time": "10n",
+      "tran": "1n 20u 0 1n uic"
+    },
+    "RT_100ns": {
+      "rise_time": "100n",
+      "tran": "1n 20u 0 1n uic"
+    }
+  }
+}

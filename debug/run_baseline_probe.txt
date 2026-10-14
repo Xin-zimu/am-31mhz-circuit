@@ -1,0 +1,14 @@
+﻿run start 09/18/2026 00:17:01 tag=baseline_probe
+00:17:07.242 | connected=True ver=Multisim 14.3
+00:17:07.993 | opened 'AM_22k_D50_A4V_debug'
+00:17:07.997 | state=0
+00:17:08.348 | SetOutputRequest V(TP3) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:17:08.350 | SetOutputRequest V(TP2) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:17:08.358 | SetOutputRequest V(V1) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:17:08.364 | SetOutputRequest V(TP6) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:17:08.371 | SetOutputRequest V(V2) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:17:08.377 | SetOutputRequest V(TP5) ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:17:08.522 | chunk 1 simt<=5us wall=0.12s state=1 err='è¾åºæªæ¾å°ã'
+00:17:08.526 | *** SIMULATOR MESSAGE: è¾åºæªæ¾å°ã
+00:17:08.531 | final state=1 err='è¾åºæªæ¾å°ã'
+00:17:08.962 | run done

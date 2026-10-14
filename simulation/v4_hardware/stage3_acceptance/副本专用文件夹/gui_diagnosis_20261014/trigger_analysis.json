@@ -1,0 +1,5 @@
+{
+  "event_s": 2.2580645161290325e-07,
+  "period_s": 3.2258064516129035e-08,
+  "ceiling_rule": "effective TMAX = min(requested TMAX, carrier_period/32)"
+}

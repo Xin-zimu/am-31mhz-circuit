@@ -1,0 +1,126 @@
+{
+  "O-series (reltol/trtol/itl4/method/convlimit on same 2us run)": {
+    "distinct_results": 1,
+    "groups": {
+      "7be716548125b2e1": [
+        "O0_none",
+        "O1_gui_all",
+        "O5_gear",
+        "O6_xspice_def"
+      ]
+    }
+  },
+  "U-series (26 solver knobs, same short run)": {
+    "distinct_results": 2,
+    "groups": {
+      "013a4bd59423bd64": [
+        "U00_none",
+        "U01_reltol",
+        "U02_reltoltight",
+        "U03_trtol",
+        "U04_trtol0",
+        "U05_gui_lte",
+        "U06_abstol",
+        "U07_vntol",
+        "U08_chgtol",
+        "U09_gmin0",
+        "U10_maxord5",
+        "U11_itl4",
+        "U12_pivtol",
+        "U13_method_gear",
+        "U14_defl",
+        "U15_tnom",
+        "U16_bypass0",
+        "U17_oldlimit",
+        "U18_convlimit",
+        "U19_dynamicdc",
+        "U20_inertial",
+        "U21_suposc",
+        "U23_itl1",
+        "U24_itl2",
+        "U25_abstol_lo"
+      ],
+      "8fdd6a2f42d3df4a": [
+        "U22_rshunt",
+        "U26_all_gui"
+      ]
+    }
+  },
+  "L-series (reltol 1e-2 vs 1e-9 via option vs set)": {
+    "distinct_results": 1,
+    "groups": {
+      "4541b7a9776557fc": [
+        "L0_plain",
+        "L1_opt_r1e-2",
+        "L2_opt_r1e-9",
+        "L3_set_r1e-2",
+        "L4_set_r1e-9",
+        "L5_opt_guess",
+        "L6_opt_trtol",
+        "L7_opt_plural"
+      ]
+    }
+  },
+  "X-series (options before/after source)": {
+    "distinct_results": 1,
+    "groups": {
+      "7be716548125b2e1": [
+        "X0_none",
+        "X1_sp_reltol",
+        "X2_nosp_reltol",
+        "X3_nosp_tight",
+        "X4_nosp_trtol",
+        "X5_nosp_itl4",
+        "X6_nosp_method",
+        "X7_all_nosp",
+        "X8_before_src"
+      ]
+    }
+  },
+  "Y-series (options card placement)": {
+    "distinct_results": 1,
+    "groups": {
+      "7be716548125b2e1": [
+        "Y0_plain",
+        "Y1_opt_top",
+        "Y2_opt_bottom",
+        "Y3_opt_before_end",
+        "Y4_opt_two"
+      ]
+    }
+  },
+  "node_ranges_20us": {
+    "V(bb_in)": [
+      0.0,
+      0.7135954480693227
+    ],
+    "V(bbo)": [
+      0.0,
+      0.2189255649693366
+    ],
+    "V(v1)": [
+      0.0,
+      4.074820893447094
+    ],
+    "V(v2)": [
+      0.0,
+      0.02713277356871538
+    ]
+  },
+  "gui_dt_share": {
+    "0-0.05": 0.15480427046263345,
+    "0.05-0.2": 0.09786476868327403,
+    "0.2-0.5": 0.4626334519572954,
+    "0.5-0.9": 0.13345195729537365,
+    "0.9-1.01": 0.1512455516014235
+  },
+  "engine_dt_share": {
+    "0-0.05": 0.0013382899628252788,
+    "0.05-0.2": 0.0010408921933085502,
+    "0.2-0.5": 0.001090458488228005,
+    "0.5-0.9": 0.06631970260223048,
+    "0.9-1.01": 0.9302106567534076
+  },
+  "stop_over_cap": 223.99125395468545,
+  "stop_over_period": 6.999726686083921
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "AM_20k_D10_A4V_V3.ms14",
+    "amplitude": 4,
+    "nominal_duty": 10,
+    "period_s": 5e-05,
+    "gain": 16.3511,
+    "model": "&ASC.model DIODE__DIODES_VIRTUAL__1  D(Is=20n N=1.06 Rs=2 Cjo=2p M=0.33 Vj=0.35 Bv=70 Ibv=10u)"
+  },
+  {
+    "file": "AM_20k_D50_A1V_V3.ms14",
+    "amplitude": 1,
+    "nominal_duty": 50,
+    "period_s": 5e-05,
+    "gain": 16.3511,
+    "model": "&ASC.model DIODE__DIODES_VIRTUAL__1  D(Is=20n N=1.06 Rs=2 Cjo=2p M=0.33 Vj=0.35 Bv=70 Ibv=10u)"
+  },
+  {
+    "file": "AM_20k_D50_A2V_V3.ms14",
+    "amplitude": 2,
+    "nominal_duty": 50,
+    "period_s": 5e-05,
+    "gain": 16.3511,
+    "model": "&ASC.model DIODE__DIODES_VIRTUAL__1  D(Is=20n N=1.06 Rs=2 Cjo=2p M=0.33 Vj=0.35 Bv=70 Ibv=10u)"
+  },
+  {
+    "file": "AM_20k_D50_A3V_V3.ms14",
+    "amplitude": 3,
+    "nominal_duty": 50,
+    "period_s": 5e-05,
+    "gain": 16.3511,
+    "model": "&ASC.model DIODE__DIODES_VIRTUAL__1  D(Is=20n N=1.06 Rs=2 Cjo=2p M=0.33 Vj=0.35 Bv=70 Ibv=10u)"
+  },
+  {
+    "file": "AM_20k_D50_A4V_V3.ms14",
+    "amplitude": 4,
+    "nominal_duty": 50,
+    "period_s": 5e-05,
+    "gain": 16.3511,
+    "model": "&ASC.model DIODE__DIODES_VIRTUAL__1  D(Is=20n N=1.06 Rs=2 Cjo=2p M=0.33 Vj=0.35 Bv=70 Ibv=10u)"
+  }
+]

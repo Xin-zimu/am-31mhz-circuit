@@ -1,0 +1,21 @@
+LTspice 26.0.0 for Windows
+Circuit: D:\实验报告文件夹\电路2\simulation\v4_hardware\LM393_20k_D40_A1.cir
+Start Time: Fri Oct  9 10:36:57 2026
+Options:plotwinsize=0 reltol=0.0001
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = trap
+reltol = 0.0001
+AsciiRawFile = true
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 1.227 seconds.
+
+Files loaded:
+D:\实验报告文件夹\电路2\simulation\v4_hardware\LM393_20k_D40_A1.cir
+

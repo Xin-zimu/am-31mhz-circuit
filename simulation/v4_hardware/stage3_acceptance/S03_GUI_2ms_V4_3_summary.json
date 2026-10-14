@@ -1,0 +1,37 @@
+{
+  "run": "S03_GUI_2ms_V4_3",
+  "points": 3063221,
+  "t_end_s": 0.002,
+  "V1_frequency_hz": 19998.068824342587,
+  "V1_duty_percent": 50.00155241560863,
+  "V2_frequency_hz": 19998.043312552258,
+  "V2_duty_percent": 50.22634880137146,
+  "repeatability_screen": {
+    "official_acceptance": false,
+    "threshold_fraction": 0.001,
+    "V2_mean_span_V": 0.0020567203074222107,
+    "V2_robust_vpp_span_V": 0.0005236694266077535,
+    "period_relative_span": 9.085799758751778e-08,
+    "passes": true
+  },
+  "V(bb_in)": {
+    "mean_v": 4.500612739972675,
+    "raw_vpp": 0.3515446830842377,
+    "robust_vpp": 0.34699391755029685
+  },
+  "V(bbo)": {
+    "mean_v": 4.5103267460048135,
+    "raw_vpp": 5.035511986704387,
+    "robust_vpp": 4.82317238120256
+  },
+  "V(v1)": {
+    "mean_v": 2.0755042711185645,
+    "raw_vpp": 4.0000111624780175,
+    "robust_vpp": 4.000002886883418
+  },
+  "V(v2)": {
+    "mean_v": 4.505372864459424,
+    "raw_vpp": 4.959650873802654,
+    "robust_vpp": 4.813212967081347
+  }
+}

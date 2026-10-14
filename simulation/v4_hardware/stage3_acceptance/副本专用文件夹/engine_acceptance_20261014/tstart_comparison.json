@@ -1,0 +1,66 @@
+{
+  "full": {
+    "points": 20412,
+    "start_s": 0.0,
+    "end_s": 2e-05,
+    "dt_min_s": 4.000000000000064e-14,
+    "dt_max_s": 1.000000000010663e-09,
+    "file_bytes": 2601910,
+    "names": [
+      "time",
+      "V(bb_in)",
+      "V(bbo)",
+      "V(v1)",
+      "V(v2)"
+    ]
+  },
+  "tail": {
+    "points": 10139,
+    "start_s": 1.000099834802672e-05,
+    "end_s": 2e-05,
+    "dt_min_s": 4.3867206521870086e-11,
+    "dt_max_s": 1.000000000010663e-09,
+    "file_bytes": 1286966,
+    "names": [
+      "time",
+      "V(bb_in)",
+      "V(bbo)",
+      "V(v1)",
+      "V(v2)"
+    ]
+  },
+  "overlap": {
+    "time": {
+      "max_abs_diff": 0.0,
+      "max_rel_diff": 0.0,
+      "identical": true
+    },
+    "V(bb_in)": {
+      "max_abs_diff": 0.0,
+      "max_rel_diff": 0.0,
+      "identical": true
+    },
+    "V(bbo)": {
+      "max_abs_diff": 0.0,
+      "max_rel_diff": 0.0,
+      "identical": true
+    },
+    "V(v1)": {
+      "max_abs_diff": 0.0,
+      "max_rel_diff": 0.0,
+      "identical": true
+    },
+    "V(v2)": {
+      "max_abs_diff": 0.0,
+      "max_rel_diff": 0.0,
+      "identical": true
+    },
+    "time_identical": true,
+    "points": 10139
+  },
+  "saving": {
+    "full_bytes": 2601910,
+    "tail_bytes": 1286966,
+    "reduction_percent": 50.537643500351656
+  }
+}

@@ -1,0 +1,3 @@
+source D:\ms_xsp\net_am.cir
+tran 2n 200u 0 2n
+write D:\ms_xsp\out_am200u.raw $tp3 $tp6 $v1 $v2 $tp2 $tp5

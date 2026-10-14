@@ -1,0 +1,232 @@
+[
+  {
+    "file": "S03_COLD_ZERO_TRAP500_20us.decoded.xml",
+    "bytes": 71252,
+    "traces": {
+      "V(bb_in)": {
+        "points": 439,
+        "start_s": 0.0,
+        "end_s": 2.2579554774369283e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 3.567148894384967e-05,
+        "last_value_v": 0.566546761093891
+      },
+      "V(bbo)": {
+        "points": 439,
+        "start_s": 0.0,
+        "end_s": 2.2579554774369283e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.046745808052817736,
+        "last_value_v": 0.005586107434772348
+      },
+      "V(v1)": {
+        "points": 439,
+        "start_s": 0.0,
+        "end_s": 2.2579554774369283e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.001594482141863528,
+        "last_value_v": 4.03231761383903
+      },
+      "V(v2)": {
+        "points": 439,
+        "start_s": 0.0,
+        "end_s": 2.2579554774369283e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 7.047339503215437e-06,
+        "last_value_v": 0.011843518455298751
+      }
+    }
+  },
+  {
+    "file": "S03_COLD_GEAR_page_audit.decoded.xml",
+    "bytes": 86353,
+    "traces": {
+      "V(bb_in)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 3.567148894384967e-05,
+        "last_value_v": 0.5654986378983896
+      },
+      "V(bbo)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.046745808052817736,
+        "last_value_v": 0.0055858827307525595
+      },
+      "V(v1)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.001594482141863528,
+        "last_value_v": 4.032329766901475
+      },
+      "V(v2)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 7.047339503215437e-06,
+        "last_value_v": 0.01183843878216047
+      }
+    }
+  },
+  {
+    "file": "S03_COLD_ZERO_GEAR500_REOPEN_20us.decoded.xml",
+    "bytes": 86353,
+    "traces": {
+      "V(bb_in)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 3.567148894384967e-05,
+        "last_value_v": 0.5654986378983896
+      },
+      "V(bbo)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.046745808052817736,
+        "last_value_v": 0.0055858827307525595
+      },
+      "V(v1)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.001594482141863528,
+        "last_value_v": 4.032329766901475
+      },
+      "V(v2)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 7.047339503215437e-06,
+        "last_value_v": 0.01183843878216047
+      }
+    }
+  },
+  {
+    "file": "S03_COLD_ZERO_GEAR500_UIC_20us.decoded.xml",
+    "bytes": 86353,
+    "traces": {
+      "V(bb_in)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 3.567148894384967e-05,
+        "last_value_v": 0.5654986378983896
+      },
+      "V(bbo)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.046745808052817736,
+        "last_value_v": 0.0055858827307525595
+      },
+      "V(v1)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.001594482141863528,
+        "last_value_v": 4.032329766901475
+      },
+      "V(v2)": {
+        "points": 557,
+        "start_s": 0.0,
+        "end_s": 2.2579842868014298e-07,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 7.047339503215437e-06,
+        "last_value_v": 0.01183843878216047
+      }
+    }
+  },
+  {
+    "file": "S03_COLD_DIAG_20us.decoded.xml",
+    "bytes": 4048664,
+    "traces": {
+      "V(bb_in)": {
+        "points": 31513,
+        "start_s": 0.0,
+        "end_s": 2e-05,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 4.508318209438176,
+        "last_value_v": 4.351703234134245
+      },
+      "V(bbo)": {
+        "points": 31513,
+        "start_s": 0.0,
+        "end_s": 2e-05,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.22071982513091662,
+        "last_value_v": 2.145850764243636
+      },
+      "V(v1)": {
+        "points": 31513,
+        "start_s": 0.0,
+        "end_s": 2e-05,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 0.001594482141863528,
+        "last_value_v": 0.07482251362494909
+      },
+      "V(v2)": {
+        "points": 31513,
+        "start_s": 0.0,
+        "end_s": 2e-05,
+        "min_step_s": 8.000000000000774e-15,
+        "max_step_s": 1.008064516129043e-09,
+        "first_positive_time_s": 2.0000000000000002e-11,
+        "first_positive_value_v": 4.498904227275562,
+        "last_value_v": 2.1440079053148033
+      }
+    }
+  }
+]

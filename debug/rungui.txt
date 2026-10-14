@@ -1,0 +1,8 @@
+﻿rungui start 09/18/2026 00:30:44
+00:30:44.678 | pid=21832
+00:30:44.745 | visible 0x1103E6 [Multisim14.3] 'AM_22k_D50_A4V_debug - Multisim - [AM_22k_D50_A4V_debug]'
+00:30:44.747 | visible 0xE00BE [LVFrame] 'multisim'
+00:30:44.777 | main frame 0x1103E6 [Multisim14.3] 'AM_22k_D50_A4V_debug - Multisim - [AM_22k_D50_A4V_debug]'
+00:30:44.780 | main frame 0xE00BE [LVFrame] 'multisim'
+00:30:45.662 | sending keys: {F5}
+00:33:17.044 | rungui done

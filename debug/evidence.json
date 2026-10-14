@@ -1,0 +1,110 @@
+{
+  "task": "Multisim 14.3 transient 'Internal simulation error.' diagnosis + fix for AM_22k_D50_A4V",
+  "revision": "v3 (DEFINITIVE): decoded the proprietary container and read the actual setting; fix applied and verified",
+  "date": "2026-09-18",
+  "root_cause": {
+    "verdict": "Transient Analysis result/plot retention cap",
+    "setting": "Transient Analysis (ANALYSIS_ID 3) -> Analysis options -> MAX_POINTS",
+    "value_found": 128000,
+    "provenance": "Multisim default (all 40 analysis blocks in the .ms14 carry MAX_POINTS:long{128000})",
+    "arithmetic_proof": "128000 points x 1.00806 ns = 129.03 us  -> matches the observed failure at ~120 us",
+    "why_1.00806ns": "engine forces TMAX = 1/(31 MHz)/32 = 1.00806 ns regardless of the user's TMAX, i.e. ~992000 points per simulated second",
+    "vendor_error_strings": {
+      "file": "SPICEIFS.dll",
+      "available_specific_errors": ["Exceed max time points", "Does not converge", "Timestep too small", "Singular matrix", "Lost numerical stability", "No memory", "Out of memory."],
+      "actually_reported": "Internal simulation error. (generic; adjacent to 'Out of memory.')",
+      "implication": "application-layer retention buffer overflow, not a numerics/convergence failure"
+    },
+    "cap_is_application_side_not_engine": {
+      "evidence": "engine iplot/write-and-destroy-iplot (the same mechanism the asys protocol uses) wrote No. Points: 198468 for 0->200 us with zero errors",
+      "file": "D:\\ms_xsp\\out_iplot200u.raw"
+    },
+    "excluded": ["circuit topology", "D101 diode model", "EAM polynomial coefficients", "VINPUT rise/fall", "ideal controlled sources", "solver tolerances", "integration method", "engine numerics"]
+  },
+  "container_format_cracked": {
+    "encoding": "PKWare DCL Implode compressed XML, 900000-byte decompressed sections",
+    "layout": "magic(36B) + u64le totalDecompressedLength + repeat{ u32le decompressedLen, u32le compressedLen, implodeBlock }",
+    "magic": "MSMCompressedElectronicsWorkbenchXML (Multisim) / CompressedElectronicsWorkbenchXML (ewcfg/ewprj)",
+    "ms14_xml_size": 1412621,
+    "tool": "https://github.com/cinderblock/electronics-workbench-decoder (referenced; I reimplemented decode/encode in D:\\ewbwork\\decode.mjs / encode.mjs)",
+    "decode_verified": "section1 900000<-94967, section2 512621<-88215, total 1412621 = declared length",
+    "encode_roundtrip": "re-encoded file decodes back to XML byte-identical to the patched XML (360812 B; encoder ratio ~2x original, still valid PKWare DCL)"
+  },
+  "fix_applied": {
+    "file": "D:\\实验报告文件夹\\电路2\\simulation\\system\\AM_22k_D50_A4V_debug.ms14",
+    "file_size_final": 182348,
+    "note": "natively re-written by Multisim itself via COM Save(); only 3 text spans changed out of 1412621 bytes of XML; schematic untouched",
+    "changes": {
+      "MAX_POINTS": {"before": 128000, "after": 2000000, "scope": "Transient Analysis only (ANALYSIS_ID 3)"},
+      "TSTOP": {"before": 0.0001, "after": 0.0002},
+      "TSTART": {"before": 0.0, "after": 0.0},
+      "TMAX": {"before": 2e-09, "after": 2e-09},
+      "method": {"before": "gear", "after": "trapezoidal"}
+    },
+    "unchanged": ["circuit topology", "all component values", "D101 model", "EAM coefficients", "VINPUT parameters", "itl4=100", "trtol=7", "maxord=2", "suposc=on", "reltol=1e-3", "abstol=1e-12", "vntol=1e-6", "gmin=1e-12", "rshunt=1e12", "convlimit=on", "the other 39 analyses' MAX_POINTS"]
+  },
+  "control_project": {
+    "file": "D:\\实验报告文件夹\\电路2\\debug\\AM_22k_D50_A4V_CONTROL_128k.ms14",
+    "purpose": "single-variable A/B: identical to the fixed project except MAX_POINTS stays 128000",
+    "expected": "fails with Internal simulation error. at about 129 us (proves the root cause in the user's own environment)"
+  },
+  "verification": {
+    "container_roundtrip_byte_identical": true,
+    "multisim_accepts_patched_file": {"circuitName": "AM_22k_D50_A4V_debug / fixed", "components": 21, "variants": "Default1", "RLOAD": 1000000, "CBB": 1.32629e-10, "RRF": 50},
+    "multisim_preserves_edits_after_save": {
+      "decoded_back": "TSTOP:double{0.0002}, TSTART:double{0}, TMAX:double{2e-09}, transient MAX_POINTS:long{2000000}, method gear count=0, trapezoidal count=40",
+      "verified": true
+    },
+    "simulation_at_target_parameters": {
+      "engine_write_run": {"cmd": "tran 2n 200u 0 2n", "points": 201561, "errors": "none", "raw": "D:\\ms_xsp\\out_am200u.raw"},
+      "engine_asys_protocol_run": {"points": 198468, "errors": "none", "raw": "D:\\ms_xsp\\out_iplot200u.raw"},
+      "metrics": {
+        "V(tp2)": "31 MHz, +/-1.0000 V",
+        "V(v1)": "0->4 V, 45.4545 us period (22 kHz), ~50% duty",
+        "V(tp3)": "AM peak 1.0000 V with V(v1)=4 V, 0.5996 V with V(v1)=0 V -> confirms 0.6*V1 + 0.1*V1*V2",
+        "V(tp6)": "detected envelope 0.227 -> 0.584 V tracking 22 kHz",
+        "V(v2)": "4.495 V baseline, peak 12.52 V (x15 baseband)"
+      }
+    },
+    "not_yet_observed": "clicking Run in the Multisim GUI (the GUI is not scriptable); the control project lets the user prove the mechanism in one click"
+  },
+  "original_files_integrity": {
+    "cir_sha256": "19D57D98B743281AF43B96C5EAA79421E6FB5D9661FBEF0B356FDE70022DFB76",
+    "ms14_sha256": "5226FAE61DBEE2E09F7C773D64376598A15299B18F3E338429A65321AEEB3039",
+    "not_modified": true,
+    "backups": "D:\\实验报告文件夹\\电路2\\debug\\_pristine\\ (originals + AM_22k_D50_A4V_debug.prefix.ms14 before the fix)"
+  },
+  "engine_behaviour": {
+    "tmax_auto_adjustment": {"log": "Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09 (and from 2e-08 identically)", "effective_ns": 1.00806, "note": "user TMAX 20 ns or 2 ns -> same point count (30403 vs 30406 points for 30 us)"},
+    "non_ascii_path_mangled": "source D:\\实验报告文件夹\\... becomes D:\\???????\\??2\\... -> \"there aren't any circuits loaded\""
+  },
+  "user_session_forensics": {
+    "successful_run_raw": {"file": "rawEA11.tmp", "bytes": 3969574, "no_points": 99233, "t_span_s": [0.0, 0.0001], "dt_median_s": 1.00806e-9, "verdict": "under the 128000 cap -> succeeded"},
+    "failed_runs": ["raw5496.tmp 0B 20:47:48", "raw52FC.tmp 0B 21:10:44", "rawB9D2.tmp 0B 21:26:28", "raw91BA.tmp 0B 21:29:34", "rawF3CB.tmp 0B 21:42:00", "rawF14.tmp 0B 21:44:18", "raw5A09.tmp 0B 21:44:37"],
+    "wer_crashes": [
+      {"time": "2026-09-17 16:53:09", "exception": "0xC0000374", "module": "ntdll.dll"},
+      {"time": "2026-09-17 21:42:26", "exception": "0xC0000374", "module": "ntdll.dll"},
+      {"time": "2026-09-17 21:44:50", "exception": "0xC0000374", "module": "ntdll.dll"}
+    ]
+  },
+  "corrections_to_earlier_revisions": {
+    "v1": "recommended raising Maximum number of points - direction CORRECT (now proven: the cap is 128000)",
+    "v2": "said the effect direction was undetermined - SUPERSEDED by the decoded value",
+    "user_memory": "'Maximum number of points was set to 2,000,000' is not reflected in the file; the actual value was the 128000 default, which is why raising it earlier had no effect"
+  },
+  "artifacts": {
+    "fixed_debug_project": "D:\\实验报告文件夹\\电路2\\simulation\\system\\AM_22k_D50_A4V_debug.ms14",
+    "control_project": "D:\\实验报告文件夹\\电路2\\debug\\AM_22k_D50_A4V_CONTROL_128k.ms14",
+    "pristine_backup": "D:\\实验报告文件夹\\电路2\\debug\\_pristine\\",
+    "report": "D:\\实验报告文件夹\\电路2\\debug\\诊断报告.md",
+    "action_sheet": "D:\\实验报告文件夹\\电路2\\debug\\修复操作单.md",
+    "index": "D:\\实验报告文件夹\\电路2\\debug\\文件索引.md",
+    "waveforms_csv": "D:\\实验报告文件夹\\电路2\\debug\\AM_22k_200us_waveforms.csv",
+    "waveforms_png": "D:\\实验报告文件夹\\电路2\\debug\\AM_22k_200us_waveforms.png",
+    "zoom_png": "D:\\实验报告文件夹\\电路2\\debug\\AM_22k_200us_zoom.png",
+    "container_tools": "D:\\ewbwork\\ (decode.mjs, encode.mjs, patch_xml.py, decoded XMLs)",
+    "decoder_source": "D:\\实验报告文件夹\\电路2\\debug\\ewb-decoder\\",
+    "xspice_kit": "D:\\ms_xsp\\",
+    "nicds_capture": "D:\\实验报告文件夹\\电路2\\debug\\nicds_capture\\"
+  }
+}

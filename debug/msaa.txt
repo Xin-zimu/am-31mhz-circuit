@@ -1,0 +1,9 @@
+﻿msaa 09/18/2026 00:44:32
+pid=2948 main=0x2B06B6
+objid=0x0 hr=0x0 raw=True
+  members: CompareTo,Equals,GetHashCode,GetType,GetTypeCode,ToBoolean,ToByte,ToChar,ToDateTime,ToDecimal,ToDouble,ToInt16,ToInt32,ToInt64,ToSByte,ToSingle,ToString,ToType,ToUInt16,ToUInt32,ToUInt64
+  name='AM_22k_D50_A4V_debug - Multisim - [AM_22k_D50_A4V_debug]' role=9 children=7
+objid=0xFFFFFFFC hr=0x0 raw=True
+  members: accDoDefaultAction,accHitTest,accLocation,accNavigate,accSelect,accChildCount,accFocus,accParent,accSelection
+  name='AM_22k_D50_A4V_debug - Multisim - [AM_22k_D50_A4V_debug]' role=10 children=7
+msaa done

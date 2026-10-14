@@ -1,0 +1,4 @@
+source D:\ms_xsp\net_am.cir
+tran 2n 30u 0 2n
+display
+write D:\ms_xsp\out_am30u.raw

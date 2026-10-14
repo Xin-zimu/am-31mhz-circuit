@@ -1,0 +1,6 @@
+Codex API probe
+V1 IN 0 SIN(0 1 1k)
+R1 IN OUT 1k
+C1 OUT 0 100n
+.tran 1u 10m
+.end

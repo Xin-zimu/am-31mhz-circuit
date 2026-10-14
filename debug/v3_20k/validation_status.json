@@ -1,0 +1,14 @@
+{
+  "native_projects": "opened and resaved in Multisim 14.3; parameters verified",
+  "multisim_200us": {
+    "completed": true,
+    "points": 198461,
+    "end_time_s": 0.0002
+  },
+  "multisim_5ms": {
+    "completed": false,
+    "error": "Out of memory",
+    "log": "debug/v3_20k/full_retry.log"
+  },
+  "steady_amplitude_sweep": "LTspice, 4.8-5 ms, engineering Schottky approximation"
+}

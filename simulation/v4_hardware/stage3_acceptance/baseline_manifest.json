@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-12",
+  "sources": [
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\AM_20k_31MHz_V4_3_REPAIRED.ms14",
+      "bytes": 369512,
+      "sha256": "99dffd203eb501498e8884ce02005a977b9f295d380ad3c7afea227f26296394"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\repair_20261011\\final_actual.cir",
+      "bytes": 24373,
+      "sha256": "d9aba8eff74e679f709bc6a680bf569e6dab87a00303b6ff138f19d4964ccaaf"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\AM_20k_31MHz_V4_3_REPAIRED.gra",
+      "bytes": 21000130,
+      "sha256": "f91b21f3f4dbb95437c36ffedb6bb39ce12228a190961785c9b99951f5938677"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\设计.docx",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\电子线路实验评分标准-学生.docx",
+      "bytes": 73513,
+      "sha256": "657a5112b09cb5b01adab3f22449501df8864369cf884b61983dd7d320f94f23"
+    },
+    {
+      "path": "D:\\实验报告文件夹\\电路2\\性能指标要求_N31_M50.md",
+      "bytes": 17423,
+      "sha256": "ba4d900102f8c10bbafff1bf90063c476e3ffb0a7bcfcfb037ec33de64d5cbb2"
+    }
+  ],
+  "scope": "Full exported circuit; Multisim XSPICE command interface. Not a new GUI run.",
+  "requirement_source_status": "Original scoring DOCX cross-checked; user supplies N31/M50 parameters; amplitude test-point ambiguity retained",
+  "baseline_copy_settings": "Unmodified copy: 200 us GUI analysis; longer analysis is in .cmd only."
+}

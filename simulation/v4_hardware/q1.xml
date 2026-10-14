@@ -1,0 +1,192 @@
+<CiComponent Class="CiComponent" LocalName="&amp;ASCQ1" Model="600826064" SymCompID="111576664" InstanceID="{C2DEC06F-DD53-4FCB-B5F0-4488EFF3D005}" Circuit="601050728">
+<Attributes>
+<Item/>
+<Item>
+<CiaSpiceTmpltExprt Class="CiaSpiceTmpltExprt" String="&amp;ASCq%p %tC %tB %tE %m %S0
+"/>
+</Item>
+<Item>
+<CiaParamList Class="CiaParamList">
+<doubles/>
+<strings>
+<Item Value=""/>
+</strings>
+<parameters/>
+<paramindicators/>
+</CiaParamList>
+</Item>
+<Item/>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings>
+<Item Value="&amp;ASCTRANSISTORS_VIRTUAL"/>
+<Item Value="&amp;ASCBJT_NPN"/>
+<Item Value="&amp;ASCTRANSISTORS_VIRTUAL"/>
+<Item Value="&amp;ASCNPN"/>
+<Item Value="&amp;ASC1"/>
+<Item Value="&amp;ASC.MODEL NPN NPN"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASCNational Instruments"/>
+<Item Value="&amp;ASCVceo=;Vcbo=;Ic(max)=;hFE(min)=;hFE(max)=;Ft=;Pd=;Package=NONE"/>
+<Item Value="&amp;ASC&lt;ComponentDefinition Version=&quot;1&quot;&gt;
+&lt;Semiconductor Version=&quot;1&quot;&gt;
+&lt;ParameterString value=&quot;&quot;/&gt;
+&lt;/Semiconductor&gt;
+&lt;/ComponentDefinition&gt;"/>
+<Item Value="&amp;ASCL0"/>
+<Item Value="&amp;ASCV12.0.0"/>
+<Item Value="&amp;ASCA0"/>
+<Item Value="&amp;ASCTransistors"/>
+<Item Value="&amp;ASC$ANALOG$"/>
+<Item Value="&amp;ASCGeneric"/>
+<Item Value="&amp;ASCV12.0.0"/>
+<Item Value="&amp;ASCA0"/>
+<Item Value="&amp;ASC@"/>
+<Item Value="&amp;ASCFully configurable n-type BJT."/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASC1"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASC1"/>
+</strings>
+</CiaCollString>
+</Item>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings>
+<Item Value="&amp;ASC123"/>
+<Item Value="&amp;ASCProduct"/>
+<Item Value="&amp;ASCTRANSISTORS_VIRTUAL"/>
+<Item Value=""/>
+<Item Value="&amp;ASCQ%d"/>
+<Item Value="&amp;ASCq%p %tC %tB %tE %m %S0"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASCGeneric"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASCNI"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASC82"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASC&lt;Semiconductor Version=&quot;1&quot;&gt;
+&lt;ParameterString/&gt;
+&lt;/Semiconductor&gt;"/>
+<Item Value="&amp;ASC "/>
+</strings>
+</CiaCollString>
+</Item>
+<Item/>
+<Item/>
+<Item>
+<CiaFault Class="CiaFault" FaultType="3" LeakResistanceValue="100" LeakResistanceScale="&amp;ASCOhm">
+<FaultPorts/>
+</CiaFault>
+</Item>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item>
+<CiaProperDlg Class="CiaProperDlg" ActivePage="2" LastTimeInTableViewStatus="1">
+<doubles/>
+<strings/>
+<parameters/>
+<paramindicators/>
+</CiaProperDlg>
+</Item>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings>
+<Item Value="&amp;ASCA"/>
+</strings>
+</CiaCollString>
+</Item>
+<Item/>
+<Item/>
+<Item>
+<CiaDOUBLE Class="CiaDOUBLE" Double="330"/>
+</Item>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings/>
+</CiaCollString>
+</Item>
+<Item/>
+<Item>
+<CiaDOUBLE Class="CiaDOUBLE" Double="-1"/>
+</Item>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+<Item>
+<CiaCString Class="CiaCString" String="&amp;ASC0"/>
+</Item>
+<Item/>
+<Item/>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings>
+<Item Value="&amp;ASCA"/>
+</strings>
+</CiaCollString>
+</Item>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+</Attributes>
+<Ports>
+<Item CiID="600111632"/>
+<Item CiID="600113504"/>
+<Item CiID="600113192"/>
+</Ports>
+</CiComponent>

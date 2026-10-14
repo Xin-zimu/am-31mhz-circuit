@@ -1,0 +1,12 @@
+﻿verify 09/18/2026 01:16:53
+connected=True ver=Multisim 14.3
+opened CircuitName='fixed' FileName='D:\ewbwork\fixed.ms14'
+components count=21 -> C110,C111,C115,CBB,D101,EAM_-EAM,EBB,ECHANNEL,EPA,ERX,R110,R113,R116,R117,RBB,RLOAD,RRF,VCARRIER,VCC,VINPUT,VREF
+variants = Default1
+RLCValue(RLOAD) = 1000000
+RLCValue(CBB)   = 1.32629E-10
+RLCValue(RRF)   = 50
+SaveAs -> 'D:\实验报告文件夹\电路2\debug\multisim_resaved.ms14'
+app LastErrorMessage=''
+resaved exists: True size=182421
+verify done

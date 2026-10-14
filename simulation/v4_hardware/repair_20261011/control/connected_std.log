@@ -1,0 +1,63 @@
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>source D:/ms_xsp/repair_20261011/connected_output.cir
+_uc7676581ea547d4ee476848f9351fa
+source D:/ms_xsp/repair_20261011/connected_output.cir
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>begin-scope page Transient Analysis
+_uc7676581ea547d4ee476848f9351fa
+begin-scope page Transient Analysis
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>checknodes 3
+_uc7676581ea547d4ee476848f9351fa
+checknodes 3
+checknodes: no such command available in XSPICE
+checknodes: no such command available in XSPICE
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>save $v1 $tp6 $bb_in $bb_fb $bbo $v2
+_uc7676581ea547d4ee476848f9351fa
+save $v1 $tp6 $bb_in $bb_fb $bbo $v2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>iplot $v1 $tp6 $bb_in $bb_fb $bbo $v2
+_uc7676581ea547d4ee476848f9351fa
+iplot $v1 $tp6 $bb_in $bb_fb $bbo $v2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>set trtol = 1
+_uc7676581ea547d4ee476848f9351fa
+set trtol = 1
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>set reltol = 0.0001
+_uc7676581ea547d4ee476848f9351fa
+set reltol = 0.0001
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>set itl4 = 100
+_uc7676581ea547d4ee476848f9351fa
+set itl4 = 100
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>set convlimit
+_uc7676581ea547d4ee476848f9351fa
+set convlimit
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>set rshunt = 1e+012
+_uc7676581ea547d4ee476848f9351fa
+set rshunt = 1e+012
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>set dynamicdc
+_uc7676581ea547d4ee476848f9351fa
+set dynamicdc
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>set inertialdelay
+_uc7676581ea547d4ee476848f9351fa
+set inertialdelay
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:32:58)
+_uc3547d4ee4ff1a>tran 2n 200u 0 2n uic
+_uc7676581ea547d4ee476848f9351fa
+tran 2n 200u 0 2n uic
+Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09
+Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:33:21)
+_uc3547d4ee4ff1a>write-and-destroy-iplot "D:/ms_xsp/repair_20261011/connected_output.raw"
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670811_uc165e5, 13:33:21)
+_uc3547d4ee4ff1a>end-scope
+_uc7676581ea547d4ee476848f9351fa
+end-scope

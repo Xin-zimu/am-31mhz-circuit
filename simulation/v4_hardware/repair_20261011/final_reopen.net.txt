@@ -1,0 +1,295 @@
+_uca7f51886862a5544aff08676581ea65876863ff1aAM_20k_31MHz_V4_3_REPAIRED_uc1ff09   (_uc46253537065e5671f: 2026_uc15e7410_uc1670812_uc165e5, 0:12:25)
+--------------------------------------------------------------------------------------
+_uc27f517edc                     _uc375358def56fe                _uc3514356684ef6                          _uc27ba1811a             
+--------------------------------------------------------------------------------------
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ _uc257307ebf                           1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ RLOAD                        2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ CDEC                         2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ CBULK                        2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ RHB                          2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ CBB                          2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ U1A_-ECOMP1                  8              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ U1A_-ECOMP1                  4              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ RDB                          2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ CBB_DECOUPLE                 2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ U1B_-ECOMP2                  4              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ RVAB                         2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ RINPUT                       2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ CINPUT                       2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ VCC                          2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ VREF                         2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ VCARRIER                     2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ EAM_-EAM                     8              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ EAM_-EAM                     4              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ EAM_-EAM                     2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ U2_OPA197_-EOPABOX           4              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ EPA                          1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ U2_OPA197_-EOPABOX           8              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ ECHANNEL                     1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ ERX                          3              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ ERX                          1              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ R117                         2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ C111                         2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ V5                           2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ R110                         2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ CT                           2              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ U1B_-ECOMP2                  8              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ ECHANNEL                     3              
+                       REPAIRED                                                       
+0                      AM_20k_31MHz_V4_3_ EPA                          3              
+                       REPAIRED                                                       
+ANT_RX                 AM_20k_31MHz_V4_3_ ERX                          2              
+                       REPAIRED                                                       
+ANT_RX                 AM_20k_31MHz_V4_3_ ECHANNEL                     4              
+                       REPAIRED                                                       
+BB_FB                  AM_20k_31MHz_V4_3_ U2_OPA197_-EOPABOX           2              
+                       REPAIRED                                                       
+BB_FB                  AM_20k_31MHz_V4_3_ RV_BB                        2              
+                       REPAIRED                                                       
+BB_FB                  AM_20k_31MHz_V4_3_ RG_BB                        1              
+                       REPAIRED                                                       
+BB_IN                  AM_20k_31MHz_V4_3_ R113                         1              
+                       REPAIRED                                                       
+BB_IN                  AM_20k_31MHz_V4_3_ C115                         2              
+                       REPAIRED                                                       
+BB_IN                  AM_20k_31MHz_V4_3_ U2_OPA197_-EOPABOX           1              
+                       REPAIRED                                                       
+BBO                    AM_20k_31MHz_V4_3_ RBB                          1              
+                       REPAIRED                                                       
+BBO                    AM_20k_31MHz_V4_3_ RF_BB                        1              
+                       REPAIRED                                                       
+BBO                    AM_20k_31MHz_V4_3_ U2_OPA197_-EOPABOX           7              
+                       REPAIRED                                                       
+DET_RF                 AM_20k_31MHz_V4_3_ C110                         2              
+                       REPAIRED                                                       
+DET_RF                 AM_20k_31MHz_V4_3_ D101                         A              
+                       REPAIRED                                                       
+DET_RF                 AM_20k_31MHz_V4_3_ R117                         1              
+                       REPAIRED                                                       
+DUTY                   AM_20k_31MHz_V4_3_ RVDT                         2              
+                       REPAIRED                                                       
+DUTY                   AM_20k_31MHz_V4_3_ RVDB                         1              
+                       REPAIRED                                                       
+DUTY                   AM_20k_31MHz_V4_3_ U1B_-ECOMP2                  1              
+                       REPAIRED                                                       
+DUTY_BOT               AM_20k_31MHz_V4_3_ RVDB                         2              
+                       REPAIRED                                                       
+DUTY_BOT               AM_20k_31MHz_V4_3_ RDB                          1              
+                       REPAIRED                                                       
+DUTY_TOP               AM_20k_31MHz_V4_3_ RVDT                         1              
+                       REPAIRED                                                       
+DUTY_TOP               AM_20k_31MHz_V4_3_ RDT                          2              
+                       REPAIRED                                                       
+FB_TRIM                AM_20k_31MHz_V4_3_ RF_BB                        2              
+                       REPAIRED                                                       
+FB_TRIM                AM_20k_31MHz_V4_3_ RV_BB                        1              
+                       REPAIRED                                                       
+FSET                   AM_20k_31MHz_V4_3_ RVRF                         1              
+                       REPAIRED                                                       
+FSET                   AM_20k_31MHz_V4_3_ RFIX                         2              
+                       REPAIRED                                                       
+HYST                   AM_20k_31MHz_V4_3_ RHT                          2              
+                       REPAIRED                                                       
+HYST                   AM_20k_31MHz_V4_3_ RHB                          1              
+                       REPAIRED                                                       
+HYST                   AM_20k_31MHz_V4_3_ U1A_-ECOMP1                  1              
+                       REPAIRED                                                       
+HYST                   AM_20k_31MHz_V4_3_ RHF                          2              
+                       REPAIRED                                                       
+OSC                    AM_20k_31MHz_V4_3_ RFIX                         1              
+                       REPAIRED                                                       
+OSC                    AM_20k_31MHz_V4_3_ RHF                          1              
+                       REPAIRED                                                       
+OSC                    AM_20k_31MHz_V4_3_ U1A_-ECOMP1                  7              
+                       REPAIRED                                                       
+OSC                    AM_20k_31MHz_V4_3_ RPU1                         2              
+                       REPAIRED                                                       
+PWM_RAW                AM_20k_31MHz_V4_3_ U1B_-ECOMP2                  7              
+                       REPAIRED                                                       
+PWM_RAW                AM_20k_31MHz_V4_3_ RPU2                         2              
+                       REPAIRED                                                       
+PWM_RAW                AM_20k_31MHz_V4_3_ RVAT                         1              
+                       REPAIRED                                                       
+RAMP                   AM_20k_31MHz_V4_3_ U1A_-ECOMP1                  2              
+                       REPAIRED                                                       
+RAMP                   AM_20k_31MHz_V4_3_ U1B_-ECOMP2                  2              
+                       REPAIRED                                                       
+RAMP                   AM_20k_31MHz_V4_3_ RVRF                         2              
+                       REPAIRED                                                       
+RAMP                   AM_20k_31MHz_V4_3_ CT                           1              
+                       REPAIRED                                                       
+RF_OUT                 AM_20k_31MHz_V4_3_ RRF                          2              
+                       REPAIRED                                                       
+RF_OUT                 AM_20k_31MHz_V4_3_ C110                         1              
+                       REPAIRED                                                       
+TP2                    AM_20k_31MHz_V4_3_ VCARRIER                     1              
+                       REPAIRED                                                       
+TP2                    AM_20k_31MHz_V4_3_ EAM_-EAM                     1              
+                       REPAIRED                                                       
+TP3                    AM_20k_31MHz_V4_3_ EAM_-EAM                     7              
+                       REPAIRED                                                       
+TP3                    AM_20k_31MHz_V4_3_ EPA                          2              
+                       REPAIRED                                                       
+TP4                    AM_20k_31MHz_V4_3_ ECHANNEL                     2              
+                       REPAIRED                                                       
+TP4                    AM_20k_31MHz_V4_3_ EPA                          4              
+                       REPAIRED                                                       
+TP5                    AM_20k_31MHz_V4_3_ RRF                          1              
+                       REPAIRED                                                       
+TP5                    AM_20k_31MHz_V4_3_ ERX                          4              
+                       REPAIRED                                                       
+TP6                    AM_20k_31MHz_V4_3_ C115                         1              
+                       REPAIRED                                                       
+TP6                    AM_20k_31MHz_V4_3_ D101                         K              
+                       REPAIRED                                                       
+TP6                    AM_20k_31MHz_V4_3_ R110                         1              
+                       REPAIRED                                                       
+TP6                    AM_20k_31MHz_V4_3_ C111                         1              
+                       REPAIRED                                                       
+V1                     AM_20k_31MHz_V4_3_ RVAB                         1              
+                       REPAIRED                                                       
+V1                     AM_20k_31MHz_V4_3_ CINPUT                       1              
+                       REPAIRED                                                       
+V1                     AM_20k_31MHz_V4_3_ RINPUT                       1              
+                       REPAIRED                                                       
+V1                     AM_20k_31MHz_V4_3_ EAM_-EAM                     3              
+                       REPAIRED                                                       
+V1                     AM_20k_31MHz_V4_3_ RVAT                         2              
+                       REPAIRED                                                       
+V2                     AM_20k_31MHz_V4_3_ R116                         2              
+                       REPAIRED                                                       
+V2                     AM_20k_31MHz_V4_3_ RLOAD                        1              
+                       REPAIRED                                                       
+V2_OP                  AM_20k_31MHz_V4_3_ R116                         1              
+                       REPAIRED                                                       
+V2_OP                  AM_20k_31MHz_V4_3_ CBB                          1              
+                       REPAIRED                                                       
+V2_OP                  AM_20k_31MHz_V4_3_ RBB                          2              
+                       REPAIRED                                                       
+V5                     AM_20k_31MHz_V4_3_ V5                           1              
+                       REPAIRED                                                       
+V5                     AM_20k_31MHz_V4_3_ CDEC                         1              
+                       REPAIRED                                                       
+V5                     AM_20k_31MHz_V4_3_ CBULK                        1              
+                       REPAIRED                                                       
+V5                     AM_20k_31MHz_V4_3_ RPU2                         1              
+                       REPAIRED                                                       
+V5                     AM_20k_31MHz_V4_3_ U1B_-ECOMP2                  3              
+                       REPAIRED                                                       
+V5                     AM_20k_31MHz_V4_3_ U1A_-ECOMP1                  3              
+                       REPAIRED                                                       
+V5                     AM_20k_31MHz_V4_3_ RHT                          1              
+                       REPAIRED                                                       
+V5                     AM_20k_31MHz_V4_3_ RDT                          1              
+                       REPAIRED                                                       
+V5                     AM_20k_31MHz_V4_3_ RPU1                         1              
+                       REPAIRED                                                       
+VCC                    AM_20k_31MHz_V4_3_ VCC                          1              
+                       REPAIRED                                                       
+VCC                    AM_20k_31MHz_V4_3_ U2_OPA197_-EOPABOX           3              
+                       REPAIRED                                                       
+VCC                    AM_20k_31MHz_V4_3_ CBB_DECOUPLE                 1              
+                       REPAIRED                                                       
+VREF                   AM_20k_31MHz_V4_3_ R113                         2              
+                       REPAIRED                                                       
+VREF                   AM_20k_31MHz_V4_3_ VREF                         1              
+                       REPAIRED                                                       
+VREF                   AM_20k_31MHz_V4_3_ RG_BB                        2              
+                       REPAIRED                                                       
+--------------------------------------------------------------------------------------

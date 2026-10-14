@@ -1,0 +1,43 @@
+####
+#Date: 2026Äê9ÔÂ18ÈÕ 0:40:18
+#OSName: Windows 10 Home China 
+#OSVers: 6.2
+#OSBuild: 9200
+#AppName: multisim
+#Version: 19.0.1f4 32-bit
+#AppKind: AppLib
+#AppModDate: 
+#LabVIEW Base Address: 0x524C0000
+
+
+InitExecSystem() call to GetCurrProcessNumProcessors() reports: 28 processors
+InitExecSystem() call to GetNumProcessors()            reports: 28 processors
+InitExecSystem()                                      will use: 28 processors
+starting LabVIEW Execution System 2 Thread 0 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 1 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 2 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 3 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 4 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 5 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 6 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 7 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 8 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 9 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 10 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 11 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 12 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 13 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 14 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 15 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 16 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 17 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 18 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 19 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 20 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 21 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 22 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 23 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 24 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 25 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 26 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]
+starting LabVIEW Execution System 2 Thread 27 , capacity: 42 at [3872508020.27301741, (00:40:20.273017407 2026:09:18)]

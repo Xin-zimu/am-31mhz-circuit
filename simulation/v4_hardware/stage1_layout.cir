@@ -1,0 +1,30 @@
+LM393P Stage 1 - RC oscillator, PWM threshold, amplitude potentiometer
+* TI LM393 macromodel from installed NI Multisim master database LM393/TI.
+* U1A: DIP pins IN+=3 IN-=2 V+=8 GND=4 OUT=1
+* U1B: DIP pins IN+=5 IN-=6 V+=8 GND=4 OUT=7
+V5 V5 0 5
+CDEC V5 0 100n
+CBULK V5 0 10u
+RPU1 V5 OSC 2.2k
+RHT V5 HYST 30k
+RHB HYST 0 10k
+RHF OSC HYST 20k
+RFIX OSC FSET 22k
+RVRF FSET RAMP 15288.86443
+CT RAMP 0 1n
+ECOMP1 OSC 0 POLY(2) (HYST,RAMP) (V5,0) 0 1 0
+* VDUTY resistor chain: 10k + 10k potentiometer + 4.7k.
+RDT V5 DUTY_TOP 10k
+RVDT DUTY_TOP DUTY 7362.468268
+RVDB DUTY DUTY_BOT 2637.531732
+RDB DUTY_BOT 0 4.7k
+ECOMP2 PWM_RAW 0 POLY(2) (DUTY,RAMP) (V5,0) 0 1 0
+RPU2 V5 PWM_RAW 2.2k
+* 20k amplitude potentiometer, wiper at V1, includes specified load.
+RVAT PWM_RAW V1 1847.92782
+RVAB V1 0 18152.07218
+RINPUT V1 0 1000000
+CINPUT V1 0 15p
+
+.tran 50n 1.5m 0 50n
+.end

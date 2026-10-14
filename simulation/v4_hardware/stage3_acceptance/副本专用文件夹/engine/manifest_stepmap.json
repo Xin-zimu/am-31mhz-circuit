@@ -1,0 +1,28 @@
+{
+  "cases": {
+    "M_2n_2n": {
+      "tran": "tran 2n 2u 0 2n uic"
+    },
+    "M_1n_1n": {
+      "tran": "tran 1n 2u 0 1n uic"
+    },
+    "M_2n_1n": {
+      "tran": "tran 2n 2u 0 1n uic"
+    },
+    "M_1n_2n": {
+      "tran": "tran 1n 2u 0 2n uic"
+    },
+    "M_1n_1008p": {
+      "tran": "tran 1n 2u 0 1.008e-9 uic"
+    },
+    "M_2n_1008p": {
+      "tran": "tran 2n 2u 0 1.008e-9 uic"
+    },
+    "M_05n_2n": {
+      "tran": "tran 500p 2u 0 2n uic"
+    },
+    "M_1n_10n": {
+      "tran": "tran 1n 2u 0 10n uic"
+    }
+  }
+}

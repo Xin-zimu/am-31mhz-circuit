@@ -1,0 +1,189 @@
+{
+  "purpose": "S03-04 control-line difference closure: does the GUI control block alone explain the ~226 ns transient nonconvergence?",
+  "source_netlist": {
+    "file": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\cold_gui_actual.cir",
+    "sha256": "a75c55258e9a9973f4b266574c814e2c4a388ef10db1ff5a03c85ec5f2e6f16d",
+    "note": "Exact GUI export of S03_COLD_ZERO_GEAR500_UIC_20us. Copied, .end appended, nothing else changed."
+  },
+  "staging_dir_ascii": "D:\\ms_xsp\\stage3_acceptance\\s0304",
+  "canonical_dir": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹",
+  "tests": {
+    "A_ref": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\A_ref.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\A_ref.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "1",
+        "reltol": "0.0001",
+        "itl4": "500",
+        "method": "gear"
+      },
+      "extra": {},
+      "tstop": "20u",
+      "note": "documented engine configuration; expected to reach 20 us"
+    },
+    "B_xspice_default": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\B_xspice_default.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\B_xspice_default.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "7",
+        "reltol": "0.001",
+        "itl4": "100"
+      },
+      "extra": {},
+      "tstop": "20u",
+      "note": "XSPICE defaults, i.e. GUI settings actually in force if the GUI .options were ignored"
+    },
+    "C_tight": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\C_tight.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\C_tight.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "0.5",
+        "reltol": "1e-06",
+        "itl4": "500",
+        "method": "gear"
+      },
+      "extra": {},
+      "tstop": "20u",
+      "note": "stricter than GUI"
+    },
+    "D_tightest": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\D_tightest.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\D_tightest.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "0.1",
+        "reltol": "1e-09",
+        "itl4": "500",
+        "method": "gear"
+      },
+      "extra": {},
+      "tstop": "20u",
+      "note": "much stricter than GUI"
+    },
+    "E_trap_nomethod": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\E_trap_nomethod.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\E_trap_nomethod.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "1",
+        "reltol": "0.0001",
+        "itl4": "500"
+      },
+      "extra": {},
+      "tstop": "20u",
+      "note": "same LTE, trapezoidal instead of gear"
+    },
+    "F_tmax1ns_f500ns": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\F_tmax1ns_f500ns.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\F_tmax1ns_f500ns.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "1",
+        "reltol": "0.0001",
+        "itl4": "100"
+      },
+      "extra": {
+        "tmax": "1e-09"
+      },
+      "tstop": "500n",
+      "note": "TMAX forced to 1 ns; TSTOP=500n"
+    },
+    "F_tmax1ns_f2us": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\F_tmax1ns_f2us.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\F_tmax1ns_f2us.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "1",
+        "reltol": "0.0001",
+        "itl4": "100"
+      },
+      "extra": {
+        "tmax": "1e-09"
+      },
+      "tstop": "2u",
+      "note": "TMAX forced to 1 ns; TSTOP=2u"
+    },
+    "F_tmax1ns_f20us": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\F_tmax1ns_f20us.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\F_tmax1ns_f20us.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "1",
+        "reltol": "0.0001",
+        "itl4": "100"
+      },
+      "extra": {
+        "tmax": "1e-09"
+      },
+      "tstop": "20u",
+      "note": "TMAX forced to 1 ns; TSTOP=20u"
+    },
+    "G_pivtol": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\G_pivtol.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\G_pivtol.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "1",
+        "reltol": "0.0001",
+        "itl4": "500",
+        "method": "gear"
+      },
+      "extra": {
+        "pivtol": "1e-15"
+      },
+      "tstop": "20u",
+      "note": "tighter pivot tolerance"
+    },
+    "H_gmin": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\H_gmin.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\H_gmin.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "1",
+        "reltol": "0.0001",
+        "itl4": "500",
+        "method": "gear"
+      },
+      "extra": {
+        "gmin": "0"
+      },
+      "tstop": "20u",
+      "note": "kills the parallel gmin leak conductances"
+    },
+    "I_chgtol": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\I_chgtol.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\I_chgtol.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "1",
+        "reltol": "0.0001",
+        "itl4": "500",
+        "method": "gear"
+      },
+      "extra": {
+        "chgtol": "1e-18"
+      },
+      "tstop": "20u",
+      "note": "tighter charge tolerance"
+    },
+    "J_trap_maxord1": {
+      "cmd": "D:\\ms_xsp\\stage3_acceptance\\s0304\\J_trap_maxord1.cmd",
+      "canonical_cmd": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\J_trap_maxord1.cmd",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "options": {
+        "trtol": "1",
+        "reltol": "0.0001",
+        "itl4": "500",
+        "method": "trapezoidal"
+      },
+      "extra": {
+        "maxord": "1"
+      },
+      "tstop": "20u",
+      "note": "backward Euler via maxord=1"
+    }
+  }
+}

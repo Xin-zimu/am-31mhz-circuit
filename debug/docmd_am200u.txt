@@ -1,0 +1,7 @@
+﻿docmd start 09/18/2026 00:24:14 tag=am200u
+00:24:19.918 | connected=True
+00:24:20.051 | NewFile -> '设计1'
+00:24:20.057 | DoCommandLine returned ok
+00:24:27.821 | waited 7.8s, log size=1064
+00:24:27.826 | SimulationState=0 LastErrorMessage=''
+00:24:27.949 | docmd done

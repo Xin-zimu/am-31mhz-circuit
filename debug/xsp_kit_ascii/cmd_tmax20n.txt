@@ -1,0 +1,4 @@
+source D:\ms_xsp\net_am.cir
+tran 20n 30u 0 20n
+display
+write D:\ms_xsp\out_tmax20n.raw $tp3

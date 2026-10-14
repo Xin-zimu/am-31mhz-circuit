@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-14",
+  "authorization": "User agreed to skip native GUI reproduction as a prerequisite.",
+  "scope": "Multisim command-line engine source + tran, dispatched via COM DoCommandLine. No native GUI pass claimed.",
+  "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\L_7ms_1ns.cir",
+  "source_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+  "requested_tstep_s": 1e-09,
+  "requested_tmax_s": 1e-09,
+  "initial": "UIC, C111/C115/CBB zero, ideal supplies, calculation from t=0",
+  "effective_solver_options_equality_to_gui": "not proven, not claimed",
+  "cases": {
+    "TSTART_full20us": {
+      "tran": "tran 1n 20u 0 1n uic",
+      "changes": [],
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "command_sha256": "f0211f6e0303e1443bce4935908a0e3d439cd49833320364dacf38af6154c606"
+    },
+    "TSTART_tail20us": {
+      "tran": "tran 1n 20u 10u 1n uic",
+      "changes": [],
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "command_sha256": "dbf863eca7a2c3c6708ebbb6936f59c9a5fe710395129f47152069ac11a85624"
+    },
+    "COLD_A4_9ms_tail": {
+      "tran": "tran 1n 9m 8.5m 1n uic",
+      "changes": [],
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "command_sha256": "8eac034bc26baf1ccc315b67f34327a8be1930b3ad2e4e7cfec72b0022bd4e8a"
+    },
+    "COLD_A2_9ms_tail": {
+      "tran": "tran 1n 9m 8.5m 1n uic",
+      "changes": [
+        {
+          "component": "rRVAT",
+          "old_ohm": "1847.93",
+          "new_ohm": "10905.5"
+        },
+        {
+          "component": "rRVAB",
+          "old_ohm": "18152.1",
+          "new_ohm": "9094.46"
+        }
+      ],
+      "netlist_sha256": "1604a20063aa70bba0c7ee099b56f26bd313427ef744f938170dac6fb0d26901",
+      "command_sha256": "14a50fcc827718cc9f4ce971923af92c442530a843926863fd67cb1b01a3a31d"
+    }
+  }
+}

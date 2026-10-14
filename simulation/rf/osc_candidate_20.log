@@ -1,0 +1,21 @@
+LTspice 26.0.0 for Windows
+Circuit: D:\实验报告文件夹\电路2\simulation\rf\osc_candidate_20.cir
+Start Time: Thu Sep 17 13:45:28 2026
+Options:plotwinsize=0 reltol=0.0003
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = trap
+reltol = 0.0003
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 1.048 seconds.
+
+Files loaded:
+D:\实验报告文件夹\电路2\simulation\rf\osc_candidate_20.cir
+
+osc_pp: PP(V(OSC_C) )=25.0656123161 FROM 2.5e-05 TO 3e-05
+buf_pp: PP(V(CARRIER_BUF) )=11.4825396538 FROM 2.5e-05 TO 3e-05
+tx_current: AVG(-I(VTX) )=0.0123898066046 FROM 2.5e-05 TO 3e-05
+period=2.98234397418e-06 FROM 2.50076009806e-05 TO 2.79899449548e-05
+freq: 100/PERIOD=33530672.8082

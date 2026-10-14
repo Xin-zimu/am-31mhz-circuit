@@ -1,0 +1,8 @@
+{
+  "cases": {
+    "L_7ms_1ns": {
+      "tran": "tran 1n 7m 0 1n uic",
+      "purpose": "cold start settling; 10 ms exceeded solver limit"
+    }
+  }
+}

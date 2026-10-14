@@ -1,0 +1,1 @@
+﻿TMAX1ns          status=SOLVER-STOPPED   reached~1.000E+000s chunks=1 wall=1.3s msg=

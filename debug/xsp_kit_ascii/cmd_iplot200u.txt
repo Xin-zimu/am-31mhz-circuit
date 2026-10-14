@@ -1,0 +1,16 @@
+source D:\ms_xsp\net_am.cir
+begin-scope page Transient Analysis
+checknodes 3
+save $tp3 $tp6 $v1 $v2
+iplot $tp3 $tp6 $v1 $v2
+set trtol = 7
+set itl4 = 100
+set convlimit
+set rshunt = 1e+012
+set dynamicdc
+set inertialdelay
+tran -env-options 2e-09 200e-6 0 2e-09 auto_ic auto_tstep auto_tmax
+if-error end-scope audit-log-show
+show all
+write-and-destroy-iplot "D:\ms_xsp\out_iplot200u.raw"
+end-scope

@@ -1,0 +1,2 @@
+﻿probe2 start 09/18/2026 00:14:56
+00:15:02.029 | connected=True ver=Multisim 14.3

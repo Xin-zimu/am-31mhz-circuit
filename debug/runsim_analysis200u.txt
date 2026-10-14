@@ -1,0 +1,17 @@
+﻿runsim 09/18/2026 00:55:25
+00:55:30.611 | connected=True ver=Multisim 14.3
+00:55:31.255 | opened 'AM_22k_D50_A4V_debug'
+00:55:31.518 | EnumOutputs count=1 -> 
+00:55:31.521 | state before = 0
+00:55:31.641 | chunk 1 simt<=20us wall=0.11s state=1 err=''
+00:55:31.646 |    NICDS CIR9961.tmp: -1 -> 4356
+00:55:31.649 |    NICDS Inst_multisim~5FA0.tmp: -1 -> 0
+00:55:31.655 |    NICDS JET9642.tmp: -1 -> 0
+00:55:31.660 |    NICDS JET9653.tmp: -1 -> 0
+00:55:31.669 |    NICDS lvtl1395815232.rsc: -1 -> 32
+00:55:31.671 |    NICDS multisim_32_19.0.1f4_xin_cur.txt: 3805 -> 0
+00:55:31.677 |    NICDS {DAE72507-BD63-44B3-BD03-201A0C3437AE}: -1 -> 16384
+00:55:31.698 | chunk 2 EXC Error HRESULT E_FAIL has been returned from a call to a COM component. lastErr='ä»¿çå·²å¨è¿è¡ã'
+00:55:31.699 | final state=1 err='ä»¿çå·²å¨è¿è¡ã'
+00:55:31.716 | multisim ws=143.2MB responding=True
+00:55:32.000 | runsim done

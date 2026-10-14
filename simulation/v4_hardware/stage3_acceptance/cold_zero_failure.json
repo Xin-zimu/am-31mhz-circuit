@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-13",
+  "solver": "Multisim 14.3 native GUI",
+  "file": "S03_COLD_ZERO_TRAP100_FAILURE.ms14",
+  "sha256": "f6e25fdb140b9efb3e625d01340c782801462238e34d0e912410981ca09fa055",
+  "TSTOP_s": 0.002,
+  "observed_stop_s_approx": 5.2e-08,
+  "error": "Unable to converge during transient analysis. Simulation canceled.",
+  "completed": false,
+  "ITL4": 100,
+  "RELTOL": 0.0001,
+  "TRTOL": 1
+}

@@ -1,0 +1,115 @@
+Starting simulation server: \\.\pipe\Multisim\55f4\09E08710
+Starting registry loading
+Finshed registry loading
+Plug-in bode
+...loaded
+Plug-in cnc-si
+...loaded
+Plug-in components
+...loaded
+Plug-in comutilsi
+...loaded
+Plug-in emisimserver
+...loaded
+Plug-in descriptionbox
+...loaded
+Plug-in distor
+...loaded
+Plug-in drwglobalobj
+...loaded
+Plug-in fgen
+...loaded
+Plug-in fgen_at
+...loaded
+Plug-in freqcounter
+...loaded
+Plug-in imeter
+...loaded
+Plug-in instagcy
+...loaded
+Plug-in interact
+...loaded
+Plug-in iv_analyzer
+...loaded
+Plug-in libraryinterface
+...loaded
+Plug-in logconv
+...loaded
+Plug-in logican
+...loaded
+Plug-in lvinstrument
+...loaded
+Plug-in maininterface
+...loaded
+Plug-in mulmeter
+...loaded
+Plug-in mulmeter_at
+...loaded
+Plug-in netan
+...loaded
+Plug-in postproc
+...loaded
+Plug-in probe
+...loaded
+Plug-in probeext
+...loaded
+Plug-in sch_cap
+...loaded
+Plug-in scope
+...loaded
+Plug-in scope_4ch
+...loaded
+Plug-in scope_at
+...loaded
+Plug-in scope_tk
+...loaded
+Plug-in scripting
+...loaded
+Plug-in simulationserver
+...loaded
+Plug-in spec_an
+...loaded
+Plug-in wattmetr
+...loaded
+Plug-in wgen
+...loaded
+Plug-in MainInterface initialization succeeded.
+Plug-in DrwGlobalObj initialization succeeded.
+Plug-in SCH_CAP initialization succeeded.
+Plug-in Components initialization succeeded.
+Plug-in CNC_Snapin initialization succeeded.
+Plug-in InstrumentAgency_Snapin initialization succeeded.
+Plug-in ComUtilities_Snapin initialization succeeded.
+Plug-in Distortionmanager_snapin initialization succeeded.
+Plug-in FreqCounterManager_Snapin initialization succeeded.
+Plug-in FunctionGeneratorManager_AT_snapin initialization succeeded.
+Plug-in FunctionGeneratorManager_Snapin initialization succeeded.
+Plug-in BodePlotterManager_Snapin initialization succeeded.
+Plug-in InteractiveComponentManager_Snapin initialization succeeded.
+Plug-in IV_AnalyzerManager_Snapin initialization succeeded.
+Plug-in LogicAnalyzerManager_Snapin initialization succeeded.
+Plug-in Multimeter_AT_Manager_Snapin initialization succeeded.
+Plug-in MultimeterManager_Snapin initialization succeeded.
+Plug-in NetworkAnalyzerManager_Snapin initialization succeeded.
+Plug-in OScilloscopeManager_4CH_Snapin initialization succeeded.
+Plug-in OScilloscopeManager_AT_Snapin initialization succeeded.
+Plug-in PostProcessor_snapin initialization succeeded.
+Plug-in Probemanager_snapin initialization succeeded.
+Plug-in SpectralAnalyzerManager_Snapin initialization succeeded.
+Plug-in WattMeterManager_Snapin initialization succeeded.
+Plug-in WordGeneratorManager_Snapin initialization succeeded.
+Plug-in OScilloscopeManager_Snapin initialization succeeded.
+Plug-in Logic_Converter initialization succeeded.
+Plug-in DescriptionBox initialization succeeded.
+Plug-in OScilloscopeManager_TK_Snapin initialization succeeded.
+Plug-in LVInstrument initialization succeeded.
+Plug-in Scripting initialization succeeded.
+Simulation server OnSequenceInit.
+Plug-in SimulationServer initialization succeeded.
+Plug-in IMetermanager_snapin initialization succeeded.
+CoSimulation server OnSequenceInit.
+CoSimulation server not started.
+Plug-in EmiSimServer initialization failed.
+Plug-in ProbeExtmanager_snapin initialization succeeded.
+Simulation server connecting to \\.\pipe\Multisim\55f4\09E08710
+Simulation server successfully connected to MSInterface.

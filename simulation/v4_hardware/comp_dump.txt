@@ -1,0 +1,234 @@
+<CiComponent Class="CiComponent" LocalName="&amp;ASCA1" SymCompID="66892888" InstanceID="{60ED23FA-06FF-49EF-A1A5-3063201105E5}" Circuit="592958600">
+<Attributes>
+<Item/>
+<Item>
+<CiaSpiceTmpltExprt Class="CiaSpiceTmpltExprt" String="&amp;ASCx%p %t1 %t2 %t3 %t4 %t5 %t6 %t7 %t8 POLYSource%p
+.SUBCKT POLYSource%p 1 2 3 4 5 6 7 8
+E1 7 8 POLY(3) (1,2) (3,4) (5,6) #0 #1 #2 #3 #4 #5 #6 #7 #8 #9  0 0 0 0 #10
+R0 1 2 1e15
+R1 3 4 1e15
+R2 5 6 1e15
+R3 5 0 1e15
+R4 3 0 1e15
+R5 1 0 1e15
+.ENDS
+"/>
+</Item>
+<Item>
+<CiaParamList Class="CiaParamList">
+<doubles>
+<Item Value="0"/>
+<Item Value="1"/>
+<Item Value="0"/>
+</doubles>
+<strings/>
+<parameters>
+<Item Value="&amp;ASC0"/>
+<Item Value="&amp;ASC1"/>
+<Item Value="&amp;ASC0"/>
+<Item Value="&amp;ASC0"/>
+<Item Value="&amp;ASC0"/>
+<Item Value="&amp;ASC0"/>
+<Item Value="&amp;ASC0"/>
+<Item Value="&amp;ASC0"/>
+<Item Value="&amp;ASC0"/>
+<Item Value="&amp;ASC0"/>
+<Item Value="&amp;ASC0"/>
+</parameters>
+<paramindicators>
+<Item Value="1"/>
+<Item Value="1"/>
+<Item Value="1"/>
+<Item Value="1"/>
+<Item Value="1"/>
+<Item Value="1"/>
+<Item Value="1"/>
+<Item Value="1"/>
+<Item Value="1"/>
+<Item Value="1"/>
+<Item Value="1"/>
+</paramindicators>
+</CiaParamList>
+</Item>
+<Item/>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings>
+<Item Value="&amp;ASCCONTROL_FUNCTION_BLOCKS"/>
+<Item Value="&amp;ASCPOLYNOMIAL_VOLTAGE"/>
+<Item Value="&amp;ASCCONTROL_FUNCTION_BLOCKS"/>
+<Item Value="&amp;ASCEMPTY"/>
+<Item Value="&amp;ASC1"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASCGeneric"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASCL0"/>
+<Item Value="&amp;ASCV14.0"/>
+<Item Value="&amp;ASCA0"/>
+<Item Value="&amp;ASCSources"/>
+<Item Value="&amp;ASC$ANALOG$"/>
+<Item Value="&amp;ASCGeneric"/>
+<Item Value="&amp;ASCV7"/>
+<Item Value="&amp;ASCA0"/>
+<Item Value="&amp;ASC@"/>
+<Item Value="&amp;ASCPolynomial Voltage Source"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASC1"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASC1"/>
+</strings>
+</CiaCollString>
+</Item>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings>
+<Item Value="&amp;ASC16"/>
+<Item Value="&amp;ASCProduct"/>
+<Item Value="&amp;ASCCONTROL_FUNCTION_BLOCKS"/>
+<Item Value=""/>
+<Item Value="&amp;ASCA%d"/>
+<Item Value="&amp;ASCx%p %t1 %t2 %t3 %t4 %t5 %t6 %t7 %t8 POLYSource%p
+.SUBCKT POLYSource%p 1 2 3 4 5 6 7 8
+E1 7 8 POLY(3) (1,2) (3,4) (5,6) #0 #1 #2 #3 #4 #5 #6 #7 #8 #9  0 0 0 0 #10
+R0 1 2 1e15
+R1 3 4 1e15
+R2 5 6 1e15
+R3 5 0 1e15
+R4 3 0 1e15
+R5 1 0 1e15
+.ENDS"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASCGeneric"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASCJVT"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value="&amp;ASC18"/>
+<Item Value=""/>
+<Item Value=""/>
+<Item Value=""/>
+</strings>
+</CiaCollString>
+</Item>
+<Item/>
+<Item/>
+<Item>
+<CiaFault Class="CiaFault" FaultType="3" LeakResistanceValue="100" LeakResistanceScale="&amp;ASCOhm">
+<FaultPorts/>
+</CiaFault>
+</Item>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item>
+<CiaProperDlg Class="CiaProperDlg" ActivePage="2" LastTimeInTableViewStatus="0">
+<doubles/>
+<strings/>
+<parameters/>
+<paramindicators/>
+</CiaProperDlg>
+</Item>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings>
+<Item Value="&amp;ASCA"/>
+</strings>
+</CiaCollString>
+</Item>
+<Item/>
+<Item/>
+<Item>
+<CiaDOUBLE Class="CiaDOUBLE" Double="138"/>
+</Item>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings/>
+</CiaCollString>
+</Item>
+<Item/>
+<Item>
+<CiaDOUBLE Class="CiaDOUBLE" Double="-1"/>
+</Item>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+<Item>
+<CiaCString Class="CiaCString" String="&amp;ASC0"/>
+</Item>
+<Item/>
+<Item/>
+<Item>
+<CiaCollString Class="CiaCollString">
+<strings>
+<Item Value="&amp;ASCA"/>
+</strings>
+</CiaCollString>
+</Item>
+<Item/>
+<Item/>
+<Item/>
+<Item/>
+<Item>
+<CiaCString Class="CiaCString" String=""/>
+</Item>
+</Attributes>
+<Ports>
+<Item CiID="592476848"/>
+<Item CiID="592476952"/>
+<Item CiID="592478096"/>
+<Item CiID="592477160"/>
+<Item CiID="592479240"/>
+<Item CiID="592478720"/>
+<Item CiID="592477576"/>
+<Item CiID="592477472"/>
+</Ports>
+</CiComponent>

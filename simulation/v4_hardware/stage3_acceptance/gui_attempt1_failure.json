@@ -1,0 +1,26 @@
+{
+  "stage": "S03-03",
+  "status": "FAILED_GUI_OUT_OF_MEMORY",
+  "project": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_GUI_5ms_V4_3.ms14",
+  "sha256": "90f83fe9a4095107dcaa99a3e88226f37761ee54e6e2e8336f6accfa3b281f63",
+  "tstart_s": 0,
+  "tstop_s": 0.005,
+  "tmax_s": 2e-09,
+  "tstep_s": 2e-09,
+  "max_points": 10000000,
+  "nodes": [
+    "V(bb_in)",
+    "V(bbo)",
+    "V(v1)",
+    "V(v2)"
+  ],
+  "entry": "Native Multisim Analyses and Simulation / Run, after reopening saved file",
+  "initial_condition": "User-defined; C111=0.43 V, C115=-4.1 V, CBB=4.5 V",
+  "baseline_unchanged": true,
+  "gra_saved": false,
+  "metrics_verified": false,
+  "observed_failure_time_s": 0.003469,
+  "observed_private_memory_MB": 828,
+  "error": "There is insufficient memory to complete the simulation.",
+  "next_attempt": "Restart Multisim; integrate to 5 ms, save only 4-5 ms, keep four nodes and 2 ns TMAX/TSTEP"
+}

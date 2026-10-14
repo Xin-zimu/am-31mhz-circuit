@@ -1,0 +1,12 @@
+﻿msaa_walk 09/18/2026 00:44:52
+main=0x2B06B6
+role=10 state=1048576 name='AM_22k_D50_A4V_debug - Multisim - [AM_22k_D50_A4V_debug]'
+  leaf role= name='' (idx 1)
+  leaf role= name='' (idx 2)
+  leaf role= name='' (idx 3)
+  leaf role= name='' (idx 4)
+  leaf role= name='' (idx 5)
+  leaf role= name='' (idx 6)
+  leaf role= name='' (idx 7)
+total nodes: 8
+msaa_walk done

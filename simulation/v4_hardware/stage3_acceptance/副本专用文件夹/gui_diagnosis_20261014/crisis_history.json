@@ -1,0 +1,46 @@
+{
+  "engine 20 us (same netlist as the GUI failure)": {
+    "file": "cold_engine_gui_net.raw",
+    "points": 20176,
+    "end_s": 2e-05,
+    "dt_min_s": 8.000000000000127e-14,
+    "dt_median_s": 1.0080645161286196e-09,
+    "frac_at_ceiling": 0.9139529120198265,
+    "events_lt_10ps": 2,
+    "first_event_s": 2e-11,
+    "median_spacing_s": 2.257809495465159e-07
+  },
+  "engine 20 us, TSTEP=TMAX=2 ns request (M_2n_2n)": {
+    "file": "M_2n_2n.raw",
+    "points": 2075,
+    "end_s": 2e-06,
+    "dt_min_s": 8.000000000000127e-14,
+    "dt_median_s": 1.008064516129043e-09,
+    "frac_at_ceiling": 0.8727097396335584,
+    "events_lt_10ps": 2,
+    "first_event_s": 2e-11,
+    "median_spacing_s": 2.257806623204046e-07
+  },
+  "engine 2 ms, 1 ns (Z_2ms_1ns)": {
+    "file": "Z_2ms_1ns.raw",
+    "points": 2023504,
+    "end_s": 0.002,
+    "dt_min_s": 4.000000000000064e-14,
+    "dt_median_s": 1.0000000000157452e-09,
+    "frac_at_ceiling": 0.0,
+    "events_lt_10ps": 1,
+    "first_event_s": 1e-11,
+    "median_spacing_s": null
+  },
+  "engine 7 ms cold start (L_7ms_1ns)": {
+    "file": "L_7ms_1ns.raw",
+    "points": 7127505,
+    "end_s": 0.007,
+    "dt_min_s": 4.000000000000064e-14,
+    "dt_median_s": 1.0000000000157452e-09,
+    "frac_at_ceiling": 0.0,
+    "events_lt_10ps": 11,
+    "first_event_s": 1e-11,
+    "median_spacing_s": 7.516991317005361e-05
+  }
+}

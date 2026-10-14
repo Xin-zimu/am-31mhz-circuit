@@ -1,0 +1,12 @@
+{
+  "cases": {
+    "Z_2ms_2ns": {
+      "tran": "tran 2n 2m 0 2n uic",
+      "notes": "nominal cold start, zero ICs, 2 ms"
+    },
+    "Z_2ms_1ns": {
+      "tran": "tran 1n 2m 0 1n uic",
+      "notes": "nominal cold start, zero ICs, 2 ms"
+    }
+  }
+}

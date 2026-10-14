@@ -1,0 +1,8 @@
+{
+  "event_s": 2.2580645161290325e-07,
+  "carrier_hz": 31000000.0,
+  "engine_median_step_s": 1.0080645161286196e-09,
+  "gui_median_step_s": 3.0703663340017005e-10,
+  "engine_step_at_event_s": 1.209549963793581e-12,
+  "gui_step_at_event_s": 1.1609989705136872e-14
+}

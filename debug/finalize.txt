@@ -1,0 +1,18 @@
+﻿finalize 09/18/2026 01:18:19
+connected=True
+=============== D:\实验报告文件夹\电路2\simulation\system\AM_22k_D50_A4V_debug.ms14
+  size before = 360812
+  opened 'AM_22k_D50_A4V_debug' components=21
+  variants = Default1
+  RLOAD=1000000 CBB=1.32629E-10 RRF=50
+  Save() -> D:\实验报告文件夹\电路2\simulation\system\AM_22k_D50_A4V_debug.ms14
+  size after  = 182348
+=============== D:\实验报告文件夹\电路2\debug\AM_22k_D50_A4V_CONTROL_128k.ms14
+  size before = 360777
+  opened 'AM_22k_D50_A4V_CONTROL_128k' components=21
+  variants = Default1
+  RLOAD=1000000 CBB=1.32629E-10 RRF=50
+  Save() -> D:\实验报告文件夹\电路2\debug\AM_22k_D50_A4V_CONTROL_128k.ms14
+  size after  = 182234
+app LastErrorMessage=''
+finalize done

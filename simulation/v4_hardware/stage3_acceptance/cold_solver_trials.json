@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-13",
+  "stage": "S03-04",
+  "status": "UNRESOLVED_TRANSIENT_NONCONVERGENCE",
+  "solver": "Multisim 14.3 native GUI",
+  "passed": false,
+  "error": "Unable to converge during transient analysis. Simulation canceled.",
+  "trials": [
+    {
+      "name": "TRAP500",
+      "project": {
+        "file": "S03_COLD_ZERO_TRAP500_20us.ms14",
+        "bytes": 369731,
+        "sha256": "b04cb034dc67076fee62389b86ebc3ac8c5add18b8ea837d52927b3fe894414c"
+      },
+      "settings_snapshot": {
+        "file": "trap500_20us_settings.xml",
+        "bytes": 2718321,
+        "sha256": "2eb88dff62f4abcc74874e539ac8d942964eb29841678e269e7edc64b52c0aa2"
+      },
+      "gra": {
+        "file": "S03_COLD_ZERO_TRAP500_20us.gra",
+        "bytes": 37502,
+        "sha256": "b86212332ea695dfc1b4acf769c87757c378eb61288b515ef6c74e5eeb700e72"
+      },
+      "settings": {
+        "TSTEP": "2e-09",
+        "TSTOP": "2e-05",
+        "TSTART": "0",
+        "TMAX": "2e-09",
+        "IC": "zero_ic",
+        "itl4": {
+          "enabled": true,
+          "value": "500"
+        },
+        "method": {
+          "enabled": false,
+          "value": "trapezoidal"
+        },
+        "reltol": {
+          "enabled": true,
+          "value": "0.0001"
+        },
+        "trtol": {
+          "enabled": true,
+          "value": "1"
+        }
+      },
+      "traces": {
+        "V(bb_in)": {
+          "points": 439,
+          "end_s": 2.2579554774369283e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 3.567148894384967e-05,
+          "last_value_v": 0.566546761093891
+        },
+        "V(bbo)": {
+          "points": 439,
+          "end_s": 2.2579554774369283e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 0.046745808052817736,
+          "last_value_v": 0.005586107434772348
+        },
+        "V(v1)": {
+          "points": 439,
+          "end_s": 2.2579554774369283e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 0.001594482141863528,
+          "last_value_v": 4.03231761383903
+        },
+        "V(v2)": {
+          "points": 439,
+          "end_s": 2.2579554774369283e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 7.047339503215437e-06,
+          "last_value_v": 0.011843518455298751
+        }
+      },
+      "completed_20us": false,
+      "component_blocks_equal_ignoring_runtime_ids": true
+    },
+    {
+      "name": "GEAR500",
+      "project": {
+        "file": "S03_COLD_ZERO_GEAR500_20us.ms14",
+        "bytes": 370107,
+        "sha256": "da570f724f00caf0bb7db2637016118e500c03caebc03295b942c87abdc61a55"
+      },
+      "settings_snapshot": {
+        "file": "gear500_20us_settings.xml",
+        "bytes": 2718314,
+        "sha256": "a96159b6f81baa9229bafba094a4e7793a7c512b0b47bffedd0e5a285c080caf"
+      },
+      "gra": {
+        "file": "S03_COLD_GEAR_page_audit.gra",
+        "bytes": 46436,
+        "sha256": "c3fedbeebbfa263faf035373d5a204aa036dd430e3cfc6b46d599b0b02182ab7"
+      },
+      "settings": {
+        "TSTEP": "2e-09",
+        "TSTOP": "2e-05",
+        "TSTART": "0",
+        "TMAX": "2e-09",
+        "IC": "zero_ic",
+        "itl4": {
+          "enabled": true,
+          "value": "500"
+        },
+        "method": {
+          "enabled": true,
+          "value": "gear"
+        },
+        "reltol": {
+          "enabled": true,
+          "value": "0.0001"
+        },
+        "trtol": {
+          "enabled": true,
+          "value": "1"
+        }
+      },
+      "traces": {
+        "V(bb_in)": {
+          "points": 557,
+          "end_s": 2.2579842868014298e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 3.567148894384967e-05,
+          "last_value_v": 0.5654986378983896
+        },
+        "V(bbo)": {
+          "points": 557,
+          "end_s": 2.2579842868014298e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 0.046745808052817736,
+          "last_value_v": 0.0055858827307525595
+        },
+        "V(v1)": {
+          "points": 557,
+          "end_s": 2.2579842868014298e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 0.001594482141863528,
+          "last_value_v": 4.032329766901475
+        },
+        "V(v2)": {
+          "points": 557,
+          "end_s": 2.2579842868014298e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 7.047339503215437e-06,
+          "last_value_v": 0.01183843878216047
+        }
+      },
+      "completed_20us": false,
+      "component_blocks_equal_ignoring_runtime_ids": true
+    },
+    {
+      "name": "GEAR500_REOPEN",
+      "project": {
+        "file": "S03_COLD_ZERO_GEAR500_20us.ms14",
+        "bytes": 370107,
+        "sha256": "da570f724f00caf0bb7db2637016118e500c03caebc03295b942c87abdc61a55"
+      },
+      "settings_snapshot": {
+        "file": "gear500_reopen_saved_settings.xml",
+        "bytes": 2718811,
+        "sha256": "eac1e664063db9b06921f41acc9d0e4e0e4fdad1ca9ab14c2837b6e72dbe6970"
+      },
+      "gra": {
+        "file": "S03_COLD_ZERO_GEAR500_REOPEN_20us.gra",
+        "bytes": 46436,
+        "sha256": "5cd750608244681165ded03cf0af850815ec13b24f0fab5f0d72eb504d7802fa"
+      },
+      "settings": {
+        "TSTEP": "2e-09",
+        "TSTOP": "2e-05",
+        "TSTART": "0",
+        "TMAX": "2e-09",
+        "IC": "zero_ic",
+        "itl4": {
+          "enabled": true,
+          "value": "500"
+        },
+        "method": {
+          "enabled": true,
+          "value": "gear"
+        },
+        "reltol": {
+          "enabled": true,
+          "value": "0.0001"
+        },
+        "trtol": {
+          "enabled": true,
+          "value": "1"
+        }
+      },
+      "traces": {
+        "V(bb_in)": {
+          "points": 557,
+          "end_s": 2.2579842868014298e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 3.567148894384967e-05,
+          "last_value_v": 0.5654986378983896
+        },
+        "V(bbo)": {
+          "points": 557,
+          "end_s": 2.2579842868014298e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 0.046745808052817736,
+          "last_value_v": 0.0055858827307525595
+        },
+        "V(v1)": {
+          "points": 557,
+          "end_s": 2.2579842868014298e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 0.001594482141863528,
+          "last_value_v": 4.032329766901475
+        },
+        "V(v2)": {
+          "points": 557,
+          "end_s": 2.2579842868014298e-07,
+          "first_positive_time_s": 2.0000000000000002e-11,
+          "first_positive_value_v": 7.047339503215437e-06,
+          "last_value_v": 0.01183843878216047
+        }
+      },
+      "completed_20us": false,
+      "component_blocks_equal_ignoring_runtime_ids": true
+    }
+  ],
+  "gear_reopen_arrays_identical": true,
+  "evidence_notes": [
+    "TRAP/Gear first runs and Gear fresh-process reopen/run occurred before the interrupted turn; final save, export and audit were completed in this resumed turn.",
+    "Gear first page retained an old TRAP title; fresh-process reopen page uses the Gear project title. Trace arrays match the Gear first run.",
+    "Component block comparison does not by itself validate all wire topology or external model references.",
+    "Ideal DC supplies; no supply ramp. Nonzero-time samples exclude the former 4.5 V precharge, but do not prove every internal macro-model state is zero.",
+    "All three trials failed before 20 us. No startup-time, steady-state, or hardware-startup conclusion follows."
+  ]
+}

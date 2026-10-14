@@ -1,0 +1,3 @@
+const fs=require('fs');
+const codec=require('D:/Deepseek WorkSpace/v4.1/node_modules/electronics-workbench-decoder');
+(async()=>{let [mode,src,dst]=process.argv.slice(2);if(mode==='encode'){let bytes=fs.readFileSync(src);let data=codec.encodeBuffer(bytes,codec.formatForExtension('.ms14'));fs.writeFileSync(dst,data);let check=await codec.decodeFile(dst);if(!Buffer.from(check.xml).equals(bytes))throw Error('roundtrip mismatch');console.log('roundtrip verified',bytes.length,data.length);}else{let data=await codec.decodeFile(src);fs.writeFileSync(dst,data.xml);console.log('decoded',src);}})().catch(e=>{console.error(e);process.exit(1)});

@@ -1,0 +1,341 @@
+<Item ID="66892888" Class="CIITSymbolComp">
+<CIITSymbolComp Class="CIITSymbolComp" instID="0" Stretchable="0" Moveable="1" LabelSelectable="0" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" PenColor="0" FgColor="0" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="531" Transformer-M21="549" Hidden="0" Container="0" Type="" ToolTip="" Prompt="" UserDefinedLabelPos="1" LabelPos="0" HorizLabelPos="0" DBComponentSectionName="" DBComponentType="0" OrientationFlip="0" OriginalColor="0" FileDataPackageID="" InstanceRefDes="" IRSection="" IRSectionID="0" ElvisFlags="0" NumSections="1" CiComponent="592478616">
+<Objects>
+<Item ID="589096688" Class="CIITSymTextCompName">
+<CIITSymTextCompName Class="CIITSymTextCompName" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASCA1" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCArial" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="76.0031738" Transformer-M21="27" Hidden="0" HorizontalAlign="1" VerticalAlign="0" KeepCurrentFont="0" />
+</Item>
+<Item ID="592303552" Class="CIITSymTextCompValue">
+<CIITSymTextCompValue Class="CIITSymTextCompValue" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC1*V1" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCArial" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="76" Transformer-M21="128" Hidden="0" HorizontalAlign="1" VerticalAlign="0" KeepCurrentFont="0" />
+</Item>
+<Item ID="592304128" Class="CIITSymTextCompLocation">
+<CIITSymTextCompLocation Class="CIITSymTextCompLocation" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="76" Transformer-M21="128" Hidden="0" HorizontalAlign="1" VerticalAlign="0" KeepCurrentFont="0" />
+</Item>
+<Item ID="592309744" Class="CIITSymbolBorderRect">
+<CIITSymbolBorderRect Class="CIITSymbolBorderRect" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" pt0X="45" pt0Y="45" pt1X="108" pt1Y="126" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589096048" Class="CODPolygonComp">
+<CODPolygonComp Class="CODPolygonComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" PenColor="0" FgColor="0" BgColor="16777215" Brush-Style="1" Brush-Hatch="0" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<Points>
+<Item X="45" Y="45" />
+<Item X="45" Y="126" />
+<Item X="99" Y="126" />
+<Item X="108" Y="126" />
+<Item X="108" Y="45" />
+<Item X="45" Y="45" />
+</Points>
+</CODPolygonComp>
+</Item>
+<Item ID="595665264" Class="CODMultiLineComp">
+<CODMultiLineComp Class="CODMultiLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<Points>
+<Item X="108" Y="54" />
+<Item X="90" Y="54" />
+<Item X="90" Y="75" />
+</Points>
+</CODMultiLineComp>
+</Item>
+<Item ID="595666224" Class="CODMultiLineComp">
+<CODMultiLineComp Class="CODMultiLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<Points>
+<Item X="90" Y="99" />
+<Item X="90" Y="117" />
+<Item X="108" Y="117" />
+</Points>
+</CODMultiLineComp>
+</Item>
+<Item ID="589096128" Class="CODPolygonComp">
+<CODPolygonComp Class="CODPolygonComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" PenColor="0" FgColor="0" BgColor="16777215" Brush-Style="1" Brush-Hatch="0" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<Points>
+<Item X="90" Y="75" />
+<Item X="78" Y="87" />
+<Item X="90" Y="99" />
+<Item X="102" Y="87" />
+<Item X="90" Y="75" />
+</Points>
+</CODPolygonComp>
+</Item>
+<Item ID="592296208" Class="CODRectComp">
+<CODRectComp Class="CODRectComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" pt0X="55" pt0Y="48" pt1X="64" pt1Y="69" PenColor="0" FgColor="0" Brush-Style="1" Brush-Hatch="0" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589095568" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="56" pt0Y="53" pt1X="62" pt1Y="53" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589096448" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="59" pt0Y="50" pt1X="59" pt1Y="56" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589095808" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="56" pt0Y="65" pt1X="62" pt1Y="65" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="592294408" Class="CODRectComp">
+<CODRectComp Class="CODRectComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" pt0X="55" pt0Y="75" pt1X="64" pt1Y="96" PenColor="0" FgColor="0" Brush-Style="1" Brush-Hatch="0" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589096608" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="56" pt0Y="80" pt1X="62" pt1Y="80" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589096528" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="59" pt0Y="77" pt1X="59" pt1Y="83" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589095328" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="56" pt0Y="92" pt1X="62" pt1Y="92" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="592296784" Class="CODRectComp">
+<CODRectComp Class="CODRectComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" pt0X="55" pt0Y="102" pt1X="64" pt1Y="123" PenColor="0" FgColor="0" Brush-Style="1" Brush-Hatch="0" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589096368" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="56" pt0Y="107" pt1X="62" pt1Y="107" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589095408" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="59" pt0Y="104" pt1X="59" pt1Y="110" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589095648" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="56" pt0Y="119" pt1X="62" pt1Y="119" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589095488" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="63" pt0Y="57" pt1X="87" pt1Y="81" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="2" Pen-Width="0" Pen-Color="0" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589095728" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="63" pt0Y="114" pt1X="84" pt1Y="93" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="2" Pen-Width="0" Pen-Color="0" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="589092928" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="63" pt0Y="87" pt1X="78" pt1Y="87" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="2" Pen-Width="0" Pen-Color="0" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" />
+</Item>
+<Item ID="592300816" Class="CODTextComp">
+<CODTextComp Class="CODTextComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC+" PenColor="0" Font-Height="-11" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCMicrosoft Sans Serif" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="87" Transformer-M21="75" Hidden="0" HorizontalAlign="0" VerticalAlign="0" KeepCurrentFont="1" />
+</Item>
+<Item ID="592299520" Class="CODTextComp">
+<CODTextComp Class="CODTextComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC-" PenColor="0" Font-Height="-11" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCMicrosoft Sans Serif" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="88" Transformer-M21="86" Hidden="0" HorizontalAlign="0" VerticalAlign="0" KeepCurrentFont="1" />
+</Item>
+<Item ID="207533888" Class="CIITPinSymbolComp">
+<CIITPinSymbolComp Class="CIITPinSymbolComp" instID="0" Stretchable="0" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Brush-Style="1" Brush-Hatch="0" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="1" Font-OutPrecision="0" Font-ClipPrecision="0" Font-Quality="0" Font-PitchAndFamily="0" Font-FaceName="&amp;ASCCourier New" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" Container="0" Type="" ToolTip="" Prompt="" UserDefinedLabelPos="1" LabelPos="0" HorizLabelPos="0" PinName="&amp;ASC1" PinNumber="&amp;ASC1" PinShape="2" ShowName="0" ShowNameUser="0" ShowNumber="0" ShowNumberUser="0" RotationName="0" PositionName="0" RotationNumber="0" PositionNumber="0" OriginalPinNamePositionInSEX="51" OriginalPinNamePositionInSEY="54" PinNumberOrientationInSE="0" PinNameOrientationInSE="0" InternalPin="0" PinNumberLocationside="3" PinNameLocationside="3" PinType="&amp;ASCGRP:A" PortID="592476848">
+<Objects>
+<Item ID="593633976" Class="CIITPinConnectorComp">
+<CIITPinConnectorComp Class="CIITPinConnectorComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Text="" Internal="0" ptCenterX="36" ptCenterY="54" Mobility="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+<ConnectList>
+<Item ID="593615672" Class="CODPinComp" />
+</ConnectList>
+</CIITPinConnectorComp>
+</Item>
+<Item ID="592299088" Class="CIITPinSymTextCompName">
+<CIITPinSymTextCompName Class="CIITPinSymTextCompName" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC1" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" FontOriginal-Height="-9" FontOriginal-Width="0" FontOriginal-Escapement="0" FontOriginal-Orientation="0" FontOriginal-Weight="400" FontOriginal-Italic="0" FontOriginal-Underline="0" FontOriginal-StrikeOut="0" FontOriginal-CharSet="0" FontOriginal-OutPrecision="3" FontOriginal-ClipPrecision="2" FontOriginal-Quality="1" FontOriginal-PitchAndFamily="49" FontOriginal-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="51" Transformer-M21="54" Hidden="0" HorizontalAlign="0" VerticalAlign="1" />
+</Item>
+<Item ID="592299736" Class="CIITPinSymTextCompNumber">
+<CIITPinSymTextCompNumber Class="CIITPinSymTextCompNumber" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC1" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="27" Transformer-M21="45" Hidden="0" />
+</Item>
+<Item ID="589093888" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="45" pt0Y="54" pt1X="36" pt1Y="54" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="0" Pen-Color="0" Hidden="0" />
+</Item>
+</Objects>
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+</CIITPinSymbolComp>
+</Item>
+<Item ID="207534184" Class="CIITPinSymbolComp">
+<CIITPinSymbolComp Class="CIITPinSymbolComp" instID="0" Stretchable="0" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Brush-Style="1" Brush-Hatch="0" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="1" Font-OutPrecision="0" Font-ClipPrecision="0" Font-Quality="0" Font-PitchAndFamily="0" Font-FaceName="&amp;ASCCourier New" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" Container="0" Type="" ToolTip="" Prompt="" UserDefinedLabelPos="1" LabelPos="0" HorizLabelPos="0" PinName="&amp;ASC2" PinNumber="&amp;ASC2" PinShape="2" ShowName="0" ShowNameUser="0" ShowNumber="0" ShowNumberUser="0" RotationName="0" PositionName="0" RotationNumber="0" PositionNumber="0" OriginalPinNamePositionInSEX="51" OriginalPinNamePositionInSEY="63" PinNumberOrientationInSE="0" PinNameOrientationInSE="0" InternalPin="0" PinNumberLocationside="3" PinNameLocationside="3" PinType="&amp;ASCGRP:A" PortID="592476952">
+<Objects>
+<Item ID="593634152" Class="CIITPinConnectorComp">
+<CIITPinConnectorComp Class="CIITPinConnectorComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Text="" Internal="0" ptCenterX="36" ptCenterY="63" Mobility="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+<ConnectList>
+<Item ID="594073216" Class="CODPinComp" />
+</ConnectList>
+</CIITPinConnectorComp>
+</Item>
+<Item ID="592298944" Class="CIITPinSymTextCompName">
+<CIITPinSymTextCompName Class="CIITPinSymTextCompName" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC2" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" FontOriginal-Height="-9" FontOriginal-Width="0" FontOriginal-Escapement="0" FontOriginal-Orientation="0" FontOriginal-Weight="400" FontOriginal-Italic="0" FontOriginal-Underline="0" FontOriginal-StrikeOut="0" FontOriginal-CharSet="0" FontOriginal-OutPrecision="3" FontOriginal-ClipPrecision="2" FontOriginal-Quality="1" FontOriginal-PitchAndFamily="49" FontOriginal-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="51" Transformer-M21="63" Hidden="0" HorizontalAlign="0" VerticalAlign="1" />
+</Item>
+<Item ID="592299016" Class="CIITPinSymTextCompNumber">
+<CIITPinSymTextCompNumber Class="CIITPinSymTextCompNumber" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC2" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="27" Transformer-M21="54" Hidden="0" />
+</Item>
+<Item ID="589094448" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="45" pt0Y="63" pt1X="36" pt1Y="63" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="0" Pen-Color="0" Hidden="0" />
+</Item>
+</Objects>
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+</CIITPinSymbolComp>
+</Item>
+<Item ID="207534480" Class="CIITPinSymbolComp">
+<CIITPinSymbolComp Class="CIITPinSymbolComp" instID="0" Stretchable="0" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Brush-Style="1" Brush-Hatch="0" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="1" Font-OutPrecision="0" Font-ClipPrecision="0" Font-Quality="0" Font-PitchAndFamily="0" Font-FaceName="&amp;ASCCourier New" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" Container="0" Type="" ToolTip="" Prompt="" UserDefinedLabelPos="1" LabelPos="0" HorizLabelPos="0" PinName="&amp;ASC3" PinNumber="&amp;ASC3" PinShape="2" ShowName="0" ShowNameUser="0" ShowNumber="0" ShowNumberUser="0" RotationName="0" PositionName="0" RotationNumber="0" PositionNumber="0" OriginalPinNamePositionInSEX="51" OriginalPinNamePositionInSEY="81" PinNumberOrientationInSE="0" PinNameOrientationInSE="0" InternalPin="0" PinNumberLocationside="3" PinNameLocationside="3" PinType="&amp;ASCGRP:A" PortID="592478096">
+<Objects>
+<Item ID="593631160" Class="CIITPinConnectorComp">
+<CIITPinConnectorComp Class="CIITPinConnectorComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Text="" Internal="0" ptCenterX="36" ptCenterY="81" Mobility="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+<ConnectList>
+<Item ID="594083776" Class="CODPinComp" />
+</ConnectList>
+</CIITPinConnectorComp>
+</Item>
+<Item ID="592301968" Class="CIITPinSymTextCompName">
+<CIITPinSymTextCompName Class="CIITPinSymTextCompName" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC3" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" FontOriginal-Height="-9" FontOriginal-Width="0" FontOriginal-Escapement="0" FontOriginal-Orientation="0" FontOriginal-Weight="400" FontOriginal-Italic="0" FontOriginal-Underline="0" FontOriginal-StrikeOut="0" FontOriginal-CharSet="0" FontOriginal-OutPrecision="3" FontOriginal-ClipPrecision="2" FontOriginal-Quality="1" FontOriginal-PitchAndFamily="49" FontOriginal-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="51" Transformer-M21="81" Hidden="0" HorizontalAlign="0" VerticalAlign="1" />
+</Item>
+<Item ID="592302976" Class="CIITPinSymTextCompNumber">
+<CIITPinSymTextCompNumber Class="CIITPinSymTextCompNumber" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC3" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="27" Transformer-M21="72" Hidden="0" />
+</Item>
+<Item ID="589094928" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="45" pt0Y="81" pt1X="36" pt1Y="81" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="0" Pen-Color="0" Hidden="0" />
+</Item>
+</Objects>
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+</CIITPinSymbolComp>
+</Item>
+<Item ID="207532704" Class="CIITPinSymbolComp">
+<CIITPinSymbolComp Class="CIITPinSymbolComp" instID="0" Stretchable="0" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Brush-Style="1" Brush-Hatch="0" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="1" Font-OutPrecision="0" Font-ClipPrecision="0" Font-Quality="0" Font-PitchAndFamily="0" Font-FaceName="&amp;ASCCourier New" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" Container="0" Type="" ToolTip="" Prompt="" UserDefinedLabelPos="1" LabelPos="0" HorizLabelPos="0" PinName="&amp;ASC5" PinNumber="&amp;ASC4" PinShape="2" ShowName="0" ShowNameUser="0" ShowNumber="0" ShowNumberUser="0" RotationName="0" PositionName="0" RotationNumber="0" PositionNumber="0" OriginalPinNamePositionInSEX="51" OriginalPinNamePositionInSEY="108" PinNumberOrientationInSE="0" PinNameOrientationInSE="0" InternalPin="0" PinNumberLocationside="3" PinNameLocationside="3" PinType="&amp;ASCGRP:A" PortID="592477160">
+<Objects>
+<Item ID="593634504" Class="CIITPinConnectorComp">
+<CIITPinConnectorComp Class="CIITPinConnectorComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Text="" Internal="0" ptCenterX="36" ptCenterY="108" Mobility="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+<ConnectList />
+</CIITPinConnectorComp>
+</Item>
+<Item ID="592302400" Class="CIITPinSymTextCompName">
+<CIITPinSymTextCompName Class="CIITPinSymTextCompName" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC5" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" FontOriginal-Height="-9" FontOriginal-Width="0" FontOriginal-Escapement="0" FontOriginal-Orientation="0" FontOriginal-Weight="400" FontOriginal-Italic="0" FontOriginal-Underline="0" FontOriginal-StrikeOut="0" FontOriginal-CharSet="0" FontOriginal-OutPrecision="3" FontOriginal-ClipPrecision="2" FontOriginal-Quality="1" FontOriginal-PitchAndFamily="49" FontOriginal-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="51" Transformer-M21="108" Hidden="0" HorizontalAlign="0" VerticalAlign="1" />
+</Item>
+<Item ID="592302472" Class="CIITPinSymTextCompNumber">
+<CIITPinSymTextCompNumber Class="CIITPinSymTextCompNumber" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC4" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="27" Transformer-M21="99" Hidden="0" />
+</Item>
+<Item ID="589095248" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="45" pt0Y="108" pt1X="36" pt1Y="108" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="0" Pen-Color="0" Hidden="0" />
+</Item>
+</Objects>
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+</CIITPinSymbolComp>
+</Item>
+<Item ID="207530040" Class="CIITPinSymbolComp">
+<CIITPinSymbolComp Class="CIITPinSymbolComp" instID="0" Stretchable="0" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Brush-Style="1" Brush-Hatch="0" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="1" Font-OutPrecision="0" Font-ClipPrecision="0" Font-Quality="0" Font-PitchAndFamily="0" Font-FaceName="&amp;ASCCourier New" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" Container="0" Type="" ToolTip="" Prompt="" UserDefinedLabelPos="1" LabelPos="0" HorizLabelPos="0" PinName="&amp;ASC4" PinNumber="&amp;ASC5" PinShape="2" ShowName="0" ShowNameUser="0" ShowNumber="0" ShowNumberUser="0" RotationName="0" PositionName="0" RotationNumber="0" PositionNumber="0" OriginalPinNamePositionInSEX="51" OriginalPinNamePositionInSEY="90" PinNumberOrientationInSE="0" PinNameOrientationInSE="0" InternalPin="0" PinNumberLocationside="3" PinNameLocationside="3" PinType="&amp;ASCGRP:A" PortID="592479240">
+<Objects>
+<Item ID="593632216" Class="CIITPinConnectorComp">
+<CIITPinConnectorComp Class="CIITPinConnectorComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Text="" Internal="0" ptCenterX="36" ptCenterY="90" Mobility="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+<ConnectList>
+<Item ID="593630280" Class="CODPinComp" />
+</ConnectList>
+</CIITPinConnectorComp>
+</Item>
+<Item ID="592301176" Class="CIITPinSymTextCompName">
+<CIITPinSymTextCompName Class="CIITPinSymTextCompName" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC4" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" FontOriginal-Height="-9" FontOriginal-Width="0" FontOriginal-Escapement="0" FontOriginal-Orientation="0" FontOriginal-Weight="400" FontOriginal-Italic="0" FontOriginal-Underline="0" FontOriginal-StrikeOut="0" FontOriginal-CharSet="0" FontOriginal-OutPrecision="3" FontOriginal-ClipPrecision="2" FontOriginal-Quality="1" FontOriginal-PitchAndFamily="49" FontOriginal-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="51" Transformer-M21="90" Hidden="0" HorizontalAlign="0" VerticalAlign="1" />
+</Item>
+<Item ID="592302544" Class="CIITPinSymTextCompNumber">
+<CIITPinSymTextCompNumber Class="CIITPinSymTextCompNumber" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC5" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="27" Transformer-M21="81" Hidden="0" />
+</Item>
+<Item ID="589093008" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="45" pt0Y="90" pt1X="36" pt1Y="90" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="0" Pen-Color="0" Hidden="0" />
+</Item>
+</Objects>
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+</CIITPinSymbolComp>
+</Item>
+<Item ID="207533000" Class="CIITPinSymbolComp">
+<CIITPinSymbolComp Class="CIITPinSymbolComp" instID="0" Stretchable="0" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Brush-Style="1" Brush-Hatch="0" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="1" Font-OutPrecision="0" Font-ClipPrecision="0" Font-Quality="0" Font-PitchAndFamily="0" Font-FaceName="&amp;ASCCourier New" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" Container="0" Type="" ToolTip="" Prompt="" UserDefinedLabelPos="1" LabelPos="0" HorizLabelPos="0" PinName="&amp;ASC6" PinNumber="&amp;ASC6" PinShape="2" ShowName="0" ShowNameUser="0" ShowNumber="0" ShowNumberUser="0" RotationName="0" PositionName="0" RotationNumber="0" PositionNumber="0" OriginalPinNamePositionInSEX="51" OriginalPinNamePositionInSEY="117" PinNumberOrientationInSE="0" PinNameOrientationInSE="0" InternalPin="0" PinNumberLocationside="3" PinNameLocationside="3" PinType="&amp;ASCGRP:A" PortID="592478720">
+<Objects>
+<Item ID="593629928" Class="CIITPinConnectorComp">
+<CIITPinConnectorComp Class="CIITPinConnectorComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Text="" Internal="0" ptCenterX="36" ptCenterY="117" Mobility="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+<ConnectList />
+</CIITPinConnectorComp>
+</Item>
+<Item ID="592301104" Class="CIITPinSymTextCompName">
+<CIITPinSymTextCompName Class="CIITPinSymTextCompName" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC6" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" FontOriginal-Height="-9" FontOriginal-Width="0" FontOriginal-Escapement="0" FontOriginal-Orientation="0" FontOriginal-Weight="400" FontOriginal-Italic="0" FontOriginal-Underline="0" FontOriginal-StrikeOut="0" FontOriginal-CharSet="0" FontOriginal-OutPrecision="3" FontOriginal-ClipPrecision="2" FontOriginal-Quality="1" FontOriginal-PitchAndFamily="49" FontOriginal-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="51" Transformer-M21="117" Hidden="0" HorizontalAlign="0" VerticalAlign="1" />
+</Item>
+<Item ID="592301608" Class="CIITPinSymTextCompNumber">
+<CIITPinSymTextCompNumber Class="CIITPinSymTextCompNumber" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC6" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="27" Transformer-M21="108" Hidden="0" />
+</Item>
+<Item ID="589093568" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="45" pt0Y="117" pt1X="36" pt1Y="117" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="0" Pen-Color="0" Hidden="0" />
+</Item>
+</Objects>
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+</CIITPinSymbolComp>
+</Item>
+<Item ID="207532408" Class="CIITPinSymbolComp">
+<CIITPinSymbolComp Class="CIITPinSymbolComp" instID="0" Stretchable="0" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Brush-Style="1" Brush-Hatch="0" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="1" Font-OutPrecision="0" Font-ClipPrecision="0" Font-Quality="0" Font-PitchAndFamily="0" Font-FaceName="&amp;ASCCourier New" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" Container="0" Type="" ToolTip="" Prompt="" UserDefinedLabelPos="1" LabelPos="0" HorizLabelPos="0" PinName="&amp;ASC7" PinNumber="&amp;ASC7" PinShape="2" ShowName="0" ShowNameUser="0" ShowNumber="0" ShowNumberUser="0" RotationName="0" PositionName="0" RotationNumber="0" PositionNumber="0" OriginalPinNamePositionInSEX="102" OriginalPinNamePositionInSEY="54" PinNumberOrientationInSE="0" PinNameOrientationInSE="0" InternalPin="0" PinNumberLocationside="1" PinNameLocationside="1" PinType="&amp;ASCGRP:A" PortID="592477576">
+<Objects>
+<Item ID="593631512" Class="CIITPinConnectorComp">
+<CIITPinConnectorComp Class="CIITPinConnectorComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Text="" Internal="0" ptCenterX="117" ptCenterY="54" Mobility="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+<ConnectList>
+<Item ID="594074096" Class="CODPinComp" />
+</ConnectList>
+</CIITPinConnectorComp>
+</Item>
+<Item ID="592302040" Class="CIITPinSymTextCompName">
+<CIITPinSymTextCompName Class="CIITPinSymTextCompName" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC7" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" FontOriginal-Height="-9" FontOriginal-Width="0" FontOriginal-Escapement="0" FontOriginal-Orientation="0" FontOriginal-Weight="400" FontOriginal-Italic="0" FontOriginal-Underline="0" FontOriginal-StrikeOut="0" FontOriginal-CharSet="0" FontOriginal-OutPrecision="3" FontOriginal-ClipPrecision="2" FontOriginal-Quality="1" FontOriginal-PitchAndFamily="49" FontOriginal-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="102" Transformer-M21="54" Hidden="0" HorizontalAlign="2" VerticalAlign="1" />
+</Item>
+<Item ID="592302256" Class="CIITPinSymTextCompNumber">
+<CIITPinSymTextCompNumber Class="CIITPinSymTextCompNumber" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC7" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="112" Transformer-M21="45" Hidden="0" />
+</Item>
+<Item ID="589093168" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="108" pt0Y="54" pt1X="117" pt1Y="54" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="0" Pen-Color="0" Hidden="0" />
+</Item>
+</Objects>
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+</CIITPinSymbolComp>
+</Item>
+<Item ID="207529448" Class="CIITPinSymbolComp">
+<CIITPinSymbolComp Class="CIITPinSymbolComp" instID="0" Stretchable="0" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Brush-Style="1" Brush-Hatch="0" PenColor="0" FgColor="0" BgColor="16777215" Font-Height="-13" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="700" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="1" Font-OutPrecision="0" Font-ClipPrecision="0" Font-Quality="0" Font-PitchAndFamily="0" Font-FaceName="&amp;ASCCourier New" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0" Container="0" Type="" ToolTip="" Prompt="" UserDefinedLabelPos="1" LabelPos="0" HorizLabelPos="0" PinName="&amp;ASC8" PinNumber="&amp;ASC8" PinShape="2" ShowName="0" ShowNameUser="0" ShowNumber="0" ShowNumberUser="0" RotationName="0" PositionName="0" RotationNumber="0" PositionNumber="0" OriginalPinNamePositionInSEX="102" OriginalPinNamePositionInSEY="117" PinNumberOrientationInSE="0" PinNameOrientationInSE="0" InternalPin="0" PinNumberLocationside="1" PinNameLocationside="1" PinType="&amp;ASCGRP:A" PortID="592477472">
+<Objects>
+<Item ID="593632392" Class="CIITPinConnectorComp">
+<CIITPinConnectorComp Class="CIITPinConnectorComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Text="" Internal="0" ptCenterX="117" ptCenterY="117" Mobility="0" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="1" Pen-Color="16711680" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="0" Transformer-M21="0" Hidden="0">
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+<ConnectList>
+<Item ID="593625528" Class="CODPinComp" />
+</ConnectList>
+</CIITPinConnectorComp>
+</Item>
+<Item ID="592302760" Class="CIITPinSymTextCompName">
+<CIITPinSymTextCompName Class="CIITPinSymTextCompName" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC8" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" FontOriginal-Height="-9" FontOriginal-Width="0" FontOriginal-Escapement="0" FontOriginal-Orientation="0" FontOriginal-Weight="400" FontOriginal-Italic="0" FontOriginal-Underline="0" FontOriginal-StrikeOut="0" FontOriginal-CharSet="0" FontOriginal-OutPrecision="3" FontOriginal-ClipPrecision="2" FontOriginal-Quality="1" FontOriginal-PitchAndFamily="49" FontOriginal-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="102" Transformer-M21="117" Hidden="0" HorizontalAlign="2" VerticalAlign="1" />
+</Item>
+<Item ID="592303048" Class="CIITPinSymTextCompNumber">
+<CIITPinSymTextCompNumber Class="CIITPinSymTextCompNumber" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" Output="&amp;ASC8" Rotation="0" Position="0" Font-Height="-9" Font-Width="0" Font-Escapement="0" Font-Orientation="0" Font-Weight="400" Font-Italic="0" Font-Underline="0" Font-StrikeOut="0" Font-CharSet="0" Font-OutPrecision="3" Font-ClipPrecision="2" Font-Quality="1" Font-PitchAndFamily="34" Font-FaceName="&amp;ASCCourier New" Transformer-M00="1" Transformer-M01="0" Transformer-M10="0" Transformer-M11="1" Transformer-M20="112" Transformer-M21="108" Hidden="0" />
+</Item>
+<Item ID="588335744" Class="CODLineComp">
+<CODLineComp Class="CODLineComp" instID="0" Stretchable="1" Moveable="1" LabelSelectable="1" Selectable="1" LockedPenColor="0" LockedBrushColor="0" Layer="511" ArrowAtSource="0" ArrowAtTarget="0" pt0X="108" pt0Y="117" pt1X="117" pt1Y="117" PenColor="0" FgColor="0" BgColor="16777215" Pen-Style="0" Pen-Width="0" Pen-Color="0" Hidden="0" />
+</Item>
+</Objects>
+<ElectricalObject HiddenName="0">
+<ModifierInfo />
+</ElectricalObject>
+</CIITPinSymbolComp>
+</Item>
+</Objects>
+<CComponentVariantData Class="CComponentVariantData" DefaultNestedVariant="" IncludeVariantByDefault="1">
+<VariantNames>
+<Item Value="&amp;ASCDefault1" />
+</VariantNames>
+<VariantToNestedMap>
+<Element Key="&amp;ASCDefault1">
+<Item Value="&amp;ASCDefault1" />
+</Element>
+</VariantToNestedMap>
+</CComponentVariantData>
+<HiddenPins />
+</CIITSymbolComp>
+</Item>

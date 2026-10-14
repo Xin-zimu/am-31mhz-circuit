@@ -1,0 +1,7 @@
+﻿docmd start 09/18/2026 00:22:56 tag=rc_mechanics
+00:23:02.106 | connected=True
+00:23:02.417 | NewFile -> '设计1'
+00:23:02.426 | DoCommandLine returned ok
+00:23:08.111 | waited 5.7s, log size=2614
+00:23:08.114 | SimulationState=0 LastErrorMessage=''
+00:23:08.245 | docmd done

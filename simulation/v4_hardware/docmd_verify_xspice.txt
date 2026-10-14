@@ -1,0 +1,7 @@
+﻿docmd start 10/09/2026 17:16:44 tag=verify_xspice
+17:16:49.915 | connected=True
+17:16:50.053 | NewFile -> '设计1'
+17:16:50.063 | DoCommandLine returned ok
+17:16:57.164 | waited 7.1s, log size=12546
+17:16:57.169 | SimulationState=1 LastErrorMessage=''
+17:16:57.302 | docmd done

@@ -1,0 +1,9 @@
+﻿ab test 09/18/2026 01:11:59
+opened 'AM_22k_D50_A4V_debug'
+RLCValue(RLOAD) = 1000000
+SaveAs A -> D:\实验报告文件夹\电路2\debug\ab_A.ms14
+set RLCValue ok; now = 2000000
+SaveAs B -> D:\实验报告文件夹\电路2\debug\ab_B.ms14
+file ab_A.ms14 size=182429
+file ab_B.ms14 size=182250
+ab test done

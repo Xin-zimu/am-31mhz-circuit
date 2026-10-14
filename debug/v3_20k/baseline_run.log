@@ -1,0 +1,103 @@
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:09)
+_uc3547d4ee4ff1a>source D:\ms_xsp\v3_20k\baseline_A1.cir
+_uc7676581ea547d4ee476848f9351fa
+source D:\ms_xsp\v3_20k\baseline_A1.cir
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:09)
+_uc3547d4ee4ff1a>save $v1 $v2 $tp6 $tp3 $tp2
+_uc7676581ea547d4ee476848f9351fa
+save $v1 $v2 $tp6 $tp3 $tp2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:09)
+_uc3547d4ee4ff1a>tran 2n 5m 4.8m 2n
+_uc7676581ea547d4ee476848f9351fa
+tran 2n 5m 4.8m 2n
+Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09
+Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09
+Error: Internal simulation error.
+Error: Internal simulation error.
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>write D:\ms_xsp\v3_20k\baseline_A1.raw $v1 $v2 $tp6 $tp3 $tp2
+_uc7676581ea547d4ee476848f9351fa
+write D:\ms_xsp\v3_20k\baseline_A1.raw $v1 $v2 $tp6 $tp3 $tp2
+No such vector V(v1).
+No such vector V(v1).
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>destroy all
+_uc7676581ea547d4ee476848f9351fa
+destroy all
+Error: can't destroy the constant plot
+Error: can't destroy the constant plot
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>source D:\ms_xsp\v3_20k\baseline_A2.cir
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>save $v1 $v2 $tp6 $tp3 $tp2
+_uc7676581ea547d4ee476848f9351fa
+save $v1 $v2 $tp6 $tp3 $tp2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>tran 2n 5m 4.8m 2n
+_uc7676581ea547d4ee476848f9351fa
+tran 2n 5m 4.8m 2n
+Error: Internal simulation error.
+Error: Internal simulation error.
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>write D:\ms_xsp\v3_20k\baseline_A2.raw $v1 $v2 $tp6 $tp3 $tp2
+_uc7676581ea547d4ee476848f9351fa
+write D:\ms_xsp\v3_20k\baseline_A2.raw $v1 $v2 $tp6 $tp3 $tp2
+No such vector V(v1).
+No such vector V(v1).
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>destroy all
+_uc7676581ea547d4ee476848f9351fa
+destroy all
+Error: can't destroy the constant plot
+Error: can't destroy the constant plot
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>source D:\ms_xsp\v3_20k\baseline_A3.cir
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>save $v1 $v2 $tp6 $tp3 $tp2
+_uc7676581ea547d4ee476848f9351fa
+save $v1 $v2 $tp6 $tp3 $tp2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>tran 2n 5m 4.8m 2n
+_uc7676581ea547d4ee476848f9351fa
+tran 2n 5m 4.8m 2n
+Error: Internal simulation error.
+Error: Internal simulation error.
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>write D:\ms_xsp\v3_20k\baseline_A3.raw $v1 $v2 $tp6 $tp3 $tp2
+_uc7676581ea547d4ee476848f9351fa
+write D:\ms_xsp\v3_20k\baseline_A3.raw $v1 $v2 $tp6 $tp3 $tp2
+No such vector V(v1).
+No such vector V(v1).
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>destroy all
+_uc7676581ea547d4ee476848f9351fa
+destroy all
+Error: can't destroy the constant plot
+Error: can't destroy the constant plot
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>source D:\ms_xsp\v3_20k\baseline_A4.cir
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>save $v1 $v2 $tp6 $tp3 $tp2
+_uc7676581ea547d4ee476848f9351fa
+save $v1 $v2 $tp6 $tp3 $tp2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>tran 2n 5m 4.8m 2n
+_uc7676581ea547d4ee476848f9351fa
+tran 2n 5m 4.8m 2n
+Error: Internal simulation error.
+Error: Internal simulation error.
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>write D:\ms_xsp\v3_20k\baseline_A4.raw $v1 $v2 $tp6 $tp3 $tp2
+_uc7676581ea547d4ee476848f9351fa
+write D:\ms_xsp\v3_20k\baseline_A4.raw $v1 $v2 $tp6 $tp3 $tp2
+No such vector V(v1).
+No such vector V(v1).
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167088_uc165e5, 9:38:11)
+_uc3547d4ee4ff1a>destroy all
+_uc7676581ea547d4ee476848f9351fa
+destroy all
+Error: can't destroy the constant plot
+Error: can't destroy the constant plot

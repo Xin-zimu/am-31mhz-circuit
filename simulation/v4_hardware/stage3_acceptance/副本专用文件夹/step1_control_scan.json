@@ -1,0 +1,3186 @@
+{
+  "gui_baseline_audit.xml": {
+    "sha256": "a083bd3899ecca088e2dba979212a3b75f55407fde722f1cc6edbb78c225e01e",
+    "bytes": 2714264,
+    "transient_count": 2,
+    "transients": [
+      {
+        "offset": 38781,
+        "kv": {
+          "TSTEP": "2e-09",
+          "TSTOP": "0.0002",
+          "TSTART": "0",
+          "TMAX": "2e-09",
+          "IC": "uic",
+          "MAX_POINTS": "2000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": true,
+            "value": "0.0001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "1"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      },
+      {
+        "offset": 137232,
+        "kv": {
+          "TSTEP": "calculate",
+          "TSTOP": "1e+30",
+          "TSTART": "0",
+          "TMAX": "1e-05",
+          "IC": "auto_ic",
+          "MAX_POINTS": "2000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "7"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      }
+    ],
+    "keywords": {
+      "suposc": 40,
+      "convlimit": 40,
+      "rshunt": 40,
+      "dynamicdc": 40,
+      "inertialdelay": 40,
+      "method": 40,
+      "maxord": 40,
+      "zero_ic": 0,
+      "uic": 1
+    }
+  },
+  "gui_2ms_saved_settings.xml": {
+    "sha256": "7ee91d2c445c6590a19d53cb12a924e3b0d4966b2039e9ec85c9804613b6c277",
+    "bytes": 2714752,
+    "transient_count": 2,
+    "transients": [
+      {
+        "offset": 38761,
+        "kv": {
+          "TSTEP": "2e-09",
+          "TSTOP": "0.002",
+          "TSTART": "0",
+          "TMAX": "2e-09",
+          "IC": "uic",
+          "MAX_POINTS": "10000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": true,
+            "value": "0.0001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "1"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      },
+      {
+        "offset": 137212,
+        "kv": {
+          "TSTEP": "calculate",
+          "TSTOP": "1e+30",
+          "TSTART": "0",
+          "TMAX": "1e-05",
+          "IC": "auto_ic",
+          "MAX_POINTS": "2000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "7"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      }
+    ],
+    "keywords": {
+      "suposc": 40,
+      "convlimit": 40,
+      "rshunt": 40,
+      "dynamicdc": 40,
+      "inertialdelay": 40,
+      "method": 40,
+      "maxord": 40,
+      "zero_ic": 0,
+      "uic": 1
+    }
+  },
+  "cold_2ms_saved_settings.xml": {
+    "sha256": "75ecf2f7520c57b22cfe914c757ec48cd119d7e4f979f8c8af572b139df78bc4",
+    "bytes": 2715093,
+    "transient_count": 2,
+    "transients": [
+      {
+        "offset": 38763,
+        "kv": {
+          "TSTEP": "2e-09",
+          "TSTOP": "0.002",
+          "TSTART": "0",
+          "TMAX": "2e-09",
+          "IC": "zero_ic",
+          "MAX_POINTS": "10000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": true,
+            "value": "0.0001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "1"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      },
+      {
+        "offset": 137218,
+        "kv": {
+          "TSTEP": "calculate",
+          "TSTOP": "1e+30",
+          "TSTART": "0",
+          "TMAX": "1e-05",
+          "IC": "auto_ic",
+          "MAX_POINTS": "2000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "7"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      }
+    ],
+    "keywords": {
+      "suposc": 40,
+      "convlimit": 40,
+      "rshunt": 40,
+      "dynamicdc": 40,
+      "inertialdelay": 40,
+      "method": 40,
+      "maxord": 40,
+      "zero_ic": 1,
+      "uic": 0
+    }
+  },
+  "cold_explicit_zero_settings.xml": {
+    "sha256": "a9f8da81f5df8144481aab34294b9a630d1cac437f0a0306187b384b6abe0aff",
+    "bytes": 2716973,
+    "transient_count": 2,
+    "transients": [
+      {
+        "offset": 38773,
+        "kv": {
+          "TSTEP": "2e-09",
+          "TSTOP": "0.002",
+          "TSTART": "0",
+          "TMAX": "2e-09",
+          "IC": "zero_ic",
+          "MAX_POINTS": "10000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": true,
+            "value": "0.0001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "1"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      },
+      {
+        "offset": 137228,
+        "kv": {
+          "TSTEP": "calculate",
+          "TSTOP": "1e+30",
+          "TSTART": "0",
+          "TMAX": "1e-05",
+          "IC": "auto_ic",
+          "MAX_POINTS": "2000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "7"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      }
+    ],
+    "keywords": {
+      "suposc": 40,
+      "convlimit": 40,
+      "rshunt": 40,
+      "dynamicdc": 40,
+      "inertialdelay": 40,
+      "method": 40,
+      "maxord": 40,
+      "zero_ic": 1,
+      "uic": 0
+    }
+  },
+  "trap500_20us_settings.xml": {
+    "sha256": "2eb88dff62f4abcc74874e539ac8d942964eb29841678e269e7edc64b52c0aa2",
+    "bytes": 2718321,
+    "transient_count": 2,
+    "transients": [
+      {
+        "offset": 38781,
+        "kv": {
+          "TSTEP": "2e-09",
+          "TSTOP": "2e-05",
+          "TSTART": "0",
+          "TMAX": "2e-09",
+          "IC": "zero_ic",
+          "MAX_POINTS": "10000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": true,
+            "value": "0.0001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "1"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "500"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      },
+      {
+        "offset": 137236,
+        "kv": {
+          "TSTEP": "calculate",
+          "TSTOP": "1e+30",
+          "TSTART": "0",
+          "TMAX": "1e-05",
+          "IC": "auto_ic",
+          "MAX_POINTS": "2000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "7"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      }
+    ],
+    "keywords": {
+      "suposc": 40,
+      "convlimit": 40,
+      "rshunt": 40,
+      "dynamicdc": 40,
+      "inertialdelay": 40,
+      "method": 40,
+      "maxord": 40,
+      "zero_ic": 1,
+      "uic": 0
+    }
+  },
+  "gear500_20us_settings.xml": {
+    "sha256": "a96159b6f81baa9229bafba094a4e7793a7c512b0b47bffedd0e5a285c080caf",
+    "bytes": 2718314,
+    "transient_count": 2,
+    "transients": [
+      {
+        "offset": 38781,
+        "kv": {
+          "TSTEP": "2e-09",
+          "TSTOP": "2e-05",
+          "TSTART": "0",
+          "TMAX": "2e-09",
+          "IC": "zero_ic",
+          "MAX_POINTS": "10000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": true,
+            "value": "0.0001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "1"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "500"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": true,
+            "value": "gear"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      },
+      {
+        "offset": 137229,
+        "kv": {
+          "TSTEP": "calculate",
+          "TSTOP": "1e+30",
+          "TSTART": "0",
+          "TMAX": "1e-05",
+          "IC": "auto_ic",
+          "MAX_POINTS": "2000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "7"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      }
+    ],
+    "keywords": {
+      "suposc": 40,
+      "convlimit": 40,
+      "rshunt": 40,
+      "dynamicdc": 40,
+      "inertialdelay": 40,
+      "method": 40,
+      "maxord": 40,
+      "zero_ic": 1,
+      "uic": 0
+    }
+  },
+  "gear500_reopen_saved_settings.xml": {
+    "sha256": "eac1e664063db9b06921f41acc9d0e4e0e4fdad1ca9ab14c2837b6e72dbe6970",
+    "bytes": 2718811,
+    "transient_count": 2,
+    "transients": [
+      {
+        "offset": 38781,
+        "kv": {
+          "TSTEP": "2e-09",
+          "TSTOP": "2e-05",
+          "TSTART": "0",
+          "TMAX": "2e-09",
+          "IC": "zero_ic",
+          "MAX_POINTS": "10000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": true,
+            "value": "0.0001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "1"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "500"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": true,
+            "value": "gear"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      },
+      {
+        "offset": 137229,
+        "kv": {
+          "TSTEP": "calculate",
+          "TSTOP": "1e+30",
+          "TSTART": "0",
+          "TMAX": "1e-05",
+          "IC": "auto_ic",
+          "MAX_POINTS": "2000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "7"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      }
+    ],
+    "keywords": {
+      "suposc": 40,
+      "convlimit": 40,
+      "rshunt": 40,
+      "dynamicdc": 40,
+      "inertialdelay": 40,
+      "method": 40,
+      "maxord": 40,
+      "zero_ic": 1,
+      "uic": 0
+    }
+  },
+  "gear500_uic_settings.xml": {
+    "sha256": "e71da5b7d5776246e6d93b5debf93e9669d7c474e168f440dac741701cd53c23",
+    "bytes": 2720151,
+    "transient_count": 2,
+    "transients": [
+      {
+        "offset": 38789,
+        "kv": {
+          "TSTEP": "2e-09",
+          "TSTOP": "2e-05",
+          "TSTART": "0",
+          "TMAX": "2e-09",
+          "IC": "uic",
+          "MAX_POINTS": "10000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": true,
+            "value": "0.0001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "1"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "500"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": true,
+            "value": "gear"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      },
+      {
+        "offset": 137233,
+        "kv": {
+          "TSTEP": "calculate",
+          "TSTOP": "1e+30",
+          "TSTART": "0",
+          "TMAX": "1e-05",
+          "IC": "auto_ic",
+          "MAX_POINTS": "2000000",
+          "DISCARD_PLOTS": "1"
+        },
+        "options": {
+          "acct": {
+            "enabled": false,
+            "value": ""
+          },
+          "gmin": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "reltol": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "abstol": {
+            "enabled": false,
+            "value": "1e-12"
+          },
+          "vntol": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "trtol": {
+            "enabled": true,
+            "value": "7"
+          },
+          "chgtol": {
+            "enabled": false,
+            "value": "1e-14"
+          },
+          "pivtol": {
+            "enabled": false,
+            "value": "1e-13"
+          },
+          "pivrel": {
+            "enabled": false,
+            "value": "0.001"
+          },
+          "tnom": {
+            "enabled": false,
+            "value": "27"
+          },
+          "itl1": {
+            "enabled": false,
+            "value": "100"
+          },
+          "itl2": {
+            "enabled": false,
+            "value": "50"
+          },
+          "itl4": {
+            "enabled": true,
+            "value": "100"
+          },
+          "defl": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defw": {
+            "enabled": false,
+            "value": "0.0001"
+          },
+          "defad": {
+            "enabled": false,
+            "value": "0"
+          },
+          "defas": {
+            "enabled": false,
+            "value": "0"
+          },
+          "bypass": {
+            "enabled": false,
+            "value": "1"
+          },
+          "maxord": {
+            "enabled": false,
+            "value": "2"
+          },
+          "temp": {
+            "enabled": false,
+            "value": "27"
+          },
+          "oldlimit": {
+            "enabled": false,
+            "value": ""
+          },
+          "itl6": {
+            "enabled": false,
+            "value": "10"
+          },
+          "gminsteps": {
+            "enabled": false,
+            "value": "10"
+          },
+          "minbreak": {
+            "enabled": false,
+            "value": "0"
+          },
+          "noopiter": {
+            "enabled": false,
+            "value": ""
+          },
+          "method": {
+            "enabled": false,
+            "value": "trapezoidal"
+          },
+          "trytocompact": {
+            "enabled": false,
+            "value": ""
+          },
+          "badmos3": {
+            "enabled": false,
+            "value": ""
+          },
+          "keepopinfo": {
+            "enabled": false,
+            "value": ""
+          },
+          "noopalter": {
+            "enabled": false,
+            "value": ""
+          },
+          "ramptime": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxevtiter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "maxopalter": {
+            "enabled": false,
+            "value": "0"
+          },
+          "convlimit": {
+            "enabled": true,
+            "value": ""
+          },
+          "convabsstep": {
+            "enabled": false,
+            "value": "0.1"
+          },
+          "convstep": {
+            "enabled": false,
+            "value": "0.25"
+          },
+          "autopartial": {
+            "enabled": false,
+            "value": ""
+          },
+          "rshunt": {
+            "enabled": true,
+            "value": "1e+12"
+          },
+          "aderror": {
+            "enabled": false,
+            "value": "1e-06"
+          },
+          "dynamicdc": {
+            "enabled": true,
+            "value": ""
+          },
+          "dynamicdcfactor": {
+            "enabled": false,
+            "value": "10"
+          },
+          "inertialdelay": {
+            "enabled": true,
+            "value": ""
+          },
+          "suposc": {
+            "enabled": true,
+            "value": ""
+          },
+          "rawfileformat": {
+            "enabled": true,
+            "value": "Binary"
+          }
+        }
+      }
+    ],
+    "keywords": {
+      "suposc": 40,
+      "convlimit": 40,
+      "rshunt": 40,
+      "dynamicdc": 40,
+      "inertialdelay": 40,
+      "method": 40,
+      "maxord": 40,
+      "zero_ic": 0,
+      "uic": 1
+    }
+  }
+}

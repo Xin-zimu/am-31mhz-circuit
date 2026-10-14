@@ -1,0 +1,122 @@
+[
+  {
+    "amplitude": 1,
+    "duty": 50,
+    "gain": 18.854,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_A1_D50_G18.854.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 1.0,
+        "vpp_max_min": 1.0,
+        "low": 0.0,
+        "high": 1.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 0.9139649388266999,
+        "vpp_max_min": 0.9161204847461208,
+        "low": 4.041810484652938,
+        "high": 4.955775423479638,
+        "frequency_hz": 19999.946128550542,
+        "duty_pct": 50.35644517044519
+      }
+    }
+  },
+  {
+    "amplitude": 2,
+    "duty": 50,
+    "gain": 18.854,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_A2_D50_G18.854.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 2.0,
+        "vpp_max_min": 2.0,
+        "low": 0.0,
+        "high": 2.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 2.123838653672597,
+        "vpp_max_min": 2.127897078705602,
+        "low": 3.434701010277503,
+        "high": 5.5585396639501,
+        "frequency_hz": 19999.95796227393,
+        "duty_pct": 50.49714146941865
+      }
+    }
+  },
+  {
+    "amplitude": 3,
+    "duty": 50,
+    "gain": 18.854,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_A3_D50_G18.854.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 3.0,
+        "vpp_max_min": 3.0,
+        "low": 0.0,
+        "high": 3.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 3.450755870001649,
+        "vpp_max_min": 3.4568998885475555,
+        "low": 2.768565976003645,
+        "high": 6.219321846005294,
+        "frequency_hz": 19999.966024038968,
+        "duty_pct": 50.55616820175667
+      }
+    }
+  },
+  {
+    "amplitude": 4,
+    "duty": 50,
+    "gain": 18.854,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_A4_D50_G18.854.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 4.0,
+        "vpp_max_min": 4.0,
+        "low": 0.0,
+        "high": 4.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 50.039999999999765
+      },
+      "v(v2)": {
+        "vpp_98_2": 4.800083119975392,
+        "vpp_max_min": 4.808316840609523,
+        "low": 2.0899672585858373,
+        "high": 6.89005037856123,
+        "frequency_hz": 19999.96979198747,
+        "duty_pct": 50.589505256548634
+      }
+    }
+  },
+  {
+    "amplitude": 4,
+    "duty": 10,
+    "gain": 18.854,
+    "file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v3_functional\\LT_A4_D10_G18.854.cir",
+    "metrics": {
+      "v(v1)": {
+        "vpp_98_2": 4.0,
+        "vpp_max_min": 4.0,
+        "low": 0.0,
+        "high": 4.0,
+        "frequency_hz": 20000.00000000012,
+        "duty_pct": 10.039999999999417
+      },
+      "v(v2)": {
+        "vpp_98_2": 4.853534954233136,
+        "vpp_max_min": 4.8604467921818095,
+        "low": 3.977395432728783,
+        "high": 8.830930386961919,
+        "frequency_hz": 19999.99059230354,
+        "duty_pct": 10.58895523714799
+      }
+    }
+  }
+]

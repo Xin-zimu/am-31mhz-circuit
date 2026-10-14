@@ -1,0 +1,10 @@
+{
+  "gui": {
+    "stop_s": 2.257976350349652e-07,
+    "stop_over_period": 6.99972668608392,
+    "points": 563,
+    "median_dt_s": 3.0703663340017005e-10,
+    "collapse_onset_k": 551,
+    "collapse_onset_t_s": 2.257821976138472e-07
+  }
+}

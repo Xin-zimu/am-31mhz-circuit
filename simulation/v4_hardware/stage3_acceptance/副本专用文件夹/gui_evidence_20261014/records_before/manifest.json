@@ -1,0 +1,37 @@
+[
+  {
+    "source": "D:\\实验报告文件夹\\电路2\\项目管理\\02_当前阶段目标.md",
+    "backup": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\records_before\\01_02_当前阶段目标.md",
+    "sha256": "c53e1b4a5f98301210fa51a8eda7d2e6de534f88ade1b6f981a0aeed880cad97"
+  },
+  {
+    "source": "D:\\实验报告文件夹\\电路2\\项目管理\\03_当前实现状态.md",
+    "backup": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\records_before\\02_03_当前实现状态.md",
+    "sha256": "f2e774bccfd014bf5cf5932c04517d701d21baf62d3c610ccb2679ff0570398f"
+  },
+  {
+    "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_04_冷启动排查记录.md",
+    "backup": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\records_before\\03_S03_04_冷启动排查记录.md",
+    "sha256": "fbff6bf294b2e56c8d10715adb0d004bcd18587b2ad9d1903710887feda0cd59"
+  },
+  {
+    "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\README.md",
+    "backup": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\records_before\\04_README.md",
+    "sha256": "0bd2c34f6ed3fb5252179e43f39a6ad9e9d1c4f56f611a2ab3e38e05c0f9ef5d"
+  },
+  {
+    "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\S03_04_试验台账.md",
+    "backup": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\records_before\\05_S03_04_试验台账.md",
+    "sha256": "7a7dcdc55aa8ec76b51571f3630f9b51a2b3b3602eb7297ae3f64afd4edd07b7"
+  },
+  {
+    "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_04_步骤1_控制行差集.md",
+    "backup": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\records_before\\06_S03_04_步骤1_控制行差集.md",
+    "sha256": "12affd4a9ab8032a7e7152bd9a4474df940e92f06ec376e2ee716c7891be0c08"
+  },
+  {
+    "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\S03_04_步骤1_控制行差集.md",
+    "backup": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\gui_evidence_20261014\\records_before\\07_S03_04_步骤1_控制行差集.md",
+    "sha256": "12affd4a9ab8032a7e7152bd9a4474df940e92f06ec376e2ee716c7891be0c08"
+  }
+]

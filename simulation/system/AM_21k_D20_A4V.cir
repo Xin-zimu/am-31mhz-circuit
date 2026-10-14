@@ -1,0 +1,34 @@
+31MHz AM SYSTEM FUNCTIONAL MODEL - not a transistor-level radio
+* Signal generator, AM, channel and RX RF gain are ideal functional blocks.
+* The Schottky model is an engineering approximation, NOT a BAS70 vendor model.
+* No prediction of antenna distance, RF power, battery current or hardware compliance.
+* RF:31MHz; baseband:21000Hz; duty:0.2; V1pp:4V.
+VCC VCC 0 9
+VREF VREF 0 4.5
+VINPUT V1 0 PULSE(0 4 10u 20n 20n 9.50380952381e-06 4.7619047619e-05)
+VCARRIER TP2 0 SIN(0 1 31meg)
+* EAM = (0.6 + 0.1*V1)*carrier; continuous analog AM, carrier never switched off.
+EAM TP3 0 POLY(2) (TP2,0) (V1,0) 0 0.6 0 0 0.1
+EPA TP4 0 TP3 0 1
+* Voltage attenuation 0.1 = -20dB, fixed hypothetical channel.
+ECHANNEL ANT_RX 0 TP4 0 0.1
+ERX TP5 0 ANT_RX 0 10
+RRF TP5 RF_OUT 50
+C110 RF_OUT DET_RF 220p
+R117 DET_RF 0 1k
+D101 DET_RF TP6 SCHOTTKY_EST
+R110 TP6 0 10k
+C111 TP6 0 47p
+C115 TP6 BB_IN 10n
+R113 BB_IN VREF 100k
+* Linear baseband gain with a dominant-pole bandwidth of 18MHz/gain.
+EBB AMP_IDEAL VREF BB_IN VREF 15
+RBB AMP_IDEAL V2_OP 1k
+CBB V2_OP 0 1.32629119243e-10
+R116 V2_OP V2 100
+RLOAD V2 0 1meg
+.model SCHOTTKY_EST D(Is=20n N=1.06 Rs=2 Cjo=2p M=0.33 Vj=0.35 Bv=70 Ibv=10u)
+.options plotwinsize=0 reltol=0.001
+.save V(V1) V(TP2) V(TP3) V(TP5) V(TP6) V(V2)
+.tran 2n 5m 4.8m 2n
+.end

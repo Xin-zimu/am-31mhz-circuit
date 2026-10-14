@@ -1,0 +1,382 @@
+{
+  "cold": {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\cold_7ms_1ns.npz",
+      "bytes": 219524645,
+      "sha256": "1acbcd956749de19baa081a7245ee3002575628721406eac023e3c05d3b98665"
+    },
+    "solver_entry": "command-line engine source + tran; not native GUI Run",
+    "points": 7127505,
+    "end_s": 0.007,
+    "names": [
+      "time",
+      "V(bb_in)",
+      "V(bbo)",
+      "V(v1)",
+      "V(v2)"
+    ],
+    "last_five_cycles": [
+      {
+        "start_s": 0.006741123967624428,
+        "end_s": 0.006791129403499529,
+        "period_s": 5.000543587510044e-05,
+        "frequency_hz": 19997.825886324033,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.00092996127127,
+        "V(v1)": {
+          "mean_v": 2.0754800754432416,
+          "robust_vpp": 4.000002909224141,
+          "raw_vpp": 4.0000067319774875,
+          "endpoint_integral_mean_v": 2.07547918537499
+        },
+        "V(bb_in)": {
+          "mean_v": 4.4947435730406315,
+          "robust_vpp": 0.3465997041426343,
+          "raw_vpp": 0.35143937826045324,
+          "endpoint_integral_mean_v": 4.494740317859101
+        },
+        "V(bbo)": {
+          "mean_v": 4.414407757589751,
+          "robust_vpp": 4.8231495067420544,
+          "raw_vpp": 5.038586841330916,
+          "endpoint_integral_mean_v": 4.414342281356756
+        },
+        "V(v2)": {
+          "mean_v": 4.409547173050055,
+          "robust_vpp": 4.814039046207356,
+          "raw_vpp": 4.963050255002909,
+          "endpoint_integral_mean_v": 4.4094805452648576
+        }
+      },
+      {
+        "start_s": 0.006791129403499529,
+        "end_s": 0.006841135231640408,
+        "period_s": 5.0005828140879324e-05,
+        "frequency_hz": 19997.669015354408,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.000540616162766,
+        "V(v1)": {
+          "mean_v": 2.0754649879014377,
+          "robust_vpp": 4.000002909395146,
+          "raw_vpp": 4.00001020486622,
+          "endpoint_integral_mean_v": 2.0754635801561836
+        },
+        "V(bb_in)": {
+          "mean_v": 4.495002880264404,
+          "robust_vpp": 0.34658457219842376,
+          "raw_vpp": 0.3514418798638639,
+          "endpoint_integral_mean_v": 4.494999340608752
+        },
+        "V(bbo)": {
+          "mean_v": 4.4186300906452525,
+          "robust_vpp": 4.823327667395644,
+          "raw_vpp": 5.038719008011839,
+          "endpoint_integral_mean_v": 4.41854648056734
+        },
+        "V(v2)": {
+          "mean_v": 4.413765867770161,
+          "robust_vpp": 4.814011478650368,
+          "raw_vpp": 4.963025052322505,
+          "endpoint_integral_mean_v": 4.413681026986361
+        }
+      },
+      {
+        "start_s": 0.006841135231640408,
+        "end_s": 0.006891140071694071,
+        "period_s": 5.000484005366311e-05,
+        "frequency_hz": 19998.06416592557,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.00152135336518,
+        "V(v1)": {
+          "mean_v": 2.075503031394798,
+          "robust_vpp": 4.000002909369004,
+          "raw_vpp": 4.000005430211762,
+          "endpoint_integral_mean_v": 2.075502871365756
+        },
+        "V(bb_in)": {
+          "mean_v": 4.4952525552591975,
+          "robust_vpp": 0.34661494931214243,
+          "raw_vpp": 0.3514572951096788,
+          "endpoint_integral_mean_v": 4.495252240541629
+        },
+        "V(bbo)": {
+          "mean_v": 4.4226160325238695,
+          "robust_vpp": 4.823427822098417,
+          "raw_vpp": 5.038683237293053,
+          "endpoint_integral_mean_v": 4.42257756045436
+        },
+        "V(v2)": {
+          "mean_v": 4.417747396626893,
+          "robust_vpp": 4.813636690864224,
+          "raw_vpp": 4.963137702262326,
+          "endpoint_integral_mean_v": 4.417708394683868
+        }
+      },
+      {
+        "start_s": 0.006891140071694071,
+        "end_s": 0.006941145182794109,
+        "period_s": 5.000511110003769e-05,
+        "frequency_hz": 19997.955768950313,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.00124021509708,
+        "V(v1)": {
+          "mean_v": 2.075492167111833,
+          "robust_vpp": 4.000002908328451,
+          "raw_vpp": 4.000006811494153,
+          "endpoint_integral_mean_v": 2.075491664036804
+        },
+        "V(bb_in)": {
+          "mean_v": 4.495482049006333,
+          "robust_vpp": 0.3465738910575986,
+          "raw_vpp": 0.3514432064288773,
+          "endpoint_integral_mean_v": 4.495480503367203
+        },
+        "V(bbo)": {
+          "mean_v": 4.426375364553927,
+          "robust_vpp": 4.823685662893157,
+          "raw_vpp": 5.038902429249335,
+          "endpoint_integral_mean_v": 4.426324614216823
+        },
+        "V(v2)": {
+          "mean_v": 4.421503392706905,
+          "robust_vpp": 4.813916480288393,
+          "raw_vpp": 4.963425696190005,
+          "endpoint_integral_mean_v": 4.421451802443735
+        }
+      },
+      {
+        "start_s": 0.006941145182794109,
+        "end_s": 0.0069911509429087,
+        "period_s": 5.000576011459073e-05,
+        "frequency_hz": 19997.696219564496,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.000607324215814,
+        "V(v1)": {
+          "mean_v": 2.075467467791586,
+          "robust_vpp": 4.000002908948709,
+          "raw_vpp": 4.000005805297299,
+          "endpoint_integral_mean_v": 2.075466280380297
+        },
+        "V(bb_in)": {
+          "mean_v": 4.4956865715341205,
+          "robust_vpp": 0.3466033844418872,
+          "raw_vpp": 0.35145795810763936,
+          "endpoint_integral_mean_v": 4.495683135171891
+        },
+        "V(bbo)": {
+          "mean_v": 4.429794701062761,
+          "robust_vpp": 4.823958971296105,
+          "raw_vpp": 5.038864233832363,
+          "endpoint_integral_mean_v": 4.429714575528894
+        },
+        "V(v2)": {
+          "mean_v": 4.424919399936891,
+          "robust_vpp": 4.814436853305953,
+          "raw_vpp": 4.963312270875978,
+          "endpoint_integral_mean_v": 4.424837688536713
+        }
+      }
+    ],
+    "method": "Existing S03 2 ns uniform interpolation; P98-P2; time integral mean. Exact-endpoint integral is supplemental.",
+    "summary": {
+      "V2_robust_vpp": 4.814008109863258,
+      "V2_mean_v": 4.417496646018181,
+      "V2_mean_span_v": 0.015372226886835705,
+      "V2_mean_span_fraction_of_amplitude": 0.0031932282904426497,
+      "V2_robust_vpp_span_v": 0.0008001624417284248,
+      "period_relative_span": 1.9759612239646887e-05,
+      "threshold_fraction": 0.001,
+      "temporary_repeatability_passes": false
+    }
+  },
+  "precharged_nominal": {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\nominal_5ms.npz",
+      "bytes": 155103646,
+      "sha256": "aa1baa807acc1fe12e4428231dde392edf6c545435e777d1c8192977b0fcface"
+    },
+    "solver_entry": "command-line engine source + tran; not native GUI Run",
+    "points": 5046113,
+    "end_s": 0.005,
+    "names": [
+      "time",
+      "V(bb_in)",
+      "V(bbo)",
+      "V(v1)",
+      "V(v2)"
+    ],
+    "last_five_cycles": [
+      {
+        "start_s": 0.004740909858983944,
+        "end_s": 0.004790915576204237,
+        "period_s": 5.000571722029324e-05,
+        "frequency_hz": 19997.71337334567,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.00064547035474,
+        "V(v1)": {
+          "mean_v": 2.0754689006126337,
+          "robust_vpp": 4.000002887266022,
+          "raw_vpp": 4.0000051999623665,
+          "endpoint_integral_mean_v": 2.0754676806915375
+        },
+        "V(bb_in)": {
+          "mean_v": 4.500056028640918,
+          "robust_vpp": 0.3466591504558352,
+          "raw_vpp": 0.3515452246644237,
+          "endpoint_integral_mean_v": 4.500054950447271
+        },
+        "V(bbo)": {
+          "mean_v": 4.501182044190918,
+          "robust_vpp": 4.825622248228742,
+          "raw_vpp": 5.039714694991627,
+          "endpoint_integral_mean_v": 4.501103340292258
+        },
+        "V(v2)": {
+          "mean_v": 4.496237964943106,
+          "robust_vpp": 4.815830020842496,
+          "raw_vpp": 4.964322884343949,
+          "endpoint_integral_mean_v": 4.4961581834407935
+        }
+      },
+      {
+        "start_s": 0.004790915576204237,
+        "end_s": 0.004840920622766209,
+        "period_s": 5.000504656197183e-05,
+        "frequency_hz": 19997.98157893301,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.00130618558042,
+        "V(v1)": {
+          "mean_v": 2.0754946415336053,
+          "robust_vpp": 4.000002886733569,
+          "raw_vpp": 4.000004614711526,
+          "endpoint_integral_mean_v": 2.075494166499381
+        },
+        "V(bb_in)": {
+          "mean_v": 4.50005136591541,
+          "robust_vpp": 0.3466471154890751,
+          "raw_vpp": 0.35155530694926007,
+          "endpoint_integral_mean_v": 4.500049688215905
+        },
+        "V(bbo)": {
+          "mean_v": 4.501119731671965,
+          "robust_vpp": 4.825720020580086,
+          "raw_vpp": 5.039615632511628,
+          "endpoint_integral_mean_v": 4.501071966082023
+        },
+        "V(v2)": {
+          "mean_v": 4.496175174595133,
+          "robust_vpp": 4.816065738644334,
+          "raw_vpp": 4.964174666099375,
+          "endpoint_integral_mean_v": 4.496126552319386
+        }
+      },
+      {
+        "start_s": 0.004840920622766209,
+        "end_s": 0.004890925430653133,
+        "period_s": 5.000480788692422e-05,
+        "frequency_hz": 19998.077030138746,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.00154745917996,
+        "V(v1)": {
+          "mean_v": 2.075504217328562,
+          "robust_vpp": 4.000002886883776,
+          "raw_vpp": 4.00000988418214,
+          "endpoint_integral_mean_v": 2.0755039813701766
+        },
+        "V(bb_in)": {
+          "mean_v": 4.500037616695362,
+          "robust_vpp": 0.3466505447103083,
+          "raw_vpp": 0.3515266192105235,
+          "endpoint_integral_mean_v": 4.500035814700369
+        },
+        "V(bbo)": {
+          "mean_v": 4.500943887883123,
+          "robust_vpp": 4.825349634067692,
+          "raw_vpp": 5.039433041804901,
+          "endpoint_integral_mean_v": 4.500907130671748
+        },
+        "V(v2)": {
+          "mean_v": 4.495998798395138,
+          "robust_vpp": 4.815709158081596,
+          "raw_vpp": 4.964013004863161,
+          "endpoint_integral_mean_v": 4.495961270805318
+        }
+      },
+      {
+        "start_s": 0.004890925430653133,
+        "end_s": 0.004940930970815451,
+        "period_s": 5.000554016231819e-05,
+        "frequency_hz": 19997.78418059271,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.00080779682251,
+        "V(v1)": {
+          "mean_v": 2.0754752551335693,
+          "robust_vpp": 4.000002886866509,
+          "raw_vpp": 4.000005886874658,
+          "endpoint_integral_mean_v": 2.0754742464886076
+        },
+        "V(bb_in)": {
+          "mean_v": 4.500029084638505,
+          "robust_vpp": 0.3466460366247981,
+          "raw_vpp": 0.3515546362126223,
+          "endpoint_integral_mean_v": 4.5000255061453425
+        },
+        "V(bbo)": {
+          "mean_v": 4.500848526262198,
+          "robust_vpp": 4.825361598717169,
+          "raw_vpp": 5.039754394258045,
+          "endpoint_integral_mean_v": 4.500778383575272
+        },
+        "V(v2)": {
+          "mean_v": 4.4959039950810515,
+          "robust_vpp": 4.816305022534001,
+          "raw_vpp": 4.964236723591757,
+          "endpoint_integral_mean_v": 4.495832454331472
+        }
+      },
+      {
+        "start_s": 0.004940930970815451,
+        "end_s": 0.004990935824545549,
+        "period_s": 5.0004853730098095e-05,
+        "frequency_hz": 19998.058696412034,
+        "input_falling_crossings": 1,
+        "input_duty_percent": 50.00150718084821,
+        "V(v1)": {
+          "mean_v": 2.075502454163775,
+          "robust_vpp": 4.000002887285932,
+          "raw_vpp": 4.000005142187746,
+          "endpoint_integral_mean_v": 2.0755022113376462
+        },
+        "V(bb_in)": {
+          "mean_v": 4.500028585858667,
+          "robust_vpp": 0.3466568244011974,
+          "raw_vpp": 0.35155022735401786,
+          "endpoint_integral_mean_v": 4.500026684677763
+        },
+        "V(bbo)": {
+          "mean_v": 4.500831436380617,
+          "robust_vpp": 4.825371090209137,
+          "raw_vpp": 5.039746926909269,
+          "endpoint_integral_mean_v": 4.5007924832015345
+        },
+        "V(v2)": {
+          "mean_v": 4.495886979421063,
+          "robust_vpp": 4.816204061424779,
+          "raw_vpp": 4.964347350128804,
+          "endpoint_integral_mean_v": 4.495847323497835
+        }
+      }
+    ],
+    "method": "Existing S03 2 ns uniform interpolation; P98-P2; time integral mean. Exact-endpoint integral is supplemental.",
+    "summary": {
+      "V2_robust_vpp": 4.816022800305442,
+      "V2_mean_v": 4.496040582487098,
+      "V2_mean_span_v": 0.0003509855220427127,
+      "V2_mean_span_fraction_of_amplitude": 7.287870855188903e-05,
+      "V2_robust_vpp_span_v": 0.0005958644524053369,
+      "period_relative_span": 1.818477866844111e-05,
+      "threshold_fraction": 0.001,
+      "temporary_repeatability_passes": true
+    }
+  }
+}

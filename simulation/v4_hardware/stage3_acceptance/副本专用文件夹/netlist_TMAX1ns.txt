@@ -1,0 +1,440 @@
+_uca7f51886862a5544aff08676581ea65876863ff1aS03_COLD_ZERO_GEAR500_UIC_TMAX1ns_20us_uc1ff09   (_uc46253537065e5671f: 2026_uc15e7410_uc1670814_uc165e5, 1:13:15)
+--------------------------------------------------------------------------------------
+_uc27f517edc                     _uc375358def56fe                _uc3514356684ef6                          _uc27ba1811a             
+--------------------------------------------------------------------------------------
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR _uc257307ebf                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR RLOAD                        2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR CDEC                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR CBULK                        2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR RHB                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR CBB                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR U1A_-ECOMP1                  8              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR U1A_-ECOMP1                  4              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR RDB                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR CBB_DECOUPLE                 2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR U1B_-ECOMP2                  4              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR RVAB                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR RINPUT                       2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR CINPUT                       2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR VCC                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR VREF                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR VCARRIER                     2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR EAM_-EAM                     8              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR EAM_-EAM                     4              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR EAM_-EAM                     2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR U2_OPA197_-EOPABOX           4              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR EPA                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR U2_OPA197_-EOPABOX           8              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR ECHANNEL                     1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR ERX                          3              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR ERX                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR R117                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR C111                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR V5                           2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR R110                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR CT                           2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR U1B_-ECOMP2                  8              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR ECHANNEL                     3              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+0                      S03_COLD_ZERO_GEAR EPA                          3              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+ANT_RX                 S03_COLD_ZERO_GEAR ERX                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+ANT_RX                 S03_COLD_ZERO_GEAR ECHANNEL                     4              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+BB_FB                  S03_COLD_ZERO_GEAR U2_OPA197_-EOPABOX           2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+BB_FB                  S03_COLD_ZERO_GEAR RV_BB                        2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+BB_FB                  S03_COLD_ZERO_GEAR RG_BB                        1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+BB_IN                  S03_COLD_ZERO_GEAR R113                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+BB_IN                  S03_COLD_ZERO_GEAR C115                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+BB_IN                  S03_COLD_ZERO_GEAR U2_OPA197_-EOPABOX           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+BBO                    S03_COLD_ZERO_GEAR RBB                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+BBO                    S03_COLD_ZERO_GEAR RF_BB                        1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+BBO                    S03_COLD_ZERO_GEAR U2_OPA197_-EOPABOX           7              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DET_RF                 S03_COLD_ZERO_GEAR C110                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DET_RF                 S03_COLD_ZERO_GEAR D101                         A              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DET_RF                 S03_COLD_ZERO_GEAR R117                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DUTY                   S03_COLD_ZERO_GEAR RVDT                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DUTY                   S03_COLD_ZERO_GEAR RVDB                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DUTY                   S03_COLD_ZERO_GEAR U1B_-ECOMP2                  1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DUTY_BOT               S03_COLD_ZERO_GEAR RVDB                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DUTY_BOT               S03_COLD_ZERO_GEAR RDB                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DUTY_TOP               S03_COLD_ZERO_GEAR RVDT                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+DUTY_TOP               S03_COLD_ZERO_GEAR RDT                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+FB_TRIM                S03_COLD_ZERO_GEAR RF_BB                        2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+FB_TRIM                S03_COLD_ZERO_GEAR RV_BB                        1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+FSET                   S03_COLD_ZERO_GEAR RVRF                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+FSET                   S03_COLD_ZERO_GEAR RFIX                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+HYST                   S03_COLD_ZERO_GEAR RHT                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+HYST                   S03_COLD_ZERO_GEAR RHB                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+HYST                   S03_COLD_ZERO_GEAR U1A_-ECOMP1                  1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+HYST                   S03_COLD_ZERO_GEAR RHF                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+OSC                    S03_COLD_ZERO_GEAR RFIX                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+OSC                    S03_COLD_ZERO_GEAR RHF                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+OSC                    S03_COLD_ZERO_GEAR U1A_-ECOMP1                  7              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+OSC                    S03_COLD_ZERO_GEAR RPU1                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+PWM_RAW                S03_COLD_ZERO_GEAR U1B_-ECOMP2                  7              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+PWM_RAW                S03_COLD_ZERO_GEAR RPU2                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+PWM_RAW                S03_COLD_ZERO_GEAR RVAT                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+RAMP                   S03_COLD_ZERO_GEAR U1A_-ECOMP1                  2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+RAMP                   S03_COLD_ZERO_GEAR U1B_-ECOMP2                  2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+RAMP                   S03_COLD_ZERO_GEAR RVRF                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+RAMP                   S03_COLD_ZERO_GEAR CT                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+RF_OUT                 S03_COLD_ZERO_GEAR RRF                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+RF_OUT                 S03_COLD_ZERO_GEAR C110                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP2                    S03_COLD_ZERO_GEAR VCARRIER                     1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP2                    S03_COLD_ZERO_GEAR EAM_-EAM                     1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP3                    S03_COLD_ZERO_GEAR EAM_-EAM                     7              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP3                    S03_COLD_ZERO_GEAR EPA                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP4                    S03_COLD_ZERO_GEAR ECHANNEL                     2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP4                    S03_COLD_ZERO_GEAR EPA                          4              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP5                    S03_COLD_ZERO_GEAR RRF                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP5                    S03_COLD_ZERO_GEAR ERX                          4              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP6                    S03_COLD_ZERO_GEAR C115                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP6                    S03_COLD_ZERO_GEAR D101                         K              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP6                    S03_COLD_ZERO_GEAR R110                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+TP6                    S03_COLD_ZERO_GEAR C111                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V1                     S03_COLD_ZERO_GEAR RVAB                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V1                     S03_COLD_ZERO_GEAR CINPUT                       1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V1                     S03_COLD_ZERO_GEAR RINPUT                       1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V1                     S03_COLD_ZERO_GEAR EAM_-EAM                     3              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V1                     S03_COLD_ZERO_GEAR RVAT                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V2                     S03_COLD_ZERO_GEAR R116                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V2                     S03_COLD_ZERO_GEAR RLOAD                        1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V2_OP                  S03_COLD_ZERO_GEAR R116                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V2_OP                  S03_COLD_ZERO_GEAR CBB                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V2_OP                  S03_COLD_ZERO_GEAR RBB                          2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V5                     S03_COLD_ZERO_GEAR V5                           1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V5                     S03_COLD_ZERO_GEAR CDEC                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V5                     S03_COLD_ZERO_GEAR CBULK                        1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V5                     S03_COLD_ZERO_GEAR RPU2                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V5                     S03_COLD_ZERO_GEAR U1B_-ECOMP2                  3              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V5                     S03_COLD_ZERO_GEAR U1A_-ECOMP1                  3              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V5                     S03_COLD_ZERO_GEAR RHT                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V5                     S03_COLD_ZERO_GEAR RDT                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+V5                     S03_COLD_ZERO_GEAR RPU1                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+VCC                    S03_COLD_ZERO_GEAR VCC                          1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+VCC                    S03_COLD_ZERO_GEAR U2_OPA197_-EOPABOX           3              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+VCC                    S03_COLD_ZERO_GEAR CBB_DECOUPLE                 1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+VREF                   S03_COLD_ZERO_GEAR R113                         2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+VREF                   S03_COLD_ZERO_GEAR VREF                         1              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+VREF                   S03_COLD_ZERO_GEAR RG_BB                        2              
+                       500_UIC_TMAX1ns_20                                             
+                       us                                                             
+--------------------------------------------------------------------------------------

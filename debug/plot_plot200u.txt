@@ -1,0 +1,34 @@
+﻿plot run 09/18/2026 00:50:19
+00:50:24.421 | connected=True
+00:50:24.741 | NewFile='设计1'
+00:50:24.747 | DoCommandLine ok
+00:50:32.900 | xspice log size=1450 after 8.2s
+00:50:32.971 | VISIBLE 0xE0A22 [LVFrame] 'multisim'
+00:50:32.976 | XSPICE log tail:
+00:50:33.010 |    _uc775286237547d4ee45df26267884c   (2026_uc15e749_uc1670818_uc165e5, 0:50:25)
+00:50:33.011 |    _uc3547d4ee4ff1a>source D:\ms_xsp\net_am.cir
+00:50:33.028 |    _uc7676581ea547d4ee476848f9351fa
+00:50:33.049 |    source D:\ms_xsp\net_am.cir
+00:50:33.065 |    Error: Element '31mhz:':  Unsupported component prefix type '3'
+00:50:33.093 |    Error: Element '31mhz:':  Unsupported component prefix type '3'
+00:50:33.110 |    Error: Element '31mhz:':  Due to errors, the component '31mhz' will be omitted from the simulation
+00:50:33.128 |    Error: Element '31mhz:':  Due to errors, the component '31mhz' will be omitted from the simulation
+00:50:33.152 |    _uc775286237547d4ee45df26267884c   (2026_uc15e749_uc1670818_uc165e5, 0:50:25)
+00:50:33.167 |    _uc3547d4ee4ff1a>save $tp3 $tp6 $v1 $v2
+00:50:33.191 |    _uc7676581ea547d4ee476848f9351fa
+00:50:33.211 |    save $tp3 $tp6 $v1 $v2
+00:50:33.230 |    _uc775286237547d4ee45df26267884c   (2026_uc15e749_uc1670818_uc165e5, 0:50:25)
+00:50:33.253 |    _uc3547d4ee4ff1a>iplot $tp3 $tp6 $v1 $v2
+00:50:33.274 |    _uc7676581ea547d4ee476848f9351fa
+00:50:33.291 |    iplot $tp3 $tp6 $v1 $v2
+00:50:33.310 |    _uc775286237547d4ee45df26267884c   (2026_uc15e749_uc1670818_uc165e5, 0:50:25)
+00:50:33.331 |    _uc3547d4ee4ff1a>tran -env-options 2e-09 200e-6 0 2e-09 auto_ic auto_tstep auto_tmax
+00:50:33.350 |    _uc7676581ea547d4ee476848f9351fa
+00:50:33.374 |    tran -env-options 2e-09 200e-6 0 2e-09 auto_ic auto_tstep auto_tmax
+00:50:33.392 |    Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09
+00:50:33.414 |    Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09
+00:50:33.429 |    _uc775286237547d4ee45df26267884c   (2026_uc15e749_uc1670818_uc165e5, 0:50:27)
+00:50:33.452 |    _uc3547d4ee4ff1a>plot $tp3 $tp6 $v1 $v2
+00:50:33.464 |    _uc7676581ea547d4ee476848f9351fa
+00:50:33.479 |    plot $tp3 $tp6 $v1 $v2
+00:50:33.501 | holding Multisim open for 600 s (state=0 err='')

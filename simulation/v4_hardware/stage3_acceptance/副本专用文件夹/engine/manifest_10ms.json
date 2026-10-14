@@ -1,0 +1,8 @@
+{
+  "cases": {
+    "L_10ms_1ns": {
+      "tran": "tran 1n 10m 0 1n uic",
+      "purpose": "zero-IC cold start settling time"
+    }
+  }
+}

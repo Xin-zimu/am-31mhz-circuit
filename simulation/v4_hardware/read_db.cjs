@@ -1,0 +1,12 @@
+const fs=require('fs');
+const MDBReader=require('../../debug/ewb-decoder/node_modules/mdb-reader').default;
+const db=new MDBReader(fs.readFileSync('C:/ProgramData/National Instruments/Circuit Design Suite/14.3/database/MSCOMP_S.PRD'));
+const comps=db.getTable('SYS_COMPONENT').getData().filter(c=>/^LM393/.test(c.Component_Name));
+console.log(comps);
+const ids=new Set(comps.map(c=>c.Component_ID));
+const maps=db.getTable('SYS_MAPPING_COMP_MODEL').getData().filter(c=>ids.has(c.Component_ID));
+console.log(maps);
+const mods=new Set(maps.map(c=>c.Model_ID));
+const models=db.getTable('SYS_MODEL').getData().filter(c=>mods.has(c.MODEL_ID));
+console.log(models);
+fs.writeFileSync(__dirname+'/models/Multisim_LM393.json',JSON.stringify({comps,maps,models},null,2));

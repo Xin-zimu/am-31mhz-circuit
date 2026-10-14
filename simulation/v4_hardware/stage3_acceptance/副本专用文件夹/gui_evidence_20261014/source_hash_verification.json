@@ -1,0 +1,145 @@
+[
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\cold_engine_gui_net.cir",
+      "bytes": 24372,
+      "sha256": "b2ab0b54bd1b8b3c9546055d6c5c0621e1639c54f9b879806a76a27603025fc1"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\cold_engine_gui_net.cir",
+      "bytes": 24372,
+      "sha256": "b2ab0b54bd1b8b3c9546055d6c5c0621e1639c54f9b879806a76a27603025fc1"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\cold_gui_actual.cir",
+      "bytes": 24370,
+      "sha256": "a75c55258e9a9973f4b266574c814e2c4a388ef10db1ff5a03c85ec5f2e6f16d"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\cold_gui_actual.cir",
+      "bytes": 24370,
+      "sha256": "a75c55258e9a9973f4b266574c814e2c4a388ef10db1ff5a03c85ec5f2e6f16d"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\nominal_full.cir",
+      "bytes": 24373,
+      "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\nominal_full.cir",
+      "bytes": 24373,
+      "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_BASELINE_V4_3.ms14",
+      "bytes": 369512,
+      "sha256": "99dffd203eb501498e8884ce02005a977b9f295d380ad3c7afea227f26296394"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\S03_BASELINE_V4_3.ms14",
+      "bytes": 369512,
+      "sha256": "99dffd203eb501498e8884ce02005a977b9f295d380ad3c7afea227f26296394"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_COLD_ZERO_2ms_V4_3.ms14",
+      "bytes": 369852,
+      "sha256": "e692e2b7baf3df476c40f4125c1e6e7a2cd0cccdeeade2a983b399433313e710"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\S03_COLD_ZERO_2ms_V4_3.ms14",
+      "bytes": 369852,
+      "sha256": "e692e2b7baf3df476c40f4125c1e6e7a2cd0cccdeeade2a983b399433313e710"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_COLD_ZERO_GEAR500_20us.ms14",
+      "bytes": 370107,
+      "sha256": "da570f724f00caf0bb7db2637016118e500c03caebc03295b942c87abdc61a55"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\S03_COLD_ZERO_GEAR500_20us.ms14",
+      "bytes": 370107,
+      "sha256": "da570f724f00caf0bb7db2637016118e500c03caebc03295b942c87abdc61a55"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_COLD_ZERO_GEAR500_UIC_20us.ms14",
+      "bytes": 370705,
+      "sha256": "f22598654368fe7858f788954ed5cc422525509b098114970df2c7e8277351a7"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\S03_COLD_ZERO_GEAR500_UIC_20us.ms14",
+      "bytes": 370705,
+      "sha256": "f22598654368fe7858f788954ed5cc422525509b098114970df2c7e8277351a7"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_COLD_ZERO_GEAR500_UIC_TMAX1ns_20us.ms14",
+      "bytes": 370766,
+      "sha256": "de28f49eb1ef5acb59aa5e2c96110f06ac7aaebaf17fefbe50e8e8c758443ce8"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\S03_COLD_ZERO_GEAR500_UIC_TMAX1ns_20us.ms14",
+      "bytes": 370766,
+      "sha256": "de28f49eb1ef5acb59aa5e2c96110f06ac7aaebaf17fefbe50e8e8c758443ce8"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_COLD_ZERO_TRAP100_FAILURE.ms14",
+      "bytes": 369407,
+      "sha256": "f6e25fdb140b9efb3e625d01340c782801462238e34d0e912410981ca09fa055"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\S03_COLD_ZERO_TRAP100_FAILURE.ms14",
+      "bytes": 369407,
+      "sha256": "f6e25fdb140b9efb3e625d01340c782801462238e34d0e912410981ca09fa055"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_COLD_ZERO_TRAP500_20us.ms14",
+      "bytes": 369731,
+      "sha256": "b04cb034dc67076fee62389b86ebc3ac8c5add18b8ea837d52927b3fe894414c"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\S03_COLD_ZERO_TRAP500_20us.ms14",
+      "bytes": 369731,
+      "sha256": "b04cb034dc67076fee62389b86ebc3ac8c5add18b8ea837d52927b3fe894414c"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_GUI_2ms_V4_3.ms14",
+      "bytes": 369168,
+      "sha256": "e0b0ce967933099177b335b9c1a176381ebe8a18c626d8338ffd12abe83475cd"
+    },
+    "reference": {
+      "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\原始只读引用\\S03_GUI_2ms_V4_3.ms14",
+      "bytes": 369168,
+      "sha256": "e0b0ce967933099177b335b9c1a176381ebe8a18c626d8338ffd12abe83475cd"
+    },
+    "equal": true
+  }
+]

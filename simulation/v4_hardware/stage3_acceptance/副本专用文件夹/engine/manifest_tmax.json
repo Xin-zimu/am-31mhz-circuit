@@ -1,0 +1,32 @@
+{
+  "cases": {
+    "W_tmax2n_20u": {
+      "tran": "tran 2n 20u 0 2n uic",
+      "note": "reference: request 2ns"
+    },
+    "W_tmax1n_20u": {
+      "tran": "tran 1n 20u 0 1n uic",
+      "note": "step2: TMAX=TSTEP=1ns"
+    },
+    "W_tmax500p_20u": {
+      "tran": "tran 500p 20u 0 500p uic",
+      "note": "TMAX=0.5ns"
+    },
+    "W_tmax100p_20u": {
+      "tran": "tran 100p 20u 0 100p uic",
+      "note": "TMAX=0.1ns"
+    },
+    "W_tmax10p_20u": {
+      "tran": "tran 10p 20u 0 10p uic",
+      "note": "TMAX=0.01ns"
+    },
+    "W_tmax1n_1u": {
+      "tran": "tran 1n 1u 0 1n uic",
+      "note": "shorter window at 1ns"
+    },
+    "W_tstep2n_tmax500p": {
+      "tran": "tran 2n 20u 0 500p uic",
+      "note": "TSTEP=2n but TMAX=0.5ns"
+    }
+  }
+}

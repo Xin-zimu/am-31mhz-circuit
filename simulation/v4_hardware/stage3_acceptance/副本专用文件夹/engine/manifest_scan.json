@@ -1,0 +1,113 @@
+{
+  "tran": "2n 500n 0 2n uic",
+  "cases": {
+    "U00_none": {
+      "options": "",
+      "netlist_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb"
+    },
+    "U01_reltol": {
+      "options": ".options reltol=0.1",
+      "netlist_sha256": "4953b6a6e53430e73246eaf5cd50827740a443ce43d8fe2645370873becc7f1f"
+    },
+    "U02_reltoltight": {
+      "options": ".options reltol=1e-9",
+      "netlist_sha256": "fa65dba5ef2130786676b39ec77e71ff73d085ccdd5f12882474f1e0a920b9e5"
+    },
+    "U03_trtol": {
+      "options": ".options trtol=7",
+      "netlist_sha256": "674667877cc34c52e2fc4b76ec832fa2a9bc9142833bb32254a547d2284e8ba9"
+    },
+    "U04_trtol0": {
+      "options": ".options trtol=0.01",
+      "netlist_sha256": "c01e963ff4071b9421052f28082fc7827f5d1772a9b59c44bc94413beff2fef8"
+    },
+    "U05_gui_lte": {
+      "options": ".options reltol=0.0001 trtol=1",
+      "netlist_sha256": "4f920d511206726fa8cb9abc146218c0d950d208a6f833e30462e4cc61686d73"
+    },
+    "U06_abstol": {
+      "options": ".options abstol=1e-15",
+      "netlist_sha256": "aac05a3e55319569f2e9db2b885b992246693afa638e6be14b8c65a5589e7fce"
+    },
+    "U07_vntol": {
+      "options": ".options vntol=1e-12",
+      "netlist_sha256": "15ce0cc9d9f18c4bc8961495c2a8d31c08edbe164cf4d686fcba46d607ebc766"
+    },
+    "U08_chgtol": {
+      "options": ".options chgtol=1e-18",
+      "netlist_sha256": "fe67e43bda59ee1b89a3dfca0822ff430b569bca47d0cd1483358aed4e6087e2"
+    },
+    "U09_gmin0": {
+      "options": ".options gmin=0",
+      "netlist_sha256": "2955b69a73fef2534ab9bc16aec710ca3730ead62f56ccae5e2dbed17a870c75"
+    },
+    "U10_maxord5": {
+      "options": ".options maxord=5",
+      "netlist_sha256": "5b36da10843dc8c43357da2c990a3255743384801c61ce0117f69f442b11b850"
+    },
+    "U11_itl4": {
+      "options": ".options itl4=1000",
+      "netlist_sha256": "3987462d0f80946ed6bbf3121e23e43947f521c041e65b1c893bac7df1129ef7"
+    },
+    "U12_pivtol": {
+      "options": ".options pivtol=1e-15",
+      "netlist_sha256": "7cea97cd1b93216ca9cf98538e67ef2369f420bf65d5ea6cf885bd10f6be4031"
+    },
+    "U13_method_gear": {
+      "options": ".options method=gear",
+      "netlist_sha256": "a0cbd5c44d89d859ee9653dd51c8eac82f4c7c55c224385d17f1b658f40d6b13"
+    },
+    "U14_defl": {
+      "options": ".options defl=1e-6 defw=1e-6 defad=1e-9 defas=1e-9",
+      "netlist_sha256": "fa7f5919087ed5163a427f8ed88bfdfc5020838ace5a6b621a904c1fa7b74a70"
+    },
+    "U15_tnom": {
+      "options": ".options tnom=50",
+      "netlist_sha256": "ee856d7374ca59b78ee3d36d0e16605ffe4cc109620c673581926d1ad10a64f8"
+    },
+    "U16_bypass0": {
+      "options": ".options bypass=0",
+      "netlist_sha256": "8776977d8ad6527a980b88791206158e26256c6d7366dbd1c9bdc5a2ba8047df"
+    },
+    "U17_oldlimit": {
+      "options": ".options oldlimit=1",
+      "netlist_sha256": "3b38dcac5bb4719ea614f2c4a85e46d1436c1b8ee1a1f2fed53957d375b1a19d"
+    },
+    "U18_convlimit": {
+      "options": ".options convlimit",
+      "netlist_sha256": "0cad6f161ed55714d5ab34d1a306a89d0cc2d33f147536429e0c40f83ea081f3"
+    },
+    "U19_dynamicdc": {
+      "options": ".options dynamicdc",
+      "netlist_sha256": "f1a3af41905f99838b60e43a2430db3ce634797cee07130b765d3481dfff1e85"
+    },
+    "U20_inertial": {
+      "options": ".options inertialdelay",
+      "netlist_sha256": "27e7a6d5d4093b7d61bcb9f5fc30547a435d6d597408c1f77db94a584295f282"
+    },
+    "U21_suposc": {
+      "options": ".options suposc",
+      "netlist_sha256": "8f1a5fe26242a4755309ef1cd17bcfe476246d895b2a665f2209e8a7c2750d13"
+    },
+    "U22_rshunt": {
+      "options": ".options rshunt=1e12",
+      "netlist_sha256": "dddfe16fcc9758598d5f9884b0f779a8db89ad222771b344e6d6cac6ff4cf62b"
+    },
+    "U23_itl1": {
+      "options": ".options itl1=500",
+      "netlist_sha256": "96441d23b37ec044acb5ba435988ec69a33bbb8a89c9791245e8ca1a37612f15"
+    },
+    "U24_itl2": {
+      "options": ".options itl2=500",
+      "netlist_sha256": "5436cc7ab70fb623273f44092863323993708b27f6b9f3f5f4c70632fd09eea5"
+    },
+    "U25_abstol_lo": {
+      "options": ".options abstol=1e-6",
+      "netlist_sha256": "9fe588105c87c6e5f1d2bfc10b1047aa08cbf76dda162b7b710c119e65b88c54"
+    },
+    "U26_all_gui": {
+      "options": ".options reltol=0.0001 trtol=1 itl4=500 method=gear convlimit rshunt=1e12 dynamicdc inertialdelay suposc",
+      "netlist_sha256": "01cdd5fe379665fb559b61a81dfdce1fe1c935f7d63da6cd1c579f47eafbc119"
+    }
+  }
+}

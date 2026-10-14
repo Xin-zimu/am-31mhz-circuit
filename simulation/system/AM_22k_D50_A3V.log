@@ -1,0 +1,16 @@
+LTspice 26.0.0 for Windows
+Circuit: D:\实验报告文件夹\电路2\simulation\system\AM_22k_D50_A3V.cir
+Start Time: Thu Sep 17 13:58:28 2026
+Options:plotwinsize=0 reltol=0.001
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = trap
+AsciiRawFile = true
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 13.218 seconds.
+
+Files loaded:
+D:\实验报告文件夹\电路2\simulation\system\AM_22k_D50_A3V.cir
+

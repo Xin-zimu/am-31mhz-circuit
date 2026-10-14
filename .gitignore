@@ -1,0 +1,39 @@
+# ============================================================
+# 仓库策略（2026-10-14 建立）：
+# 本仓库跟踪文档、脚本、工程文件（.ms14/.cir/.cmd）与小型 JSON/图片证据。
+# 大型二进制原始波形与数组（.raw/.npz/.gra/.decoded.xml）是不可变的归档证据，
+# 完整性由 SHA-256 台账核验（见 stage3_acceptance 各 manifest/hash 文件），不入 git。
+# ============================================================
+
+# 大型波形/数组证据（可由 .cir+.cmd 重跑再生，或已有哈希台账）
+*.raw
+*.npz
+*.gra
+*.gra.xml
+*.decoded.xml
+simulation/v4_hardware/repair_20261011/verified_gra.xml
+*.tmp
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 大文本波形转储（可由 .raw/.gra 再生）
+simulation/v4_hardware/results/native_am200us.txt
+simulation/v4_hardware/AM_20k_31MHz_V4_1_OPA197.txt
+debug/AM_22k_200us_waveforms.csv
+
+# Multisim 自动安全副本（工程文件的冗余快照）
+*.ms14 (Security copy)
+
+# 第三方内容 / 独立仓库 / 工具产物
+debug/help/
+debug/ewb-decoder/
+node_modules/
+*.exe
+*.zip
+
+# 系统与编辑器杂项
+Thumbs.db
+desktop.ini
+~$*

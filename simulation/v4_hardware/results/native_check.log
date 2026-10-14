@@ -1,0 +1,61 @@
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>source D:\ms_xsp\v4_lm393\native_stage1_export.cir
+_uc7676581ea547d4ee476848f9351fa
+source D:\ms_xsp\v4_lm393\native_stage1_export.cir
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>begin-scope page Transient Analysis
+_uc7676581ea547d4ee476848f9351fa
+begin-scope page Transient Analysis
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>set reltol = 0.0001
+_uc7676581ea547d4ee476848f9351fa
+set reltol = 0.0001
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>checknodes 3
+_uc7676581ea547d4ee476848f9351fa
+checknodes 3
+checknodes: no such command available in XSPICE
+checknodes: no such command available in XSPICE
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>save $v1 $ramp $pwm_raw $osc $hyst $duty
+_uc7676581ea547d4ee476848f9351fa
+save $v1 $ramp $pwm_raw $osc $hyst $duty
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>iplot $v1 $ramp $pwm_raw $osc $hyst $duty
+_uc7676581ea547d4ee476848f9351fa
+iplot $v1 $ramp $pwm_raw $osc $hyst $duty
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>set trtol = 1
+_uc7676581ea547d4ee476848f9351fa
+set trtol = 1
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>set itl4 = 100
+_uc7676581ea547d4ee476848f9351fa
+set itl4 = 100
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>set convlimit
+_uc7676581ea547d4ee476848f9351fa
+set convlimit
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>set rshunt = 1e+012
+_uc7676581ea547d4ee476848f9351fa
+set rshunt = 1e+012
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>set dynamicdc
+_uc7676581ea547d4ee476848f9351fa
+set dynamicdc
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>set inertialdelay
+_uc7676581ea547d4ee476848f9351fa
+set inertialdelay
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:48)
+_uc3547d4ee4ff1a>tran 50n 1.5m 0 50n
+_uc7676581ea547d4ee476848f9351fa
+tran 50n 1.5m 0 50n
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:49)
+_uc3547d4ee4ff1a>write-and-destroy-iplot "D:\ms_xsp\v4_lm393\native_stage1_export.raw"
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc167089_uc165e5, 17:44:49)
+_uc3547d4ee4ff1a>end-scope
+_uc7676581ea547d4ee476848f9351fa
+end-scope

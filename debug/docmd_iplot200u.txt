@@ -1,0 +1,7 @@
+﻿docmd start 09/18/2026 00:39:32 tag=iplot200u
+00:39:37.266 | connected=True
+00:39:37.387 | NewFile -> '设计1'
+00:39:37.395 | DoCommandLine returned ok
+00:39:45.185 | waited 7.8s, log size=6894
+00:39:45.188 | SimulationState=0 LastErrorMessage=''
+00:39:45.323 | docmd done

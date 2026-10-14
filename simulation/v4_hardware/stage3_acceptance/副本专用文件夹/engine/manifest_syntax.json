@@ -1,0 +1,61 @@
+{
+  "tran": "tran 2n 2u 0 2n uic",
+  "cases": {
+    "X0_none": {
+      "set": [],
+      "position": "after"
+    },
+    "X1_sp_reltol": {
+      "set": [
+        "set reltol = 0.01"
+      ],
+      "position": "after"
+    },
+    "X2_nosp_reltol": {
+      "set": [
+        "set reltol=0.01"
+      ],
+      "position": "after"
+    },
+    "X3_nosp_tight": {
+      "set": [
+        "set reltol=1e-09"
+      ],
+      "position": "after"
+    },
+    "X4_nosp_trtol": {
+      "set": [
+        "set trtol=0.01"
+      ],
+      "position": "after"
+    },
+    "X5_nosp_itl4": {
+      "set": [
+        "set itl4=1000"
+      ],
+      "position": "after"
+    },
+    "X6_nosp_method": {
+      "set": [
+        "set method=gear"
+      ],
+      "position": "after"
+    },
+    "X7_all_nosp": {
+      "set": [
+        "set reltol=0.01",
+        "set trtol=0.01",
+        "set itl4=1000",
+        "set method=gear"
+      ],
+      "position": "after"
+    },
+    "X8_before_src": {
+      "set": [
+        "set reltol=0.01",
+        "set trtol=0.01"
+      ],
+      "position": "before"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿probe start 09/18/2026 00:13:13
+00:13:13.461 | ps bitness: 4
+00:13:13.651 | step1 obj created. Path='D:\multimism\Circuit Design Suite 14.3\Multisim.exe' IsConnected=False
+00:13:13.664 | step2 props set: Path='D:\multimism\Circuit Design Suite 14.3\multisim.exe'
+00:13:26.665 | step3 Connect ok. IsConnected=True Version='Multisim 14.3'
+00:13:26.678 | app LastErrorMessage = ''
+00:13:28.483 | step4 OpenFile ok. CircuitName='AM_22k_D50_A4V_debug' FileName='D:\实验报告文件夹\电路2\simulation\system\AM_22k_D50_A4V_debug.ms14'
+00:13:28.485 | circuit LastErrorMessage = ''
+00:13:28.505 | SimulationState = 0
+00:13:28.561 | EnumComponents(Components) count=21 -> C110, C111, C115, CBB, D101, EAM_-EAM, EBB, ECHANNEL, EPA, ERX, R110, R113, R116, R117, RBB, RLOAD, RRF, VCARRIER, VCC, VINPUT, VREF
+00:13:28.564 | EnumComponents(RLC) count=11 -> C110, C111, C115, CBB, R110, R113, R116, R117, RBB, RLOAD, RRF
+00:13:28.586 | EnumComponents(Resistors) count=7 -> R110, R113, R116, R117, RBB, RLOAD, RRF
+00:13:28.604 | EnumComponents(Capacitors) count=4 -> C110, C111, C115, CBB
+00:13:28.629 | EnumComponents(Inductors) count=1 -> 
+00:13:29.149 | EnumOutputs(All) count=1 -> 
+00:13:29.151 | EnumOutputs(Voltage) count=1 -> 
+00:13:29.158 | EnumOutputs(Current) count=1 -> 
+00:13:29.175 | EnumOutputs(Power) count=1 -> 
+00:13:29.194 | EnumOutputs(Digital) count=1 -> 
+00:13:29.203 | EnumVariants -> Default1
+00:13:29.223 | EnumCircuitParameters count=1
+00:13:29.304 |   param '' value ERR Error HRESULT E_FAIL has been returned from a call to a COM component.
+00:13:29.452 | ReportNetlist returned 41 chars
+00:13:29.655 | GetCircuitImage -> D:\实验报告文件夹\电路2\debug\schematic.png
+00:13:29.657 | final app LastErrorMessage = 'Circuit parameter '' cannot be found in the design.'
+00:13:29.781 | disconnected
+00:13:29.789 | probe done

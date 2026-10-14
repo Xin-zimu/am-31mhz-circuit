@@ -1,0 +1,59 @@
+{
+  "tran": "1u 5m 0 5m uic (TMAX=TSTOP: no clamp)",
+  "cases": {
+    "L0_plain": {
+      "options": null,
+      "set": [],
+      "note": "no LTE control card at all",
+      "netlist_sha256": "5c347e372099c0dba3161799a6238a830e3016fa2fb0fd7623dd58e87a71dee3"
+    },
+    "L1_opt_r1e-2": {
+      "options": ".options reltol=1e-2",
+      "set": [],
+      "note": "loose via .options",
+      "netlist_sha256": "8c06a76e829a02678e5f88371c1ee0127f48f46b753c207da4ca5aba45130333"
+    },
+    "L2_opt_r1e-9": {
+      "options": ".options reltol=1e-9",
+      "set": [],
+      "note": "tight via .options",
+      "netlist_sha256": "7fc9b387e349e3f5df5bdbfff1a1f5e8a6bf1d14abac9feb610c5bd1026db828"
+    },
+    "L3_set_r1e-2": {
+      "options": null,
+      "set": [
+        "set reltol = 0.01"
+      ],
+      "note": "loose via set",
+      "netlist_sha256": "5c347e372099c0dba3161799a6238a830e3016fa2fb0fd7623dd58e87a71dee3"
+    },
+    "L4_set_r1e-9": {
+      "options": null,
+      "set": [
+        "set reltol = 1e-09"
+      ],
+      "note": "tight via set",
+      "netlist_sha256": "5c347e372099c0dba3161799a6238a830e3016fa2fb0fd7623dd58e87a71dee3"
+    },
+    "L5_opt_guess": {
+      "options": ".options reltol=1e-2",
+      "set": [
+        "set reltol = 1e-2"
+      ],
+      "note": "both channels",
+      "netlist_sha256": "8c06a76e829a02678e5f88371c1ee0127f48f46b753c207da4ca5aba45130333"
+    },
+    "L6_opt_trtol": {
+      "options": ".options reltol=1e-3 trtol=0.01",
+      "set": [],
+      "note": "tight trtol via .options",
+      "netlist_sha256": "b18d0300d0e95944add71da0193c8476049c355ead55c5bc1ad2d8dbb3d0f1ca"
+    },
+    "L7_opt_plural": {
+      "options": ".option reltol=1e-9",
+      "set": [],
+      "note": "singular spelling",
+      "netlist_sha256": "cda25469c98904b6994b0326e778fd623ba02f48aa98c4b00e90bddde17c6261"
+    }
+  }
+}

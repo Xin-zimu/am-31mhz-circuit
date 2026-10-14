@@ -1,0 +1,53 @@
+{
+  "tran": "1u 200u 0 10u uic",
+  "cases": {
+    "S0_plain": {
+      "options": null,
+      "set": [],
+      "note": "no card, no set",
+      "netlist_sha256": "5ebf42d2d933b47f387e4d21d2e9de93a4946b38bcc114f5159927c11c16ca0f"
+    },
+    "S1_opt_loose": {
+      "options": ".options reltol=0.1 trtol=20",
+      "set": [],
+      "note": "loose LTE via .options",
+      "netlist_sha256": "0fbc35eca3703ff4240d594adfa029960e80c567dcf241146963eee613faf103"
+    },
+    "S2_opt_tight": {
+      "options": ".options reltol=1e-9 trtol=0.1",
+      "set": [],
+      "note": "tight LTE via .options",
+      "netlist_sha256": "ada7981488c7850f25a6af29d73a1640251663bc2abb41de722635ddb44bc66c"
+    },
+    "S3_set_loose": {
+      "options": null,
+      "set": [
+        "set reltol = 0.1",
+        "set trtol = 20"
+      ],
+      "note": "loose LTE via set",
+      "netlist_sha256": "5ebf42d2d933b47f387e4d21d2e9de93a4946b38bcc114f5159927c11c16ca0f"
+    },
+    "S4_set_tight": {
+      "options": null,
+      "set": [
+        "set reltol = 1e-9",
+        "set trtol = 0.1"
+      ],
+      "note": "tight LTE via set",
+      "netlist_sha256": "5ebf42d2d933b47f387e4d21d2e9de93a4946b38bcc114f5159927c11c16ca0f"
+    },
+    "S5_opt_gear": {
+      "options": ".options method=gear",
+      "set": [],
+      "note": "gear via .options",
+      "netlist_sha256": "6c58c1d5b961544d39095ba2270f5c14e99a9712c7191abf69ae059a64d99b06"
+    },
+    "S6_opt_maxord": {
+      "options": ".options method=gear maxord=6",
+      "set": [],
+      "note": "gear maxord 6",
+      "netlist_sha256": "655d8bc03a6667e7f58b80fb0e73ce882053f1d09a361793f2ae10d4571d52eb"
+    }
+  }
+}

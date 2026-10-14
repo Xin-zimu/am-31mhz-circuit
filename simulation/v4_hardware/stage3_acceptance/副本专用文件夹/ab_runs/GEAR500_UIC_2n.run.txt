@@ -1,0 +1,1 @@
+﻿GEAR500_UIC_2n   status=SOLVER-STOPPED   reached~1.000E+000s chunks=1 wall=1.3s msg=

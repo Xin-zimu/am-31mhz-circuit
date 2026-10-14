@@ -1,0 +1,7 @@
+{
+  "name": "W_1n_1n_from_GEAR500UIC",
+  "source": "decoded_GEAR500_UIC_20us.xml (the failing project)",
+  "change": "TSTEP 2e-09 -> 1e-09 ; TMAX 2e-09 -> 1e-09 ; nothing else",
+  "differing_bytes": 2,
+  "sha256": "795343ef74ba68ac"
+}

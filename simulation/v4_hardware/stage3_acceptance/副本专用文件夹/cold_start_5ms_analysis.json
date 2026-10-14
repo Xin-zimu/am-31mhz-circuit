@@ -1,0 +1,19 @@
+{
+  "points": 5086826,
+  "end_s": 0.005,
+  "first_time_v2_stays_above_1V_s": 0.00425,
+  "first_time_v2_window_mean_within_5pct_nominal_s": null,
+  "last_time_v2_below_1V_s": 0.004217506373157973,
+  "nominal_last_0p5ms_means": {
+    "bb_in": 4.503489109823563,
+    "bbo": 4.549148829996611,
+    "v1": 2.1068913516457823,
+    "v2": 4.543858672366605
+  },
+  "v2_last_100us": {
+    "min": 1.486889403005023,
+    "max": 6.4873369123289,
+    "mean": 4.026359177904205
+  },
+  "bb_in_last": 4.606048056339941
+}

@@ -1,0 +1,67 @@
+{
+  "GUI actual export": {
+    "file": "S03_GUI_COLD_20us_actual.cir",
+    "bytes": 24357,
+    "control_lines": [],
+    "switches": 9,
+    "switch_models": [
+      ".MODEL         _S1 VSWITCH ROFF=1E9 RON=10M VOFF=0.0V VON=10MV",
+      ".MODEL         _S2 VSWITCH ROFF=1E9 RON=10M VOFF=0.0V VON=10MV",
+      ".MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=700E-3 VOFF=100E-3)",
+      ".MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=700E-3 VOFF=100E-3)",
+      ".MODEL OL_SW VSWITCH(RON=1E-3 ROFF=1E12 VON=900E-3 VOFF=800E-3)"
+    ],
+    "time_dependent": [
+      "+      sin(0 1 31000000 0 0 0)"
+    ],
+    "behavioral": []
+  },
+  "ENGINE (same circuit)": {
+    "file": "cold_engine_gui_net.cir",
+    "bytes": 24372,
+    "control_lines": [
+      ".end"
+    ],
+    "switches": 9,
+    "switch_models": [
+      ".MODEL         _S1 VSWITCH ROFF=1E9 RON=10M VOFF=0.0V VON=10MV",
+      ".MODEL         _S2 VSWITCH ROFF=1E9 RON=10M VOFF=0.0V VON=10MV",
+      ".MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=700E-3 VOFF=100E-3)",
+      ".MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=700E-3 VOFF=100E-3)",
+      ".MODEL OL_SW VSWITCH(RON=1E-3 ROFF=1E12 VON=900E-3 VOFF=800E-3)"
+    ],
+    "time_dependent": [
+      "+      sin(0 1 31000000 0 0 0)"
+    ],
+    "behavioral": []
+  },
+  "ENGINE 7 ms": {
+    "file": "L_7ms_1ns.cir",
+    "bytes": 24370,
+    "control_lines": [
+      ".end"
+    ],
+    "switches": 9,
+    "switch_models": [
+      ".MODEL         _S1 VSWITCH ROFF=1E9 RON=10M VOFF=0.0V VON=10MV",
+      ".MODEL         _S2 VSWITCH ROFF=1E9 RON=10M VOFF=0.0V VON=10MV",
+      ".MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=700E-3 VOFF=100E-3)",
+      ".MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=700E-3 VOFF=100E-3)",
+      ".MODEL OL_SW VSWITCH(RON=1E-3 ROFF=1E12 VON=900E-3 VOFF=800E-3)"
+    ],
+    "time_dependent": [
+      "+      sin(0 1 31000000 0 0 0)"
+    ],
+    "behavioral": []
+  },
+  "diff_changed_lines": 7,
+  "diff_lines": [
+    "-** S03_GUI_COLD_20us **",
+    "+** S03_COLD_ZERO_GEAR500_UIC_20us **",
+    "-* Wed, Oct 14, 2026 13:39:31 ",
+    "+* Tue, Oct 13, 2026 23:46:05 ",
+    "-",
+    "-",
+    "+.end"
+  ]
+}

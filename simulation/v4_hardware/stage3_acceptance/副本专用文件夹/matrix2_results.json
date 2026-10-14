@@ -1,0 +1,18 @@
+﻿[
+    {
+        "tag":  "orig_GEAR500_UIC_2ns",
+        "status":  "EXC",
+        "reached_s":  0,
+        "chunks":  "0",
+        "wall_s":  0.8,
+        "msg":  "The \u0027++\u0027 operator works only on numbers. The operand is a \u0027System.String\u0027."
+    },
+    {
+        "tag":  "proj_TMAX1ns",
+        "status":  "EXC",
+        "reached_s":  0,
+        "chunks":  "0",
+        "wall_s":  0.4,
+        "msg":  "The \u0027++\u0027 operator works only on numbers. The operand is a \u0027System.String\u0027."
+    }
+]

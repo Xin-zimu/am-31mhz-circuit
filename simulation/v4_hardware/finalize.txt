@@ -1,0 +1,10 @@
+﻿finalize 10/09/2026 10:38:22
+connected=True
+=============== D:\实验报告文件夹\电路2\simulation\v4_hardware\LM393_20k_D10_A4.ms14
+  size before = 253530
+  opened 'LM393_20k_D10_A4' components=19
+  variants = Default1
+  EXC Error HRESULT E_FAIL has been returned from a call to a COM component. lastErr='å·¥ä½åºåæªæ¾å° RefDes 'RLOAD'ã'
+  size after  = 253530
+app LastErrorMessage='å·¥ä½åºåæªæ¾å° RefDes 'RLOAD'ã'
+finalize done

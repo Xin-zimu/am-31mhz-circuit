@@ -1,0 +1,190 @@
+_uca7f51886862a5544aff08676581ea65876863ff1aLM393_20k_D10_A4_uc1ff09   (_uc46253537065e5671f: 2026_uc15e7410_uc167089_uc165e5, 10:40:01)
+--------------------------------------------------------------------------------------
+_uc27f517edc                     _uc375358def56fe                _uc3514356684ef6                          _uc27ba1811a             
+--------------------------------------------------------------------------------------
+0                      LM393_TI(LM393_TI- R2                           2              
+                       XU1A)                                                          
+0                      LM393_20k_D10_A4   V5                           2              
+0                      LM393_TI(LM393_TI- D2                           A              
+                       XU1A)                                                          
+0                      LM393_20k_D10_A4   CDEC                         2              
+0                      LM393_20k_D10_A4   CBULK                        2              
+0                      LM393_TI(LM393_TI- Q4                           E              
+                       XU1A)                                                          
+0                      LM393_TI(LM393_TI- R1                           2              
+                       XU1B)                                                          
+0                      LM393_TI(LM393_TI- V4                           1              
+                       XU1B)                                                          
+0                      LM393_TI(LM393_TI- Q7                           B              
+                       XU1B)                                                          
+0                      LM393_TI(LM393_TI- V7                           1              
+                       XU1A)                                                          
+0                      LM393_TI(LM393_TI- V7                           3              
+                       XU1A)                                                          
+0                      LM393_20k_D10_A4   RHB                          2              
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_TI(LM393_TI- Q5                           E              
+                       XU1A)                                                          
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_TI(LM393_TI- Q3                           E              
+                       XU1B)                                                          
+0                      LM393_TI(LM393_TI- Q8                           E              
+                       XU1A)                                                          
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_TI(LM393_TI- Q2                           E              
+                       XU1B)                                                          
+0                      LM393_20k_D10_A4   CT                           2              
+0                      LM393_TI(LM393_TI- Q10                          B              
+                       XU1A)                                                          
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_20k_D10_A4   RVAB                         2              
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_TI(LM393_TI- V9                           1              
+                       XU1A)                                                          
+0                      LM393_20k_D10_A4   RDB                          2              
+0                      LM393_TI(LM393_TI- V2                           3              
+                       XU1B)                                                          
+0                      LM393_TI(LM393_TI- V2                           1              
+                       XU1B)                                                          
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_20k_D10_A4   _uc257307ebf                           1              
+0                      LM393_TI(LM393_TI- Q1                           E              
+                       XU1B)                                                          
+0                      LM393_20k_D10_A4   CINPUT                       2              
+0                      LM393_TI(LM393_TI- D1                           A              
+                       XU1B)                                                          
+0                      LM393_20k_D10_A4   RINPUT                       2              
+DUTY                   LM393_20k_D10_A4   RVDT                         2              
+DUTY                   LM393_TI(LM393_TI- V4                           2              
+                       XU1B)                                                          
+DUTY                   LM393_20k_D10_A4   RVDB                         1              
+DUTY_BOT               LM393_20k_D10_A4   RVDB                         2              
+DUTY_BOT               LM393_20k_D10_A4   RDB                          1              
+DUTY_TOP               LM393_20k_D10_A4   RVDT                         1              
+DUTY_TOP               LM393_20k_D10_A4   RDT                          2              
+FSET                   LM393_20k_D10_A4   RFIX                         2              
+FSET                   LM393_20k_D10_A4   RVRF                         1              
+HYST                   LM393_20k_D10_A4   RHB                          1              
+HYST                   LM393_20k_D10_A4   RHF                          2              
+HYST                   LM393_20k_D10_A4   RHT                          2              
+HYST                   LM393_TI(LM393_TI- V9                           2              
+                       XU1A)                                                          
+OSC                    LM393_20k_D10_A4   RHF                          1              
+OSC                    LM393_20k_D10_A4   RFIX                         1              
+OSC                    LM393_20k_D10_A4   RPU1                         2              
+PWM_RAW                LM393_20k_D10_A4   RPU2                         2              
+PWM_RAW                LM393_20k_D10_A4   RVAT                         1              
+RAMP                   LM393_TI(LM393_TI- I2                           1              
+                       XU1B)                                                          
+RAMP                   LM393_20k_D10_A4   RVRF                         2              
+RAMP                   LM393_20k_D10_A4   CT                           1              
+RAMP                   LM393_TI(LM393_TI- V2                           4              
+                       XU1B)                                                          
+RAMP                   LM393_TI(LM393_TI- V3                           2              
+                       XU1B)                                                          
+RAMP                   LM393_TI(LM393_TI- I4                           1              
+                       XU1A)                                                          
+RAMP                   LM393_TI(LM393_TI- V8                           2              
+                       XU1A)                                                          
+RAMP                   LM393_TI(LM393_TI- V7                           4              
+                       XU1A)                                                          
+SC1.5                  LM393_TI(LM393_TI- Q6                           B              
+                       XU1B)                                                          
+SC1.5                  LM393_TI(LM393_TI- V3                           1              
+                       XU1B)                                                          
+SC1.6                  LM393_TI(LM393_TI- Q7                           E              
+                       XU1B)                                                          
+SC1.6                  LM393_TI(LM393_TI- I1                           1              
+                       XU1B)                                                          
+SC1.6                  LM393_TI(LM393_TI- Q6                           E              
+                       XU1B)                                                          
+SC1.7                  LM393_TI(LM393_TI- Q2                           B              
+                       XU1B)                                                          
+SC1.7                  LM393_TI(LM393_TI- Q6                           C              
+                       XU1B)                                                          
+SC1.7                  LM393_TI(LM393_TI- Q3                           B              
+                       XU1B)                                                          
+SC1.7                  LM393_TI(LM393_TI- Q2                           C              
+                       XU1B)                                                          
+SC1.8                  LM393_TI(LM393_TI- Q7                           C              
+                       XU1B)                                                          
+SC1.8                  LM393_TI(LM393_TI- Q3                           C              
+                       XU1B)                                                          
+SC1.8                  LM393_TI(LM393_TI- I2                           4              
+                       XU1B)                                                          
+SC1.8                  LM393_TI(LM393_TI- V2                           2              
+                       XU1B)                                                          
+SC1.9                  LM393_TI(LM393_TI- V1                           1              
+                       XU1B)                                                          
+SC1.9                  LM393_TI(LM393_TI- I2                           2              
+                       XU1B)                                                          
+SC2.5                  LM393_TI(LM393_TI- V8                           1              
+                       XU1A)                                                          
+SC2.5                  LM393_TI(LM393_TI- Q9                           B              
+                       XU1A)                                                          
+SC2.6                  LM393_TI(LM393_TI- Q10                          E              
+                       XU1A)                                                          
+SC2.6                  LM393_TI(LM393_TI- I3                           1              
+                       XU1A)                                                          
+SC2.6                  LM393_TI(LM393_TI- Q9                           E              
+                       XU1A)                                                          
+SC2.7                  LM393_TI(LM393_TI- Q8                           B              
+                       XU1A)                                                          
+SC2.7                  LM393_TI(LM393_TI- Q9                           C              
+                       XU1A)                                                          
+SC2.7                  LM393_TI(LM393_TI- Q5                           B              
+                       XU1A)                                                          
+SC2.7                  LM393_TI(LM393_TI- Q5                           C              
+                       XU1A)                                                          
+SC2.8                  LM393_TI(LM393_TI- Q8                           C              
+                       XU1A)                                                          
+SC2.8                  LM393_TI(LM393_TI- I4                           4              
+                       XU1A)                                                          
+SC2.8                  LM393_TI(LM393_TI- Q10                          C              
+                       XU1A)                                                          
+SC2.8                  LM393_TI(LM393_TI- V7                           2              
+                       XU1A)                                                          
+SC2.9                  LM393_TI(LM393_TI- I4                           2              
+                       XU1A)                                                          
+SC2.9                  LM393_TI(LM393_TI- V6                           1              
+                       XU1A)                                                          
+V1                     LM393_20k_D10_A4   CINPUT                       1              
+V1                     LM393_20k_D10_A4   RINPUT                       1              
+V1                     LM393_20k_D10_A4   RVAB                         1              
+V1                     LM393_20k_D10_A4   RVAT                         2              
+V5                     LM393_TI(LM393_TI- I4                           3              
+                       XU1A)                                                          
+V5                     LM393_TI(LM393_TI- R1                           1              
+                       XU1B)                                                          
+V5                     LM393_20k_D10_A4   RPU2                         1              
+V5                     LM393_TI(LM393_TI- D1                           K              
+                       XU1B)                                                          
+V5                     LM393_TI(LM393_TI- I3                           2              
+                       XU1A)                                                          
+V5                     LM393_TI(LM393_TI- Q1                           B              
+                       XU1B)                                                          
+V5                     LM393_TI(LM393_TI- V1                           2              
+                       XU1B)                                                          
+V5                     LM393_TI(LM393_TI- I2                           3              
+                       XU1B)                                                          
+V5                     LM393_TI(LM393_TI- I1                           2              
+                       XU1B)                                                          
+V5                     LM393_20k_D10_A4   RDT                          1              
+V5                     LM393_20k_D10_A4   RHT                          1              
+V5                     LM393_TI(LM393_TI- V6                           2              
+                       XU1A)                                                          
+V5                     LM393_20k_D10_A4   RPU1                         1              
+V5                     LM393_TI(LM393_TI- Q4                           B              
+                       XU1A)                                                          
+V5                     LM393_20k_D10_A4   CBULK                        1              
+V5                     LM393_TI(LM393_TI- D2                           K              
+                       XU1A)                                                          
+V5                     LM393_20k_D10_A4   CDEC                         1              
+V5                     LM393_TI(LM393_TI- R2                           1              
+                       XU1A)                                                          
+V5                     LM393_20k_D10_A4   V5                           1              
+--------------------------------------------------------------------------------------

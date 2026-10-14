@@ -1,0 +1,75 @@
+{
+  "names": [
+    "time",
+    "V(bb_in)",
+    "V(bbo)",
+    "V(v1)",
+    "V(v2)"
+  ],
+  "first_four_points": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.0000000000000002e-11,
+      4.508318209438176,
+      0.22071982513091662,
+      0.001594482141863528,
+      4.498904227275562
+    ],
+    [
+      2.0008000000000003e-11,
+      4.508309536947226,
+      0.2207863691869668,
+      0.0015951201676709663,
+      4.498903968952684
+    ],
+    [
+      2.0024000000000004e-11,
+      4.508292192416282,
+      0.22087474585035852,
+      0.0015963966592622925,
+      4.4989034523122875
+    ]
+  ],
+  "trace_integrity": {
+    "V(bb_in)": {
+      "points": 31513,
+      "start_s": 0.0,
+      "end_s": 2e-05,
+      "finite": true,
+      "monotonic": true,
+      "max_step_s": 1.008064516129043e-09
+    },
+    "V(bbo)": {
+      "points": 31513,
+      "start_s": 0.0,
+      "end_s": 2e-05,
+      "finite": true,
+      "monotonic": true,
+      "max_step_s": 1.008064516129043e-09
+    },
+    "V(v1)": {
+      "points": 31513,
+      "start_s": 0.0,
+      "end_s": 2e-05,
+      "finite": true,
+      "monotonic": true,
+      "max_step_s": 1.008064516129043e-09
+    },
+    "V(v2)": {
+      "points": 31513,
+      "start_s": 0.0,
+      "end_s": 2e-05,
+      "finite": true,
+      "monotonic": true,
+      "max_step_s": 1.008064516129043e-09
+    }
+  },
+  "accepted_as_cold": false,
+  "reason": "Nonzero samples immediately reproduce precharged values; zero_ic alone has not removed the precharge."
+}

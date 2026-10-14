@@ -1,0 +1,147 @@
+_uca7f51886862a5544aff08676581ea65876863ff1aAM_22k_D50_A4V_debug_uc1ff09   (_uc46253537065e5671f: 2026_uc15e749_uc1670818_uc165e5, 0:13:29)
+--------------------------------------------------------------------------------------
+_uc27f517edc                     _uc375358def56fe                _uc3514356684ef6                          _uc27ba1811a             
+--------------------------------------------------------------------------------------
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb _uc257307ebf                           1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb RLOAD                        2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb VCC                          2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb VREF                         2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb VINPUT                       2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb CBB                          2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb VCARRIER                     2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb EPA                          3              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb R110                         2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb C111                         2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb EAM_-EAM                     8              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb EAM_-EAM                     4              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb ECHANNEL                     1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb EPA                          1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb ERX                          3              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb ERX                          1              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb EAM_-EAM                     2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb R117                         2              
+                       ug                                                             
+0                      AM_22k_D50_A4V_deb ECHANNEL                     3              
+                       ug                                                             
+AMP_IDEAL              AM_22k_D50_A4V_deb EBB                          4              
+                       ug                                                             
+AMP_IDEAL              AM_22k_D50_A4V_deb RBB                          1              
+                       ug                                                             
+ANT_RX                 AM_22k_D50_A4V_deb ERX                          2              
+                       ug                                                             
+ANT_RX                 AM_22k_D50_A4V_deb ECHANNEL                     4              
+                       ug                                                             
+BB_IN                  AM_22k_D50_A4V_deb EBB                          2              
+                       ug                                                             
+BB_IN                  AM_22k_D50_A4V_deb C115                         2              
+                       ug                                                             
+BB_IN                  AM_22k_D50_A4V_deb R113                         1              
+                       ug                                                             
+DET_RF                 AM_22k_D50_A4V_deb R117                         1              
+                       ug                                                             
+DET_RF                 AM_22k_D50_A4V_deb C110                         2              
+                       ug                                                             
+DET_RF                 AM_22k_D50_A4V_deb D101                         A              
+                       ug                                                             
+RF_OUT                 AM_22k_D50_A4V_deb RRF                          2              
+                       ug                                                             
+RF_OUT                 AM_22k_D50_A4V_deb C110                         1              
+                       ug                                                             
+TP2                    AM_22k_D50_A4V_deb EAM_-EAM                     1              
+                       ug                                                             
+TP2                    AM_22k_D50_A4V_deb VCARRIER                     1              
+                       ug                                                             
+TP3                    AM_22k_D50_A4V_deb EAM_-EAM                     7              
+                       ug                                                             
+TP3                    AM_22k_D50_A4V_deb EPA                          2              
+                       ug                                                             
+TP4                    AM_22k_D50_A4V_deb EPA                          4              
+                       ug                                                             
+TP4                    AM_22k_D50_A4V_deb ECHANNEL                     2              
+                       ug                                                             
+TP5                    AM_22k_D50_A4V_deb ERX                          4              
+                       ug                                                             
+TP5                    AM_22k_D50_A4V_deb RRF                          1              
+                       ug                                                             
+TP6                    AM_22k_D50_A4V_deb D101                         K              
+                       ug                                                             
+TP6                    AM_22k_D50_A4V_deb R110                         1              
+                       ug                                                             
+TP6                    AM_22k_D50_A4V_deb C111                         1              
+                       ug                                                             
+TP6                    AM_22k_D50_A4V_deb C115                         1              
+                       ug                                                             
+V1                     AM_22k_D50_A4V_deb EAM_-EAM                     3              
+                       ug                                                             
+V1                     AM_22k_D50_A4V_deb VINPUT                       1              
+                       ug                                                             
+V2                     AM_22k_D50_A4V_deb R116                         2              
+                       ug                                                             
+V2                     AM_22k_D50_A4V_deb RLOAD                        1              
+                       ug                                                             
+V2_OP                  AM_22k_D50_A4V_deb R116                         1              
+                       ug                                                             
+V2_OP                  AM_22k_D50_A4V_deb CBB                          1              
+                       ug                                                             
+V2_OP                  AM_22k_D50_A4V_deb RBB                          2              
+                       ug                                                             
+VREF                   AM_22k_D50_A4V_deb EBB                          3              
+                       ug                                                             
+VREF                   AM_22k_D50_A4V_deb EBB                          1              
+                       ug                                                             
+VREF                   AM_22k_D50_A4V_deb VREF                         1              
+                       ug                                                             
+VREF                   AM_22k_D50_A4V_deb R113                         2              
+                       ug                                                             
+--------------------------------------------------------------------------------------

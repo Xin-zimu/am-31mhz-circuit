@@ -1,0 +1,15 @@
+﻿poll 09/18/2026 00:55:55
+00:56:00.755 | opened 'AM_22k_D50_A4V_debug' state=0
+00:56:01.071 | RunSimulation(0.0003, pause) accepted
+00:56:02.132 | t+1.3s state=1 ws=122.2MB err=''
+00:56:02.140 |    NICDS CIRCAC.tmp: -1 -> 4356
+00:56:02.154 |    NICDS Inst_multisim~5580.tmp: -1 -> 0
+00:56:02.171 |    NICDS JETB33.tmp: -1 -> 0
+00:56:02.184 |    NICDS JETB44.tmp: -1 -> 0
+00:56:02.199 |    NICDS lvtl1395812640.rsc: -1 -> 32
+00:56:02.217 |    NICDS multisim_32_19.0.1f4_xin_cur.txt: 3805 -> 0
+00:56:02.228 |    NICDS {43B5646C-325E-41C0-9C62-33958A717EAD}: -1 -> 16384
+00:56:12.330 | t+11.6s state=2 ws=122.2MB err=''
+01:00:01.338 | StopSimulation issued
+01:00:01.340 | final state=0 err=''
+01:00:01.454 | poll done

@@ -1,0 +1,13 @@
+{
+  "frequency_hz": 19998.18391289861,
+  "duty_pct": 50.00086497736918,
+  "vpp": 4.000002886911882,
+  "low_v": 0.07481539290347586,
+  "high_v": 4.074818279815358,
+  "ramp_min": 0.9312124849682,
+  "ramp_max": 2.192474113164,
+  "points": 39233,
+  "end_s": 0.0015,
+  "max_step_s": 5.000000030002706e-08,
+  "source": "Multisim GUI exported native_zeroic.txt"
+}

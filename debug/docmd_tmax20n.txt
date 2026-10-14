@@ -1,0 +1,7 @@
+﻿docmd start 09/18/2026 00:45:18 tag=tmax20n
+00:45:23.410 | connected=True
+00:45:23.539 | NewFile -> '设计1'
+00:45:23.546 | DoCommandLine returned ok
+00:45:29.222 | waited 5.7s, log size=4328
+00:45:29.225 | SimulationState=0 LastErrorMessage=''
+00:45:29.356 | docmd done

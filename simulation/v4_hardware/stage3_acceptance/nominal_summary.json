@@ -1,0 +1,66 @@
+[
+  {
+    "run": "nominal_1ms",
+    "points": 1009302,
+    "t_end_ms": 1.0,
+    "frequency_V1_hz": 19997.471668898277,
+    "duty_V1_percent": 50.00003548072781,
+    "frequency_V2_hz": 19997.403216689494,
+    "duty_V2_percent": 50.224518076732124,
+    "V2_mean_V": 4.524439597370719,
+    "V2_robust_vpp": 4.816889600759151,
+    "V2_raw_vpp": 4.965183910752258,
+    "gain_robust": 1.204221531126175,
+    "repeatability": {
+      "official_acceptance": false,
+      "threshold_fraction": 0.001,
+      "V2_mean_span_V": 0.0057417396515173635,
+      "V2_robust_vpp_span_V": 0.0007364747338201028,
+      "period_relative_span": 7.36609120489145e-05,
+      "passes": false
+    },
+    "linear_half_amplitude_test": "NOT_RUN",
+    "cold_start_test": "NOT_RUN",
+    "wireless_physical_acceptance": "NOT_TESTED",
+    "scope": "Full functional model, precharged IC, native XSPICE command entry, not a new GUI run",
+    "numerical_threshold_checks": {
+      "V1_frequency_within_1pct": true,
+      "V2_frequency_within_1pct": true,
+      "V1_duty50_within_5pp": true,
+      "V2_duty50_within_5pp": true,
+      "V2_ge_4V_at_4V_input_robust": true
+    }
+  },
+  {
+    "run": "nominal_5ms",
+    "points": 5046113,
+    "t_end_ms": 5.0,
+    "frequency_V1_hz": 19997.922971884433,
+    "duty_V1_percent": 50.00116281855717,
+    "frequency_V2_hz": 19997.915968936548,
+    "duty_V2_percent": 50.22542018289168,
+    "V2_mean_V": 4.496040582487098,
+    "V2_robust_vpp": 4.816022800305442,
+    "V2_raw_vpp": 4.96421892580541,
+    "gain_robust": 1.2040048310837181,
+    "repeatability": {
+      "official_acceptance": false,
+      "threshold_fraction": 0.001,
+      "V2_mean_span_V": 0.0003509855220427127,
+      "V2_robust_vpp_span_V": 0.0005958644524053369,
+      "period_relative_span": 1.818477866844111e-05,
+      "passes": true
+    },
+    "linear_half_amplitude_test": "NOT_RUN",
+    "cold_start_test": "NOT_RUN",
+    "wireless_physical_acceptance": "NOT_TESTED",
+    "scope": "Full functional model, precharged IC, native XSPICE command entry, not a new GUI run",
+    "numerical_threshold_checks": {
+      "V1_frequency_within_1pct": true,
+      "V2_frequency_within_1pct": true,
+      "V1_duty50_within_5pp": true,
+      "V2_duty50_within_5pp": true,
+      "V2_ge_4V_at_4V_input_robust": true
+    }
+  }
+]
