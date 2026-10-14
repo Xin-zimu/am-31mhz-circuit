@@ -1,0 +1,16 @@
+﻿{
+    "queue":  "baseline",
+    "started_utc":  "2026-10-14T16:45:07.8604977Z",
+    "policy":  "baseline\u003c=2 attempts; others\u003c=3 attempts; every attempt preserved; success proves only this run",
+    "preflight_multisim_count":  0,
+    "results":  [
+                    {
+                        "case":  "C4",
+                        "status":  "BUDGET_LIMITED",
+                        "tag":  null,
+                        "attempts_used":  2,
+                        "attempt_budget":  2
+                    }
+                ],
+    "finished_utc":  "2026-10-14T16:45:07.8604977Z"
+}
