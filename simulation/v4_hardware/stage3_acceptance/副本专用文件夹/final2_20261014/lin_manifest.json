@@ -1,0 +1,30 @@
+{
+  "tag": "LIN_2Vpp_pre",
+  "tran": "tran 2n 5m 0 2n uic",
+  "initial": "precharged (unchanged from accepted S03-03 baseline)",
+  "source_sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+  "target_sha256": "08b7acf2905c444a594e3c7c13a0e8dd6066e7087f2b07d3dd6e6b27acc2b050",
+  "changes": [
+    {
+      "component": "rRVAT",
+      "from": "1847.93",
+      "to": "10905.544559"
+    },
+    {
+      "component": "rRVAB",
+      "from": "18152.1",
+      "to": "9094.455441"
+    }
+  ],
+  "unchanged": [
+    "rRVRF",
+    "rRVDT",
+    "rRVDB",
+    "rRG_BB",
+    "rRF_BB",
+    "rRV_BB",
+    "rRLOAD",
+    "precharge IC values"
+  ],
+  "note": "D=50% row of potentiometer_settings.csv. Only the input attenuator divider changes; receive gain and duty are held fixed, as required."
+}

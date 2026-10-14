@@ -1,0 +1,29 @@
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670814_uc165e5, 15:21:35)
+_uc3547d4ee4ff1a>source D:/ms_xsp/stage3_acceptance/s0304_final2_20261014/COLD_12ms_tail.cir
+_uc7676581ea547d4ee476848f9351fa
+source D:/ms_xsp/stage3_acceptance/s0304_final2_20261014/COLD_12ms_tail.cir
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670814_uc165e5, 15:21:35)
+_uc3547d4ee4ff1a>begin-scope page Transient Analysis
+_uc7676581ea547d4ee476848f9351fa
+begin-scope page Transient Analysis
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670814_uc165e5, 15:21:35)
+_uc3547d4ee4ff1a>save $v1 $bb_in $bbo $v2
+_uc7676581ea547d4ee476848f9351fa
+save $v1 $bb_in $bbo $v2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670814_uc165e5, 15:21:35)
+_uc3547d4ee4ff1a>iplot $v1 $bb_in $bbo $v2
+_uc7676581ea547d4ee476848f9351fa
+iplot $v1 $bb_in $bbo $v2
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670814_uc165e5, 15:21:35)
+_uc3547d4ee4ff1a>tran 1n 12m 11.5m 1n uic
+_uc7676581ea547d4ee476848f9351fa
+tran 1n 12m 11.5m 1n uic
+Error: Internal simulation error.
+Error: Internal simulation error.
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670814_uc165e5, 15:22:49)
+_uc3547d4ee4ff1a>write-and-destroy-iplot "D:/ms_xsp/stage3_acceptance/s0304_final2_20261014/COLD_12ms_tail.raw"
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670814_uc165e5, 15:22:49)
+_uc3547d4ee4ff1a>end-scope
+_uc7676581ea547d4ee476848f9351fa
+end-scope

@@ -1,0 +1,10 @@
+{
+  "n_cycles": 9,
+  "period_span_all_pct": 0.005501504558400428,
+  "v2_mean_span_all_mV": 4.78263809698376,
+  "v2_mean_span_all_pct": 0.09930475384518417,
+  "drift_mV_per_ms": 11905.752047125476,
+  "first100_mean_V": 4.483325559983062,
+  "last100_mean_V": 4.483325559983062,
+  "amp_V": 4.816122
+}

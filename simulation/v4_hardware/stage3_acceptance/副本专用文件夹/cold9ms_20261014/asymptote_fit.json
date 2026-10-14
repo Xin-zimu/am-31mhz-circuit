@@ -1,0 +1,13 @@
+{
+  "tau_ms": 1.4040000000000008,
+  "V_inf_mV": 4634.867202982147,
+  "A_mV": -24948.497731095384,
+  "rms_mV": 79.14152758507022,
+  "n_cycles": 101,
+  "nominal_mV": 4496.040582,
+  "asymptote_vs_nominal_mV": 138.8266209821477,
+  "asymptote_vs_nominal_pct": 2.8825395407788195,
+  "t_within_1mV_ms": 16.614894719016462,
+  "t_within_screen_ms": 14.407885752975307,
+  "implied_drift_9ms_mV_per_ms": 29.223908904122215
+}

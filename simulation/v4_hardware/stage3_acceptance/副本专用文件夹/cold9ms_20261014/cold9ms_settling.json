@@ -1,0 +1,12 @@
+{
+  "drift_7ms_mV_per_ms": 76955.79377190358,
+  "drift_9ms_mV_per_ms": 11905.752047127613,
+  "tau_ms": 1.0182286558241815,
+  "residual_mV": 12122.777903522747,
+  "nominal_mean_V": 4.496040582,
+  "mean_at_9ms_V": 4.483325559983062,
+  "delta_mV": -12.715022016937638,
+  "five_cycle_span_mV": 2.154606830286454,
+  "five_cycle_span_pct": 0.044737380620475435,
+  "expected_span_from_drift_mV": 2976.4380117819032
+}

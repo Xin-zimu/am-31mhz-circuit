@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-14",
+  "runtime_dir": "D:\\ms_xsp\\stage3_acceptance\\s0304_final2_20261014",
+  "tran": "tran 2n 5m 4.5m 2n uic",
+  "why_tail": "same integration from t=0; TSTART only limits what is SAVED; proven bit-identical in the overlap window",
+  "expected_raw_MB": 63,
+  "expected_minutes": 10,
+  "cases": {
+    "LIN_2Vpp_tail": {
+      "role": "2 Vpp measurement (D=50%)",
+      "cir_sha256": "08b7acf2905c444a594e3c7c13a0e8dd6066e7087f2b07d3dd6e6b27acc2b050",
+      "att": {
+        "rRVAT": "10905.544559",
+        "rRVAB": "9094.455441"
+      },
+      "initial": "precharged"
+    },
+    "REF_4Vpp_tail": {
+      "role": "4 Vpp reference under identical options",
+      "cir_sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "att": {
+        "rRVAT": "1847.93",
+        "rRVAB": "18152.1"
+      },
+      "initial": "precharged"
+    }
+  },
+  "comparison_baseline": {
+    "accepted_S03_03_nominal_V2_robust_vpp": 4.816022800305442,
+    "accepted_S03_03_nominal_V2_mean_v": 4.496040582487098,
+    "output_freq_hz": 19998.043,
+    "duty_percent": 50.22635
+  }
+}

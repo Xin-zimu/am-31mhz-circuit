@@ -1,6 +1,6 @@
 # 副本专用文件夹（S03-04 专用）
 
-> 2026-10-14更正：短窗矩阵来自COM，5/7/9 ms与2 Vpp用例来自命令行引擎。GUI冷启动20 μs最初在225.797635 ns失败；只读诊断定位根因为GUI入口默认reltol=1e-4/trtol=1过紧（非步长上限），改RELTOL=1e-3/TRTOL=7后原生GUI跑满20 μs（20,038点/曲线），前置检查解除。TSTART短窗对照经本机实测有效（重叠区逐位相同）。9 ms尾段跑通：偏置速率以τ≈1.005 ms衰减，外推最终差标称0.0155%<0.1%（外推非实测；末五周期0.0447%通过是短窗假象）。12 ms尾段失败归因未定（遗留GUI实例干扰；已排除全局TSTOP上限）。2 Vpp线性（预充电+尾段）运行中。S03-04未验收。报告：[GUI与加权复核](gui_evidence_20261014/S03_04_GUI与加权复核报告.md)、[GUI失败诊断](gui_diagnosis_20261014/GUI失败原因诊断报告.md)、[GUI冷启动20 μs成功](gui_evidence_20261014/GUI冷启动20us成功报告.md)、[TSTART对照](engine_acceptance_20261014/TSTART短窗对照报告.md)、[9 ms稳定性](cold9ms_20261014/冷启动9ms稳定性报告.md)、[TSTOP诊断与线性度设计](final2_20261014/TSTOP诊断与线性度设计.md)。状态文档另已备份后更正，源工程与旧原始波形不变。
+> 2026-10-14更正：短窗矩阵来自COM，5/7/9/12 ms与2 Vpp用例来自命令行引擎。GUI冷启动20 μs最初在225.797635 ns失败；只读诊断定位根因为GUI入口默认reltol=1e-4/trtol=1过紧（非步长上限），改RELTOL=1e-3/TRTOL=7后原生GUI跑满20 μs（20,038点/曲线），前置检查解除。TSTART短窗对照经本机实测有效（重叠区逐位相同）。稳定性已由外推转为实测：9 ms尾段外推τ≈1.005 ms，12 ms清场重跑成功（963.5 s/510,216点）并实测末五周期跨度0.00379%（PASS）、与标称差−1.2094 mV（−0.0251%，0.1%阈值内余量4倍）、漂移速率0.5743 mV/ms按τ≈0.99 ms继续衰减（两条独立证据链同一τ）。2 Vpp线性已测：归一化增益0.98557、线性误差−1.4435%，基准自校验与已验收nominal_5ms完全一致。首次12 ms失败确系遗留GUI实例干扰，9–12 ms无积分上限、无全局TSTOP上限。S03-04实测与分析全部闭合，只剩验收结论落笔；边界：12 ms偏置仍在上升（"已完全稳定"不成立）、最终−0.63 mV仍是外推、15 ms未测、n=1。报告：[GUI与加权复核](gui_evidence_20261014/S03_04_GUI与加权复核报告.md)、[GUI失败诊断](gui_diagnosis_20261014/GUI失败原因诊断报告.md)、[GUI冷启动20 μs成功](gui_evidence_20261014/GUI冷启动20us成功报告.md)、[TSTART对照](engine_acceptance_20261014/TSTART短窗对照报告.md)、[9 ms稳定性](cold9ms_20261014/冷启动9ms稳定性报告.md)、[12 ms定论](cold12ms_20261014/冷启动12ms定论报告.md)、[2Vpp线性度](final2_20261014/2Vpp线性度报告.md)、[TSTOP诊断与线性度设计](final2_20261014/TSTOP诊断与线性度设计.md)。状态文档另已备份后更正，源工程与旧原始波形不变。
 
 用途：S03-04 排查的全部工作都在本目录内进行。**上级目录的源工程与既有证据文件未被改动。**
 
@@ -16,7 +16,8 @@
 | `gui_diagnosis_20261014/` | GUI 失败只读诊断脚本与报告、reltol=1e-3 成功对照分析、`records_before_sync/`（本轮记录同步前备份） |
 | `engine_acceptance_20261014/` | 4 个隔离验收用例输入（TSTART×2 已跑通；9 ms×2 输入备用，实际 9 ms 运行在 `cold9ms_20261014/`）、修复版 `run_one.ps1`、TSTART 对照报告 |
 | `cold9ms_20261014/` | 冷启动 9 ms 尾段运行与稳定性分析（τ 拟合、外推投影、验证脚本、报告） |
-| `final2_20261014/` | 12 ms 尝试与 TSTOP 上限诊断、2 Vpp 线性用例（`LIN_2Vpp_tail`/`REF_4Vpp_tail`）输入与分析脚本 |
+| `cold12ms_20261014/` | 冷启动 12 ms 清场重跑分析（末五周期测量、速率衰减 τ、外推转实测、定论报告） |
+| `final2_20261014/` | 12 ms 首次尝试与 TSTOP 上限诊断、2 Vpp 线性用例（`LIN_2Vpp_tail`/`REF_4Vpp_tail`）输入与分析脚本 |
 
 ## 有效证据（可直接引用）
 
@@ -27,8 +28,10 @@
 | `gui_diagnosis_20261014/GUI失败原因诊断报告.md` | GUI冷启动失败根因：入口默认reltol=1e-4/trtol=1过紧；225.806 ns（第7载波周期）为电路固有收敛危机 |
 | `gui_evidence_20261014/GUI冷启动20us成功报告.md` + `S03_GUI_COLD_20us_reltol1e3.gra` | 仅改RELTOL=1e-3/TRTOL=7后原生GUI跑满20 μs（20,038点/曲线），单变量对照 |
 | `engine_acceptance_20261014/TSTART短窗对照报告.md` + `tstart_comparison.json` | TSTART本机实测：尾段与全窗重叠区逐位相同，9 ms保存量降约18× |
-| `cold9ms_20261014/冷启动9ms稳定性报告.md` + `cold9ms_final.json`、`tau_final.json` | 9 ms尾段：漂移速率11.9058 mV/ms、局部τ≈1.005 ms、外推最终差标称−0.7446 mV（0.0155%）；外推非实测 |
+| `cold9ms_20261014/冷启动9ms稳定性报告.md` + `cold9ms_final.json`、`tau_final.json` | 9 ms尾段：漂移速率11.9058 mV/ms、局部τ≈1.005 ms、外推最终差标称−0.7446 mV（0.0155%）；外推非实测（已由12 ms实测取代） |
+| `cold12ms_20261014/冷启动12ms定论报告.md` + `cold12ms_analysis.json`、`cold12ms_settling.json` | 12 ms清场重跑：末五周期跨度0.00379%（PASS）、与标称差实测−1.2094 mV（−0.0251%）、速率法τ=0.9896 ms；9–12 ms无积分上限 |
 | `final2_20261014/TSTOP诊断与线性度设计.md` | 12 ms失败归因未定（遗留实例干扰）；PROBE_rc_20ms证明无全局TSTOP上限；2 Vpp改预充电+尾段设计 |
+| `final2_20261014/2Vpp线性度报告.md` + `linearity_final.json` | 2 Vpp线性：归一化增益0.98557、误差−1.4435%；`REF_4Vpp_tail`与已验收`nominal_5ms`四项完全一致 |
 | `../../../项目管理/交接_S03-04收尾_20261014.md` | 并行会话自包含交接文档：平台约束、运行器用法、待跑任务与开放决策项 |
 | `S03_04_cold_vs_nominal.png` | 冷启动 vs 预充电标称对比图 |
 | `matrix3_results.json`、`confirm/` | TSTEP/TMAX 单变量矩阵，各重复 2 次 |

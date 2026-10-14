@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-14",
+  "runtime_dir": "D:\\ms_xsp\\stage3_acceptance\\s0304_final2_20261014",
+  "observation_that_motivated_this": "COLD_12ms_tail failed after 74 s while a leftover GUI Multisim instance (PID 24344) was open. COLD_9ms_tail succeeded (646 s) in the same session. After killing PID 24344, DIAG_20ms_tail ran >4 min with no error before being interrupted. Environmental interference is therefore a live hypothesis and must be excluded before declaring a ceiling.",
+  "tests": {
+    "PROBE_rc_20ms": {
+      "tran": "tran 1u 20m 0 1u uic",
+      "netlist": "trivial RC (V1/R1/C1), 3 elements, no switches",
+      "purpose": "if THIS fails too, the ceiling is global and TSTOP-keyed; if it passes, the ceiling is circuit-dependent",
+      "expect": "points = 20,001; runtime well under a minute"
+    },
+    "COLD_12ms_clean": {
+      "tran": "tran 1n 12m 11.5m 1n uic",
+      "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\L_7ms_1ns.cir",
+      "source_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "purpose": "the actual 12 ms tail re-run with a clean environment",
+      "expect": "~14 min; 0.5e6 points saved (~65 MB)"
+    }
+  },
+  "protocol": "run with NO other Multisim process alive; kill leftovers first"
+}

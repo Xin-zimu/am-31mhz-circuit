@@ -1,0 +1,554 @@
+[
+  {
+    "file": "gui_saved_settings.xml",
+    "note": "precharged 2 ms (early)",
+    "extraction": "ok",
+    "TSTEP": {
+      "enabled": null,
+      "value": "1e-05"
+    },
+    "TSTOP": {
+      "enabled": null,
+      "value": "0.005"
+    },
+    "TSTART": {
+      "enabled": null,
+      "value": "0.001"
+    },
+    "TMAX": {
+      "enabled": null,
+      "value": "calculate"
+    },
+    "IC": {
+      "enabled": null,
+      "value": "auto_ic"
+    },
+    "reltol": {
+      "enabled": true,
+      "value": "0.0001"
+    },
+    "trtol": {
+      "enabled": true,
+      "value": "1"
+    },
+    "itl4": {
+      "enabled": true,
+      "value": "100"
+    },
+    "method": {
+      "enabled": false,
+      "value": "trapezoidal"
+    },
+    "maxord": {
+      "enabled": false,
+      "value": "2"
+    },
+    "abstol": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "vntol": {
+      "enabled": false,
+      "value": "1e-06"
+    },
+    "chgtol": {
+      "enabled": false,
+      "value": "1e-14"
+    },
+    "gmin": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "suposc": {
+      "enabled": true,
+      "value": ""
+    },
+    "rshunt": {
+      "enabled": true,
+      "value": "1e+12"
+    }
+  },
+  {
+    "file": "gui_2ms_saved_settings.xml",
+    "note": "PRECHARGED 2 ms GUI -- PASSED",
+    "extraction": "ok",
+    "TSTEP": {
+      "enabled": null,
+      "value": "1e-05"
+    },
+    "TSTOP": {
+      "enabled": null,
+      "value": "0.005"
+    },
+    "TSTART": {
+      "enabled": null,
+      "value": "0.001"
+    },
+    "TMAX": {
+      "enabled": null,
+      "value": "calculate"
+    },
+    "IC": {
+      "enabled": null,
+      "value": "auto_ic"
+    },
+    "reltol": {
+      "enabled": true,
+      "value": "0.0001"
+    },
+    "trtol": {
+      "enabled": true,
+      "value": "1"
+    },
+    "itl4": {
+      "enabled": true,
+      "value": "100"
+    },
+    "method": {
+      "enabled": false,
+      "value": "trapezoidal"
+    },
+    "maxord": {
+      "enabled": false,
+      "value": "2"
+    },
+    "abstol": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "vntol": {
+      "enabled": false,
+      "value": "1e-06"
+    },
+    "chgtol": {
+      "enabled": false,
+      "value": "1e-14"
+    },
+    "gmin": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "suposc": {
+      "enabled": true,
+      "value": ""
+    },
+    "rshunt": {
+      "enabled": true,
+      "value": "1e+12"
+    }
+  },
+  {
+    "file": "cold_2ms_saved_settings.xml",
+    "note": "precharged-ish 2 ms",
+    "extraction": "ok",
+    "TSTEP": {
+      "enabled": null,
+      "value": "1e-05"
+    },
+    "TSTOP": {
+      "enabled": null,
+      "value": "0.005"
+    },
+    "TSTART": {
+      "enabled": null,
+      "value": "0.001"
+    },
+    "TMAX": {
+      "enabled": null,
+      "value": "calculate"
+    },
+    "IC": {
+      "enabled": null,
+      "value": "auto_ic"
+    },
+    "reltol": {
+      "enabled": true,
+      "value": "0.0001"
+    },
+    "trtol": {
+      "enabled": true,
+      "value": "1"
+    },
+    "itl4": {
+      "enabled": true,
+      "value": "100"
+    },
+    "method": {
+      "enabled": false,
+      "value": "trapezoidal"
+    },
+    "maxord": {
+      "enabled": false,
+      "value": "2"
+    },
+    "abstol": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "vntol": {
+      "enabled": false,
+      "value": "1e-06"
+    },
+    "chgtol": {
+      "enabled": false,
+      "value": "1e-14"
+    },
+    "gmin": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "suposc": {
+      "enabled": true,
+      "value": ""
+    },
+    "rshunt": {
+      "enabled": true,
+      "value": "1e+12"
+    }
+  },
+  {
+    "file": "cold_explicit_zero_settings.xml",
+    "note": "explicit zero IC",
+    "extraction": "ok",
+    "TSTEP": {
+      "enabled": null,
+      "value": "1e-05"
+    },
+    "TSTOP": {
+      "enabled": null,
+      "value": "0.005"
+    },
+    "TSTART": {
+      "enabled": null,
+      "value": "0.001"
+    },
+    "TMAX": {
+      "enabled": null,
+      "value": "calculate"
+    },
+    "IC": {
+      "enabled": null,
+      "value": "auto_ic"
+    },
+    "reltol": {
+      "enabled": true,
+      "value": "0.0001"
+    },
+    "trtol": {
+      "enabled": true,
+      "value": "1"
+    },
+    "itl4": {
+      "enabled": true,
+      "value": "100"
+    },
+    "method": {
+      "enabled": false,
+      "value": "trapezoidal"
+    },
+    "maxord": {
+      "enabled": false,
+      "value": "2"
+    },
+    "abstol": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "vntol": {
+      "enabled": false,
+      "value": "1e-06"
+    },
+    "chgtol": {
+      "enabled": false,
+      "value": "1e-14"
+    },
+    "gmin": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "suposc": {
+      "enabled": true,
+      "value": ""
+    },
+    "rshunt": {
+      "enabled": true,
+      "value": "1e+12"
+    }
+  },
+  {
+    "file": "trap500_20us_settings.xml",
+    "note": "COLD 20 us trap -- FAILED",
+    "extraction": "ok",
+    "TSTEP": {
+      "enabled": null,
+      "value": "1e-05"
+    },
+    "TSTOP": {
+      "enabled": null,
+      "value": "0.005"
+    },
+    "TSTART": {
+      "enabled": null,
+      "value": "0.001"
+    },
+    "TMAX": {
+      "enabled": null,
+      "value": "calculate"
+    },
+    "IC": {
+      "enabled": null,
+      "value": "auto_ic"
+    },
+    "reltol": {
+      "enabled": true,
+      "value": "0.0001"
+    },
+    "trtol": {
+      "enabled": true,
+      "value": "1"
+    },
+    "itl4": {
+      "enabled": true,
+      "value": "500"
+    },
+    "method": {
+      "enabled": false,
+      "value": "trapezoidal"
+    },
+    "maxord": {
+      "enabled": false,
+      "value": "2"
+    },
+    "abstol": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "vntol": {
+      "enabled": false,
+      "value": "1e-06"
+    },
+    "chgtol": {
+      "enabled": false,
+      "value": "1e-14"
+    },
+    "gmin": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "suposc": {
+      "enabled": true,
+      "value": ""
+    },
+    "rshunt": {
+      "enabled": true,
+      "value": "1e+12"
+    }
+  },
+  {
+    "file": "gear500_20us_settings.xml",
+    "note": "COLD 20 us gear -- FAILED",
+    "extraction": "ok",
+    "TSTEP": {
+      "enabled": null,
+      "value": "1e-05"
+    },
+    "TSTOP": {
+      "enabled": null,
+      "value": "0.005"
+    },
+    "TSTART": {
+      "enabled": null,
+      "value": "0.001"
+    },
+    "TMAX": {
+      "enabled": null,
+      "value": "calculate"
+    },
+    "IC": {
+      "enabled": null,
+      "value": "auto_ic"
+    },
+    "reltol": {
+      "enabled": true,
+      "value": "0.0001"
+    },
+    "trtol": {
+      "enabled": true,
+      "value": "1"
+    },
+    "itl4": {
+      "enabled": true,
+      "value": "500"
+    },
+    "method": {
+      "enabled": true,
+      "value": "gear"
+    },
+    "maxord": {
+      "enabled": false,
+      "value": "2"
+    },
+    "abstol": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "vntol": {
+      "enabled": false,
+      "value": "1e-06"
+    },
+    "chgtol": {
+      "enabled": false,
+      "value": "1e-14"
+    },
+    "gmin": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "suposc": {
+      "enabled": true,
+      "value": ""
+    },
+    "rshunt": {
+      "enabled": true,
+      "value": "1e+12"
+    }
+  },
+  {
+    "file": "gear500_reopen_saved_settings.xml",
+    "note": "COLD 20 us gear reopen -- FAILED",
+    "extraction": "ok",
+    "TSTEP": {
+      "enabled": null,
+      "value": "1e-05"
+    },
+    "TSTOP": {
+      "enabled": null,
+      "value": "0.005"
+    },
+    "TSTART": {
+      "enabled": null,
+      "value": "0.001"
+    },
+    "TMAX": {
+      "enabled": null,
+      "value": "calculate"
+    },
+    "IC": {
+      "enabled": null,
+      "value": "auto_ic"
+    },
+    "reltol": {
+      "enabled": true,
+      "value": "0.0001"
+    },
+    "trtol": {
+      "enabled": true,
+      "value": "1"
+    },
+    "itl4": {
+      "enabled": true,
+      "value": "500"
+    },
+    "method": {
+      "enabled": true,
+      "value": "gear"
+    },
+    "maxord": {
+      "enabled": false,
+      "value": "2"
+    },
+    "abstol": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "vntol": {
+      "enabled": false,
+      "value": "1e-06"
+    },
+    "chgtol": {
+      "enabled": false,
+      "value": "1e-14"
+    },
+    "gmin": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "suposc": {
+      "enabled": true,
+      "value": ""
+    },
+    "rshunt": {
+      "enabled": true,
+      "value": "1e+12"
+    }
+  },
+  {
+    "file": "gear500_uic_settings.xml",
+    "note": "COLD 20 us gear UIC -- FAILED",
+    "extraction": "ok",
+    "TSTEP": {
+      "enabled": null,
+      "value": "1e-05"
+    },
+    "TSTOP": {
+      "enabled": null,
+      "value": "0.005"
+    },
+    "TSTART": {
+      "enabled": null,
+      "value": "0.001"
+    },
+    "TMAX": {
+      "enabled": null,
+      "value": "calculate"
+    },
+    "IC": {
+      "enabled": null,
+      "value": "auto_ic"
+    },
+    "reltol": {
+      "enabled": true,
+      "value": "0.0001"
+    },
+    "trtol": {
+      "enabled": true,
+      "value": "1"
+    },
+    "itl4": {
+      "enabled": true,
+      "value": "500"
+    },
+    "method": {
+      "enabled": true,
+      "value": "gear"
+    },
+    "maxord": {
+      "enabled": false,
+      "value": "2"
+    },
+    "abstol": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "vntol": {
+      "enabled": false,
+      "value": "1e-06"
+    },
+    "chgtol": {
+      "enabled": false,
+      "value": "1e-14"
+    },
+    "gmin": {
+      "enabled": false,
+      "value": "1e-12"
+    },
+    "suposc": {
+      "enabled": true,
+      "value": ""
+    },
+    "rshunt": {
+      "enabled": true,
+      "value": "1e+12"
+    }
+  }
+]

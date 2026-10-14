@@ -1,0 +1,46 @@
+{
+  "PRECHARGED 2 ms GUI (PASSED)": {
+    "file": "gui_2ms_saved_settings.xml",
+    "tstop": "0.002",
+    "settings": {
+      "TSTEP": "2e-09",
+      "TSTOP": "0.002",
+      "TSTART": "0",
+      "TMAX": "2e-09",
+      "IC": "uic"
+    }
+  },
+  "PRECHARGED 2 ms cold-named": {
+    "file": "cold_2ms_saved_settings.xml",
+    "tstop": "0.002",
+    "settings": {
+      "TSTEP": "2e-09",
+      "TSTOP": "0.002",
+      "TSTART": "0",
+      "TMAX": "2e-09",
+      "IC": "zero_ic"
+    }
+  },
+  "COLD 20 us gear UIC (FAILED)": {
+    "file": "gear500_uic_settings.xml",
+    "tstop": "2e-05",
+    "settings": {
+      "TSTEP": "2e-09",
+      "TSTOP": "2e-05",
+      "TSTART": "0",
+      "TMAX": "2e-09",
+      "IC": "uic"
+    }
+  },
+  "COLD 20 us UIC reltol1e3 (PASSED)": {
+    "file": "S03_GUI_COLD_20us_reltol1e3_decoded.xml",
+    "tstop": "2e-05",
+    "settings": {
+      "TSTEP": "1e-09",
+      "TSTOP": "2e-05",
+      "TSTART": "0",
+      "TMAX": "1e-09",
+      "IC": "uic"
+    }
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "OLD project dump (pre-change, FAILED)": {
+    "tran": {
+      "TSTEP": "1e-09",
+      "TSTOP": "2e-05",
+      "TSTART": "0",
+      "TMAX": "1e-09",
+      "IC": "uic"
+    },
+    "n_blocks": 40,
+    "enabled_blocks": [
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "reltol": "0.0001",
+        "trtol": "1",
+        "itl4": "500",
+        "method": "gear",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      }
+    ]
+  },
+  "NEW project dump (post-change, PASSED)": {
+    "tran": {
+      "TSTEP": "1e-09",
+      "TSTOP": "2e-05",
+      "TSTART": "0",
+      "TMAX": "1e-09",
+      "IC": "uic"
+    },
+    "n_blocks": 40,
+    "enabled_blocks": [
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "reltol": "0.001",
+        "trtol": "7",
+        "itl4": "500",
+        "method": "gear",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      },
+      {
+        "trtol": "7",
+        "itl4": "100",
+        "suposc": "",
+        "rshunt": "1e+12"
+      }
+    ]
+  }
+}

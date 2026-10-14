@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-14",
+  "git_baseline": "920595e (仓库初始化提交，含全部文件改动前状态)",
+  "purpose": "GUI失败只读诊断、reltol=1e-3 GUI成功复现、TSTART短窗对照三项结论同步进记录前的逐份备份",
+  "files": [
+    {
+      "source": "项目管理\\03_当前实现状态.md",
+      "backup": "01_03_当前实现状态.md",
+      "sha256": "08b02231afb94ec06be78a45b7bc1efa6fdf2877437e2a80045947ea268035ae",
+      "bytes": 13584
+    },
+    {
+      "source": "项目管理\\02_当前阶段目标.md",
+      "backup": "02_02_当前阶段目标.md",
+      "sha256": "e10ca2a6d104203b2d7d5d3fe2e0e43a8dffd575c7b95e6bcb9d17a582b19eb1",
+      "bytes": 9263
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage3_acceptance\\S03_04_冷启动排查记录.md",
+      "backup": "03_S03_04_冷启动排查记录.md",
+      "sha256": "cede3d59641f896d94484e2ab7d801fc34c5c432645ad4b943061d833f0d082a",
+      "bytes": 4518
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\S03_04_试验台账.md",
+      "backup": "04_S03_04_试验台账.md",
+      "sha256": "61a40d0d4556028223839c3d7175ab81e07374e54a8b4981eed0694f80f0764d",
+      "bytes": 5859
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage3_acceptance\\S03_04_步骤1_控制行差集.md",
+      "backup": "05_S03_04_步骤1_控制行差集.md",
+      "sha256": "2805252e66889098668bd9ce91e0af4f910d0555871e421a8fe642eead923a6c",
+      "bytes": 5143
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\S03_04_步骤1_控制行差集.md",
+      "backup": "06_S03_04_步骤1_控制行差集_副本.md",
+      "sha256": "2805252e66889098668bd9ce91e0af4f910d0555871e421a8fe642eead923a6c",
+      "bytes": 5143
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\README.md",
+      "backup": "07_README.md",
+      "sha256": "f18411d73271e952fe7a00db7fcfa8a26d1dcd96b121450a45f5a76a09f04099",
+      "bytes": 4299
+    }
+  ]
+}

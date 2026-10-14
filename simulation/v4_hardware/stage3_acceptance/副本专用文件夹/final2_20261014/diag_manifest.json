@@ -1,0 +1,10 @@
+{
+  "tag": "DIAG_20ms_tail",
+  "tran": "tran 1n 20m 19.5m 1n uic",
+  "purpose": "distinguish upfront TSTOP rejection from accumulated-work failure",
+  "source_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+  "interpretation": {
+    "fails_in_1_to_2_min": "UPFRONT rejection keyed on TSTOP -> 9 ms is a hard ceiling",
+    "runs_many_minutes": "accumulated-work failure -> ceiling is on integration extent"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-14",
+  "runtime_dir": "D:\\ms_xsp\\stage3_acceptance\\s0304_final2_20261014",
+  "cases": {
+    "COLD_12ms_tail": {
+      "tran": "tran 1n 12m 11.5m 1n uic",
+      "purpose": "cold-start bias settling beyond 9 ms; report only 11.5-12.0 ms",
+      "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\engine\\L_7ms_1ns.cir",
+      "source_sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "changes": [],
+      "initial": "UIC zero (C111/C115/CBB = 0)",
+      "expected_saving": "0.5 ms at 1 ns => ~0.5e6 points => ~65 MB",
+      "why_12ms_is_safer_than_the_old_10ms": "The archived 10 ms attempt emitted \"Internal simulation error.\" after only ~2 min while trying to SAVE 10e6 points (~1.3 GB); the 9 ms tail run integrated 9e6 points in 10.8 min while saving only 0.5e6. Hypothesis: that failure was a save/memory limit, not an integration limit. TSTART caps the save volume, so 12 ms should be attempted."
+    },
+    "LIN_2Vpp_pre": {
+      "tran": "tran 2n 5m 0 2n uic",
+      "purpose": "2 Vpp linearity at D=50%, precharged, against the accepted 4 Vpp nominal",
+      "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\nominal_full.cir",
+      "source_sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "changes": [
+        {
+          "component": "rRVAT",
+          "old_ohm": "1847.93",
+          "new_ohm": "10905.544559"
+        },
+        {
+          "component": "rRVAB",
+          "old_ohm": "18152.1",
+          "new_ohm": "9094.455441"
+        }
+      ],
+      "initial": "precharged (C111=0.43 V, C115=-4.1 V, CBB=4.5 V) as accepted in S03-03",
+      "receiver_chain": "untouched (RG_BB/RF_BB/RV_BB/RLOAD asserted present)"
+    },
+    "REF_4Vpp_pre": {
+      "tran": "tran 2n 5m 0 2n uic",
+      "purpose": "re-run of the accepted 4 Vpp baseline under identical options, so the step-size difference (2 ns here vs 1.008 ns effective) is visible and the comparison is same-method",
+      "source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\nominal_full.cir",
+      "source_sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "changes": []
+    }
+  },
+  "entry": "COM DoCommandLine; source + tran command engine. No native GUI pass claimed.",
+  "acceptance_note": "The 4 Vpp reference for the linearity comparison is the accepted S03-03 nominal (V2 robust 4.816023 Vpp, time-weighted mean 4.496041 V, output 19,998.043 Hz, duty 50.22635% from the 2 ms GUI run)."
+}
