@@ -1,0 +1,11 @@
+[
+  {
+    "case": "C2",
+    "tag": "C2_1Vpp_D50_7ms",
+    "output_key": "C2_7ms",
+    "target_vpp": 1,
+    "target_duty_percent": 50,
+    "stop_s": 0.007,
+    "reason": "5 ms mean span 0.25658% exceeds frozen 0.1% screen; extend with identical netlist and solver settings"
+  }
+]

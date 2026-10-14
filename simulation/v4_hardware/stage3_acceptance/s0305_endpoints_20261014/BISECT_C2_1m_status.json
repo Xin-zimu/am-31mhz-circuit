@@ -1,0 +1,19 @@
+﻿{
+    "tag":  "BISECT_C2_1m",
+    "status":  "EXCEPTION",
+    "entry":  "COM DoCommandLine source+tran engine",
+    "started_utc":  "2026-10-14T15:52:43.7931585Z",
+    "preflight_multisim_count":  0,
+    "owned_pids":  [
+                       11812
+                   ],
+    "wall_seconds":  56.23,
+    "last_error":  "Owned Multisim process exited before producing a complete result",
+    "raw_path":  "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\BISECT_C2_1m.raw",
+    "raw_bytes":  0,
+    "log_path":  "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\BISECT_C2_1m.log",
+    "log_tail":  [
+
+                 ],
+    "finished_utc":  "2026-10-14T15:53:42.3435388Z"
+}

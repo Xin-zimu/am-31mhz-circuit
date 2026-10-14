@@ -1,0 +1,27 @@
+[
+  {
+    "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_04_冷启动排查记录.md",
+    "bytes": 27861,
+    "sha256": "aa225d3ec83c70ad6c34168f38c4967d4634921eec2dadd783dc0ac58fc155c9"
+  },
+  {
+    "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\S03_GUI复跑报告.md",
+    "bytes": 4904,
+    "sha256": "d2dbe5c985918ca7d9a1a23351b4c1b62f8a8c83caab1acf180cbc404343c903"
+  },
+  {
+    "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\measure_stage3.py",
+    "bytes": 5221,
+    "sha256": "a99a25121b0ae0317ccf45fd6deca2d44107d687c8637ab7d1eb145b6ffa33f8"
+  },
+  {
+    "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\nominal_full.cir",
+    "bytes": 24373,
+    "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79"
+  },
+  {
+    "path": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\final2_20261014\\linearity_final.json",
+    "bytes": 709,
+    "sha256": "b1d0b90bec970fd69772a253326dbae1ff2a5cb848fe57500a3990a339acb441"
+  }
+]

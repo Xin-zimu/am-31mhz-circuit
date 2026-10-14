@@ -1,0 +1,26 @@
+﻿{
+    "tag":  "C7_3Vpp_D50_5ms",
+    "status":  "FAILED",
+    "entry":  "COM DoCommandLine source+tran engine",
+    "started_utc":  "2026-10-14T11:04:00.3454410Z",
+    "preflight_multisim_count":  0,
+    "owned_pids":  [
+                       7900
+                   ],
+    "wall_seconds":  88.58,
+    "last_error":  "Error: Internal simulation error.\r",
+    "raw_path":  "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C7_3Vpp_D50_5ms.raw",
+    "raw_bytes":  0,
+    "log_path":  "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C7_3Vpp_D50_5ms.log",
+    "log_tail":  [
+                     "Error: Internal simulation error.",
+                     "_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670814_uc165e5, 19:05:28)",
+                     "_uc3547d4ee4ff1a\u003ewrite-and-destroy-iplot \"D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms.raw\"",
+                     "_uc7676581ea547d4ee476848f9351fa",
+                     "_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670814_uc165e5, 19:05:28)",
+                     "_uc3547d4ee4ff1a\u003eend-scope",
+                     "_uc7676581ea547d4ee476848f9351fa",
+                     "end-scope"
+                 ],
+    "finished_utc":  "2026-10-14T11:05:31.1792689Z"
+}

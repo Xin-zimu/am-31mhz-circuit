@@ -1,0 +1,13 @@
+{
+  "tag": "C1_1Vpp_D10_5ms",
+  "status": "PROCESS_CRASH",
+  "entry": "COM DoCommandLine source+tran engine",
+  "started_utc": "2026-10-14T10:37:35.9096235Z",
+  "preflight_multisim_count": 0,
+  "owned_pids": [],
+  "wall_seconds": 0,
+  "last_error": "Multisim process 15840 crashed at 18:37:54; Windows Application Error 0xc0000409, then 0xc0000029 in ntdll.dll. No raw result. Runner was terminated after discovering the vanished process.",
+  "raw_path": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C1_1Vpp_D10_5ms.raw",
+  "raw_bytes": 0,
+  "log_path": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C1_1Vpp_D10_5ms.log"
+}

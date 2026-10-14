@@ -1,0 +1,38 @@
+[
+  {
+    "case": "C1",
+    "tag": "C1_1Vpp_D10_5ms_tmax1ns",
+    "source_tag": "C1_1Vpp_D10_5ms",
+    "cir_sha256": "eeeb769bf3f9b0e1e3d32d1d77f961c76ce45bcd9bace619953f272c505b8163",
+    "cmd_sha256": "23ddfef92a38a8afc8f9b11a1107c417337443d94ded4ac76f541728c3f15046",
+    "only_solver_change": "TMAX request 2 ns -> 1 ns; TSTEP, TSTOP, TSTART, UIC and netlist unchanged",
+    "reason": "D10 engine failures require a controlled step-limit comparison; C4 is the numerical reference control"
+  },
+  {
+    "case": "C3",
+    "tag": "C3_4Vpp_D10_5ms_tmax1ns",
+    "source_tag": "C3_4Vpp_D10_5ms",
+    "cir_sha256": "ef8e1b153dc15f47b0160a3a614a2b7796d1ab436647d45e0bc2c2286e23f761",
+    "cmd_sha256": "491d0b90b4dd40698c08c1e9f0e47b477b36a8de3fe83a1d1d2dd6d231582bc0",
+    "only_solver_change": "TMAX request 2 ns -> 1 ns; TSTEP, TSTOP, TSTART, UIC and netlist unchanged",
+    "reason": "D10 engine failures require a controlled step-limit comparison; C4 is the numerical reference control"
+  },
+  {
+    "case": "C4",
+    "tag": "C4_4Vpp_D50_5ms_tmax1ns",
+    "source_tag": "REF_4Vpp_tail",
+    "cir_sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+    "cmd_sha256": "09317f9ee9d8798cf5f8bdf61ee8c3404ad9d352b9707e581e4692b5dbd524e3",
+    "only_solver_change": "TMAX request 2 ns -> 1 ns; TSTEP, TSTOP, TSTART, UIC and netlist unchanged",
+    "reason": "D10 engine failures require a controlled step-limit comparison; C4 is the numerical reference control"
+  },
+  {
+    "case": "C6",
+    "tag": "C6_4Vpp_D30_5ms_tmax1ns",
+    "source_tag": "C6_4Vpp_D30_5ms",
+    "cir_sha256": "5a4f801e4f0af706aad3ed9c42b7df2a16aaf91eed6bb609f8007ae76c6ea078",
+    "cmd_sha256": "956ebcd48ea5e0546c8a48b9e3d9f16c00ec1c8ca98ed81734b6007cf9fa552d",
+    "only_solver_change": "TMAX request 2 ns -> 1 ns; all other commands and netlist unchanged",
+    "reason": "D30 process crash under original request"
+  }
+]

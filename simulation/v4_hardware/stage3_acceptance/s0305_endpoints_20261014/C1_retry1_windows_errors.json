@@ -1,0 +1,14 @@
+[
+  {
+    "TimeCreated": "2026-10-14T18:48:19.3568141+08:00",
+    "Id": 1000,
+    "ProviderName": "Application Error",
+    "Message": "出错应用程序名称： powershell.exe，版本： 10.0.26100.3323，时间戳： 0x409fc266\r\n出错模块名称： MSInterface.dll， 版本： 14.3.1482.0，时间戳： 0x6262d46b\r\n异常代码： 0xc0000005\r\n错误偏移： 0x0001b333\r\n出错进程 ID： 0x74F0\r\n出错应用程序开始时间： 0x1DD5BC932018201\r\nFaulting 应用程序路径： C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe\r\nFaulting 模块路径： D:\\multimism\\Circuit Design Suite 14.3\\MSInterface.dll\r\nReport ID： 90406cb2-2180-47f2-9b9f-0c8e237bf33a\r\nFaulting 包全名： \r\nFaulting 程序包相对应用程序 ID：  个"
+  },
+  {
+    "TimeCreated": "2026-10-14T18:48:03.8591621+08:00",
+    "Id": 1000,
+    "ProviderName": "Application Error",
+    "Message": "出错应用程序名称： multisim.exe，版本： 14.3.1482.0，时间戳： 0x6262d5a9\r\n出错模块名称： ntdll.dll， 版本： 10.0.26100.4652，时间戳： 0x768d7286\r\n异常代码： 0xc0000374\r\n错误偏移： 0x000faa4f\r\n出错进程 ID： 0x2F04\r\n出错应用程序开始时间： 0x1DD5BC9326E963A\r\nFaulting 应用程序路径： D:\\multimism\\Circuit Design Suite 14.3\\multisim.exe\r\nFaulting 模块路径： C:\\WINDOWS\\SYSTEM32\\ntdll.dll\r\nReport ID： 67eaeba6-ac6a-45e5-9f20-04dc025d0f56\r\nFaulting 包全名： \r\nFaulting 程序包相对应用程序 ID：  个"
+  }
+]

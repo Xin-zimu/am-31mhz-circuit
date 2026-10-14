@@ -1,0 +1,26 @@
+﻿{
+    "tag":  "C3_4Vpp_D10_5ms_full2ms_r3",
+    "status":  "COMPLETED",
+    "entry":  "COM DoCommandLine source+tran engine",
+    "started_utc":  "2026-10-14T16:10:30.5039963Z",
+    "preflight_multisim_count":  0,
+    "owned_pids":  [
+                       21292
+                   ],
+    "wall_seconds":  132.34,
+    "last_error":  "",
+    "raw_path":  "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C3_4Vpp_D10_5ms_full2ms_r3.raw",
+    "raw_bytes":  258149732,
+    "log_path":  "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C3_4Vpp_D10_5ms_full2ms_r3.log",
+    "log_tail":  [
+                     "Info: tmax is automatically adjusted from 2e-09 to 1.00806e-09",
+                     "_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670815_uc165e5, 0:12:35)",
+                     "_uc3547d4ee4ff1a\u003ewrite-and-destroy-iplot \"D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_full2ms_r3.raw\"",
+                     "_uc7676581ea547d4ee476848f9351fa",
+                     "_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670815_uc165e5, 0:12:39)",
+                     "_uc3547d4ee4ff1a\u003eend-scope",
+                     "_uc7676581ea547d4ee476848f9351fa",
+                     "end-scope"
+                 ],
+    "finished_utc":  "2026-10-14T16:12:45.0897130Z"
+}

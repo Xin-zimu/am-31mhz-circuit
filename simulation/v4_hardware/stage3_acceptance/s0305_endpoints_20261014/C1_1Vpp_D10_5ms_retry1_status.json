@@ -1,0 +1,15 @@
+{
+  "tag": "C1_1Vpp_D10_5ms_retry1",
+  "status": "PROCESS_CRASH",
+  "entry": "COM DoCommandLine source+tran engine",
+  "started_utc": "2026-10-14T10:45:58.2282839Z",
+  "preflight_multisim_count": 0,
+  "owned_pids": [
+    12036
+  ],
+  "wall_seconds": 0,
+  "last_error": "Multisim heap corruption 0xc0000374 at 18:48:03, followed by PowerShell MSInterface.dll access violation 0xc0000005. No raw. Cause unproven.",
+  "raw_path": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C1_1Vpp_D10_5ms_retry1.raw",
+  "raw_bytes": 0,
+  "log_path": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C1_1Vpp_D10_5ms_retry1.log"
+}

@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-14",
+  "runtime_dir": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014",
+  "baseline": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\final2_20261014\\REF_4Vpp_tail.cir",
+  "baseline_sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+  "calibration_source": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\potentiometer_settings.csv",
+  "calibration_sha256": "21421af1d9c1991519852bf303414dbd2d5a5380c02550c66b6a3a620d3ad455",
+  "tran": "tran 2n 5m 4.5m 2n uic",
+  "initial": "UIC; C111=0.43 V, C115=-4.1 V, CBB=4.5 V; precharged",
+  "entry": "COM DoCommandLine source+tran engine; not native GUI",
+  "effective_tolerance": "engine defaults reltol=1e-3/trtol=7, per S03-04 diagnosis; retained set lines do not establish applied tolerance",
+  "cases": [
+    {
+      "case": "C1",
+      "tag": "C1_1Vpp_D10_5ms",
+      "target_vpp": 1,
+      "target_duty_percent": 10,
+      "changes": [
+        {
+          "component": "rRVAT",
+          "from": "1847.93",
+          "to": "15460.748106"
+        },
+        {
+          "component": "rRVAB",
+          "from": "18152.1",
+          "to": "4539.251894"
+        },
+        {
+          "component": "rRVDT",
+          "from": "7362.47",
+          "to": "9623.899007"
+        },
+        {
+          "component": "rRVDB",
+          "from": "2637.53",
+          "to": "376.100993"
+        }
+      ],
+      "cir_sha256": "eeeb769bf3f9b0e1e3d32d1d77f961c76ce45bcd9bace619953f272c505b8163",
+      "cmd_sha256": "9e59f6590ad12571e3ae8a1d1f93a5af0c7e2e5e911777b51c44383ef6315f49",
+      "all_other_netlist_bytes_unchanged": true
+    },
+    {
+      "case": "C2",
+      "tag": "C2_1Vpp_D50_5ms",
+      "target_vpp": 1,
+      "target_duty_percent": 50,
+      "changes": [
+        {
+          "component": "rRVAT",
+          "from": "1847.93",
+          "to": "15460.748119"
+        },
+        {
+          "component": "rRVAB",
+          "from": "18152.1",
+          "to": "4539.251881"
+        }
+      ],
+      "cir_sha256": "bf22703751d5af4be63174bc53f64ddfb4e3d24d2e3b59f9e65589a5bc2c0340",
+      "cmd_sha256": "48309fbbd8d27209f1f37b1c91c207dbd70e5a7236c1278c68233c3b62f26098",
+      "all_other_netlist_bytes_unchanged": true
+    },
+    {
+      "case": "C3",
+      "tag": "C3_4Vpp_D10_5ms",
+      "target_vpp": 4,
+      "target_duty_percent": 10,
+      "changes": [
+        {
+          "component": "rRVDT",
+          "from": "7362.47",
+          "to": "9623.899007"
+        },
+        {
+          "component": "rRVDB",
+          "from": "2637.53",
+          "to": "376.100993"
+        }
+      ],
+      "cir_sha256": "ef8e1b153dc15f47b0160a3a614a2b7796d1ab436647d45e0bc2c2286e23f761",
+      "cmd_sha256": "6947768484840a2bfb9e73fa0244bf4048fcf55cc06022e36ed334272a80e52f",
+      "all_other_netlist_bytes_unchanged": true
+    },
+    {
+      "case": "C6",
+      "tag": "C6_4Vpp_D30_5ms",
+      "target_vpp": 4,
+      "target_duty_percent": 30,
+      "changes": [
+        {
+          "component": "rRVDT",
+          "from": "7362.47",
+          "to": "8566.555109"
+        },
+        {
+          "component": "rRVDB",
+          "from": "2637.53",
+          "to": "1433.444891"
+        }
+      ],
+      "cir_sha256": "5a4f801e4f0af706aad3ed9c42b7df2a16aaf91eed6bb609f8007ae76c6ea078",
+      "cmd_sha256": "a88df27325be7af191f8ae3783c4b05a210c967e97b676e7728b982843aad9f8",
+      "all_other_netlist_bytes_unchanged": true
+    },
+    {
+      "case": "C7",
+      "tag": "C7_3Vpp_D50_5ms",
+      "target_vpp": 3,
+      "target_duty_percent": 50,
+      "changes": [
+        {
+          "component": "rRVAT",
+          "from": "1847.93",
+          "to": "6359.673460"
+        },
+        {
+          "component": "rRVAB",
+          "from": "18152.1",
+          "to": "13640.326540"
+        }
+      ],
+      "cir_sha256": "f93fa3ce2653a35a4192ee8ab7bd624fcd201346e983ac8f1053ea4329c28ffe",
+      "cmd_sha256": "e83aca37d5270918a0ed32c011815d0dad0912466476cd4eeb7b7283cf28f1e2",
+      "all_other_netlist_bytes_unchanged": true
+    }
+  ],
+  "reuse": {
+    "C4": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\final2_20261014\\REF_4Vpp_tail.cir",
+    "C5": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage3_acceptance\\副本专用文件夹\\final2_20261014\\LIN_2Vpp_tail.cir"
+  }
+}

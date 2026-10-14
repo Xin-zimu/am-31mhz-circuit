@@ -1,0 +1,258 @@
+[
+  {
+    "tag": "C1_1Vpp_D10_5ms_full2ms_r2",
+    "target_vpp": 1,
+    "target_duty_percent": 10,
+    "condition": "cold start (UIC from zero), full window 0-2 ms, no TSTART tail",
+    "tran": "tran 2n 2m 0 2n uic",
+    "raw_path": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C1_1Vpp_D10_5ms_full2ms_r2.raw",
+    "raw_sha256": "594aa92c5a5edd9c2f40ca77230ed87acc14efadcb077b2a97ae642397041544",
+    "raw_bytes": 257232712,
+    "points": 1987258,
+    "saved_start_s": 0.0,
+    "saved_end_s": 0.002,
+    "median_step_s": 1.0080645160845739e-09,
+    "max_step_s": 1.0080645170603558e-09,
+    "tail_start_s": 0.0015,
+    "nodes": {
+      "V(v1)": {
+        "mean_v": 0.1192313143339689,
+        "robust_vpp": 1.0000005469273865,
+        "p02_v": 0.018674933642067234,
+        "p98_v": 1.0186754805694538,
+        "raw_vpp": 1.0000022614675326,
+        "raw_min_v": 0.01867493364160624,
+        "raw_max_v": 1.018677195109139
+      },
+      "V(bb_in)": {
+        "mean_v": 4.474698981042566,
+        "robust_vpp": 0.10666008106228375,
+        "p02_v": 4.446921668357041,
+        "p98_v": 4.553581749419325,
+        "raw_vpp": 0.12665125898134733,
+        "raw_min_v": 4.444356900416783,
+        "raw_max_v": 4.57100815939813
+      },
+      "V(bbo)": {
+        "mean_v": 4.08652627935935,
+        "robust_vpp": 1.3165065065900938,
+        "p02_v": 3.866598778359214,
+        "p98_v": 5.183105284949308,
+        "raw_vpp": 1.4115796439759003,
+        "raw_min_v": 3.83479422073998,
+        "raw_max_v": 5.24637386471588
+      },
+      "V(v2)": {
+        "mean_v": 4.081982358077608,
+        "robust_vpp": 1.3114371235805566,
+        "p02_v": 3.8622725489715015,
+        "p98_v": 5.173709672552058,
+        "raw_vpp": 1.387039925938606,
+        "raw_min_v": 3.841596848672077,
+        "raw_max_v": 5.228636774610683
+      }
+    },
+    "input_frequency_hz": 20006.272033609748,
+    "input_duty_percent": 10.014337553814222,
+    "input_complete_cycles": 9,
+    "output_frequency_hz": 20010.382016631323,
+    "output_duty_percent": 10.105437508150027,
+    "output_complete_cycles": 9,
+    "output_crossing_level_v": 4.517972246596776,
+    "robust_gain": 1.3114364063200703,
+    "frequency_error_percent": 0.051910083156614384,
+    "case": "C1"
+  },
+  {
+    "tag": "C3_4Vpp_D10_5ms_full2ms_r3",
+    "target_vpp": 4,
+    "target_duty_percent": 10,
+    "condition": "cold start (UIC from zero), full window 0-2 ms, no TSTART tail",
+    "tran": "tran 2n 2m 0 2n uic",
+    "raw_path": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C3_4Vpp_D10_5ms_full2ms_r3.raw",
+    "raw_sha256": "1e5e46f6dc13ae6770c898961fd35da9ac78b6208ff005e2cf255c1f86d260fd",
+    "raw_bytes": 258149732,
+    "points": 1994312,
+    "saved_start_s": 0.0,
+    "saved_end_s": 0.002,
+    "median_step_s": 1.0080645160845739e-09,
+    "max_step_s": 1.0080645170603558e-09,
+    "tail_start_s": 0.0015,
+    "nodes": {
+      "V(v1)": {
+        "mean_v": 0.4759304758325725,
+        "robust_vpp": 4.000002907845856,
+        "p02_v": 0.07481539163945473,
+        "p98_v": 4.074818299485311,
+        "raw_vpp": 4.000010664281258,
+        "raw_min_v": 0.0748153916375932,
+        "raw_max_v": 4.074826055918852
+      },
+      "V(bb_in)": {
+        "mean_v": 4.4792710833033595,
+        "robust_vpp": 0.3345043821796043,
+        "p02_v": 4.429585173099517,
+        "p98_v": 4.764089555279122,
+        "raw_vpp": 0.35918698527634163,
+        "raw_min_v": 4.42696767524385,
+        "raw_max_v": 4.786154660520191
+      },
+      "V(bbo)": {
+        "mean_v": 4.161298998548414,
+        "robust_vpp": 4.917932359517559,
+        "p02_v": 3.583772777010726,
+        "p98_v": 8.501705136528285,
+        "raw_vpp": 5.160184017708755,
+        "raw_min_v": 3.482613244328674,
+        "raw_max_v": 8.642797262037428
+      },
+      "V(v2)": {
+        "mean_v": 4.15668259914498,
+        "robust_vpp": 4.90818246002371,
+        "p02_v": 3.5805427283072206,
+        "p98_v": 8.48872518833093,
+        "raw_vpp": 5.084480384736703,
+        "raw_min_v": 3.510365782941327,
+        "raw_max_v": 8.59484616767803
+      }
+    },
+    "input_frequency_hz": 20006.08999274506,
+    "input_duty_percent": 10.001628803316006,
+    "input_complete_cycles": 9,
+    "output_frequency_hz": 20006.90083198366,
+    "output_duty_percent": 10.23193617226898,
+    "output_complete_cycles": 9,
+    "output_crossing_level_v": 6.033831025432263,
+    "robust_gain": 1.2270447229916994,
+    "frequency_error_percent": 0.03450415991830269,
+    "case": "C3"
+  },
+  {
+    "tag": "C6_4Vpp_D30_5ms_full2ms_r2",
+    "target_vpp": 4,
+    "target_duty_percent": 30,
+    "condition": "cold start (UIC from zero), full window 0-2 ms, no TSTART tail",
+    "tran": "tran 2n 2m 0 2n uic",
+    "raw_path": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C6_4Vpp_D30_5ms_full2ms_r2.raw",
+    "raw_sha256": "09c86ccdd3449cfb491226e0f4c8eea6144c612301fdb1209dde45fc09cebd9c",
+    "raw_bytes": 259770702,
+    "points": 2006781,
+    "saved_start_s": 0.0,
+    "saved_end_s": 0.002,
+    "median_step_s": 1.0080645160845739e-09,
+    "max_step_s": 1.0080645170603558e-09,
+    "tail_start_s": 0.0015,
+    "nodes": {
+      "V(v1)": {
+        "mean_v": 1.275871692031131,
+        "robust_vpp": 4.000002909141514,
+        "p02_v": 0.07481539175673653,
+        "p98_v": 4.074818300898251,
+        "raw_vpp": 4.000010530285349,
+        "raw_min_v": 0.07481539175291092,
+        "raw_max_v": 4.07482592203826
+      },
+      "V(bb_in)": {
+        "mean_v": 4.490074619298436,
+        "robust_vpp": 0.3465659215535437,
+        "p02_v": 4.38406215239603,
+        "p98_v": 4.730628073949574,
+        "raw_vpp": 0.3560412519211287,
+        "raw_min_v": 4.381410491298763,
+        "raw_max_v": 4.737451743219892
+      },
+      "V(bbo)": {
+        "mean_v": 4.3379812859289855,
+        "robust_vpp": 4.876924387412516,
+        "p02_v": 2.8384416266631485,
+        "p98_v": 7.715366014075665,
+        "raw_vpp": 5.11208485338279,
+        "raw_min_v": 2.736427396385538,
+        "raw_max_v": 7.848512249768327
+      },
+      "V(v2)": {
+        "mean_v": 4.33319353827047,
+        "robust_vpp": 4.867355644277216,
+        "p02_v": 2.8371718312383023,
+        "p98_v": 7.704527475515519,
+        "raw_vpp": 5.036254695613486,
+        "raw_min_v": 2.765280893319033,
+        "raw_max_v": 7.801535588932519
+      }
+    },
+    "input_frequency_hz": 20001.19834070267,
+    "input_duty_percent": 30.001062059424026,
+    "input_complete_cycles": 9,
+    "output_frequency_hz": 20001.574130151697,
+    "output_duty_percent": 30.230777401756793,
+    "output_complete_cycles": 9,
+    "output_crossing_level_v": 5.270255318998787,
+    "robust_gain": 1.2168380260807996,
+    "frequency_error_percent": 0.00787065075849025,
+    "case": "C6"
+  },
+  {
+    "tag": "C7_3Vpp_D50_5ms_full2ms_r9",
+    "target_vpp": 3,
+    "target_duty_percent": 50,
+    "condition": "cold start (UIC from zero), full window 0-2 ms, no TSTART tail",
+    "tran": "tran 2n 2m 0 2n uic",
+    "raw_path": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C7_3Vpp_D50_5ms_full2ms_r9.raw",
+    "raw_sha256": "019ccfc781224da450bc979716d860140d50114a6fb8e9859f3c3769a2575f40",
+    "raw_bytes": 260411732,
+    "points": 2011712,
+    "saved_start_s": 0.0,
+    "saved_end_s": 0.002,
+    "median_step_s": 1.0080645160845739e-09,
+    "max_step_s": 1.0080645170603558e-09,
+    "tail_start_s": 0.0015,
+    "nodes": {
+      "V(v1)": {
+        "mean_v": 1.5566439549832225,
+        "robust_vpp": 3.000001638561061,
+        "p02_v": 0.05607112886820261,
+        "p98_v": 3.0560727674292636,
+        "raw_vpp": 3.000005022399739,
+        "raw_min_v": 0.05607112884980078,
+        "raw_max_v": 3.05607615124954
+      },
+      "V(bb_in)": {
+        "mean_v": 4.493710663866228,
+        "robust_vpp": 0.2688685549369074,
+        "p02_v": 4.36786562378169,
+        "p98_v": 4.636734178718598,
+        "raw_vpp": 0.27501001140810555,
+        "raw_min_v": 4.365505162041862,
+        "raw_max_v": 4.640515173449968
+      },
+      "V(bbo)": {
+        "mean_v": 4.3974457874763075,
+        "robust_vpp": 3.6321993094550145,
+        "p02_v": 2.5771391372185555,
+        "p98_v": 6.20933844667357,
+        "raw_vpp": 3.801606185679506,
+        "raw_min_v": 2.49803882228678,
+        "raw_max_v": 6.299645007966286
+      },
+      "V(v2)": {
+        "mean_v": 4.392600501483624,
+        "robust_vpp": 3.624578635452916,
+        "p02_v": 2.575997958872763,
+        "p98_v": 6.200576594325679,
+        "raw_vpp": 3.744155298172426,
+        "raw_min_v": 2.520322497386315,
+        "raw_max_v": 6.264477795558741
+      }
+    },
+    "input_frequency_hz": 19997.749316264453,
+    "input_duty_percent": 50.00287526269837,
+    "input_complete_cycles": 9,
+    "output_frequency_hz": 19998.077144356455,
+    "output_duty_percent": 50.13265352825699,
+    "output_complete_cycles": 9,
+    "output_crossing_level_v": 4.388074880402108,
+    "robust_gain": 1.2081922185853975,
+    "frequency_error_percent": -0.009614278217717764,
+    "case": "C7"
+  }
+]

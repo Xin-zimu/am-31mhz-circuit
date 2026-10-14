@@ -1,0 +1,64 @@
+{
+  "tag": "C6_4Vpp_D30_5ms_full2ms_r2",
+  "target_vpp": 4,
+  "target_duty_percent": 30,
+  "condition": "cold start (UIC from zero), full window 0-2 ms, no TSTART tail",
+  "tran": "tran 2n 2m 0 2n uic",
+  "raw_path": "D:\\ms_xsp\\stage3_acceptance\\s0305_endpoints_20261014\\C6_4Vpp_D30_5ms_full2ms_r2.raw",
+  "raw_sha256": "09c86ccdd3449cfb491226e0f4c8eea6144c612301fdb1209dde45fc09cebd9c",
+  "raw_bytes": 259770702,
+  "points": 2006781,
+  "saved_start_s": 0.0,
+  "saved_end_s": 0.002,
+  "median_step_s": 1.0080645160845739e-09,
+  "max_step_s": 1.0080645170603558e-09,
+  "tail_start_s": 0.0015,
+  "nodes": {
+    "V(v1)": {
+      "mean_v": 1.275871692031131,
+      "robust_vpp": 4.000002909141514,
+      "p02_v": 0.07481539175673653,
+      "p98_v": 4.074818300898251,
+      "raw_vpp": 4.000010530285349,
+      "raw_min_v": 0.07481539175291092,
+      "raw_max_v": 4.07482592203826
+    },
+    "V(bb_in)": {
+      "mean_v": 4.490074619298436,
+      "robust_vpp": 0.3465659215535437,
+      "p02_v": 4.38406215239603,
+      "p98_v": 4.730628073949574,
+      "raw_vpp": 0.3560412519211287,
+      "raw_min_v": 4.381410491298763,
+      "raw_max_v": 4.737451743219892
+    },
+    "V(bbo)": {
+      "mean_v": 4.3379812859289855,
+      "robust_vpp": 4.876924387412516,
+      "p02_v": 2.8384416266631485,
+      "p98_v": 7.715366014075665,
+      "raw_vpp": 5.11208485338279,
+      "raw_min_v": 2.736427396385538,
+      "raw_max_v": 7.848512249768327
+    },
+    "V(v2)": {
+      "mean_v": 4.33319353827047,
+      "robust_vpp": 4.867355644277216,
+      "p02_v": 2.8371718312383023,
+      "p98_v": 7.704527475515519,
+      "raw_vpp": 5.036254695613486,
+      "raw_min_v": 2.765280893319033,
+      "raw_max_v": 7.801535588932519
+    }
+  },
+  "input_frequency_hz": 20001.19834070267,
+  "input_duty_percent": 30.001062059424026,
+  "input_complete_cycles": 9,
+  "output_frequency_hz": 20001.574130151697,
+  "output_duty_percent": 30.230777401756793,
+  "output_complete_cycles": 9,
+  "output_crossing_level_v": 5.270255318998787,
+  "robust_gain": 1.2168380260807996,
+  "frequency_error_percent": 0.00787065075849025,
+  "case": "C6"
+}

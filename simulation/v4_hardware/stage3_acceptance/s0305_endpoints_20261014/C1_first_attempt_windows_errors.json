@@ -1,0 +1,14 @@
+[
+  {
+    "TimeCreated": "2026-10-14T18:38:05.6823735+08:00",
+    "Id": 1000,
+    "ProviderName": "Application Error",
+    "Message": "出错应用程序名称： multisim.exe，版本： 14.3.1482.0，时间戳： 0x6262d5a9\r\n出错模块名称： ntdll.dll， 版本： 10.0.26100.4652，时间戳： 0x768d7286\r\n异常代码： 0xc0000029\r\n错误偏移： 0x000c372f\r\n出错进程 ID： 0x3DE0\r\n出错应用程序开始时间： 0x1DD5BC807138FA6\r\nFaulting 应用程序路径： D:\\multimism\\Circuit Design Suite 14.3\\multisim.exe\r\nFaulting 模块路径： C:\\WINDOWS\\SYSTEM32\\ntdll.dll\r\nReport ID： e2c1ccc8-1a81-4f86-822f-22731beb23ac\r\nFaulting 包全名： \r\nFaulting 程序包相对应用程序 ID：  个"
+  },
+  {
+    "TimeCreated": "2026-10-14T18:37:54.4206825+08:00",
+    "Id": 1000,
+    "ProviderName": "Application Error",
+    "Message": "出错应用程序名称： multisim.exe，版本： 14.3.1482.0，时间戳： 0x6262d5a9\r\n出错模块名称： ntdll.dll， 版本： 10.0.26100.4652，时间戳： 0x768d7286\r\n异常代码： 0xc0000409\r\n错误偏移： 0x000c372f\r\n出错进程 ID： 0x3DE0\r\n出错应用程序开始时间： 0x1DD5BC807138FA6\r\nFaulting 应用程序路径： D:\\multimism\\Circuit Design Suite 14.3\\multisim.exe\r\nFaulting 模块路径： C:\\WINDOWS\\SYSTEM32\\ntdll.dll\r\nReport ID： 03ac0980-7203-4e58-92f5-9e412049a4eb\r\nFaulting 包全名： \r\nFaulting 程序包相对应用程序 ID：  个"
+  }
+]
