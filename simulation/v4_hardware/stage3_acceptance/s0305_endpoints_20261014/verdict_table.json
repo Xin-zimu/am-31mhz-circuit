@@ -25,153 +25,220 @@
     "accepted_4vpp_50pct_gain": 1.2040048310837015,
     "note": "gain = V(v2) robust_vpp / V(v1) robust_vpp, frozen S03-04 6.2 method"
   },
+  "deprecated_evidence": {
+    "files": [
+      "fullwindow_summary.json",
+      "C*_full2ms_metrics.json",
+      "analyze_fullwindow.py"
+    ],
+    "reason": "did not use the frozen 6.2 method (no 2 ns interp, no last-five-cycle decomposition, no screen/drift) and mislabelled the runs as cold start; numbers superseded, retained only for tracing the error"
+  },
   "cases": [
     {
       "case": "C1",
       "target_vpp": 1,
       "target_duty_percent": 10,
-      "precharged": null,
-      "fullwindow": {
+      "precharged_5ms_tail": null,
+      "precharged_2ms_full": {
         "tag": "C1_1Vpp_D10_5ms_full2ms_r2",
-        "condition": "cold start (UIC from zero), full window 0-2 ms, no TSTART tail",
-        "vin_vpp": 1.0000005469273865,
-        "vout_vpp": 1.3114371235805566,
-        "fout_hz": 20010.382016631323,
-        "din_percent": 10.014337553814222,
-        "dout_percent": 10.105437508150027,
-        "duty_error_pp": 0.09109995433580487,
-        "frequency_error_percent": 0.051910083156614384,
-        "gain": 1.3114364063200703,
-        "gain_vs_precharged_4vpp_percent": 8.922852505473067
+        "condition": "precharged 2 ms full window (still settling)",
+        "tran_stop_s": 0.002,
+        "vin_vpp": 1.0000005469186042,
+        "vout_vpp": 1.164821101987287,
+        "vout_mean_v": 4.115898515983977,
+        "fin_hz": 20006.305667559343,
+        "fout_hz": 20010.018636337838,
+        "din_percent": 10.014355360861313,
+        "dout_percent": 10.082195944451096,
+        "duty_error_pp": 0.06784058358978307,
+        "frequency_error_percent": 0.05009318168918142,
+        "gain": 1.1648204649253042,
+        "repeatability_screen_passes": false,
+        "mean_span_percent": 6.380941555789664,
+        "robust_vpp_span_percent": 0.03427725368526379,
+        "period_span_percent": 0.0019419513131559041,
+        "drift_last_mV_per_ms": 362.81587395673256,
+        "drift_first_mV_per_ms": 1299.41723491502,
+        "last_five_start_s": 0.0017046206706539274,
+        "last_five_end_s": 0.0019545418746666856,
+        "gain_vs_5ms_4vpp_percent": -3.2545024028789116
       }
     },
     {
       "case": "C2",
       "target_vpp": 1,
       "target_duty_percent": 50,
-      "precharged": {
+      "precharged_5ms_tail": {
         "tag": "C2_1Vpp_D50_5ms",
         "condition": "precharged 5 ms tail (accepted)",
+        "tran_stop_s": 0.005,
         "vin_vpp": 1.000000538590537,
         "vout_vpp": 1.1752568013392146,
         "vout_mean_v": 4.480129772676589,
-        "fout_hz": 19998.1582567019,
         "fin_hz": 19998.01710497794,
+        "fout_hz": 19998.1582567019,
         "din_percent": 50.012530464451636,
         "dout_percent": 50.07249768997114,
         "duty_error_pp": 0.05996722551950029,
         "frequency_error_percent": -0.009208716490505253,
         "gain": 1.1752561683573637,
-        "gain_vs_4vpp_percent": -2.3877531039856126,
         "repeatability_screen_passes": false,
         "mean_span_percent": 0.2565798243621504,
-        "drift_last_mV_per_ms": 14.946670561291747
+        "robust_vpp_span_percent": 0.007258298828778147,
+        "period_span_percent": 0.0005820485219617329,
+        "drift_last_mV_per_ms": 14.946670561291747,
+        "drift_first_mV_per_ms": 18.564033187936545,
+        "last_five_start_s": 0.004740895363081544,
+        "last_five_end_s": 0.004990920151728146
       },
-      "fullwindow": null
+      "precharged_2ms_full": null
     },
     {
       "case": "C3",
       "target_vpp": 4,
       "target_duty_percent": 10,
-      "precharged": null,
-      "fullwindow": {
+      "precharged_5ms_tail": null,
+      "precharged_2ms_full": {
         "tag": "C3_4Vpp_D10_5ms_full2ms_r3",
-        "condition": "cold start (UIC from zero), full window 0-2 ms, no TSTART tail",
-        "vin_vpp": 4.000002907845856,
-        "vout_vpp": 4.90818246002371,
-        "fout_hz": 20006.90083198366,
-        "din_percent": 10.001628803316006,
-        "dout_percent": 10.23193617226898,
-        "duty_error_pp": 0.23030736895297466,
-        "frequency_error_percent": 0.03450415991830269,
-        "gain": 1.2270447229916994,
-        "gain_vs_precharged_4vpp_percent": 1.913604606325392
+        "condition": "precharged 2 ms full window (still settling)",
+        "tran_stop_s": 0.002,
+        "vin_vpp": 4.000002907103894,
+        "vout_vpp": 4.784357477469695,
+        "vout_mean_v": 4.184603526061165,
+        "fin_hz": 20006.190687636925,
+        "fout_hz": 20006.91999738861,
+        "din_percent": 10.001666418477004,
+        "dout_percent": 10.227929921419424,
+        "duty_error_pp": 0.2262635029424196,
+        "frequency_error_percent": 0.03459998694304023,
+        "gain": 1.1960885000790398,
+        "repeatability_screen_passes": false,
+        "mean_span_percent": 1.2732298168342189,
+        "robust_vpp_span_percent": 0.020122517021793216,
+        "period_span_percent": 0.005875341620716925,
+        "drift_last_mV_per_ms": 297.93435089688,
+        "drift_first_mV_per_ms": -803.5717087018236,
+        "last_five_start_s": 0.001704619192693164,
+        "last_five_end_s": 0.0019545418331588897,
+        "gain_vs_5ms_4vpp_percent": -0.6574999369011181
       }
     },
     {
       "case": "C4",
       "target_vpp": 4,
       "target_duty_percent": 50,
-      "precharged": {
+      "precharged_5ms_tail": {
         "tag": "REF_4Vpp_tail",
         "condition": "precharged 5 ms tail (accepted)",
+        "tran_stop_s": 0.005,
         "vin_vpp": 4.000002887007161,
         "vout_vpp": 4.816022800305376,
         "vout_mean_v": 4.496040582487098,
-        "fout_hz": 19997.915970317048,
         "fin_hz": 19997.922971884433,
+        "fout_hz": 19997.915970317048,
         "din_percent": 50.001162818553695,
         "dout_percent": 50.22541829111755,
         "duty_error_pp": 0.22425547256385414,
         "frequency_error_percent": -0.010420148414758135,
         "gain": 1.2040048310837015,
-        "gain_vs_4vpp_percent": 0.0,
         "repeatability_screen_passes": true,
         "mean_span_percent": 0.007287870855189002,
-        "drift_last_mV_per_ms": -1.9185808511119793
+        "robust_vpp_span_percent": 0.012372542179429482,
+        "period_span_percent": 0.001818477866844111,
+        "drift_last_mV_per_ms": -1.9185808511119793,
+        "drift_first_mV_per_ms": -0.8138955621963996,
+        "last_five_start_s": 0.0047409098589839445,
+        "last_five_end_s": 0.00499093582454555
       },
-      "fullwindow": null
+      "precharged_2ms_full": null
     },
     {
       "case": "C5",
       "target_vpp": 2,
       "target_duty_percent": 50,
-      "precharged": {
+      "precharged_5ms_tail": {
         "tag": "LIN_2Vpp_tail",
         "condition": "precharged 5 ms tail (accepted)",
+        "tran_stop_s": 0.005,
         "vin_vpp": 2.000001074358429,
         "vout_vpp": 2.37325217445441,
         "vout_mean_v": 4.48535518580887,
-        "fout_hz": 19997.979320717153,
         "fin_hz": 19997.933471855784,
+        "fout_hz": 19997.979320717153,
         "din_percent": 50.01039793823475,
         "dout_percent": 50.093110712965405,
         "duty_error_pp": 0.08271277473065197,
         "frequency_error_percent": -0.010103396414229415,
         "gain": 1.186625449796678,
-        "gain_vs_4vpp_percent": -1.4434644146220532,
         "repeatability_screen_passes": true,
         "mean_span_percent": 0.08344082529619688,
-        "drift_last_mV_per_ms": 9.95941666171205
+        "robust_vpp_span_percent": 0.0120435172905884,
+        "period_span_percent": 0.002414529093919927,
+        "drift_last_mV_per_ms": 9.95941666171205,
+        "drift_first_mV_per_ms": 12.596590127248422,
+        "last_five_start_s": 0.0047408986997544336,
+        "last_five_end_s": 0.004990924534045181
       },
-      "fullwindow": null
+      "precharged_2ms_full": null
     },
     {
       "case": "C6",
       "target_vpp": 4,
       "target_duty_percent": 30,
-      "precharged": null,
-      "fullwindow": {
+      "precharged_5ms_tail": null,
+      "precharged_2ms_full": {
         "tag": "C6_4Vpp_D30_5ms_full2ms_r2",
-        "condition": "cold start (UIC from zero), full window 0-2 ms, no TSTART tail",
-        "vin_vpp": 4.000002909141514,
-        "vout_vpp": 4.867355644277216,
-        "fout_hz": 20001.574130151697,
-        "din_percent": 30.001062059424026,
-        "dout_percent": 30.230777401756793,
-        "duty_error_pp": 0.22971534233276714,
-        "frequency_error_percent": 0.00787065075849025,
-        "gain": 1.2168380260807996,
-        "gain_vs_precharged_4vpp_percent": 1.0658757062915747
+        "condition": "precharged 2 ms full window (still settling)",
+        "tran_stop_s": 0.002,
+        "vin_vpp": 4.000002908852057,
+        "vout_vpp": 4.808171053760379,
+        "vout_mean_v": 4.352410900357258,
+        "fin_hz": 20001.441639435026,
+        "fout_hz": 20001.772385480053,
+        "din_percent": 30.001420920442264,
+        "dout_percent": 30.228731539651136,
+        "duty_error_pp": 0.22731061920887186,
+        "frequency_error_percent": 0.008861927400261038,
+        "gain": 1.2020418892995892,
+        "repeatability_screen_passes": false,
+        "mean_span_percent": 0.5802568774271579,
+        "robust_vpp_span_percent": 0.0291530050131149,
+        "period_span_percent": 0.003098269733819045,
+        "drift_last_mV_per_ms": 135.95459603675857,
+        "drift_first_mV_per_ms": 1786.9653169958601,
+        "last_five_start_s": 0.0017473932674611466,
+        "last_five_end_s": 0.001997375248302556,
+        "gain_vs_5ms_4vpp_percent": -0.16303437772300367
       }
     },
     {
       "case": "C7",
       "target_vpp": 3,
       "target_duty_percent": 50,
-      "precharged": null,
-      "fullwindow": {
+      "precharged_5ms_tail": null,
+      "precharged_2ms_full": {
         "tag": "C7_3Vpp_D50_5ms_full2ms_r9",
-        "condition": "cold start (UIC from zero), full window 0-2 ms, no TSTART tail",
-        "vin_vpp": 3.000001638561061,
-        "vout_vpp": 3.624578635452916,
-        "fout_hz": 19998.077144356455,
-        "din_percent": 50.00287526269837,
-        "dout_percent": 50.13265352825699,
-        "duty_error_pp": 0.12977826555862038,
-        "frequency_error_percent": -0.009614278217717764,
-        "gain": 1.2081922185853975,
-        "gain_vs_precharged_4vpp_percent": 0.3477882640991581
+        "condition": "precharged 2 ms full window (still settling)",
+        "tran_stop_s": 0.002,
+        "vin_vpp": 3.0000016382628307,
+        "vout_vpp": 3.5862135841316998,
+        "vout_mean_v": 4.40450498350545,
+        "fin_hz": 19997.623032263815,
+        "fout_hz": 19997.923691832748,
+        "din_percent": 50.002561808690125,
+        "dout_percent": 50.13191337168623,
+        "duty_error_pp": 0.1293515629961064,
+        "frequency_error_percent": -0.010381540836257308,
+        "gain": 1.1954038752486544,
+        "repeatability_screen_passes": false,
+        "mean_span_percent": 0.4975217516748351,
+        "robust_vpp_span_percent": 0.01521768727747905,
+        "period_span_percent": 0.010116974179532803,
+        "drift_last_mV_per_ms": 86.82498004224954,
+        "drift_first_mV_per_ms": 2954.917817107764,
+        "last_five_start_s": 0.0017405626540093592,
+        "last_five_end_s": 0.001990592370030896,
+        "gain_vs_5ms_4vpp_percent": -0.7143622361801882
       }
     }
   ],
@@ -184,6 +251,7 @@
     "expected_v2_2vpp_if_perfectly_linear": 2.408011400152688,
     "error_percent": -1.4434826054425698,
     "threshold_warn_percent": 10.0,
-    "verdict": "PASS (within 10% deduct threshold)"
+    "verdict": "PASS (within 10% deduct threshold)",
+    "not_available": "1 Vpp and 3 Vpp linearity checks not done (no same-condition pair)"
   }
 }

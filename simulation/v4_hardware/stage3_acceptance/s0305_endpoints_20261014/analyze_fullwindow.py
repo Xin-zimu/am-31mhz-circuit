@@ -1,21 +1,22 @@
-"""Measure the full-window (cold-start, no TSTART) S03-05 endpoint resupply runs.
+"""DEPRECATED -- DO NOT USE. Superseded by analyze_resupply_frozen.py.
 
-Context
--------
-The original S03-05 plan used `tran 2n 5m 4.5m 2n uic` (precharged, TSTART tail).
-In the 2026-10-14 evening environment every 5 ms invocation failed or crashed, and
-the TSTART-tail form proved unrecoverable by retry. A full-window form
-(`tran 2n 2m 0 2n uic`, UIC from zero) DID complete on retry, so the four missing
-endpoints were resupplied that way.
+This first-pass script did NOT follow the frozen S03-04 6.2 method:
+  * it took raw percentiles over a hand-picked 1.5-2 ms mask instead of the
+    last five complete input cycles after 2 ns interpolation;
+  * it produced no repeatability screen and no drift windows;
+  * it therefore smeared the still-decaying DC offset into the amplitude,
+    overstating Vout (e.g. C1 1.311437 vs the frozen 1.164821 Vpp).
 
-These runs are a DIFFERENT measurement condition from the accepted S03-03/S03-04
-precharged tail: they start from zero initial conditions and are only 2 ms long.
-They are recorded separately and must not be merged into the precharged 5 ms
-comparison table. What they legitimately establish is that the engine CAN produce
-these four endpoint waveforms, plus the input/output amplitude, frequency and duty
-relationships over a settled late window.
+It also mislabelled these runs as "cold start (UIC from zero)". The netlists
+retain IC=0.43 / -4.1 / 4.5, so the runs are PRE-CHARGED with the full 0-2 ms
+window saved.
 
-Run: python -X utf8 analyze_fullwindow.py
+Its outputs (fullwindow_summary.json, C*_full2ms_metrics.json) are retained only
+to trace the original mistake and MUST NOT be cited.
+
+Use instead:
+  analyze_resupply_frozen.py   -> *_resupply_frozen_metrics.json
+  build_verdict.py             -> verdict_table.json
 """
 from pathlib import Path
 import hashlib
