@@ -1,0 +1,4 @@
+# Byte-exact evidence copies retain the simulator's CRLF and trailing spaces.
+# Do not format these inputs; archive_s03.py checks their original SHA-256.
+failed_attempt_inputs/*.cir -text -whitespace
+failed_attempt_inputs/*.cmd -text -whitespace

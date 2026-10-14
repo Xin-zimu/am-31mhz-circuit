@@ -1,0 +1,2234 @@
+{
+  "date": "2026-10-15",
+  "decision": "A, scope confirmed in current user conversation",
+  "s0305_status": "条件性完成，尚未闭合",
+  "s0306_status": "受限验收报告与归档完成",
+  "s03_status": "待验收/受限；不标为整体已验收",
+  "new_simulations": 0,
+  "new_extrapolations": 0,
+  "measured_cases": 7,
+  "effective_longwindow_attempts": 20,
+  "longwindow_successes": 0,
+  "longwindow_measurement_status": "无数据可报",
+  "frozen_normalized_gain_error_percent": -1.4434644146220532,
+  "failed_outputs": [
+    {
+      "tag": "C4_4Vpp_D50_5ms_b1",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b1.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C4_4Vpp_D50_5ms_b2",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b2.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C1_1Vpp_D10_5ms_b1",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b1.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C1_1Vpp_D10_5ms_b2",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b2.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C1_1Vpp_D10_5ms_b3",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b3.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C3_4Vpp_D10_5ms_b1",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b1.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C3_4Vpp_D10_5ms_b2",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b2.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C3_4Vpp_D10_5ms_b3",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b3.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C6_4Vpp_D30_5ms_b1",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b1.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C6_4Vpp_D30_5ms_b2",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b2.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C6_4Vpp_D30_5ms_b3",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b3.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C7_3Vpp_D50_5ms_b1",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b1.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C7_3Vpp_D50_5ms_b2",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b2.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C7_3Vpp_D50_5ms_b3",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b3.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C2_1Vpp_D50_7ms_b1",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b1.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C2_1Vpp_D50_7ms_b2",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b2.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C2_1Vpp_D50_7ms_b3",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b3.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C4_4Vpp_D50_7ms_b1",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b1.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C4_4Vpp_D50_7ms_b2",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b2.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    },
+    {
+      "tag": "C4_4Vpp_D50_7ms_b3",
+      "raw_path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b3.raw",
+      "status_raw_bytes": 0,
+      "file_present_at_archive": false,
+      "measurement_status": "无数据可报"
+    }
+  ],
+  "storage_policy": "In-place local archive. Git omits large waveforms; preserve every indexed external/local binary separately when migrating.",
+  "files": [
+    {
+      "path": "D:/ms_xsp/stage3_acceptance/s0304_cold9ms_20261014/COLD_9ms_tail.raw",
+      "storage": "external_local",
+      "bytes": 65705620,
+      "sha256": "54eb259e588d3bfd3aea13945f9a9df86500b77c21a3f94c28a5f1a285eb7d56",
+      "roles": [
+        "S03-04 9 ms raw; hash recorded at archive"
+      ]
+    },
+    {
+      "path": "D:/ms_xsp/stage3_acceptance/s0304_final2_20261014/COLD_12ms_clean.raw",
+      "storage": "external_local",
+      "bytes": 65707039,
+      "sha256": "7647d61967deb6e26d96d9c17f7a97c3a20fe8fb81d7a8f1370c55a715c498c0",
+      "roles": [
+        "S03-04 12 ms raw"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "D:/ms_xsp/stage3_acceptance/s0304_final2_20261014/LIN_2Vpp_tail.raw",
+      "storage": "external_local",
+      "bytes": 64394976,
+      "sha256": "8cd6ecb766e0e8aa1507a1a1397fe424929fecd74e5731235c4224bc089372c5",
+      "roles": [
+        "C5 original waveform"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "D:/ms_xsp/stage3_acceptance/s0304_final2_20261014/REF_4Vpp_tail.raw",
+      "storage": "external_local",
+      "bytes": 64981539,
+      "sha256": "8e17f81aaaeb8b5c29dd4e9f9fb7ec0d83baec12ee87c260a71f6a66cbe6febc",
+      "roles": [
+        "C4 original waveform"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_full2ms_r2.raw",
+      "storage": "external_local",
+      "bytes": 257232712,
+      "sha256": "594aa92c5a5edd9c2f40ca77230ed87acc14efadcb077b2a97ae642397041544",
+      "roles": [
+        "C1 original waveform"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_5ms.raw",
+      "storage": "external_local",
+      "bytes": 64084602,
+      "sha256": "29bf5d971a971199df0c0cedab48679df94bd5ddaef42d065e4037fee35bae3d",
+      "roles": [
+        "C2 original waveform"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_full2ms_r3.raw",
+      "storage": "external_local",
+      "bytes": 258149732,
+      "sha256": "1e5e46f6dc13ae6770c898961fd35da9ac78b6208ff005e2cf255c1f86d260fd",
+      "roles": [
+        "C3 original waveform"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_full2ms_r2.raw",
+      "storage": "external_local",
+      "bytes": 259770702,
+      "sha256": "09c86ccdd3449cfb491226e0f4c8eea6144c612301fdb1209dde45fc09cebd9c",
+      "roles": [
+        "C6 original waveform"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_full2ms_r9.raw",
+      "storage": "external_local",
+      "bytes": 260411732,
+      "sha256": "019ccfc781224da450bc979716d860140d50114a6fb8e9859f3c3769a2575f40",
+      "roles": [
+        "C7 original waveform"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "simulation/v4_hardware/AM_20k_31MHz_V4_3_REPAIRED.gra",
+      "storage": "workspace",
+      "bytes": 21000130,
+      "sha256": "f91b21f3f4dbb95437c36ffedb6bb39ce12228a190961785c9b99951f5938677",
+      "roles": [
+        "baseline/source"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "simulation/v4_hardware/AM_20k_31MHz_V4_3_REPAIRED.ms14",
+      "storage": "workspace",
+      "bytes": 369512,
+      "sha256": "99dffd203eb501498e8884ce02005a977b9f295d380ad3c7afea227f26296394",
+      "roles": [
+        "baseline/source"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "simulation/v4_hardware/models/LM393_TI.lib",
+      "storage": "workspace",
+      "bytes": 1680,
+      "sha256": "ac6b63864d0624045b959147b003eba5a91149aaa4415c80997058a05b5a7a66",
+      "roles": [
+        "model source/reference; actual embedded model in netlist governs"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/models/OPA197_TI/OPAx197.LIB",
+      "storage": "workspace",
+      "bytes": 16625,
+      "sha256": "fc5b020e63346e511bd808bf41c856b0150b000bcf8a41fe00eeececb1f422a5",
+      "roles": [
+        "model source/reference; actual embedded model in netlist governs"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/models/OPA197_multisim.lib",
+      "storage": "workspace",
+      "bytes": 11653,
+      "sha256": "cba4b74d5fa1c14494c98bd1823562f708acd9d5bbfd087dbfae22d992523cc4",
+      "roles": [
+        "model source/reference; actual embedded model in netlist governs"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/models/TI_LM393/lm393.lib",
+      "storage": "workspace",
+      "bytes": 10529,
+      "sha256": "bb640f9b040d51a5ebaec7cb9a8a37bfcf2ae53a6c7e4a28405226b67ca43ff3",
+      "roles": [
+        "model source/reference; actual embedded model in netlist governs"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/repair_20261011/final_actual.cir",
+      "storage": "workspace",
+      "bytes": 24373,
+      "sha256": "d9aba8eff74e679f709bc6a680bf569e6dab87a00303b6ff138f19d4964ccaaf",
+      "roles": [
+        "baseline/source"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "simulation/v4_hardware/repair_20261011/final_reopen.net.txt",
+      "storage": "workspace",
+      "bytes": 26396,
+      "sha256": "dc196fd9cd7c909900ac2b31d2902033f8816dcd434bfb1697523429808ea077",
+      "roles": [
+        "existing native reopen evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/S03_04_冷启动排查记录.md",
+      "storage": "workspace",
+      "bytes": 27861,
+      "sha256": "aa225d3ec83c70ad6c34168f38c4967d4634921eec2dadd783dc0ac58fc155c9",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/S03_BASELINE_V4_3.ms14",
+      "storage": "workspace",
+      "bytes": 369512,
+      "sha256": "99dffd203eb501498e8884ce02005a977b9f295d380ad3c7afea227f26296394",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/S03_GUI_2ms_V4_3.gra",
+      "storage": "workspace",
+      "bytes": 193486150,
+      "sha256": "f585a801278ab3b9b668a0970785cc21a058c20f3275132c53f8270ecef0c172",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/S03_GUI_2ms_V4_3.ms14",
+      "storage": "workspace",
+      "bytes": 369168,
+      "sha256": "e0b0ce967933099177b335b9c1a176381ebe8a18c626d8338ffd12abe83475cd",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/S03_GUI_2ms_V4_3.npz",
+      "storage": "workspace",
+      "bytes": 92942050,
+      "sha256": "f4714ea36fad8f8e1332bc120d87e6257f8468a7c28f4ea2b4ac6ec58db5ac70",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/S03_GUI_2ms_V4_3_metrics.json",
+      "storage": "workspace",
+      "bytes": 8702,
+      "sha256": "951c1fca5700e7b287a6a03ce753035b585d1778b3c3da641089482686d9cbcd",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/S03_GUI复跑报告.md",
+      "storage": "workspace",
+      "bytes": 4904,
+      "sha256": "d2dbe5c985918ca7d9a1a23351b4c1b62f8a8c83caab1acf180cbc404343c903",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/S03_指标与测量定义.md",
+      "storage": "workspace",
+      "bytes": 7424,
+      "sha256": "24cf6f302730c7a556fcad239d464cdcee4bb0076f9c1ecc4e8e057e5c09a276",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/baseline_manifest.json",
+      "storage": "workspace",
+      "bytes": 1703,
+      "sha256": "491bbc000bf44765095a51cd45d1a90048fcb2a904a823825b7e7323713be86b",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/gui_engine_comparison.json",
+      "storage": "workspace",
+      "bytes": 1870,
+      "sha256": "123868bfe259c3ee380084b1e6c0abc7e68fef8e71370b1ce9706492bf5a296a",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/gui_project_audit.json",
+      "storage": "workspace",
+      "bytes": 2676,
+      "sha256": "ba2727728345c41f218560b97d8a6a5ebf7685217ccc648e9b213de02d0903ed",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/measure_stage3.py",
+      "storage": "workspace",
+      "bytes": 5221,
+      "sha256": "a99a25121b0ae0317ccf45fd6deca2d44107d687c8637ab7d1eb145b6ffa33f8",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/nominal_5ms.cmd",
+      "storage": "workspace",
+      "bytes": 368,
+      "sha256": "cd11e6bb325aa786216d6a945971c5352105c11b8906dc320f528243ab00df22",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/nominal_5ms.log",
+      "storage": "workspace",
+      "bytes": 2641,
+      "sha256": "b5ebd187366cde5a7b5837f5cfebcadb383de901d6759d2f47885fe7aa9173b6",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/nominal_5ms.npz",
+      "storage": "workspace",
+      "bytes": 155103646,
+      "sha256": "aa1baa807acc1fe12e4428231dde392edf6c545435e777d1c8192977b0fcface",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/nominal_5ms_metrics.json",
+      "storage": "workspace",
+      "bytes": 7460,
+      "sha256": "08ecaa360d90c902300d0ceb5f2bbd71dbeca0c8b89a6d80641309220d3dfa6d",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/nominal_full.cir",
+      "storage": "workspace",
+      "bytes": 24373,
+      "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "roles": [
+        "S03 baseline/GUI/method"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b1.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b1_status.json",
+      "storage": "workspace",
+      "bytes": 730,
+      "sha256": "1d08bd6ef18834b57d76a1a74e0615d902c0192dd7733b7aaa77f411b1b3a5b0",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b2.log",
+      "storage": "workspace",
+      "bytes": 2797,
+      "sha256": "24f8eafe243fd1e09e5130b01bca724b6acd915b8d420d3f26f41a4533cb4b22",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b2_status.json",
+      "storage": "workspace",
+      "bytes": 1322,
+      "sha256": "dbdb0422b4672c18c181728660196bc483fa8e5dfda327699b3e3714cdd8e4e9",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b3.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b3_status.json",
+      "storage": "workspace",
+      "bytes": 730,
+      "sha256": "a47c710f31656cf0409177f24dd50b52de9f28ec72f8c5bfdb57491457720385",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_full2ms_r2.cir",
+      "storage": "workspace",
+      "bytes": 24389,
+      "sha256": "eeeb769bf3f9b0e1e3d32d1d77f961c76ce45bcd9bace619953f272c505b8163",
+      "roles": [
+        "C1 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_full2ms_r2.cmd",
+      "storage": "workspace",
+      "bytes": 319,
+      "sha256": "2d39f6c793b49981a3429ede5e51d3dec72a8f95487772f20dc8bced47fa4bb8",
+      "roles": [
+        "C1 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_full2ms_r2.log",
+      "storage": "workspace",
+      "bytes": 1584,
+      "sha256": "bd9e05df17f1c5b525c8e494b132391d1d749d820f69f72569768dd3093404fb",
+      "roles": [
+        "C1 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_full2ms_r2_status.json",
+      "storage": "workspace",
+      "bytes": 1358,
+      "sha256": "c243ea229064edfc5ce98a2440aca4c9ece6a458f92de60e8de0fbed84eb1373",
+      "roles": [
+        "C1 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C1_resupply_frozen_metrics.json",
+      "storage": "workspace",
+      "bytes": 19295,
+      "sha256": "b2c6df6443eba809998e195daecfa1f36c8370694ece648c5cdb78e836692e74",
+      "roles": [
+        "C1 frozen metrics"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_5ms.cir",
+      "storage": "workspace",
+      "bytes": 24382,
+      "sha256": "bf22703751d5af4be63174bc53f64ddfb4e3d24d2e3b59f9e65589a5bc2c0340",
+      "roles": [
+        "C2 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_5ms.cmd",
+      "storage": "workspace",
+      "bytes": 414,
+      "sha256": "48309fbbd8d27209f1f37b1c91c207dbd70e5a7236c1278c68233c3b62f26098",
+      "roles": [
+        "C2 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_5ms.log",
+      "storage": "workspace",
+      "bytes": 2732,
+      "sha256": "e8f1443e2774cfc0b01f184ac4a7ee99e1c3f3372c4b942c1cecce80833551bf",
+      "roles": [
+        "C2 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_5ms_status.json",
+      "storage": "workspace",
+      "bytes": 1316,
+      "sha256": "63616a16c223f5667382613cc4a8c33f553554aa4d483c3fd71b4bf3ccbaa56a",
+      "roles": [
+        "C2 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b1.log",
+      "storage": "workspace",
+      "bytes": 2797,
+      "sha256": "6f44a267dbe05bffcf1f5c72feb11e46e2684c2d5c392c74a6e047414247a6a3",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b1_status.json",
+      "storage": "workspace",
+      "bytes": 1734,
+      "sha256": "c04871e454467082b278108c6d4973689c594178c214fb9b78f7bd56281be044",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b2.log",
+      "storage": "workspace",
+      "bytes": 2797,
+      "sha256": "910c8a9bb2b49b49703be364bb683a75d4807141ef81f1c5996930d4406e17e8",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b2_status.json",
+      "storage": "workspace",
+      "bytes": 1735,
+      "sha256": "e135ec68e856236b8a9ac3bcefbd3c16171e9332f053ffd95e5f53c898db0454",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b3.log",
+      "storage": "workspace",
+      "bytes": 2797,
+      "sha256": "07c34fcc685f78362dc6560ad0a50537303d321f68a20acbef08f10cf1baf65b",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b3_status.json",
+      "storage": "workspace",
+      "bytes": 1735,
+      "sha256": "1bd49c3ebff0597febaf75e5092d48c6cecc8ef1b55078bf0b1560addcdd1bbb",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C2_metrics.json",
+      "storage": "workspace",
+      "bytes": 13499,
+      "sha256": "2edc417e09578a4faa99e0ec61ad0d8383de0b1367aa83a58b81ef32d2188d96",
+      "roles": [
+        "C2 frozen metrics"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b1.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b1_status.json",
+      "storage": "workspace",
+      "bytes": 731,
+      "sha256": "9320a254ca8b5e47e9f4c524d4d0811f5bb7252eeff668ea0529c7787497cf30",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b2.log",
+      "storage": "workspace",
+      "bytes": 2797,
+      "sha256": "3566f6572a46760c21ae9d7c2cff01332ad809b64a6c202e54feadba95e66b2b",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b2_status.json",
+      "storage": "workspace",
+      "bytes": 1321,
+      "sha256": "2f20387bc956974b3cc05d732e4418f7eeb6151c4e7b838733d08389ef50000b",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b3.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b3_status.json",
+      "storage": "workspace",
+      "bytes": 730,
+      "sha256": "d2c3abcac88376aced6d35b89ea54ffacc43f692d911562e1bc94d120a6f5ee8",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_full2ms_r3.cir",
+      "storage": "workspace",
+      "bytes": 24380,
+      "sha256": "ef8e1b153dc15f47b0160a3a614a2b7796d1ab436647d45e0bc2c2286e23f761",
+      "roles": [
+        "C3 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_full2ms_r3.cmd",
+      "storage": "workspace",
+      "bytes": 319,
+      "sha256": "b9f0cff969167ab0947d40a8198cb159690afcdbbe22e4b13b6174ee5ac23a9f",
+      "roles": [
+        "C3 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_full2ms_r3.log",
+      "storage": "workspace",
+      "bytes": 1584,
+      "sha256": "97c319d0adb433a477b08dcf6916744bfb0ee6bb034f78a152a46398f2c76a70",
+      "roles": [
+        "C3 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_full2ms_r3_status.json",
+      "storage": "workspace",
+      "bytes": 1359,
+      "sha256": "73b4bd9fa3a8852d4f3d3ddb031d6ea8b213e11b1a4a40c4dae9cf038a8dccf3",
+      "roles": [
+        "C3 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C3_resupply_frozen_metrics.json",
+      "storage": "workspace",
+      "bytes": 19228,
+      "sha256": "7fe180291c545581ffb94d3175faad8a397ab9e521ae2a7e081e4d0a6373abe9",
+      "roles": [
+        "C3 frozen metrics"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b1.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b1_status.json",
+      "storage": "workspace",
+      "bytes": 729,
+      "sha256": "27258e45b0edc28c20cf572f1edc01f2dc355866e47b061db6b33c487aff4dcb",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b2.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b2_status.json",
+      "storage": "workspace",
+      "bytes": 731,
+      "sha256": "41d0bf57e2fc8a735a14b58c4b76c5ca8a0dcac67b4de1e121032d456b23e12f",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b1.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b1_status.json",
+      "storage": "workspace",
+      "bytes": 1144,
+      "sha256": "4cdd336b1cce900e6cd0745d74cc7ac1a1adf271e946e60b49484e89e8549e48",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b2.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b2_status.json",
+      "storage": "workspace",
+      "bytes": 1144,
+      "sha256": "06fce2138bcf53833b3d2000a9f2535ecbe7ee496555496729fde50e7ea3df40",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b3.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b3_status.json",
+      "storage": "workspace",
+      "bytes": 1144,
+      "sha256": "63ddfede058e42b6d4ffaf8ec718ddc4ceca5c2d2693ccf02e8ead80ad3ab19e",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C4_metrics.json",
+      "storage": "workspace",
+      "bytes": 12864,
+      "sha256": "f050835333969c7ee50c65add9ca6a6d304790b393fb6aba11f2d603396de797",
+      "roles": [
+        "C4 frozen metrics"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C5_metrics.json",
+      "storage": "workspace",
+      "bytes": 12895,
+      "sha256": "8b4f186725d50474c6878a7d21fe739cecece99b4899185ee90abc81d675805b",
+      "roles": [
+        "C5 frozen metrics"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b1.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b1_status.json",
+      "storage": "workspace",
+      "bytes": 730,
+      "sha256": "56ba95f594d16504c03be12b80117a6af3f70ffe2452494cd5dd9edbf22b43a1",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b2.log",
+      "storage": "workspace",
+      "bytes": 2797,
+      "sha256": "eaae3c088ed6509ce54090dbe77e55725ae1aab46db0584993a25592f42a68be",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b2_status.json",
+      "storage": "workspace",
+      "bytes": 1734,
+      "sha256": "32991dfd0db086636a09437d6773012c7d02005fdab92e4d8b01538e4a81b4e3",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b3.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b3_status.json",
+      "storage": "workspace",
+      "bytes": 1143,
+      "sha256": "993dd7991cbcad6c5b8f4d784180751cdcf811fd9dea8e1ce4f60b90ed44bd5e",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_full2ms_r2.cir",
+      "storage": "workspace",
+      "bytes": 24381,
+      "sha256": "5a4f801e4f0af706aad3ed9c42b7df2a16aaf91eed6bb609f8007ae76c6ea078",
+      "roles": [
+        "C6 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_full2ms_r2.cmd",
+      "storage": "workspace",
+      "bytes": 319,
+      "sha256": "9006176a3e184f17004abb0e47bb5d5056fcda2d1c41b519f23baf45a0029090",
+      "roles": [
+        "C6 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_full2ms_r2.log",
+      "storage": "workspace",
+      "bytes": 1584,
+      "sha256": "122cf4d4b6ce6d482b29f2f6b481602b2ee4dbf230b9ccb498fe52cc339123cb",
+      "roles": [
+        "C6 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_full2ms_r2_status.json",
+      "storage": "workspace",
+      "bytes": 1359,
+      "sha256": "0e3f3be75ff69399572ff23b5d279fefdd996c4d97c092af02c562b37b15c941",
+      "roles": [
+        "C6 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C6_resupply_frozen_metrics.json",
+      "storage": "workspace",
+      "bytes": 19448,
+      "sha256": "348fb02b5ebe82813067e49ed2497cd39a67127c3b4eb2e1c2ed942c1bd904ba",
+      "roles": [
+        "C6 frozen metrics"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b1.log",
+      "storage": "workspace",
+      "bytes": 2797,
+      "sha256": "817bb1082844df4ab0c8f33825afc042dd34b068ba00244413d77eed78fd273e",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b1_status.json",
+      "storage": "workspace",
+      "bytes": 1734,
+      "sha256": "0eaa2792a426e491a5831aad3027bce56d7f8ccdd1f1d39dbf5556029a49b223",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b2.log",
+      "storage": "workspace",
+      "bytes": 2797,
+      "sha256": "c54a38e22ecb5cc700da040042dfb9ffc5b267077861e893e1d46b35ce42e76d",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b2_status.json",
+      "storage": "workspace",
+      "bytes": 1734,
+      "sha256": "bc7c76af1196fb47d207c7b59111c4059e555240c62451fdc9401340d0e2809e",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b3.log",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "effective failed attempt log"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b3_status.json",
+      "storage": "workspace",
+      "bytes": 1143,
+      "sha256": "9e15b5555b65adfab7c70ee1d4d5ea5bc3997a2d534b0419b859e0398015cd37",
+      "roles": [
+        "effective failed attempt; no measurement"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_full2ms_r9.cir",
+      "storage": "workspace",
+      "bytes": 24382,
+      "sha256": "f93fa3ce2653a35a4192ee8ab7bd624fcd201346e983ac8f1053ea4329c28ffe",
+      "roles": [
+        "C7 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_full2ms_r9.cmd",
+      "storage": "workspace",
+      "bytes": 319,
+      "sha256": "70f13f64432855cdf2cd86872e336700647f4c067eb23fb364b525fe01233024",
+      "roles": [
+        "C7 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_full2ms_r9.log",
+      "storage": "workspace",
+      "bytes": 1584,
+      "sha256": "bcdaba6dbf5c25d8266a207b8dc7459a0a9f3c6eeb424bcf336ae849fde24d8a",
+      "roles": [
+        "C7 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_full2ms_r9_status.json",
+      "storage": "workspace",
+      "bytes": 1359,
+      "sha256": "87225f10c50a28982227d8992ed10ea19801455fadac365d32c10f0f4db8ff4f",
+      "roles": [
+        "C7 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/C7_resupply_frozen_metrics.json",
+      "storage": "workspace",
+      "bytes": 19500,
+      "sha256": "cfcbc18e2b182f7a87f23da3a6a41ddbcc49bdaf0bee277475e0ab435c0af6c1",
+      "roles": [
+        "C7 frozen metrics"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/README.md",
+      "storage": "workspace",
+      "bytes": 7827,
+      "sha256": "f12071ff27340f575cb55a94a401a4e6c7b65c4fa86e46239a00d98c96c8afd8",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/S03_05_失败取证分析报告.md",
+      "storage": "workspace",
+      "bytes": 41102,
+      "sha256": "1840bb722ada7acd1a4c62e97ab1895c510b9f3d7a52f5916efbf4033ff6d453",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/S03_05_汇总与判定.md",
+      "storage": "workspace",
+      "bytes": 15535,
+      "sha256": "d8a5c5f79ddc573db063425240088ca55318fe88e7c2f3b9be1b45c2fae92508",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/S03_05_长窗补测交接.md",
+      "storage": "workspace",
+      "bytes": 10234,
+      "sha256": "1f0197340e181c6afb228e294afd17f56cb018f39443119984411c25c5840f95",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/S03_05_长窗补测批次记录.md",
+      "storage": "workspace",
+      "bytes": 5605,
+      "sha256": "57c68e3d42aacbedcc13103068a0c4816779a390aa0207b8ea0cb7a5f6e87f55",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/analyze_cases.py",
+      "storage": "workspace",
+      "bytes": 12041,
+      "sha256": "468110ba7b2af97919cd83fd74bd0563fd88b9b068e57e77393e887b8c2d5c07",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/analyze_longwindow_frozen.py",
+      "storage": "workspace",
+      "bytes": 5719,
+      "sha256": "5321b8ad5d892d569a4c5c041a8ab761736f80187f35587d97768c38e20fec0a",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/analyze_resupply_frozen.py",
+      "storage": "workspace",
+      "bytes": 8677,
+      "sha256": "975edaf9febf4b1a7a06bb7605c610691032596bcc3156c38092f3342f9d25cc",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/build_verdict.py",
+      "storage": "workspace",
+      "bytes": 6759,
+      "sha256": "82b995ffa7a6d74db69b1221cee1e4d44a026b24de141e0ef58ce7f055efb09f",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/check_verdict_consistency.py",
+      "storage": "workspace",
+      "bytes": 898,
+      "sha256": "9c4627d81ed49f24d46912cda24324b7f1517c9e9de9707609628c2fbd8900ff",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/evidence_audit.json",
+      "storage": "workspace",
+      "bytes": 3689,
+      "sha256": "f12d97dfdfa1c863b5b0abfcf4a27a77558cd0ac3c8255a9269a2679c3e606d8",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/resupply_frozen_summary.json",
+      "storage": "workspace",
+      "bytes": 82322,
+      "sha256": "7f07611603f4da3f93a53d071a52c99a3e15a31ace99b84f2e7d3e56b0c7d1c8",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/run_budget.ps1",
+      "storage": "workspace",
+      "bytes": 6336,
+      "sha256": "10d8b48ba1a709c65c929a340ff86a892959714065f84ba8c4a46fc911dc4666",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/run_manifest.json",
+      "storage": "workspace",
+      "bytes": 4539,
+      "sha256": "f0fd03d09aea126e5e76e6f34270d486ca0eba29ac4873d1d9791756649518a2",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/run_one.ps1",
+      "storage": "workspace",
+      "bytes": 5584,
+      "sha256": "5b7e9d798d7f5ab2326a92592bc27d0e73ce4f3615f84b848965e4db6d519d72",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/summary.json",
+      "storage": "workspace",
+      "bytes": 42157,
+      "sha256": "f33da86360e59a0f332157dc4192621bd74dd830d7f848bcd5929bec3eb10d9f",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/verdict_table.json",
+      "storage": "workspace",
+      "bytes": 9900,
+      "sha256": "788eab8cd6325ac39374452a923a8d9bf573c1799141db041231c147e6fd22fa",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/生成补测用例.ps1",
+      "storage": "workspace",
+      "bytes": 6585,
+      "sha256": "5eb2c205418260bbf11947e8f6d00cc92c42104b9797b117251bca1842ca2170",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/补测批次作废记录_C4_b1b2.md",
+      "storage": "workspace",
+      "bytes": 3693,
+      "sha256": "0ead5b75869b3b7de975771239a1aaa98b210117505814feeb33d60d8132383f",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0305_endpoints_20261014/运行异常记录.md",
+      "storage": "workspace",
+      "bytes": 12384,
+      "sha256": "d793d22fc14fab35b44ca4be611f52c557cbd16e9047c5d628881ce87731f010",
+      "roles": [
+        "S03-05 method/status/provenance"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/.gitattributes",
+      "storage": "workspace",
+      "bytes": 246,
+      "sha256": "aa76f87ce7d1e479a4d7f49c3dde174967a7a712d6f278d9d3b8c196f6b56a7c",
+      "roles": [
+        "S03-06 deliverable"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/S03_06_工况汇总表.md",
+      "storage": "workspace",
+      "bytes": 6607,
+      "sha256": "73c6221cd84d1bc5ee1f00d1d4b5b12e2d0a965329b1f8d120ffe5c90173b0b5",
+      "roles": [
+        "S03-06 deliverable"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/S03_06_归档与复现.md",
+      "storage": "workspace",
+      "bytes": 5248,
+      "sha256": "eb684ef8d8c088c13d651a1a4ffb4daa723b2e3d4a7a5da5ba49fb52e6f649db",
+      "roles": [
+        "S03-06 deliverable"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/S03_06_阶段验收报告.md",
+      "storage": "workspace",
+      "bytes": 9999,
+      "sha256": "dc5d5776e42662fd10ba25e1d1821f19193f18d36f78ca97464d4f99626baff2",
+      "roles": [
+        "S03-06 deliverable"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/archive_s03.py",
+      "storage": "workspace",
+      "bytes": 20224,
+      "sha256": "f93bda5941b856d5db2aa7fb970f22a3a288a1371ebe8f2b3756dd4818aa0cbc",
+      "roles": [
+        "S03-06 deliverable"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C1_1Vpp_D10_5ms_b1.cir",
+      "storage": "workspace",
+      "bytes": 24389,
+      "sha256": "eeeb769bf3f9b0e1e3d32d1d77f961c76ce45bcd9bace619953f272c505b8163",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b1.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C1_1Vpp_D10_5ms_b1.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "6a87d5e3d98c2d7169079677711a253f7752a85b30f097e4c1ca5a85a323a4d7",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b1.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C1_1Vpp_D10_5ms_b2.cir",
+      "storage": "workspace",
+      "bytes": 24389,
+      "sha256": "eeeb769bf3f9b0e1e3d32d1d77f961c76ce45bcd9bace619953f272c505b8163",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b2.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C1_1Vpp_D10_5ms_b2.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "ebb473f5d22c7574b6144d0b5636dfd372806a62da924ca86691583910ec1408",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b2.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C1_1Vpp_D10_5ms_b3.cir",
+      "storage": "workspace",
+      "bytes": 24389,
+      "sha256": "eeeb769bf3f9b0e1e3d32d1d77f961c76ce45bcd9bace619953f272c505b8163",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b3.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C1_1Vpp_D10_5ms_b3.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "63e2a25bc2c2d24bc84986c4c76388c8368282aec4a9cdcc9984f06bbb3a889a",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C1_1Vpp_D10_5ms_b3.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C2_1Vpp_D50_7ms_b1.cir",
+      "storage": "workspace",
+      "bytes": 24382,
+      "sha256": "bf22703751d5af4be63174bc53f64ddfb4e3d24d2e3b59f9e65589a5bc2c0340",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b1.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C2_1Vpp_D50_7ms_b1.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "b99cf448c6cb32d6bcc873d21579d9ef9c8b25d0f999d9e28783c258c65f8f36",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b1.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C2_1Vpp_D50_7ms_b2.cir",
+      "storage": "workspace",
+      "bytes": 24382,
+      "sha256": "bf22703751d5af4be63174bc53f64ddfb4e3d24d2e3b59f9e65589a5bc2c0340",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b2.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C2_1Vpp_D50_7ms_b2.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "449f5a6729fcc05311314ca63b9a181155843791ba13d675bea79385368d0c9f",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b2.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C2_1Vpp_D50_7ms_b3.cir",
+      "storage": "workspace",
+      "bytes": 24382,
+      "sha256": "bf22703751d5af4be63174bc53f64ddfb4e3d24d2e3b59f9e65589a5bc2c0340",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b3.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C2_1Vpp_D50_7ms_b3.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "81189f03d4abb76f088eb3fa6e0e3ae1eb269ecd038133e0503e49ada096a642",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C2_1Vpp_D50_7ms_b3.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C3_4Vpp_D10_5ms_b1.cir",
+      "storage": "workspace",
+      "bytes": 24380,
+      "sha256": "ef8e1b153dc15f47b0160a3a614a2b7796d1ab436647d45e0bc2c2286e23f761",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b1.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C3_4Vpp_D10_5ms_b1.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "9c27d342a49326da7022efdd11a668ae19af42ef81c30706b88158972972c558",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b1.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C3_4Vpp_D10_5ms_b2.cir",
+      "storage": "workspace",
+      "bytes": 24380,
+      "sha256": "ef8e1b153dc15f47b0160a3a614a2b7796d1ab436647d45e0bc2c2286e23f761",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b2.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C3_4Vpp_D10_5ms_b2.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "f860e74bdc367a99c8c544661ec243deacf09066091f435f98b294b50d2e4c20",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b2.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C3_4Vpp_D10_5ms_b3.cir",
+      "storage": "workspace",
+      "bytes": 24380,
+      "sha256": "ef8e1b153dc15f47b0160a3a614a2b7796d1ab436647d45e0bc2c2286e23f761",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b3.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C3_4Vpp_D10_5ms_b3.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "ca5e088bde70b52227a3f50c0e014fd0bd4be25a3e685f817575bc9908a85ebe",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C3_4Vpp_D10_5ms_b3.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_5ms_b1.cir",
+      "storage": "workspace",
+      "bytes": 24373,
+      "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b1.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_5ms_b1.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "48a645dfc2037d2d5db847c6c828be37ed655f47ac7fe6eb02da7e7f52e64539",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b1.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_5ms_b2.cir",
+      "storage": "workspace",
+      "bytes": 24373,
+      "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b2.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_5ms_b2.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "86f185f1df9b3baa7888dd858c098be06d80a297deb6411bd9384b02f055d01d",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_5ms_b2.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_7ms_b1.cir",
+      "storage": "workspace",
+      "bytes": 24373,
+      "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b1.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_7ms_b1.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "11d2532a25974b4a69623948cac8e2989de9dd76b8b04b0c892fd87dfdcb7e00",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b1.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_7ms_b2.cir",
+      "storage": "workspace",
+      "bytes": 24373,
+      "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b2.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_7ms_b2.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "700e51ae327a7fba070dde52b8d9c7825b38a923afff838b75e879a2d4137e3c",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b2.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_7ms_b3.cir",
+      "storage": "workspace",
+      "bytes": 24373,
+      "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b3.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C4_4Vpp_D50_7ms_b3.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "66b7c048b760fd8c6a96b025c427ea05f1f00d47e2fd2ff687ae8e4720ae0ae7",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C4_4Vpp_D50_7ms_b3.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C6_4Vpp_D30_5ms_b1.cir",
+      "storage": "workspace",
+      "bytes": 24381,
+      "sha256": "5a4f801e4f0af706aad3ed9c42b7df2a16aaf91eed6bb609f8007ae76c6ea078",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b1.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C6_4Vpp_D30_5ms_b1.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "7dfe538b9c14018da463d1cef811be5efef367f768c691a02b9dedfe2ec2956f",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b1.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C6_4Vpp_D30_5ms_b2.cir",
+      "storage": "workspace",
+      "bytes": 24381,
+      "sha256": "5a4f801e4f0af706aad3ed9c42b7df2a16aaf91eed6bb609f8007ae76c6ea078",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b2.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C6_4Vpp_D30_5ms_b2.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "450d9c2c1916a821505b434575f1f89fee64689a79405e407f02c7692eae78d8",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b2.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C6_4Vpp_D30_5ms_b3.cir",
+      "storage": "workspace",
+      "bytes": 24381,
+      "sha256": "5a4f801e4f0af706aad3ed9c42b7df2a16aaf91eed6bb609f8007ae76c6ea078",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b3.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C6_4Vpp_D30_5ms_b3.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "5908c5f2d743e3fd0a535745dd97a6d2497f0d9565c2eae54fc6d754cd537c43",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C6_4Vpp_D30_5ms_b3.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C7_3Vpp_D50_5ms_b1.cir",
+      "storage": "workspace",
+      "bytes": 24382,
+      "sha256": "f93fa3ce2653a35a4192ee8ab7bd624fcd201346e983ac8f1053ea4329c28ffe",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b1.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C7_3Vpp_D50_5ms_b1.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "d20ecfeea80fb80a1f918792bf5946c92270244b5d5274e385bc8860b5919292",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b1.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C7_3Vpp_D50_5ms_b2.cir",
+      "storage": "workspace",
+      "bytes": 24382,
+      "sha256": "f93fa3ce2653a35a4192ee8ab7bd624fcd201346e983ac8f1053ea4329c28ffe",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b2.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C7_3Vpp_D50_5ms_b2.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "3680ab4287c24fb90acbebac1a44c4004c1a2e8eb43e969037a5aaae57d43c15",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b2.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C7_3Vpp_D50_5ms_b3.cir",
+      "storage": "workspace",
+      "bytes": 24382,
+      "sha256": "f93fa3ce2653a35a4192ee8ab7bd624fcd201346e983ac8f1053ea4329c28ffe",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b3.cir"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/s0306_archive_20261015/failed_attempt_inputs/C7_3Vpp_D50_5ms_b3.cmd",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "4e4e1f1a2c8807e608c0ea5da5a1a757ae8880420a7dd1567cc7e31e0d8f91f9",
+      "roles": [
+        "effective failed attempt input copied unchanged from D:/ms_xsp/stage3_acceptance/s0305_endpoints_20261014/C7_3Vpp_D50_5ms_b3.cmd"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold12ms_20261014/analyze_12ms.py",
+      "storage": "workspace",
+      "bytes": 9559,
+      "sha256": "b4465bde00b2d558fc817aea55487e11781d62b5a5c95836859a4f888bb4a1ab",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold12ms_20261014/cold12ms_analysis.json",
+      "storage": "workspace",
+      "bytes": 1649,
+      "sha256": "8071f705b22cd02540e1757c97c5e136bd9a4ad3a95949c00e35dc49c6647bb8",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold12ms_20261014/cold12ms_settling.json",
+      "storage": "workspace",
+      "bytes": 2143,
+      "sha256": "613be03fe5457f7b1b523fb763e27693754c6fcdd00211d971d98e52e349c470",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold12ms_20261014/cold12ms_verification.json",
+      "storage": "workspace",
+      "bytes": 957,
+      "sha256": "4716947d27a7310df778cfed51d1c1c3c410bfb1ee79a1c4a8f94eba58685166",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold12ms_20261014/plot_12ms.py",
+      "storage": "workspace",
+      "bytes": 2839,
+      "sha256": "8de8b6b03b1e46f469bba3bec743f4aa220a08f55171580f340a61a31947df2d",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold12ms_20261014/settling_12ms.py",
+      "storage": "workspace",
+      "bytes": 8951,
+      "sha256": "b0fd2c833f3b1e2d6c30129710d1475b41d9a400db0bfab884f5b8ebc8e574b5",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold12ms_20261014/verify_12ms.py",
+      "storage": "workspace",
+      "bytes": 5937,
+      "sha256": "6de088ce8079a6885bdac164299fed8cb3f42e77c0320dbe61a3c1f603fff57a",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold12ms_20261014/冷启动12ms定论报告.md",
+      "storage": "workspace",
+      "bytes": 13294,
+      "sha256": "70f5e7239c2941777ebea305226714ca098c6f86950a59a8efb4619972627a63",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/COLD_9ms_tail.cir",
+      "storage": "workspace",
+      "bytes": 24370,
+      "sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/COLD_9ms_tail.cmd",
+      "storage": "workspace",
+      "bytes": 291,
+      "sha256": "bc5cc514706c7d6fea59193e0e6b2ed84bd58821ce501adaeaf6bbf7b2839fdd",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/COLD_9ms_tail_status.json",
+      "storage": "workspace",
+      "bytes": 201450,
+      "sha256": "ee3375a97087e064f1cea5894be472551b5a21fc71c4d27a71f30d7d9f4991c5",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/analyze_9ms.py",
+      "storage": "workspace",
+      "bytes": 6872,
+      "sha256": "1529df264c399584e4c8223371ccf46a3647e4a19b256fdada94b7761cf850eb",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/asymptote_fit.json",
+      "storage": "workspace",
+      "bytes": 425,
+      "sha256": "b3ffc61714ba940d8dd8192f0e5989590d9108953b1c7f4807c254309d9dc6d7",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/asymptote_fit.py",
+      "storage": "workspace",
+      "bytes": 4675,
+      "sha256": "21c945bc573179a8678a613804d9dced5b3a5f2dd7bc43346c438a3b287f00ac",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/cold9ms_analysis.json",
+      "storage": "workspace",
+      "bytes": 865,
+      "sha256": "aa80eabfcb00f9def89f5bff2e1207e3b36aefdbd236bf84fec0a6fe7165b317",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/cold9ms_final.json",
+      "storage": "workspace",
+      "bytes": 1686,
+      "sha256": "098effc075b49f7b8ad3d0cc2f817ba5f2a2e6658e66ded32b06351838f46783",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/cold9ms_settling.json",
+      "storage": "workspace",
+      "bytes": 420,
+      "sha256": "a552e4828b8fce2382597dc7859eb60da8509ad9eb4f98c0a3b7f3515ff7c364",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/cold9ms_settling_corrected.json",
+      "storage": "workspace",
+      "bytes": 1626,
+      "sha256": "936af4517bae40f0e987e0ca1e3208f5475d1b82cf0d30d4ec5bd9b9e4ab985d",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/cold9ms_verification.json",
+      "storage": "workspace",
+      "bytes": 306,
+      "sha256": "033273bd90ae10b54e93ddcec98cceb8472feb406cecd4db3ca1737b524d99b1",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/final_report.py",
+      "storage": "workspace",
+      "bytes": 6797,
+      "sha256": "859dc1b05123294781d9cccbfca2b02823ddbd46f63da2aab9d58b7a5275bffb",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/prepare_run.py",
+      "storage": "workspace",
+      "bytes": 2303,
+      "sha256": "75bc0fc69c7acae099af35939257c94e518b14669d0a87cd7d98775719c4cd21",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/run_manifest.json",
+      "storage": "workspace",
+      "bytes": 1082,
+      "sha256": "d76e009654d6b9bae5e7e741143696bf6d756aa17e8303b496c618926ec5fca0",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/settling_analysis.py",
+      "storage": "workspace",
+      "bytes": 6599,
+      "sha256": "a3d6cd82b548b392381f3dde6f405fc7bf6e0d3cd5c200fcbeb6f7106034efc8",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/settling_corrected.py",
+      "storage": "workspace",
+      "bytes": 6865,
+      "sha256": "d7f2d369a28333cbd258108465a1954750fc56f2038c8d41c969af1df70115d3",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/tau_final.json",
+      "storage": "workspace",
+      "bytes": 773,
+      "sha256": "e91e775c6ada0e769f7b6de16c7fc52b079abc50f57e92be08fcff37669e7c9a",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/tau_final.py",
+      "storage": "workspace",
+      "bytes": 5336,
+      "sha256": "f21522ea2251ce391d146f0f17482d6de3c3968b1831d8c69f840c5e82873edd",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/tau_robustness.json",
+      "storage": "workspace",
+      "bytes": 1705,
+      "sha256": "b71b15fde2affcc037a62d2ed964b630b07208e99a56b37a2623e7ddb0fc5016",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/tau_robustness.py",
+      "storage": "workspace",
+      "bytes": 5376,
+      "sha256": "18911ba5799f8f90c72c39a1fbc63ba489123678672fdf62949e0260268d3021",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/verify_9ms.py",
+      "storage": "workspace",
+      "bytes": 5329,
+      "sha256": "6efa429cd8a3ca1f0688931f21fe7fa49c763fd800e284da259d6698380f7010",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold9ms_20261014/冷启动9ms稳定性报告.md",
+      "storage": "workspace",
+      "bytes": 7020,
+      "sha256": "e502b3bdec41e1fa43c2d552df446ccd0cd9f408db9a8a50663852421e88b3e0",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/cold_7ms_1ns.npz",
+      "storage": "workspace",
+      "bytes": 219524645,
+      "sha256": "1acbcd956749de19baa081a7245ee3002575628721406eac023e3c05d3b98665",
+      "roles": [
+        "S03-04 7 ms numerical archive/parser"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/engine/L_7ms_1ns.cir",
+      "storage": "workspace",
+      "bytes": 24370,
+      "sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "roles": [
+        "S03-04 7 ms input"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/engine/L_7ms_1ns.cmd",
+      "storage": "workspace",
+      "bytes": 253,
+      "sha256": "f7ffef6621f2631b6c906daa548e8806dc4d7e49e5591a43d7bda8e9360426e9",
+      "roles": [
+        "S03-04 7 ms input"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/COLD_12ms_clean.cir",
+      "storage": "workspace",
+      "bytes": 24370,
+      "sha256": "d6eff71de5cff4b2fad0cea94e7cc8c53ecf01829744b11c8fb1f2de9d1fcdcb",
+      "roles": [
+        "S03-04 12 ms successful attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/COLD_12ms_clean.cmd",
+      "storage": "workspace",
+      "bytes": 295,
+      "sha256": "888882acddf0d490df5680d7c31222f7199205d3682121313ce91a5c5d5f438a",
+      "roles": [
+        "S03-04 12 ms successful attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/COLD_12ms_clean.log",
+      "storage": "workspace",
+      "bytes": 1277,
+      "sha256": "dc1a6e014ccac8598fd1096249c5852174e2f3847c6399522d5aa7789b4b7e6e",
+      "roles": [
+        "S03-04 12 ms successful attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/COLD_12ms_clean_status.json",
+      "storage": "workspace",
+      "bytes": 201472,
+      "sha256": "cce3e0f2ae61f215a015baadaeea4c1dd0c8b7959c3b15b5f93adbe9d2ac43f7",
+      "roles": [
+        "S03-04 12 ms successful attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/LIN_2Vpp_tail.cir",
+      "storage": "workspace",
+      "bytes": 24382,
+      "sha256": "08b7acf2905c444a594e3c7c13a0e8dd6066e7087f2b07d3dd6e6b27acc2b050",
+      "roles": [
+        "C5 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/LIN_2Vpp_tail.cmd",
+      "storage": "workspace",
+      "bytes": 404,
+      "sha256": "d918efb6331e828da68eb46149a693a9cdd50e97854fa7fbdf782e9bfc64cdfa",
+      "roles": [
+        "C5 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/LIN_2Vpp_tail.log",
+      "storage": "workspace",
+      "bytes": 2563,
+      "sha256": "5459c912d339ec3c3eeb81912afca5ac701b21698449fc780babc4e70fbe6426",
+      "roles": [
+        "C5 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/LIN_2Vpp_tail_status.json",
+      "storage": "workspace",
+      "bytes": 201483,
+      "sha256": "ebf922f9d1d23a715355625cc0973f73454941b100e4777b4e3083cf2e244e0d",
+      "roles": [
+        "C5 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/REF_4Vpp_tail.cir",
+      "storage": "workspace",
+      "bytes": 24373,
+      "sha256": "a148498a9cb5248dd77a2d1e2b76487d8b2cb4788284ce19e8565db683c25a79",
+      "roles": [
+        "C4 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/REF_4Vpp_tail.cmd",
+      "storage": "workspace",
+      "bytes": 404,
+      "sha256": "dc60a865df619520ada915caaa2efa1150113075015d358eba851e5b72d5ed6a",
+      "roles": [
+        "C4 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/REF_4Vpp_tail.log",
+      "storage": "workspace",
+      "bytes": 2563,
+      "sha256": "ef214947760884b9264f1255b6da86a191867b09f37b024c44018dc213669baa",
+      "roles": [
+        "C4 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/final2_20261014/REF_4Vpp_tail_status.json",
+      "storage": "workspace",
+      "bytes": 201483,
+      "sha256": "e6629cf9f631480a092b8d0f88909723c151d123f5be762f7ebcc89ca1a66c92",
+      "roles": [
+        "C4 selected attempt"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/GUI冷启动20us成功报告.md",
+      "storage": "workspace",
+      "bytes": 8167,
+      "sha256": "8669b3870735054f3277432d24140b4381d063afc3c0b5e002ebb074213f5d67",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/S03_04_GUI与加权复核报告.md",
+      "storage": "workspace",
+      "bytes": 6711,
+      "sha256": "22aaf6263269c81b9dbb89d5b550caf5b706356570d3862131e84f285c3c611c",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/S03_GUI_COLD_20us.gra",
+      "storage": "workspace",
+      "bytes": 46889,
+      "sha256": "166aa4bc05a92fedc526683bd062e4f3f88b3e56111e54c104e834dfa77f3f04",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/S03_GUI_COLD_20us.ms14",
+      "storage": "workspace",
+      "bytes": 370330,
+      "sha256": "4af6ff437ea75f32e829ac9dedfe455e4e164a7d3d4360e372e6d123b450db48",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/S03_GUI_COLD_20us_actual.cir",
+      "storage": "workspace",
+      "bytes": 24357,
+      "sha256": "58c220168413955f64846bf66147eaa9a84a59384facb0bf1c1a2cc596fcaa98",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/S03_GUI_COLD_20us_input.ms14",
+      "storage": "workspace",
+      "bytes": 772402,
+      "sha256": "10b971880847cbfb2c9d0b3e5c780c7856ba200998aa53d8e4ca8d4e69a5ac73",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/S03_GUI_COLD_20us_reltol1e3.gra",
+      "storage": "workspace",
+      "bytes": 1356985,
+      "sha256": "a29abb4cb7ea22c358e86cf39a489097a1fb9b9b056fed0a51b39ba0a2d631e9",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/artifact_manifest.json",
+      "storage": "workspace",
+      "bytes": 3113,
+      "sha256": "e735b440faa31228d2f4a9dee62d8dcf15b6f15a9eee57ae53f1db09afef64b7",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/audit_evidence.py",
+      "storage": "workspace",
+      "bytes": 9365,
+      "sha256": "89df11171ea6365a9ca97af182d3bad9cec7663d5a4b30be3d4932772b10f24e",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/gui_20us_audit.json",
+      "storage": "workspace",
+      "bytes": 5423,
+      "sha256": "a2ee3eba767551253cc46acaee33d718137127993e3fca32c924e3dceff969b4",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/source_hash_verification.json",
+      "storage": "workspace",
+      "bytes": 6541,
+      "sha256": "193ac9e040837eecdd9eeee3bbe693afed5c2792ab4c06961c7e01065af41b2d",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/update_records.py",
+      "storage": "workspace",
+      "bytes": 16177,
+      "sha256": "c1db29af8e01e36c4a2637cd8f5a383dab00e4b5cd3f8b1ce28a8cfdf0ccf882",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/updated_records_manifest.json",
+      "storage": "workspace",
+      "bytes": 1518,
+      "sha256": "5724e266b47d2daeb44e93f4c5eab92d7b281229ff2de55f6835e974ef7b0c4e",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/gui_evidence_20261014/weighted_7ms_review.json",
+      "storage": "workspace",
+      "bytes": 13609,
+      "sha256": "4007766e9e4286047d71d4c3a5909145f3e8ffc8f8c7184c237350465be726ba",
+      "roles": [
+        "S03-04 inherited evidence"
+      ]
+    },
+    {
+      "path": "simulation/v4_hardware/stage3_acceptance/副本专用文件夹/mmraw.py",
+      "storage": "workspace",
+      "bytes": 1229,
+      "sha256": "2cfe09d7fb1ae60fd5a86dd400d3f6a72417ffccf05ebfbc6d00d0735fa801f3",
+      "roles": [
+        "S03-04 7 ms numerical archive/parser"
+      ]
+    },
+    {
+      "path": "性能指标要求_N31_M50.md",
+      "storage": "workspace",
+      "bytes": 17423,
+      "sha256": "ba4d900102f8c10bbafff1bf90063c476e3ffb0a7bcfcfb037ec33de64d5cbb2",
+      "roles": [
+        "baseline/source"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "电子线路实验评分标准-学生.docx",
+      "storage": "workspace",
+      "bytes": 73513,
+      "sha256": "657a5112b09cb5b01adab3f22449501df8864369cf884b61983dd7d320f94f23",
+      "roles": [
+        "baseline/source"
+      ],
+      "historical_sha256_match": true
+    },
+    {
+      "path": "设计.docx",
+      "storage": "workspace",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "baseline/source"
+      ],
+      "historical_sha256_match": true
+    }
+  ]
+}

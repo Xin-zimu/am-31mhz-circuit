@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "indexed_files": 229,
+  "frozen_cases_checked": 7,
+  "effective_failed_attempts_checked": 20,
+  "new_simulations": 0,
+  "verification_scope": "Hashes/provenance/metric consistency only; no solver replay or new acceptance evidence"
+}
