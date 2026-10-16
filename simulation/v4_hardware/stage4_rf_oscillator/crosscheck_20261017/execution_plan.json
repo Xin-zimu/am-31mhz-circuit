@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-17",
+  "scope": "C518062 parameter closure, unchanged independent oscillator repeatability and numerical cross-check",
+  "no_component_tuning": true,
+  "crystal_parameters_confirmed": false,
+  "supplier_contact": "User explicitly chose draft only, do not send (2026-10-17)",
+  "multisim_baseline_budget": 1,
+  "ngspice_sequence": [
+    "same DUT, 1 ms, 0.25 ns, compare with archived successful Multisim record",
+    "same DUT, 2 ms, 0.25 ns, check last 100 us steady screen",
+    "halve timestep adaptively until adjacent steady results differ <10 ppm in frequency and <1% in amplitude / crystal power",
+    "extend observation time at the selected timestep to reject a temporary plateau"
+  ],
+  "numerical_comparison_limits": {
+    "frequency_relative_difference_ppm": 10,
+    "output_vpp_relative_difference": 0.01,
+    "crystal_power_relative_difference": 0.01,
+    "meaning": "exploratory numerical screen only; not a manufacturer specification or guaranteed absolute error bound"
+  },
+  "supplied_parameter_gate": "Only replace assumed motional values after obtaining part-specific confirmation or measurements. Public-source search did not close the gate."
+}

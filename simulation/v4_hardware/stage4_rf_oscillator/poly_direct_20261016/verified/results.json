@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-16",
+  "solver": "Multisim 14.3 XSPICE command interface; independent fixture, not GUI/full system",
+  "formula": "TP3 = 0.6*Vc + 0.1*Vc*Vm = Vc*(0.6+0.1*Vm)",
+  "truth_table": [
+    {
+      "vc": 0,
+      "vm": 0,
+      "v3": 0,
+      "measured_v": 0.0,
+      "expected_v": 0.0,
+      "error_v": 0.0,
+      "old_formula_v": 0.0
+    },
+    {
+      "vc": 1,
+      "vm": 0,
+      "v3": 0,
+      "measured_v": 0.6,
+      "expected_v": 0.6,
+      "error_v": 0.0,
+      "old_formula_v": 0.0
+    },
+    {
+      "vc": 0,
+      "vm": 1,
+      "v3": 0,
+      "measured_v": 0.0,
+      "expected_v": 0.0,
+      "error_v": 0.0,
+      "old_formula_v": 0.6
+    },
+    {
+      "vc": 0,
+      "vm": 0,
+      "v3": 1,
+      "measured_v": 0.0,
+      "expected_v": 0.0,
+      "error_v": 0.0,
+      "old_formula_v": 0.0
+    },
+    {
+      "vc": 1,
+      "vm": 1,
+      "v3": 0,
+      "measured_v": 0.7,
+      "expected_v": 0.7,
+      "error_v": 0.0,
+      "old_formula_v": 0.7
+    },
+    {
+      "vc": 1,
+      "vm": 4,
+      "v3": 0,
+      "measured_v": 1.0,
+      "expected_v": 1.0,
+      "error_v": 0.0,
+      "old_formula_v": 2.8
+    },
+    {
+      "vc": 0.5,
+      "vm": 4,
+      "v3": 0,
+      "measured_v": 0.5,
+      "expected_v": 0.5,
+      "error_v": 0.0,
+      "old_formula_v": 2.6
+    },
+    {
+      "vc": -1,
+      "vm": 4,
+      "v3": 0,
+      "measured_v": -1.0,
+      "expected_v": -1.0,
+      "error_v": 0.0,
+      "old_formula_v": 2.0
+    },
+    {
+      "vc": 1,
+      "vm": -4,
+      "v3": 0,
+      "measured_v": 0.2,
+      "expected_v": 0.19999999999999996,
+      "error_v": 5.551115123125783e-17,
+      "old_formula_v": -2.8
+    },
+    {
+      "vc": 1,
+      "vm": 4,
+      "v3": 7,
+      "measured_v": 1.0,
+      "expected_v": 1.0,
+      "error_v": 0.0,
+      "old_formula_v": 2.8
+    },
+    {
+      "vc": 1,
+      "vm": 4,
+      "v3": -7,
+      "measured_v": 1.0,
+      "expected_v": 1.0,
+      "error_v": 0.0,
+      "old_formula_v": 2.8
+    },
+    {
+      "vc": 2,
+      "vm": 3,
+      "v3": 5,
+      "measured_v": 1.8,
+      "expected_v": 1.8,
+      "error_v": 0.0,
+      "old_formula_v": 2.4
+    }
+  ],
+  "isolated_p2_v": 1.2,
+  "isolated_p6_v": 0.6000000000000001,
+  "original_floating_third_input_v": 1.8,
+  "rf": {
+    "points": 100008,
+    "end_s": 5e-05,
+    "max_formula_error_v": 1.2233364377750577e-06,
+    "max_half_carrier_error_v": 5.551115123125783e-17,
+    "spectral_peak_v": {
+      "20000.0": 3.66048661833271e-10,
+      "30980000.0": 0.09990393747399287,
+      "31000000.0": 0.7992353935563299,
+      "31020000.0": 0.09990491090712385
+    }
+  },
+  "baseline_unchanged": true,
+  "sha256": {
+    "rf_refined.cir": "d7a4a6addc5066d9fb1e547a375643e00a4a6cdeea478dc8be52845bf7f11ba8",
+    "rf_refined.cmd": "539520fb0eb737c875b950bd8fa738dcc6c6352c8c916f0d0a57a2725de29334",
+    "rf_refined.log": "a3dd093c030e7a26214b8429341785962284f0a047d492c299f33607275f9e09",
+    "rf_refined.raw": "b97387eef210bcadd30b78287dde9fffd0797f2635a7e024e54e00b6aa3c84a7",
+    "rf_transfer.cir": "d7a4a6addc5066d9fb1e547a375643e00a4a6cdeea478dc8be52845bf7f11ba8",
+    "rf_transfer.cmd": "6caaffc923bb465399a81e3c8dbc32a607639df336cb3756d3bfbb2b46723f0b",
+    "rf_transfer.log": "9f76652a9693d21f8f68006d7a49fb3a682e48ad7b2947800e984845cd8d2279",
+    "rf_transfer.raw": "bf2e08701e3366e084cb0ccdea51994f7143ecc91d39ff2900ef844c83c9c4a5",
+    "truth_table.cir": "384b9372f40a074dd7bae9037a4178d5e85c990b0751d8aa0a49b8b59c77071e",
+    "truth_table.cmd": "263123c0636b06d47f850b3baf62890e4b3eaec472782cfa8601caaa44fbe1ae",
+    "truth_table.log": "3904f34b3f7683d1aff903483298109b00e5f27c49dee6ca71082f3dce326e96",
+    "truth_table.raw": "507984f1c073f568baa3a6139bc5c589cd045d7d2fb546925d8fb2eb0a7f00e5"
+  },
+  "rf_refined": {
+    "points": 200008,
+    "end_s": 5e-05,
+    "max_formula_error_v": 3.0591220418624276e-07,
+    "spectral_peak_v": {
+      "20000.0": 2.52707691053102e-11,
+      "30980000.0": 0.09997597839669983,
+      "31000000.0": 0.7998088036071817,
+      "31020000.0": 0.09997622243777278
+    }
+  },
+  "acceptance": {
+    "dc_abs_tolerance_v": 1e-08,
+    "transient_abs_tolerance_v": 5e-06,
+    "spectral_relative_tolerance": 0.002,
+    "requires_refinement_improvement": true
+  },
+  "passed": true
+}

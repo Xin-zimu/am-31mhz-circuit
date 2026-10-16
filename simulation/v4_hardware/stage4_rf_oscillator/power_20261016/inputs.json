@@ -1,0 +1,14 @@
+{
+  "baseline_sha256": "d9aba8eff74e679f709bc6a680bf569e6dab87a00303b6ff138f19d4964ccaaf",
+  "regulator": "ST L7805CV",
+  "regulator_iq_budget_a": 0.008,
+  "regulator_iq_basis": "ST L78 Rev38 Table10: 8mA max at TJ=25C; not a full-temperature bound",
+  "unknown_stages": [
+    "31MHz oscillator",
+    "buffer/calibration",
+    "real AM modulator",
+    "PA/matching",
+    "battery-direct TX loads"
+  ],
+  "note": "All unknown stages remain null. No complete-TX pass is inferred."
+}

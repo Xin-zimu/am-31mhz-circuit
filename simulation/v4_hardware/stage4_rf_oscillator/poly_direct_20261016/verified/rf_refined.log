@@ -1,0 +1,27 @@
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:12:40)
+_uc3547d4ee4ff1a>source D:/ms_xsp/s04_poly_20261016/verified/rf_refined.cir
+_uc7676581ea547d4ee476848f9351fa
+source D:/ms_xsp/s04_poly_20261016/verified/rf_refined.cir
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:12:40)
+_uc3547d4ee4ff1a>begin-scope page Transient Analysis
+_uc7676581ea547d4ee476848f9351fa
+begin-scope page Transient Analysis
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:12:40)
+_uc3547d4ee4ff1a>save $c $ch $m $y $yh
+_uc7676581ea547d4ee476848f9351fa
+save $c $ch $m $y $yh
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:12:40)
+_uc3547d4ee4ff1a>iplot $c $ch $m $y $yh
+_uc7676581ea547d4ee476848f9351fa
+iplot $c $ch $m $y $yh
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:12:40)
+_uc3547d4ee4ff1a>tran .25n 50u 0 .25n
+_uc7676581ea547d4ee476848f9351fa
+tran .25n 50u 0 .25n
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:12:42)
+_uc3547d4ee4ff1a>write-and-destroy-iplot "D:/ms_xsp/s04_poly_20261016/verified/rf_refined.raw"
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:12:42)
+_uc3547d4ee4ff1a>end-scope
+_uc7676581ea547d4ee476848f9351fa
+end-scope

@@ -1,0 +1,11 @@
+{
+  "solver": "ngspice-47",
+  "exit_code": 0,
+  "seconds": 164.98400000000038,
+  "state": 0,
+  "last_error": "",
+  "log_errors": [],
+  "output_exists": true,
+  "sampled_peak_working_set_bytes": 473014272,
+  "sampled_peak_commit_bytes": 3390099456
+}

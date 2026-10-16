@@ -1,0 +1,209 @@
+{
+  "name": "lowdrive_500us_tail",
+  "c518062_qualified": false,
+  "points": 400001,
+  "end_s": 0.0005,
+  "tail_window_s": [
+    0.0004800000532300813,
+    0.0005
+  ],
+  "output_dc_v": 1.8015832665481406,
+  "output_vpp": 0.1936415595581431,
+  "output_ac_rms_v": 0.06059110502795596,
+  "frequency_hz": 30995633.34571356,
+  "frequency_error_ppm": -140.85981569167404,
+  "motional_current_rms_a": 0.00026080329471059993,
+  "crystal_motional_power_w": 2.0405507559571216e-06,
+  "mean_supply_current_a": 0.0006308654771485766,
+  "mean_5v_rail_power_w": 0.003154327385742882,
+  "crystal_terminal_vpp": 0.26487595556334087,
+  "interpretation": "Exploratory single-mode model; not crystal or system acceptance",
+  "envelope_5us": [
+    {
+      "start_us": 405.00000000000006,
+      "emit_vpp": 0.03195227509218013,
+      "motional_peak_a": 5.88995486970334e-05
+    },
+    {
+      "start_us": 410.00000000000006,
+      "emit_vpp": 0.036103967535983106,
+      "motional_peak_a": 6.665382351067617e-05
+    },
+    {
+      "start_us": 415.00000000000006,
+      "emit_vpp": 0.04076288519592697,
+      "motional_peak_a": 7.54012183066255e-05
+    },
+    {
+      "start_us": 420.00000000000006,
+      "emit_vpp": 0.045984676487079046,
+      "motional_peak_a": 8.525721858687607e-05
+    },
+    {
+      "start_us": 425.00000000000006,
+      "emit_vpp": 0.05181481640465302,
+      "motional_peak_a": 9.634580236000945e-05
+    },
+    {
+      "start_us": 430.0000000000001,
+      "emit_vpp": 0.058294876392001926,
+      "motional_peak_a": 0.0001087979462151556
+    },
+    {
+      "start_us": 435.0000000000001,
+      "emit_vpp": 0.06546152991297705,
+      "motional_peak_a": 0.0001227490974698431
+    },
+    {
+      "start_us": 440.0000000000001,
+      "emit_vpp": 0.07333966623656107,
+      "motional_peak_a": 0.0001383353322882419
+    },
+    {
+      "start_us": 445.0000000000001,
+      "emit_vpp": 0.08194594702005586,
+      "motional_peak_a": 0.0001556879487037977
+    },
+    {
+      "start_us": 450.00000000000017,
+      "emit_vpp": 0.09127681057859616,
+      "motional_peak_a": 0.0001749263505930188
+    },
+    {
+      "start_us": 455.00000000000017,
+      "emit_vpp": 0.10127963788221694,
+      "motional_peak_a": 0.0001961492947271659
+    },
+    {
+      "start_us": 460.00000000000017,
+      "emit_vpp": 0.111885870007977,
+      "motional_peak_a": 0.0002194249103845136
+    },
+    {
+      "start_us": 465.00000000000017,
+      "emit_vpp": 0.12300544768199506,
+      "motional_peak_a": 0.0002447803278435856
+    },
+    {
+      "start_us": 470.0000000000002,
+      "emit_vpp": 0.134517575458021,
+      "motional_peak_a": 0.0002721921698230489
+    },
+    {
+      "start_us": 475.0000000000002,
+      "emit_vpp": 0.14631596751061782,
+      "motional_peak_a": 0.0003015794068289557
+    },
+    {
+      "start_us": 480.0000000000002,
+      "emit_vpp": 0.15823536776381686,
+      "motional_peak_a": 0.0003327639707411678
+    },
+    {
+      "start_us": 485.0000000000002,
+      "emit_vpp": 0.17015292351215106,
+      "motional_peak_a": 0.000365726768417507
+    },
+    {
+      "start_us": 490.0000000000002,
+      "emit_vpp": 0.18197299821553492,
+      "motional_peak_a": 0.0004001083732581567
+    },
+    {
+      "start_us": 495.0000000000002,
+      "emit_vpp": 0.1936415595581431,
+      "motional_peak_a": 0.0004358161444283914
+    }
+  ],
+  "last_four_envelopes_relative_span": 0.20117073015895945,
+  "tail_10us_windows": [
+    {
+      "start_us": 400.0,
+      "vpp": 0.03195227509218013,
+      "dc_v": 1.7884490253408398,
+      "frequency_hz": 30995570.88250819,
+      "crystal_w": 4.104675442819395e-08
+    },
+    {
+      "start_us": 410.00000000000006,
+      "vpp": 0.04076288519592697,
+      "dc_v": 1.7886431048937168,
+      "frequency_hz": 30995594.219831448,
+      "crystal_w": 6.734861730824395e-08
+    },
+    {
+      "start_us": 420.00000000000006,
+      "vpp": 0.05181481640465302,
+      "dc_v": 1.7889582095459724,
+      "frequency_hz": 30995620.983568978,
+      "crystal_w": 1.10173730450557e-07
+    },
+    {
+      "start_us": 430.0000000000001,
+      "vpp": 0.06546152991297705,
+      "dc_v": 1.7894642786569983,
+      "frequency_hz": 30995649.851854205,
+      "crystal_w": 1.7936573903421412e-07
+    },
+    {
+      "start_us": 440.0000000000001,
+      "vpp": 0.08194594702005586,
+      "dc_v": 1.790263516049361,
+      "frequency_hz": 30995677.87882897,
+      "crystal_w": 2.898259760902723e-07
+    },
+    {
+      "start_us": 450.00000000000017,
+      "vpp": 0.10127963788221694,
+      "dc_v": 1.7914945598766299,
+      "frequency_hz": 30995699.740421396,
+      "crystal_w": 4.6301913971530167e-07
+    },
+    {
+      "start_us": 460.00000000000017,
+      "vpp": 0.12300544768199506,
+      "dc_v": 1.793324538605204,
+      "frequency_hz": 30995707.495082516,
+      "crystal_w": 7.27637777148575e-07
+    },
+    {
+      "start_us": 470.0000000000002,
+      "vpp": 0.14631596751061782,
+      "dc_v": 1.795919826572403,
+      "frequency_hz": 30995692.9623002,
+      "crystal_w": 1.1180794203654539e-06
+    },
+    {
+      "start_us": 480.0000000000002,
+      "vpp": 0.17015292351215106,
+      "dc_v": 1.799396570333409,
+      "frequency_hz": 30995656.3973007,
+      "crystal_w": 1.6696662082855616e-06
+    },
+    {
+      "start_us": 490.0000000000002,
+      "vpp": 0.1936415595581431,
+      "dc_v": 1.8037716328764477,
+      "frequency_hz": 30995590.00125254,
+      "crystal_w": 2.411382693046006e-06
+    }
+  ],
+  "steady_window_screen": {
+    "scope": "Exploratory model only, not C518062 acceptance",
+    "criteria": "last 100 us: Vpp span <1%, fitted drift <1%, f span <10 ppm, DC span <10 mV, crystal P span <2%",
+    "passed": false,
+    "reason": "evaluated ten consecutive 10 us windows",
+    "vpp_relative_span": 1.6067175190467535,
+    "fitted_vpp_relative_drift_100us": 1.8220398452109692,
+    "frequency_span_ppm": 4.407476267658068,
+    "dc_span_v": 0.01532260753560788,
+    "crystal_power_relative_span": 3.3490929199268122
+  },
+  "sha256": {
+    "cir": "2b7018e67478fa4f464da489a318831aa96695b0b3ac046a8864e8bd8993e8fe",
+    "cmd": "174afde2be6196648c08d68409943a3c38442571cd00a233119c9e1a31d34f3c",
+    "raw": "eec3270284772a08ac3b5aa311b96252e72fff87a280c944a1979422a2fac24f",
+    "log": "4c3c5c114fcc7593703fb5af278c80f8768cecb750dac2f4173474301e8a0db4",
+    "input.json": "2b7db84250eb45ba391acdcc95fcd35858f2c1ba064b843a9fb5ed36f7f8dfd6"
+  }
+}

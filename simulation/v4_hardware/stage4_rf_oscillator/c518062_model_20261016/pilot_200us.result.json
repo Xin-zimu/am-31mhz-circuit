@@ -1,0 +1,231 @@
+{
+  "name": "pilot_200us",
+  "c518062_qualified": false,
+  "points": 400042,
+  "end_s": 0.0002,
+  "tail_window_s": [
+    0.0001800001958473996,
+    0.0002
+  ],
+  "output_dc_v": 1.6680625893639882,
+  "output_vpp": 0.04873329853818209,
+  "output_ac_rms_v": 0.011793707415982223,
+  "frequency_hz": 30989007.789107054,
+  "frequency_error_ppm": -354.5874481595268,
+  "motional_current_rms_a": 1.64549204464062e-05,
+  "crystal_motional_power_w": 8.122932206926702e-09,
+  "mean_supply_current_a": 0.001907540658791035,
+  "mean_5v_rail_power_w": 0.009537703293955176,
+  "crystal_terminal_vpp": 0.05032041257585673,
+  "interpretation": "Exploratory single-mode model; not crystal or system acceptance",
+  "envelope_5us": [
+    {
+      "start_us": 0.0,
+      "emit_vpp": 1.668046759878119,
+      "motional_peak_a": 7.779846199901241e-08
+    },
+    {
+      "start_us": 5.0,
+      "emit_vpp": 1.0484495788887216e-05,
+      "motional_peak_a": 7.317264016926117e-09
+    },
+    {
+      "start_us": 10.0,
+      "emit_vpp": 1.309640265390044e-05,
+      "motional_peak_a": 9.136388173791588e-09
+    },
+    {
+      "start_us": 15.000000000000002,
+      "emit_vpp": 1.635842184488645e-05,
+      "motional_peak_a": 1.141169181373414e-08
+    },
+    {
+      "start_us": 20.0,
+      "emit_vpp": 2.042285541303812e-05,
+      "motional_peak_a": 1.42548641224316e-08
+    },
+    {
+      "start_us": 25.0,
+      "emit_vpp": 2.5520729278083465e-05,
+      "motional_peak_a": 1.779306874061248e-08
+    },
+    {
+      "start_us": 30.000000000000004,
+      "emit_vpp": 3.185782166803541e-05,
+      "motional_peak_a": 2.221020012349584e-08
+    },
+    {
+      "start_us": 35.00000000000001,
+      "emit_vpp": 3.9810954419960964e-05,
+      "motional_peak_a": 2.775109556041322e-08
+    },
+    {
+      "start_us": 40.0,
+      "emit_vpp": 4.9667369107053716e-05,
+      "motional_peak_a": 3.465524631152128e-08
+    },
+    {
+      "start_us": 45.0,
+      "emit_vpp": 6.204740308901613e-05,
+      "motional_peak_a": 4.32780057901816e-08
+    },
+    {
+      "start_us": 50.0,
+      "emit_vpp": 7.745683523507907e-05,
+      "motional_peak_a": 5.406837613741722e-08
+    },
+    {
+      "start_us": 55.0,
+      "emit_vpp": 9.679684052210646e-05,
+      "motional_peak_a": 6.748576264481443e-08
+    },
+    {
+      "start_us": 60.00000000000001,
+      "emit_vpp": 0.00012083034198795417,
+      "motional_peak_a": 8.434813791868834e-08
+    },
+    {
+      "start_us": 65.00000000000001,
+      "emit_vpp": 0.00015099293880993514,
+      "motional_peak_a": 1.052462840211987e-07
+    },
+    {
+      "start_us": 70.00000000000001,
+      "emit_vpp": 0.0001884733589769816,
+      "motional_peak_a": 1.314494180726378e-07
+    },
+    {
+      "start_us": 75.0,
+      "emit_vpp": 0.00023551035069191428,
+      "motional_peak_a": 1.641268675411922e-07
+    },
+    {
+      "start_us": 80.0,
+      "emit_vpp": 0.000294030759715902,
+      "motional_peak_a": 2.05077876513915e-07
+    },
+    {
+      "start_us": 85.0,
+      "emit_vpp": 0.0003671328724370593,
+      "motional_peak_a": 2.559338428964608e-07
+    },
+    {
+      "start_us": 90.0,
+      "emit_vpp": 0.0004582845234168964,
+      "motional_peak_a": 3.199166160039457e-07
+    },
+    {
+      "start_us": 95.0,
+      "emit_vpp": 0.0005726693868748356,
+      "motional_peak_a": 3.991458465413267e-07
+    },
+    {
+      "start_us": 100.0,
+      "emit_vpp": 0.0007148200337800947,
+      "motional_peak_a": 4.99013884408539e-07
+    },
+    {
+      "start_us": 105.0,
+      "emit_vpp": 0.0008931866475219152,
+      "motional_peak_a": 6.228661764695609e-07
+    },
+    {
+      "start_us": 110.0,
+      "emit_vpp": 0.0011152889487409112,
+      "motional_peak_a": 7.782986959359306e-07
+    },
+    {
+      "start_us": 115.0,
+      "emit_vpp": 0.0013929573623900904,
+      "motional_peak_a": 9.706418772625902e-07
+    },
+    {
+      "start_us": 120.00000000000001,
+      "emit_vpp": 0.001740082672177179,
+      "motional_peak_a": 1.213369811181586e-06
+    },
+    {
+      "start_us": 125.0,
+      "emit_vpp": 0.0021723218624749574,
+      "motional_peak_a": 1.514087800219555e-06
+    },
+    {
+      "start_us": 130.00000000000003,
+      "emit_vpp": 0.0027112856986639677,
+      "motional_peak_a": 1.892582096763018e-06
+    },
+    {
+      "start_us": 135.0,
+      "emit_vpp": 0.003387499163305163,
+      "motional_peak_a": 2.362652712334379e-06
+    },
+    {
+      "start_us": 140.00000000000003,
+      "emit_vpp": 0.00423047191492909,
+      "motional_peak_a": 2.951712051585398e-06
+    },
+    {
+      "start_us": 145.0,
+      "emit_vpp": 0.005282784622830938,
+      "motional_peak_a": 3.686433602961836e-06
+    },
+    {
+      "start_us": 150.0,
+      "emit_vpp": 0.006600236333512033,
+      "motional_peak_a": 4.603103778949569e-06
+    },
+    {
+      "start_us": 155.0,
+      "emit_vpp": 0.00823811586255796,
+      "motional_peak_a": 5.751359200834028e-06
+    },
+    {
+      "start_us": 160.0,
+      "emit_vpp": 0.010296382727247089,
+      "motional_peak_a": 7.177801724073118e-06
+    },
+    {
+      "start_us": 165.00000000000003,
+      "emit_vpp": 0.012849699491562117,
+      "motional_peak_a": 8.961908059962331e-06
+    },
+    {
+      "start_us": 170.0,
+      "emit_vpp": 0.016060422578699995,
+      "motional_peak_a": 1.11942363687223e-05
+    },
+    {
+      "start_us": 175.00000000000003,
+      "emit_vpp": 0.020033874220894976,
+      "motional_peak_a": 1.398271490876679e-05
+    },
+    {
+      "start_us": 180.0,
+      "emit_vpp": 0.02502507051909797,
+      "motional_peak_a": 1.74562578627302e-05
+    },
+    {
+      "start_us": 185.00000000000003,
+      "emit_vpp": 0.031251320855409936,
+      "motional_peak_a": 2.1814074999571e-05
+    },
+    {
+      "start_us": 190.0,
+      "emit_vpp": 0.039022252903132104,
+      "motional_peak_a": 2.722094149423815e-05
+    },
+    {
+      "start_us": 195.00000000000003,
+      "emit_vpp": 0.04873329853818209,
+      "motional_peak_a": 3.402744881680908e-05
+    }
+  ],
+  "last_four_envelopes_relative_span": 0.6584158362537824,
+  "sha256": {
+    "cir": "f30e9956a058fd74d31527403d4a43e0c28878c1ad99d8612f410c68c9424446",
+    "cmd": "f4699cfb7e41f48c7027fc9e474ad713fc3babc862d50301e3b53b9013d0c726",
+    "raw": "9b811f12cf60977d7a8eb91993a95c4d58f0f63b8848bdf8d4a331d6294e6ddc",
+    "log": "78647e792e84c116f7e12c6c0daff2bafbaa0cc2404bb7106ab695d86c894da0",
+    "input.json": "7b24265a05b9d266b522bdf4277ba88f96dddb12eb61031509dc6e26de3facb8"
+  }
+}

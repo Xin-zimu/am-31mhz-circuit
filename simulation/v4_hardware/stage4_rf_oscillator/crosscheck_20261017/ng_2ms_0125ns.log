@@ -1,0 +1,15 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * exploratory 5 v colpitts; c518062 motional parameters not verified
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+
+No. of Data Rows : 800001
+binary raw file "D:/ms_xsp/s04_crosscheck_20261017/ng_2ms_0125ns.raw"
+ngspice-47 done

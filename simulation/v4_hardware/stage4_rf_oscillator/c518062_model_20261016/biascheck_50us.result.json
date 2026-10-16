@@ -1,0 +1,81 @@
+{
+  "name": "biascheck_50us",
+  "c518062_qualified": false,
+  "points": 25049,
+  "end_s": 5e-05,
+  "tail_window_s": [
+    3.00001689384097e-05,
+    5e-05
+  ],
+  "output_dc_v": 1.668042561877606,
+  "output_vpp": 2.7448043837807745e-11,
+  "output_ac_rms_v": 3.665980135415958e-12,
+  "frequency_hz": null,
+  "frequency_error_ppm": null,
+  "motional_current_rms_a": 0.0,
+  "crystal_motional_power_w": 0.0,
+  "mean_supply_current_a": 0.0019075370810738344,
+  "mean_5v_rail_power_w": 0.009537685405369173,
+  "crystal_terminal_vpp": 3.304512219415301e-11,
+  "interpretation": "Exploratory single-mode model; not crystal or system acceptance",
+  "envelope_5us": [
+    {
+      "start_us": 0.0,
+      "emit_vpp": 1.668042567253094,
+      "motional_peak_a": 0.0
+    },
+    {
+      "start_us": 5.0,
+      "emit_vpp": 2.618892880335011e-09,
+      "motional_peak_a": 0.0
+    },
+    {
+      "start_us": 10.0,
+      "emit_vpp": 8.71974936700326e-10,
+      "motional_peak_a": 0.0
+    },
+    {
+      "start_us": 15.000000000000002,
+      "emit_vpp": 4.4103698471076314e-10,
+      "motional_peak_a": 0.0
+    },
+    {
+      "start_us": 20.0,
+      "emit_vpp": 1.7847812117111062e-10,
+      "motional_peak_a": 0.0
+    },
+    {
+      "start_us": 25.0,
+      "emit_vpp": 5.895306465220074e-11,
+      "motional_peak_a": 0.0
+    },
+    {
+      "start_us": 30.000000000000004,
+      "emit_vpp": 2.7448043837807745e-11,
+      "motional_peak_a": 0.0
+    },
+    {
+      "start_us": 35.00000000000001,
+      "emit_vpp": 1.3405943022348765e-11,
+      "motional_peak_a": 0.0
+    },
+    {
+      "start_us": 40.0,
+      "emit_vpp": 3.733013897999626e-12,
+      "motional_peak_a": 0.0
+    },
+    {
+      "start_us": 45.0,
+      "emit_vpp": 2.170041923932331e-12,
+      "motional_peak_a": 0.0
+    }
+  ],
+  "last_four_envelopes_relative_span": null,
+  "sha256": {
+    "cir": "5f3360236b1a48ae9bbf15d662612a70e0795cf4cba6b364f817ed1205cad685",
+    "cmd": "7fc795161a8e78125423fe1e19d29e40da4e3598beeb5d3f099dce82d6354141",
+    "raw": "b6b841e6e7755fbe9f4bac7c0c8f004e4064adc26a63312e3d9c86da3fea3a87",
+    "log": "654b3a564d6caa3f5bc4f92db28863a09b4f66626c640b43141979a4959185b7",
+    "input.json": "6f1d961a39626c9143362aa12abd033565cb79a573848e58e34e27135755941c"
+  }
+}

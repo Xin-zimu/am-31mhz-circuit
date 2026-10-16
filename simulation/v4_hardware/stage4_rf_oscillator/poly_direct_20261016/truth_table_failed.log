@@ -1,0 +1,39 @@
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:06:46)
+_uc3547d4ee4ff1a>source D:/ms_xsp/s04_poly_20261016/truth_table.cir
+_uc7676581ea547d4ee476848f9351fa
+source D:/ms_xsp/s04_poly_20261016/truth_table.cir
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:06:46)
+_uc3547d4ee4ff1a>begin-scope page Transient Analysis
+_uc7676581ea547d4ee476848f9351fa
+begin-scope page Transient Analysis
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:06:46)
+_uc3547d4ee4ff1a>save $y0 $y1 $y2 $y3 $y4 $y5 $y6 $y7 $y8 $y9 $y10 $y11 $p2 $p6 $yf
+_uc7676581ea547d4ee476848f9351fa
+save $y0 $y1 $y2 $y3 $y4 $y5 $y6 $y7 $y8 $y9 $y10 $y11 $p2 $p6 $yf
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:06:46)
+_uc3547d4ee4ff1a>iplot $y0 $y1 $y2 $y3 $y4 $y5 $y6 $y7 $y8 $y9 $y10 $y11 $p2 $p6 $yf
+_uc7676581ea547d4ee476848f9351fa
+iplot $y0 $y1 $y2 $y3 $y4 $y5 $y6 $y7 $y8 $y9 $y10 $y11 $p2 $p6 $yf
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:06:46)
+_uc3547d4ee4ff1a>tran 1n 20n 0 1n
+_uc7676581ea547d4ee476848f9351fa
+tran 1n 20n 0 1n
+Warning: Singular matrix. Check node direct. Ensure it is not floating with respect to net 0 (ground)
+Warning: Singular matrix. Check node direct. Ensure it is not floating with respect to net 0 (ground)
+Warning: Singular matrix. Check node truth. Ensure it is not floating with respect to net 0 (ground)
+Warning: Singular matrix. Check node truth. Ensure it is not floating with respect to net 0 (ground)
+Warning: Singular matrix. Check node truth. Ensure it is not floating with respect to net 0 (ground)
+Warning: Singular matrix. Check node truth. Ensure it is not floating with respect to net 0 (ground)
+Info: Unknown message, end of file
+Info: Unknown message, end of file
+Error: Matrix is singular
+Error: Matrix is singular
+Simulation canceled
+Simulation canceled
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:06:46)
+_uc3547d4ee4ff1a>write-and-destroy-iplot "D:/ms_xsp/s04_poly_20261016/truth_table.raw"
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670816_uc165e5, 17:06:46)
+_uc3547d4ee4ff1a>end-scope
+_uc7676581ea547d4ee476848f9351fa
+end-scope

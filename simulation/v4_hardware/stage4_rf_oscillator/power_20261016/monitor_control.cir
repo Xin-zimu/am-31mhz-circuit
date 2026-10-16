@@ -1,0 +1,5 @@
+* Current monitor polarity and scale control
+VV5 V5 0 5
+RTEST V5 0 1k
+HMON IMON 0 VV5 -1
+.end

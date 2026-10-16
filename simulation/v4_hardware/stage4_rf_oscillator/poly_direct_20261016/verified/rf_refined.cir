@@ -1,0 +1,16 @@
+* S04 POLY 31 MHz transient; original model unchanged
+.SUBCKT POLYSourceEAM_-EAM 1 2 3 4 5 6 7 8
+E1 7 8 POLY(3) (1,2) (3,4) (5,6) 0 0.6 0 0 0 0.1 0 0 0 0  0 0 0 0 0
+R0 1 2 1e15
+R1 3 4 1e15
+R2 5 6 1e15
+R3 5 0 1e15
+R4 3 0 1e15
+R5 1 0 1e15
+.ENDS
+VC c 0 sin(0 1 31meg)
+VCH ch 0 sin(0 .5 31meg)
+VM m 0 sin(2 2 20k)
+Xfull c 0 m 0 f5 f6 y 0 POLYSourceEAM_-EAM
+Xhalf ch 0 m 0 h5 h6 yh 0 POLYSourceEAM_-EAM
+.end

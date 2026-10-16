@@ -1,0 +1,12 @@
+{
+  "name": "ngspice-47 64-bit console",
+  "source": "https://sourceforge.net/projects/ngspice/files/ng-spice-rework/47/",
+  "archive_url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/47/ngspice-47_64.7z",
+  "archive_sha256": "59225971bd68cdd1199443649aa4615a9e6d684933f205ab49006a3942518f5a",
+  "published_archive_sha256": "59225971bd68cdd1199443649aa4615a9e6d684933f205ab49006a3942518f5a",
+  "executable_path": "D:\\ms_xsp\\s04_crosscheck_20261017\\Spice64\\bin\\ngspice_con.exe",
+  "executable_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "actual_solver": "SPARSE 1.3 (from run log), not KLU despite KLU support in this build",
+  "options": "trap, maxord=2, reltol=1e-3, trtol=7, TEMP=TNOM=27 C; num_threads=1; -n; binary raw",
+  "install_scope": "portable task-local directory; no system PATH or user init-file changes"
+}

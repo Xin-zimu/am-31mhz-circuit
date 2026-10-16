@@ -1,0 +1,10 @@
+﻿{
+    "seconds":  36.7707541,
+    "state":  0,
+    "last_error":  "",
+    "log_errors":  [
+                       "Error: Internal simulation error.",
+                       "Error: Internal simulation error."
+                   ],
+    "output_exists":  false
+}

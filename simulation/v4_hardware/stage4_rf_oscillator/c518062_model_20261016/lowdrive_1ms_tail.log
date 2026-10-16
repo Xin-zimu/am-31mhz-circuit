@@ -1,0 +1,27 @@
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670817_uc165e5, 1:59:59)
+_uc3547d4ee4ff1a>source D:/ms_xsp/s04_c518062_20261016/lowdrive_1ms_tail.cir
+_uc7676581ea547d4ee476848f9351fa
+source D:/ms_xsp/s04_c518062_20261016/lowdrive_1ms_tail.cir
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670817_uc165e5, 1:59:59)
+_uc3547d4ee4ff1a>begin-scope page Transient Analysis
+_uc7676581ea547d4ee476848f9351fa
+begin-scope page Transient Analysis
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670817_uc165e5, 1:59:59)
+_uc3547d4ee4ff1a>save $vcc $base $emit $isupply $imotional
+_uc7676581ea547d4ee476848f9351fa
+save $vcc $base $emit $isupply $imotional
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670817_uc165e5, 1:59:59)
+_uc3547d4ee4ff1a>iplot $vcc $base $emit $isupply $imotional
+_uc7676581ea547d4ee476848f9351fa
+iplot $vcc $base $emit $isupply $imotional
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670817_uc165e5, 1:59:59)
+_uc3547d4ee4ff1a>tran 0.25n 1000.0u 900.0u 0.25n uic
+_uc7676581ea547d4ee476848f9351fa
+tran 0.25n 1000.0u 900.0u 0.25n uic
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670817_uc165e5, 2:00:31)
+_uc3547d4ee4ff1a>write-and-destroy-iplot "D:/ms_xsp/s04_c518062_20261016/lowdrive_1ms_tail.raw"
+_uc7676581ea547d4ee476848f9351fa
+_uc775286237547d4ee45df26267884c   (2026_uc15e7410_uc1670817_uc165e5, 2:00:32)
+_uc3547d4ee4ff1a>end-scope
+_uc7676581ea547d4ee476848f9351fa
+end-scope

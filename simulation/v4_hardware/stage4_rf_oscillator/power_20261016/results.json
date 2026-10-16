@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-16",
+  "solver": "Multisim 14.3 XSPICE command interface; isolated LF fixture",
+  "status": "PARTIAL_MODEL_ONLY",
+  "entire_tx_battery_power_w": null,
+  "entire_tx_passed": null,
+  "current_monitor_control_a": 0.005,
+  "initial": "UIC, all capacitors zero; 0 to 5V linear supply ramp over 10us",
+  "points": 203231,
+  "end_s": 0.002,
+  "tail_window_s": [
+    0.0017457682079442926,
+    0.001995792715061518
+  ],
+  "complete_cycles": 5,
+  "lf_i5_mean_a": 0.0034485253562582044,
+  "lf_p5_mean_w": 0.01724262678129102,
+  "tail_peak_current_a": 0.005123766138961035,
+  "startup_peak_current_a": 5.05117178764937,
+  "source_energy_first_10us_j": 0.00012627129012433903,
+  "v1_frequency_hz": 19998.03962279475,
+  "v1_raw_vpp": 4.000006619504367,
+  "linear_regulator_budget_scenarios": [
+    {
+      "battery_voltage_v": 7.5,
+      "iq_assumed_a": 0.008,
+      "max_5v_plus_direct_load_a_at_0p5w": 0.058666666666666666,
+      "lf_plus_regulator_only_battery_w": 0.08586394017193653,
+      "lf_plus_regulator_only_loss_w": 0.06862131339064552,
+      "remaining_unassigned_current_a": 0.05521814131040846
+    },
+    {
+      "battery_voltage_v": 9,
+      "iq_assumed_a": 0.008,
+      "max_5v_plus_direct_load_a_at_0p5w": 0.04755555555555555,
+      "lf_plus_regulator_only_battery_w": 0.10303672820632384,
+      "lf_plus_regulator_only_loss_w": 0.08579410142503283,
+      "remaining_unassigned_current_a": 0.04410703019929735
+    },
+    {
+      "battery_voltage_v": 9.6,
+      "iq_assumed_a": 0.008,
+      "max_5v_plus_direct_load_a_at_0p5w": 0.044083333333333335,
+      "lf_plus_regulator_only_battery_w": 0.10990584342007877,
+      "lf_plus_regulator_only_loss_w": 0.09266321663878775,
+      "remaining_unassigned_current_a": 0.04063480797707513
+    }
+  ],
+  "baseline_sha256": "d9aba8eff74e679f709bc6a680bf569e6dab87a00303b6ff138f19d4964ccaaf",
+  "limitations": [
+    "LF macro-model supply current is not validated against physical LM393P over temperature.",
+    "No oscillator, buffer, modulator or PA current has been measured.",
+    "8mA is L7805C max at specified 25C conditions, not full-temperature guaranteed total.",
+    "L7805C regulation requires at least 5mA total load; LF alone is below this. Budget terms assume a complete transmitter meets that condition.",
+    "Power-up peak uses an ideal ramp source, not a 7805 startup model.",
+    "7.5V and 9.6V are illustrative battery-voltage scenarios, not a battery specification."
+  ],
+  "sha256": {
+    "lf_nominal.cir": "b6529f2fabe0c803f5e655a053ebcc199fb9f7b749df4ce0ff3e602867c0da2e",
+    "lf_nominal.cmd": "ab27d6de75b3b381009550b0939a91b6f3f3559c009bcd18c8e9221815063c8a",
+    "lf_nominal.log": "3aecc44a6bf61ca272400148c58e0704410bf63accce515735935dd069d1276a",
+    "lf_nominal.raw": "e417329736394e586adf2334ed5cd7ebbfdfb839dd09c1771617d34a63c1bb6b",
+    "monitor_control.cir": "9977ba89289388b82c9533d1706408a219d701b1f8803346327bb57a863dd3dc",
+    "monitor_control.cmd": "5df70a51e380abef425da34ad5432ec0757f79a2a3e52a367b51d90593993442",
+    "monitor_control.log": "493635f3732e2394217f24ae92ce92a2ea6382babe3f4d1942bef71939c3bc3a",
+    "monitor_control.raw": "039fe757765c148fb3131914b1d159e9f8b31db7fa49bbfd04c9f7090d7265b2"
+  }
+}

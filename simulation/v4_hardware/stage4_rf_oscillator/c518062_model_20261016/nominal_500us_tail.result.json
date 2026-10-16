@@ -1,0 +1,45 @@
+{
+  "name": "nominal_500us_tail",
+  "c518062_qualified": false,
+  "points": 83972,
+  "end_s": 0.0005,
+  "tail_window_s": [
+    0.000480000059313679,
+    0.0005
+  ],
+  "output_dc_v": 2.2470057592611745,
+  "output_vpp": 2.5747320301501704,
+  "output_ac_rms_v": 0.8248598226638443,
+  "frequency_hz": 30995207.795378394,
+  "frequency_error_ppm": -154.587245858262,
+  "motional_current_rms_a": 0.004684232892211028,
+  "crystal_motional_power_w": 0.0006582611336541508,
+  "mean_supply_current_a": 0.0024826256789164908,
+  "mean_5v_rail_power_w": 0.012413128394582454,
+  "crystal_terminal_vpp": 3.988691655994581,
+  "interpretation": "Exploratory single-mode model; not crystal or system acceptance",
+  "envelope_5us": [
+    {
+      "start_us": 485.0,
+      "emit_vpp": 2.533393819094928,
+      "motional_peak_a": 0.006624502394079468
+    },
+    {
+      "start_us": 490.0,
+      "emit_vpp": 2.554393751987834,
+      "motional_peak_a": 0.006698022918202373
+    },
+    {
+      "start_us": 495.0,
+      "emit_vpp": 2.5747320301501704,
+      "motional_peak_a": 0.006769233836909527
+    }
+  ],
+  "sha256": {
+    "cir": "f30e9956a058fd74d31527403d4a43e0c28878c1ad99d8612f410c68c9424446",
+    "cmd": "16ea5868771025a5332d98897a1809497d920f80d939aeb4c384e265a8984f16",
+    "raw": "cfe4cd36d20093820d05aa645cf04e8275089b33250837f2fa625e55c2791ebc",
+    "log": "2ff9b5280616cc7c7bb0de8205d4c8efb5a114b43a6b168871ba1d72a29356fe",
+    "input.json": "10f2d496ff6fc34bb6d66b0d46c25f7dfaba6cdd9821ed4c675bc63657614311"
+  }
+}

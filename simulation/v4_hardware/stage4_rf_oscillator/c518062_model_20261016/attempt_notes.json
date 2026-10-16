@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-17",
+  "lowdrive_2ms_retry": {
+    "category": "driver_failure",
+    "observed_error": "Select-String could not read the log because it was still locked by another process; finally disconnected the engine",
+    "last_log_command": "source",
+    "valid_simulation_data": false,
+    "repair": "Only inspect errors when simulation state is zero; tolerate transient file locks with ErrorAction SilentlyContinue. Subsequent AC and transient calls exercised the repaired runner."
+  },
+  "retry_budget_used": {
+    "2ms_at_0p25ns": "2 engine attempts failed; one separate driver failure; stop retrying this condition",
+    "1p5ms_at_0p25ns": "2 engine attempts failed; stop retrying this condition",
+    "500us_at_0p125ns": "2 engine attempts failed; no time-step convergence evidence obtained"
+  },
+  "interpretation": "No raw output is no data. Internal simulation error or lost COM connection does not prove the circuit cannot converge or that simulation duration is the cause."
+}

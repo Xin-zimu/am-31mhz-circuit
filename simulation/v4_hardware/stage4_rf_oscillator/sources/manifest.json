@@ -1,0 +1,31 @@
+{
+  "checked_date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "entries": [
+    {
+      "file": "C518062_product.html",
+      "url": "https://www.lcsc.com/product-detail/C518062.html",
+      "observation": "Fetched public page includes 2,000 in stock; no order placed."
+    },
+    {
+      "file": "LIMING_C518062.pdf",
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/aa4004c4e887b932b9370512cedadc05.pdf",
+      "observation": "2-page series sheet; visually inspected both pages; not a part-specific approval sheet."
+    },
+    {
+      "file": "ST_L78_rev34_distributor.pdf",
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/8a0b9fe01667d69c9232cfb11aaec867.pdf",
+      "observation": "Rev34, page14 Table10 visually checked; 8mA Max at25C. Official ST Rev38 Table10 independently read through web."
+    }
+  ],
+  "official_latest_read_url": "https://www.st.com/resource/en/datasheet/l78.pdf",
+  "sha256": {
+    "C518062_product.html": "5bf316b796e5ddbecbf3eae944b3385bfc2b27ed19274006bbb1b074a9fa8fb4",
+    "LIMING_C518062.pdf": "17b32fc2063b64eeb8dc3c523ba3cd36dc997609d4481c7acc30d949e621a516",
+    "LIMING_page1.png": "37b0c57b4fc4ed55ca310d8565d05fad749ee701a64af1a2ca40a63037f8db48",
+    "LIMING_page2.png": "ca3a5bdb5219f5d9602454e97c6d2b5ecb65d7a175ea3a0f4e7c07af72cc40ba",
+    "ST_L7805C.png": "81e1f2dde3aa805a45648fbde3fe133b2740151f4d23b463b3212eb9e2ce8111",
+    "ST_L78_rev34_distributor.pdf": "643f4a1ce21faa44349180d5fead7399e044913353a45fe4d0ee578cbc64cdc8",
+    "ST_L78_viewer.html": "aecefec395b7055fae0ef962be16a7b330bcce59988db08f608001c5f58861fc"
+  }
+}

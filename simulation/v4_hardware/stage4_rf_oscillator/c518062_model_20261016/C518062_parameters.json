@@ -1,0 +1,48 @@
+{
+  "checked_listing_date": "2026-10-16",
+  "review_date": "2026-10-17",
+  "manufacturer": "LIMING / Suzhou Liming",
+  "part_number": "49S-31.000-18-10-10/B",
+  "lcsc_code": "C518062",
+  "c518062_qualified": false,
+  "listing_parameters_not_manufacturer_confirmation": {
+    "type": "passive quartz crystal, 2 pin HC-49S",
+    "frequency_hz": 31000000,
+    "load_capacitance_f": 1.8e-11,
+    "initial_tolerance_ppm": 10,
+    "temperature_stability_ppm": 10,
+    "operating_temperature_c": [-40, 85],
+    "international_listing_stock_snapshot": 2000,
+    "stock_is_not_reservation_or_lifecycle_confirmation": true
+  },
+  "series_datasheet_only": {
+    "c0_max_f": 7e-12,
+    "drive_power_conflicting_tables_w": {
+      "upper_typical": 0.0001,
+      "upper_range": [0.000001, 0.001],
+      "lower_typical": 0.00001,
+      "lower_max": 0.0008
+    },
+    "temperature_stability_conflict": "series selection table does not support listed +/-10 ppm over -40 to +85 C",
+    "B_suffix_definition": null
+  },
+  "unresolved_part_specific": {
+    "fundamental_or_third_overtone": null,
+    "ESR_max_ohm_and_test_condition": null,
+    "Rm_ohm": null,
+    "Cm_f": null,
+    "Lm_h": null,
+    "C0_typical_f": null,
+    "drive_recommended_and_max_w": null,
+    "full_temperature_and_suffix_confirmation": null
+  },
+  "sources": [
+    "https://www.lcsc.com/product-detail/C518062.html",
+    "https://item.szlcsc.com/534599.html",
+    "https://atta.szlcsc.com/upload/public/pdf/source/20180930/C240954_D21D826943E58A9880472B1227802F84.pdf"
+  ],
+  "domestic_and_international_pdf_identical_sha256": "17b32fc2063b64eeb8dc3c523ba3cd36dc997609d4481c7acc30d949e621a516",
+  "model_policy": "Keep candidate identity distinct from assumed BVD parameters. A single-mode fundamental model cannot verify overtone selection. Supplier ESR must not be assigned to Rm without checking the definition and test conditions.",
+  "assumptions_source": "https://www.ti.com/lit/an/snaa065a/snaa065a.pdf",
+  "generic_assumptions_are_not_C518062_specifications": true
+}

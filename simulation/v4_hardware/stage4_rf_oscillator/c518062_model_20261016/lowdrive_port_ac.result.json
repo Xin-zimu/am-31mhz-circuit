@@ -1,0 +1,258 @@
+{
+  "c518062_qualified": false,
+  "fixture": "5 V, RE=4.7k, CF=CE=33p, Cstray=1p; official historical BFR93A",
+  "assumptions": "Cm=5/10/20 fF; C0=1/3/7 pF; Rm=10/30/100 ohm, exploratory values, NOT guaranteed device bounds",
+  "method": "1 A AC current injected into base; Zport includes active stage and C0; solve Im(Zport+Zmotional)=0",
+  "interpretation": "Small-signal growth only; not nonlinear convergence, drive-level or component acceptance",
+  "cases": [
+    {
+      "cm_ff": 5,
+      "c0_pf": 1,
+      "rm_ohm": 10,
+      "linear_balance_frequency_hz": 31000776.1661392,
+      "negative_resistance_ohm": 206.07019754517148,
+      "small_signal_margin_ratio": 20.607019754517147,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 5,
+      "c0_pf": 1,
+      "rm_ohm": 30,
+      "linear_balance_frequency_hz": 31000776.1661392,
+      "negative_resistance_ohm": 206.07019754517148,
+      "small_signal_margin_ratio": 6.86900658483905,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 5,
+      "c0_pf": 1,
+      "rm_ohm": 100,
+      "linear_balance_frequency_hz": 31000776.1661392,
+      "negative_resistance_ohm": 206.07019754517148,
+      "small_signal_margin_ratio": 2.060701975451715,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 5,
+      "c0_pf": 3,
+      "rm_ohm": 10,
+      "linear_balance_frequency_hz": 31000798.387537092,
+      "negative_resistance_ohm": 161.9102225527554,
+      "small_signal_margin_ratio": 16.19102225527554,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 5,
+      "c0_pf": 3,
+      "rm_ohm": 30,
+      "linear_balance_frequency_hz": 31000798.387537092,
+      "negative_resistance_ohm": 161.9102225527554,
+      "small_signal_margin_ratio": 5.39700741842518,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 5,
+      "c0_pf": 3,
+      "rm_ohm": 100,
+      "linear_balance_frequency_hz": 31000798.387537092,
+      "negative_resistance_ohm": 161.9102225527554,
+      "small_signal_margin_ratio": 1.6191022255275542,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 5,
+      "c0_pf": 7,
+      "rm_ohm": 10,
+      "linear_balance_frequency_hz": 31000707.778136715,
+      "negative_resistance_ohm": 105.61826234715541,
+      "small_signal_margin_ratio": 10.561826234715541,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 5,
+      "c0_pf": 7,
+      "rm_ohm": 30,
+      "linear_balance_frequency_hz": 31000707.778136715,
+      "negative_resistance_ohm": 105.61826234715541,
+      "small_signal_margin_ratio": 3.5206087449051804,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 5,
+      "c0_pf": 7,
+      "rm_ohm": 100,
+      "linear_balance_frequency_hz": 31000707.778136715,
+      "negative_resistance_ohm": 105.61826234715541,
+      "small_signal_margin_ratio": 1.0561826234715541,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 10,
+      "c0_pf": 1,
+      "rm_ohm": 10,
+      "linear_balance_frequency_hz": 31001551.796604875,
+      "negative_resistance_ohm": 206.06021169543817,
+      "small_signal_margin_ratio": 20.606021169543816,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 10,
+      "c0_pf": 1,
+      "rm_ohm": 30,
+      "linear_balance_frequency_hz": 31001551.796604875,
+      "negative_resistance_ohm": 206.06021169543817,
+      "small_signal_margin_ratio": 6.8686737231812725,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 10,
+      "c0_pf": 1,
+      "rm_ohm": 100,
+      "linear_balance_frequency_hz": 31001551.796604875,
+      "negative_resistance_ohm": 206.06021169543817,
+      "small_signal_margin_ratio": 2.0606021169543816,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 10,
+      "c0_pf": 3,
+      "rm_ohm": 10,
+      "linear_balance_frequency_hz": 31001596.271420266,
+      "negative_resistance_ohm": 161.90260157303518,
+      "small_signal_margin_ratio": 16.19026015730352,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 10,
+      "c0_pf": 3,
+      "rm_ohm": 30,
+      "linear_balance_frequency_hz": 31001596.271420266,
+      "negative_resistance_ohm": 161.90260157303518,
+      "small_signal_margin_ratio": 5.396753385767839,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 10,
+      "c0_pf": 3,
+      "rm_ohm": 100,
+      "linear_balance_frequency_hz": 31001596.271420266,
+      "negative_resistance_ohm": 161.90260157303518,
+      "small_signal_margin_ratio": 1.6190260157303518,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 10,
+      "c0_pf": 7,
+      "rm_ohm": 10,
+      "linear_balance_frequency_hz": 31001415.18650731,
+      "negative_resistance_ohm": 105.61429673148557,
+      "small_signal_margin_ratio": 10.561429673148556,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 10,
+      "c0_pf": 7,
+      "rm_ohm": 30,
+      "linear_balance_frequency_hz": 31001415.18650731,
+      "negative_resistance_ohm": 105.61429673148557,
+      "small_signal_margin_ratio": 3.5204765577161856,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 10,
+      "c0_pf": 7,
+      "rm_ohm": 100,
+      "linear_balance_frequency_hz": 31001415.18650731,
+      "negative_resistance_ohm": 105.61429673148557,
+      "small_signal_margin_ratio": 1.0561429673148557,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 20,
+      "c0_pf": 1,
+      "rm_ohm": 10,
+      "linear_balance_frequency_hz": 31003101.452803683,
+      "negative_resistance_ohm": 206.04026278618997,
+      "small_signal_margin_ratio": 20.604026278618996,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 20,
+      "c0_pf": 1,
+      "rm_ohm": 30,
+      "linear_balance_frequency_hz": 31003101.452803683,
+      "negative_resistance_ohm": 206.04026278618997,
+      "small_signal_margin_ratio": 6.8680087595396655,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 20,
+      "c0_pf": 1,
+      "rm_ohm": 100,
+      "linear_balance_frequency_hz": 31003101.452803683,
+      "negative_resistance_ohm": 206.04026278618997,
+      "small_signal_margin_ratio": 2.0604026278618996,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 20,
+      "c0_pf": 3,
+      "rm_ohm": 10,
+      "linear_balance_frequency_hz": 31003190.530194998,
+      "negative_resistance_ohm": 161.8873755625016,
+      "small_signal_margin_ratio": 16.18873755625016,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 20,
+      "c0_pf": 3,
+      "rm_ohm": 30,
+      "linear_balance_frequency_hz": 31003190.530194998,
+      "negative_resistance_ohm": 161.8873755625016,
+      "small_signal_margin_ratio": 5.3962458520833865,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 20,
+      "c0_pf": 3,
+      "rm_ohm": 100,
+      "linear_balance_frequency_hz": 31003190.530194998,
+      "negative_resistance_ohm": 161.8873755625016,
+      "small_signal_margin_ratio": 1.6188737556250161,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 20,
+      "c0_pf": 7,
+      "rm_ohm": 10,
+      "linear_balance_frequency_hz": 31002828.895145204,
+      "negative_resistance_ohm": 105.60637231182315,
+      "small_signal_margin_ratio": 10.560637231182316,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 20,
+      "c0_pf": 7,
+      "rm_ohm": 30,
+      "linear_balance_frequency_hz": 31002828.895145204,
+      "negative_resistance_ohm": 105.60637231182315,
+      "small_signal_margin_ratio": 3.520212410394105,
+      "positive_linear_growth": true
+    },
+    {
+      "cm_ff": 20,
+      "c0_pf": 7,
+      "rm_ohm": 100,
+      "linear_balance_frequency_hz": 31002828.895145204,
+      "negative_resistance_ohm": 105.60637231182315,
+      "small_signal_margin_ratio": 1.0560637231182315,
+      "positive_linear_growth": true
+    }
+  ],
+  "sha256": {
+    "cir": "5ac3e3e9dc5a60964d2dc0499e56e020c553f8315373faece6f1e9bc8e265001",
+    "cmd": "1c4f05fca01c934349ee8d5b50e2603d8c85248263e4ce06c3f91fe2b0b12ace",
+    "raw": "c5ff3fee8ea07e938e0a873f4ea6a79533c3fa76cec155da22c85d13ae354ec4",
+    "log": "af876ba0387dbe5f301d02ffa75b987032f26b68e527cb17fa4fc2706a1b7c7d"
+  }
+}

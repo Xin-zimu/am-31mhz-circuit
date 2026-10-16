@@ -1,0 +1,12 @@
+[
+  {
+    "TimeCreated": "2026-10-17T02:03:51.1061282+08:00",
+    "Id": 1001,
+    "Message": "故障存储段 1993059523515652938，类型 1\r\n事件名称: APPCRASH\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: multisim.exe\r\nP2: 14.3.1482.0\r\nP3: 6262d5a9\r\nP4: StackHash_4dd1\r\nP5: 10.0.26100.4652\r\nP6: 768d7286\r\nP7: c0000374\r\nP8: PCH_C8_FROM_ntdll+0x00079D6C\r\nP9: \r\nP10: \r\n\r\n附加文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.af9d3585-ae7c-439a-a133-d5035248ffd2.tmp.dmp\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.d24112b1-fd23-4365-b31e-1d46f083a455.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0fa809f7-4ba2-4553-bef3-53319f861d51.tmp.csv\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2a0c85c1-bf0f-4553-badb-f3e71d98813f.tmp.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.69f18a45-211a-49e5-ac7e-949e9633c807.tmp.xml\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_multisim.exe_2a9eda55c4e9d6d79597fda56869ffb727fedd97_aeff0730_63ebf853-234f-48d8-a42e-e3a3ac09fdb5\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: 35015302-53be-4562-92dd-6d64564f0b71\r\n报告状态: 268435456\r\n哈希存储段: 3dc81f843183285b5ba8c513b35c1b4a\r\nCab GUID: 0"
+  },
+  {
+    "TimeCreated": "2026-10-17T02:03:38.8122123+08:00",
+    "Id": 1000,
+    "Message": "出错应用程序名称： multisim.exe，版本： 14.3.1482.0，时间戳： 0x6262d5a9\r\n出错模块名称： ntdll.dll， 版本： 10.0.26100.4652，时间戳： 0x768d7286\r\n异常代码： 0xc0000374\r\n错误偏移： 0x000faa4f\r\n出错进程 ID： 0x99D4\r\n出错应用程序开始时间： 0x1DD5D989F2F4A88\r\nFaulting 应用程序路径： D:\\multimism\\Circuit Design Suite 14.3\\multisim.exe\r\nFaulting 模块路径： C:\\WINDOWS\\SYSTEM32\\ntdll.dll\r\nReport ID： 35015302-53be-4562-92dd-6d64564f0b71\r\nFaulting 包全名： \r\nFaulting 程序包相对应用程序 ID：  个"
+  }
+]

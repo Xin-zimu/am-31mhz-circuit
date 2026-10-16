@@ -1,0 +1,65 @@
+* S04 direct POLY truth table; original subcircuit unchanged
+.SUBCKT POLYSourceEAM_-EAM 1 2 3 4 5 6 7 8
+E1 7 8 POLY(3) (1,2) (3,4) (5,6) 0 0.6 0 0 0 0.1 0 0 0 0  0 0 0 0 0
+R0 1 2 1e15
+R1 3 4 1e15
+R2 5 6 1e15
+R3 5 0 1e15
+R4 3 0 1e15
+R5 1 0 1e15
+.ENDS
+VC0 c0 0 0
+VM0 m0 0 0
+VZ0 z0 0 0
+X0 c0 0 m0 0 z0 0 y0 0 POLYSourceEAM_-EAM
+VC1 c1 0 1
+VM1 m1 0 0
+VZ1 z1 0 0
+X1 c1 0 m1 0 z1 0 y1 0 POLYSourceEAM_-EAM
+VC2 c2 0 0
+VM2 m2 0 1
+VZ2 z2 0 0
+X2 c2 0 m2 0 z2 0 y2 0 POLYSourceEAM_-EAM
+VC3 c3 0 0
+VM3 m3 0 0
+VZ3 z3 0 1
+X3 c3 0 m3 0 z3 0 y3 0 POLYSourceEAM_-EAM
+VC4 c4 0 1
+VM4 m4 0 1
+VZ4 z4 0 0
+X4 c4 0 m4 0 z4 0 y4 0 POLYSourceEAM_-EAM
+VC5 c5 0 1
+VM5 m5 0 4
+VZ5 z5 0 0
+X5 c5 0 m5 0 z5 0 y5 0 POLYSourceEAM_-EAM
+VC6 c6 0 0.5
+VM6 m6 0 4
+VZ6 z6 0 0
+X6 c6 0 m6 0 z6 0 y6 0 POLYSourceEAM_-EAM
+VC7 c7 0 -1
+VM7 m7 0 4
+VZ7 z7 0 0
+X7 c7 0 m7 0 z7 0 y7 0 POLYSourceEAM_-EAM
+VC8 c8 0 1
+VM8 m8 0 -4
+VZ8 z8 0 0
+X8 c8 0 m8 0 z8 0 y8 0 POLYSourceEAM_-EAM
+VC9 c9 0 1
+VM9 m9 0 4
+VZ9 z9 0 7
+X9 c9 0 m9 0 z9 0 y9 0 POLYSourceEAM_-EAM
+VC10 c10 0 1
+VM10 m10 0 4
+VZ10 z10 0 -7
+X10 c10 0 m10 0 z10 0 y10 0 POLYSourceEAM_-EAM
+VC11 c11 0 2
+VM11 m11 0 3
+VZ11 z11 0 5
+X11 c11 0 m11 0 z11 0 y11 0 POLYSourceEAM_-EAM
+VDC a 0 2
+VDM b 0 3
+VDZ z 0 5
+EP2 p2 0 POLY(3) (a,0) (b,0) (z,0) 0 0.6 0 0 0 0 0 0 0 0 0 0 0 0 0
+EP6 p6 0 POLY(3) (a,0) (b,0) (z,0) 0 0 0 0 0 0.1 0 0 0 0 0 0 0 0 0
+Xfloat a 0 b 0 floating5 floating6 yf 0 POLYSourceEAM_-EAM
+.end

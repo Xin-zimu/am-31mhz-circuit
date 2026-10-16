@@ -1,0 +1,79 @@
+{
+  "productCode": "C518062",
+  "productModel": "49S-31.000-18-10-10/B",
+  "brandNameEn": "LIMING",
+  "stockNumber": 2000,
+  "pdfUrl": "https://datasheet.lcsc.com/datasheet/pdf/aa4004c4e887b932b9370512cedadc05.pdf?productCode=C518062",
+  "paramVOList": [
+    {
+      "paramCode": "param_10877_s",
+      "paramName": "频率稳定度",
+      "paramNameEn": "Frequency Stability",
+      "paramValue": "±10ppm",
+      "paramValueEn": "±10ppm",
+      "paramValueEnForSearch": null,
+      "isMain": true,
+      "sortNumber": 1,
+      "sort": 2
+    },
+    {
+      "paramCode": "param_10915_s",
+      "paramName": "工作温度",
+      "paramNameEn": "Operating Temperature",
+      "paramValue": "-40℃~+85℃",
+      "paramValueEn": "-40℃~+85℃",
+      "paramValueEnForSearch": null,
+      "isMain": false,
+      "sortNumber": 1,
+      "sort": 6
+    },
+    {
+      "paramCode": "param_11376_n",
+      "paramName": "负载电容",
+      "paramNameEn": "Load Capacitance",
+      "paramValue": "18pF",
+      "paramValueEn": "18pF",
+      "paramValueEnForSearch": 18,
+      "isMain": true,
+      "sortNumber": 1,
+      "sort": 10
+    },
+    {
+      "paramCode": "param_10912_s",
+      "paramName": "常温频差",
+      "paramNameEn": "Normal temperature Frequency Tolerance",
+      "paramValue": "±10ppm",
+      "paramValueEn": "±10ppm",
+      "paramValueEnForSearch": null,
+      "isMain": true,
+      "sortNumber": 1,
+      "sort": 2
+    },
+    {
+      "paramCode": "param_11377_n",
+      "paramName": "等效串联电阻(ESR)",
+      "paramNameEn": "Equivalent Series Resistance(ESR)",
+      "paramValue": "-",
+      "paramValueEn": "-",
+      "paramValueEnForSearch": null,
+      "isMain": false,
+      "sortNumber": 1,
+      "sort": 15
+    },
+    {
+      "paramCode": "param_29445_n",
+      "paramName": "频率",
+      "paramNameEn": "Frequency",
+      "paramValue": "31MHz",
+      "paramValueEn": "31MHz",
+      "paramValueEnForSearch": 31000000,
+      "isMain": false,
+      "sortNumber": 1,
+      "sort": 1
+    }
+  ],
+  "checked_date": "2026-10-17",
+  "source": "https://www.lcsc.com/product-detail/C518062.html",
+  "datasheet_same_as_previous": true,
+  "part_specific_parameters_closed": false
+}
