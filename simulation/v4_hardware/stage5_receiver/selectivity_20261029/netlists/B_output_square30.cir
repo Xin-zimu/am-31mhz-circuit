@@ -1,0 +1,13 @@
+* Wrapper; dependency hashes bind the source and original TI library.
+* source_sha256=2540c1882eee11335ac495975b1267609e0aaf1a42b4ad5e57c5872d6602297f
+* model_sha256=fc5b020e63346e511bd808bf41c856b0150b000bcf8a41fe00eeececb1f422a5
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_selectivity_20261029/B_output_square30_source.cir
+set filetype=binary
+save v(out) v(bbin) v(ref) v(bbo) v(final) i(vsup)
+tran 0.5n 400u 150u 0.5n 
+write D:/ms_xsp/s05_selectivity_20261029/B_output_square30.raw
+quit
+.endc
+.end

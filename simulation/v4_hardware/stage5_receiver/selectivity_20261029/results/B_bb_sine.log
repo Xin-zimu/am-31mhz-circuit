@@ -1,0 +1,21 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * wrapper; dependency hashes bind the source and original ti library.
+
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps
+
+
+Circuit: * s05 selection fixture; not wireless qualification
+
+Error on line 72 or its substitute:
+  rload final 0 1000000.0
+device already exists, bail out
+    Simulation interrupted due to error!
+
+Error: circuit not parsed.
+binary raw file "D:/ms_xsp/s05_selectivity_20261029/B_bb_sine.raw"
+ngspice-47 done

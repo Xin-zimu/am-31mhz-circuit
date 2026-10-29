@@ -1,0 +1,103 @@
+[
+  {
+    "name": "B_bb_sine",
+    "status": "parse_failure",
+    "timeout_s": null,
+    "valid_transient_arrays": false,
+    "reason": "duplicate RLOAD name; repaired as RBBLOAD in later uniquely named cases",
+    "files": [
+      {
+        "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\netlists\\B_bb_sine.cir",
+        "sha256": "02ee9ea4861c98a82923d1217ca91ee2a19da58b09a2b90e7fd7c2ffe0ec2af3",
+        "bytes": 489
+      },
+      {
+        "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\netlists\\B_bb_sine_source.cir",
+        "sha256": "6215862549b2176f14a018663ebac987d1dcb0c0fcd05ae080c0b55757533a0a",
+        "bytes": 1794
+      },
+      {
+        "path": "D:\\ms_xsp\\s05_selectivity_20261029\\B_bb_sine.log",
+        "sha256": "eb9556fe45c762200d76c9a69d4d3fefd973bad778aa354c10c49ee3f1162320",
+        "bytes": 548
+      },
+      {
+        "path": "D:\\ms_xsp\\s05_selectivity_20261029\\B_bb_sine.raw",
+        "sha256": "1daf02f8c6531d2760303dbfc1a8d2d10005c5caaf6608fa5ef06680550f4cb7",
+        "bytes": 557
+      }
+    ]
+  },
+  {
+    "name": "BB_cold_400ms",
+    "status": "timeout",
+    "timeout_s": 240,
+    "valid_transient_arrays": false,
+    "reason": "process killed after fixed 240 s timeout; no raw output; root cause not established",
+    "files": [
+      {
+        "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\netlists\\BB_cold_400ms.cir",
+        "sha256": "060f012644840283a4e907515bdfad431f617505446bae10fcb59b9636da6d1f",
+        "bytes": 503
+      },
+      {
+        "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\netlists\\BB_cold_400ms_source.cir",
+        "sha256": "7b174d2bc69f421aa862aa9cb64d1cb791f73cea0bced5df32abc87b3119cbc4",
+        "bytes": 521
+      },
+      {
+        "path": "D:\\ms_xsp\\s05_selectivity_20261029\\BB_cold_400ms.log",
+        "sha256": "2729f688d25be312b5c329b2a0eeb4cbfba54c14369d580e0056be0eec13389d",
+        "bytes": 508
+      }
+    ]
+  },
+  {
+    "name": "BB_reference_400ms",
+    "status": "timeout",
+    "timeout_s": 240,
+    "valid_transient_arrays": false,
+    "reason": "process killed after fixed 240 s timeout; no raw output; root cause not established",
+    "files": [
+      {
+        "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\netlists\\BB_reference_400ms.cir",
+        "sha256": "a8023eecceb16b6d28ddbd82c61b461bd5a8ffbf33012a679389a54d3ccbab55",
+        "bytes": 510
+      },
+      {
+        "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\netlists\\BB_reference_400ms_source.cir",
+        "sha256": "aa8fd0b91ab078d5aa381b1e682a6e6b11330ac1f3dd8168207b0d2580647d34",
+        "bytes": 544
+      },
+      {
+        "path": "D:\\ms_xsp\\s05_selectivity_20261029\\BB_reference_400ms.log",
+        "sha256": "aea7789a9136f9195738fd820f1375733a1961a30edbd9da4e646bb0d0993ffb",
+        "bytes": 8924
+      }
+    ]
+  },
+  {
+    "name": "BB_reference_20ms",
+    "status": "timeout",
+    "timeout_s": 240,
+    "valid_transient_arrays": false,
+    "reason": "process killed after fixed 240 s timeout; no raw output; root cause not established",
+    "files": [
+      {
+        "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\netlists\\BB_reference_20ms.cir",
+        "sha256": "3e5622c3e708677217eed0326125bb5f465bc8e26f2a856a218f17d9dc0d1d8a",
+        "bytes": 507
+      },
+      {
+        "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\netlists\\BB_reference_20ms_source.cir",
+        "sha256": "aa8fd0b91ab078d5aa381b1e682a6e6b11330ac1f3dd8168207b0d2580647d34",
+        "bytes": 544
+      },
+      {
+        "path": "D:\\ms_xsp\\s05_selectivity_20261029\\BB_reference_20ms.log",
+        "sha256": "aea7789a9136f9195738fd820f1375733a1961a30edbd9da4e646bb0d0993ffb",
+        "bytes": 8924
+      }
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * wrapper; dependency hashes bind the source and original ti library.
+
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps
+
+
+Circuit: * s05 selection fixture; not wireless qualification
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+mod                                         -1
+src                                          0
+input                                        0
+port                                         0
+ln                                           0
+vcc                                          9
+b1                                     1.50655
+c1                                     5.81319
+e1                                    0.811342
+eb1                                   0.705514
+b2                                     1.50655
+c2                                     5.81319
+e2                                    0.811342
+eb2                                   0.705514
+bb                                      4.2771
+ee                                      3.5581
+rf                                 0.000209541
+an                                 0.000209562
+det                                   0.166363
+out                                   0.333711
+ref                                          3
+bbin                                         3
+neg                                    3.00002
+bbo                                    3.00021
+xopa.n24458                            4.49932
+xopa.n24659                                4.5
+xopa.n37029                           -11.0231
+xopa.n37037                            2.92398
+xopa.n39124                           -11.0222
+xopa.n39892                            4.49976
+xopa.n2425309                                9
+xopa.n2425287                              4.5
+xopa.n2425325                       4.5045e-06
+xopa.mid                                   4.5
+xopa.n56849                                4.5
+xopa.n57325                                4.5
+xopa.n59747                                4.5
+xopa.n59865                                4.5
+xopa.n25921                             4.1922
+xopa.n25929                                4.5
+xopa.n65579                                4.5
+xopa.n65697                                4.5
+xopa.n68774                            2.82945
+xopa.n72398                            8.97432
+xopa.n72391                          0.0352143
+xopa.n81574                                4.5
+xopa.n81664                                4.5
+xopa.sw_ol_opax197                         4.5
+xopa.vclp                              2.82945
+xopa.vimon                               4.503
+xopa.n27785                             4.8078
+xopa.n27793                                4.5
+xopa.vout_s                            3.00021
+xopa.n2402147                              4.5
+xopa.n2402155                              4.5
+xopa.n2419074                          2.82945
+xopa.n2525790                          2.82945
+xopa.n2526890                          2.82945
+xopa.n36262                            2.82945
+xopa.n32347                            3.00002
+xopa.clamp                             2.82945
+xopa.esdp                                    3
+xopa.esdn                              3.00002
+xopa.n158495                           2.82945
+xopa.cl_clamp                          2.82945
+xopa.n161937                           3.00021
+xopa.claw_clamp                        2.82945
+xopa.n45999                            3.00021
+xopa.vcc_b                                   9
+xopa.vee_b                             4.5e-06
+xopa.n25415                            3.00002
+xopa.n25397                            3.00002
+xopa.n25248                                4.5
+xopa.vcc_clp                           8.97432
+xopa.vee_clp                         0.0352143
+xopa.n1356345                         -1.32055
+xopa.n1356333                         -1.32055
+xopa.n1356409                          7.02945
+xopa.n1356429                          7.02945
+xopa.vsense                            2.82945
+xopa.n28678                            3.00002
+xopa.n28438                            3.00002
+xopa.n24207                                  3
+xopa.n31303                            3.00002
+xopa.n31389                                9.1
+xopa.n31737                         -0.0999955
+xopa.n32236                            3.00002
+xopa.n32510                            4.49998
+xopa.n46041                            -11.022
+xopa.n55560                                4.5
+xopa.n57321                                4.5
+xopa.n59739                               73.4
+xopa.n59743                                4.5
+xopa.n59881                                4.5
+xopa.n59905                              -64.4
+xopa.n65567                              269.5
+xopa.n65575                                4.5
+xopa.n65713                                4.5
+xopa.n65737                             -260.5
+xopa.n72064                            8.97432
+xopa.n72073                          0.0352143
+xopa.v11                                   4.5
+xopa.v12                                   4.5
+xopa.n81756                                4.5
+xopa.n161737                             4.503
+xopa.n1356115                          7.02945
+xopa.n1356061                         -1.32055
+xopa.x_u1.7                           0.833786
+xopa.x_u1.8                           0.833786
+xopa.x_u1.3                                  0
+xopa.x_u1.6                                  0
+xopa.x_u1.4                                  0
+xopa.x_u1.5                                  0
+xopa.x_u10.gvo+_int1                         0
+xopa.x_u10.gvo-_int1                         0
+xopa.x_u11.gvo+_int1                         0
+xopa.x_u11.gvo-_int1                         0
+xopa.x_u12.gvo+_int1                         0
+xopa.x_u12.gvo-_int1                         0
+xopa.x_u16.gsw+_int1                         0
+xopa.x_u18.g1_int1                 2.56803e-05
+xopa.x_u18.g1_int2                  0.00300182
+xopa.x_u19.g1_int1                 3.52098e-05
+xopa.x_u19.g1_int2                 -0.00300182
+xopa.x_u22.g1_int1                           0
+xopa.x_u23.g1_int1                           0
+xopa.x_u26.g1_int1                 3.00182e-06
+xopa.x_u27.g1_int1                           0
+xopa.x_u30.g1_int1                -2.24244e-11
+xopa.x_u31.g1_int1                -1.67065e-06
+xopa.x_u32.g1_int1                    -15.5221
+xopa.x_u35.g1_int1                           0
+xopa.x_u36.3                                 0
+xopa.x_u36.5                                 0
+xopa.x_u37.3                                 0
+xopa.x_u37.5                                 0
+xopa.x_u4.e1_int1                    1.712e-05
+xopa.x_u6.g1_int1                     -1.49998
+final                                  2.99991
+b.xopa.x_u6.bg1#branch                       0
+b.xopa.x_u4.be1#branch                       0
+b.xopa.x_u35.bg1#branch                      0
+b.xopa.x_u32.bg1#branch                      0
+b.xopa.x_u31.bg1#branch                      0
+b.xopa.x_u30.bg1#branch                      0
+b.xopa.x_u27.bg1#branch                      0
+b.xopa.x_u26.bg1#branch                      0
+b.xopa.x_u23.bg1#branch                      0
+b.xopa.x_u22.bg1#branch                      0
+b.xopa.x_u19.bg1#branch                      0
+b.xopa.x_u18.bg1#branch                      0
+b.xopa.x_u16.bgsw+#branch                    0
+b.xopa.x_u12.bgvo-#branch                    0
+b.xopa.x_u12.bgvo+#branch                    0
+b.xopa.x_u11.bgvo-#branch                    0
+b.xopa.x_u11.bgvo+#branch                    0
+b.xopa.x_u10.bgvo-#branch                    0
+b.xopa.x_u10.bgvo+#branch                    0
+bsig#branch                                  0
+h.xopa.x_h3.h_h3#branch                      0
+v.xopa.x_h3.vh_h3#branch           8.30415e-09
+h.xopa.x_h2.h_h2#branch                      0
+v.xopa.x_h2.vh_h2#branch           -8.4042e-09
+h.xopa.x_h1.h_h1#branch           -2.99745e-15
+v.xopa.x_h1.vh_h1#branch           3.00182e-06
+lsel#branch                                  0
+e.xopa.x_u4.e1#branch             -2.27504e-13
+e.xopa.x_u37.e1#branch                       0
+e.xopa.x_u36.e1#branch                       0
+e.xopa.x_u1.e3#branch               5.4775e-12
+e.xopa.x_u1.e2#branch                        0
+e.xopa.x_u1.e1#branch                        0
+e.xopa.e_e3#branch                 1.49978e-12
+e.xopa.e_e2#branch                           0
+e.xopa.e_e1#branch                -4.98274e-11
+v.xopa.v_v_orp#branch                        0
+v.xopa.v_v_orn#branch                        0
+v.xopa.v_v_iscp#branch               -6.89e-11
+v.xopa.v_v_iscn#branch                6.89e-11
+v.xopa.v_v_grp#branch                -2.65e-10
+v.xopa.v_v_grn#branch                 2.65e-10
+v.xopa.v_vcm_min#branch            4.59999e-12
+v.xopa.v_vcm_max#branch               -4.6e-12
+vsup#branch                          -0.016356
+vmod#branch                                  0
+a.xopa.x_u19.ag1#branch_1_0                  0
+a.xopa.x_u18.ag1#branch_1_0                  0
+
+
+No. of Data Rows : 572629
+binary raw file "D:/ms_xsp/s05_selectivity_20261029/B_output_square50.raw"
+ngspice-47 done

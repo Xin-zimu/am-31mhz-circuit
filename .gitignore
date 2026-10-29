@@ -32,6 +32,14 @@ debug/ewb-decoder/
 node_modules/
 *.exe
 *.zip
+*.7z
+*.rar
+
+# 云盘归档包（2026-10-29 建立）：只留本机/云盘，不入 git。
+# 恢复方法见 archive_20261029/README_归档说明.md；校验清单可另行以文本保存。
+# 注意：tmp/ 未忽略——其中 tmp/lc02/ 被 S04-LC-02 文档引用为数据位置，
+# 需按证据策略单独判断是否入库，不能因“是临时目录”而整体忽略。
+archive_*/
 
 # 系统与编辑器杂项
 Thumbs.db

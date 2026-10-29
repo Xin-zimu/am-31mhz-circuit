@@ -1,0 +1,44 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * s05 selection fixture; not wireless qualification
+
+Doing analysis at TEMP = 60.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+mod                                          0
+src                                          0
+input                                        0
+port                                         0
+ln                                           0
+vcc                                          9
+b1                                     1.51315
+c1                                     5.57824
+e1                                     0.87035
+eb1                                   0.756826
+b2                                     1.51315
+c2                                     5.57824
+e2                                     0.87035
+eb2                                   0.756826
+bb                                     4.30505
+ee                                     3.63739
+rf                                 5.73154e-18
+an                                 5.73211e-18
+det                               -2.57809e-17
+out                               -2.46236e-17
+bsig#branch                                  0
+lsel#branch                                  0
+vsup#branch                         -0.0156938
+vmod#branch                                  0
+
+
+No. of Data Rows : 626139
+binary raw file "D:/ms_xsp/s05_selectivity_20261029/B_check_temp60.raw"
+ngspice-47 done

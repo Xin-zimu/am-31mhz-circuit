@@ -1,0 +1,42 @@
+{
+  "name": "A_noise",
+  "config": {
+    "kind": "A",
+    "cs": 22,
+    "lp": 470,
+    "ct": 15,
+    "cp": 1,
+    "q": 50,
+    "rs": 50,
+    "reu": 22,
+    "ceb": 10000,
+    "inter": 1000,
+    "temp": 27,
+    "ac": 0.01,
+    "m": 0.5,
+    "wave": "sine",
+    "duty": 0.5,
+    "blocker_f": 1600000.0,
+    "blocker_a": 0,
+    "phase": 0,
+    "step": 0.5,
+    "stop": 400,
+    "start": 150,
+    "lscale": 1,
+    "cscale": 1,
+    "supply": 9
+  },
+  "elapsed_s": 0.05737760000010894,
+  "net_sha256": "807c8917774126eb6460ea64e1f17ae97b49424bab6d39e22e08b5f7e7309058",
+  "raw_sha256": "d2c506303767fa3682842df46f402d28910dbce8013eedd1b0297add5fb33d47",
+  "raw_path": "D:\\ms_xsp\\s05_selectivity_20261029\\A_noise.raw",
+  "log_sha256": "a912f8e135b8e5f48200fa722e2360b799fba463f8a26c9889b0fcc4ff10b1bf",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "metrics": {
+    "en31": 1.5003922611444085e-09,
+    "nf31_db": 4.339580048500194,
+    "output_noise_rms_100k_300meg": 0.0010640670076502825,
+    "gain_normalized_bw_hz": 11604676.552454308,
+    "note": "Finite 0.1-300 MHz model integration, DC linearized test load; no detector noise or external noise"
+  }
+}

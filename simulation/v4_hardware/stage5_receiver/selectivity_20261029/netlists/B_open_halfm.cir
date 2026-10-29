@@ -1,0 +1,72 @@
+* S05 selection fixture; not wireless qualification
+VMOD mod 0 PULSE(-1 1 0 50n 50n 2.495e-05 50u)
+BSIG src 0 V=0.01*(1+0.25*v(mod))*sin(2*pi*31meg*time)+0*sin(2*pi*1600000.0*time+0)
+RSOURCE src input 50
+* Capacitive-input parallel resonator before any gain stage.
+CSEL input port 27p
+RLOSS port ln 1.83092019851
+LSEL ln 0 4.7e-07
+CSELF port 0 1p
+CTUNE port 0 15p
+VSUP vcc 0 9
+CIN1 port b1 1n
+RBT1 vcc b1 22k
+RBB1 b1 0 4.7k
+Q1 c1 b1 e1 2N3904
+RC1 vcc c1 1000
+REU1 e1 eb1 33
+REB1 eb1 0 220
+CEB1 eb1 0 330p
+CIN2 c1 b2 100p
+RBT2 vcc b2 22k
+RBB2 b2 0 4.7k
+Q2 c2 b2 e2 2N3904
+RC2 vcc c2 1000
+REU2 e2 eb2 33
+REB2 eb2 0 220
+CEB2 eb2 0 330p
+CBUF c2 bb 100p
+RBTB vcc bb 10k
+RBBB bb 0 10k
+QBUF vcc bb ee 2N3904
+REBUF ee 0 470
+COBUF ee rf 1n
+RRF rf 0 1000
+* Actual Nexperia BAT85 manufacturer model; not BAT85S
+RCONNECT rf an 0.1
+XDET an det BAT85
+RDET det 0 4700
+CDET det 0 100p
+RFILT det out 4700
+CFILT out 0 100p
+RLOAD out 0 1000000000000000.0
+.SUBCKT BAT85 1 2
+D1 1 2 BAT85
+R1 1 2 5.416E+7
+.MODEL BAT85 D
++ IS = 2.076E-7
++ N = 1.023
++ BV = 33
++ IBV = 10E-6
++ RS = 2.326
++ CJO = 1.21E-11
++ VJ = 0.1319
++ M = 0.2904
++ EG = 0.69
++ XTI = 2
+.ENDS
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+
+.options method=trap reltol=1e-4 trtol=3 abstol=1p vntol=1u temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(src) v(port) v(rf) v(det) v(out) v(c1) v(b1) v(e1) v(c2) v(b2) v(e2) v(ee) i(vsup)
+tran 0.5n 400u 150u 0.5n
+write D:/ms_xsp/s05_selectivity_20261029/B_open_halfm.raw
+quit
+.endc
+.end

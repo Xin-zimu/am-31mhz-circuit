@@ -1,0 +1,19 @@
+* Baseband-only startup fixture
+VSUP vcc 0 PWL(0 0 1m 9)
+VREPLAY stim 0 PULSE(0.11 0.56 2m 1u 1u 2.4e-05 50u)
+RREPLAY stim out 4700
+* Passive 3 V reference, isolated output, noninverting gain.
+RVT vcc ref 20k
+RVB ref 0 10k
+CVREF ref 0 10u
+CCOUP out bbin 100n
+RBIAS bbin ref 100k
+RG neg ref 10k
+RFB bbo neg 102000
+XOPA bbin neg vcc 0 bbo OPAx197
+ROUT bbo final 100
+RBBLOAD final 0 1000000.0
+CLOAD final 0 100p
+.include "D:/ms_xsp/s05_selectivity_20261029/OPAx197.LIB"
+.options method=trap reltol=1e-4 trtol=3 temp=27
+.end
