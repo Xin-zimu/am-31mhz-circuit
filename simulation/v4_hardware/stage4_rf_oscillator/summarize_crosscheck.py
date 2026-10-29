@@ -47,12 +47,27 @@ def main():
     duration=None
     if 'ng_2ms_003125ns' in results and 'ng_3ms_003125ns' in results:
         duration=difference(results['ng_2ms_003125ns']['result'],results['ng_3ms_003125ns']['result'])
+        duration['numerical_screen_passed']=(abs(duration['frequency_delta_ppm'])<10
+            and abs(duration['vpp_change_percent'])<1
+            and abs(duration['crystal_power_change_percent'])<1
+            and all(results[name]['result']['steady_window_screen']['passed']
+                    for name in ('ng_2ms_003125ns','ng_3ms_003125ns')))
+    extrapolations=[]
+    for a,b in zip(sweep,sweep[1:]):
+        coarse=a['result']['frequency_hz']; fine=b['result']['frequency_hz']
+        # Conditional estimate, not a measured zero-step frequency or error guarantee.
+        estimated=fine+(fine-coarse)/3
+        extrapolations.append({'from_step_ns':a['input']['step_ns'],
+            'to_step_ns':b['input']['step_ns'],'assumed_order':2,
+            'estimated_zero_step_frequency_hz':estimated,
+            'estimated_offset_from_31mhz_ppm':(estimated/31e6-1)*1e6})
     summary={'date':'2026-10-17','c518062_qualified':False,'crystal_parameters_still_assumed':True,
         'no_component_or_model_parameter_changes':True,'cross_solver_1ms':cross,
         'step_comparisons':pairs,'duration_2ms_to_3ms':duration,
+        'conditional_richardson_estimates':extrapolations,
         'cases':{name:{'step_ns':v['input']['step_ns'],'stop_us':v['input']['stop_us'],
             **{key:v['result'][key] for key in ('output_vpp','output_dc_v','frequency_hz','crystal_motional_power_w','mean_5v_rail_power_w','steady_window_screen')}} for name,v in results.items()}}
-    (OUT/'comparison.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
+    (OUT/'comparison.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8',newline='\n')
     runtime={'name':'ngspice-47 64-bit console','source':'https://sourceforge.net/projects/ngspice/files/ng-spice-rework/47/',
         'archive_url':'https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/47/ngspice-47_64.7z',
         'archive_sha256':sha(WORK/'ngspice47_verified.7z'),
@@ -62,11 +77,11 @@ def main():
         'options':'trap, maxord=2, reltol=1e-3, trtol=7, TEMP=TNOM=27 C; num_threads=1; -n; binary raw',
         'install_scope':'portable task-local directory; no system PATH or user init-file changes'}
     assert runtime['archive_sha256']==runtime['published_archive_sha256']
-    (OUT/'runtime_provenance.json').write_text(json.dumps(runtime,indent=2),encoding='utf-8')
+    (OUT/'runtime_provenance.json').write_text(json.dumps(runtime,indent=2)+'\n',encoding='utf-8',newline='\n')
     files=[p for p in OUT.iterdir() if p.is_file() and p.name not in ('evidence_manifest.json',) and p.suffix not in ('.png','.svg','.npz')]
     manifest={'date':'2026-10-17','files':{p.name:{'bytes':p.stat().st_size,'sha256':sha(p)} for p in files},
         'scripts':{p.name:sha(p) for p in [Path(__file__),Path(__file__).with_name('crosscheck_oscillator.py'),Path(__file__).with_name('verify_oscillator.py')]}}
-    (OUT/'evidence_manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
+    (OUT/'evidence_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(json.dumps({'cases':len(results),'cross_solver':cross,'step_comparisons':pairs,'duration':duration},indent=2))
     sys.path.insert(0,'D:/ms_xsp/s04_plot_runtime')
     import matplotlib
@@ -85,10 +100,16 @@ def main():
     chosen='ng_3ms_003125ns' if 'ng_3ms_003125ns' in results else sweep[-1]['result']['name']
     data=np.load(OUT/(chosen+'.plot.npz'),allow_pickle=True)
     axes[2].plot(data['t_us']*1000,data['emit'],color='#197f96')
-    axes[2].set(xlabel='Time relative to end (ns)',ylabel='Emitter voltage (V)',title=chosen.replace('ng_','').replace('_',' / '))
+    chosen_input=results[chosen]['input']
+    axes[2].set(xlabel='Time relative to end (ns)',ylabel='Emitter voltage (V)',
+                title=f"{chosen_input['stop_us']/1000:g} ms / {chosen_input['step_ns']:g} ns")
     fig.suptitle('Unchanged 5 V oscillator | ngspice cross-check | Crystal parameters remain assumptions',fontsize=13,fontweight='bold')
     fig.savefig(OUT/'crosscheck_evidence.png',dpi=170)
     fig.savefig(OUT/'crosscheck_evidence.svg')
+    svg=OUT/'crosscheck_evidence.svg'
+    # Normalize generated SVG formatting without touching recorded input or raw data.
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text(encoding='utf-8').splitlines())+'\n',
+                   encoding='utf-8',newline='\n')
 
 
 if __name__=='__main__': main()

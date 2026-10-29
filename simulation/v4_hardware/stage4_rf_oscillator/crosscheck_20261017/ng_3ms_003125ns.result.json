@@ -1,0 +1,211 @@
+{
+  "name": "ng_3ms_003125ns",
+  "c518062_qualified": false,
+  "points": 3200001,
+  "end_s": 0.003,
+  "tail_window_s": [
+    0.00298000001421843,
+    0.003
+  ],
+  "output_dc_v": 1.9577545917554464,
+  "output_vpp": 0.6139362177598928,
+  "output_ac_rms_v": 0.20283263676694988,
+  "frequency_hz": 30999868.55070105,
+  "frequency_error_ppm": -4.240299966151717,
+  "motional_current_rms_a": 0.00144252712353636,
+  "crystal_motional_power_w": 6.242653506414256e-05,
+  "mean_supply_current_a": 0.0006639496381950599,
+  "mean_5v_rail_power_w": 0.0033197481909752998,
+  "crystal_terminal_vpp": 1.0439014149633272,
+  "interpretation": "Exploratory single-mode model; not crystal or system acceptance",
+  "envelope_5us": [
+    {
+      "start_us": 2905.0,
+      "emit_vpp": 0.6139361873454985,
+      "motional_peak_a": 0.0020400759033751825
+    },
+    {
+      "start_us": 2910.0,
+      "emit_vpp": 0.6139362022991364,
+      "motional_peak_a": 0.0020400759081926623
+    },
+    {
+      "start_us": 2914.9999999999995,
+      "emit_vpp": 0.61393620394921,
+      "motional_peak_a": 0.0020400759134160396
+    },
+    {
+      "start_us": 2919.9999999999995,
+      "emit_vpp": 0.6139361811042068,
+      "motional_peak_a": 0.002040075916040607
+    },
+    {
+      "start_us": 2924.999999999999,
+      "emit_vpp": 0.613936205521942,
+      "motional_peak_a": 0.0020400759219221243
+    },
+    {
+      "start_us": 2929.999999999999,
+      "emit_vpp": 0.6139362070211247,
+      "motional_peak_a": 0.002040075925242135
+    },
+    {
+      "start_us": 2934.9999999999986,
+      "emit_vpp": 0.6139361988958383,
+      "motional_peak_a": 0.0020400759307337424
+    },
+    {
+      "start_us": 2939.9999999999986,
+      "emit_vpp": 0.6139361950274149,
+      "motional_peak_a": 0.0020400759328609297
+    },
+    {
+      "start_us": 2944.999999999998,
+      "emit_vpp": 0.6139362098131309,
+      "motional_peak_a": 0.002040075936535324
+    },
+    {
+      "start_us": 2949.999999999998,
+      "emit_vpp": 0.6139362015600285,
+      "motional_peak_a": 0.0020400759409451297
+    },
+    {
+      "start_us": 2954.999999999998,
+      "emit_vpp": 0.613936197623205,
+      "motional_peak_a": 0.0020400759427801063
+    },
+    {
+      "start_us": 2959.9999999999977,
+      "emit_vpp": 0.613936212350932,
+      "motional_peak_a": 0.0020400759460628137
+    },
+    {
+      "start_us": 2964.9999999999977,
+      "emit_vpp": 0.6139362135321342,
+      "motional_peak_a": 0.0020400759502035015
+    },
+    {
+      "start_us": 2969.9999999999973,
+      "emit_vpp": 0.6139362051085746,
+      "motional_peak_a": 0.0020400759517755773
+    },
+    {
+      "start_us": 2974.9999999999973,
+      "emit_vpp": 0.6139362010832985,
+      "motional_peak_a": 0.002040075955954457
+    },
+    {
+      "start_us": 2979.999999999997,
+      "emit_vpp": 0.6139362157323329,
+      "motional_peak_a": 0.0020400759587069217
+    },
+    {
+      "start_us": 2984.999999999997,
+      "emit_vpp": 0.613936207207838,
+      "motional_peak_a": 0.002040075962492338
+    },
+    {
+      "start_us": 2989.9999999999964,
+      "emit_vpp": 0.6139362031317337,
+      "motional_peak_a": 0.0020400759637224652
+    },
+    {
+      "start_us": 2994.9999999999964,
+      "emit_vpp": 0.6139362177335457,
+      "motional_peak_a": 0.0020400759662040358
+    }
+  ],
+  "last_four_envelopes_relative_span": 2.3783923673658937e-08,
+  "tail_10us_windows": [
+    {
+      "start_us": 2900.0000000000005,
+      "vpp": 0.6139362005685216,
+      "dc_v": 1.9577551786798175,
+      "frequency_hz": 30999868.49528917,
+      "crystal_w": 6.242666816361957e-05
+    },
+    {
+      "start_us": 2910.0000000000005,
+      "vpp": 0.61393620394921,
+      "dc_v": 1.9577551724467313,
+      "frequency_hz": 30999868.534571517,
+      "crystal_w": 6.242666320295973e-05
+    },
+    {
+      "start_us": 2920.0000000000005,
+      "vpp": 0.613936205521942,
+      "dc_v": 1.957755160393763,
+      "frequency_hz": 30999868.499978773,
+      "crystal_w": 6.242665811364161e-05
+    },
+    {
+      "start_us": 2930.0000000000005,
+      "vpp": 0.6139362084373856,
+      "dc_v": 1.9577551575897796,
+      "frequency_hz": 30999868.524485566,
+      "crystal_w": 6.2426652908109e-05
+    },
+    {
+      "start_us": 2940.0000000000005,
+      "vpp": 0.6139362098131309,
+      "dc_v": 1.9577551477029649,
+      "frequency_hz": 30999868.49688609,
+      "crystal_w": 6.242664758907361e-05
+    },
+    {
+      "start_us": 2950.0000000000005,
+      "vpp": 0.6139362111122619,
+      "dc_v": 1.9577551381380909,
+      "frequency_hz": 30999868.53107286,
+      "crystal_w": 6.242664215662304e-05
+    },
+    {
+      "start_us": 2960.0000000000005,
+      "vpp": 0.6139362135342743,
+      "dc_v": 1.957755131276231,
+      "frequency_hz": 30999868.550738987,
+      "crystal_w": 6.242663662068289e-05
+    },
+    {
+      "start_us": 2970.0000000000005,
+      "vpp": 0.613936214658432,
+      "dc_v": 1.9577551220147125,
+      "frequency_hz": 30999868.519512724,
+      "crystal_w": 6.24266309749693e-05
+    },
+    {
+      "start_us": 2980.0000000000005,
+      "vpp": 0.6139362167683344,
+      "dc_v": 1.9577551130844058,
+      "frequency_hz": 30999868.502560284,
+      "crystal_w": 6.242662523067633e-05
+    },
+    {
+      "start_us": 2990.0000000000005,
+      "vpp": 0.6139362177481218,
+      "dc_v": 1.9577547428536854,
+      "frequency_hz": 30999868.52338768,
+      "crystal_w": 6.242655889731946e-05
+    }
+  ],
+  "steady_window_screen": {
+    "scope": "Exploratory model only, not C518062 acceptance",
+    "criteria": "last 100 us: Vpp span <1%, fitted drift <1%, f span <10 ppm, DC span <10 mV, crystal P span <2%",
+    "passed": true,
+    "reason": "evaluated ten consecutive 10 us windows",
+    "vpp_relative_span": 2.7982712049138794e-08,
+    "fitted_vpp_relative_drift_100us": 3.0268915268638816e-08,
+    "frequency_span_ppm": 0.0017887113713956429,
+    "dc_span_v": 4.358261320724921e-07,
+    "crystal_power_relative_span": 1.7503152970407653e-06
+  },
+  "sha256": {
+    "cir": "10dc3a138f395ddf38519d316b148e7df0bf8d7480a9180bf6ae38f4bd998052",
+    "cmd": "c65a2a1b527be8fe47931c8251f96481bd97e6635e41d08dd4ec2549a22aaab9",
+    "raw": "100f2a05941cb142013873dd9cb1f02f69d6f48ec231ca0755ba4c54f791b151",
+    "log": "6145be33273a1f23470cee62f84b9c96e248a7735f37bc5acef4f5a4a19dac6a",
+    "input.json": "6421c05e507d3203a014003781e840f78128a6da028683b0019fec8d4a7e0ca9"
+  },
+  "solver": "ngspice-47",
+  "no_component_or_model_parameter_changes": true
+}

@@ -1,0 +1,25 @@
+* Exploratory separate 2N3904 emitter follower, NOT integrated with oscillator
+* Ideal sine input explicitly bypasses oscillator startup/amplitude uncertainty
+VSUP vcc 0 5
+VIN drive 0 SIN(0 1.2 31meg) AC 1
+CIN drive b 1n
+RBT vcc b 10k
+RBB b 0 10k
+QBUF vcc b e 2N3904
+RE e 0 330
+COUT e out 1n
+RLOAD out 0 10000
+CLOAD out 0 10p
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap reltol=1e-3 trtol=7
+.control
+set filetype=binary
+save v(drive) v(b) v(e) v(out) i(vsup)
+tran .0625n 100u 90u .0625n
+write D:/ms_xsp/s04_3904_20261029/buf_target_10k.raw
+quit
+.endc
+.end

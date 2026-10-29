@@ -1,0 +1,22 @@
+{
+  "name": "q3904_c22_fine_3ms",
+  "c5": 2.2,
+  "rm": 30,
+  "cm": 10,
+  "c0": 3,
+  "stray": 1,
+  "step": 0.0625,
+  "stop": 3.0,
+  "model_source": "https://home.uncg.edu/~ehhellen/spice_stuff.html",
+  "source_sha256": "633ca46836b41e25962063253f6125aade1faf5741261c4f8b7d44e8a92f382d",
+  "net_sha256": "7f60291e67f58f943fe37d834c8c23a9a6d350684766bb71f3c7abcab21d4054",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "fs_hz": 30992621.682627853,
+  "lm_h": 0.002637081993366924,
+  "probe_r_ohm": 10000000.0,
+  "probe_c_pf": 12,
+  "c518062_qualified": false,
+  "delivered_transistor_model_verified": false,
+  "ideal_voltage_supply": true,
+  "physical_layout_parasitics_extracted": false
+}

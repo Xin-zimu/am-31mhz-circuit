@@ -42,7 +42,37 @@
       "numerical_screen_passed": true
     }
   ],
-  "duration_2ms_to_3ms": null,
+  "duration_2ms_to_3ms": {
+    "frequency_delta_hz": -0.06257381662726402,
+    "frequency_delta_ppm": -0.002018518796553792,
+    "vpp_change_percent": 0.0027218183875410418,
+    "crystal_power_change_percent": 0.006778716340716251,
+    "rail_power_change_percent": 0.00018778921708761942,
+    "numerical_screen_passed": true
+  },
+  "conditional_richardson_estimates": [
+    {
+      "from_step_ns": 0.25,
+      "to_step_ns": 0.125,
+      "assumed_order": 2,
+      "estimated_zero_step_frequency_hz": 30999963.558681034,
+      "estimated_offset_from_31mhz_ppm": -1.1755264183177516
+    },
+    {
+      "from_step_ns": 0.125,
+      "to_step_ns": 0.0625,
+      "assumed_order": 2,
+      "estimated_zero_step_frequency_hz": 30999964.269786842,
+      "estimated_offset_from_31mhz_ppm": -1.1525875212026193
+    },
+    {
+      "from_step_ns": 0.0625,
+      "to_step_ns": 0.03125,
+      "assumed_order": 2,
+      "estimated_zero_step_frequency_hz": 30999964.33756564,
+      "estimated_offset_from_31mhz_ppm": -1.150401108374055
+    }
+  ],
   "cases": {
     "ng_1ms_025ns": {
       "step_ns": 0.25,
@@ -142,6 +172,26 @@
         "frequency_span_ppm": 0.04980752432249783,
         "dc_span_v": 0.00013769259288776148,
         "crystal_power_relative_span": 0.00040465097042614097
+      }
+    },
+    "ng_3ms_003125ns": {
+      "step_ns": 0.03125,
+      "stop_us": 3000.0,
+      "output_vpp": 0.6139362177598928,
+      "output_dc_v": 1.9577545917554464,
+      "frequency_hz": 30999868.55070105,
+      "crystal_motional_power_w": 6.242653506414256e-05,
+      "mean_5v_rail_power_w": 0.0033197481909752998,
+      "steady_window_screen": {
+        "scope": "Exploratory model only, not C518062 acceptance",
+        "criteria": "last 100 us: Vpp span <1%, fitted drift <1%, f span <10 ppm, DC span <10 mV, crystal P span <2%",
+        "passed": true,
+        "reason": "evaluated ten consecutive 10 us windows",
+        "vpp_relative_span": 2.7982712049138794e-08,
+        "fitted_vpp_relative_drift_100us": 3.0268915268638816e-08,
+        "frequency_span_ppm": 0.0017887113713956429,
+        "dc_span_v": 4.358261320724921e-07,
+        "crystal_power_relative_span": 1.7503152970407653e-06
       }
     }
   }

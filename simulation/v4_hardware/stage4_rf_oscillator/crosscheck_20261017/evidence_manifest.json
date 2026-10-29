@@ -18,8 +18,8 @@
       "sha256": "c3bfbb395cc007cd1b0f8d635357f39392859b091645b76dea3a2e93a9e4200b"
     },
     "comparison.json": {
-      "bytes": 6273,
-      "sha256": "c1001cc4d3a4209b63affa756a4a23cd63a66c3bfe5108f7d12f593cd01de275"
+      "bytes": 8030,
+      "sha256": "69829715b47adc0a133aaf852fda48456a375942b62f4ae1fbfdc1ba1282b3a8"
     },
     "execution_plan.json": {
       "bytes": 1187,
@@ -189,13 +189,45 @@
       "bytes": 256,
       "sha256": "47c1a81ce3b10a26566cac463473a8af9461c4e82388f1d4c599bb71b8400af4"
     },
+    "ng_3ms_003125ns.cir": {
+      "bytes": 2653,
+      "sha256": "10dc3a138f395ddf38519d316b148e7df0bf8d7480a9180bf6ae38f4bd998052"
+    },
+    "ng_3ms_003125ns.cmd": {
+      "bytes": 204,
+      "sha256": "c65a2a1b527be8fe47931c8251f96481bd97e6635e41d08dd4ec2549a22aaab9"
+    },
+    "ng_3ms_003125ns.console.txt": {
+      "bytes": 564,
+      "sha256": "9cce460eb391335f401e504e217eb9c51dc462e2371cb542190f40803eb66c8a"
+    },
+    "ng_3ms_003125ns.input.json": {
+      "bytes": 1256,
+      "sha256": "6421c05e507d3203a014003781e840f78128a6da028683b0019fec8d4a7e0ca9"
+    },
+    "ng_3ms_003125ns.log": {
+      "bytes": 436,
+      "sha256": "6145be33273a1f23470cee62f84b9c96e248a7735f37bc5acef4f5a4a19dac6a"
+    },
+    "ng_3ms_003125ns.raw": {
+      "bytes": 153600418,
+      "sha256": "100f2a05941cb142013873dd9cb1f02f69d6f48ec231ca0755ba4c54f791b151"
+    },
+    "ng_3ms_003125ns.result.json": {
+      "bytes": 6601,
+      "sha256": "bd935b66ea0b7ecd50915f09d2237411a90244b53cd34ef23af2b128e0363c27"
+    },
+    "ng_3ms_003125ns.status.json": {
+      "bytes": 247,
+      "sha256": "6447d35d86300b2e37d9089700913ebaca274cd74a86717db137cb63c4b91117"
+    },
     "runtime_provenance.json": {
-      "bytes": 893,
-      "sha256": "88ef97da5d8e55d301c01dd708c0367d284db325b6f4387c3f15d0a3f40677a8"
+      "bytes": 883,
+      "sha256": "f2d1ae931b95cf7ff4de5d906d2b51bdd85cb521331e5468296ebecbe0c9242e"
     }
   },
   "scripts": {
-    "summarize_crosscheck.py": "ec5c99bfeceffcd7ecdbe3530a1b935e1779dc8c9f326f32f84dc7264cfefe0d",
+    "summarize_crosscheck.py": "f188285be264637738e282e42793a1aca4e984a68e7089277f737fefbee863a2",
     "crosscheck_oscillator.py": "d47c8aa1168540a34404f8085c14c71a84335b6d3ed5bd61937527a9bfc4b4af",
     "verify_oscillator.py": "e17440ed4c58b47dc5be3ee6d497d5a6f63bacb6186c617e8fd4ed2bc3af6f54"
   }

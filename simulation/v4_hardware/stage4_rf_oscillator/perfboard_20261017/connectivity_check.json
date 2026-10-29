@@ -1,0 +1,13 @@
+{
+  "component_count": 13,
+  "jumper_count": 20,
+  "net_count": 5,
+  "unique_component_holes": true,
+  "all_expected_nets_connected": true,
+  "no_cross_net_wire": true,
+  "back_view_horizontal_mirror": true,
+  "physical_build_tested": false,
+  "transistor_variant_simulated": false,
+  "crystal_parameters_qualified": false,
+  "mirror_holes_checked": 168
+}

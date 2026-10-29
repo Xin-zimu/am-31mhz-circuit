@@ -1,0 +1,22 @@
+{
+  "name": "q3904_c47_2ms",
+  "c5": 4.7,
+  "rm": 30,
+  "cm": 10,
+  "c0": 3,
+  "stray": 1,
+  "step": 0.125,
+  "stop": 2,
+  "model_source": "https://home.uncg.edu/~ehhellen/spice_stuff.html",
+  "source_sha256": "633ca46836b41e25962063253f6125aade1faf5741261c4f8b7d44e8a92f382d",
+  "net_sha256": "e505780c57751be5d709b4d2b19297377ef07c28d6d2779bb086575d365721b5",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "fs_hz": 30992621.682627853,
+  "lm_h": 0.002637081993366924,
+  "probe_r_ohm": 10000000.0,
+  "probe_c_pf": 12,
+  "c518062_qualified": false,
+  "delivered_transistor_model_verified": false,
+  "ideal_voltage_supply": true,
+  "physical_layout_parasitics_extracted": false
+}

@@ -1,0 +1,139 @@
+{
+  "name": "q3904_stress_2ms",
+  "seconds": 36.625,
+  "points": 800001,
+  "tail": {
+    "vpp": 2.699252377169614e-09,
+    "dc": 1.843591049639675,
+    "frequency_hz": 30998321.929459687,
+    "sense_vpp": 4.174755759978055e-07,
+    "crystal_power_w": 3.1741683220960144e-21,
+    "supply_power_w": 0.0032031818625420758,
+    "base_dc": 2.483829870523605
+  },
+  "windows": [
+    {
+      "vpp": 3.303907814000695e-09,
+      "dc": 1.8435910496332388,
+      "frequency_hz": 30998324.726373937,
+      "sense_vpp": 3.4724057440538303e-07,
+      "crystal_power_w": 4.875770626818791e-21,
+      "supply_power_w": 0.0032031818628616374,
+      "base_dc": 2.483829870521371
+    },
+    {
+      "vpp": 3.221625632932046e-09,
+      "dc": 1.8435910496341794,
+      "frequency_hz": 30998323.603401184,
+      "sense_vpp": 3.2708504993372856e-07,
+      "crystal_power_w": 4.635488592809849e-21,
+      "supply_power_w": 0.0032031818628157497,
+      "base_dc": 2.4838298705217
+    },
+    {
+      "vpp": 3.1412039636080635e-09,
+      "dc": 1.843591049635071,
+      "frequency_hz": 30998322.76662497,
+      "sense_vpp": 3.0810068119002665e-07,
+      "crystal_power_w": 4.407059734059909e-21,
+      "supply_power_w": 0.0032031818627724935,
+      "base_dc": 2.4838298705220154
+    },
+    {
+      "vpp": 3.062670117515154e-09,
+      "dc": 1.8435910496359007,
+      "frequency_hz": 30998323.15639039,
+      "sense_vpp": 2.9021694769593154e-07,
+      "crystal_power_w": 4.189894145128079e-21,
+      "supply_power_w": 0.0032031818627317765,
+      "base_dc": 2.4838298705223023
+    },
+    {
+      "vpp": 2.9863684858355555e-09,
+      "dc": 1.8435910496366965,
+      "frequency_hz": 30998323.230250698,
+      "sense_vpp": 2.733687729516987e-07,
+      "crystal_power_w": 3.983422680543821e-21,
+      "supply_power_w": 0.003203181862693389,
+      "base_dc": 2.4838298705225874
+    },
+    {
+      "vpp": 2.911788588022546e-09,
+      "dc": 1.8435910496374321,
+      "frequency_hz": 30998322.58655849,
+      "sense_vpp": 2.574958264389693e-07,
+      "crystal_power_w": 3.7871324335693296e-21,
+      "supply_power_w": 0.003203181862657216,
+      "base_dc": 2.483829870522841
+    },
+    {
+      "vpp": 2.839083856898128e-09,
+      "dc": 1.8435910496381334,
+      "frequency_hz": 30998322.451797407,
+      "sense_vpp": 2.4254125874367816e-07,
+      "crystal_power_w": 3.600506851080228e-21,
+      "supply_power_w": 0.003203181862623144,
+      "base_dc": 2.483829870523088
+    },
+    {
+      "vpp": 2.768444584688723e-09,
+      "dc": 1.8435910496387742,
+      "frequency_hz": 30998322.246739063,
+      "sense_vpp": 2.284518335615715e-07,
+      "crystal_power_w": 3.42307552512005e-21,
+      "supply_power_w": 0.0032031818625909963,
+      "base_dc": 2.4838298705233006
+    },
+    {
+      "vpp": 2.699252377169614e-09,
+      "dc": 1.8435910496393941,
+      "frequency_hz": 30998322.521050163,
+      "sense_vpp": 2.1517724058117693e-07,
+      "crystal_power_w": 3.2543854331215637e-21,
+      "supply_power_w": 0.0032031818625607154,
+      "base_dc": 2.483829870523518
+    },
+    {
+      "vpp": 2.6318758283849775e-09,
+      "dc": 1.8435910496399714,
+      "frequency_hz": 30998321.69538053,
+      "sense_vpp": 2.0267343303626006e-07,
+      "crystal_power_w": 3.093980528182097e-21,
+      "supply_power_w": 0.0032031818625237996,
+      "base_dc": 2.4838298705237123
+    }
+  ],
+  "steady_screen": {
+    "vpp_span": 0.2272972186586697,
+    "vpp_drift_100us": -0.2524181971329587,
+    "frequency_span_ppm": 0.09777927069339731,
+    "dc_span_v": 6.732614465931874e-12,
+    "crystal_power_span": 0.4539509734420393
+  },
+  "steady_screen_pass": false,
+  "signal_detected": false,
+  "raw_path": "D:\\ms_xsp\\s04_3904_20261029\\q3904_stress_2ms.raw",
+  "raw_sha256": "49874ad93a76fa53cb33621d3d905fd690d5a018946d5fccf464a3a83504fee2",
+  "input": {
+    "name": "q3904_stress_2ms",
+    "c5": 4.7,
+    "rm": 100.0,
+    "cm": 5.0,
+    "c0": 7.0,
+    "stray": 3.0,
+    "step": 0.125,
+    "stop": 2,
+    "model_source": "https://home.uncg.edu/~ehhellen/spice_stuff.html",
+    "source_sha256": "633ca46836b41e25962063253f6125aade1faf5741261c4f8b7d44e8a92f382d",
+    "net_sha256": "d08381f1297b41a9f03db433e1cb5d546d15e26599d4dceddb24565442fd4050",
+    "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+    "fs_hz": 30996900.464922518,
+    "lm_h": 0.005272708006194912,
+    "probe_r_ohm": 10000000.0,
+    "probe_c_pf": 12,
+    "c518062_qualified": false,
+    "delivered_transistor_model_verified": false,
+    "ideal_voltage_supply": true,
+    "physical_layout_parasitics_extracted": false
+  }
+}

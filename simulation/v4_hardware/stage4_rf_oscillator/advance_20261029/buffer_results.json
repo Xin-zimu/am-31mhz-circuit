@@ -1,0 +1,41 @@
+[
+  {
+    "name": "buf_small_2k",
+    "source_peak_v": 0.265,
+    "load_r_ohm": 2000,
+    "load_c_pf": 10,
+    "vout_pp": 0.5126598777862745,
+    "vout_dc": 5.381741565060363e-09,
+    "supply_power_w": 0.026016446643720364,
+    "harmonic_2_to_5_ratio": 0.0010540720623673815,
+    "note": "Ideal RF source; no crystal; no numerical step convergence; no integrated verification",
+    "raw_sha256": "dd92d923d870fb2407561ab7cd1d3e4039fb810a136568152d437b4ed8f6e989",
+    "net_sha256": "705bdcea937954806d01032d3e0057ea43a13217e952564fe8a0ccde8aa129b5"
+  },
+  {
+    "name": "buf_target_2k",
+    "source_peak_v": 1.2,
+    "load_r_ohm": 2000,
+    "load_c_pf": 10,
+    "vout_pp": 2.3009796167725582,
+    "vout_dc": 3.610154873206381e-08,
+    "supply_power_w": 0.02627160664779315,
+    "harmonic_2_to_5_ratio": 0.009952102316927045,
+    "note": "Ideal RF source; no crystal; no numerical step convergence; no integrated verification",
+    "raw_sha256": "3f6f44dab0d2dce785dfac2ea587e35e6613e815e50919b92e58fe74963e19a0",
+    "net_sha256": "acd6a49ca2038d9dd7e09ed591fdf60df96ec37d7e8b1db1d01474e7679198f6"
+  },
+  {
+    "name": "buf_target_10k",
+    "source_peak_v": 1.2,
+    "load_r_ohm": 10000,
+    "load_c_pf": 10,
+    "vout_pp": 2.3149452972698543,
+    "vout_dc": 1.8161110610552611e-06,
+    "supply_power_w": 0.02621891968235933,
+    "harmonic_2_to_5_ratio": 0.0069789854878673264,
+    "note": "Ideal RF source; no crystal; no numerical step convergence; no integrated verification",
+    "raw_sha256": "01e15c63476480dab2df7fa83264a41c2ab4bbd978863bac917b8f7e5f95614c",
+    "net_sha256": "03f932225e3fd6e198b5854f25180785510c3484475bf594dfdb400f19a462e7"
+  }
+]
