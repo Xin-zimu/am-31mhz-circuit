@@ -1,0 +1,67 @@
+* S05 isolated AM fixture; Ac is open-circuit carrier peak, not Vpp
+.param Ac=0.08 MODINDEX=0.5
+VMOD mod 0 SIN(0 1 20k)
+BSIG src 0 V=Ac*(1+MODINDEX*v(mod))*sin(2*pi*31meg*time)
+RSOURCE src port 50
+VSUP vcc 0 9
+CIN1 port b1 1n
+RBT1 vcc b1 22k
+RBB1 b1 0 4.7k
+Q1 c1 b1 e1 2N3904
+RC1 vcc c1 1000
+REU1 e1 eb1 47
+REB1 eb1 0 220
+CEB1 eb1 0 10n
+CIN2 c1 b2 1n
+RBT2 vcc b2 22k
+RBB2 b2 0 4.7k
+Q2 c2 b2 e2 2N3904
+RC2 vcc c2 1000
+REU2 e2 eb2 47
+REB2 eb2 0 220
+CEB2 eb2 0 10n
+CBUF c2 bb 1n
+RBTB vcc bb 10k
+RBBB bb 0 10k
+QBUF vcc bb ee 2N3904
+REBUF ee 0 470
+COBUF ee rf 1n
+RRF rf 0 100k
+* Actual Nexperia BAT85 manufacturer model; not BAT85S
+CCOUP rf an 1n
+XDET an det BAT85
+RDET det 0 10000
+CDET det 0 100p
+RFILT det out 1000
+CFILT out 0 470p
+RLOAD out 0 100000
+.SUBCKT BAT85 1 2
+D1 1 2 BAT85
+R1 1 2 5.416E+7
+.MODEL BAT85 D
++ IS = 2.076E-7
++ N = 1.023
++ BV = 33
++ IBV = 10E-6
++ RS = 2.326
++ CJO = 1.21E-11
++ VJ = 0.1319
++ M = 0.2904
++ EG = 0.69
++ XTI = 2
+.ENDS
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+
+.options method=trap reltol=1e-4 abstol=1p vntol=1u trtol=3 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(src) v(mod) v(rf) v(an) v(det) v(out) v(c1) v(e1) v(c2) v(e2) v(ee) i(vsup)
+tran 0.5n 300u 100u 0.5n
+write D:/ms_xsp/s05_receiver_20261029/rx_a0p08.raw
+quit
+.endc
+.end

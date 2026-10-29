@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "runs": 137,
+  "transient_runs": 117,
+  "ac_runs": 10,
+  "noise_runs": 10,
+  "r1_amplitude_step_change_pct": 0.08552676111097668,
+  "r1_amplitude_longer_time_change_pct": -7.885547326225151e-07,
+  "r1_square_step_change_pp": -0.00011329913503743683,
+  "r1_half_modulation_linearity_error_pct": 2.0922525390911773,
+  "r1_quarter_modulation_linearity_error_pct": 2.5130363913483666,
+  "r1_baseband_gain_for_4p8vpp_estimate": 15.466906138233675,
+  "r1_load10k_amplitude_change_pct": -32.44426159215726,
+  "r1_diode_stress_amplitude_change_pct": -13.24092059846006,
+  "sensitivity_accepted": false,
+  "wireless_range_accepted": false,
+  "bat85s_qualified": false,
+  "model_note": "BAT85 manufacturer reference is discontinued; BAT85S procurement candidate not modeled as identical",
+  "frozen_hashes": {
+    "simulation\\v4_hardware\\AM_20k_31MHz_V4_3_REPAIRED.ms14": "99dffd203eb501498e8884ce02005a977b9f295d380ad3c7afea227f26296394",
+    "simulation\\v4_hardware\\repair_20261011\\final_actual.cir": "d9aba8eff74e679f709bc6a680bf569e6dab87a00303b6ff138f19d4964ccaaf"
+  }
+}

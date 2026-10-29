@@ -1,0 +1,41 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * s05 isolated am fixture; ac is open-circuit carrier peak, not vpp
+
+Doing analysis at TEMP = 50.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+mod                                          0
+src                                          0
+port                                         0
+vcc                                          9
+b1                                     1.50848
+c1                                     5.51328
+e1                                    0.848522
+eb1                                   0.771384
+b2                                     1.50848
+c2                                     5.51328
+e2                                    0.848522
+eb2                                   0.771384
+bb                                     4.29727
+ee                                     3.61397
+rf                                   1.471e-17
+an                                 1.47114e-17
+det                               -6.61665e-17
+out                               -6.31963e-17
+bsig#branch                                  0
+vsup#branch                         -0.0157735
+vmod#branch                                  0
+
+
+No. of Data Rows : 419895
+binary raw file "D:/ms_xsp/s05_receiver_20261029/r1_temp50.raw"
+ngspice-47 done

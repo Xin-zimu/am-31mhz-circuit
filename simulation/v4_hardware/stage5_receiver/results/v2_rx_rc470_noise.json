@@ -1,0 +1,26 @@
+{
+  "name": "v2_rx_rc470_noise",
+  "config": {
+    "stages": 2,
+    "rc": 470,
+    "reu": 47,
+    "load": 2000,
+    "cload": 10,
+    "rs": 50,
+    "rreturn": 1000
+  },
+  "elapsed_s": 0.16674429999966378,
+  "net_sha256": "434c5d066aefdc6f62d90ef47a97f282f529f3b778efad9aa5b8a6c914724868",
+  "raw_sha256": "622c91c1fd826c72059e438740e46a2f6785ab272241fe4d4a0cadefc6f7b757",
+  "raw_path": "D:\\ms_xsp\\s05_receiver_20261029\\v2_rx_rc470_noise.raw",
+  "log_sha256": "69dd5c32d1168d5645ddcce1b7c9d0e792191a9e9f2037ab0898159f765775f7",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "metrics": {
+    "input_noise_v_rt_hz_31mhz": 1.5016771445534612e-09,
+    "output_noise_v_rt_hz_31mhz": 2.9691305776515855e-08,
+    "integrated_input_noise_v_rms_1mhz": 1.5016800311901363e-06,
+    "integrated_output_noise_v_rms_1mhz": 2.9693803099963567e-05,
+    "noise_factor_db_31mhz": 4.347015157194946,
+    "note": "Linearized model noise incl. source resistor; not demodulated SNR/sensitivity, external noise omitted"
+  }
+}

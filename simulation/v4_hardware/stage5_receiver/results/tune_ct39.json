@@ -1,0 +1,31 @@
+{
+  "name": "tune_ct39",
+  "config": {
+    "stages": 2,
+    "rc": 1000,
+    "reu": 47,
+    "load": 2000,
+    "cload": 10,
+    "rs": 50,
+    "tuned": true,
+    "ct": 39,
+    "rreturn": 1000
+  },
+  "elapsed_s": 0.0648044999998092,
+  "net_sha256": "9cc874c89535466ed475b036b3509de9565399ced9c9a836e6bbbb4aa3326936",
+  "raw_sha256": "f7867f01dd41d3ed290332f546e4391f753c57dc934c691376e52110cb7f7f1b",
+  "raw_path": "D:\\ms_xsp\\s05_receiver_20261029\\tune_ct39.raw",
+  "log_sha256": "88a067dd8b75c27551b2dc06a66698d3fe38593a5bee1444156387d7c8880585",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "metrics": {
+    "gain_31mhz": 27.64936083920215,
+    "gain_db_31mhz": 28.833701926401364,
+    "peak_gain": 550.3826055328628,
+    "peak_frequency_hz": 25409727.055493876,
+    "minus3db_low_sample_hz": 25409727.055493876,
+    "minus3db_high_sample_hz": 25409727.055493876,
+    "gain_30p8mhz": 28.55379404242313,
+    "gain_31p2mhz": 26.776054770476314,
+    "note": "AC about DC operating point with 2k||10p load, not driven nonlinear diode impedance"
+  }
+}

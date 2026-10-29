@@ -1,0 +1,29 @@
+{
+  "name": "v2_rx_ac",
+  "config": {
+    "stages": 2,
+    "rc": 1000,
+    "reu": 47,
+    "load": 2000,
+    "cload": 10,
+    "rs": 50,
+    "rreturn": 1000
+  },
+  "elapsed_s": 0.07903929999974935,
+  "net_sha256": "8e7fba9626a48dc53fcf53bf998a5597f45d3f7eb82e7783b4e86af8fc7f17e6",
+  "raw_sha256": "e8cedad73d7e09e73335e0d5a63e76c58f5d4315985c27cfe40be9bda64246dd",
+  "raw_path": "D:\\ms_xsp\\s05_receiver_20261029\\v2_rx_ac.raw",
+  "log_sha256": "0a47a5ec59c7138a5263b730fb0a37482795e237021d29b1d7a3ce5e91efd6c1",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "metrics": {
+    "gain_31mhz": 26.234620439187125,
+    "gain_db_31mhz": 28.37749570469971,
+    "peak_gain": 159.47014608871953,
+    "peak_frequency_hz": 1621810.0973589572,
+    "minus3db_low_sample_hz": 530884.4442309934,
+    "minus3db_high_sample_hz": 5623413.251903629,
+    "gain_30p8mhz": 26.40531756588899,
+    "gain_31p2mhz": 26.065849988522245,
+    "note": "AC about DC operating point with 2k||10p load, not driven nonlinear diode impedance"
+  }
+}

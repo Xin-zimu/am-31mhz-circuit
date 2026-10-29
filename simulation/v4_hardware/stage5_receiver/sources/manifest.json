@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-29",
+  "diode_url": "https://assets.nexperia.com/documents/spice-model/BAT85.txt",
+  "diode_sha256": "98cb559aa2010334b590a687485cc42c2e350d33b69e53b3572b3a21dd1bb2c3",
+  "transistor_url": "https://home.uncg.edu/~ehhellen/spice_stuff.html",
+  "transistor_sha256": "c30fa9043d82ca42ff7bcedcafd447f1b510ad234c216bf5ca3aafd04681a723",
+  "simulator": "D:\\ms_xsp\\s04_crosscheck_20261017\\Spice64\\bin\\ngspice_con.exe",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "diode": "Nexperia BAT85; NOT Vishay BAT85S",
+  "transistor": "UNCG educational 2N3904; delivered manufacturer/lot not verified"
+}

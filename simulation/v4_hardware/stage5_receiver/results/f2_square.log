@@ -1,0 +1,28 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * s05 isolated am fixture; ac is open-circuit carrier peak, not vpp
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+mod                                         -1
+src                                          0
+rf                                 8.04567e-22
+an                                 8.06176e-22
+det                               -3.46724e-20
+out                               -3.31159e-20
+bsig#branch                        1.60913e-23
+vmod#branch                                  0
+
+
+No. of Data Rows : 401061
+binary raw file "D:/ms_xsp/s05_receiver_20261029/f2_square.raw"
+ngspice-47 done

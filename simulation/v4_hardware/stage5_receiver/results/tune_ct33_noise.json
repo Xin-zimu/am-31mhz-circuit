@@ -1,0 +1,28 @@
+{
+  "name": "tune_ct33_noise",
+  "config": {
+    "stages": 2,
+    "rc": 1000,
+    "reu": 47,
+    "load": 2000,
+    "cload": 10,
+    "rs": 50,
+    "tuned": true,
+    "ct": 33,
+    "rreturn": 1000
+  },
+  "elapsed_s": 0.053486099999645376,
+  "net_sha256": "da6da8a515ec6ebc83c8ff51ec5bcc3f494c70c0d151a14e737cf14d720a9f63",
+  "raw_sha256": "6abd4fa3f0927495b9e2a631259f52b91c9449c06f692d42081913169f3c8048",
+  "raw_path": "D:\\ms_xsp\\s05_receiver_20261029\\tune_ct33_noise.raw",
+  "log_sha256": "58f45c2fbe6bf71b434c8171fa854595b5becfa2f572c32e2037af9e5d9e8718",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "metrics": {
+    "input_noise_v_rt_hz_31mhz": 1.4708939100776997e-09,
+    "output_noise_v_rt_hz_31mhz": 5.609001572567081e-08,
+    "integrated_input_noise_v_rms_1mhz": 1.4709259036313648e-06,
+    "integrated_output_noise_v_rms_1mhz": 5.633911904805232e-05,
+    "noise_factor_db_31mhz": 4.167110736977978,
+    "note": "Linearized model noise incl. source resistor; not demodulated SNR/sensitivity, external noise omitted"
+  }
+}

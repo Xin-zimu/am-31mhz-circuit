@@ -1,0 +1,25 @@
+{
+  "name": "rx_ac_noise",
+  "config": {
+    "stages": 2,
+    "rc": 1000,
+    "reu": 47,
+    "load": 2000,
+    "cload": 10,
+    "rs": 50
+  },
+  "elapsed_s": 0.09829619999982242,
+  "net_sha256": "6ebe5647f1e6e4b3620136b88e160c9db39d958dade56a2306e1e61dbb27600b",
+  "raw_sha256": "948301a4bf69b6d4ef00d145ca0b834bf739164c9f769702cd2dbb5a85a1dea1",
+  "raw_path": "D:\\ms_xsp\\s05_receiver_20261029\\rx_ac_noise.raw",
+  "log_sha256": "f0f721ffd92a95dab2f88d954a90d8fd68a3b978cff44f0d0ff5c4f794f530cc",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "metrics": {
+    "input_noise_v_rt_hz_31mhz": 1.4730125998396918e-09,
+    "output_noise_v_rt_hz_31mhz": 3.9202733496528955e-08,
+    "integrated_input_noise_v_rms_1mhz": 1.4730153784100059e-06,
+    "integrated_output_noise_v_rms_1mhz": 3.9207445429752686e-05,
+    "noise_factor_db_31mhz": 4.179612974100786,
+    "note": "Linearized model noise incl. source resistor; not demodulated SNR/sensitivity, external noise omitted"
+  }
+}

@@ -1,0 +1,13 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * discrete rx amplifier; 9 v ideal bench supply; explicit ac test load
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 801
+binary raw file "D:/ms_xsp/s05_receiver_20261029/tune_ct33.raw"
+ngspice-47 done

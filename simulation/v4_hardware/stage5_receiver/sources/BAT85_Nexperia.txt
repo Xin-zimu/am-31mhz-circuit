@@ -1,0 +1,20 @@
+* Nexperia official BAT85 SPICE model, electrical lines transcribed verbatim
+* Retrieved via web open 2026-10-29 (direct Python download returned HTTP 403).
+* https://assets.nexperia.com/documents/spice-model/BAT85.txt
+* SPICE pins 1=anode 2=cathode; package numbering is different.
+* R1 is an empirical reverse-mode modeling element, not a physical resistor.
+.SUBCKT BAT85 1 2
+D1 1 2 BAT85
+R1 1 2 5.416E+7
+.MODEL BAT85 D
++ IS = 2.076E-7
++ N = 1.023
++ BV = 33
++ IBV = 10E-6
++ RS = 2.326
++ CJO = 1.21E-11
++ VJ = 0.1319
++ M = 0.2904
++ EG = 0.69
++ XTI = 2
+.ENDS

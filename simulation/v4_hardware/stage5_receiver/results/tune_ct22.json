@@ -1,0 +1,31 @@
+{
+  "name": "tune_ct22",
+  "config": {
+    "stages": 2,
+    "rc": 1000,
+    "reu": 47,
+    "load": 2000,
+    "cload": 10,
+    "rs": 50,
+    "tuned": true,
+    "ct": 22,
+    "rreturn": 1000
+  },
+  "elapsed_s": 0.05301580000013928,
+  "net_sha256": "699e386e654f700b5ec6fc6b1768e01cd54618c70110d1aa744d9ae4a390f6c8",
+  "raw_sha256": "a8121d92e2b3ff6c2e4e27f9e2682aa9ec976b937043dcbe3d0de64da5d94bfc",
+  "raw_path": "D:\\ms_xsp\\s05_receiver_20261029\\tune_ct22.raw",
+  "log_sha256": "d6c8d4cf93471ee38312bbf9c181aa44d70bff95c04a07e2dd75447860a0902d",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "metrics": {
+    "gain_31mhz": 348.1102239413442,
+    "gain_db_31mhz": 50.83433557261507,
+    "peak_gain": 1279.2257018607745,
+    "peak_frequency_hz": 30549211.13215617,
+    "minus3db_low_sample_hz": 30549211.13215617,
+    "minus3db_high_sample_hz": 30549211.13215617,
+    "gain_30p8mhz": 657.4469018803669,
+    "gain_31p2mhz": 236.65166137359725,
+    "note": "AC about DC operating point with 2k||10p load, not driven nonlinear diode impedance"
+  }
+}

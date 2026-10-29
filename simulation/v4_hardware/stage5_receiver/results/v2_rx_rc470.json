@@ -1,0 +1,29 @@
+{
+  "name": "v2_rx_rc470",
+  "config": {
+    "stages": 2,
+    "rc": 470,
+    "reu": 47,
+    "load": 2000,
+    "cload": 10,
+    "rs": 50,
+    "rreturn": 1000
+  },
+  "elapsed_s": 0.16297690000010334,
+  "net_sha256": "1c09bd1caf5d20595207bf0b3320e2404e2fe1fa50a57a30fc5543e23c8a33cc",
+  "raw_sha256": "67545258eca440cff31ba9ff6f0e2432a0d1033da6e1dcaef6080e44c1d4810a",
+  "raw_path": "D:\\ms_xsp\\s05_receiver_20261029\\v2_rx_rc470.raw",
+  "log_sha256": "33c02f4926fe495c4a9f9d00b68e131f6cbd68b5842466a19bd48059d6500c81",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "metrics": {
+    "gain_31mhz": 19.772434430571295,
+    "gain_db_31mhz": 25.92120288012758,
+    "peak_gain": 48.48339835188605,
+    "peak_frequency_hz": 2722701.3080779663,
+    "minus3db_low_sample_hz": 588843.6553555948,
+    "minus3db_high_sample_hz": 14288939.585111445,
+    "gain_30p8mhz": 19.882454960469172,
+    "gain_31p2mhz": 19.66340105974583,
+    "note": "AC about DC operating point with 2k||10p load, not driven nonlinear diode impedance"
+  }
+}
