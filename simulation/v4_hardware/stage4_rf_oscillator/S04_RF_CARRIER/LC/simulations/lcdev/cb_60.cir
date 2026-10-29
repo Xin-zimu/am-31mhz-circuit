@@ -1,0 +1,33 @@
+* (b) common-base Colpitts, L in collector, real Q
+VSUP vcc 0 PWL(0 0 1u 5)
+RFC1 vcc c 1m
+R1 vcc b 10k
+R2 b 0 3.3k
+CBYP b 0 100n
+Q1 c b e 2N3904
+RE e 0 1k
+C1 c e 39p
+C2 e 0 39p
+LR c n1 3.8955748904513436
+L1 n1 0 1200.0n
+CP n1 0 0.234539776949856p
+CT n1 0 0.5p
+C3 vcc 0 100n
+C4 vcc 0 10u
+COUT c out 1n
+RLOAD out 0 2000
+CLOAD out 0 10p
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-3 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(vcc) v(out) v(c) v(e) i(vsup)
+tran 0.125n 400u 300u 0.125n uic
+write cb_60.raw
+quit
+.endc
+.end

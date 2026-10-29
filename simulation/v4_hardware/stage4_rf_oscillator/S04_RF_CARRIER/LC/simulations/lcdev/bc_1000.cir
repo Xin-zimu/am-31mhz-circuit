@@ -1,0 +1,31 @@
+* Base-collector LC oscillator (Vackar-like), real L
+VSUP vcc 0 PWL(0 0 1u 5)
+R1 vcc b 22k
+R2 b 0 10k
+Q1 c b e 2N3904
+R3 e 0 1k
+C2 e 0 470p
+CB b 0 100n
+LR b n1 0.2337344934270806
+L1 n1 c 1200.0n
+CP n1 c 0.08443431970194817p
+C1 n1 c 470p
+C3 vcc 0 100n
+C4 vcc 0 10u
+COUT c out 1n
+RLOAD out 0 2000
+CLOAD out 0 10p
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-3 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(vcc) v(out) v(b) v(c) v(e) i(vsup)
+tran 0.125n 400u 300u 0.125n uic
+write bc_1000.raw
+quit
+.endc
+.end

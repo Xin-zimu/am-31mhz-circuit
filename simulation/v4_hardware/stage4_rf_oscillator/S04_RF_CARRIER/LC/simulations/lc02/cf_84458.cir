@@ -1,0 +1,33 @@
+* control cf_84458
+VSUP vcc 0 PWL(0 0 1u 5)
+R1 vcc b 10k
+R2 b 0 10k
+Q1 vcc b e 2N3904
+R3 e 0 4.7k
+C1 b e 33p
+C2 e 0 33p
+C3 vcc 0 100n
+C4 vcc 0 10u
+CSTRAY b 0 1p
+CX0 b 0 3p
+VXM b xr 0
+RM xr xl 30
+LM xl xc 0.002637081993366925
+CM xc 0 10f
+RPROBE e 0 10meg
+CPROBE e 0 12p
+
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-3 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(vcc) v(b) v(e) i(vsup)
+tran 0.25n 1500u 0 0.25n uic
+write cf_84458.raw
+quit
+.endc
+.end

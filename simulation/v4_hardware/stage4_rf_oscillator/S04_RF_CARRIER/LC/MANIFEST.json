@@ -1,0 +1,1269 @@
+{
+  "files": [
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/cf_1748.cir",
+      "bytes": 757,
+      "sha256": "4b3217c44fa98afd39f7d30bca3e581802e80885302827c8e4edc02d6f6db955"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/cf_44366.cir",
+      "bytes": 788,
+      "sha256": "c48b200722d2da9fade1a324751fa284cc70521b27b721071b03315b7773009d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/cf_67014.cir",
+      "bytes": 830,
+      "sha256": "9eb449ae6127111819ea3e96ff82d76ac1ecdc566636b91b4523756c46a70ecf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/cf_84458.cir",
+      "bytes": 801,
+      "sha256": "6d155bae31196ab0ece3c0d50e14e703c534b441689670ded03d25df7d100b18"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/cf_98131.cir",
+      "bytes": 759,
+      "sha256": "5c73a55976b573f5e17be43b100eb8e9fc0881c0f403081643661e20a69c7ff2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/crystal.cir",
+      "bytes": 834,
+      "sha256": "07947cd0a13113eab45cd3cb43011792cf7e70678be25576014abaae6e0b9323"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/ideal L (lossless).cir",
+      "bytes": 786,
+      "sha256": "80823c4b4868f49c3636d5f7b856394ef1c6ea65120c1735f43b8dd7b3630593"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/L3_29683.cir",
+      "bytes": 846,
+      "sha256": "cc615020b14939a43c03c569b4a59a805bd7e2af9d1dce8cd6d40e6a309eb3a0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/L3_366.cir",
+      "bytes": 844,
+      "sha256": "b82f2891b171a1b5d62227c187b0cff1fd9d05ff72ac06f4657285ed81c8ac08"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/L3_36967.cir",
+      "bytes": 848,
+      "sha256": "cb061d1246c3a23c91399845f78601775f2c3a643ec273a856af3fa41f2e2eaf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/L3_60317.cir",
+      "bytes": 844,
+      "sha256": "067e5293ee8d1c15aea587dfcb7e05b5b797865e47c215ad4f5f3af27156d660"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/L3_676.cir",
+      "bytes": 844,
+      "sha256": "b97a910909dfbe88a0a2ae5970de35dc47efed847127b4de9649cc517a83bff7"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/ls_1000.cir",
+      "bytes": 756,
+      "sha256": "1ea5c12922e5fbe2fe389d0a148c7cd683d267cccc7c5e93159fd46e24dda7c5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/ls_1280.cir",
+      "bytes": 756,
+      "sha256": "ea83b1ed20ee8f69ecc215a3dcc42ed7fcba55b89e5c7ce5ef9d7163843f0913"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/ls_1600.cir",
+      "bytes": 756,
+      "sha256": "f61e9a93ebd0c9be196ddadf3f6f97a06100ff0a01e962efc5dccc4b2396cf6e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/ls_2000.cir",
+      "bytes": 756,
+      "sha256": "0224213743558bba78770ceb9d314bce8fde702fd123634d633dbc3fa0980751"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/ls_2600.cir",
+      "bytes": 756,
+      "sha256": "62ac153d40a1d2bf017276f159d89b4f3e7c9c48b170036098644ae5bd70c9a6"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/ls_800.cir",
+      "bytes": 753,
+      "sha256": "3c201d13feda81a8c0ae03810e5b3b4b5c1f909e962288bd2815c9e814328b1d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sd_29488.cir",
+      "bytes": 866,
+      "sha256": "a04d3f92fac10929eda242ea629ebfead71f2404c2cd5f07d840554845abf0f7"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sd_63992.cir",
+      "bytes": 867,
+      "sha256": "260b4580842b0fa12510743fa52c7d20b77f5290b45d5020afc1b5b2cc1fa590"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sd_8663.cir",
+      "bytes": 866,
+      "sha256": "2591d534823e82cb86324b28224dea57cc5d9b4d9d1780b2094dc53272b129ac"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sd_9371.cir",
+      "bytes": 866,
+      "sha256": "44a0496f820cedd8a555d9eb85c22eabdcf7f56b30828743e07234f8238d0ee1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/step1.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/step2.json",
+      "bytes": 3033,
+      "sha256": "d1da844ae66c88bd6fbdffe0337ae0051c650b066cf53da0813496dc5355c32e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sx_16690.cir",
+      "bytes": 885,
+      "sha256": "330da439a92e24b8f2d6d1d72c45ffcba5a1dba6a3996d1870436f0853e5d308"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sx_426.cir",
+      "bytes": 883,
+      "sha256": "445a6a6032744b5930dc3039ced1acd091ef388807729791d602cea3a7262aef"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sx_56880.cir",
+      "bytes": 883,
+      "sha256": "35a93ccea1b4ca9aad3040abeab2e0b8a9fe733d0e6604fd642898019f2db7ab"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sx_57494.cir",
+      "bytes": 887,
+      "sha256": "9bb25fba2586efc3c34cc13143c27ae5b7b38c6c7b53a979a6296f18f064cc7b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sx_78408.cir",
+      "bytes": 889,
+      "sha256": "a6bf56b3cf383b0601bbcab56f8fea9f5efaa53db458194023a41422f6a63e36"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sx_86438.cir",
+      "bytes": 885,
+      "sha256": "4b705cacc2d202e3fda58c5cf706065dff10d5140648d53eabe0cf21f3fcb9c0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/sx_95409.cir",
+      "bytes": 885,
+      "sha256": "b3e6c61c9c6c6929fb737ab2d9427d08be0af250e9f6081e33030c47d2760f39"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/t_div10k3k3_RE1k.cir",
+      "bytes": 791,
+      "sha256": "78de75e4e8ac8282f008838fece51cf3c7e5add085a030f4f47b5099f4c5048c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/t_div22k3k3_RE1k.cir",
+      "bytes": 791,
+      "sha256": "02af61371adf1e6a949336463b24dea8cd47032105a4dfff5fba426907b941f0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/t_div22k_RE1k.cir",
+      "bytes": 790,
+      "sha256": "e45be0de0991b09e0db945d07c19d83d8615ea54964f1a2147abfa3f519e9fb9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/t_orig.cir",
+      "bytes": 787,
+      "sha256": "b7aef3e318826991290be7344288eee1734d1940dc203a5598576c6698dd6126"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/t_RE1k.cir",
+      "bytes": 783,
+      "sha256": "c38aeb2003d91a02355b31973f301ef9ac15d1c5a37ee8f128a5af5d2d2bf227"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02/t_RE220.cir",
+      "bytes": 786,
+      "sha256": "845b4711ae1163e23c57858305330cb9cea490188cf61f8972ae2638c5e1b5a2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0_gear2_1em3.cir",
+      "bytes": 725,
+      "sha256": "dd90e310f2b12dbebaa4bfb8eb48e229ea1f1e420b9724c5f46f8ed2a2d15256"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0_trap1_1em3.cir",
+      "bytes": 725,
+      "sha256": "9aacd55c149b9799e3c93e1919206a08c6f57b46787054c857137ce3ea528951"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0_trap2_1em3.cir",
+      "bytes": 725,
+      "sha256": "5cb5854f189b8fec8d43ef40cc458dbd7fe293f6bc1c6818ac9f889a6d1c6438"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0_trap2_1em4.cir",
+      "bytes": 725,
+      "sha256": "1b3c4bb8835a1e4ab672a2e734c0f3a5f5298a0efc2a37a3cebafac53559e4f4"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0_trap2_1em5.cir",
+      "bytes": 725,
+      "sha256": "d7907f3b307aec27c41438dd00f52c06c06df23f280da1e5bbdb8a1f6ce0fcc9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0p001_gear2_1em3.cir",
+      "bytes": 737,
+      "sha256": "27117651efcfce841d0c4c2b12a343fcb91ee9e29ac4dcd4744032c0c20faede"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0p001_trap1_1em3.cir",
+      "bytes": 737,
+      "sha256": "7c7108db7657a9439205eddf2b0cf76d6dc895b40e003f2e04d0e83612d0eacc"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0p001_trap2_1em3.cir",
+      "bytes": 737,
+      "sha256": "31a3895d3867ceeb5ec96f140303eee42bb99539d719b4f192ae5e41b4300930"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0p001_trap2_1em4.cir",
+      "bytes": 737,
+      "sha256": "35b38de6222cd0518fd0e480377190bf940323260fd860878222aa935a868a86"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/A_0p001_trap2_1em5.cir",
+      "bytes": 737,
+      "sha256": "a872b34c9340b4223fad78d2e37126f170134b09e3dfa05ddd367100c98460c9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/anomaly.json",
+      "bytes": 1057,
+      "sha256": "5586c9781607f5bffa65f5e99cbdd5b14b4f66111e379710b7888e1190162b5e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/anomaly_numerics.json",
+      "bytes": 437,
+      "sha256": "ad3f82586f93b24d10dce4d07894d8900f4b17de21de1eac85d8bc2f8fbd1fdf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/anomaly_punch.json",
+      "bytes": 384,
+      "sha256": "35b9712e74cdbc38258a7ead134829dad91f07a9078e0fb4475ee116b53939c3"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/highdiv.json",
+      "bytes": 2055,
+      "sha256": "ecfefbb94c9eff9712a422cacf3bcc26c052f02c90ba7e81199e26edb5b01678"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/hv_25550.cir",
+      "bytes": 751,
+      "sha256": "15181170ca58b346d488f19604ffe73b851c9b8d7de3b55c22f80e7fcb35e24b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/hv_3459.cir",
+      "bytes": 746,
+      "sha256": "61810b9e55a4b6b26b5cf1941875b531770ea8221091b72f6ae572319fbd3685"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/hv_64185.cir",
+      "bytes": 751,
+      "sha256": "1db4a161b689f7ddd37eb085265ec39fc5f85427d273f1dda5cc30b29a29980d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/hv_67871.cir",
+      "bytes": 747,
+      "sha256": "4ff81ead082884a6e1f8f08016a4871c6ef5c44b99315d442059492456fdf0cd"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/hv_82187.cir",
+      "bytes": 747,
+      "sha256": "8f70bdc0f4e90efa540f54036f8a56b3e23219e829938d762120907332b328f2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/hv_95229.cir",
+      "bytes": 751,
+      "sha256": "7dfb9f24bb532ec6e0a45e731dd727d0493d4758bb193d6084663dae0114ee00"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/hv_97994.cir",
+      "bytes": 747,
+      "sha256": "0023d96e82b76d8de1e6bed1ba7e15ab9b58290ff6a5ddafef3842ce8c3135de"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/pn_0.cir",
+      "bytes": 765,
+      "sha256": "b4b7e92c3f616ecf6640c8a77150df3b2afb7f2635a379cf3ad40bd440ce31e5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/pn_0p0001.cir",
+      "bytes": 780,
+      "sha256": "1e89f4928c511bbf29bc35febaa17c23e528efedd15c03449aa4706beeda49df"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/pn_0p001.cir",
+      "bytes": 777,
+      "sha256": "87ab968a72490f6e17ff94e450b4512e9471109738330457a233ecbbe7de2835"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/pn_0p01.cir",
+      "bytes": 774,
+      "sha256": "e06b3076b369a1ed191852cd032ceb4f6066cb7b4ab709751dc68f9f92346200"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/pn_0p1.cir",
+      "bytes": 771,
+      "sha256": "ec1c91d744a1bcc75a39668090b18fb4677e156a230754b1cf6212da8b9da7b0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/pn_1p0.cir",
+      "bytes": 771,
+      "sha256": "a271b3b8fdaccb00d74494a2d87473e0889badd525475d91474492223679d6ed"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/pn_3p9.cir",
+      "bytes": 771,
+      "sha256": "134277c8736a3bb4a7071129bfd8da1c37b2f036ae76d9be9dead4dae11a02e9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/ra_0.cir",
+      "bytes": 722,
+      "sha256": "58751d8aec46e9aa8a4ad835b74b7d2eaa6adb9228d77cc4593de6a61f7b1821"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/ra_0p0001.cir",
+      "bytes": 737,
+      "sha256": "0ddc544ff7bdbf9ee5b4b007c524284be9d237417a3325249e8fdadd92e8517a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/ra_0p001.cir",
+      "bytes": 734,
+      "sha256": "515a7f671beda346ab6496624c3629404ce7f8c5215659acaa191f9e543f1f57"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/ra_0p01.cir",
+      "bytes": 731,
+      "sha256": "f5a058b4350d82379c04467114c2f9359117ec1576cf83722089842cfeda6d44"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/ra_0p1.cir",
+      "bytes": 728,
+      "sha256": "af111914e74867e40e71ba6f02aaa4364a1f44af1ecd07caf288f257ca8e8581"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/ra_1em05.cir",
+      "bytes": 734,
+      "sha256": "88408bb3686dd5e107b9dbd476cd60da4543dd09c14201c0e01c53db5fb7c225"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/ra_1em06.cir",
+      "bytes": 734,
+      "sha256": "fb58af7ecb4c42498a34ae214f261347c3ed4b4006bb96747ee11fa9ac010b21"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/ra_1p0.cir",
+      "bytes": 728,
+      "sha256": "65d070b9a3dfa3a6f0b4f79fa8d6b248ee9976fd27cd70fd3f9419c76b0137cf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/ra_3p9.cir",
+      "bytes": 728,
+      "sha256": "3f656e56dd03aa082c080106c9041c14070771d30e1896c83b6dd45c22896ef9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/rd_23620.cir",
+      "bytes": 782,
+      "sha256": "fab4fc9f23a09fac5b76312927ba21578c83d3d4440cb9caa456af4488dd17ba"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/rd_31885.cir",
+      "bytes": 770,
+      "sha256": "bf3cfcae41163e8cd7715a2ec07c59416de770958ba0f49d3273952b9aeaf1c9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/rd_43002.cir",
+      "bytes": 784,
+      "sha256": "2e0819c81618413b3e01f4fe1565ef6c3f1d689df340f0e832d8a8919e22f8a6"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/rd_58313.cir",
+      "bytes": 788,
+      "sha256": "7e9b6e67c1cfda2cdf0f4e47f0761b07d21fb94119911e7f03d55457f670c243"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/rd_62553.cir",
+      "bytes": 788,
+      "sha256": "72546913630c2068ecbe66979bb1a42804b999166618fb0d3e7807e9d7dcd80d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/rd_92234.cir",
+      "bytes": 772,
+      "sha256": "a7f9000bb92493ebe8a326118269b847d892da39763e54b3783899fcfc60743e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc02b/redesign.json",
+      "bytes": 1750,
+      "sha256": "3223a66a99ced3d83683aa9e28affec03473b0a5834c209b9b131b572b533846"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/cmp_lc.cir",
+      "bytes": 821,
+      "sha256": "c62daca4d82739945469d43da7f3fd37cadd17b42a64800a6e4ee6673c06289e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/cmp_xtal.cir",
+      "bytes": 888,
+      "sha256": "a01837c8a73179967806c4bf283fac1e35ea4350720d5cc1b33efc0ba813f5d2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_final.json",
+      "bytes": 836,
+      "sha256": "d1a8d86f1cfc95a15fc45cdc65040903ec56725726d3ec2991295cafe7b6fb57"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_L0p82uH.cir",
+      "bytes": 936,
+      "sha256": "890bf2b10c43b86c115a781a0445e12001b4f032e76374bc0bc13f2a6ca27887"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_L1p0uH.cir",
+      "bytes": 932,
+      "sha256": "4af7bd1a45aea859bc47fa61e0ea18e330366d394ff725b9db799d9f26329bf4"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_L1p2uH.cir",
+      "bytes": 932,
+      "sha256": "b891075fd4c6e0d06e986cf4fae3eb5367270e402ca09d6e0da0f77c37255d82"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_load.json",
+      "bytes": 1055,
+      "sha256": "2936697f8d726f5fa0e78246804e4cc4d39d68b459e1207a774849bc45fc31d7"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_results.json",
+      "bytes": 1471,
+      "sha256": "b747024e38a8d8c20765cc879ad4a586d7e7b71f0234aa831c8b0f423baae6a4"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_results_v2.json",
+      "bytes": 1744,
+      "sha256": "c0c0001b971d2f6bfebb81b14a76c8e3760e5d53ba9d69d23de8a4412d844b1c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_settling.json",
+      "bytes": 639,
+      "sha256": "930fbd0ecf57c56b5e9a05399fee86e7439b99458cfdfb54047bbbae6cb3ad25"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_tuned_loaded.json",
+      "bytes": 653,
+      "sha256": "09f6d067c44516785b870db8b3a769ab150ed21b9d5a9696998e649819d2a3a9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lc_vs_xtal.json",
+      "bytes": 1941,
+      "sha256": "1620e4c7e2a433329a4dbc5db8fd3fc2d177f8fc2ec29840088206c2ca028789"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcB_L1p0uH.cir",
+      "bytes": 981,
+      "sha256": "bc4c377fa70fbebcbc34401f6d66021fe4bff609f718c2eccaee906a0cf98a8d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcB_Lminus5pct.cir",
+      "bytes": 988,
+      "sha256": "6bac05de1f33962e7cbfedbd1e6728bc2935296c91542aca670ef7d2dc6eed0d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcB_Lplus5pct.cir",
+      "bytes": 987,
+      "sha256": "f2ac1c673b3542270a9d8893b086e133091efc4f5de6a7a57505d4a9fc502265"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcB_Ltuned.cir",
+      "bytes": 984,
+      "sha256": "cb02ac1ffecc69094a99961a23d7fe1d049a9dc9d2141c22196023640ab3790c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcB_T47C.cir",
+      "bytes": 982,
+      "sha256": "757048cc8d06398a127a72d1624d71c28935a43fa4c1c44c974682d55e08c886"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcC_buffered_10k.cir",
+      "bytes": 882,
+      "sha256": "8c8395c9f1d32de35cf21fa662398205d9a41cd1218d0bcf25dc44508e16d007"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcC_buffered_2k.cir",
+      "bytes": 880,
+      "sha256": "8ece154247c79879c3460c3dd6cb47f380a9c26c3436c0b922fae74ea1ee86b0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcC_direct_2k.cir",
+      "bytes": 798,
+      "sha256": "52d91913890dfcc742d3140f06ffd00be462c9331828945379ffd8a041bf6fa0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcC_noload.cir",
+      "bytes": 748,
+      "sha256": "57bedc953ee0874fca016e5ec867657cb6827046af87efb31090685566e1a14a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcD_buffered_2k.cir",
+      "bytes": 883,
+      "sha256": "ceff7ad126701dd1eebe65cad24c396af6d765ffa95d4b5d13c00a78578d1eff"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcD_direct_2k.cir",
+      "bytes": 801,
+      "sha256": "0e705e4c93fff34631edc61d34efacdff06652edbc6b21344b765e2eb2bf5282"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcD_noload.cir",
+      "bytes": 751,
+      "sha256": "20f2f31af2bd2d1eb3f6f22edd8b1831f8ba865c5e2112a0c752c759572b95c6"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcE_buffered_2k.cir",
+      "bytes": 911,
+      "sha256": "156363f5b6dd1d79cc8a8f914e55e4ec1ece7e853da888c8976207180833f851"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcE_direct_2k.cir",
+      "bytes": 829,
+      "sha256": "3407410bd713a883776da2e382a7c8e603fab46427d863f16654a746cb3d3139"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcE_noload.cir",
+      "bytes": 779,
+      "sha256": "a1ac09a790ed723dfae6c007ef73ab77c6d1fe7f6d8fd9b6ffe34d3024f6171f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcF_tuned_0C.cir",
+      "bytes": 887,
+      "sha256": "ca45f4bdd8c637ec539c0648e50f68f8c62d64ad709816209d04634594332b99"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcF_tuned_27C.cir",
+      "bytes": 889,
+      "sha256": "87f09125ec451e5e80dbedc3ba3e8f510c4aec2e43a7fda5bee70e0579c2ae7d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/lcF_tuned_50C.cir",
+      "bytes": 889,
+      "sha256": "eae647fbdc4298b136f67555ae666cf6bcbe3c5cd50379cfda49edef454de234"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/sens_lc_0C.cir",
+      "bytes": 824,
+      "sha256": "097bb846fc9d81455fc6365b74a08ade4331b29d8d18a391a97d75044789c4f0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/sens_lc_4p75V.cir",
+      "bytes": 829,
+      "sha256": "e5e0fb601d98723180b200e2207b6b476eb3e94d2957c2b1269a63a6c118211c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/sens_lc_50C.cir",
+      "bytes": 826,
+      "sha256": "ca45c0781a5a8a054e1895129ec32462d6e72eab1942f5fa1e8f0fd699e0a65b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/sens_lc_5p25V.cir",
+      "bytes": 829,
+      "sha256": "6e79e9d69d985d6517f18244a71f2fb31d5ddc9ffd35f0c6e3b6a4c173cf1873"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/xtal_load.json",
+      "bytes": 499,
+      "sha256": "76033a684d4f53084a26766a645807f51f62eeb453960535052e3e81c512dfb1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/xtalE_buffered_2k.cir",
+      "bytes": 964,
+      "sha256": "c6cd563a37eeb535818621852efd71cad3cf26fea274788e2fa67171bad23f80"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lc_study/xtalE_noload.cir",
+      "bytes": 832,
+      "sha256": "e3304711977ef2fb12c27fe2ddb55f6700fbd6c6f08526d82d30e6978bb93454"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ar_0_gear_2.cir",
+      "bytes": 908,
+      "sha256": "24048470139b00d758e603427040f94d9248ceb9725d0c24aa8914f39148a3cd"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ar_0_trap_1.cir",
+      "bytes": 908,
+      "sha256": "194a513fdbff5d5d3fdb1fc09ba54a5135feafd97cc02119197ae2c0e4276aaf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ar_0_trap_2.cir",
+      "bytes": 908,
+      "sha256": "742077b8e06a31ee784bca25a50094b6783fe63405ff06384297514005afd840"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ar_1m_gear_2.cir",
+      "bytes": 913,
+      "sha256": "adb07e8764ab9e331297df12aeb6b2a47e32d3dd8b30d222bad165478fa0fa53"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ar_1m_trap_1.cir",
+      "bytes": 913,
+      "sha256": "31097d2f464eec022db9e6423e63cf413cf426df5e17d3b248e196fd3ea961d2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ar_1m_trap_2.cir",
+      "bytes": 913,
+      "sha256": "3950f06016f207db6362364550ea1a1019e2aa09816dae3bbbd17d36c457c53c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/bc_1000.cir",
+      "bytes": 855,
+      "sha256": "948d5bdb3b60209836e32e8b359e96a505d7ccb3b03eb9264309e327c95a8317"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/bc_200.cir",
+      "bytes": 854,
+      "sha256": "d806a693a158a47f154e3815ad6c732046a9f7fe1088b133f5f11919016e82b2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/bc_30.cir",
+      "bytes": 851,
+      "sha256": "1db5eef26202426498b4cf12b7a6b40561c9cbe1be032379a7b5d45dcdad3921"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/bc_60.cir",
+      "bytes": 851,
+      "sha256": "6912bc71f3481141341f6f59d549c46aa66888fe432cec2c91af1c01a4ac90c2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/cb_1000.cir",
+      "bytes": 877,
+      "sha256": "b2c306fc03423977b8cd5b99d301c87837f5ddd80d58414f9ff7cea9e96fbc55"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/cb_200.cir",
+      "bytes": 876,
+      "sha256": "6e4606f33cbd346fad12b23c64931ded4900773152c217d286f2a25f50b30664"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/cb_30.cir",
+      "bytes": 873,
+      "sha256": "89de6c5a699f793f7e60d1903b76c244256c9f599f26a9c0876935882ebeef3d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/cb_60.cir",
+      "bytes": 873,
+      "sha256": "05e78196f471ba0ecfd52c7cbf4b6b36d8ba600d3ca8d1a1ddc70e00bb0280fe"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ce_330nH.cir",
+      "bytes": 903,
+      "sha256": "9de8c0c8f9316b3cf246c4064eb5fa40439a8193e2e9cad823910e10ed34b7aa"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ce_470nH.cir",
+      "bytes": 903,
+      "sha256": "db0125f1f5dc222efaf1aad5c59345b0b6ad536031711dd99f0b56177c3cf33b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ce_560nH.cir",
+      "bytes": 903,
+      "sha256": "d0ae6230879c850d74ee1e66008f64d2c9684fd3fc64386d9b528ece1291cc0d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/ce_680nH.cir",
+      "bytes": 902,
+      "sha256": "fab037a6040b2aecab3aba6a6f369adff9f5c972636700b51f2adbc7c924813d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/dc_1k.cir",
+      "bytes": 526,
+      "sha256": "9039dd5125a5ec1952372b54978f1f774367daeda6dc53448d6850e02d3f2bb5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/dc_4p7k.cir",
+      "bytes": 528,
+      "sha256": "43c335e1e424b2b6abd1a597f46b896bb40a786e79a2e27d67b28dce46d61651"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/dc_r0.cir",
+      "bytes": 728,
+      "sha256": "8ebf5e9311260032e88eba0ec09e312da5ce160fee4e176a472c68f71a30c26f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/dc_r1m.cir",
+      "bytes": 733,
+      "sha256": "7d185726d93497a4bf0fda6179148fc932e6ae304672948f8f22fb52aff85b44"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/dc_r230m.cir",
+      "bytes": 734,
+      "sha256": "f2746798ef5acb4fb295e15308c4b9eea8b58a66ab9be45ed2708f5ee71e6fa1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/dc_r3p9.cir",
+      "bytes": 732,
+      "sha256": "8ca1bf60a5c080c97159177f3118294a27bde9f31225180a5ab0a888cc208dc0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/design_table.json",
+      "bytes": 443,
+      "sha256": "36c2b86c2d3f65225a61157513dbabb72cc4e9d63cd5dcce5b439d11eac14592"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/env_highQ.cir",
+      "bytes": 879,
+      "sha256": "5aa7cbf1ee9304f99e4c05739f968a5bc8246d1b3bdfd5ee5bb5de004ded98b7"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/env_realQ60.cir",
+      "bytes": 881,
+      "sha256": "fb4946c85d866fcc57f2ae4a6cde862ab366810d623137f0d235078b87a1574f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/gm_1k.cir",
+      "bytes": 919,
+      "sha256": "2b85b70bfbd21fb73beff23094e9a7d9c7fcd1598f70692e99edf257be52c303"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/gm_2.2k.cir",
+      "bytes": 925,
+      "sha256": "02132becefab8e24f1c45367f810646973991e61d488a1969f4c384989507eae"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/gm_220.cir",
+      "bytes": 922,
+      "sha256": "f067c4945bc9b2d69a494b5419465808924d7d75b3c8adcfc24cf498966148fa"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/gm_4.7k.cir",
+      "bytes": 925,
+      "sha256": "f22083e2cdb07f01fd6bfd994466d9bbe91ed2b89939b76f0b3825f5311d482d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/gm_470.cir",
+      "bytes": 922,
+      "sha256": "b6398e6972bae43cafc5c8d681057c8a93528e7f6ee6dc4d915d111285ffefc2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/isoA_ideal.cir",
+      "bytes": 875,
+      "sha256": "4451ff0e5ccfce7f888d9e1f3e7db63d11bdc12340d9215c733f8c22228a26ea"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/isoB_Rs3p9.cir",
+      "bytes": 877,
+      "sha256": "b72d433924555fc6e9b04c672e211e1abfc41b9bbb3c94f6d45e56b562f95d1f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/isoC_Rs0p23.cir",
+      "bytes": 879,
+      "sha256": "7a00e62438c1bcd6464c54f7f58c5e3da76fd8a6f1f0c9ef0b02df2780bde339"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/isoD_Rs0p01.cir",
+      "bytes": 879,
+      "sha256": "a12547e7a9ccff83275f0fa67966ffe628c35da6099b43f5f8c9afa72cdd0d0f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/isoE_Rs3p9_noQ.cir",
+      "bytes": 881,
+      "sha256": "4fa4682f14bf19500a09b8d41eb545c7556a9f1452adeb87f347649dedb8b6eb"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/nb_Q100.cir",
+      "bytes": 955,
+      "sha256": "ee5e71cd3735e970b4f13f65e452d5eaba749ea6e201b8a4e150b5dbe191a261"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/nb_Q1000.cir",
+      "bytes": 956,
+      "sha256": "b23ce6c9e05c594256ad0aec88e932c5b95683a1ea906c9c25835753cc6f652e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/nb_Q150.cir",
+      "bytes": 955,
+      "sha256": "4265a48b316c13fde2d0ac41ce56b4d47547fddc7f33c4f00c6b2b5169dee72c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/nb_Q30.cir",
+      "bytes": 952,
+      "sha256": "96770171ae07b132547d05b099b675f2a99de727df5c06feeb99d539b5929834"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/nb_Q300.cir",
+      "bytes": 955,
+      "sha256": "2e1c0f9dd7713720dc40bc673bc5e3cd82380afa34dd8a3c7aa20cfd2ae7fe6b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/nb_Q60.cir",
+      "bytes": 954,
+      "sha256": "17da6774b06ee77bf92f24c9d363a3530accc6bcec4cfd677a6e26a240fd2d22"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/op_0.cir",
+      "bytes": 579,
+      "sha256": "08b0bd3f47b7519273ed0c0bb2db3421bec92bc6cc2df48cbcfdc2688d51d2f5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/pt_0.cir",
+      "bytes": 796,
+      "sha256": "33ad3d5c33948971a46bb52a49fd7c1f89e06e1407e85c298477574d8d4ed34d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/pt_1.cir",
+      "bytes": 798,
+      "sha256": "a8256e8658c4065656c3c6e9615d9a0315ec9205d80f8a2700e819b8e57d74a1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/pt_100m.cir",
+      "bytes": 801,
+      "sha256": "773a5928371491d18aa80a66c6fcf5ada39e46eec030d923ba9618cad36f15e8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/pt_10m.cir",
+      "bytes": 801,
+      "sha256": "bf4743f86ab5c87886d94cc959c3bb27107237c994cc1373125d136f1a091ad0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/pt_1m.cir",
+      "bytes": 801,
+      "sha256": "ae5b466cefcef3a682b8afc33ddf3c633cfbe1e0699490ee89acea31625b5651"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/pt_3p9.cir",
+      "bytes": 800,
+      "sha256": "48dfcd9beb898f640f6a73760b75ca277c5a39160d7430164afb18fab639871d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rc_lossless.cir",
+      "bytes": 917,
+      "sha256": "12e6a1d4d3373c33510456af4ef45bc1906f9518130fe6eb41c24ec0ffe57dd7"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rc_re1k.cir",
+      "bytes": 917,
+      "sha256": "019a765b6f4c811e52d329bbb829b902f298dd4db97c64dd255821d529073612"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rebuild.json",
+      "bytes": 1133,
+      "sha256": "11367d1185c37884d2935a7c2a463ac0be09d462290c09380f7f74cc69c6fc75"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/redesign.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rs_0.cir",
+      "bytes": 893,
+      "sha256": "848ba3bce550dd5ffaa11c01b8e89690ecf554b7c81d73fde308fd0bcc133700"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rs_0p001.cir",
+      "bytes": 901,
+      "sha256": "231bc6977a433fda5b279b2804acf747a93ef228d115c1f6e98712870a119b53"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rs_0p01.cir",
+      "bytes": 899,
+      "sha256": "50c19cc23e641080c0f1df387ebe6760f87d52dbd4ce8f55077fbf7da8df9fc6"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rs_0p05.cir",
+      "bytes": 899,
+      "sha256": "97801774758d6043e203b68c134c32751e8c7dd8788b5db834022a4adcd0482b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rs_0p1.cir",
+      "bytes": 897,
+      "sha256": "b8edd831d8a7c237df40afd431a67a86f7fef01981d2d54ae568344fbd3ade3d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rs_0p23.cir",
+      "bytes": 899,
+      "sha256": "91d9c68ce3317c59d5155399d6bcb20d0021945d2517d69e280f593f83825c5e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rs_0p5.cir",
+      "bytes": 897,
+      "sha256": "ee0aeb6da72662e14e9a0bf6d6c47f746f067db51f500e6b0f4ad63982d4558d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rs_1p0.cir",
+      "bytes": 897,
+      "sha256": "14babb39e5a98078e2c5324e5544091378e88cabdd2cd86e03205a545c5d2f44"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/rs_3p9.cir",
+      "bytes": 897,
+      "sha256": "9eb5b966674e6b2672c452115548830bc2dc19df256f64902d87e154198b3be0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/S04_13_findings.json",
+      "bytes": 1023,
+      "sha256": "6bdf7b1fdad03deb193b5af22a9aa3f1e4bf1d6a0c1781f0a2e10441bb5de28c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/s_1k_10k_10k.cir",
+      "bytes": 705,
+      "sha256": "a79cb74d7dcd8fe8bc97f9c4f382e0f839c6a2be1c3ce0113334e802ee4a59b8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/s_1k_10k_3.3k.cir",
+      "bytes": 707,
+      "sha256": "bea1d24be127be250f4eea2e260752e00ac87410dce043d96d895b3da0d925ea"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/s_1k_22k_10k.cir",
+      "bytes": 705,
+      "sha256": "c571974acee1e13338dab5fd010afbf2a32275998e52091b05c5a8ad3937aefc"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/s_220_10k_10k.cir",
+      "bytes": 707,
+      "sha256": "0280ee7f9284532d823e49da52beeb023269b61f43116d9be53ef757c65dd627"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/s_2p2k_10k_10k.cir",
+      "bytes": 709,
+      "sha256": "630465b50d931d21a1e8ea2e8d16d2c4234a65d984003ba43e5c8e610df8ec4f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/s_470_10k_10k.cir",
+      "bytes": 707,
+      "sha256": "8e0f5f3db8040614f180d4eec050998400225e55d6397847bafae8c02f9f9f27"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/s_4p7k_10k_10k.cir",
+      "bytes": 709,
+      "sha256": "7d31fe3767315f1e3f152d0880c90538fb6a270d84c13ceb5585b58ea42cee75"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/s_4p7k_22k_10k.cir",
+      "bytes": 709,
+      "sha256": "4d591d72ef0b4a32194fb49e52a1132ff868d60904e9cf2d698bb2d10a47f0ad"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/settle_1000us.cir",
+      "bytes": 1037,
+      "sha256": "970ed1ad036d8c0c7a5a9a2de48e0e5dc258298f65f649b912e85e675c81b820"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/settle_400us.cir",
+      "bytes": 1035,
+      "sha256": "033adfe4c184869aa2f169d3fb9e76939477df1226b4d637933e2d0b469c7e13"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/tr_0p5.cir",
+      "bytes": 954,
+      "sha256": "6c3bd15ea92e05851b797a810e21a04c09ef02142868fe602a49e8ebb84de666"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/tr_5p5.cir",
+      "bytes": 954,
+      "sha256": "1db6b5b432954969dee5b429df8b133c5bcf95428c1a0f9113a710ee01181240"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/tr_9p0.cir",
+      "bytes": 954,
+      "sha256": "7e6804522be91d9e6a7a555f4c88849de6e1d9ab9cabafc7c05d81aef0a34dbe"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_1000_100_220.cir",
+      "bytes": 656,
+      "sha256": "d5de78f650764a1a362973bd56a72dd4174d607227d8424e97b028c67b64d6ff"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_1000_33_4p7k.cir",
+      "bytes": 656,
+      "sha256": "c89709e1803e6e626b56c6a5f5df687a6d374cc41314e7c16e32999f9f402a08"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_100_100_1k.cir",
+      "bytes": 652,
+      "sha256": "7e7f95094266a9e00e66b8b98d10861fd92ce0e9d8617b1d74c227fc0326e423"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_100_33_4p7k.cir",
+      "bytes": 654,
+      "sha256": "f1c25761e5743ca420e89b5bd2b6ce712fc3968baa760284d0d6886deb038423"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_220_33_4p7k.cir",
+      "bytes": 654,
+      "sha256": "e13e0c1d5c5240c623f39db6ac173ff3d895444c2217c9aacd23930b89dcba2e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_33_1000_4p7k.cir",
+      "bytes": 656,
+      "sha256": "e6b1af6fb5b647440a87e4da5c47e9a4a06800de01a85d16da8269fea692fd48"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_33_100_4p7k.cir",
+      "bytes": 654,
+      "sha256": "92b741cea88ea7832d1a62e9509730ffb9753faa1bee2c40c3e6f0925b065236"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_33_220_4p7k.cir",
+      "bytes": 654,
+      "sha256": "15960c5e4c185e874ec10fe97b06817ad334d21e377788be31b8eecf8982a96b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_33_33_1k.cir",
+      "bytes": 648,
+      "sha256": "431927df56c090514f0b326b93deaa7737b77944a39dca07909fae3ccffc90af"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_33_33_220.cir",
+      "bytes": 650,
+      "sha256": "18bf57bb090327849db942d185434be07eabe1a509c8d0874c857ddc07f1708c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_33_33_4p7k.cir",
+      "bytes": 652,
+      "sha256": "0fac797e4fb4a7a7c9292c4beb13f0ab2d03f76122edb27beed53d16f689d7c2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_470_100_1k.cir",
+      "bytes": 652,
+      "sha256": "654823095f88044a8852c596b8b913a748aee8771e74246e0832ea91ee5b39d3"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/z_470_33_4p7k.cir",
+      "bytes": 654,
+      "sha256": "f60633207d7e42fab0900483fe1aeae22f93300a943dccdd5df7dd7df85d2151"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/znet.cir",
+      "bytes": 709,
+      "sha256": "4f988901f8db3a7edf74eaac90645bab2c57ce054730cb11fd1d2ac65d7ac2eb"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/zz_1k_0.cir",
+      "bytes": 652,
+      "sha256": "939a91131b9d7165fbd349fe5a01268c4bd9b1c50c1a2a1a8f75f74b6126b449"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/zz_1k_1.cir",
+      "bytes": 655,
+      "sha256": "f35ac4f25794a377cd69bfa81df38e7811bceaba254c4281fcad9b2dd0ced977"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/zz_4p7k_0.cir",
+      "bytes": 658,
+      "sha256": "f0904c92feb7f64bd6d627051e1177e1f7d4078d3ba2f463f873f949397ca7bc"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/lcdev/zz_4p7k_1.cir",
+      "bytes": 661,
+      "sha256": "07581cff88d248eebcdd2970e22381a19f74e3b20df274e153200fe5f3c53c86"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/analyze_lc.py",
+      "bytes": 2861,
+      "sha256": "e768b9ee88f1ee6c567b2a64c87ac3a74df27b9b8f7fd56f88aba3f3194e9011"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/anom2.py",
+      "bytes": 3788,
+      "sha256": "f52a217be4afe77dedc338b2ec31c70c8c9a5cd242c5f8476610f9fd12bab26d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/anomaly.py",
+      "bytes": 3081,
+      "sha256": "4310601b28188a2dc637d948da05b05df821e004c6799967f8d7aec4ea82a4fa"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/confound.py",
+      "bytes": 2846,
+      "sha256": "e4507cc273e5923020d6e2ab19060aedc032cec027a51c5dd6b4fd036881c759"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/control.py",
+      "bytes": 2759,
+      "sha256": "408df9cb2a53b9a9c107ca99b736077d0bb80bce1a39a59b5a4dabc94fc7a1ca"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_ac.py",
+      "bytes": 3521,
+      "sha256": "da8ee2f72ad30b03fa3b338825528d751856fb219b06d0fc7f182adc842feb9a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_artifact.py",
+      "bytes": 2929,
+      "sha256": "6b128cc2e18de46e724ffd9511da7e9b4c8f13bc98082098e8a14a2d7a47740f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_dc.py",
+      "bytes": 2579,
+      "sha256": "dc91cfdf8347606b5c9bed5c4d13f9b05f22c6d5c9dea9d51681c2734871487a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_rebuild.py",
+      "bytes": 3412,
+      "sha256": "5fc203682532d721c190ac29bdb8f211763bc581883543bdb3a84c53ffb0ed4f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_repro.py",
+      "bytes": 4432,
+      "sha256": "aa3d5d66497b19e1de23b901f10b903a51736422d9bbf9c9987ff1591cc1864f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_resolve.py",
+      "bytes": 2512,
+      "sha256": "1576a98514365bc7df088e9dfcbcb3507dfd2bfbfc9137ae3d6c186a8299da7e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_root.py",
+      "bytes": 2995,
+      "sha256": "6b2bbe47e156981ccc47675b18239474b040a260348025cf759728a430d1afb5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_sweep.py",
+      "bytes": 3138,
+      "sha256": "beff2439406c26c949f0b0ed5683ccdebfaa5756bb6ea958d0ca2b880a0ff0d8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_zn2.py",
+      "bytes": 3475,
+      "sha256": "564bb45f86680714eb10a23c2bc4411ea1a71db37a4ef728ec964bbfaa2844ff"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/e_znet.py",
+      "bytes": 3361,
+      "sha256": "1eaa29b1c1b4d20a69b588e2de127ed8c5a4bf74d65fbd7a73d7f2cf5c9d8e04"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/highdiv.py",
+      "bytes": 3633,
+      "sha256": "c705c1c2d86b1bbf294e6bc7b6c564eef42a951f4e904374af50983beccf9096"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lc02_L.py",
+      "bytes": 2497,
+      "sha256": "1ba72b1bd8d8857a54d79cc34a439997e5c2a75ccd3e3c9226264457d4db1962"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lc02_long.py",
+      "bytes": 3065,
+      "sha256": "fa70899eebbdae2b7337b787f27480d909ba2bab6c8299b4208e67565dc29754"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lc02_seed.py",
+      "bytes": 3004,
+      "sha256": "464680d88aa5b4ce750035866792b65b996e7876228579433868a9e647fd7ec5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lc02_step1.py",
+      "bytes": 4110,
+      "sha256": "cc7dc42143d648abc119ba41e57d2d469a6166502ff571e264e49ab4e11048d9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lc02_step2.py",
+      "bytes": 4158,
+      "sha256": "b3bb5dcfdb477ce4b9c331d8664444a1e5aff2b285f5bcf2b98ce0e0fe1be0f4"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lcdev_diag.py",
+      "bytes": 2598,
+      "sha256": "2fb5bd6886a34aae87a276252bb0a8b4061009254cd26e51327982da672f84ed"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lcdev_gm.py",
+      "bytes": 3304,
+      "sha256": "ca89c4dc18aff30b7f5a49643494a560f793be37f98afdbbb0024337986b74b9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lcdev_iso.py",
+      "bytes": 3090,
+      "sha256": "02cb02732c8b587e37569e52df738823afa9345944945fc82d78374c332d7469"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lcdev_last.py",
+      "bytes": 4124,
+      "sha256": "0e1c2d5c7428677e7f0994c35044cf66d41ea046293da0d8bf036b6fa82d712f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lcdev_q.py",
+      "bytes": 4122,
+      "sha256": "34ea4c871fa92ee103236b4cae960abcf79f42bbc386b5494681f4be2d4bb10d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lcdev_run.py",
+      "bytes": 4645,
+      "sha256": "9a4a0de2a03b4b9d11faf996ff1403a6e8587abcb64361ba287ecc164656af2f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/lcdev_v2.py",
+      "bytes": 4271,
+      "sha256": "7ef609b70bc9c10810affb89d176c8d0808fe854149c2f4e457baf66f7a32cb8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/mk_summary.py",
+      "bytes": 1454,
+      "sha256": "9d465c209de40a9c47b8bb518c2091881036079c547186f0572ac2fa9df4152f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/punch.py",
+      "bytes": 3474,
+      "sha256": "d9e7fd6ac71fe6098835e11d18284430162f30d67ef67212b5be62ddf53fda3e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/pz_test.py",
+      "bytes": 1346,
+      "sha256": "be628f83f7173144e8090c3a6572561f28a60bd3d1c4085d8135be672917e791"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/redesign.py",
+      "bytes": 3517,
+      "sha256": "afe6070c31d1f62dcfe95da95f79c75f688192df4d3ca79c7e8528090caddcb2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/run_cmp.py",
+      "bytes": 5119,
+      "sha256": "e4663de02ef94f23624b2b785f47f53ba2fb259985a74bc322ae9e067e95b8a8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/run_final.py",
+      "bytes": 3358,
+      "sha256": "4948a0bb799ab1ba092ad6bd53788f5ca415b58c133487216b595bdec0d198cf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/run_lc2.py",
+      "bytes": 4491,
+      "sha256": "0ec03c782a6ca87bd2a69168c0b872a5475280f0a0053c42d5e01f1c4a615c3a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/run_lc_study.py",
+      "bytes": 4746,
+      "sha256": "8231cf1caff08b09aad7a17750fc120dbbe36ad1f9dec6ec7b9faaf2069803a9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/run_load.py",
+      "bytes": 3213,
+      "sha256": "fd024526c959afe0b297969aa6e73ccce76902d44552404f301bb2cb7d8b81e1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/run_settle.py",
+      "bytes": 3440,
+      "sha256": "14dce488df4169d4ef524b120c3ea0462523c9a93283254a454d7e0ea346daf9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/run_tuned.py",
+      "bytes": 3006,
+      "sha256": "3e7bd981c6dc75e905d4447ae34ad2ba541771bc003c3deda342ec546a6f76df"
+    },
+    {
+      "path": "simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/scripts/run_xtal_load.py",
+      "bytes": 3182,
+      "sha256": "13f638fbc766a43700ae4741bc3cb7b16084ef78aac84d85909c0be667793bae"
+    }
+  ]
+}

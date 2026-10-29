@@ -36,10 +36,16 @@ node_modules/
 *.rar
 
 # 云盘归档包（2026-10-29 建立）：只留本机/云盘，不入 git。
-# 恢复方法见 archive_20261029/README_归档说明.md；校验清单可另行以文本保存。
-# 注意：tmp/ 未忽略——其中 tmp/lc02/ 被 S04-LC-02 文档引用为数据位置，
-# 需按证据策略单独判断是否入库，不能因“是临时目录”而整体忽略。
+# 校验与清理记录（*.txt/*.json，约 0.6 MB）仍入库，它们是大包内容真实的唯一凭据。
 archive_*/
+
+# 临时实验目录（2026-10-29 起整体忽略）
+# 原因：LC 四轮实验的可复现子集已精选归入
+#   simulation/v4_hardware/stage4_rf_oscillator/S04_RF_CARRIER/LC/simulations/
+# 内含 .cir 网表、结果 JSON 与复现脚本，并有 MANIFEST.json 逐文件哈希。
+# tmp/ 下剩余的是 work/ 重复网表、ngspice 诊断 .log 和一次性驱动脚本，不入库。
+# 原始文件仍留在本机 tmp/ 以便追溯。
+/tmp/
 
 # 系统与编辑器杂项
 Thumbs.db

@@ -1,0 +1,16 @@
+# 行尾规范化（2026-10-29 加入）
+# 原因：Windows 下生成的网表/脚本被写成 CRLF，导致 git diff --check 报
+# 12000+ 处 "trailing whitespace"，掩盖真实的空白错误。
+# 统一在仓库内使用 LF；检出到工作区时不做转换，避免反复改动本地文件。
+* text=auto eol=lf
+
+# 二进制：不做行尾与差异处理
+*.7z   binary
+*.rar  binary
+*.raw  binary
+*.npz  binary
+*.gra  binary
+*.ms14 binary
+*.png  binary
+*.pdf  binary
+*.docx binary
