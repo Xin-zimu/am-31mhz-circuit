@@ -1,0 +1,39 @@
+{
+  "git_head": "7de494a7fc47f31afcf1fe4ef345781273e0d416",
+  "started_date": "2026-10-29",
+  "completion_date": "2026-10-30",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "2bde0ae9c7d872caad2cb3de64c927d7c7fd4519a6c899b0cf3c0b7dbb54d6a2"
+    },
+    {
+      "path": "项目管理/02_当前阶段目标.md",
+      "sha256": "26b55f26f64529a7e1f86992200207051f86cd06bff23a4ee3a2df6a7fda6437"
+    },
+    {
+      "path": "项目管理/03_当前实现状态.md",
+      "sha256": "564abd2f20d5511e9f8842b7265e158a4ffff25cc684cb918cc118491e457f9d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/S05_R2_candidate.cir",
+      "sha256": "1e6c752d36e4da5d0a7b65682c279d09f7fe04edf42d6a9c7944d612012d28eb"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/S05_03_选频阻塞与基带验证.md",
+      "sha256": "89679db6ed09c73f77b141b2900f8b141944c7ac5a97a2504525da8d85b4198a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/S05_04_R2接收候选与补购清单.md",
+      "sha256": "8911962f96eed5ca502054d4c9a15bf17bb546b18a5f7b84437862e06fa12440"
+    },
+    {
+      "path": "simulation/v4_hardware/AM_20k_31MHz_V4_3_REPAIRED.ms14",
+      "sha256": "99dffd203eb501498e8884ce02005a977b9f295d380ad3c7afea227f26296394"
+    },
+    {
+      "path": "simulation/v4_hardware/repair_20261011/final_actual.cir",
+      "sha256": "d9aba8eff74e679f709bc6a680bf569e6dab87a00303b6ff138f19d4964ccaaf"
+    }
+  ]
+}

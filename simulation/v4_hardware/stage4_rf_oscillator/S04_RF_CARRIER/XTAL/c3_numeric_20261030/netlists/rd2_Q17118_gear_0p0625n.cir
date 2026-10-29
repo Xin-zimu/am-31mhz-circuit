@@ -1,0 +1,15 @@
+* C3 RLC reference A1: parallel tank ring-down, Q=17118.0
+* analytic: v(t)=V0 e^-at [cos(wd t)-(a/wd) sin(wd t)], v'(0)=-V0/(RC)
+C1 1 0 1e-10 ic=1
+L1 1 0 2.6370819393581765e-07
+R1 1 0 879052.5421976445
+.options method=gear maxord=2 reltol=1e-4 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(1)
+tran 0.0625n 700u 0 0.0625n uic
+write rd2_Q17118_gear_0p0625n.raw
+quit
+.endc
+.end

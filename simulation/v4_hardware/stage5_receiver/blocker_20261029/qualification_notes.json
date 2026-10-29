@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-30",
+  "floating_frontend": {
+    "excluded": [
+      "A2M.cir",
+      "A1M.cir"
+    ],
+    "reason": "COUT and CIN1 isolated port at DC, causing singular OP and incorrect AC linearization",
+    "accepted_replacement": [
+      "A2M_r1M.cir",
+      "A1M_r1M.cir"
+    ],
+    "dc_diagnostic": "A2M_dc_ac uses 1G; final frontends use realizable 1Meg"
+  },
+  "gain22": {
+    "unqualified_arrays": [
+      "F_A2M_g22_square10",
+      "F_A2M_g22_square50",
+      "F_A2M_g22_ns_square10"
+    ],
+    "reason": "Transient-OP fallback did not retain requested ref/bbin=3V. Initial ref approximately 2.314V, final mean drift 11-13mV per modulation period. Do not call steady/prebiased acceptance.",
+    "failed_dual": "F_A2M_g22_square10_dual10: timestep too small at 52.518us, no numerical array",
+    "failed_ic10": "F_A2M_g22_ic_square10: explicit bbo/neg initial values yielded correct initial nodes but simulation exceeded 90-second budget without raw; no retry",
+    "cancelled_ic50": "F_A2M_g22_ic_square50: deliberately terminated after sibling initial-value attempt timed out; no raw, not an independent demonstrated timeout",
+    "decision": "No further G22 runs this batch. Existing G11.2 real OPA results valid. Gain compensation is next-stage work, not qualified."
+  }
+}

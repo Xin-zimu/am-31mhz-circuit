@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\\u6027\u80fd\u6307\u6807\u8981\u6c42_N31_M50.md",
+      "sha256": "ba4d900102f8c10bbafff1bf90063c476e3ffb0a7bcfcfb037ec33de64d5cbb2"
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\run_selectivity.py",
+      "sha256": "bfa81c94f35060c3148a93f9706d1fb80f5c5b464059c0350c886c4fa5dfa8ae"
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\run_s05.py",
+      "sha256": "8cca9fa290e969961ad99f04cccd4cf9f0ba798cdae22d94da84e341a2b516e8"
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\run_baseband.py",
+      "sha256": "17908765770e32b52feaa1ebb01b4ca3697f802e17adb54edb6411d7a5c606ab"
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\selectivity_20261029\\run_validation.py",
+      "sha256": "04f29666d97956b9e3cfe8435ba381f6da8e227fb89bb1d0aafbbc508901245a"
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\models\\OPA197_TI\\OPAx197.LIB",
+      "sha256": "fc5b020e63346e511bd808bf41c856b0150b000bcf8a41fe00eeececb1f422a5"
+    },
+    {
+      "path": "D:\\ms_xsp\\s04_crosscheck_20261017\\Spice64\\bin\\ngspice_con.exe",
+      "sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\blocker_20261029\\filters\\A2M_r1M.cir",
+      "sha256": "c223b263ca73244efbeefa09ebe51d914dda7e119858d3ba5d196525ce9e26e8"
+    }
+  ],
+  "measurement": {
+    "fourier": "time-weighted or uniform-time projection, never max-min",
+    "formal_amplitude": "raw and 98%-2% Vpp on uniform samples",
+    "warm_condition": true,
+    "cold_start_qualified": false,
+    "bat85s_qualified": false
+  }
+}

@@ -1,0 +1,13 @@
+* A2M: two capacitively coupled lossy parallel LC tanks.
+* Q=50 at 31MHz, Cp=1p per tank; assumptions, not vendor qualification.
+CSEL input tank1 14.529p
+RLOSS1 tank1 ln1 1.83092019851
+LSEL1 ln1 0 470n
+CSELF1 tank1 0 1p
+CTUNE1 tank1 0 39.59p
+CK tank1 tank2 2.485p
+RLOSS2 tank2 ln2 1.83092019851
+LSEL2 ln2 0 470n
+CSELF2 tank2 0 1p
+CTUNE2 tank2 0 45.83p
+COUT tank2 port 10.81p

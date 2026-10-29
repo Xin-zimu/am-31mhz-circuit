@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-30",
+  "sources": [
+    {
+      "url": "https://www.ti.com/product/OPA197",
+      "notes": "4.5-36V supply, 10MHz GBW, 20V/us typical; existing model kept unchanged"
+    },
+    {
+      "url": "https://www.ti.com/document-viewer/OPA197/datasheet/electrical-characteristics-vs-4-v-to-18-v-vs-8-v-to-36-v-sbos5111222",
+      "notes": "Rev C; swing specifications depend on load; 125mV max rail headroom at 10kohm under listed table conditions, not a universal rail-to-rail guarantee"
+    },
+    {
+      "url": "https://www.ti.com/document-viewer/OPA197/datasheet/capacitive-load-and-stability-sbos6205243",
+      "notes": "layout/load/gain determine stability; isolation resistor introduces load divider"
+    },
+    {
+      "url": "https://www.vishay.com/docs/34056/irf24.pdf",
+      "notes": "0.47uH row: +/-20%, Qmin40 at25.2MHz, SRFmin200MHz, DCRmax0.17ohm. Not a guarantee of Q50 at31MHz or qualification of stock part."
+    }
+  ]
+}

@@ -1,0 +1,3183 @@
+{
+  "files": [
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\analyze_results.py",
+      "sha256": "6f0501667a9582ad1c294086c0805cf4187f085c0b79767f0afc8fcc2646711f",
+      "bytes": 2950
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\audit.json",
+      "sha256": "1506b197b95b3a16f8737ae1408f7e450cbb9d28ad17aa4e70a7459697fd66d9",
+      "bytes": 21466
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\audit_new.py",
+      "sha256": "023ae53fd41c19a53e01145b52a3f13d741338e40d858328c8f1f07309c1feec",
+      "bytes": 4915
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\audit_previous.py",
+      "sha256": "5db01e1e4978b7e47e27a87f5d1e51801760d73b47b25229dee839f954b0a706",
+      "bytes": 2514
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\baseline_snapshot.json",
+      "sha256": "06c21b5ca22d4b99f86a0b4614914eb13edb214db6852b63c06b6f92bbf53030",
+      "bytes": 147623
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\bb_checks.py",
+      "sha256": "684987412fe83e78ad0f12d81b135dcec5c58cea5c32b76aec87a3897982cc7f",
+      "bytes": 1861
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\boundary_recheck.json",
+      "sha256": "025c3bb8dd70190572deeca885e04bfc7db159c7b1bc27c24ac0db25aeb0bdbd",
+      "bytes": 803
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\components.py",
+      "sha256": "b9d014114fe128e75243f511890b545eb61fa808c30964ae0df0030a4c07eb62",
+      "bytes": 2137
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\component_sensitivity.json",
+      "sha256": "5fd152b1a1b75a20202aea765ff4d508b7eb05d2dd87d9fe24c7c7eddad75850",
+      "bytes": 8257
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\incomplete_cases.csv",
+      "sha256": "27377fa462b6b77b880415968e16c744465f827dac47fbd15fed40b67ea99e00",
+      "bytes": 1645
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\make_measurements.py",
+      "sha256": "82bdfbd392561424f85cef33c1425cddf6a5b297a9185d0d6332ec3300db6229",
+      "bytes": 4718
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\matrix_execution.json",
+      "sha256": "4b9bbb949d4d0d068e7c799c9dbd0923048c0fa039e98a035912b9a4c8c7e277",
+      "bytes": 5521
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\measurements.csv",
+      "sha256": "1b3881ee6df9be4b53a413100e3717c1c2d3c0f7a13d1645e26dbf3e1c654fee",
+      "bytes": 5941
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\method_inputs.json",
+      "sha256": "b1920fef9a25b39ff880e5b2a833c4eb7fdff1111f930857c4ba42c2b6bdde4c",
+      "bytes": 2170
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\network_sensitivity.csv",
+      "sha256": "c5531de0e4b30c6d1270df4fca6839c2365869617122618e9d0f62d03754bfd3",
+      "bytes": 3235
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\plots.json",
+      "sha256": "b8906686b328e392514fa6b0e0babc2065daab98271e6e7473332618c0252014",
+      "bytes": 232
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\plots.py",
+      "sha256": "da504b186bfb21539814785feac50e4c1a8c65ed137f9eaaead36984a1a9867f",
+      "bytes": 5702
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\previous_audit.json",
+      "sha256": "b096e1aca91593b27eb6b01a4053ffce2495fabc1ca206b0a405c73b0ef51942",
+      "bytes": 14570
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\replay.py",
+      "sha256": "4a0dd898c877365884ee8083aff0d659b155b05c7847984e76bf7ca6eff3d945",
+      "bytes": 3017
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\retuning_sensitivity.json",
+      "sha256": "d0c08ea15b4a191036a5c1db3b66591a1b885f552a43b3d0d40398817d34c1c1",
+      "bytes": 2065
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\run_cases.py",
+      "sha256": "51a19ad563d64a9a2ca368236e824a5b2b867f951bd06589e871e609feaf8684",
+      "bytes": 2361
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\run_gain.py",
+      "sha256": "fe9551c86920d20b6034d5fe725ea1819b3d558c9676ab075f8e1c359120c208",
+      "bytes": 10897
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\run_matrix.py",
+      "sha256": "47cf4aa30449bae51215bd683fe86fe59d300db4b4fa4474470e76020f7ab418",
+      "bytes": 1854
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\source_references.json",
+      "sha256": "3281757e226f8ee0fbe7fa09f5c722337cee1655031dafd3a6760fa7831badbc",
+      "bytes": 957
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\summary.json",
+      "sha256": "39825ee9fdfa0fec58c8e591c5ab5c3f2fe2e1f06758543c3c100910d3d6aaff",
+      "bytes": 77377
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\write_report.py",
+      "sha256": "875e389be88aba7b4be411f5092e8c0afecde8eccc2fc4719be6bc6fb938969a",
+      "bytes": 24943
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_seed_sq10.json",
+      "sha256": "b0880132977830a9a66a4438391c47af14fce614a6357b3a0a6690bb717fd247",
+      "bytes": 1164
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_seed_sq10.log",
+      "sha256": "e340621470a1bbeb56a0b46b3dc73d56053d9897c913831969a498974aa6b665",
+      "bytes": 9784
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_seed_sq10_h1.json",
+      "sha256": "d9760bdf0883176617cc1d79d417cf68b12530d98bcfef9555cbda2600d47b38",
+      "bytes": 1172
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_seed_sq10_h1.log",
+      "sha256": "44b4736779049c1a3f8926638800c7268061626db3066c7a5034da86df6093d8",
+      "bytes": 9784
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sine_clean_partial.json",
+      "sha256": "e40d1ba494f4f04196f03ab6408b8358dc456735364b0b4495eb642b8a9f7eef",
+      "bytes": 455
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_33_40_sixcycles.json",
+      "sha256": "223443cfd05c6475ed4051e8326fb2658232fb34f66e51da314bf176973f10f8",
+      "bytes": 1203
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_33_40_sixcycles.log",
+      "sha256": "6eeee7f5e082488eae43be8a20d64461635a3f65d3a9a22a3bfed7153d7e06a1",
+      "bytes": 9784
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_33_40_sixcycles_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_33_40_sixcycles_stdout.txt",
+      "sha256": "9435cd101d0ac074cd1fb2c7bd035b9f7496ca3c138d320c4e3e1918cb94a419",
+      "bytes": 567
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_Ac20.json",
+      "sha256": "462004458608bd7cecab1bd1454c7093e7f647b638e8d4cad035b464591255ed",
+      "bytes": 2887
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_Ac20.log",
+      "sha256": "67014d36033f94657e45299a0e8c55631e3c1c5d0129174d4ffc7eac74a3eaa5",
+      "bytes": 10083
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_Ac20_gear.json",
+      "sha256": "dea4387c19723e10a53b0d4d75f1f67daf416736b88069c6c6af4b39d2b225f7",
+      "bytes": 2909
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_Ac20_gear.log",
+      "sha256": "66a0747789d4d790e499913a66a31fb78744bc47b5462312cb3473d485e60435",
+      "bytes": 9784
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_Ac20_h025_short.json",
+      "sha256": "5388150d2cc1dfe51516e248eed2be6270fcd59ff6bbbb7212f0112cf9266a33",
+      "bytes": 1137
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_Ac20_h025_short.log",
+      "sha256": "e148dfeb9b490de001d6fdcb8183a918921bb0aa3b79302efbbcfc7a02b3b69e",
+      "bytes": 9784
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_Ac20_h025_short_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_Ac20_h025_short_stdout.txt",
+      "sha256": "18458772e32bf2edc7973c1d515ba9fb75754e9f6a444c442543f1c8ceaabe8c",
+      "bytes": 567
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_pre.json",
+      "sha256": "f26805127b4f95cf34c1704703a8512f80af5a9bfc0640c485d93fc46e1e888d",
+      "bytes": 1162
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_pre.log",
+      "sha256": "7a11480f1d86884c5091f5c94a0e8213f83acbf7f2521c69198028902bc274d2",
+      "bytes": 10053
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_pre_gear.json",
+      "sha256": "cd8e1975760a4313d2511ebdf23899b3025f75409f4e951cf8168e912da6e7bf",
+      "bytes": 1199
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_pre_gear.log",
+      "sha256": "94a3020edc4a1d1d300d87d24ca4aabf6cd323b6ada98d4fc8aaf14c25661b86",
+      "bytes": 10053
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_warm.json",
+      "sha256": "01fcf2bbbab1616124a3c7d356a0e54003f0bcb3b1685dc4ff27bd174b21e032",
+      "bytes": 1165
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq10_warm.log",
+      "sha256": "423180bc2c52c592fe03ca5989e16fc00c45995a13aad0dec753ea97466f9540",
+      "bytes": 547
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq50_33_40_sixcycles_partial.json",
+      "sha256": "f2aa74ea02539a201dc687da95327922b2e5b0c5991a3f67978f9c8231d6f776",
+      "bytes": 1565
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq50_Ac20_gear.json",
+      "sha256": "1d8d1da0e071ea1f9a4c36211a46f09dfaa9cffcdde65c1178c2b93b84c7db95",
+      "bytes": 2909
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq50_Ac20_gear.log",
+      "sha256": "fb24f5736ce2c9ea09fda6851f01ccd43618effc8370c5718b0880c69c0fc0ca",
+      "bytes": 9784
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq50_Q40.json",
+      "sha256": "bf232d3855c861e2ae461f2d3c1fab3e24aeff8004a571f0bfe7ac37eb61944b",
+      "bytes": 2873
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\F22_sq50_Q40.log",
+      "sha256": "1be7eafc9bb583d6148d5ff16d35078c0f5744fa6e627b980ab49d3f4dc84d2b",
+      "bytes": 9784
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\T_sq10.json",
+      "sha256": "063c7db8f3edd00f50beb7d274f9ef2a80bd3096b0c92b4d3009d36e9608b6fc",
+      "bytes": 1141
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\T_sq10.log",
+      "sha256": "b80b215805f0e1ff47dd4a59782938167c3dd909ba8ef2cd418e219ba459929d",
+      "bytes": 8958
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\T_sq10_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\failures\\T_sq10_stdout.txt",
+      "sha256": "8bc33de2e9237e636e858ce12770cbb5c0cc8e571fc00aa267007c20bf1de695",
+      "bytes": 549
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\CK2p185.cir",
+      "sha256": "d6771429eaa620255d93f28ae5dcdcef9a43e72c0b7e071ccbbe91cfbbfe7987",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\CK2p785.cir",
+      "sha256": "164e91ca6311414f3d291b1effb182a19520433c07aebf454ae1df3a89cc9cf4",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Cp0p5.cir",
+      "sha256": "9f2befa8b5ed24e4413b166181f46527c358822264f7d8e5f786f84e968920f0",
+      "bytes": 327
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Cp1p347.cir",
+      "sha256": "d158a0d3f86574b2f1c6e6c3fa3566c3356ab8a4797ef11ac663ccd115eaf78d",
+      "bytes": 333
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Cp2.cir",
+      "sha256": "b244118aafced6ab18f9c94da32a01c57f66a32bd8d9911f0e5c28956af39d30",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\CTplus1.cir",
+      "sha256": "da69da4ac02d42597d2a25409a6915e68eeacb9615b16c8026d6f29d101fa64e",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Lboth0p8.cir",
+      "sha256": "707eb689669a4d79960de4698a8f0e583eaa03ee16359fdf8864b8f9c9b21c47",
+      "bytes": 325
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Lboth0p95.cir",
+      "sha256": "33773be04f4c09ea620a6d9e74a48f49fa059bdcf03754df42c970d75fe53340",
+      "bytes": 325
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Lboth1p05.cir",
+      "sha256": "8203c5a20d274e7f9209343dfd8ef23c7332989dc7eb912b2eab63166f03fb61",
+      "bytes": 325
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Lboth1p2.cir",
+      "sha256": "6dd2622528962cad72e790f22a1df05743cbcdceaef7042e81da717a24b3855f",
+      "bytes": 325
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\L_mismatch.cir",
+      "sha256": "0f952f51eb778bb405bf93a4d3a1c6d5af3b281ff6ef79b4c1aa07c1c2db5b91",
+      "bytes": 325
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Q20.cir",
+      "sha256": "5ac4cf1ce19ef59c7b4d4ed22bebde1b7c2c3f5a7e0ecb9b63d430043fc91c6b",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Q30.cir",
+      "sha256": "d98f100fcd8f3c8be5e683445a6781e499839edfb08e02c954295e7b7ab186ce",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Q40.cir",
+      "sha256": "98123b8e806aa729e0bcdf29fa1b8ac71fa738a80fd15ac3cb6381258aadcd6b",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Q50.cir",
+      "sha256": "3785d95612b13db6bc305a1e9dc493e40b62ab172172fc7e71ad1f5888516b76",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\Q80.cir",
+      "sha256": "82aad638e3ed5cbf551b51c68b00b59c63dee3b2d42ba7cb47e3283d75fa21db",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\retuneL0p8.cir",
+      "sha256": "549f1fc175d69ce875b23ba367b232159485f3717ad8ef4fc60f43c103ce03e8",
+      "bytes": 350
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\retuneL0p95.cir",
+      "sha256": "91c841a605e58caaf93936d28666695cc0d0a445d7da70992576853ce5fb5b24",
+      "bytes": 349
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\retuneL1p05.cir",
+      "sha256": "7cfd14b51fa9bd92b93e88beec49ec9cf90fdd5ece81eda889ed8d9e81dc17b8",
+      "bytes": 350
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\retuneL1p2.cir",
+      "sha256": "a5ba3b47998a380d848722b430420a00e883aeff13ceeea6dcbdd2b839fec7ec",
+      "bytes": 349
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\rounded_C.cir",
+      "sha256": "d249d4fe07ad400317aeb5fbc151d4a054f9982a85dda3ad19014d9d4a68bd59",
+      "bytes": 314
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\RS100.cir",
+      "sha256": "3785d95612b13db6bc305a1e9dc493e40b62ab172172fc7e71ad1f5888516b76",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\filters\\RS200.cir",
+      "sha256": "3785d95612b13db6bc305a1e9dc493e40b62ab172172fc7e71ad1f5888516b76",
+      "bytes": 321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\Audit_29_50.cir",
+      "sha256": "041c9b64834834a0130dbb93c622bc0c07945a783ea1e813a5b080776af52040",
+      "bytes": 1941
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\Audit_29_60.cir",
+      "sha256": "a19a89f4b1797677e9b034e6f860bceae843b9f580dd3b56f26991fdbc813543",
+      "bytes": 1941
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\Audit_33_40.cir",
+      "sha256": "b17aa09eb133c372a90b40bc5b1e7ad2dd1b8a01362e61c8585a2dd5a6a9b1e3",
+      "bytes": 1941
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\Audit_33_50.cir",
+      "sha256": "6f712d3093386023f44a23d477d7036a898ab0f06eec0e2c32df9274ead751e6",
+      "bytes": 1941
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\Audit_clean.cir",
+      "sha256": "e5c50bcdea3c469300fa36a209942c7601c05da7c4611a2f9ccade510362b7b8",
+      "bytes": 1910
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_ac.cir",
+      "sha256": "cb41fbe4461de7b56e5786bf08c2f4363b533903cae979981b7ee76b1950647b",
+      "bytes": 299
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_ac_source.cir",
+      "sha256": "1ff25064a10ee37b08516962a68aed7e47784b10a286b76dbd683c79a778a207",
+      "bytes": 463
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_loop.cir",
+      "sha256": "b3394efd0daf0fb6f09e1d9068676f94bcc54d42ae0ba9e189ae84c3d65d30d9",
+      "bytes": 303
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_loop_C1000.cir",
+      "sha256": "04eb0c2d5144cfe2177c0427f073e126fcd94070fd0ec17ba3db10b23072776a",
+      "bytes": 315
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_loop_C1000_source.cir",
+      "sha256": "f91081079577fa67f95a0da5f26cfbbb34af5379a037d811bb49c7da67fde863",
+      "bytes": 488
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_loop_source.cir",
+      "sha256": "48b49c3a86d56b57d2fad2e97c73576b6936f5118e90090f000557d0da6909d9",
+      "bytes": 487
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_sine_noic.cir",
+      "sha256": "e0b66bac15b93b5dfd1d19458ca1d341710e872e958e0ef28668418a19315850",
+      "bytes": 358
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_sine_noic_source.cir",
+      "sha256": "4890d97cbb41b18e14e6c23b1884693164f119fd267451a125d4501be0e28e98",
+      "bytes": 469
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_smallstep.cir",
+      "sha256": "41cc6902e05a4060599c9e9f31e2227f0616887057729d6c3ec406279729d9a6",
+      "bytes": 358
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_smallstep_C1000.cir",
+      "sha256": "cde7c6f5786a87fa0ed79d757a0b73d8337712932e70cbc4a5a9f7c1bfad1ed0",
+      "bytes": 370
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_smallstep_C1000_source.cir",
+      "sha256": "c94dbcc99e55c46c64cfb883d9690897dd1b2f88d89afff30b1056142aee95a0",
+      "bytes": 508
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\BB22_smallstep_source.cir",
+      "sha256": "10c0a49aaf082840b4b5bcab6e0b555d4f4b8c637c39c899a44ceafff88b7799",
+      "bytes": 507
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_CK2p185.cir",
+      "sha256": "7f8b14f692109f6cd9d9fa36f8dc3c9d7eb2c936dbf2252f2817e6a6b942a7b2",
+      "bytes": 1468
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_CK2p785.cir",
+      "sha256": "8412e51622e17956a61007eedf3aeca8b43940192c6a49edc57061a0458f53ca",
+      "bytes": 1468
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Cp0p5.cir",
+      "sha256": "327791fece94439d03e852e2f438bad8be957e1d428a0a1ba3d1f9a449efb768",
+      "bytes": 1472
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Cp1p347.cir",
+      "sha256": "2b3b7c6b2efb52b21351e1892593c1b0649354b8906998fad221f6549dcbc4fe",
+      "bytes": 1480
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Cp2.cir",
+      "sha256": "b1e223882f8e0410e43c1d138fd8fe5b94d4c5b63224db25f0de69010bfd64a3",
+      "bytes": 1464
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_CTplus1.cir",
+      "sha256": "573fd63a53c2e9841c2a704c6b36b750ede4df8f9e372f2925ae5b815c143909",
+      "bytes": 1468
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Lboth0p8.cir",
+      "sha256": "883659ce20ef089b8a8337a0b179768d1b241d93fae7c5bca00bbba777f7ee18",
+      "bytes": 1473
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Lboth0p95.cir",
+      "sha256": "725a7dd4a544a246e4308d0295a6d0a3daa87ad1150059f8d6141a2d117889e6",
+      "bytes": 1474
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Lboth1p05.cir",
+      "sha256": "b18225e69520571794c177800e8fc954d4a1a5c97341d26a8d8af76393bbb508",
+      "bytes": 1474
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Lboth1p2.cir",
+      "sha256": "eaefa9921d0461bbb7399c838bb92638c7ea1847fbf4e3537384d90e39d16806",
+      "bytes": 1473
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_L_mismatch.cir",
+      "sha256": "2eb78a1f696a9b039c56943e8f1efe3e640039e247bd23394560ba52c5a18ff5",
+      "bytes": 1475
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Q20.cir",
+      "sha256": "b00008efd4185f785ad6e63a9457856b3b7b893a97beb588814a11b5cde3b6c7",
+      "bytes": 1464
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Q30.cir",
+      "sha256": "672fafc0be9d53753cce669ea336be7afdd1b9cc50ed08add8268c917057589c",
+      "bytes": 1464
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Q40.cir",
+      "sha256": "a27498912f8c23bd181225bdc4e73ee4fda444487354d89fb066394d958973d6",
+      "bytes": 1464
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Q50.cir",
+      "sha256": "5ba5661109d4eb0e1b280b75378ed68bae4579d22b3745f9f0ba3b4cbcfb4b2e",
+      "bytes": 1464
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_Q80.cir",
+      "sha256": "28b35033054efc3254246db79193589d7ebaf4197d6cb27191910c90a2651676",
+      "bytes": 1464
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_retuneL0p8.cir",
+      "sha256": "18bd36aac3cd45325b799c0c00cd88357fc9908bab33705197a522099693c0d2",
+      "bytes": 1500
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_retuneL0p95.cir",
+      "sha256": "5e8b651a0d52482c48459cffe7756d3bf031562dd097dd15ff7f934cd1a4ec06",
+      "bytes": 1500
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_retuneL1p05.cir",
+      "sha256": "b6c6c2f7c99154c86a83a90dea1e9cd506c011f1208d8c0f0110cc3db308f23c",
+      "bytes": 1501
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_retuneL1p2.cir",
+      "sha256": "93e32d3ebaab47d86f934ee76d4a5e9987c4acd2e76d66328e0d49bcc881e593",
+      "bytes": 1499
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_rounded_C.cir",
+      "sha256": "e7e7c3076775b4dbe28035e7dc57f37edcc20418d07e753532d257422a4a5252",
+      "bytes": 1463
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_RS100.cir",
+      "sha256": "99ca2ddf49a8f8c42cdcdaf47d67acf1c683d57bbe0bf6707eb3d1bc1a8130c5",
+      "bytes": 1467
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\C_RS200.cir",
+      "sha256": "f01ac3368740260002d33ae0e11b1dc7dd0659bf05ae243cfbb0150f86281d1a",
+      "bytes": 1467
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F11p2_sq10_Ac20.cir",
+      "sha256": "2d660d2f44aa74e42964d4830b912c83e5f7591191eeb25e37b21fa9a29e75b6",
+      "bytes": 441
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F11p2_sq10_Ac20_RFopen.cir",
+      "sha256": "5eaedae7ecfeff3be87d2120f5797de64e20dc4cc110aa8eee7d0746c3236dc3",
+      "bytes": 1953
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F11p2_sq10_Ac20_source.cir",
+      "sha256": "bde53d20c4abaec4e94baf91719bada31e474bfd14ee16dcb615a70b955d39fc",
+      "bytes": 6833
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F11p2_sq50_Ac20.cir",
+      "sha256": "131c8d42e5c66534554b27572fed2cc91f85eae8e07440038fb449b7200935e0",
+      "bytes": 441
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F11p2_sq50_Ac20_RFopen.cir",
+      "sha256": "882d7db38e6b2e783fac8947108690398c0686d4da42aec42d7bb663aaa88ce5",
+      "bytes": 1954
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F11p2_sq50_Ac20_source.cir",
+      "sha256": "02cb7f60d1547677049f7b12612306b09cca44728b495c33b79ca1daea79804e",
+      "bytes": 6835
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_100u.cir",
+      "sha256": "1f0ad5e8cbbd7d73b41cb968ecd4d8bbc1d85ff267e4fbcfb000927c35bd7782",
+      "bytes": 436
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_100u_RFopen.cir",
+      "sha256": "fc12c30f0ced59e27fb015562c63e1c33499ee61f1bfc36897fcc4ef325c35a7",
+      "bytes": 1951
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_100u_source.cir",
+      "sha256": "aa6c6aa43742c1adfeab8d76ff16b599b64abbecadb0645c4508e024f1677d2e",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_probe20u.cir",
+      "sha256": "81f4dea0131f471ecb1ca86ae27c39821e226d05e821e33bc3f4e857f28f2104",
+      "bytes": 442
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_probe20u_RFopen.cir",
+      "sha256": "a0c6bd3601088a78664984bec52ace81a0929244fb365657dbde2b01f282831c",
+      "bytes": 1955
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_probe20u_source.cir",
+      "sha256": "aa6c6aa43742c1adfeab8d76ff16b599b64abbecadb0645c4508e024f1677d2e",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_sq10.cir",
+      "sha256": "73b7a34ab44c883bd2d721992aaaf66140d70a527cb368e106301cd99843f69f",
+      "bytes": 437
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_sq10_h1.cir",
+      "sha256": "bcd73ef0fcda32e9d17a2a9bb6fc0a74795f7b8323a6d038272cb783a7f79ec0",
+      "bytes": 439
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_sq10_h1_RFopen.cir",
+      "sha256": "2cc7b462ac1b6977f5e14783e4e0e840870b9a56fc80d9caee5ec6545c014e3c",
+      "bytes": 1950
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_sq10_h1_source.cir",
+      "sha256": "b5b9e13470fc9e415a865ca2f13bc99380cf470620eee982d614770f474e633d",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_sq10_RFopen.cir",
+      "sha256": "d79c7202ab2467ead557d469cc64918e1e173a6dac7ed15cea6ef700717efc36",
+      "bytes": 1951
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_sq10_source.cir",
+      "sha256": "aa6c6aa43742c1adfeab8d76ff16b599b64abbecadb0645c4508e024f1677d2e",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_10_gear.cir",
+      "sha256": "896521aab837926119aba515890a8fadf94947babf463becf49811c4eefd990b",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_10_gear_RFopen.cir",
+      "sha256": "40846fb477995a76b45b3e3458cde5b2ba5c455114079398b62aed23c1611247",
+      "bytes": 1966
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_10_gear_source.cir",
+      "sha256": "71a8d626413595f83956e7d791c7a3e6c6102936e8caf30dd7919a9b1a4487ba",
+      "bytes": 6847
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_50_gear.cir",
+      "sha256": "78ca465c105a68fd6645dbef9d1dd34be625ce8f159143122bf58016e4e9bed1",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_50_gear_h025.cir",
+      "sha256": "3c40d7d9d0d7b93911ccfbd82d66b6e825a9ee39d7994b59697c6738e96c35ff",
+      "bytes": 461
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_50_gear_h025_RFopen.cir",
+      "sha256": "32bafc076de6e141a12402923101379be2fca5eb7088966c90383cca9f3f0767",
+      "bytes": 1973
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_50_gear_h025_source.cir",
+      "sha256": "561e302e32961c435eb9b2ea3a30730f7245643ebc0ce2507aaee89a8fd56b4a",
+      "bytes": 6847
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_50_gear_RFopen.cir",
+      "sha256": "85e68981e158e1e5d99183cf5084911f2e6f7c5eab50f7a7f3220641884b1432",
+      "bytes": 1966
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_50_gear_source.cir",
+      "sha256": "dea0722c9308182eb4161767b83e554f13aeeb3f1b2f08d44eb83076aaae45d8",
+      "bytes": 6847
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_60_gear.cir",
+      "sha256": "df2c0dc2b1b264d8992ab2eb60d7a85a2bf2cb786439eb431236d7a7f6a4bd1d",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_60_gear_RFopen.cir",
+      "sha256": "77fb06a5ca25227ef7e44aa6c0cade8f76c445804c30c2390c5b32533481d33c",
+      "bytes": 1966
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_29_60_gear_source.cir",
+      "sha256": "ee4a34680301ffe2387c2b21918f1753edd2b92b5f4014307964bba683e1905b",
+      "bytes": 6847
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_33_10_gear.cir",
+      "sha256": "fab844d66d2f9e6cc2762636dd006806d23ce2f37b755a821a8ca54fe76799b3",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_33_10_gear_RFopen.cir",
+      "sha256": "8df616e18ec850e7d77e59a7b650e7392cb51990fe9c0a75df345f9cd3b6ee32",
+      "bytes": 1966
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_33_10_gear_source.cir",
+      "sha256": "8173a270ed4433a426921b96efbac7e10ab5a1cc25145239bac978c13ddb2191",
+      "bytes": 6847
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_33_40_gear.cir",
+      "sha256": "0e21617f75f3a8f9c52e4077e220933199cf3f93876b449afa4332c12de2a961",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_33_40_gear_RFopen.cir",
+      "sha256": "b1c265586f0d77028b7511e37c4da1a22abcc39f11cbe7dca6a29d00329aa471",
+      "bytes": 1966
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_33_40_gear_source.cir",
+      "sha256": "60d364a8d9b46234d1d674238b7248a5ae75378dea63a40c4d2266805ea63fc6",
+      "bytes": 6847
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_33_50_gear.cir",
+      "sha256": "9b6881819f319ca45564edc4e7faccc46e4bb757d4ff5f0c84acccc085029928",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_33_50_gear_RFopen.cir",
+      "sha256": "c94f8a63da791cf6763abcb0cf05e8b1106d966e6d9621bef255bffcd1bd61ac",
+      "bytes": 1966
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_33_50_gear_source.cir",
+      "sha256": "0c81ac2d993a0d4d81c95e4da699703e216316dac1664ee226385304f3815792",
+      "bytes": 6847
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean.cir",
+      "sha256": "758e4f53c89b73015db07fc77f472a79b76b96b207fd3d5350f371eeb8b24c96",
+      "bytes": 439
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean_gear.cir",
+      "sha256": "9ec624128568fcbe2499c384c794f2c730a49da2e4de4dd8d5006935f13d2cdb",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean_gear_h025.cir",
+      "sha256": "1c9ae8c7d36b2ee6af1f83d6f26e8aba83497ed0443f756a37d66bb0af6cdbda",
+      "bytes": 461
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean_gear_h025_RFopen.cir",
+      "sha256": "ac813529c3e412a7e7d0fd63a277d203c54463d33c3340b489651274e5fcf9ad",
+      "bytes": 1942
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean_gear_h025_source.cir",
+      "sha256": "86ca2f3ee5603a649c5d377fc58874daa7a634f0b39da8e11373c7d9660d0b6b",
+      "bytes": 6816
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean_gear_RFopen.cir",
+      "sha256": "4e4e0b380ba37501eb7cf3d5c61c28f568ccfbd229048d053f4aa1185274624a",
+      "bytes": 1935
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean_gear_source.cir",
+      "sha256": "796c3e09138bdc63f07820d978a4b8ef1fec6eee12423757f7c8955322a261e8",
+      "bytes": 6816
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean_RFopen.cir",
+      "sha256": "79c0349420c3ff9749d52ca53b75de1aab16ef47752673f8e6e4599143a67d54",
+      "bytes": 1930
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean_source.cir",
+      "sha256": "7b9413e7cadfd56e65c2beeb8d8f4e12f1f460e4cf3e1df0edf25a02e853ee30",
+      "bytes": 6816
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_29_10.cir",
+      "sha256": "12db7735bb7a8ea9d68ccc97ca2d913df97bb207ca1d49530a94d9be893b31d7",
+      "bytes": 439
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_29_10_RFopen.cir",
+      "sha256": "1743d5617dfd7f78088f2dc0c56b530a2923b478afce14b2f6cc5bf8d2666030",
+      "bytes": 1983
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_29_10_source.cir",
+      "sha256": "d6367f563858846a011de052b1b7efcc7e61043db85472e4febb10c6ff4eba2d",
+      "bytes": 6870
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_10.cir",
+      "sha256": "4f4417ae41f59652d7bd9812666687a90ee0fa425d316a6ac69d5d2b39723cba",
+      "bytes": 439
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_10_RFopen.cir",
+      "sha256": "627a933662d43a506894727224d9925acc042a392c656b49088b1c8bd7756cca",
+      "bytes": 1983
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_10_source.cir",
+      "sha256": "f7225d2e351ee10e4d38152ae17e7f7a088f4179c805bed3ffb8b00f802b5cea",
+      "bytes": 6870
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_40_gear.cir",
+      "sha256": "f5609eb86eb05638466459d0a4ab96e4a70bb288c9abae5e58e580ae62b6acb9",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_40_gear_RFopen.cir",
+      "sha256": "575d3f657538e792f25f88b2b47fdaab0c4296a6f9368bcab982ac1eb0aec55c",
+      "bytes": 1988
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_40_gear_source.cir",
+      "sha256": "e8c2d40419b7695388dae819983b94d4dd3dbdd6a5bdd661e715cdb5b3925877",
+      "bytes": 6869
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_40_sixcycles.cir",
+      "sha256": "b3d9e73ec521d66d4deffd7879ae7236f23449b45559a67c36a0b60037a462b6",
+      "bytes": 459
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_40_sixcycles_RFopen.cir",
+      "sha256": "400c0fdd85187df37031866e047066d0b80df061720d1a3f97be5fd6f0439d38",
+      "bytes": 1993
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_40_sixcycles_source.cir",
+      "sha256": "bfbe91eac50b63d568bbc25c5984b85c56281e5323ca9e006094c43d5dabded3",
+      "bytes": 6869
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20.cir",
+      "sha256": "246af45d8078a657bf6abce8b6e368c3f3f3351098c3b0e719213e0ef202a895",
+      "bytes": 437
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_gear.cir",
+      "sha256": "ebf41281d83c2339484b448451246d0b115723f5790ce7e014a868d5a49b6310",
+      "bytes": 447
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_gear_RFopen.cir",
+      "sha256": "b64fa36fdbbed4b0ba5c14781c9f9387bb5f233456f23e035ca691617b5c3080",
+      "bytes": 1956
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_gear_source.cir",
+      "sha256": "1e1ebb6d8abb9e0fa410f4d188581ec76e6df92019efdd9df7fafbb1a71478b0",
+      "bytes": 6837
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_h025_short.cir",
+      "sha256": "df26dba638a2917c433736a3bf5294e6fb8e7ffe6520a14afe32ac80509d26df",
+      "bytes": 460
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_h025_short_RFopen.cir",
+      "sha256": "78baf70b6b05a3609c5bcc6f705b9e5e5286f6945d8a5cd7a47b1dc835557214",
+      "bytes": 1964
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_h025_short_source.cir",
+      "sha256": "812109a60cb98d7e7292f2ca1bde36196e3a4893fb9284f97fde3dddeeaeba3b",
+      "bytes": 6838
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_RFopen.cir",
+      "sha256": "b20b3c28e157d3849c55fab3d277648e3d07e42a6320dab4c1473b719c8114c6",
+      "bytes": 1951
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_source.cir",
+      "sha256": "55b5321229c5623d8e1e130702576c5bd97ef77dd8f5515cf0ba5380464bda53",
+      "bytes": 6837
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_clean_gear.cir",
+      "sha256": "a3c9e72ff80a6a0f0e2c8706d61cdc7185cde56e73b38dbd24792faa7d8225fe",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_clean_gear_RFopen.cir",
+      "sha256": "b29e3d22f1883d000a0d65b6abe1fba5d2783f2fa9e8ddcf3edfef46dd8f08cd",
+      "bytes": 1957
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_clean_gear_source.cir",
+      "sha256": "38bb7007564bfbe19ddb7bf7efccdeb701b85547e8516adcf1127618b5c765fc",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_dual10.cir",
+      "sha256": "aa34564a9d1ee4137dc73570ac5e719c0775a01dc9ddc49f8ca200c9100b5fed",
+      "bytes": 441
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_dual10_RFopen.cir",
+      "sha256": "2a74cef16b8d7dd6b101d8d3f750db4e6f16c252a00b19e70ae68c74c148450c",
+      "bytes": 2015
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_dual10_source.cir",
+      "sha256": "2b7f8ed460ca135a66c4960daa5a6a230ea1d27b80f4824e4098e221f1bb7781",
+      "bytes": 6900
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_h025_short.cir",
+      "sha256": "9c73c3fb8dc6639e56a5d100b7b2c9c4eefe9711a027fa2fb330b74fb32b19f0",
+      "bytes": 450
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_h025_short_RFopen.cir",
+      "sha256": "ad532f42183300607ce2c81bf1e28c29cb28c4ccb11e56134e4970980dca5624",
+      "bytes": 1959
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_h025_short_source.cir",
+      "sha256": "5d992cef0929ecd0cd97dd3566415dab5c41eca65d4ea244091bc752b746d066",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_m025.cir",
+      "sha256": "bcf780c46602c482d909e9398a201878be29b034d28b7a8537b312f85f797e27",
+      "bytes": 437
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_m025_RFopen.cir",
+      "sha256": "452991368f4ad69f426aa8a7072391f6bfc1e419777014b4aaf5686cb9acb4e5",
+      "bytes": 1952
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_m025_source.cir",
+      "sha256": "00b650ed766eedc68b2952f617fa9f84c857afcafed14dc121c033f2bf3d8b25",
+      "bytes": 6840
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_pre.cir",
+      "sha256": "7f57833c8b357b58e022fed1fb8e8f746b82071a6d2edaf02df7b58afe95744b",
+      "bytes": 435
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_pre_gear.cir",
+      "sha256": "61d315ffd943caf32f388b3547e4e5a2f2bf8b37f1599423ba2c03e28d2ffc41",
+      "bytes": 445
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_pre_gear_RFopen.cir",
+      "sha256": "dd6014a9fed2934b94a711d6c9617c62268a1a448d098923e7ab95357506b7a4",
+      "bytes": 1955
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_pre_gear_source.cir",
+      "sha256": "6c996258a4ba242ddf8b390826fc22fe5ead2da2ce198c6690783be9fe1c4399",
+      "bytes": 2225
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_pre_RFopen.cir",
+      "sha256": "c77a4983a6258ab3e4f28bdaf9f17fa5dc6f568c941ace21b39e3bc7f29c9baa",
+      "bytes": 1950
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_pre_source.cir",
+      "sha256": "1f799726fa06a8369b9f80b1584afb57d59f777c684c50790ff2ba5a2c976f73",
+      "bytes": 2225
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_sixcycles.cir",
+      "sha256": "0c961c1b795f7b1b8850e86414b6f952e897bbb7f248318e0dea0c749a49d885",
+      "bytes": 447
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_sixcycles_RFopen.cir",
+      "sha256": "1936b7df677e9a9ffd8d25881fef08ec4e5e503bb30d517bafef9e6c8b526060",
+      "bytes": 1956
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_sixcycles_source.cir",
+      "sha256": "aa6c6aa43742c1adfeab8d76ff16b599b64abbecadb0645c4508e024f1677d2e",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_warm.cir",
+      "sha256": "b3623d2448726abce37991aea5b95830eb794aac0c867dabf19731c4aa7e4ee9",
+      "bytes": 441
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_warm_RFopen.cir",
+      "sha256": "542d944cbffbb04fb71b2ae6aa043b3fd70808156109949373ff1c7313c88b3c",
+      "bytes": 1951
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_warm_source.cir",
+      "sha256": "b747d4bac371f943b029bd564af4b6453418c96c2794415b4cfa4989a03d1222",
+      "bytes": 6751
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_29_10.cir",
+      "sha256": "15426eef5dbb787fdf204207132592fa9ca8147b6f728f0c640b677afdfec30e",
+      "bytes": 439
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_29_10_RFopen.cir",
+      "sha256": "2f881072b1dac8253bab3aa9b04f0a2a2a905a2e4b094fe210dc2ef2ef737d07",
+      "bytes": 1984
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_29_10_source.cir",
+      "sha256": "9c90aa377cdc4fe3a4979700324eec16785430a2848bad100d38831a996a2b69",
+      "bytes": 6870
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_10.cir",
+      "sha256": "18041ca21180924a1322b39c987fe0e7ef23f9f1e0870ac9a23d42c1824c9d0e",
+      "bytes": 439
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_10_RFopen.cir",
+      "sha256": "69e353427b1de6f1cd2884286439feb0bcadb1e2c7e7ca5afca16a8700eca29d",
+      "bytes": 1984
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_10_source.cir",
+      "sha256": "7b09aae8f0df880052a5634bc59fa3b41e6fd1982af5ef6fc87bfaa66a5d81e1",
+      "bytes": 6869
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_40_gear.cir",
+      "sha256": "7c52f7d9d48bd83b2a7f7fc3569fc362303974ca6cbf572898fef03655cea869",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_40_gear_RFopen.cir",
+      "sha256": "e0f4d68d25bd19a016b51bc5c2735b4e2b39d921d7595ab3712d03b9deeb7c39",
+      "bytes": 1989
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_40_gear_source.cir",
+      "sha256": "1fdb797befa949aa901dabc4698e8fd60da85d86d18bc2ec01bd2d49b25b94ce",
+      "bytes": 6870
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_40_sixcycles.cir",
+      "sha256": "3ce20496f8c5a651e8044077bfc36256b4487a5adb3ec58adcdafc0f0340a39b",
+      "bytes": 459
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_40_sixcycles_RFopen.cir",
+      "sha256": "8f4c7bcb8cb2e2b8d9d3eaa30664a904114516d02b0d6581a420be0738d2f9e5",
+      "bytes": 1994
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_40_sixcycles_source.cir",
+      "sha256": "64dc776782f1d0b68f1bff1e14f3641baf16d408fc29f35dee5331425c1fca5f",
+      "bytes": 6870
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Ac20.cir",
+      "sha256": "740fb31f5e2ffe8020c96cc74ee43cf5e20437ff922fa8ddbeb5285d7e98bd8c",
+      "bytes": 437
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Ac20_gear.cir",
+      "sha256": "44ea32d7c743bb6b96772dd5def776b45ed615746e0257934a923756f9b1518a",
+      "bytes": 447
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Ac20_gear_RFopen.cir",
+      "sha256": "f029bd374172988ffb140c0f04c04e88236cd41fe62653609d1ae6500a09bd89",
+      "bytes": 1957
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Ac20_gear_source.cir",
+      "sha256": "70e8accd5f53b98c402d6ace4032dd5b611008b85d8ac937677f859a79009f72",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Ac20_RFopen.cir",
+      "sha256": "3e44867eeff777f4679fd3aaabb24051e1c909f4679e84409652c7922375587a",
+      "bytes": 1952
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Ac20_source.cir",
+      "sha256": "41e39b8f0a99363bf4dafcb0bf553aac791f42b7f0be78631ea59f27f97d33f7",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_clean_gear.cir",
+      "sha256": "cb559837e6f60bb42a70f7c02c0397be29fd59140d603d93d0ede2a31af34a49",
+      "bytes": 449
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_clean_gear_RFopen.cir",
+      "sha256": "9982364787d3eead4b107e6eb459048ee8ba0887fe9c00624719acd12c24d6e2",
+      "bytes": 1958
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_clean_gear_source.cir",
+      "sha256": "3d4e64ef1c3c10c3b088edca700cf5f0ebe3fdc65d6138f10dd84bc4e561ca0b",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_dual10.cir",
+      "sha256": "8c361f55bb055c3a70e0924ab0cf4ac615c44b5f75e87989a24c583382cd5d22",
+      "bytes": 441
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_dual10_RFopen.cir",
+      "sha256": "ceccad04f4956c8f5c708f5a389910621e8eed41d2443d51ad7ccd27ce0033cb",
+      "bytes": 2016
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_dual10_source.cir",
+      "sha256": "13313e7d29c8527b632a3c0e5b1e9d7ef3502ff586c666764d528304f7aba9a8",
+      "bytes": 6901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_m025.cir",
+      "sha256": "8bcbccc4ea231c36898d6b5fa05f0f4ff3753e22dcc611d5cb1c66abe33d44f8",
+      "bytes": 437
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_m025_RFopen.cir",
+      "sha256": "a9b81368e38f30a4407ff9e6771b7530447a3ebd54d9c3d730b9e11d2b3636a1",
+      "bytes": 1953
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_m025_source.cir",
+      "sha256": "603de7ddfbc6b117a396e7c775b1e5b01a5bb4ea0d1fe5008caa5eedb9637102",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Q40.cir",
+      "sha256": "83722b0b16fb71d64adbb46a3c627aece265c626d0def7071d1c68466058abd6",
+      "bytes": 435
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Q40_RFopen.cir",
+      "sha256": "39160e9b0a108687e91d9b07d218cd581646538fdfc3b3f8fdd5a909b73dc4bb",
+      "bytes": 1879
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Q40_source.cir",
+      "sha256": "ba9e9873868b08d115298b443ca37f7b4947cca4dbec9703d92a7f1ba8272ed4",
+      "bytes": 6767
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_RS200.cir",
+      "sha256": "7099b6f926004760a171155132225ea0d32e6d2e7423b6556e85a1d8f552657c",
+      "bytes": 439
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_RS200_RFopen.cir",
+      "sha256": "b2152055208c794ac8795c4262f556a8bb05f1b4e54eb9bb09f072ae22f93ff1",
+      "bytes": 1954
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_RS200_source.cir",
+      "sha256": "009b18f3e1098bd716c6e47a020e3e9a078d84173106b54cf38d3f876ccc8256",
+      "bytes": 6841
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_sixcycles.cir",
+      "sha256": "4d854f058fc2b8386957aef2344c3b1ec807a0aca2af55e57f8d8be82540a0a0",
+      "bytes": 447
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_sixcycles_RFopen.cir",
+      "sha256": "e9d21be6c4d92bad02b8a0d4b64f2eb8dc8e2719f5f7343a6dae2b692456e3d3",
+      "bytes": 1957
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_sixcycles_source.cir",
+      "sha256": "7fda1882276c3200fb29c0402cdfe65f3362a62270026bc55f84d363a64ab1ee",
+      "bytes": 6839
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\I_sq10.cir",
+      "sha256": "80e7f9e2447550499d155e49e7afd6c390d0ce2e9380fd459769d138bd64a3a9",
+      "bytes": 423
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\I_sq10_RFopen.cir",
+      "sha256": "0266e3c14c1897456681fcdbd5bde9ce29284f83eae34f3a160547ccde407b6e",
+      "bytes": 1944
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\I_sq10_source.cir",
+      "sha256": "3472fc305e1dd1f3c39334a7562b60e563b8c736a36af79b991f0e48b117c311",
+      "bytes": 2075
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\P_G11p2_noic.cir",
+      "sha256": "067df2ac47561dc88560c31fe7a1f71647af24002d2d615363ef14723b4d2cbe",
+      "bytes": 292
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\P_G11p2_noic_source.cir",
+      "sha256": "49b025abc9361c89d2ca968eebb2798239c92430094c85a38dce580f02de0af9",
+      "bytes": 488
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\P_G22p0_noic.cir",
+      "sha256": "7041a2729904364d4116a358f6a676ba1d47b46b2ed9aaa3fdc64d9e4f9412b5",
+      "bytes": 292
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\P_G22p0_noic_source.cir",
+      "sha256": "84a90bf59a8a2caa8186625785e3384007c26f21d2f417eaba73a48f2e1dd255",
+      "bytes": 488
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\P_G22_noic.cir",
+      "sha256": "dddea4d7a7ada575df0328b19803649560bde5cb0be7d0c112afeadf4395c866",
+      "bytes": 288
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\P_G22_noic_source.cir",
+      "sha256": "84a90bf59a8a2caa8186625785e3384007c26f21d2f417eaba73a48f2e1dd255",
+      "bytes": 488
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\T_sq10.cir",
+      "sha256": "c6f6c2f096b946211219fdef1e42a869e422f8ef17e79f54e8dadffb75bf4d65",
+      "bytes": 340
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\T_sq10_source.cir",
+      "sha256": "cfe0995887ad2d269600d8abd8d8c14c69236f0eec77bee388e06a5a3f73203f",
+      "bytes": 2315518
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\plots\\blocking.png",
+      "sha256": "50bc5e519dee3af227f7894aabf5a146e5939aeef31e0f2649dda1390cbdffca",
+      "bytes": 97347
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\plots\\component_response.png",
+      "sha256": "f91560f3faacfbd06886f7152d78ffa4e7e1a6a1a42eeda7a2baf2c12c995c82",
+      "bytes": 173850
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\plots\\output_waveforms.png",
+      "sha256": "b0c5605fdaeed40beea1a6496eab8b1ef0054098219dc38f01a22a5b2d5b8911",
+      "bytes": 119210
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\records_before\\02_\u5f53\u524d\u9636\u6bb5\u76ee\u6807.md",
+      "sha256": "85c24816d71a0191b0d4885a4d94b4a9c59418a109fd81ee58d5e45ccfa3a985",
+      "bytes": 31351
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\records_before\\03_\u5f53\u524d\u5b9e\u73b0\u72b6\u6001.md",
+      "sha256": "e37d79cc6aea3c9edbbb7338995480f1554f4267aa2dcf56aab3106780984d7a",
+      "bytes": 57921
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\records_before\\README.md",
+      "sha256": "e1839902c479ded914f339ebaaaae11a5bbcd2f22c2bdd628adc63d37ba80757",
+      "bytes": 2806
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_29_50.json",
+      "sha256": "c6d9bfd48fae979d0265ccd122368091218147735f813c955f8895d29ab388bc",
+      "bytes": 14583
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_29_50.log",
+      "sha256": "cf729e18f2d285c89d5616cfdbdb1e7e5233942bd61c3c186eac8b432f7df457",
+      "bytes": 1822
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_29_60.json",
+      "sha256": "7915559d363f3cf5fa501150d38fef627b2132a17b7e7c1826c2ee89dd67a4e4",
+      "bytes": 14589
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_29_60.log",
+      "sha256": "520e51feee7b01f0177875672f38758f0f296edde08fe92a83491486b0fea327",
+      "bytes": 1822
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_33_40.json",
+      "sha256": "df1f7f8b3d98bdfdbeb7daa34374854e816196eeb96a507cbd3fe8bb01d3ae64",
+      "bytes": 14576
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_33_40.log",
+      "sha256": "faf39e902a5fa28fe9fb044de05bf965d8aa017f748d2585f9e09077828b12ce",
+      "bytes": 1822
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_33_50.json",
+      "sha256": "be0c7f75bfd4e40b6fe77cc3f3f69d957b11b79ff7fec895e62f5503b0a3f5d0",
+      "bytes": 14572
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_33_50.log",
+      "sha256": "69c7a56faa705b0727c70d666b4a076a918c2e3f723731052387847431e22ea8",
+      "bytes": 1822
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_clean.json",
+      "sha256": "c0df7868828860b553c368453c8841f5259018f5f84e3f517ce7b6d4f4d819f4",
+      "bytes": 14565
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\Audit_clean.log",
+      "sha256": "d5766ddaefcecdc77233df412f2b5047aa45afd11c7a2241d83bc947de6847f1",
+      "bytes": 1822
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_ac.json",
+      "sha256": "035d8c10f712f08956eec46df872c44e891c04b0c1d4a92b92696b7c30179e99",
+      "bytes": 1588
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_ac.log",
+      "sha256": "f93253232d6d26399e799004a9e2747e7f6699c49993d616141f69bfda3fc0ae",
+      "bytes": 632
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_loop.json",
+      "sha256": "205e1c91b6296a3f4eb2ca7d0e722ffdadd99cdf1470e559e0c5cf77175b0492",
+      "bytes": 1683
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_loop.log",
+      "sha256": "c4d5fe1b53e92b76e4c726d3446bfdf6550ed91ab6026516b383c842e590ca72",
+      "bytes": 634
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_loop_C1000.json",
+      "sha256": "08416fcf2e47d60b37b72d49a58f8166233453d5c08321b2cfbf8b60216547c6",
+      "bytes": 1699
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_loop_C1000.log",
+      "sha256": "62d6ff17b7ea8a5ccd60cd1cb96dd07c3a27cdd7e8763d02d6660175903607b2",
+      "bytes": 640
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_sine_noic.json",
+      "sha256": "88b9268660e70d030c0022d8ae388533dad672ac56698f38ff7b13c9fc697011",
+      "bytes": 6807
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_sine_noic.log",
+      "sha256": "6d39dfe212127801e580f029b5dcc42ce108545fd377b37f85bddcdc99dc58a5",
+      "bytes": 8814
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_smallstep.json",
+      "sha256": "4a1f660a35a18f97dbf46b40be6c53a784da4176a4d95686beccd344d61be9b8",
+      "bytes": 6765
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_smallstep.log",
+      "sha256": "77e5cae0947872b5d9976507de4415534d79da662126f1e46253e548ba66aef6",
+      "bytes": 8826
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_smallstep_C1000.json",
+      "sha256": "5bc3583a74592c387826b4a4bf0a226f35d8b15b645516636bc37deb813eef64",
+      "bytes": 6758
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\BB22_smallstep_C1000.log",
+      "sha256": "bc2fc8536349632d7d38609d48dc4e5a3c9198829ea8fd0f6f70ed9f7c712d0c",
+      "bytes": 8832
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_CK2p185.json",
+      "sha256": "6fed379f22cea25f1b7be72629695aced4e60c65f94ce74f9eec0633ea5cf826",
+      "bytes": 1314
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_CK2p185.log",
+      "sha256": "aac171f510055ba0961e029b5157387adf566fbc42ad493fb02c6171a3313950",
+      "bytes": 315
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_CK2p185_physical.json",
+      "sha256": "2081ff02a4201fa00f9cc2c6f276470c0bc3fe50de44f9b115be6e735890e12a",
+      "bytes": 192
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_CK2p785.json",
+      "sha256": "69adec18e3d33918533effdc130214d6af4eef5015d04fc6b06559ca6690abed",
+      "bytes": 1314
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_CK2p785.log",
+      "sha256": "50c1979461a0a4af8050f099c4c3edb05920bdd20c0af11f4636bf2bf53bde62",
+      "bytes": 315
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_CK2p785_physical.json",
+      "sha256": "a5327e748420809ec67a79d24f24322e6388b417d7b5bba2a0f73b07f1aa0395",
+      "bytes": 189
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Cp0p5.json",
+      "sha256": "11a3cc8482f208c2e523e063b65ac6d01a6313a086c6e2af0f8fb4d55aaab16b",
+      "bytes": 1305
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Cp0p5.log",
+      "sha256": "741a001cf7538f298b05bb18eebde2025fa3b12626d4d440a69e7fc2bb4054f6",
+      "bytes": 313
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Cp0p5_physical.json",
+      "sha256": "abece440c17303757cee717b390302f0a4c471dc8a26bd762765959b3f775e56",
+      "bytes": 191
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Cp1p347.json",
+      "sha256": "0af1c0ebe461efbf49040dd242bf8ba07d2008af32faacdf3291b0c6a9f9711b",
+      "bytes": 1314
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Cp1p347.log",
+      "sha256": "90cb34cd5e11757afb88b7085ab428ef8d9b3d31083f500857ec59e850f40d37",
+      "bytes": 315
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Cp1p347_physical.json",
+      "sha256": "ed5ffd5742198eea7f528146b672cbdce7f4501d27c1d4009fa637a236fb85e7",
+      "bytes": 192
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Cp2.json",
+      "sha256": "e735d4a886f5cd61a74760525cd429e6db797ff518bc40e32638a1da67451d66",
+      "bytes": 1301
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Cp2.log",
+      "sha256": "0316491d4292a334bb907ca774d77b3e096a02dd667904c568910d0fb8cb6b3f",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Cp2_physical.json",
+      "sha256": "bd2c2fd803eb28172a09bff58eb08bccda38f281f8d421fe60f34a36eb46bc4c",
+      "bytes": 188
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_CTplus1.json",
+      "sha256": "0702d158be1bcb2587d68ffaa44ce8711bf9958a39452f401488e3d8c23b4ebe",
+      "bytes": 1311
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_CTplus1.log",
+      "sha256": "bd3456b7e26be42b3ee99bfe2ec24dab1a403cb824ec9d267c904db0c3570f3b",
+      "bytes": 315
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_CTplus1_physical.json",
+      "sha256": "a6eb0286c5cd74a714321235667d0b968239e692e1ce79120703e83aeabf4b9e",
+      "bytes": 211
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth0p8.json",
+      "sha256": "c4a9301faede9367fb6bd79f71861d4ff066763ea399edaf0072f358eb6fea89",
+      "bytes": 1315
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth0p8.log",
+      "sha256": "3c9f1adaecde68e2c171b8db466aca960c8df384806d3a5c7c561645abd378e0",
+      "bytes": 316
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth0p8_physical.json",
+      "sha256": "f45e94db234cdddbdcfa6de5ef72893b00c7357d244a7c9060815392b4e29c51",
+      "bytes": 212
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth0p95.json",
+      "sha256": "a4dc7069b4030fa535b6c5286b9b981ab8077890eb4961f3ec9a1ae40b0b9492",
+      "bytes": 1318
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth0p95.log",
+      "sha256": "0f9c387b560c1ee6e6a8c0bc6c1b56c3f0fb54baedb30f4999361c7473a6542a",
+      "bytes": 317
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth0p95_physical.json",
+      "sha256": "989222c43c83bb3dab754f796d0f1faa03a75b8ad2e30dc6c3147963e9b03a60",
+      "bytes": 208
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth1p05.json",
+      "sha256": "0436d2b77bab2c0b4bcc4a0f77af17a1ed241322c74e5a930991d70944b07d85",
+      "bytes": 1316
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth1p05.log",
+      "sha256": "8b5ac5d14cb81200e6d55e09edd77613f64f459e6b9093e7a92a45937d16b390",
+      "bytes": 317
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth1p05_physical.json",
+      "sha256": "c04ec44fc44d7f07239a2a12f4d1d05c5000c483143b06173d665d1f22528cd1",
+      "bytes": 206
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth1p2.json",
+      "sha256": "c88407efcd0833016746908166106f9698ee9e823e6072a81fc4dde694fac13f",
+      "bytes": 1315
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth1p2.log",
+      "sha256": "d064783354d62385b0220801cebd047a1ac9b9c73f1318e4c6c4001615f3efc7",
+      "bytes": 316
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Lboth1p2_physical.json",
+      "sha256": "7dafaf411cf077494901b402ead79c872d6a1c5e9bd2c34a9ecc3a3a96fb0c00",
+      "bytes": 209
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_L_mismatch.json",
+      "sha256": "566b873eb2f04d55574ed64181d907fe816ba6a29414af19f276f900fc0ce69c",
+      "bytes": 1320
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_L_mismatch.log",
+      "sha256": "7721d1fcce28054fbfe4adc36ac49e093673b1973db6694fb90e98bcaecb9dc7",
+      "bytes": 318
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_L_mismatch_physical.json",
+      "sha256": "def95a6d81f5e7e567ec5382127c77b9414139595e5b325b8d1c5275be952582",
+      "bytes": 209
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q20.json",
+      "sha256": "d0a13b1f6d957ab8ae23ac716431d94dbff9183f273458cc1843b3cc4f053aed",
+      "bytes": 1301
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q20.log",
+      "sha256": "a087ab16cda062adbf4c302e73988c37b4584578dd7248bf131e993e987e36b8",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q20_physical.json",
+      "sha256": "2bbb3ec3af0594acb66d5c55310bf1a26e245e02ee2505bed5977d28e25d7d6b",
+      "bytes": 188
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q30.json",
+      "sha256": "cb5ff86f5c708093d9ac62e77fff0d09d5e4d241c448db229048d705c9ac7a80",
+      "bytes": 1301
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q30.log",
+      "sha256": "648bc279121ec83e348de800d5127bd24909b2d0cffcaeffd4431e0ebcda77eb",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q30_physical.json",
+      "sha256": "69b696556b355ccf16433ee07648068450b6bbe17bb55060fe9c838b2f72abf1",
+      "bytes": 188
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q40.json",
+      "sha256": "a77b4fd9fe40adbde8c5b54bd3279e0e8cb772fb161766bf7e8f658e5a6af3a4",
+      "bytes": 1301
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q40.log",
+      "sha256": "aed2556f10f90ae84af8396baf1487db88013610d75504d44746e3bf81a96802",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q40_physical.json",
+      "sha256": "b84e3e69ed699199901235d536989c5ee019f30a4d4d0e24e941187c9a986aea",
+      "bytes": 186
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q50.json",
+      "sha256": "df8b60b7f91883e901b353fdfe8ad528e87bafd003df8990ba6499f8165b34e4",
+      "bytes": 1300
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q50.log",
+      "sha256": "5e9d9e13b8808613580c7d6898863ccb3ff1064af240440dccdb1d8e193eff83",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q50_physical.json",
+      "sha256": "d92896dd865a36246d5df663198be3f0f18a4ac8232ebe169cff78d094dba77d",
+      "bytes": 189
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q80.json",
+      "sha256": "51e45d5f5a9243fa9179941c99ac66061a42a8ef3f2c4b61a1f555ad5a8e654d",
+      "bytes": 1299
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q80.log",
+      "sha256": "8b7aa46759bfa1d834dba4c40e1172da41de22770a96106c372db535d6932033",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_Q80_physical.json",
+      "sha256": "a0dd0a2aa274995627916578bc72d55ae4b5b6053477f88d7941dec6e2cef779",
+      "bytes": 189
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL0p8.json",
+      "sha256": "21ad9c2ec2d6babaf5b505523a0568d6e6e8e516ab7ecac88ce490f2c77b32b1",
+      "bytes": 1321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL0p8.log",
+      "sha256": "2eeb08e5a331f2171685b47aa900898d8cc0ca11573dc16ec07b9b2cb9b6d13a",
+      "bytes": 318
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL0p8_physical.json",
+      "sha256": "81fffc084675d911bb13f52dda3bb02dae9b01fd4eca8d8fa57acd7588082ac6",
+      "bytes": 268
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL0p95.json",
+      "sha256": "cdfd190e2cc6279fb1aa4b7a81b562177a7bb9f48593d5b5a8c2e48243075cf4",
+      "bytes": 1326
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL0p95.log",
+      "sha256": "34b43a38b1e01acada05049a9806a94e4eb45f519b6f664607c52396b0ac25c8",
+      "bytes": 319
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL0p95_physical.json",
+      "sha256": "b81e20dc2332496b0dad60e8817a429fd09d0e7d083366d29810968779e07ca5",
+      "bytes": 268
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL1p05.json",
+      "sha256": "830070f592ae1973ca9c14ed0239812b68435d49c5548cfdb45754e63adc8218",
+      "bytes": 1324
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL1p05.log",
+      "sha256": "f0d6dee9b9670bcacb4a267ac5c82fa562422853d36c42dc12a3ee9f82f8a37f",
+      "bytes": 319
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL1p05_physical.json",
+      "sha256": "16541a9158f9d8f56dc268d160e1a01afe28953a72bc02c68d9f2caa45c0883f",
+      "bytes": 270
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL1p2.json",
+      "sha256": "1e12421688672e9924705e53f13a6ccd03af68194c58fdec4f4ed49c61cd9ee8",
+      "bytes": 1321
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL1p2.log",
+      "sha256": "8b9891eae927a213989aea623f9d42ad45a2ee00d3e50093d254de954eb8586d",
+      "bytes": 318
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_retuneL1p2_physical.json",
+      "sha256": "2c4abb2617743551c08d7b8e828c857abfca181ce7658b8083344e4eb7edee90",
+      "bytes": 268
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_rounded_C.json",
+      "sha256": "2a225873cb8036cb9728e20d32719270dee960fe696f47a0921b5e7c7e6ba36e",
+      "bytes": 1317
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_rounded_C.log",
+      "sha256": "b0c3bc033d19a390b7bead02e38fcdab5b95697e21f99234e2cc6b84dd51fd1d",
+      "bytes": 317
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_rounded_C_physical.json",
+      "sha256": "290d33fb95bacefa876fbe74f63304ce8212378e36fd09467e39ff708502ce62",
+      "bytes": 257
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_RS100.json",
+      "sha256": "3f2b0b039269508c392aff6a781d988379b262a91c5b3ebdc7702b897b68b855",
+      "bytes": 1308
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_RS100.log",
+      "sha256": "3a2e350a507ac3bd758ef715e5f96ff8813ac8bede57b0b511f36b5350e4710a",
+      "bytes": 313
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_RS100_physical.json",
+      "sha256": "ecbe8baa5953afaa328e2d84444ccf74a3434db1958de51ff5ec62b837b09db4",
+      "bytes": 175
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_RS200.json",
+      "sha256": "168c89f2745cac45659ac07c73016bd1010e91d68cc44ee6226127ad123e7363",
+      "bytes": 1306
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_RS200.log",
+      "sha256": "6486966b6b6a3f78240b2508ab2c4bab820c543c1a9a58bb67947d668deafa2d",
+      "bytes": 313
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\C_RS200_physical.json",
+      "sha256": "f9fc66759435e6e24cf9e6446314d95a58725ce9fae290404550d861695bada8",
+      "bytes": 175
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F11p2_sq10_Ac20.json",
+      "sha256": "57e17fee318cae3bcec863053f2e6deb4041311c9f2a0ef72655889bd0499a99",
+      "bytes": 22104
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F11p2_sq10_Ac20.log",
+      "sha256": "ce8b26ca732849e4929ae6b915ac7ccdc9089605e3b4baf80c3e8eb87d11046d",
+      "bytes": 9897
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F11p2_sq10_Ac20_RFopen.json",
+      "sha256": "d1d43e82c55fd893983848c93380ad51b692ebf6c2c9fde9c7af86bd6df569cc",
+      "bytes": 14637
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F11p2_sq10_Ac20_RFopen.log",
+      "sha256": "51b23ebc8c4b5f32cbc8b2d0ea26342a115d0c17a692be042480905e240e10b2",
+      "bytes": 1832
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F11p2_sq50_Ac20.json",
+      "sha256": "5f8b08377bf780ebe797ea7e387e4527e2f07da6cafe2de3b8ef6652ca3322cd",
+      "bytes": 22086
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F11p2_sq50_Ac20.log",
+      "sha256": "1d383af66185d372969f95767dce3956ad0f48f00f268ce01d6e05ae5e48fdea",
+      "bytes": 9897
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F11p2_sq50_Ac20_RFopen.json",
+      "sha256": "24ee1cff8de2718a09271450a6b7d728ea739484395419e5363a8d4bced4f948",
+      "bytes": 14604
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F11p2_sq50_Ac20_RFopen.log",
+      "sha256": "f9f295d2c5b49263f9a5914ad10fd59ea25af8b59927b4a386c5078a6db651e2",
+      "bytes": 1832
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_100u.json",
+      "sha256": "eee4da0944c039e113f03f6548bb7776a4885a7cc9245fb5292fddf5499e8fca",
+      "bytes": 21465
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_100u.log",
+      "sha256": "b6c34d41447d4c03e2d40553fcbe1792f538a05fec029bf1fc3048dbc1dd4932",
+      "bytes": 9895
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_100u_RFopen.json",
+      "sha256": "40f6b360ec714fcac6f42541f7ac40cda7cadbf90cc03e5166aa949d72cfd866",
+      "bytes": 14656
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_100u_RFopen.log",
+      "sha256": "6b3d36d42aa3c16f6a8bf8a1cd95b0116a06a337c11a473185e0cd5cc023aa24",
+      "bytes": 1830
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_probe20u.json",
+      "sha256": "7cdeae2eccdf2515ee58212f7cdf0d2853616cf6fcfe47c72f0b2a65935c0f6d",
+      "bytes": 1892
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_probe20u.log",
+      "sha256": "a5563b36a7bef5bfe56f923d1b59fb9c0e696c02d3ab065f65b627b445276dfe",
+      "bytes": 9898
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_probe20u_RFopen.json",
+      "sha256": "7054b459db79d1351fd0be472784ae3eeb6d25ca38273087befb86fc56b7a62d",
+      "bytes": 14663
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_probe20u_RFopen.log",
+      "sha256": "a16c20467427e4f546f38ea92f8ea3cf65f1073d9ee853d75839e2e0f544c087",
+      "bytes": 1834
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_sq10_h1_RFopen.json",
+      "sha256": "ee139e56d269734833b22b0cfd339480af9afc80e34141cd459382ad4b2d2a82",
+      "bytes": 14652
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_sq10_h1_RFopen.log",
+      "sha256": "4a98fa3e0d7f67536fc3b83059aef0a8b12ff3a2faaf5fed6d003214f63eedb4",
+      "bytes": 1833
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_sq10_RFopen.json",
+      "sha256": "8a35eb5fb64c596386aa07bc27324ea43b4533c9b9a441a4541c43c6b254bd56",
+      "bytes": 14656
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_seed_sq10_RFopen.log",
+      "sha256": "821bc13b00b8533fff2f43c9593e60ca4aae35e5e04306959b2311e2028c6e68",
+      "bytes": 1830
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_10_gear.json",
+      "sha256": "1ffaf8b60421e32e8ff99eb136c93e941e56631a358b585a1591cca35bc3b574",
+      "bytes": 22046
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_10_gear.log",
+      "sha256": "f229144516f9856cb5a5563499fc81b3f3e4b6bd10796ee0a35f4256ff0dce4c",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_10_gear_RFopen.json",
+      "sha256": "9bf67e903a464fa850ecde21b037d1de25abdcf4a0ae612fa7fa10cb8a69157b",
+      "bytes": 14653
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_10_gear_RFopen.log",
+      "sha256": "730e4a4b17c45a7ba75b7a7516294c6427d43b07b29c491f66ffdfe88f5650f0",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_50_gear.json",
+      "sha256": "37872dbe55899f8f8c89de165c63dcb517de0db6745d38b4fe6cfd2eefe92dd8",
+      "bytes": 22074
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_50_gear.log",
+      "sha256": "3d7f96651ee010f1e25e58897eceb0ba891df0f51ad6f2351dc25a7854929490",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_50_gear_h025.json",
+      "sha256": "3116f95de5aa7293c15f2ac224f93a92a222a2b8d79ef9eb923e1a4eb48992f5",
+      "bytes": 22075
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_50_gear_h025.log",
+      "sha256": "608f40e5ce57f313034cf0297151e272278d7378de441a0eb9b91db76feffac5",
+      "bytes": 9906
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_50_gear_h025_RFopen.json",
+      "sha256": "bdcc3867afebf79913ee9474d703975f57b87501e1366b0b57cbd28b82d05c84",
+      "bytes": 14684
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_50_gear_h025_RFopen.log",
+      "sha256": "dce04cb6de3e519a36dba53282de0387b794feee7d3d79d1fede790ae15ffc3e",
+      "bytes": 1841
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_50_gear_RFopen.json",
+      "sha256": "819a4572b0dd204cf654529ceab9ef35099a0799724963e101de3872a2906502",
+      "bytes": 14673
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_50_gear_RFopen.log",
+      "sha256": "a41fedfa11c57e44fcb91d026f246a685f0cadda220854e8a73f52a595d37c07",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_60_gear.json",
+      "sha256": "144597f1db90c60247c5e71b1633740f4e5050229b2d03d283800d67793d69dc",
+      "bytes": 22052
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_60_gear.log",
+      "sha256": "6c2ecae1cbe0d916ddf25ad4d06b2d41c0f182a10a732bd2659a65e34b8fd685",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_60_gear_RFopen.json",
+      "sha256": "71886c0e9d3ddb87e4b6364032e6ff830f656aaffe19fdd86af80a465e8a5865",
+      "bytes": 14653
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_29_60_gear_RFopen.log",
+      "sha256": "932161e28e7319515a3b135935c829f99b4b6f04919300d98a180fa716539ad6",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_10_gear.json",
+      "sha256": "8dd110343377ec8d8aaf4ffc11cebf43e78d8fa4a501ece8023d96be9e3dca55",
+      "bytes": 22031
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_10_gear.log",
+      "sha256": "e2b57262c8c67adce249bb0e6d938ad30d2fba983fef549aa3ad1453620085c6",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_10_gear_RFopen.json",
+      "sha256": "b40d20c1dba8d077977f55576b4c169f0c0e2774ffe8bc6ee028e2f8687127a9",
+      "bytes": 14639
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_10_gear_RFopen.log",
+      "sha256": "6ff6d831c4f5805d18de28d31d1c59c54ab9cc18e386d9372f0fb2c95218724c",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_40_gear.json",
+      "sha256": "15b699206b7a5da860e0abcaeaa9e8e77d5ebcbcaaa8b9444b683c4a923b7e20",
+      "bytes": 22034
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_40_gear.log",
+      "sha256": "fe566043fd32db3ea0b46126a84a6f065bc2669b289f126dd350ea18874328df",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_40_gear_RFopen.json",
+      "sha256": "6133e52f0db7a437ddfdab4394d6678742f2b5c3127e1404ecfbeff2d5407587",
+      "bytes": 14668
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_40_gear_RFopen.log",
+      "sha256": "bd56bd82eb50477eeec0ca46d3be27ab6ba6c05f90416dfcd39ae6b2dcb95df0",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_50_gear.json",
+      "sha256": "05a5f973d1b9c2788a508a1968af9915f38b11e8260cc856cf3626d49cc28359",
+      "bytes": 22005
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_50_gear.log",
+      "sha256": "6ec533b9b591c31e3520a09cab91de72e6da7c29acc0f8b19c5f145e8419eff7",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_50_gear_RFopen.json",
+      "sha256": "d51ade4587f5350193332775a2f9d019a530b6824081f5b444513675aa027438",
+      "bytes": 14655
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_33_50_gear_RFopen.log",
+      "sha256": "d19207017048ecdbff4fbcf9782dd3984be6b2e716c6e402f766ae95ea6aad2a",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean.log",
+      "sha256": "0e5da8e39ffb27593be3553dcfd2aa3546d02ddcab00ffc7fa897d3e2001d6cf",
+      "bytes": 10031
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_gear.json",
+      "sha256": "775427b51c5ecc83c11299cbb1b0ad0717ba045fac17c848b11d561c693a78dd",
+      "bytes": 22005
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_gear.log",
+      "sha256": "8a2100a77c7610b621b51893b36e99dc210f66cb5c1665b71f774dfbdb0b0e36",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_gear_h025.json",
+      "sha256": "64ac6cbd9afff03897f479b10ade920e7af6799aada52f9903253803fa407a5c",
+      "bytes": 22028
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_gear_h025.log",
+      "sha256": "a7ac9cc59cbf16ff219de711b0f471fa529bedcd9439fb117fb15120c8ef5de6",
+      "bytes": 9906
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_gear_h025_RFopen.json",
+      "sha256": "66d167b697802d179fcf9339ea9559e2ba592e3c8a9fea1f4e60e1635708fc21",
+      "bytes": 14652
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_gear_h025_RFopen.log",
+      "sha256": "2afe68c08fad23200c3c4232d0ac3aca31205267986ec2fe1d7fe99cf7f31dbb",
+      "bytes": 1841
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_gear_RFopen.json",
+      "sha256": "c72377909d0a6f134304dad9520a61c05cc7f927823e7766612e64324f7a3f0f",
+      "bytes": 14630
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_gear_RFopen.log",
+      "sha256": "806346f56fd420547acb4aa90a3606fba9d8b9b8cd416cd1e1d1fc4c5db6e36f",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_RFopen.json",
+      "sha256": "26f099098364fd1de94e8261eec6d62ec7dc7d0e20c427038e308ed2b428b6e9",
+      "bytes": 14599
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sine_clean_RFopen.log",
+      "sha256": "11b4c270f2b90057379d07e847b5f08245e08a61b5e826f338c47c9c3fc26087",
+      "bytes": 1831
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_29_10.json",
+      "sha256": "4b9478f45161a87d26640057fbffe9cc9df3daa0fb782568b3f9d1e8dff5882a",
+      "bytes": 22171
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_29_10.log",
+      "sha256": "6bdbf8048e109c4b9e2d1437a297782684348394907d93b23247f28d0621687f",
+      "bytes": 9896
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_29_10_RFopen.json",
+      "sha256": "be6a5f0c041384e7689dd0094a0229c914ee220a8f7ffc6a0702092f8d87c125",
+      "bytes": 14702
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_29_10_RFopen.log",
+      "sha256": "a799721d7cd4d618eabbd23ced9016dfa4fb13e41aab0c685759e1a66e1fe3e6",
+      "bytes": 1831
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_10.json",
+      "sha256": "6fa74ade29f7a0c9c2d547f40538534ce46992e29a4a07203883582ba3c64915",
+      "bytes": 22164
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_10.log",
+      "sha256": "3022ec8f278443faf593086fb7f668a7a5c4e7f53436bd3312b8e97e609bb39d",
+      "bytes": 9896
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_10_RFopen.json",
+      "sha256": "9c015fee786f383454537c2fad1bc5c56bbfbef1224e3ceae6dc6656c0e03e84",
+      "bytes": 14687
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_10_RFopen.log",
+      "sha256": "16bd9875903a1b1260caf05552e4d661af78fb2abf32878252fdc93606cc501f",
+      "bytes": 1831
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_40_gear.json",
+      "sha256": "b6498cba621f1e47d44f81e9f48331759499223b667777a443fdf66f2a7b8225",
+      "bytes": 22145
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_40_gear.log",
+      "sha256": "50dc2011a8ea66c7f925e37442fb528832062917f1c34649fd8f2aa3f60f3f5f",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_40_gear_RFopen.json",
+      "sha256": "e7f70967436a0c4e534fc64ea5b26e3a4c23612e5b9fc9c518deb78fdcfad388",
+      "bytes": 14679
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_40_gear_RFopen.log",
+      "sha256": "a7160678240a571db8eb563e1fe270038a1111236b71ffd78990ac29749eef73",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_40_sixcycles_RFopen.json",
+      "sha256": "afd153480d39ffdfc1dedcacd03f6e867e9e541d1e04ffdcb24b90abd84c9ac4",
+      "bytes": 14667
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_33_40_sixcycles_RFopen.log",
+      "sha256": "c2f2501f5f2def6f05caa610c52348ca5520354a86d23b471e4aa25fa350a1c8",
+      "bytes": 1841
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_Ac20_gear_RFopen.json",
+      "sha256": "ab5175134deee88ed1d37e490edf5c6354756462a1a5f58d35ea792cdd5269a3",
+      "bytes": 14665
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_Ac20_gear_RFopen.log",
+      "sha256": "e7aa966f2f271ca76ad427a6e7add576088f4dc7250056948174800e9e8b155e",
+      "bytes": 1835
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_Ac20_h025_short_RFopen.json",
+      "sha256": "b38999390d855ddc2a114997d51d533445571dec8ccd13e942dd721d14f6ac33",
+      "bytes": 14669
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_Ac20_h025_short_RFopen.log",
+      "sha256": "666018f321e736a8e4c7fb96a51addd496a047ddf2e05dcac2737acdf312f968",
+      "bytes": 1841
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_Ac20_RFopen.json",
+      "sha256": "5facadb63980f7ecd72502d4c7e4f885fe90db5ddcce1f5f415916b5ddb5b62d",
+      "bytes": 14633
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_Ac20_RFopen.log",
+      "sha256": "8fe4badfc98c07e5d2669303e1828f63e1de171d1ca333bebaa3b6e5af6b8355",
+      "bytes": 1830
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_clean_gear.json",
+      "sha256": "a9412daff10fa3dd11a3ff3626ece0970256625a8f0683c329adc328cb0dc082",
+      "bytes": 22200
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_clean_gear.log",
+      "sha256": "83eb5c63a623d067c565cccb9df644ce7050b8ac643c11f86def62103b7848ba",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_clean_gear_RFopen.json",
+      "sha256": "9beb9826a6725bdc617cebf7ebb96a2644c7c839ae72308f7e6c64488f9522dd",
+      "bytes": 14712
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_clean_gear_RFopen.log",
+      "sha256": "a4c6a5210a22b34012c9907b5d7bf048749f9e2d598ef8e42d11204c9b745ead",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_dual10.json",
+      "sha256": "a4adc8a585caf5f4e0499377397baa98714743a0b4b0693dd2561a0b2c9c4977",
+      "bytes": 22188
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_dual10.log",
+      "sha256": "df535e09b54f786565453c62bd8bd15f332c2bf08df32ee181785542b3130563",
+      "bytes": 9897
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_dual10_RFopen.json",
+      "sha256": "1fce33c027c9cbbc4e6b7daf1809ef7c98072704d217e1d1dc348156a9307741",
+      "bytes": 14701
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_dual10_RFopen.log",
+      "sha256": "40f884174cbad05f8c7aa67afa6ee1d2f8c1b3e7adb170f185c9fe296d0b00df",
+      "bytes": 1832
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_h025_short.json",
+      "sha256": "4c855fc0927fb1e3f4dd0c3cf65edfcfd8d2120909efdbf3add90836115347c4",
+      "bytes": 21478
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_h025_short.log",
+      "sha256": "8dc3d8fafeef8b2195ec8c42ac753e157bd56b20cf32ec06969e8dbc61f49fd4",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_h025_short_RFopen.json",
+      "sha256": "6cb03243ba23284e8db71e1adb94ac9c8d8ce8f068f1834b1511560ae60821f2",
+      "bytes": 14660
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_h025_short_RFopen.log",
+      "sha256": "2ecbbc85e6539eef4c5ac895b91c368c7a3f0d96fb97b7510fdd3c4d8859b5b7",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_m025.json",
+      "sha256": "bc9bb6c4e18d3022255b6e6db775a0c9c85da9289465f072cb89173228c6cd40",
+      "bytes": 22175
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_m025.log",
+      "sha256": "29c00e81b08923671369f2373ece08a826b1b8df10570b4611fcc5703c7be280",
+      "bytes": 9895
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_m025_RFopen.json",
+      "sha256": "342f176b841974ab9be3529586770e43ff62655fbd2206599b135e8bda8a9f98",
+      "bytes": 14687
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_m025_RFopen.log",
+      "sha256": "dc477378de09fc593a86e06f351deaaf9657fd97fc75593d81b2800ed5e79edd",
+      "bytes": 1830
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_pre_gear_RFopen.json",
+      "sha256": "8ce6ccc818bf423194c1c96f700480e2eceafadd8cf235cf6c6e3bed492f1bcb",
+      "bytes": 14700
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_pre_gear_RFopen.log",
+      "sha256": "a40acb22bac728ecdd834558246b1961ecd7f0639d136b48831c2f09a07bfb06",
+      "bytes": 1834
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_pre_RFopen.json",
+      "sha256": "16eebc1b4121dcec696c28bcaee47c5518887f77d9f2477c68a81c8908e6903b",
+      "bytes": 14668
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_pre_RFopen.log",
+      "sha256": "4eafb8d63e678f53512dfb02596373eccc48dee3e081c558b2dae4457abb8ba6",
+      "bytes": 1829
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_sixcycles.json",
+      "sha256": "86c75d2eb9c9d38832744924f6ba66e44ad126aea8983bb90602c924ea3f0f68",
+      "bytes": 22260
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_sixcycles.log",
+      "sha256": "37a84ffeb958e0b39ba35be9e05a80b6b3bf9a39054ce34c7a2827338736c5d2",
+      "bytes": 9900
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_sixcycles_RFopen.json",
+      "sha256": "d6612740c91c7f081736c21eaa5a410615b03c4122d9f2d481e0e62ffca2d17b",
+      "bytes": 14688
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_sixcycles_RFopen.log",
+      "sha256": "d95bc62cc208f06c5220f82d1beda2f8d72985f258020ad233d6f0a856c78f72",
+      "bytes": 1835
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_warm_RFopen.json",
+      "sha256": "0cc661512e4530bd06c0fae5fc990e96fdb243701a0e520be6220f08f57fa77f",
+      "bytes": 14671
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq10_warm_RFopen.log",
+      "sha256": "cc904c0d00c7ce230be62938b5efa04287b34050e77b01b42d0e15afee84f2f3",
+      "bytes": 1830
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_29_10.json",
+      "sha256": "dc11893f4eae3ef646a1612aa1ad362d9e921ab83e994d9c92085d45c6ffb0d2",
+      "bytes": 22122
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_29_10.log",
+      "sha256": "69c2bdc22f16338445ebdc2dde8a5365956f46a7f3cd5ad8f34bea3591df5550",
+      "bytes": 9896
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_29_10_RFopen.json",
+      "sha256": "44c6ac94be373d0cc2e2480a358d6f7662c84bdd8cf7faa0b1abe083c9e5f9c2",
+      "bytes": 14674
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_29_10_RFopen.log",
+      "sha256": "fc79908f5f399a4e21cab9b493ff8a8b708267cd0025e6f88d9b181acc7ad5e9",
+      "bytes": 1831
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_10.json",
+      "sha256": "b72501b3b5f3cc79517482a4dc0fdc6c2867ce9ac9df379b4015a4229d8c1e37",
+      "bytes": 22131
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_10.log",
+      "sha256": "85625b96ad90c33264b8f055d67463f1df23755d65d4e60ca4bd8b21c5895b42",
+      "bytes": 9896
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_10_RFopen.json",
+      "sha256": "ff2d249e58d884af274fb83f5aaf4c181cc599bef712ec670ce7569a9af64da3",
+      "bytes": 14634
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_10_RFopen.log",
+      "sha256": "04be25174a3b5b6471b505f24b75b3902f6cfa45dca6d329867ab765369d6a69",
+      "bytes": 1831
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_40_gear.json",
+      "sha256": "3d3052ddaff9808ee3a39b486cd5db1c01f84ce5aa1d42839d6ec618e5e4fb82",
+      "bytes": 22116
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_40_gear.log",
+      "sha256": "6352ad284e4cd0c2be017b53b6006af310f362bbf3b9377c3eeb4780a3bce30f",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_40_gear_RFopen.json",
+      "sha256": "568dd357c72fd151dbbaa971822e5376ef3034c74b1991556b638d9a6643c9d0",
+      "bytes": 14656
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_40_gear_RFopen.log",
+      "sha256": "644f759c172b4b1d74b3e4d9f9095a03f0646efb8dd58fc481bea88f1f435c5c",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_40_sixcycles.log",
+      "sha256": "16e6300ad764bb4ad338e80974c163a84de40cd69ab141ac62f9ce55ee81c97b",
+      "bytes": 10042
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_40_sixcycles_RFopen.json",
+      "sha256": "330712aab6a5ddc12fd77d2ba70b727420ba6d1315867636d0c3e583cf81a45f",
+      "bytes": 14644
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_33_40_sixcycles_RFopen.log",
+      "sha256": "d458b064159e881e279fc7c7bbdcf3b24e91c6f5201a418a2a4580b03a5236f5",
+      "bytes": 1841
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_Ac20.json",
+      "sha256": "151e265e6028faac026e97ae3c20552ee0ec74e2528a853557146d57bb93b13d",
+      "bytes": 22053
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_Ac20.log",
+      "sha256": "a8a86e665de2bedb31e36b795ce8988f538f14fe6ad781e9cfb4623fddb24ae7",
+      "bytes": 9895
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_Ac20_gear_RFopen.json",
+      "sha256": "100b4419fa743fd6e4edc9e39c33b13636fe309d4bd5c710be94873e80103a1a",
+      "bytes": 14631
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_Ac20_gear_RFopen.log",
+      "sha256": "df957a21436b11be59c088f16f72b13c12e18a69d87288eceeec7fe826435bd5",
+      "bytes": 1835
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_Ac20_RFopen.json",
+      "sha256": "430b722ff4d78e5e3c884005cf25763e18d6620ae9ad698085d107eeb0af4374",
+      "bytes": 14599
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_Ac20_RFopen.log",
+      "sha256": "73216472ff360326273be9c96068785bbb26215801dc7b4965d314c4e6264d2d",
+      "bytes": 1830
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_clean_gear.json",
+      "sha256": "e6acf101533dfd1564cbb11fb0d9e423fd2040032d9bb55874a2461e22a6dd8a",
+      "bytes": 22166
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_clean_gear.log",
+      "sha256": "5790496e63dd19a941b339a6bde191a5b1b53832cb168161ee7ec3dad85b4cbc",
+      "bytes": 9901
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_clean_gear_RFopen.json",
+      "sha256": "d9f73031e9f94c8bbd698ee7dfc639b66a2b0e139dad9c968d78411939d51491",
+      "bytes": 14677
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_clean_gear_RFopen.log",
+      "sha256": "76f34bc54a3dcd9fe169cb3c32fc6071c047305d4629f8a2d41df77a73248a52",
+      "bytes": 1836
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_dual10.json",
+      "sha256": "ad3ac5ebaf3166794ce50892c126eed4447b9ad9c6675d51685f2c1d88add98c",
+      "bytes": 22139
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_dual10.log",
+      "sha256": "174c0c929e79c19841f893db2a1842ffaef2f1c52e179e5297ff0e459b8888ff",
+      "bytes": 9897
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_dual10_RFopen.json",
+      "sha256": "16471d08a2bc146c75e065d4679de008efdaca2c2dd42f06ebd34bc6ff4dd716",
+      "bytes": 14686
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_dual10_RFopen.log",
+      "sha256": "aa10541539577a347e03191bfbf1e0fb1a22a00436a019a2d1d00cacc485d3eb",
+      "bytes": 1832
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_m025.json",
+      "sha256": "8a59aebfc293c5457c95f31c316c249b804bd446cdbc2f7b0475512699ec31f2",
+      "bytes": 22153
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_m025.log",
+      "sha256": "322fd38e0f4a762d940f2d1f77ca503fff80ec4ec21d055505cf0d1250fc6880",
+      "bytes": 9895
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_m025_RFopen.json",
+      "sha256": "148f9ecb04b159bde0971677c2166f91b6f0792529f881e0429fe2346c21f9e9",
+      "bytes": 14659
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_m025_RFopen.log",
+      "sha256": "1eb75cd91dbf6fc92f58ae1ebe170ee264fa2970099c642aef2d65d3b33f645e",
+      "bytes": 1830
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_Q40_RFopen.json",
+      "sha256": "1ef09fd977d0ed167152b4fae76e6049dc81a7d7eabbd77f9b8b1b0c1e870933",
+      "bytes": 14632
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_Q40_RFopen.log",
+      "sha256": "3bbdd2863b07d09e1f32a7148918b97fc273f7304404d23e868f67bfecb56e21",
+      "bytes": 1829
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_RS200.json",
+      "sha256": "34b7a53d1ecc02481c6c476d8735fbb835b4cd88de49ac410c37f3d88a280e2c",
+      "bytes": 22167
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_RS200.log",
+      "sha256": "1c1bc8ae727445a3382a2bfd61888c7606e1ea2b966365c0067e556358569c64",
+      "bytes": 9896
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_RS200_RFopen.json",
+      "sha256": "0c7b5377193776b434a1930e5c114d5b5a6557ab13055f24880db0150a5c04d8",
+      "bytes": 14675
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_RS200_RFopen.log",
+      "sha256": "2ad0550148f5d2c2fe6431c8d6343e8e506861b0ad5e2720b9c5887ec843712b",
+      "bytes": 1831
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_sixcycles.json",
+      "sha256": "38b68c7be71ce276956fe6c4814987852ca2b59ecb8240acf0e87410786067d3",
+      "bytes": 22202
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_sixcycles.log",
+      "sha256": "b9dc608a4f322dba051fa9799b94860642aa84e00d0327d4cbf84d48169e043a",
+      "bytes": 9900
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_sixcycles_RFopen.json",
+      "sha256": "74abacd1e3c3340b12105a282868223ee4001462114e90605c4171ae03d5ce7a",
+      "bytes": 14654
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\F22_sq50_sixcycles_RFopen.log",
+      "sha256": "30dfcb033d7323b30e8c7f285cf87d881fe007d3881711602a0875d8b1a10533",
+      "bytes": 1835
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\I_sq10.json",
+      "sha256": "11ba90a200179a76e8f815267adb05ef31e924539d6ea738b014038704d61564",
+      "bytes": 22162
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\I_sq10.log",
+      "sha256": "8d88a7fa62dc8007608528f625b92d53821736c18a183a8c724f66171987a53a",
+      "bytes": 2308
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\I_sq10_RFopen.json",
+      "sha256": "2a6461d73e3488966f48cb04ea1c22a758c4afc9ae0de7bfd6347345b318ec1b",
+      "bytes": 14643
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\I_sq10_RFopen.log",
+      "sha256": "369c620765d4985bb33559987ae58f4391dc7d8faf72485c4796810c858df08c",
+      "bytes": 1823
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\P_G11p2_noic.json",
+      "sha256": "c41abb680c2dc858a4b72071cde579d4fd929000e6da7c581b9da9f41c6cd331",
+      "bytes": 8043
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\P_G11p2_noic.log",
+      "sha256": "abc1772ca9405ca87cdea733b7b17bc307e99d2dd7e86358dee72e012ac58167",
+      "bytes": 658
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\P_G22p0_noic.json",
+      "sha256": "a13e4841b70548a589a041d4d6f70f09c2720ec7f2cab604d22db41c0e152fe6",
+      "bytes": 8026
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\P_G22p0_noic.log",
+      "sha256": "49f315300f9929db7f5c84efac5068f38138607134c14788ae56f833d572c656",
+      "bytes": 658
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\P_G22_noic.json",
+      "sha256": "41762dc9108aaec1a9e816c23c6a798b3a9343a608ab1728602ebe46a5222cbf",
+      "bytes": 8022
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\results\\P_G22_noic.log",
+      "sha256": "01b56eff3625c9b2bf54d2ce964ace1cdcb75c8c9fc88fbd0e3a0681c5da9232",
+      "bytes": 656
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\sources\\OPAx197.LIB",
+      "sha256": "fc5b020e63346e511bd808bf41c856b0150b000bcf8a41fe00eeececb1f422a5",
+      "bytes": 16625
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\records_before\\scripts_20261030_0200\\analyze_results.py",
+      "sha256": "6f0501667a9582ad1c294086c0805cf4187f085c0b79767f0afc8fcc2646711f",
+      "bytes": 2950
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\records_before\\scripts_20261030_0200\\audit_new.py",
+      "sha256": "3081bf8c20c482feeea4da226e45caa4112bf28859be67d5d0668be0d0a1e294",
+      "bytes": 3274
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\records_before\\scripts_20261030_0200\\plots.py",
+      "sha256": "4efffff7105efc3e71256973ec061ad7ca72c96215080aed825b0fa70a8b79fa",
+      "bytes": 4300
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\records_before\\scripts_20261030_0200\\write_report.py",
+      "sha256": "232f3a62fe9bec2ce1da14479085dff60a55fd7d5a1f1dbf8be48c8941861f4f",
+      "bytes": 17805
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\S05_A2_G22_candidate.cir",
+      "sha256": "02ced9b3568e3f049268b434229943bf926273668175d3c121fc4b9f331091a9",
+      "bytes": 2202
+    },
+    {
+      "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\S05_06_A\u65b9\u6848\u57fa\u5e26\u589e\u76ca\u8865\u507f\u4e0e\u963b\u585e\u590d\u9a8c.md",
+      "sha256": "307f28abe02cbc377713c06b4ad84f702e5f0bcb60313a2225ff9375a92ee5e8",
+      "bytes": 21503
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\Audit_29_50.raw",
+      "sha256": "900f076ab748d314060e77a9a07273edc61caff8ffcc9dd896b3822c6a19f921",
+      "bytes": 144017905
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\Audit_29_60.raw",
+      "sha256": "1391fc658e1b3c9cab323005d075e8234bbdb47b3fa68b85ea6b845d4cb26e1a",
+      "bytes": 144037345
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\Audit_33_40.raw",
+      "sha256": "4cf90372ceb010da059347cb1e81b908dc4a02870ae08c1e77c8a973f2897c92",
+      "bytes": 144021505
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\Audit_33_50.raw",
+      "sha256": "21842cc21d17a1e17309655e8414530745baea7a1b23e7a39924a8ed3b7f571c",
+      "bytes": 144051745
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\Audit_clean.raw",
+      "sha256": "5c6036dfe18d2cc5973190c17740e38240e9751f11cde8033057ed773a38cddb",
+      "bytes": 144000625
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\BB22_ac.raw",
+      "sha256": "38113a9d1aa4f8a84e094f14d182df2cd6de1312cfd6df1c4e45a7669d9832a8",
+      "bytes": 3233435
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\BB22_loop.raw",
+      "sha256": "203de99e36d625abc3302ba5d59f4f4e202966d74c62735a29a34bdce9b1eaac",
+      "bytes": 3271909
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\BB22_loop_C1000.raw",
+      "sha256": "9842addb8a8dce74cada8a4c5fc0738c493e0358abb6dc131b5fa4743b7cb8cb",
+      "bytes": 3271909
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\BB22_sine_noic.raw",
+      "sha256": "5cd2e4116223f01be9c4363cec67bc325250ba4db5efc24447bc8e5c9e5ad19d",
+      "bytes": 850715
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\BB22_smallstep.raw",
+      "sha256": "0477e5015a7f8693d8deb6798e1b7fe2d9297f9f0202a710172eeee897454c5e",
+      "bytes": 2074215
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\BB22_smallstep_C1000.raw",
+      "sha256": "2cac1bccdb44ad82e8b5ed49aaffa1b66ab1443eafc9b92680dc20a551ca05e8",
+      "bytes": 2130271
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_CK2p185.raw",
+      "sha256": "7a68be806a2af26fc8ab83fd9c38b6869486e55af328491319fd12c894a854f0",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_CK2p785.raw",
+      "sha256": "918892450d8459c59827a22656a0b743596929279b6831b4da9d7f958e5b124d",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Cp0p5.raw",
+      "sha256": "e66d4309955802573bc60b0d737475906a2f72ee0d68b7fa99fa38bf2ba27481",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Cp1p347.raw",
+      "sha256": "75c26c2bc0ca887128dd438a2d5229b853c2dd0eb2b07a9aa47bee995003bfa0",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Cp2.raw",
+      "sha256": "25a2dcac42f4eff2f315f601278d4b5ccce947251eb3a057716c295e346c1368",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_CTplus1.raw",
+      "sha256": "ee6566e2d03e67d379e7edbb41648d2a2a1274cbf1b1876194c38c15b1ceed71",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Lboth0p8.raw",
+      "sha256": "7d8af1692bf8855cd01b7f71feddd54ecbfc786047a38202d700766a5e6603e9",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Lboth0p95.raw",
+      "sha256": "df545935ac1c6d24121f3e2752196681a15a54ed28637889b86b3ad6f95859e7",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Lboth1p05.raw",
+      "sha256": "9dc0a54afbb947abd9fc2aca8e53d66f94c28e7f5793a7a1e289cbd853ff4f35",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Lboth1p2.raw",
+      "sha256": "d5547efa4ebea01a7818be88339077a880e68c0d397b93723e07329f302406ac",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_L_mismatch.raw",
+      "sha256": "086d426c7b5de5dfc0d9d0fc55aafe8ba73878590a5fa8bccd95f37940374374",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Q20.raw",
+      "sha256": "d1e47620ba9bba3fcb7d211bfd62d0642dc06c73483adfc26a4bc872e2f21d28",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Q30.raw",
+      "sha256": "3321a7f45ba3db5019a5b99fa856160106378506ea1a1e72780ae4270860e492",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Q40.raw",
+      "sha256": "e82a29b5d3fe6eac43c2c964bfe7c10a4b26faec4b52a2757a2173a27c6dbbd3",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Q50.raw",
+      "sha256": "4ab37f7f6666cee2735518ac6c556497e835f4d5168940dd54cff16facc01cc6",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_Q80.raw",
+      "sha256": "e3c1e91106853514b4c8a3ab9282b31f0a52943f3460de366aabdc223e35ae91",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_retuneL0p8.raw",
+      "sha256": "a5cbd4c6bb66c25a078b2b7adece199b3b46e7a9107c988fb3291ad0ea0f965f",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_retuneL0p95.raw",
+      "sha256": "030e2306382677e0932ad809a61cfd73ee22fc4c922ae86d506f9408fe48bd97",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_retuneL1p05.raw",
+      "sha256": "c75858935d141e709f9e9c2182989185565d1f673adf9f3d8260861b8053233e",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_retuneL1p2.raw",
+      "sha256": "943e09922e43a1894c54be0e510a6b9ae2a7ecc657682b8857bc3d510a979ff4",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_rounded_C.raw",
+      "sha256": "6d44353cc09e85484bf29925b5851a265352ce7b0ece98f2f7e98b1f15b48631",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_RS100.raw",
+      "sha256": "bfe0bcc920856e0bcb6bb43dbd2b21b944f3fefec4b5dc19293db6644c89a7a0",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\C_RS200.raw",
+      "sha256": "953639ec572138627d53e521238e94e293d826041c49e59ac7fdc01ed2c4d1c2",
+      "bytes": 922670
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F11p2_sq10_Ac20.raw",
+      "sha256": "25bd9b2721b7feb77d3dbcc8b3cebeb6d0409b2fd5168a3ceac9e0a936012dd9",
+      "bytes": 34647159
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F11p2_sq10_Ac20_RFopen.raw",
+      "sha256": "5de1d0b54b0855060c07f9384b72c1495dab7880690fdab89b66e61ba54ff2cd",
+      "bytes": 24171264
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F11p2_sq50_Ac20.raw",
+      "sha256": "f60d01dd59cf2a93a0fabed06acb885efee0c65a4c6de655eb05790bafbdc6b4",
+      "bytes": 35724383
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F11p2_sq50_Ac20_RFopen.raw",
+      "sha256": "ad15555698e573fac38a41b2a1c8361ec8aa5321956af7bff1805030902df578",
+      "bytes": 24556344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_seed_100u.raw",
+      "sha256": "bc06d5f68a6514b98a679d04ac07f9f5403c69d8593d8c6d33eec5ea9d862f84",
+      "bytes": 16348487
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_seed_100u_RFopen.raw",
+      "sha256": "109f874930878b3f294ee4ef30317cc04f0ca5be46336a702a096a1eaca6ebf6",
+      "bytes": 24049344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_seed_probe20u.raw",
+      "sha256": "06fc43e98be35291fddf97095b82e2d3497b582f958f48645a847b9a2b5b51c8",
+      "bytes": 6587958
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_seed_probe20u_RFopen.raw",
+      "sha256": "62b571819490f3a017ad05a004106dc83e529679fdf812c760a4a0e911b356ca",
+      "bytes": 24049344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_seed_sq10_h1_RFopen.raw",
+      "sha256": "69b9fa5428a563e256bd6d67579b2999cc0e7c5396855cc8328928711e23bdcc",
+      "bytes": 14631024
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_seed_sq10_RFopen.raw",
+      "sha256": "0fba8a3ccd1517a7781213cdf92eb59ed4455de4bb5b99492b324e8720fe66ba",
+      "bytes": 24049344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_29_10_gear.raw",
+      "sha256": "8efc0b8ae94823c911b2e4933679a79b9fc68b1c0b43f93182bd11baacfc4ec8",
+      "bytes": 44538255
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_29_10_gear_RFopen.raw",
+      "sha256": "09befa325873f43d74af448fc8755ab4b0084b128d1e65a32e355dc57095c684",
+      "bytes": 24172464
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_29_50_gear.raw",
+      "sha256": "65ff5939a61b0e131299b93dbdecea89fbda0032687b25607af76b8efbc97401",
+      "bytes": 43885719
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_29_50_gear_h025.raw",
+      "sha256": "4dc21ff236843024a1e6ac4aec3d2230c2ed2833b318d65a9d705a7b80fd437c",
+      "bytes": 62116599
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_29_50_gear_h025_RFopen.raw",
+      "sha256": "58fb19e1e006469f515ebdc564ad212306f64c4d9043933f8f29dac3dc5abd92",
+      "bytes": 48006264
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_29_50_gear_RFopen.raw",
+      "sha256": "7ef48c6f035f57ced1f4afbf9d90bb0aeead17e79b26c9820f7d6fff73667dc2",
+      "bytes": 24368784
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_29_60_gear.raw",
+      "sha256": "03e6a2a7a7813e5dbd74f74c751a7881ba0988d379cf01b999e2b1ab78c54d11",
+      "bytes": 44135455
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_29_60_gear_RFopen.raw",
+      "sha256": "a12df2eebf116f887b43ffbb04667e20f25c29c4275c690db1e3636c81279671",
+      "bytes": 24426504
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_33_10_gear.raw",
+      "sha256": "0c4f98810310c79a61c107d3eb33d39a9effd5ee6f76f4dafe78407cbf6ddddd",
+      "bytes": 45697255
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_33_10_gear_RFopen.raw",
+      "sha256": "ff0c849d50a0a1e63d33be434defa8c66bc1583552af1f2ecee9bc07490088ee",
+      "bytes": 24179424
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_33_40_gear.raw",
+      "sha256": "304927bfc8e25a6bdc241cd1c2b8470de9e2889c58f42f2133f8b82276519ad4",
+      "bytes": 48193551
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_33_40_gear_RFopen.raw",
+      "sha256": "8b9bae6976698c681ac2d2e083e5ba39b3140508a5bfb0a71fdd07772aeb0895",
+      "bytes": 24405264
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_33_50_gear.raw",
+      "sha256": "5855bbbfe851aef640c5fcfffffcaea2f49fdb7d2edda0d2775add63a3b0e916",
+      "bytes": 48874967
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_33_50_gear_RFopen.raw",
+      "sha256": "f43e2e9eccd3ea8a05c6036d84bf94db3b19a068bf0e8faab94f5fed9719ab63",
+      "bytes": 24490104
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_clean_gear.raw",
+      "sha256": "9511bb10750e82278c4c97340f73407a0413c05e04438a8cfd5fd36e974bfce1",
+      "bytes": 43729311
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_clean_gear_h025.raw",
+      "sha256": "8a9c806a36acc84fb31c55a58d915b6ff5286a88b6311a27c583d3f618f9c317",
+      "bytes": 61352343
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_clean_gear_h025_RFopen.raw",
+      "sha256": "f82ef9b9a53d1d4fb0be0480a28258a9809d2ec78b2051c124182451066b43ac",
+      "bytes": 48000624
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_clean_gear_RFopen.raw",
+      "sha256": "d64afe928297c3687fba0caa46a4468e7561c65d6117a8d1516774813a1f25fd",
+      "bytes": 24167664
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_clean_RFopen.raw",
+      "sha256": "0a66a35d1b7cc59effbabca653dfeb03d5426e198bd47b23c644315a100ccc66",
+      "bytes": 24167664
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_29_10.raw",
+      "sha256": "677c6e54d09014792071331dfcd4724f7e70c18a654c61be1903a3b827880e18",
+      "bytes": 33165919
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_29_10_RFopen.raw",
+      "sha256": "78451171b321b4fa3d67b950022c17256a596c1c8ba6f2669ca159b7b11a058e",
+      "bytes": 24047664
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_33_10.raw",
+      "sha256": "6f35946769bd9542ba34be734f8df069be603a6413513169b65c20beb112bd77",
+      "bytes": 34412623
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_33_10_RFopen.raw",
+      "sha256": "242db75d7adb8b84fbff9e2fe7c4eacbb19113f31280611cd2d9b5cc10e54f86",
+      "bytes": 24047664
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_33_40_gear.raw",
+      "sha256": "3bc248da17ffeb2c9c61912552f13829bc7dbe0c4f805a67df79d8188636bebb",
+      "bytes": 47752447
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_33_40_gear_RFopen.raw",
+      "sha256": "8db4960f0796a428b8e846499ffed2bb79b0b730235b700033e9b79f1b36cfe8",
+      "bytes": 24314544
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_33_40_sixcycles_RFopen.raw",
+      "sha256": "c37e9635c0ea26a27bd6ff31e9635439bd2330727f60bd3df95f7d077cffa997",
+      "bytes": 24314544
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_Ac20_gear_RFopen.raw",
+      "sha256": "a63f4d04567ec366076c740ba16b1c1f4352ac5bf5cfaf7fb883b936c86e5697",
+      "bytes": 24171264
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_Ac20_h025_short_RFopen.raw",
+      "sha256": "783ad69a1c3013ac70c50f5f4fad75250f8a22b0b696eb3718fdd08fe76368ad",
+      "bytes": 48014544
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_Ac20_RFopen.raw",
+      "sha256": "8c0de24889051230a9d3c4d8ae2b03e78e860481fd104b6fdc79d4aaa575e866",
+      "bytes": 24171264
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_clean_gear.raw",
+      "sha256": "ca90f6835dce186e69f361b8a035f134b30ca6c4b720c4a05da752d9da4d00b3",
+      "bytes": 41422103
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_clean_gear_RFopen.raw",
+      "sha256": "a43db85ec65c8ef8694aa07a289f918e1ba151ab9b742d341de09730bcf2a8d8",
+      "bytes": 24049344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_dual10.raw",
+      "sha256": "af8c070508762d64f3d48d642fab6b73336a9f5b51624aa7204c8c932df12fe6",
+      "bytes": 33727559
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_dual10_RFopen.raw",
+      "sha256": "1bca5467a94659c6d77807aa3e709e18e511df73d78fe3d5bffe422e759e26dc",
+      "bytes": 24061344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_h025_short.raw",
+      "sha256": "bb7374c6630620fa4298cfc9aa6d844d75988b473d0ae38c6a69672f43966d36",
+      "bytes": 32216983
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_h025_short_RFopen.raw",
+      "sha256": "3d426e1e8d702bcf111ac0fe86990fc99e723c297f037161afe3e09639e98a59",
+      "bytes": 48003504
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_m025.raw",
+      "sha256": "207d2d2e8a4da2bb52ce03e0fdc5b6122dec5d94cd90bae593231f6879b0cf2b",
+      "bytes": 33435415
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_m025_RFopen.raw",
+      "sha256": "89ce2b7bac6d1b778072b098b358c92bfe4901608a17e878acd21ba56a75c958",
+      "bytes": 24031584
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_pre_gear_RFopen.raw",
+      "sha256": "d614de7a8cd6d52df65eb7e919d1bc4eaa351907f875c2f143debe383dae873a",
+      "bytes": 72146784
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_pre_RFopen.raw",
+      "sha256": "7f324957e7fd687f92d25adbdd72a9e7c0002e08645a219251d8673adb1fd5ee",
+      "bytes": 72146784
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_sixcycles.raw",
+      "sha256": "a577df9ea3ed90a67f52503cf5f31ae982811a9beb9c265b058469352e8e1770",
+      "bytes": 97935247
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_sixcycles_RFopen.raw",
+      "sha256": "95d0b209ade3cd3c0aa4ed251facf85e08cfe29481a86fa476d370c67428836e",
+      "bytes": 24049344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_warm_RFopen.raw",
+      "sha256": "37800561a787fc019751ab7fd3e6ce8faea044936422ea8d46af4020dde45fe3",
+      "bytes": 72146784
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_29_10.raw",
+      "sha256": "f77f5e56553f053fdaa64753f6d4e766ba6188db5637f2eb89d10a6ae9d450db",
+      "bytes": 33900687
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_29_10_RFopen.raw",
+      "sha256": "aadbc06b47695feac411dc1a729ddb931f97963367e72b13174bbc8ebf9812ae",
+      "bytes": 24223104
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_33_10.raw",
+      "sha256": "030828bc03dbbac779a95aaa4ee03df9c44a94938d5df4fec644b40656d6fc19",
+      "bytes": 34661903
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_33_10_RFopen.raw",
+      "sha256": "f0a46583b6f95c5fe1d84300691bb242a70dc4f582eb367381aa3bc945cde8cf",
+      "bytes": 24222864
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_33_40_gear.raw",
+      "sha256": "b160850333c565216b5412bb3cef1f21b45f250bf52a1a062c2d00d4ed1e5227",
+      "bytes": 48105543
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_33_40_gear_RFopen.raw",
+      "sha256": "1d9e3261767da9d5f3c155f491c7010767379edaae2c2ad4af62a4558b53cdc3",
+      "bytes": 24410544
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_33_40_sixcycles_RFopen.raw",
+      "sha256": "6d0370df8ab84baec91b349ab7e199502b127df9605015448f1d6d31c82ccf4b",
+      "bytes": 24410544
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_Ac20.raw",
+      "sha256": "1589002c40442224f31c92e0e0af7df3662e6e52270ec5549a876a7aec49becf",
+      "bytes": 34824391
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_Ac20_gear_RFopen.raw",
+      "sha256": "8f3d1b95fc2b91d522993f9e6c4c936059e06e58f5dd38dd93a313c5e4cad87c",
+      "bytes": 24556344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_Ac20_RFopen.raw",
+      "sha256": "3fd31583a7bcfc6d8dc774572f05c4f39fc79b863a9a40723c352a608ddcb41a",
+      "bytes": 24556344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_clean_gear.raw",
+      "sha256": "13bbe16ba2f092de0e2fa002e80cbdbf8d311c4d00e19b30fd38d3a616f5d058",
+      "bytes": 43596615
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_clean_gear_RFopen.raw",
+      "sha256": "d72da42859e50955ca9ec05e1322836476c3b0ca7f73e0924a98551965abc000",
+      "bytes": 24232944
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_dual10.raw",
+      "sha256": "358b766c6cef5d35f229f1a860642c841d6e6cfa67ac5087b45f82429725593f",
+      "bytes": 34501391
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_dual10_RFopen.raw",
+      "sha256": "4ea5eee51108aab9f643a5280396dfa30b7f5b4ae1b2de8b4a5f1820047ca1d4",
+      "bytes": 24206544
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_m025.raw",
+      "sha256": "f5eb6937e91da9156eb84b7cadd425e2344e08b5f687ac9ae980cbd5a7a4052c",
+      "bytes": 33997967
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_m025_RFopen.raw",
+      "sha256": "758d07d734b80351e4ab5dac47daddffbdbe33cba4b0aace181ec58491f3d2a7",
+      "bytes": 24144744
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_Q40_RFopen.raw",
+      "sha256": "b2aa65c825cd05b7998c23b9ccbeae83dd2d5477526e07974df99d7d7a02d824",
+      "bytes": 24181464
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_RS200.raw",
+      "sha256": "a18130efc5bff2c1867b4eae8481903a7e5bbd6713e4bd8dfd99986bbb508821",
+      "bytes": 33187807
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_RS200_RFopen.raw",
+      "sha256": "e0fd5c665be2560534a1f0682511a53839254925ec0910f15c15ca7601bda49b",
+      "bytes": 24003504
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_sixcycles.raw",
+      "sha256": "c5833228576b032637bd77d3dfc59cfe767224bdb65326e4b151ee9805782aea",
+      "bytes": 100239111
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_sixcycles_RFopen.raw",
+      "sha256": "6065440c244a7eebf473d9b0af768382a82bdba667f2e58b857b437ed806e320",
+      "bytes": 24232944
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\I_sq10.raw",
+      "sha256": "3eb7a69ef7ad5844c023144111bed40051291d5fabc9c182ba857b7a238d702f",
+      "bytes": 91387087
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\I_sq10_RFopen.raw",
+      "sha256": "9fa161b717410eca2cccce30497924633c69b74e57f90067973248f38370233c",
+      "bytes": 24049344
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\P_G11p2_noic.raw",
+      "sha256": "378e1d4ce816952064d7d56fae322b05afb12c1e8e8cbdf9217888f6e3a7b423",
+      "bytes": 6473
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\P_G22p0_noic.raw",
+      "sha256": "0803936ec21973fa0e51e9fc4cc6d0d98b477d00fbee50ecded0c24f648f9775",
+      "bytes": 6473
+    },
+    {
+      "path": "D:\\ms_xsp\\s05_gain_20261030\\P_G22_noic.raw",
+      "sha256": "3026495ea5be0dc6e6f77ec03a5abb527a8877254412490dbc98cd2e52522693",
+      "bytes": 6473
+    }
+  ],
+  "groups": {
+    "stage_files": 523,
+    "external_raw": 112
+  }
+}

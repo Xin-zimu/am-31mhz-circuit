@@ -1,0 +1,12 @@
+* S05-06. Source SHA256 48b49c3a86d56b57d2fad2e97c73576b6936f5118e90090f000557d0da6909d9
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_gain_20261030/BB22_loop_source.cir
+set filetype=binary
+set num_threads=1
+save all
+ac dec 150 1 100meg
+write D:/ms_xsp/s05_gain_20261030/BB22_loop.raw
+quit
+.endc
+.end

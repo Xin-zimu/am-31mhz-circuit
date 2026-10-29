@@ -1,0 +1,12 @@
+* S05-06. Source SHA256 84a90bf59a8a2caa8186625785e3384007c26f21d2f417eaba73a48f2e1dd255
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_gain_20261030/P_G22p0_noic_source.cir
+set filetype=binary
+set num_threads=1
+save all
+op
+write D:/ms_xsp/s05_gain_20261030/P_G22p0_noic.raw
+quit
+.endc
+.end

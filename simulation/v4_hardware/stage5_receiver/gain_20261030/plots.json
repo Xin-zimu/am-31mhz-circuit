@@ -1,0 +1,13 @@
+{
+  "figures": [
+    "blocking.png",
+    "component_response.png",
+    "output_waveforms.png"
+  ],
+  "skipped_curves": [
+    {
+      "name": "F22_sq10_Ac20",
+      "reason": "FileNotFoundError: F22_sq10_Ac20"
+    }
+  ]
+}

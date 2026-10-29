@@ -1,0 +1,15 @@
+case,status,cause,elapsed_s,detail
+F22_seed_sq10,incomplete,timeout,90.01,compute budget of 90 s expired; no complete array
+F22_seed_sq10_h1,incomplete,timeout,90.01,compute budget of 90 s expired; no complete array
+F22_sine_clean_partial,incomplete,partial,,"Timestep too small at 135.895755us; partial array excluded, measurement completeness assertion correctly rejected it"
+F22_sq10_33_40_sixcycles,incomplete,timeout,180.02,compute budget of 180 s expired; no complete array
+F22_sq10_Ac20,incomplete,timestep,34.82,solver timestep too small; no complete array
+F22_sq10_Ac20_gear,incomplete,no_raw,11.02,process ended without a raw file (log ends after the operating-point dump); cause not established by the retained evidence
+F22_sq10_Ac20_h025_short,incomplete,timeout,120.01,compute budget of 120 s expired; no complete array
+F22_sq10_pre,incomplete,timeout,90.01,compute budget of 90 s expired; no complete array
+F22_sq10_pre_gear,incomplete,timeout,90.01,compute budget of 90 s expired; no complete array
+F22_sq10_warm,incomplete,timeout,90.00,compute budget of 90 s expired; no complete array
+F22_sq50_33_40_sixcycles_partial,incomplete,partial,,Incomplete transient; not accepted even if ngspice exit code is 0
+F22_sq50_Ac20_gear,incomplete,no_raw,10.86,process ended without a raw file (log ends after the operating-point dump); cause not established by the retained evidence
+F22_sq50_Q40,incomplete,no_raw,38.28,process ended without a raw file (log ends after the operating-point dump); cause not established by the retained evidence
+T_sq10,incomplete,timeout,90.01,compute budget of 90 s expired; no complete array

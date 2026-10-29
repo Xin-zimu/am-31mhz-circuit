@@ -1,0 +1,16 @@
+* C3 RLC reference A2: parallel tank driven at f0 by a current source
+* analytic steady state at resonance: |v| = I*R, phase 0
+I1 0 1 SIN(0 1e-05 30992622.0 0 0 0)
+C1 1 0 1e-10
+L1 1 0 2.6370819393581765e-07
+R1 1 0 2567.6263062204825
+.options method=gear maxord=2 reltol=1e-4 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(1)
+tran 0.25n 4m 0 0.25n
+write dr2_Q50_gear_0p25n.raw
+quit
+.endc
+.end

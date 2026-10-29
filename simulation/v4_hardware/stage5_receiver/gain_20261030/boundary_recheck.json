@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Audit_clean",
+    "delta_db": 0.0,
+    "cycle_mean_span": 3.5407049542302005e-08,
+    "cycle_vpp_span": 1.4284784646823034e-07
+  },
+  {
+    "name": "Audit_29_50",
+    "delta_db": -0.956899551039764,
+    "cycle_mean_span": 8.620706004602852e-08,
+    "cycle_vpp_span": 9.104803071480205e-07
+  },
+  {
+    "name": "Audit_29_60",
+    "delta_db": -1.1152788659306496,
+    "cycle_mean_span": 3.728161543370412e-07,
+    "cycle_vpp_span": 1.4215800459016492e-06
+  },
+  {
+    "name": "Audit_33_40",
+    "delta_db": -0.902683232264324,
+    "cycle_mean_span": 1.0362573049649271e-07,
+    "cycle_vpp_span": 1.022870384781438e-07
+  },
+  {
+    "name": "Audit_33_50",
+    "delta_db": -1.0663891657579756,
+    "cycle_mean_span": 9.307046922035767e-08,
+    "cycle_vpp_span": 5.840080889718546e-07
+  }
+]

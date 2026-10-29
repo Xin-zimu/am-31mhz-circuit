@@ -1,0 +1,53 @@
+{
+  "name": "BB22_loop",
+  "config": {
+    "kind": "B",
+    "cs": 27,
+    "lp": 470,
+    "ct": 15,
+    "cp": 1,
+    "q": 50,
+    "rs": 50,
+    "reu": 33,
+    "ceb": 330,
+    "inter": 100,
+    "temp": 27,
+    "ac": 0.01,
+    "m": 0.5,
+    "wave": "sine",
+    "duty": 0.5,
+    "blocker_f": 1600000.0,
+    "blocker_a": 0,
+    "phase": 0,
+    "step": 0.5,
+    "stop": 400,
+    "start": 100,
+    "lscale": 1,
+    "cscale": 1,
+    "supply": 9,
+    "load": 100000,
+    "variant": "R2",
+    "blockers": [],
+    "front_file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\blocker_20261029\\filters\\A2M_r1M.cir",
+    "feedback": 210000,
+    "bb_load": 1000000.0,
+    "bb_cap": 100
+  },
+  "elapsed_s": 0.21611960000063846,
+  "net_sha256": "b3394efd0daf0fb6f09e1d9068676f94bcc54d42ae0ba9e189ae84c3d65d30d9",
+  "raw_sha256": "203de99e36d625abc3302ba5d59f4f4e202966d74c62735a29a34bdce9b1eaac",
+  "raw_path": "D:\\ms_xsp\\s05_gain_20261030\\BB22_loop.raw",
+  "log_sha256": "c4d5fe1b53e92b76e4c726d3446bfdf6550ed91ab6026516b383c842e590ca72",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "dependencies": {
+    "source_sha256": "48b49c3a86d56b57d2fad2e97c73576b6936f5118e90090f000557d0da6909d9",
+    "model_sha256": "fc5b020e63346e511bd808bf41c856b0150b000bcf8a41fe00eeececb1f422a5",
+    "filter_sha256": "c223b263ca73244efbeefa09ebe51d914dda7e119858d3ba5d196525ce9e26e8"
+  },
+  "metrics": {
+    "unity_loop_hz": 387120.99572959443,
+    "phase_at_unity_deg": -96.3262246748476,
+    "phase_margin_deg": 83.6737753251524,
+    "method": "series injection at inverting input; DC loop closed"
+  }
+}

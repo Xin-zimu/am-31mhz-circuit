@@ -1,0 +1,18 @@
+{
+  "target_bw": 1000000.0,
+  "values_pf": [
+    5.61,
+    4.626,
+    1.253,
+    48.329,
+    50.345
+  ],
+  "actual_bw": 981000.0,
+  "peak_f": 31029000.0,
+  "g31": 15.998525868061764,
+  "relative29_db": -24.488407873165702,
+  "relative33_db": -22.296543654046957,
+  "gain_change_db": -12.625742797498338,
+  "optimizer_cost": 1.8019490420659106,
+  "evidence_type": "linear network calculation; not transistor transient or actual hardware"
+}

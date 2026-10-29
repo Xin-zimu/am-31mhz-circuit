@@ -1,0 +1,12 @@
+* S05-06. Source SHA256 9c90aa377cdc4fe3a4979700324eec16785430a2848bad100d38831a996a2b69
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_gain_20261030/F22_sq50_29_10_source.cir
+set filetype=binary
+set num_threads=1
+save v(src) v(input) v(port) v(b1) v(c1) v(e1) v(b2) v(c2) v(e2) v(ee) v(rf) v(det) v(out) i(vsup) v(bbin) v(ref) v(bbo) v(final)
+tran 0.5n 200u 100u 0.5n
+write D:/ms_xsp/s05_gain_20261030/F22_sq50_29_10.raw
+quit
+.endc
+.end

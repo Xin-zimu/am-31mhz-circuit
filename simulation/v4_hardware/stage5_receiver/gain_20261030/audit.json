@@ -1,0 +1,693 @@
+{
+  "head_at_start": "94ca0492db917b7956776512086dabecc0781bbc",
+  "historical_file_count": 560,
+  "registered_result_count": 112,
+  "passed": true,
+  "errors": [],
+  "numerical_warnings": [],
+  "report": {
+    "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\S05_06_A\u65b9\u6848\u57fa\u5e26\u589e\u76ca\u8865\u507f\u4e0e\u963b\u585e\u590d\u9a8c.md",
+    "sha256": "307f28abe02cbc377713c06b4ad84f702e5f0bcb60313a2225ff9375a92ee5e8",
+    "exists": true,
+    "count": 20,
+    "missing": []
+  },
+  "figures": [
+    "blocking.png",
+    "component_response.png",
+    "output_waveforms.png"
+  ],
+  "incomplete_case_count": 14,
+  "checks": [
+    {
+      "name": "Audit_29_50",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "Audit_29_60",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "Audit_33_40",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "Audit_33_50",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "Audit_clean",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "BB22_ac",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "BB22_loop",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "BB22_loop_C1000",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "BB22_sine_noic",
+      "independent_fourier_relative_error": 5.743062809271393e-05
+    },
+    {
+      "name": "BB22_smallstep",
+      "independent_fourier_relative_error": 1.2545672412045406e-07
+    },
+    {
+      "name": "BB22_smallstep_C1000",
+      "independent_fourier_relative_error": 1.516848473492871e-07
+    },
+    {
+      "name": "C_CK2p185",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_CK2p785",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Cp0p5",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Cp1p347",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Cp2",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_CTplus1",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_L_mismatch",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Lboth0p8",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Lboth0p95",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Lboth1p05",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Lboth1p2",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Q20",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Q30",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Q40",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Q50",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_Q80",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_retuneL0p8",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_retuneL0p95",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_retuneL1p05",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_retuneL1p2",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_rounded_C",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_RS100",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "C_RS200",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F11p2_sq10_Ac20",
+      "independent_fourier_relative_error": -4.824187938012869e-09
+    },
+    {
+      "name": "F11p2_sq10_Ac20_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F11p2_sq50_Ac20",
+      "independent_fourier_relative_error": 2.5552626681246693e-10
+    },
+    {
+      "name": "F11p2_sq50_Ac20_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_seed_100u",
+      "independent_fourier_relative_error": -8.412126550894072e-10
+    },
+    {
+      "name": "F22_seed_100u_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_seed_probe20u",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_seed_probe20u_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_seed_sq10_h1_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_seed_sq10_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_29_10_gear",
+      "independent_fourier_relative_error": 2.6099482317576417e-06
+    },
+    {
+      "name": "F22_sine_29_10_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_29_50_gear",
+      "independent_fourier_relative_error": 4.316549558680549e-06
+    },
+    {
+      "name": "F22_sine_29_50_gear_h025",
+      "independent_fourier_relative_error": 2.750075918767081e-06
+    },
+    {
+      "name": "F22_sine_29_50_gear_h025_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_29_50_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_29_60_gear",
+      "independent_fourier_relative_error": 2.602031732079624e-06
+    },
+    {
+      "name": "F22_sine_29_60_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_33_10_gear",
+      "independent_fourier_relative_error": 2.6042475984588975e-06
+    },
+    {
+      "name": "F22_sine_33_10_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_33_40_gear",
+      "independent_fourier_relative_error": 4.245146048909021e-06
+    },
+    {
+      "name": "F22_sine_33_40_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_33_50_gear",
+      "independent_fourier_relative_error": 4.818431982300808e-07
+    },
+    {
+      "name": "F22_sine_33_50_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_clean_gear",
+      "independent_fourier_relative_error": 4.913859250832431e-06
+    },
+    {
+      "name": "F22_sine_clean_gear_h025",
+      "independent_fourier_relative_error": 2.7187860096589134e-07
+    },
+    {
+      "name": "F22_sine_clean_gear_h025_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_clean_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sine_clean_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_29_10",
+      "independent_fourier_relative_error": 4.894438854208261e-09
+    },
+    {
+      "name": "F22_sq10_29_10_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_33_10",
+      "independent_fourier_relative_error": 7.57762141923024e-09
+    },
+    {
+      "name": "F22_sq10_33_10_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_33_40_gear",
+      "independent_fourier_relative_error": 4.401758957328639e-09
+    },
+    {
+      "name": "F22_sq10_33_40_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_33_40_sixcycles_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_Ac20_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_Ac20_h025_short_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_Ac20_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_clean_gear",
+      "independent_fourier_relative_error": 3.1004352418761982e-09
+    },
+    {
+      "name": "F22_sq10_clean_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_dual10",
+      "independent_fourier_relative_error": 1.6629153609670766e-09
+    },
+    {
+      "name": "F22_sq10_dual10_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_h025_short",
+      "independent_fourier_relative_error": 1.6643831868279335e-08
+    },
+    {
+      "name": "F22_sq10_h025_short_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_m025",
+      "independent_fourier_relative_error": 2.514852415202995e-08
+    },
+    {
+      "name": "F22_sq10_m025_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_pre_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_pre_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_sixcycles",
+      "independent_fourier_relative_error": -1.0894407598271982e-09
+    },
+    {
+      "name": "F22_sq10_sixcycles_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq10_warm_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_29_10",
+      "independent_fourier_relative_error": 2.3460233755656645e-10
+    },
+    {
+      "name": "F22_sq50_29_10_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_33_10",
+      "independent_fourier_relative_error": 3.0418578766955306e-10
+    },
+    {
+      "name": "F22_sq50_33_10_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_33_40_gear",
+      "independent_fourier_relative_error": -3.8053882267519157e-10
+    },
+    {
+      "name": "F22_sq50_33_40_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_33_40_sixcycles_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_Ac20",
+      "independent_fourier_relative_error": 3.214555288622023e-10
+    },
+    {
+      "name": "F22_sq50_Ac20_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_Ac20_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_clean_gear",
+      "independent_fourier_relative_error": 6.267097951706546e-11
+    },
+    {
+      "name": "F22_sq50_clean_gear_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_dual10",
+      "independent_fourier_relative_error": 2.097773066367381e-10
+    },
+    {
+      "name": "F22_sq50_dual10_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_m025",
+      "independent_fourier_relative_error": 4.557825228346246e-10
+    },
+    {
+      "name": "F22_sq50_m025_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_Q40_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_RS200",
+      "independent_fourier_relative_error": -2.2116386499959617e-10
+    },
+    {
+      "name": "F22_sq50_RS200_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "F22_sq50_sixcycles",
+      "independent_fourier_relative_error": 2.9213409469264207e-10
+    },
+    {
+      "name": "F22_sq50_sixcycles_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "I_sq10",
+      "independent_fourier_relative_error": -2.3297421769541415e-09
+    },
+    {
+      "name": "I_sq10_RFopen",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "P_G11p2_noic",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "P_G22_noic",
+      "independent_fourier_relative_error": null
+    },
+    {
+      "name": "P_G22p0_noic",
+      "independent_fourier_relative_error": null
+    }
+  ],
+  "unregistered_or_failed": [
+    {
+      "name": "F22_seed_sq10",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_sq10.cir",
+          "sha256": "73b7a34ab44c883bd2d721992aaaf66140d70a527cb368e106301cd99843f69f",
+          "bytes": 437
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_seed_sq10.log",
+          "sha256": "e340621470a1bbeb56a0b46b3dc73d56053d9897c913831969a498974aa6b665",
+          "bytes": 9784
+        }
+      ]
+    },
+    {
+      "name": "F22_seed_sq10_h1",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_seed_sq10_h1.cir",
+          "sha256": "bcd73ef0fcda32e9d17a2a9bb6fc0a74795f7b8323a6d038272cb783a7f79ec0",
+          "bytes": 439
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_seed_sq10_h1.log",
+          "sha256": "44b4736779049c1a3f8926638800c7268061626db3066c7a5034da86df6093d8",
+          "bytes": 9784
+        }
+      ]
+    },
+    {
+      "name": "F22_sine_clean",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sine_clean.cir",
+          "sha256": "758e4f53c89b73015db07fc77f472a79b76b96b207fd3d5350f371eeb8b24c96",
+          "bytes": 439
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_clean.raw",
+          "sha256": "8cd90a4515d4f3c196f944aa62f602658931922bbeac4c3865a36e0e11cd7d98",
+          "bytes": 12299054
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sine_clean.log",
+          "sha256": "0e5da8e39ffb27593be3553dcfd2aa3546d02ddcab00ffc7fa897d3e2001d6cf",
+          "bytes": 10031
+        }
+      ]
+    },
+    {
+      "name": "F22_sq10_33_40_sixcycles",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_33_40_sixcycles.cir",
+          "sha256": "b3d9e73ec521d66d4deffd7879ae7236f23449b45559a67c36a0b60037a462b6",
+          "bytes": 459
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_33_40_sixcycles.log",
+          "sha256": "6eeee7f5e082488eae43be8a20d64461635a3f65d3a9a22a3bfed7153d7e06a1",
+          "bytes": 9784
+        }
+      ]
+    },
+    {
+      "name": "F22_sq10_Ac20",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20.cir",
+          "sha256": "246af45d8078a657bf6abce8b6e368c3f3f3351098c3b0e719213e0ef202a895",
+          "bytes": 437
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_Ac20.log",
+          "sha256": "67014d36033f94657e45299a0e8c55631e3c1c5d0129174d4ffc7eac74a3eaa5",
+          "bytes": 10083
+        }
+      ]
+    },
+    {
+      "name": "F22_sq10_Ac20_gear",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_gear.cir",
+          "sha256": "ebf41281d83c2339484b448451246d0b115723f5790ce7e014a868d5a49b6310",
+          "bytes": 447
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_Ac20_gear.log",
+          "sha256": "66a0747789d4d790e499913a66a31fb78744bc47b5462312cb3473d485e60435",
+          "bytes": 9784
+        }
+      ]
+    },
+    {
+      "name": "F22_sq10_Ac20_h025_short",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_Ac20_h025_short.cir",
+          "sha256": "df26dba638a2917c433736a3bf5294e6fb8e7ffe6520a14afe32ac80509d26df",
+          "bytes": 460
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_Ac20_h025_short.log",
+          "sha256": "e148dfeb9b490de001d6fdcb8183a918921bb0aa3b79302efbbcfc7a02b3b69e",
+          "bytes": 9784
+        }
+      ]
+    },
+    {
+      "name": "F22_sq10_pre",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_pre.cir",
+          "sha256": "7f57833c8b357b58e022fed1fb8e8f746b82071a6d2edaf02df7b58afe95744b",
+          "bytes": 435
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_pre.log",
+          "sha256": "7a11480f1d86884c5091f5c94a0e8213f83acbf7f2521c69198028902bc274d2",
+          "bytes": 10053
+        }
+      ]
+    },
+    {
+      "name": "F22_sq10_pre_gear",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_pre_gear.cir",
+          "sha256": "61d315ffd943caf32f388b3547e4e5a2f2bf8b37f1599423ba2c03e28d2ffc41",
+          "bytes": 445
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_pre_gear.log",
+          "sha256": "94a3020edc4a1d1d300d87d24ca4aabf6cd323b6ada98d4fc8aaf14c25661b86",
+          "bytes": 10053
+        }
+      ]
+    },
+    {
+      "name": "F22_sq10_warm",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq10_warm.cir",
+          "sha256": "b3623d2448726abce37991aea5b95830eb794aac0c867dabf19731c4aa7e4ee9",
+          "bytes": 441
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq10_warm.log",
+          "sha256": "423180bc2c52c592fe03ca5989e16fc00c45995a13aad0dec753ea97466f9540",
+          "bytes": 547
+        }
+      ]
+    },
+    {
+      "name": "F22_sq50_33_40_sixcycles",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_33_40_sixcycles.cir",
+          "sha256": "3ce20496f8c5a651e8044077bfc36256b4487a5adb3ec58adcdafc0f0340a39b",
+          "bytes": 459
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_33_40_sixcycles.raw",
+          "sha256": "738005cd2bcae2580d0a22cc95c55950d9bbed0c225bf4051257cb464a8ebdd2",
+          "bytes": 73260479
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_33_40_sixcycles.log",
+          "sha256": "16e6300ad764bb4ad338e80974c163a84de40cd69ab141ac62f9ce55ee81c97b",
+          "bytes": 10042
+        }
+      ]
+    },
+    {
+      "name": "F22_sq50_Ac20_gear",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Ac20_gear.cir",
+          "sha256": "44ea32d7c743bb6b96772dd5def776b45ed615746e0257934a923756f9b1518a",
+          "bytes": 447
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_Ac20_gear.log",
+          "sha256": "fb24f5736ce2c9ea09fda6851f01ccd43618effc8370c5718b0880c69c0fc0ca",
+          "bytes": 9784
+        }
+      ]
+    },
+    {
+      "name": "F22_sq50_Q40",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\F22_sq50_Q40.cir",
+          "sha256": "83722b0b16fb71d64adbb46a3c627aece265c626d0def7071d1c68466058abd6",
+          "bytes": 435
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\F22_sq50_Q40.log",
+          "sha256": "1be7eafc9bb583d6148d5ff16d35078c0f5744fa6e627b980ab49d3f4dc84d2b",
+          "bytes": 9784
+        }
+      ]
+    },
+    {
+      "name": "T_sq10",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\gain_20261030\\netlists\\T_sq10.cir",
+          "sha256": "c6f6c2f096b946211219fdef1e42a869e422f8ef17e79f54e8dadffb75bf4d65",
+          "bytes": 340
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_gain_20261030\\T_sq10.log",
+          "sha256": "b80b215805f0e1ff47dd4a59782938167c3dd909ba8ef2cd418e219ba459929d",
+          "bytes": 8958
+        }
+      ]
+    }
+  ]
+}

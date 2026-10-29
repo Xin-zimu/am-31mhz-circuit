@@ -1,0 +1,48 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * s05 selection fixture; not wireless qualification
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+mod                                          0
+src                                          0
+input                                        0
+tank1                                        0
+ln1                                          0
+tank2                                        0
+ln2                                          0
+port                                         0
+vcc                                          9
+b1                                     1.50655
+c1                                     5.81319
+e1                                    0.811342
+eb1                                   0.705514
+b2                                     1.50655
+c2                                     5.81319
+e2                                    0.811342
+eb2                                   0.705514
+bb                                      4.2771
+ee                                      3.5581
+rf                                -9.71642e-21
+an                                 -9.7174e-21
+det                                4.37053e-20
+out                                4.17433e-20
+bsig#branch                                  0
+lsel2#branch                                 0
+lsel1#branch                                 0
+vsup#branch                          -0.015053
+vmod#branch                                  0
+
+
+No. of Data Rows : 1200307
+binary raw file "D:/ms_xsp/s05_gain_20261030/Audit_29_60.raw"
+ngspice-47 done

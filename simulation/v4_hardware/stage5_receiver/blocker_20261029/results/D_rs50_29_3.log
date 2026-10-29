@@ -1,0 +1,26 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * fixed wanted waveform + independent cw -> real bat85 control
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+drive                                 0.162645
+rf                                    0.162044
+an                                    0.162042
+det                                  0.0541384
+out                                  0.0517081
+breplay#branch                    -1.20359e-05
+
+
+No. of Data Rows : 203652
+binary raw file "D:/ms_xsp/s05_blocker_20261029/D_rs50_29_3.raw"
+ngspice-47 done

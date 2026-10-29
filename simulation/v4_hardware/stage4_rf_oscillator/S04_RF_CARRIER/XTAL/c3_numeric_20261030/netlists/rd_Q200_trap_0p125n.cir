@@ -1,0 +1,15 @@
+* C3 RLC reference A1: parallel tank ring-down, Q=200.0
+* analytic: v(t)=V0 e^-at [cos(wd t)-(a/wd) sin(wd t)], v'(0)=-V0/(RC)
+C1 1 0 1e-10 ic=1
+L1 1 0 2.6370819393581765e-07
+R1 1 0 10270.50522488193
+.options method=trap maxord=2 reltol=1e-4 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(1)
+tran 0.125n 20u 0 0.125n uic
+write rd_Q200_trap_0p125n.raw
+quit
+.endc
+.end

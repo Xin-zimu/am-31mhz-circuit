@@ -1,0 +1,12 @@
+* S05-06. Source SHA256 c94dbcc99e55c46c64cfb883d9690897dd1b2f88d89afff30b1056142aee95a0
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_gain_20261030/BB22_smallstep_C1000_source.cir
+set filetype=binary
+set num_threads=1
+save v(out) v(bbin) v(ref) v(bbo) v(final) i(vsup)
+tran 10n 400u 100u 10n
+write D:/ms_xsp/s05_gain_20261030/BB22_smallstep_C1000.raw
+quit
+.endc
+.end

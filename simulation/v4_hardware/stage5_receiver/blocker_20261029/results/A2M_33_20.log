@@ -1,0 +1,68 @@
+Warning: singular matrix:  check node port
+
+Note: Starting dynamic gmin stepping
+Warning: singular matrix:  check node port
+
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: singular matrix:  check node port
+
+Warning: singular matrix:  check node port
+
+Warning: singular matrix:  check node port
+
+Warning: singular matrix:  check node port
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+Note: No compatibility mode selected!
+
+
+Circuit: * s05 selection fixture; not wireless qualification
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+mod                                          0
+src                                          0
+input                             -2.88357e-10
+tank1                              2.92859e-09
+ln1                                2.88106e-09
+tank2                               4.0428e-09
+ln2                                4.01732e-09
+port                                   1.49043
+vcc                                          9
+b1                                     1.50654
+c1                                     5.81319
+e1                                    0.811342
+eb1                                   0.705514
+b2                                     1.50655
+c2                                     5.81318
+e2                                    0.811342
+eb2                                   0.705514
+bb                                     4.27712
+ee                                     3.55812
+rf                                -0.000405146
+an                                -0.000405146
+det                                0.000520955
+out                                0.000815448
+bsig#branch                       -5.76713e-12
+lsel2#branch                       1.39156e-11
+lsel1#branch                       2.59596e-11
+vsup#branch                         -0.0150526
+vmod#branch                                  0
+
+
+No. of Data Rows : 201983
+binary raw file "D:/ms_xsp/s05_blocker_20261029/A2M_33_20.raw"
+ngspice-47 done

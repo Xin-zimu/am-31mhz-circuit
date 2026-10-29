@@ -1,0 +1,61 @@
+{
+  "name": "F22_seed_probe20u",
+  "config": {
+    "kind": "B",
+    "cs": 27,
+    "lp": 470,
+    "ct": 15,
+    "cp": 1,
+    "q": 50,
+    "rs": 50,
+    "reu": 33,
+    "ceb": 330,
+    "inter": 100,
+    "temp": 27,
+    "ac": 0.01,
+    "m": 0.5,
+    "wave": "square",
+    "duty": 0.1,
+    "blocker_f": 1600000.0,
+    "blocker_a": 0,
+    "phase": 0,
+    "step": 0.5,
+    "stop": 20,
+    "start": 0,
+    "lscale": 1,
+    "cscale": 1,
+    "supply": 9,
+    "load": 100000,
+    "variant": "R2",
+    "blockers": [],
+    "front_file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\blocker_20261029\\filters\\A2M_r1M.cir",
+    "feedback": 210000,
+    "bb_load": 1000000.0,
+    "bb_cap": 100
+  },
+  "elapsed_s": 3.4660209000003306,
+  "net_sha256": "81f4dea0131f471ecb1ca86ae27c39821e226d05e821e33bc3f4e857f28f2104",
+  "raw_sha256": "06fc43e98be35291fddf97095b82e2d3497b582f958f48645a847b9a2b5b51c8",
+  "raw_path": "D:\\ms_xsp\\s05_gain_20261030\\F22_seed_probe20u.raw",
+  "log_sha256": "a5563b36a7bef5bfe56f923d1b59fb9c0e696c02d3ab065f65b627b445276dfe",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "dependencies": {
+    "source_sha256": "aa6c6aa43742c1adfeab8d76ff16b599b64abbecadb0645c4508e024f1677d2e",
+    "model_sha256": "fc5b020e63346e511bd808bf41c856b0150b000bcf8a41fe00eeececb1f422a5",
+    "filter_sha256": "c223b263ca73244efbeefa09ebe51d914dda7e119858d3ba5d196525ce9e26e8"
+  },
+  "initialization": {
+    "kind": "internal model nodeset from unforced OP; capacitor prebias at detector mean",
+    "detector_mean": 0.05450824031829253,
+    "not_cold_start": true
+  },
+  "metrics": {
+    "last": {
+      "v(bbin)": 2.9764167436736737,
+      "v(bbo)": 2.4802411692729702,
+      "v(final)": 2.4800247652256493,
+      "v(out)": 0.030995138636999986,
+      "v(ref)": 3.0000079648399516
+    }
+  }
+}

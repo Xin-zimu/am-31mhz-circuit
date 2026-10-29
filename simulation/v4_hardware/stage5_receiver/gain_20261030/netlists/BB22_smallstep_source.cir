@@ -1,0 +1,19 @@
+* Local small-signal square response; 100mV output target
+VSUP vcc 0 9
+VIN out 0 PULSE(.2 .20454545 50u 10n 10n 24.99u 50u)
+* Passive 3 V reference, isolated output, noninverting gain.
+RVT vcc ref 20k
+RVB ref 0 10k
+CVREF ref 0 10u
+CCOUP out bbin 100n
+RBIAS bbin ref 100k
+RG neg ref 10k
+RFB bbo neg 210000
+XOPA bbin neg vcc 0 bbo OPAx197
+ROUT bbo final 100
+RBBLOAD final 0 1000000.0
+CLOAD final 0 100p
+
+.include "D:/ms_xsp/s05_gain_20261030/OPAx197.LIB"
+.options method=trap reltol=1e-4 trtol=3 temp=27
+.end

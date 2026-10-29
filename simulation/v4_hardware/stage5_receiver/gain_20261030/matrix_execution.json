@@ -1,0 +1,92 @@
+[
+  {
+    "name": "F22_sine_29_50_gear",
+    "completed": true
+  },
+  {
+    "name": "F22_sine_29_10_gear",
+    "completed": true
+  },
+  {
+    "name": "F22_sine_29_60_gear",
+    "completed": true
+  },
+  {
+    "name": "F22_sine_33_10_gear",
+    "completed": true
+  },
+  {
+    "name": "F22_sine_33_40_gear",
+    "completed": true
+  },
+  {
+    "name": "F22_sine_33_50_gear",
+    "completed": true
+  },
+  {
+    "name": "F22_sq10_29_10",
+    "completed": true
+  },
+  {
+    "name": "F22_sq10_33_10",
+    "completed": true
+  },
+  {
+    "name": "F22_sq10_Ac20",
+    "completed": false,
+    "error": "               0\nb.xopa.x_u12.bgvo-#branch                    0\nb.xopa.x_u12.bgvo+#branch                    0\nb.xopa.x_u11.bgvo-#branch                    0\nb.xopa.x_u11.bgvo+#branch                    0\nb.xopa.x_u10.bgvo-#branch                    0\nb.xopa.x_u10.bgvo+#branch                    0\nbsig#branch                                  0\nh.xopa.x_h3.h_h3#branch                      0\nv.xopa.x_h3.vh_h3#branch           8.30415e-09\nh.xopa.x_h2.h_h2#branch                      0\nv.xopa.x_h2.vh_h2#branch           -8.4042e-09\nh.xopa.x_h1.h_h1#branch           -3.00439e-15\nv.xopa.x_h1.vh_h1#branch           3.00203e-06\nlsel2#branch                                 0\nlsel1#branch                                 0\ne.xopa.x_u4.e1#branch             -2.27907e-13\ne.xopa.x_u37.e1#branch                       0\ne.xopa.x_u36.e1#branch                       0\ne.xopa.x_u1.e3#branch              5.47791e-12\ne.xopa.x_u1.e2#branch                        0\ne.xopa.x_u1.e1#branch                        0\ne.xopa.e_e3#branch                 1.49957e-12\ne.xopa.e_e2#branch                -6.93889e-18\ne.xopa.e_e1#branch                -1.20461e-11\nv.xopa.v_v_orp#branch             -6.93889e-18\nv.xopa.v_v_orn#branch                        0\nv.xopa.v_v_iscp#branch               -6.89e-11\nv.xopa.v_v_iscn#branch                6.89e-11\nv.xopa.v_v_grp#branch                -2.65e-10\nv.xopa.v_v_grn#branch                 2.65e-10\nv.xopa.v_vcm_min#branch            4.59999e-12\nv.xopa.v_vcm_max#branch               -4.6e-12\nvsup#branch                          -0.016356\nvmod#branch                                  0\na.xopa.x_u19.ag1#branch_1_0                  0\na.xopa.x_u18.ag1#branch_1_0                  0\n\ndoAnalyses: TRAN:  Timestep too small; time = 1.79796e-06, timestep = 6.25e-22: trouble with node \"rf\"\n\n\ntran simulation(s) aborted\nWarning from checkvalid: vector b1 is not available or has zero length.\nError during 'write': no writable vector found.\n\nNo. of Data Rows : 0\nngspice-47 done\n"
+  },
+  {
+    "name": "F22_sq10_dual10",
+    "completed": true
+  },
+  {
+    "name": "F22_sq10_m025",
+    "completed": true
+  },
+  {
+    "name": "F11p2_sq10_Ac20",
+    "completed": true
+  },
+  {
+    "name": "F22_sq50_29_10",
+    "completed": true
+  },
+  {
+    "name": "F22_sq50_33_10",
+    "completed": true
+  },
+  {
+    "name": "F22_sq50_dual10",
+    "completed": true
+  },
+  {
+    "name": "F22_sq50_Ac20",
+    "completed": true
+  },
+  {
+    "name": "F22_sq50_m025",
+    "completed": true
+  },
+  {
+    "name": "F22_sq50_Q40",
+    "completed": false,
+    "error": "h                      0\nb.xopa.x_u26.bg1#branch                      0\nb.xopa.x_u23.bg1#branch                      0\nb.xopa.x_u22.bg1#branch                      0\nb.xopa.x_u19.bg1#branch                      0\nb.xopa.x_u18.bg1#branch                      0\nb.xopa.x_u16.bgsw+#branch                    0\nb.xopa.x_u12.bgvo-#branch                    0\nb.xopa.x_u12.bgvo+#branch                    0\nb.xopa.x_u11.bgvo-#branch                    0\nb.xopa.x_u11.bgvo+#branch                    0\nb.xopa.x_u10.bgvo-#branch                    0\nb.xopa.x_u10.bgvo+#branch                    0\nbsig#branch                                  0\nh.xopa.x_h3.h_h3#branch                      0\nv.xopa.x_h3.vh_h3#branch           8.30415e-09\nh.xopa.x_h2.h_h2#branch                      0\nv.xopa.x_h2.vh_h2#branch           -8.4042e-09\nh.xopa.x_h1.h_h1#branch           -3.00439e-15\nv.xopa.x_h1.vh_h1#branch           3.00203e-06\nlsel2#branch                                 0\nlsel1#branch                                 0\ne.xopa.x_u4.e1#branch             -2.27907e-13\ne.xopa.x_u37.e1#branch                       0\ne.xopa.x_u36.e1#branch                       0\ne.xopa.x_u1.e3#branch              5.47791e-12\ne.xopa.x_u1.e2#branch                        0\ne.xopa.x_u1.e1#branch                        0\ne.xopa.e_e3#branch                 1.49957e-12\ne.xopa.e_e2#branch                -6.93889e-18\ne.xopa.e_e1#branch                -1.20461e-11\nv.xopa.v_v_orp#branch             -6.93889e-18\nv.xopa.v_v_orn#branch                        0\nv.xopa.v_v_iscp#branch               -6.89e-11\nv.xopa.v_v_iscn#branch                6.89e-11\nv.xopa.v_v_grp#branch                -2.65e-10\nv.xopa.v_v_grn#branch                 2.65e-10\nv.xopa.v_vcm_min#branch            4.59999e-12\nv.xopa.v_vcm_max#branch               -4.6e-12\nvsup#branch                          -0.016356\nvmod#branch                                  0\na.xopa.x_u19.ag1#branch_1_0                  0\na.xopa.x_u18.ag1#branch_1_0                  0\n\n"
+  },
+  {
+    "name": "F11p2_sq50_Ac20",
+    "completed": true
+  },
+  {
+    "name": "F22_sq50_RS200",
+    "completed": true
+  },
+  {
+    "name": "F22_sine_clean_gear_h025",
+    "completed": true
+  },
+  {
+    "name": "F22_sine_29_50_gear_h025",
+    "completed": true
+  }
+]

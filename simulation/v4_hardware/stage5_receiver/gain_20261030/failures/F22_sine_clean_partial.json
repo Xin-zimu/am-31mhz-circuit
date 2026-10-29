@@ -1,0 +1,8 @@
+{
+  "name": "F22_sine_clean",
+  "reason": "Timestep too small at 135.895755us; partial array excluded, measurement completeness assertion correctly rejected it",
+  "last_time_s": 0.00013589575538296562,
+  "raw_sha256": "8cd90a4515d4f3c196f944aa62f602658931922bbeac4c3865a36e0e11cd7d98",
+  "log_sha256": "0e5da8e39ffb27593be3553dcfd2aa3546d02ddcab00ffc7fa897d3e2001d6cf",
+  "net_sha256": "758e4f53c89b73015db07fc77f472a79b76b96b207fd3d5350f371eeb8b24c96"
+}

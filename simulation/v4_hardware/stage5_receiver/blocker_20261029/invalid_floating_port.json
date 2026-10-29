@@ -1,0 +1,11 @@
+{
+  "reason": "Double-tuned output port was DC-floating between COUT and CIN1. AC fallback transient operating point changed linearization; do not use uncorrected A2M/A1M as accepted evidence. Preserve all arrays. Add 1G DC return in new _dc cases.",
+  "invalid_prefixes": [
+    "A2M_",
+    "A1M_"
+  ],
+  "replacement_prefixes": [
+    "A2M_dc_",
+    "A1M_dc_"
+  ]
+}

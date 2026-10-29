@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-30",
+  "result_count": 165,
+  "all_hashes_and_independent_fourier_pass": true,
+  "errors": [],
+  "numerical_warning_cases": [
+    "A1M_29_10",
+    "A1M_29_3",
+    "A1M_29_6",
+    "A1M_ac",
+    "A1M_clean",
+    "A2M_29_10",
+    "A2M_29_20",
+    "A2M_29_3",
+    "A2M_29_30",
+    "A2M_29_6",
+    "A2M_33_10",
+    "A2M_33_20",
+    "A2M_33_3",
+    "A2M_33_30",
+    "A2M_33_6",
+    "A2M_ac",
+    "A2M_clean",
+    "A2M_dual_10",
+    "A2M_square10",
+    "A2M_square50",
+    "F_A2M_g22_ns_square10",
+    "F_A2M_g22_square10",
+    "F_A2M_g22_square50"
+  ],
+  "historical_baselines": [
+    {
+      "name": "B_clean",
+      "ok": true
+    },
+    {
+      "name": "B_near_29M_6m",
+      "ok": true
+    },
+    {
+      "name": "B_near_33M_6m",
+      "ok": true
+    },
+    {
+      "name": "B_output_square10",
+      "ok": true
+    },
+    {
+      "name": "B_output_square50",
+      "ok": true
+    }
+  ],
+  "failed_or_interrupted_cases": [
+    {
+      "case": "A1M_29_20",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\blocker_20261029\\netlists\\A1M_29_20.cir",
+          "sha256": "558efd171650463046ee4eb197e1ff016b0f3501a6e01e640412e85ca315e571",
+          "bytes": 1922
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_blocker_20261029\\A1M_29_20.cir",
+          "sha256": "558efd171650463046ee4eb197e1ff016b0f3501a6e01e640412e85ca315e571",
+          "bytes": 1922
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_blocker_20261029\\A1M_29_20.log",
+          "sha256": "f9aefe5865983efce8419650ac0acd13190ad08a40b7c16cbbd33254c595a274",
+          "bytes": 2381
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_blocker_20261029\\A1M_29_20.raw",
+          "sha256": "a30b2d915f5bfed246384fe4b6704c8222ccb00a975ba7ebf8a486ec0a6ba736",
+          "bytes": 24000624
+        }
+      ]
+    },
+    {
+      "case": "F_A2M_g22_ic_square10",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\blocker_20261029\\netlists\\F_A2M_g22_ic_square10.cir",
+          "sha256": "f08d4d8c4ff13e1b0536b099b999080722f02311555a822b0798297e4eb27595",
+          "bytes": 594
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_blocker_20261029\\F_A2M_g22_ic_square10.cir",
+          "sha256": "f08d4d8c4ff13e1b0536b099b999080722f02311555a822b0798297e4eb27595",
+          "bytes": 594
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_blocker_20261029\\F_A2M_g22_ic_square10.log",
+          "sha256": "9a5901d1d4eaf4bb012eae1c2970aaa5d9f793cd9bd4f3638903422e67b365f0",
+          "bytes": 9971
+        }
+      ]
+    },
+    {
+      "case": "F_A2M_g22_ic_square50",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\blocker_20261029\\netlists\\F_A2M_g22_ic_square50.cir",
+          "sha256": "a01129158c05acca471e3eb039e648d31023e53f10cbc03d6c0654f181ac4c92",
+          "bytes": 594
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_blocker_20261029\\F_A2M_g22_ic_square50.cir",
+          "sha256": "a01129158c05acca471e3eb039e648d31023e53f10cbc03d6c0654f181ac4c92",
+          "bytes": 594
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_blocker_20261029\\F_A2M_g22_ic_square50.log",
+          "sha256": "12b6cde74b3b8388f1a27cac15cafd78bdfb5f1c2aa942be7cb9543b16f3cf53",
+          "bytes": 9971
+        }
+      ]
+    },
+    {
+      "case": "F_A2M_g22_square10_dual10",
+      "files": [
+        {
+          "path": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\blocker_20261029\\netlists\\F_A2M_g22_square10_dual10.cir",
+          "sha256": "0d5259434fa0be68b7f2e4cef98681bc775479ee54f2443468014cde834ada00",
+          "bytes": 602
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_blocker_20261029\\F_A2M_g22_square10_dual10.cir",
+          "sha256": "0d5259434fa0be68b7f2e4cef98681bc775479ee54f2443468014cde834ada00",
+          "bytes": 602
+        },
+        {
+          "path": "D:\\ms_xsp\\s05_blocker_20261029\\F_A2M_g22_square10_dual10.log",
+          "sha256": "3b93271ba9ab6ba3e9bd30917f9d78be1e8edea354256461f8c089f87454eb60",
+          "bytes": 10349
+        }
+      ]
+    }
+  ],
+  "note": "Warnings and failed cases are retained, not silently accepted. A floating-port runs and G22 fallback-initialized runs are excluded from steady/prebiased conclusions."
+}

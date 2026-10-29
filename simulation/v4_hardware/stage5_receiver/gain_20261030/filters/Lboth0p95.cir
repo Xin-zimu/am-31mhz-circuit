@@ -1,0 +1,13 @@
+* A2 topology; loss approximation at 31 MHz, Q=50, Cp=1p
+CSEL input tank1 14.529p
+RLOSS1 tank1 ln1 1.73937418859
+LSEL1 ln1 0 446.5n
+CSELF1 tank1 0 1p
+CTUNE1 tank1 0 39.59p
+CK tank1 tank2 2.485p
+RLOSS2 tank2 ln2 1.73937418859
+LSEL2 ln2 0 446.5n
+CSELF2 tank2 0 1p
+CTUNE2 tank2 0 45.83p
+COUT tank2 port 10.81p
+RPORT port 0 1Meg

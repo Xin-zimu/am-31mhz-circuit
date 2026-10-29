@@ -1,0 +1,14 @@
+* Integrated RF+BAT85+OPA197, normal operating condition only.
+* source_sha256=9524c4bab51e8e22aec7f93a9fed514857ffd6a8d933b18072fb821157907a0e
+* model_sha256=fc5b020e63346e511bd808bf41c856b0150b000bcf8a41fe00eeececb1f422a5
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_blocker_20261029/F_A2M_g22_ns_square10_source.cir
+set filetype=binary
+set num_threads=1
+save v(src) v(input) v(port) v(b1) v(c1) v(e1) v(b2) v(c2) v(e2) v(ee) v(rf) v(det) v(out) i(vsup) v(bbin) v(ref) v(bbo) v(final)
+tran 0.5n 200u 100u 0.5n
+write D:/ms_xsp/s05_blocker_20261029/F_A2M_g22_ns_square10.raw
+quit
+.endc
+.end
