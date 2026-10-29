@@ -1,0 +1,77 @@
+* C2  dual-load numerical convergence re-test
+* Baseline: c1_cascade.cir (commit 7de494a). Circuit is UNCHANGED.
+* Only measurement settings differ: reltol 1e-4 and longer runs.
+*
+* WHY THIS FILE EXISTS
+*   C1 reported the 10 kOhm load at 2.1364 Vpp, 1.7% above the 2.1 Vpp
+*   ceiling, but also showed that reltol alone shifts the result by
+*   2.58% (2.0256 at reltol 1e-3 vs 1.9747 at 1e-4). A 1.7% overage is
+*   therefore inside the numerical uncertainty and cannot be judged
+*   pass or fail until the grid and tolerance dependence is resolved.
+*   This run does that, and nothing else.
+*
+* DO NOT change RE1, the bias, or any component here. The point is to
+* find out what the existing circuit actually does, not to make it pass.
+*
+* MEASUREMENT NOTES
+*   - window 8 ms; oscillation only settles at ~2.8 ms, a 2 ms window
+*     catches the growth phase and gives a wrong amplitude
+*   - steady region taken as t >= 0.6*T, restricted to the longest
+*     contiguous run of identical steps (ngspice inserts a few adaptive
+*     steps at start-up even with maxstep)
+*   - frequency by least-squares fit of rising-edge crossing times, NOT
+*     by FFT peak: the FFT bin here is 1/T and cannot resolve the few
+*     hundred Hz that loading is expected to cause
+*   - H2 and H3 reported separately, not just total THD
+*
+* RUN: ngspice -b C2_two_load.cir  (with maxstep 0.5n as written;
+*      repeat at 0.25n and 0.125n, and at reltol 1e-5 if near a limit)
+VSUP vcc 0 PWL(0 0 1u 5)
+* --- crystal Colpitts (unchanged from C1) ---
+R1 vcc b 10k
+R2 b 0 10k
+Q1 vcc b e 2N3904
+R3 e 0 4.7k
+C1 b e 33p
+C2 e 0 33p
+C3 vcc 0 100n
+C4 vcc 0 10u
+CSTRAY b 0 1p
+CX0 b 0 3.0p
+VXM b xr 0
+RM xr xl 30
+LM xl xc 0.002637081993366925
+CM xc 0 10.0f
+* --- emitter follower buffer (unchanged from C1) ---
+CIN e bf 1n
+RBT vcc bf 10k
+RBB bf 0 10k
+QB vcc bf ef 2N3904
+REB ef 0 330
+COUTB ef bo 1n
+* --- common-emitter gain stage, RE1 = 56 ohm (unchanged from C1) ---
+CG bo bg 10n
+RG1 vcc bg 22k
+RG2 bg 0 4.7k
+QG cg bg eg 2N3904
+RCG vcc cg 1k
+REG eg 0 56
+COUTG cg out 10n
+* --- load: switch between the two cases ---
+RLOADG out 0 2k
+CLOADG out 0 10p
+* UNCG educational 2N3904 model - NOT the delivered transistor lot
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-4 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(e) v(out) i(vsup)
+tran 0.5n 8m 0 0.5n uic
+write c2_two_load.raw
+quit
+.endc
+.end
