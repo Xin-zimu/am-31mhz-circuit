@@ -1,0 +1,68 @@
+* S04 controlled cascade: crystal Colpitts -> emitter follower -> common-emitter gain
+* First full-chain run, 2026-10-29. Companion report is in ../reports/ (C1 cascade).
+*
+* Reuses the three blocks already validated separately, unchanged:
+*   oscillator : LC/simulations/lc_study/xtalE_noload.cir   (crystal Colpitts, 2N3904)
+*   buffer     : advance_20261029/buf_target_2k.cir        (emitter follower 10k/10k, RE=330)
+*   gain       : n1_gain_stage.cir                         (CE, RE1 unbypassed)
+*
+* RE1 = 56 ohm is the value that puts TP2 nearest 2.0 Vpp in the cascade.
+* NOTE: this is NOT the same RE1 as in the standalone N1 design. The buffer
+* actually delivers ~0.45 Vpp into the gain stage, not the 0.530 Vpp that N1
+* assumed, so the gain stage had to be re-scaled in situ.
+*
+* WINDOW: 2 ms. Startup takes ~1 ms, so a 1 ms window captures only the growth
+* phase and gives a wrong amplitude. Earlier 1 ms results are void.
+*
+* KNOWN STATUS (do not read this file as a passing design):
+*   - crystal runs at ~30.975 MHz, i.e. -0.081% from 31.000 MHz nominal,
+*     inside the +-1% course band but outside the +-0.1% internal target
+*   - full acceptance at two loads: see the report
+VSUP vcc 0 PWL(0 0 1u 5)
+* --- crystal Colpitts ---
+R1 vcc b 10k
+R2 b 0 10k
+Q1 vcc b e 2N3904
+R3 e 0 4.7k
+C1 b e 33p
+C2 e 0 33p
+C3 vcc 0 100n
+C4 vcc 0 10u
+CSTRAY b 0 1p
+CX0 b 0 3.0p
+VXM b xr 0
+RM xr xl 30
+LM xl xc 0.002637081993366925
+CM xc 0 10.0f
+* --- emitter follower buffer (weak coupling via 1 nF) ---
+CIN e bf 1n
+RBT vcc bf 10k
+RBB bf 0 10k
+QB vcc bf ef 2N3904
+REB ef 0 330
+COUTB ef bo 1n
+* --- common-emitter gain stage ---
+CG bo bg 10n
+RG1 vcc bg 22k
+RG2 bg 0 4.7k
+QG cg bg eg 2N3904
+RCG vcc cg 1k
+REG eg 0 56
+COUTG cg out 10n
+RLOADG out 0 2k
+CLOADG out 0 10p
+* UNCG educational 2N3904 model - NOT the delivered transistor lot
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-3 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(b) v(e) v(bo) v(out) i(vsup)
+tran 0.5n 2m 0 0.5n uic
+write c1_cascade.raw
+quit
+.endc
+.end
