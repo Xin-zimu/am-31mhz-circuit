@@ -1,0 +1,43 @@
+* ============================================================================
+* ERRATUM RECORD - AUDIT COPY - DO NOT USE FOR DESIGN
+* Verbatim copy of n1_gain_stage.cir as committed in 9338b76.
+* Kept only as evidence. The Chinese explanation is in
+*   ../reports/  (N1 correction report, CJK filename)
+*
+* DEFECT: Q1N collector is tied to vcc instead of node c, so RC carries no
+*         current. Measured output = 0.0000 Vpp, v(c) sits at 5.0000 V forever.
+*         This netlist cannot reproduce the 2.0413 Vpp claimed in the report.
+* ORIGINAL SHA-256 = 32c6666e8e599fe84b34970b51595d55be4510a29900ef66ed6c945c806a8387
+* CORRECTED netlist = n1_gain_stage.cir
+* ============================================================================
+* N1 31 MHz gain stage - chosen design point (n1_final, 2026-10-29)
+* Input: crystal oscillator emitter ~0.265 Vpk (0.530 Vpp)
+* Output: TP2 = 2.0413 Vpp, THD 6.08% (-24.3 dBc), 13.4 mW @ 5 V
+* Load: 2 kOhm || 10 pF (D2 worst case)
+VSUP vcc 0 5
+VIN in 0 SIN(0 0.265 31meg)
+R1 vcc b 22k
+R2 b 0 4.7k
+Q1N vcc b e 2N3904
+RC vcc c 1k
+RE1 e 0 68
+RE2 e2 0 220
+CE e2 0 100n
+CIN in b 10n
+COUT c out 10n
+RLOAD out 0 2k
+CLOAD out 0 10p
+* UNCG educational 2N3904 model - NOT the delivered transistor lot
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=gear maxord=2 reltol=1e-3 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+tran 0.0625n 50u 0 0.0625n
+write n1_gain_stage.raw v(out) v(c) v(vcc) i(vsup)
+quit
+.endc
+.end

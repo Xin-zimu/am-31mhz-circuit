@@ -1,16 +1,30 @@
-* N1 31 MHz gain stage - chosen design point (n1_final, 2026-10-29)
-* Input: crystal oscillator emitter ~0.265 Vpk (0.530 Vpp)
-* Output: TP2 = 2.0413 Vpp, THD 6.08% (-24.3 dBc), 13.4 mW @ 5 V
-* Load: 2 kOhm || 10 pF (D2 worst case)
+* N1 31 MHz gain stage - CORRECTED netlist
+* commit 9338b76 shipped a broken netlist; this file replaces it.
+* Provenance: topology of the actually-run file ft68.cir
+*   sha256 0009e9e9e084d30f8c3eb04d1a2b5f830c21b49a093b8b00b943976663278f82
+*   which did reproduce 2.0413 Vpp. This is that topology, self-contained.
+* Audit report: ../reports/  (CJK filename, see README of S04_RF_CARRIER)
+*
+* TOPOLOGY AS ACTUALLY SIMULATED (RE1 only; RE2/CE were floating and inert,
+* proven by deleting them: output identical to 8 decimal places)
+*   common emitter, collector -> RC -> VCC, output taken at the collector
+*   RE1 = 68 ohm UNBYPASSED  (there is no second emitter resistor in the path)
+*   bias 22k / 4.7k, VCC = 5 V, load 2 kOhm || 10 pF
+*
+* THIS DESIGN POINT DOES NOT MEET SPEC. Known defects, not hidden:
+*   - Zin ~318 ohm at 31 MHz; S04-01 requires >= 100 kOhm        [FAIL]
+*   - at the measured 0.415 Vpp buffer output: 1.6706 Vpp        [FAIL]
+*   - 10 kOhm load: 2.1872 Vpp, above the 2.1 Vpp ceiling        [FAIL]
+*   - input amplitude 0.530 Vpp is an ASSUMPTION, not measured
+*
+* Input: 0.265 Vpk (0.530 Vpp)
 VSUP vcc 0 5
 VIN in 0 SIN(0 0.265 31meg)
 R1 vcc b 22k
 R2 b 0 4.7k
-Q1N vcc b e 2N3904
+Q1 c b e 2N3904
 RC vcc c 1k
 RE1 e 0 68
-RE2 e2 0 220
-CE e2 0 100n
 CIN in b 10n
 COUT c out 10n
 RLOAD out 0 2k
