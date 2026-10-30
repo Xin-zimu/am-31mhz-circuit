@@ -1,0 +1,21 @@
+* S05-07 independent loaded LC fixture; original active stages unchanged
+CSEL input tank1 14.529p
+CK tank1 tank2 2.485p
+COUT tank2 port 10.81p
+RPORT port 0 1Meg
+CTUNE1 tank1 0 39.59p
+CBOARD1 tank1 0 1p
+* RVAR held at 3.1e+07 Hz; full sweep is an explicit approximation.
+RDC1 tank1 int1 1.2
+RSKIN1 int1 ln1 2.37743538293
+LSEL1 ln1 0 465n
+CSELF1 int1 cap1 .156p
+RPAR1 cap1 0 31
+CTUNE2 tank2 0 45.83p
+CBOARD2 tank2 0 1p
+* RVAR held at 3.1e+07 Hz; full sweep is an explicit approximation.
+RDC2 tank2 int2 1.2
+RSKIN2 int2 ln2 2.37743538293
+LSEL2 ln2 0 465n
+CSELF2 int2 cap2 .156p
+RPAR2 cap2 0 31

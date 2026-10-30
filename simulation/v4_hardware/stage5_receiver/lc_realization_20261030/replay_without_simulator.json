@@ -1,0 +1,21 @@
+{
+  "simulator_launch_forbidden": true,
+  "passed": true,
+  "checks": [
+    {
+      "script": "run_lc.py",
+      "passed": true,
+      "elapsed_s": 2.039
+    },
+    {
+      "script": "check_extensions.py",
+      "passed": true,
+      "elapsed_s": 0.076
+    },
+    {
+      "script": "check_corners.py",
+      "passed": true,
+      "elapsed_s": 0.264
+    }
+  ]
+}

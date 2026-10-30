@@ -1,0 +1,22 @@
+{
+  "source": "电子线路实验评分标准-学生.docx",
+  "sha256": "657a5112b09cb5b01adab3f22449501df8864369cf884b61983dd7d320f94f23",
+  "exact_text": [
+    "(9)使用通用或自制PCB，不得使用套件中的成品PCB焊接。",
+    "峰峰值1~4V可调",
+    "(4)峰峰值：可调范围小于1V~4V，扣1分。",
+    "峰峰值不小于4V，随v1幅度线性变化",
+    "(3)峰峰值：小于4V扣1分；小于2V扣2分。",
+    "(4)峰峰值随V1幅度线性变化：v1峰峰值降为50%时，v2峰峰值也应降为50%，若此时v2峰峰值误差大于10%扣1分；大于20%扣2分。",
+    "通信距离",
+    "指定距离6m",
+    "峰峰值1~4V可调",
+    "峰峰值可调范围：             Vpp",
+    "峰峰值大于4V，随V1幅度线性变化",
+    "峰峰值：            Vpp",
+    "V1峰峰值降为50%：V2峰峰值降为%",
+    "通信距离"
+  ],
+  "rf_20mv_literal_matches": [],
+  "conclusion": "No explicit 20mV receiver RF input requirement found. Course baseband/range requirements remain; this does not waive receiver dynamic-range work after actual link levels are known."
+}

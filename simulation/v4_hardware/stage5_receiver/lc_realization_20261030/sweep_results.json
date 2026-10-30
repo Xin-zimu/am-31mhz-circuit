@@ -1,0 +1,1490 @@
+[
+  {
+    "name": "Lminusplus_untuned",
+    "parameters": {
+      "l1": 446.5,
+      "l2": 493.5,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 1.0,
+      "cp2": 1.0,
+      "ct1": 39.59,
+      "ct2": 45.83,
+      "cs": 14.529,
+      "co": 10.81,
+      "ck": 2.485,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 0.0,
+      "board2": 0.0
+    },
+    "optimization": null,
+    "analytic": {
+      "gain31_v_v": 31.056604375934846,
+      "gain31_db": 29.843079393974055,
+      "fpeak_mhz": 30.32,
+      "flo_mhz": 29.74728992562163,
+      "fhi_mhz": 32.01200612194057,
+      "center_edges_mhz": 30.8796480237811,
+      "bw_mhz": 2.264716196318947,
+      "disconnected_3db": false,
+      "relative29_db": -10.155274778746243,
+      "relative33_db": -9.566087624023131,
+      "zin31_ohm": [
+        42.214765130177724,
+        -65.19922398684973
+      ],
+      "return_loss50_db": 4.710302016129294,
+      "vswr50": 3.77798171136486
+    },
+    "spice": {
+      "gain31_v_v": 31.056604375916834,
+      "gain31_db": 29.84307939396902,
+      "fpeak_mhz": 30.32,
+      "flo_mhz": 29.747289925621466,
+      "fhi_mhz": 32.01200612194069,
+      "center_edges_mhz": 30.87964802378108,
+      "bw_mhz": 2.2647161963192297,
+      "disconnected_3db": false,
+      "relative29_db": -10.155274778743077,
+      "relative33_db": -9.566087624020165,
+      "zin31_ohm": [
+        42.21476513022479,
+        -65.1992239868476
+      ],
+      "return_loss50_db": 4.710302016133172,
+      "vswr50": 3.777981711361897
+    },
+    "gain_spice_minus_analytic_db": -5.03419528286031e-12
+  },
+  {
+    "name": "Lminusplus_CT",
+    "parameters": {
+      "l1": 446.5,
+      "l2": 493.5,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 1.0,
+      "cp2": 1.0,
+      "ct1": 40.828618646076826,
+      "ct2": 44.38467286725843,
+      "cs": 14.529,
+      "co": 10.81,
+      "ck": 2.485,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 0.0,
+      "board2": 0.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 12,
+      "cost": 0.47670749775608856,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 39.87751735580614,
+      "gain31_db": 32.01456225445946,
+      "fpeak_mhz": 30.71,
+      "flo_mhz": 29.99366776731825,
+      "fhi_mhz": 31.941196153567944,
+      "center_edges_mhz": 30.967431960443093,
+      "bw_mhz": 1.947528386249695,
+      "disconnected_3db": false,
+      "relative29_db": -13.162174417093823,
+      "relative33_db": -11.590202471804815,
+      "zin31_ohm": [
+        74.8352877255885,
+        -44.84922869505381
+      ],
+      "return_loss50_db": 8.257309156587743,
+      "vswr50": 2.2599129760455248
+    },
+    "spice": {
+      "gain31_v_v": 39.877517355710715,
+      "gain31_db": 32.01456225443869,
+      "fpeak_mhz": 30.71,
+      "flo_mhz": 29.99366776730884,
+      "fhi_mhz": 31.941196153558423,
+      "center_edges_mhz": 30.967431960433633,
+      "bw_mhz": 1.9475283862495831,
+      "disconnected_3db": false,
+      "relative29_db": -13.16217441700392,
+      "relative33_db": -11.590202471863531,
+      "zin31_ohm": [
+        74.83528772484583,
+        -44.84922869501087
+      ],
+      "return_loss50_db": 8.257309156608347,
+      "vswr50": 2.259912976040653
+    },
+    "gain_spice_minus_analytic_db": -2.077626959362533e-11
+  },
+  {
+    "name": "Lplusminus_untuned",
+    "parameters": {
+      "l1": 493.5,
+      "l2": 446.5,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 1.0,
+      "cp2": 1.0,
+      "ct1": 39.59,
+      "ct2": 45.83,
+      "cs": 14.529,
+      "co": 10.81,
+      "ck": 2.485,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 0.0,
+      "board2": 0.0
+    },
+    "optimization": null,
+    "analytic": {
+      "gain31_v_v": 20.027302496179992,
+      "gain31_db": 26.032449150707684,
+      "fpeak_mhz": 32.03,
+      "flo_mhz": 29.879693479252648,
+      "fhi_mhz": 32.60881240235891,
+      "center_edges_mhz": 31.24425294080578,
+      "bw_mhz": 2.7291189231062605,
+      "disconnected_3db": false,
+      "relative29_db": -5.963884509923275,
+      "relative33_db": -3.7741177698421255,
+      "zin31_ohm": [
+        114.59529320103574,
+        192.04945241707364
+      ],
+      "return_loss50_db": 1.9263578572491222,
+      "vswr50": 9.054872935978326
+    },
+    "spice": {
+      "gain31_v_v": 20.027302496172336,
+      "gain31_db": 26.032449150704366,
+      "fpeak_mhz": 32.03,
+      "flo_mhz": 29.879693479251173,
+      "fhi_mhz": 32.60881240235912,
+      "center_edges_mhz": 31.244252940805143,
+      "bw_mhz": 2.729118923107948,
+      "disconnected_3db": false,
+      "relative29_db": -5.963884509922491,
+      "relative33_db": -3.7741177698415256,
+      "zin31_ohm": [
+        114.59529320112492,
+        192.04945241698513
+      ],
+      "return_loss50_db": 1.9263578572511852,
+      "vswr50": 9.054872935968705
+    },
+    "gain_spice_minus_analytic_db": -3.318234575999668e-12
+  },
+  {
+    "name": "Lplusminus_CT",
+    "parameters": {
+      "l1": 493.5,
+      "l2": 446.5,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 1.0,
+      "cp2": 1.0,
+      "ct1": 36.9044257030897,
+      "ct2": 48.7442645930265,
+      "cs": 14.529,
+      "co": 10.81,
+      "ck": 2.485,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 0.0,
+      "board2": 0.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 8,
+      "cost": 0.0067692141418132625,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 38.98286481422525,
+      "gain31_db": 31.817475036982504,
+      "fpeak_mhz": 31.27,
+      "flo_mhz": 30.02283381426781,
+      "fhi_mhz": 31.9647507637121,
+      "center_edges_mhz": 30.993792288989955,
+      "bw_mhz": 1.9419169494442903,
+      "disconnected_3db": false,
+      "relative29_db": -12.640645468216693,
+      "relative33_db": -11.753267895553957,
+      "zin31_ohm": [
+        116.12419519172265,
+        24.946047372996887
+      ],
+      "return_loss50_db": 7.520394718812685,
+      "vswr50": 2.4524873576492854
+    },
+    "spice": {
+      "gain31_v_v": 38.982864814103344,
+      "gain31_db": 31.817475036955344,
+      "fpeak_mhz": 31.27,
+      "flo_mhz": 30.022833814269504,
+      "fhi_mhz": 31.96475076371703,
+      "center_edges_mhz": 30.99379228899327,
+      "bw_mhz": 1.9419169494475275,
+      "disconnected_3db": false,
+      "relative29_db": -12.640645468205081,
+      "relative33_db": -11.753267895503958,
+      "zin31_ohm": [
+        116.12419519202777,
+        24.946047374257713
+      ],
+      "return_loss50_db": 7.520394718748183,
+      "vswr50": 2.452487357667905
+    },
+    "gain_spice_minus_analytic_db": -2.716049607442983e-11
+  },
+  {
+    "name": "CS471_untuned",
+    "parameters": {
+      "l1": 465.0,
+      "l2": 465.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 1.0,
+      "cp2": 1.0,
+      "ct1": 39.59,
+      "ct2": 45.83,
+      "cs": 14.529,
+      "co": 10.81,
+      "ck": 2.485,
+      "rs": 50.0,
+      "coil": "coilcraft_1008cs",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": null,
+    "analytic": {
+      "gain31_v_v": 25.571189795742217,
+      "gain31_db": 28.155018713599873,
+      "fpeak_mhz": 31.19,
+      "flo_mhz": 30.080212423837825,
+      "fhi_mhz": 32.170914606108425,
+      "center_edges_mhz": 31.125563514973127,
+      "bw_mhz": 2.0907021822705976,
+      "disconnected_3db": false,
+      "relative29_db": -11.13595354616013,
+      "relative33_db": -8.4411911112561,
+      "zin31_ohm": [
+        113.48063683333244,
+        8.928777155441965
+      ],
+      "return_loss50_db": 8.14435710427823,
+      "vswr50": 2.2870160819965726
+    },
+    "spice": {
+      "gain31_v_v": 25.57118979573635,
+      "gain31_db": 28.155018713597883,
+      "fpeak_mhz": 31.21,
+      "flo_mhz": 30.092773537110663,
+      "fhi_mhz": 32.180043664311036,
+      "center_edges_mhz": 31.13640860071085,
+      "bw_mhz": 2.0872701272003726,
+      "disconnected_3db": false,
+      "relative29_db": -11.189955249644907,
+      "relative33_db": -8.382055314981478,
+      "zin31_ohm": [
+        113.48063683332508,
+        8.928777155439937
+      ],
+      "return_loss50_db": 8.14435710427886,
+      "vswr50": 2.287016081996419
+    },
+    "gain_spice_minus_analytic_db": -1.9895196601282805e-12
+  },
+  {
+    "name": "CS471_CT",
+    "parameters": {
+      "l1": 465.0,
+      "l2": 465.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 1.0,
+      "cp2": 1.0,
+      "ct1": 39.15625841104151,
+      "ct2": 46.942050879633165,
+      "cs": 14.529,
+      "co": 10.81,
+      "ck": 2.485,
+      "rs": 50.0,
+      "coil": "coilcraft_1008cs",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 22,
+      "cost": 4.22970299192558,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 26.44185272003023,
+      "gain31_db": 28.44583763797843,
+      "fpeak_mhz": 30.98,
+      "flo_mhz": 29.988773690095314,
+      "fhi_mhz": 31.988744709165427,
+      "center_edges_mhz": 30.988759199630373,
+      "bw_mhz": 1.999971019070115,
+      "disconnected_3db": false,
+      "relative29_db": -10.810217861289175,
+      "relative33_db": -9.621356779640713,
+      "zin31_ohm": [
+        100.08845717138959,
+        -15.698913820555628
+      ],
+      "return_loss50_db": 9.172498830877032,
+      "vswr50": 2.066715277811415
+    },
+    "spice": {
+      "gain31_v_v": 26.441852720037655,
+      "gain31_db": 28.445837637980866,
+      "fpeak_mhz": 31.0,
+      "flo_mhz": 29.999220722383082,
+      "fhi_mhz": 31.999152832530633,
+      "center_edges_mhz": 30.999186777456856,
+      "bw_mhz": 1.9999321101475507,
+      "disconnected_3db": false,
+      "relative29_db": -10.86752944690576,
+      "relative33_db": -9.568247454781027,
+      "zin31_ohm": [
+        100.08845717116886,
+        -15.698913821044851
+      ],
+      "return_loss50_db": 9.172498830877968,
+      "vswr50": 2.0667152778112388
+    },
+    "gain_spice_minus_analytic_db": 2.4371615836571436e-12
+  },
+  {
+    "name": "P460_Q50_CT",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 40.88266067883018,
+      "ct2": 46.343846075890525,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 7,
+      "cost": 0.03350489857763471,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 36.70692743878852,
+      "gain31_db": 31.294960666257417,
+      "fpeak_mhz": 31.31,
+      "flo_mhz": 30.029503071039766,
+      "fhi_mhz": 31.963726616398862,
+      "center_edges_mhz": 30.996614843719314,
+      "bw_mhz": 1.9342235453590975,
+      "disconnected_3db": false,
+      "relative29_db": -12.671248404647882,
+      "relative33_db": -11.87765292226624,
+      "zin31_ohm": [
+        123.04219142277867,
+        48.58311362661891
+      ],
+      "return_loss50_db": 6.230194609338657,
+      "vswr50": 2.9068540789988067
+    },
+    "spice": {
+      "gain31_v_v": 36.7069274388768,
+      "gain31_db": 31.294960666278303,
+      "fpeak_mhz": 31.31,
+      "flo_mhz": 30.029503071043223,
+      "fhi_mhz": 31.963726616398354,
+      "center_edges_mhz": 30.996614843720785,
+      "bw_mhz": 1.93422354535513,
+      "disconnected_3db": false,
+      "relative29_db": -12.671248404694397,
+      "relative33_db": -11.877652922273255,
+      "zin31_ohm": [
+        123.04219142221606,
+        48.58311362534483
+      ],
+      "return_loss50_db": 6.230194609412085,
+      "vswr50": 2.9068540789673176
+    },
+    "gain_spice_minus_analytic_db": 2.0886403717668145e-11
+  },
+  {
+    "name": "P460_Q40_CT",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 40.0,
+      "q2": 40.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 40.58434450096629,
+      "ct2": 46.557738443833024,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 7,
+      "cost": 0.1607152168801384,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 34.02284867225808,
+      "gain31_db": 30.63541346998032,
+      "fpeak_mhz": 31.19,
+      "flo_mhz": 30.040553935252134,
+      "fhi_mhz": 31.952617163550467,
+      "center_edges_mhz": 30.9965855494013,
+      "bw_mhz": 1.9120632282983325,
+      "disconnected_3db": false,
+      "relative29_db": -12.43737439066193,
+      "relative33_db": -11.486522455881339,
+      "zin31_ohm": [
+        115.58300138009564,
+        28.199653138967353
+      ],
+      "return_loss50_db": 7.431892218062888,
+      "vswr50": 2.4783583065853607
+    },
+    "spice": {
+      "gain31_v_v": 34.02284867211487,
+      "gain31_db": 30.635413469943757,
+      "fpeak_mhz": 31.19,
+      "flo_mhz": 30.040553935250838,
+      "fhi_mhz": 31.952617163555793,
+      "center_edges_mhz": 30.996585549403317,
+      "bw_mhz": 1.9120632283049561,
+      "disconnected_3db": false,
+      "relative29_db": -12.437374390622335,
+      "relative33_db": -11.48652245583395,
+      "zin31_ohm": [
+        115.58300138083231,
+        28.199653140798326
+      ],
+      "return_loss50_db": 7.431892217945995,
+      "vswr50": 2.478358306619963
+    },
+    "gain_spice_minus_analytic_db": -3.6564529182214756e-11
+  },
+  {
+    "name": "P460_Q65_CT",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 65.0,
+      "q2": 65.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 41.060416035527595,
+      "ct2": 46.218978657584515,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 8,
+      "cost": 0.44174954791055565,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 39.48646703720962,
+      "gain31_db": 31.9289655590643,
+      "fpeak_mhz": 31.4,
+      "flo_mhz": 30.027538481230142,
+      "fhi_mhz": 31.962540350306014,
+      "center_edges_mhz": 30.99503941576808,
+      "bw_mhz": 1.935001869075872,
+      "disconnected_3db": false,
+      "relative29_db": -12.940673783582245,
+      "relative33_db": -12.276242399749016,
+      "zin31_ohm": [
+        129.09046206305104,
+        67.19915787426255
+      ],
+      "return_loss50_db": 5.310948142446347,
+      "vswr50": 3.3722156571752437
+    },
+    "spice": {
+      "gain31_v_v": 39.4864670373376,
+      "gain31_db": 31.92896555909245,
+      "fpeak_mhz": 31.4,
+      "flo_mhz": 30.027538481232423,
+      "fhi_mhz": 31.962540350304117,
+      "center_edges_mhz": 30.995039415768268,
+      "bw_mhz": 1.9350018690716921,
+      "disconnected_3db": false,
+      "relative29_db": -12.940673783630526,
+      "relative33_db": -12.27624239977576,
+      "zin31_ohm": [
+        129.0904620626711,
+        67.19915787253515
+      ],
+      "return_loss50_db": 5.310948142520479,
+      "vswr50": 3.372215657130983
+    },
+    "gain_spice_minus_analytic_db": 2.815170319081517e-11
+  },
+  {
+    "name": "P460_Q80_CT",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 80.0,
+      "q2": 80.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 41.13424686705396,
+      "ct2": 46.164821646212964,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 9,
+      "cost": 1.0796947912008286,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 41.405347590053466,
+      "gain31_db": 32.34112869626914,
+      "fpeak_mhz": 31.45,
+      "flo_mhz": 30.031531483333172,
+      "fhi_mhz": 31.956783232461436,
+      "center_edges_mhz": 30.994157357897304,
+      "bw_mhz": 1.9252517491282672,
+      "disconnected_3db": false,
+      "relative29_db": -13.145839708848467,
+      "relative33_db": -12.54611353944188,
+      "zin31_ohm": [
+        132.83745006353348,
+        79.43227305596173
+      ],
+      "return_loss50_db": 4.795809466238816,
+      "vswr50": 3.7138418363546557
+    },
+    "spice": {
+      "gain31_v_v": 41.40534758985912,
+      "gain31_db": 32.34112869622837,
+      "fpeak_mhz": 31.45,
+      "flo_mhz": 30.03153148332803,
+      "fhi_mhz": 31.956783232461532,
+      "center_edges_mhz": 30.994157357894778,
+      "bw_mhz": 1.9252517491335013,
+      "disconnected_3db": false,
+      "relative29_db": -13.145839708760455,
+      "relative33_db": -12.546113539424857,
+      "zin31_ohm": [
+        132.8374500643129,
+        79.432273058363
+      ],
+      "return_loss50_db": 4.795809466143297,
+      "vswr50": 3.7138418364249954
+    },
+    "gain_spice_minus_analytic_db": -4.077094217791455e-11
+  },
+  {
+    "name": "P460_Q50_match",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 35.34784118331471,
+      "ct2": 47.19588345192346,
+      "cs": 19.066997559900077,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 17,
+      "cost": 1.8046510702349252,
+      "parameters": [
+        "ct1",
+        "ct2",
+        "cs"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 42.715143219275696,
+      "gain31_db": 32.61163733688111,
+      "fpeak_mhz": 30.99,
+      "flo_mhz": 30.129838752652955,
+      "fhi_mhz": 31.84597086711792,
+      "center_edges_mhz": 30.987904809885435,
+      "bw_mhz": 1.7161321144649646,
+      "disconnected_3db": false,
+      "relative29_db": -12.865387015499945,
+      "relative33_db": -11.565356883080995,
+      "zin31_ohm": [
+        57.36207915990833,
+        0.8924910713849529
+      ],
+      "return_loss50_db": 23.21394812583322,
+      "vswr50": 1.1483940671727526
+    },
+    "spice": {
+      "gain31_v_v": 42.71514321924715,
+      "gain31_db": 32.611637336875305,
+      "fpeak_mhz": 30.99,
+      "flo_mhz": 30.129838752658006,
+      "fhi_mhz": 31.845970867124404,
+      "center_edges_mhz": 30.987904809891205,
+      "bw_mhz": 1.716132114466399,
+      "disconnected_3db": false,
+      "relative29_db": -12.865387015531955,
+      "relative33_db": -11.565356883034973,
+      "zin31_ohm": [
+        57.36207916003282,
+        0.8924910715794384
+      ],
+      "return_loss50_db": 23.213948125671262,
+      "vswr50": 1.148394067175725
+    },
+    "gain_spice_minus_analytic_db": -5.8051341511600185e-12
+  },
+  {
+    "name": "P460_match_rounded",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 35.3,
+      "ct2": 47.2,
+      "cs": 19.1,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": null,
+    "analytic": {
+      "gain31_v_v": 42.72282355336988,
+      "gain31_db": 32.613198950225275,
+      "fpeak_mhz": 30.99,
+      "flo_mhz": 30.130663788660122,
+      "fhi_mhz": 31.84592398537839,
+      "center_edges_mhz": 30.988293887019257,
+      "bw_mhz": 1.7152601967182681,
+      "disconnected_3db": false,
+      "relative29_db": -12.869180706283988,
+      "relative33_db": -11.549523330967952,
+      "zin31_ohm": [
+        57.03586728012696,
+        0.6418741427460919
+      ],
+      "return_loss50_db": 23.608394587912596,
+      "vswr50": 1.1413402833831208
+    },
+    "spice": {
+      "gain31_v_v": 42.722823553344035,
+      "gain31_db": 32.613198950220024,
+      "fpeak_mhz": 30.99,
+      "flo_mhz": 30.130663788660144,
+      "fhi_mhz": 31.845923985378477,
+      "center_edges_mhz": 30.98829388701931,
+      "bw_mhz": 1.7152601967183352,
+      "disconnected_3db": false,
+      "relative29_db": -12.869180706280234,
+      "relative33_db": -11.549523330964393,
+      "zin31_ohm": [
+        57.03586728012526,
+        0.6418741427496748
+      ],
+      "return_loss50_db": 23.608394587914137,
+      "vswr50": 1.141340283383094
+    },
+    "gain_spice_minus_analytic_db": -5.25091081726714e-12
+  },
+  {
+    "name": "P460_probe10p",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 40.88266067883018,
+      "ct2": 46.343846075890525,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 11.0
+    },
+    "optimization": null,
+    "analytic": {
+      "gain31_v_v": 15.3434899040848,
+      "gain31_db": 23.718483038028644,
+      "fpeak_mhz": 28.77,
+      "flo_mhz": 28.283386185761398,
+      "fhi_mhz": 30.892949866058764,
+      "center_edges_mhz": 29.58816802591008,
+      "bw_mhz": 2.6095636802973674,
+      "disconnected_3db": false,
+      "relative29_db": 3.2286901328581736,
+      "relative33_db": -12.909996881844062,
+      "zin31_ohm": [
+        37.89901391014841,
+        33.82577867479789
+      ],
+      "return_loss50_db": 8.371467433461724,
+      "vswr50": 2.233317900608114
+    },
+    "spice": {
+      "gain31_v_v": 15.343489904104564,
+      "gain31_db": 23.71848303803983,
+      "fpeak_mhz": 28.77,
+      "flo_mhz": 28.283386185759344,
+      "fhi_mhz": 30.892949866066406,
+      "center_edges_mhz": 29.588168025912875,
+      "bw_mhz": 2.609563680307064,
+      "disconnected_3db": false,
+      "relative29_db": 3.2286901328048074,
+      "relative33_db": -12.90999688183311,
+      "zin31_ohm": [
+        37.899013910021694,
+        33.825778673936085
+      ],
+      "return_loss50_db": 8.371467433608142,
+      "vswr50": 2.2333179005745034
+    },
+    "gain_spice_minus_analytic_db": 1.1187495374542777e-11
+  },
+  {
+    "name": "P460_RS200",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 40.88266067883018,
+      "ct2": 46.343846075890525,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 200.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": null,
+    "analytic": {
+      "gain31_v_v": 20.195736573126524,
+      "gain31_db": 26.105193945179153,
+      "fpeak_mhz": 31.21,
+      "flo_mhz": 30.45607709843378,
+      "fhi_mhz": 32.04116034943945,
+      "center_edges_mhz": 31.248618723936616,
+      "bw_mhz": 1.5850832510056718,
+      "disconnected_3db": false,
+      "relative29_db": -13.116591367522348,
+      "relative33_db": -8.323254831517081,
+      "zin31_ohm": [
+        123.04219142277874,
+        48.58311362661902
+      ],
+      "return_loss50_db": 6.23019460933865,
+      "vswr50": 2.9068540789988098
+    },
+    "spice": {
+      "gain31_v_v": 20.19573657312303,
+      "gain31_db": 26.105193945177646,
+      "fpeak_mhz": 31.21,
+      "flo_mhz": 30.45607709843196,
+      "fhi_mhz": 32.04116034943814,
+      "center_edges_mhz": 31.24861872393505,
+      "bw_mhz": 1.5850832510061712,
+      "disconnected_3db": false,
+      "relative29_db": -13.116591367530424,
+      "relative33_db": -8.323254831515774,
+      "zin31_ohm": [
+        123.04219142222179,
+        48.58311362534749
+      ],
+      "return_loss50_db": 6.230194609411769,
+      "vswr50": 2.906854078967453
+    },
+    "gain_spice_minus_analytic_db": -1.5063505998114124e-12
+  },
+  {
+    "name": "P460_Lm1_m1_CT",
+    "parameters": {
+      "l1": 437.0,
+      "l2": 437.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 44.29254410068543,
+      "ct2": 49.08838837498315,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 8,
+      "cost": 0.12529896433395288,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 33.801284762329324,
+      "gain31_db": 30.57866415619577,
+      "fpeak_mhz": 31.35,
+      "flo_mhz": 30.03934523732897,
+      "fhi_mhz": 31.960903073261644,
+      "center_edges_mhz": 31.000124155295303,
+      "bw_mhz": 1.9215578359326757,
+      "disconnected_3db": false,
+      "relative29_db": -12.707247695281662,
+      "relative33_db": -12.022449442315011,
+      "zin31_ohm": [
+        128.6126994220138,
+        69.1000963786507
+      ],
+      "return_loss50_db": 5.247939375175975,
+      "vswr50": 3.4103007683569917
+    },
+    "spice": {
+      "gain31_v_v": 33.80128476233526,
+      "gain31_db": 30.578664156197295,
+      "fpeak_mhz": 31.35,
+      "flo_mhz": 30.03934523732523,
+      "fhi_mhz": 31.960903073257004,
+      "center_edges_mhz": 31.000124155291118,
+      "bw_mhz": 1.9215578359317742,
+      "disconnected_3db": false,
+      "relative29_db": -12.70724769525415,
+      "relative33_db": -12.022449442354615,
+      "zin31_ohm": [
+        128.61269942250703,
+        69.10009637843547
+      ],
+      "return_loss50_db": 5.247939375174364,
+      "vswr50": 3.410300768357978
+    },
+    "gain_spice_minus_analytic_db": 1.5241141682054149e-12
+  },
+  {
+    "name": "P460_Lm1_p1_CT",
+    "parameters": {
+      "l1": 437.0,
+      "l2": 483.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 41.21095976249762,
+      "ct2": 45.5562802529639,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 8,
+      "cost": 0.7260245442664701,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 36.93013661496993,
+      "gain31_db": 31.347618284629565,
+      "fpeak_mhz": 30.64,
+      "flo_mhz": 29.993487103888278,
+      "fhi_mhz": 31.92489720710043,
+      "center_edges_mhz": 30.959192155494353,
+      "bw_mhz": 1.9314101032121518,
+      "disconnected_3db": false,
+      "relative29_db": -13.22727054418417,
+      "relative33_db": -11.506976705333017,
+      "zin31_ohm": [
+        60.466802482386356,
+        -53.45859286796308
+      ],
+      "return_loss50_db": 7.054737354423734,
+      "vswr50": 2.596329951474534
+    },
+    "spice": {
+      "gain31_v_v": 36.930136614816014,
+      "gain31_db": 31.347618284593363,
+      "fpeak_mhz": 30.64,
+      "flo_mhz": 29.99348710388064,
+      "fhi_mhz": 31.924897207096016,
+      "center_edges_mhz": 30.959192155488328,
+      "bw_mhz": 1.9314101032153779,
+      "disconnected_3db": false,
+      "relative29_db": -13.227270544102625,
+      "relative33_db": -11.506976705343291,
+      "zin31_ohm": [
+        60.46680248176657,
+        -53.45859286799462
+      ],
+      "return_loss50_db": 7.054737354399274,
+      "vswr50": 2.596329951482617
+    },
+    "gain_spice_minus_analytic_db": -3.6202152386977104e-11
+  },
+  {
+    "name": "P460_Lp1_m1_CT",
+    "parameters": {
+      "l1": 483.0,
+      "l2": 437.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 38.11731914404462,
+      "ct2": 49.31810731623272,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 8,
+      "cost": 0.06598728870077668,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 36.43154106933492,
+      "gain31_db": 31.22955084935263,
+      "fpeak_mhz": 31.32,
+      "flo_mhz": 30.045701490035373,
+      "fhi_mhz": 31.958557236586763,
+      "center_edges_mhz": 31.002129363311067,
+      "bw_mhz": 1.9128557465513907,
+      "disconnected_3db": false,
+      "relative29_db": -12.626286423127153,
+      "relative33_db": -11.898263840798096,
+      "zin31_ohm": [
+        118.29410061807434,
+        49.81258848959712
+      ],
+      "return_loss50_db": 6.345846924317446,
+      "vswr50": 2.858199461329928
+    },
+    "spice": {
+      "gain31_v_v": 36.4315410693043,
+      "gain31_db": 31.22955084934533,
+      "fpeak_mhz": 31.32,
+      "flo_mhz": 30.045701490045243,
+      "fhi_mhz": 31.958557236596807,
+      "center_edges_mhz": 31.002129363321025,
+      "bw_mhz": 1.9128557465515659,
+      "disconnected_3db": false,
+      "relative29_db": -12.62628642320218,
+      "relative33_db": -11.89826384070411,
+      "zin31_ohm": [
+        118.29410061705255,
+        49.81258848946954
+      ],
+      "return_loss50_db": 6.345846924359718,
+      "vswr50": 2.858199461312481
+    },
+    "gain_spice_minus_analytic_db": -7.30082660993503e-12
+  },
+  {
+    "name": "P460_Lp1_p1_CT",
+    "parameters": {
+      "l1": 483.0,
+      "l2": 483.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 37.705156781187206,
+      "ct2": 43.925610981377105,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 7,
+      "cost": 0.004083753106642002,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 39.60087209744606,
+      "gain31_db": 31.954095002822392,
+      "fpeak_mhz": 31.26,
+      "flo_mhz": 30.015792068256605,
+      "fhi_mhz": 31.966843262885245,
+      "center_edges_mhz": 30.991317665570925,
+      "bw_mhz": 1.951051194628641,
+      "disconnected_3db": false,
+      "relative29_db": -12.639456823690306,
+      "relative33_db": -11.703751230308823,
+      "zin31_ohm": [
+        115.08680863259376,
+        25.12377637230139
+      ],
+      "return_loss50_db": 7.5806277097576755,
+      "vswr50": 2.4352466353800204
+    },
+    "spice": {
+      "gain31_v_v": 39.60087209747134,
+      "gain31_db": 31.95409500282794,
+      "fpeak_mhz": 31.26,
+      "flo_mhz": 30.01579206825199,
+      "fhi_mhz": 31.966843262878978,
+      "center_edges_mhz": 30.991317665565482,
+      "bw_mhz": 1.951051194626987,
+      "disconnected_3db": false,
+      "relative29_db": -12.639456823659254,
+      "relative33_db": -11.703751230361734,
+      "zin31_ohm": [
+        115.08680863265566,
+        25.123776371716026
+      ],
+      "return_loss50_db": 7.580627709775331,
+      "vswr50": 2.43524663537501
+    },
+    "gain_spice_minus_analytic_db": 5.5493387662863825e-12
+  },
+  {
+    "name": "P460_stray_high_CT",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 39.882660683965454,
+      "ct2": 45.34384606355208,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 2.0,
+      "board2": 2.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 10,
+      "cost": 0.033504898577633176,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 36.706927379570004,
+      "gain31_db": 31.294960652244654,
+      "fpeak_mhz": 31.31,
+      "flo_mhz": 30.029503071524054,
+      "fhi_mhz": 31.963726619030524,
+      "center_edges_mhz": 30.996614845277286,
+      "bw_mhz": 1.9342235475064702,
+      "disconnected_3db": false,
+      "relative29_db": -12.671248396741156,
+      "relative33_db": -11.877652895874238,
+      "zin31_ohm": [
+        123.0421914790169,
+        48.58311425851634
+      ],
+      "return_loss50_db": 6.230194580922782,
+      "vswr50": 2.9068540911848126
+    },
+    "spice": {
+      "gain31_v_v": 36.706927379642806,
+      "gain31_db": 31.29496065226188,
+      "fpeak_mhz": 31.31,
+      "flo_mhz": 30.02950307151403,
+      "fhi_mhz": 31.963726619017233,
+      "center_edges_mhz": 30.99661484526563,
+      "bw_mhz": 1.9342235475032032,
+      "disconnected_3db": false,
+      "relative29_db": -12.671248396676004,
+      "relative33_db": -11.877652895993851,
+      "zin31_ohm": [
+        123.04219147984236,
+        48.58311425758582
+      ],
+      "return_loss50_db": 6.230194580932006,
+      "vswr50": 2.9068540911808567
+    },
+    "gain_spice_minus_analytic_db": 1.722710862850363e-11
+  },
+  {
+    "name": "P460_CK_low_CT",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 41.47385163094719,
+      "ct2": 46.25078361763143,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.2,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 7,
+      "cost": 0.1139126892004265,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 33.703177933486934,
+      "gain31_db": 30.553417064255463,
+      "fpeak_mhz": 31.33,
+      "flo_mhz": 30.053486795061705,
+      "fhi_mhz": 31.956768922226694,
+      "center_edges_mhz": 31.005127858644197,
+      "bw_mhz": 1.9032821271649898,
+      "disconnected_3db": false,
+      "relative29_db": -12.61179721483757,
+      "relative33_db": -11.958908693017328,
+      "zin31_ohm": [
+        113.69615790638134,
+        73.23719447101031
+      ],
+      "return_loss50_db": 5.332258407270314,
+      "vswr50": 3.3595447646891348
+    },
+    "spice": {
+      "gain31_v_v": 33.7031779334677,
+      "gain31_db": 30.553417064250507,
+      "fpeak_mhz": 31.33,
+      "flo_mhz": 30.05348679507201,
+      "fhi_mhz": 31.956768922236744,
+      "center_edges_mhz": 31.00512785865438,
+      "bw_mhz": 1.9032821271647327,
+      "disconnected_3db": false,
+      "relative29_db": -12.611797214916605,
+      "relative33_db": -11.958908692925025,
+      "zin31_ohm": [
+        113.69615790510214,
+        73.23719447036369
+      ],
+      "return_loss50_db": 5.332258407319754,
+      "vswr50": 3.359544764659859
+    },
+    "gain_spice_minus_analytic_db": -4.956035581926699e-12
+  },
+  {
+    "name": "P460_CK_high_CT",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 40.08971684403225,
+      "ct2": 46.59106177805985,
+      "cs": 14.5,
+      "co": 10.8,
+      "ck": 2.6,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 7,
+      "cost": 0.01029765404375602,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 39.548916392221855,
+      "gain31_db": 31.942691773702666,
+      "fpeak_mhz": 31.26,
+      "flo_mhz": 29.996979077950424,
+      "fhi_mhz": 31.975005751176422,
+      "center_edges_mhz": 30.985992414563423,
+      "bw_mhz": 1.9780266732259952,
+      "disconnected_3db": false,
+      "relative29_db": -12.728448427656677,
+      "relative33_db": -11.728270520789856,
+      "zin31_ohm": [
+        122.87821746564822,
+        9.85971937849366
+      ],
+      "return_loss50_db": 7.438181933149125,
+      "vswr50": 2.4764981429730906
+    },
+    "spice": {
+      "gain31_v_v": 39.5489163923338,
+      "gain31_db": 31.94269177372725,
+      "fpeak_mhz": 31.26,
+      "flo_mhz": 29.996979077949334,
+      "fhi_mhz": 31.97500575117096,
+      "center_edges_mhz": 30.985992414560148,
+      "bw_mhz": 1.9780266732216292,
+      "disconnected_3db": false,
+      "relative29_db": -12.728448427676426,
+      "relative33_db": -11.72827052083673,
+      "zin31_ohm": [
+        122.87821746444278,
+        9.859719376160228
+      ],
+      "return_loss50_db": 7.438181933260127,
+      "vswr50": 2.4764981429402915
+    },
+    "gain_spice_minus_analytic_db": 2.4584778657299466e-11
+  },
+  {
+    "name": "P460_coupling_low_CT",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 41.18236921656811,
+      "ct2": 46.392477666423176,
+      "cs": 14.209999999999999,
+      "co": 10.584,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 7,
+      "cost": 0.053915058463259405,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 36.016328260051,
+      "gain31_db": 31.12998871843271,
+      "fpeak_mhz": 31.33,
+      "flo_mhz": 30.02424405465101,
+      "fhi_mhz": 31.965682725260898,
+      "center_edges_mhz": 30.994963389955952,
+      "bw_mhz": 1.9414386706098876,
+      "disconnected_3db": false,
+      "relative29_db": -12.723881026116326,
+      "relative33_db": -11.933749825797864,
+      "zin31_ohm": [
+        129.88990821371036,
+        51.1774315726493
+      ],
+      "return_loss50_db": 5.894975184291774,
+      "vswr50": 3.0591341887271906
+    },
+    "spice": {
+      "gain31_v_v": 36.016328259861545,
+      "gain31_db": 31.12998871838702,
+      "fpeak_mhz": 31.33,
+      "flo_mhz": 30.024244054648523,
+      "fhi_mhz": 31.965682725264504,
+      "center_edges_mhz": 30.99496338995651,
+      "bw_mhz": 1.9414386706159823,
+      "disconnected_3db": false,
+      "relative29_db": -12.723881026058661,
+      "relative33_db": -11.933749825751809,
+      "zin31_ohm": [
+        129.8899082142569,
+        51.17743157453873
+      ],
+      "return_loss50_db": 5.894975184204761,
+      "vswr50": 3.059134188769056
+    },
+    "gain_spice_minus_analytic_db": -4.569145062305324e-11
+  },
+  {
+    "name": "P460_coupling_high_CT",
+    "parameters": {
+      "l1": 460.0,
+      "l2": 460.0,
+      "q1": 50.0,
+      "q2": 50.0,
+      "cp1": 0.4763482757368821,
+      "cp2": 0.4763482757368821,
+      "ct1": 40.581021128330065,
+      "ct2": 46.29794157316946,
+      "cs": 14.790000000000001,
+      "co": 11.016000000000002,
+      "ck": 2.4,
+      "rs": 50.0,
+      "coil": "constant_esr",
+      "board1": 1.0,
+      "board2": 1.0
+    },
+    "optimization": {
+      "success": true,
+      "nfev": 6,
+      "cost": 0.028822652548114766,
+      "parameters": [
+        "ct1",
+        "ct2"
+      ],
+      "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+    },
+    "analytic": {
+      "gain31_v_v": 37.38017091839512,
+      "gain31_db": 31.4528256566113,
+      "fpeak_mhz": 31.3,
+      "flo_mhz": 30.034848241190243,
+      "fhi_mhz": 31.9615508810572,
+      "center_edges_mhz": 30.99819956112372,
+      "bw_mhz": 1.9267026398669556,
+      "disconnected_3db": false,
+      "relative29_db": -12.620129528365247,
+      "relative33_db": -11.821702222118095,
+      "zin31_ohm": [
+        116.6588963679807,
+        46.03030700802947
+      ],
+      "return_loss50_db": 6.585343890861476,
+      "vswr50": 2.7631123696010444
+    },
+    "spice": {
+      "gain31_v_v": 37.380170918559976,
+      "gain31_db": 31.4528256566496,
+      "fpeak_mhz": 31.3,
+      "flo_mhz": 30.03484824119129,
+      "fhi_mhz": 31.96155088105188,
+      "center_edges_mhz": 30.998199561121584,
+      "bw_mhz": 1.926702639860589,
+      "disconnected_3db": false,
+      "relative29_db": -12.620129528408428,
+      "relative33_db": -11.821702222171751,
+      "zin31_ohm": [
+        116.65889636752306,
+        46.03030700604373
+      ],
+      "return_loss50_db": 6.585343890974121,
+      "vswr50": 2.7631123695580224
+    },
+    "gain_spice_minus_analytic_db": 3.83018061711482e-11
+  }
+]

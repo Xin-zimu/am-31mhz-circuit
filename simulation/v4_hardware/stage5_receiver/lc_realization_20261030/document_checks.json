@@ -1,0 +1,125 @@
+{
+  "relative_links": [
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/样品清单与示波器调谐步骤.md",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "S05_06_勘误_增益单位.md",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/s0506_network_units_corrected.csv",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/requirements_review.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/baseline_reuse.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/sources/coilcraft_132.pdf",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/sources/coilcraft_1008cs_model.pdf",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/manufacturer_exact_check.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/manufacturer_model_impedance.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/comparison_table.md",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/sweep_results.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/standard_values.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/netlists/P460_C15_C11_CT.cir",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/corner_results.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/extension_results.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/plots/lc_summary.png",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/audit.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/baseline_snapshot.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/replay_without_simulator.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_07_LC实物化与调谐验证.md",
+      "target": "lc_realization_20261030/sources/retrieval_log.json",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\S05_06_勘误_增益单位.md",
+      "target": "lc_realization_20261030/s0506_network_units_corrected.csv",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\lc_realization_20261030\\样品清单与示波器调谐步骤.md",
+      "target": "../S05_07_LC实物化与调谐验证.md",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\lc_realization_20261030\\样品清单与示波器调谐步骤.md",
+      "target": "sources/coilcraft_132.pdf",
+      "exists": true
+    },
+    {
+      "source": "simulation\\v4_hardware\\stage5_receiver\\lc_realization_20261030\\样品清单与示波器调谐步骤.md",
+      "target": "sources/vishay_bfc280905.pdf",
+      "exists": true
+    }
+  ],
+  "passed": true
+}

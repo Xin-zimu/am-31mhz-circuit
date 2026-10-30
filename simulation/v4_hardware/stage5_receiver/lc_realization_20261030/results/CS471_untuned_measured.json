@@ -1,0 +1,39 @@
+{
+  "parameters": {
+    "l1": 465.0,
+    "l2": 465.0,
+    "q1": 50.0,
+    "q2": 50.0,
+    "cp1": 1.0,
+    "cp2": 1.0,
+    "ct1": 39.59,
+    "ct2": 45.83,
+    "cs": 14.529,
+    "co": 10.81,
+    "ck": 2.485,
+    "rs": 50.0,
+    "coil": "coilcraft_1008cs",
+    "board1": 1.0,
+    "board2": 1.0
+  },
+  "metrics": {
+    "gain31_v_v": 25.57118979573635,
+    "gain31_db": 28.155018713597883,
+    "fpeak_mhz": 31.21,
+    "flo_mhz": 30.092773537110663,
+    "fhi_mhz": 32.180043664311036,
+    "center_edges_mhz": 31.13640860071085,
+    "bw_mhz": 2.0872701272003726,
+    "disconnected_3db": false,
+    "relative29_db": -11.189955249644907,
+    "relative33_db": -8.382055314981478,
+    "zin31_ohm": [
+      113.48063683332508,
+      8.928777155439937
+    ],
+    "return_loss50_db": 8.14435710427886,
+    "vswr50": 2.287016081996419
+  },
+  "kind": "ngspice AC; 1008CS RVAR frozen at 31 MHz when applicable",
+  "source_result": "CS471_untuned.json"
+}

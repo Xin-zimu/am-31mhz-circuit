@@ -1,0 +1,24 @@
+{
+  "max_relative_complex_error": 7.53071131683217e-13,
+  "raw_path": "D:\\ms_xsp\\s05_gain_20261030\\C_Q50.raw",
+  "raw_sha256": "4ab37f7f6666cee2735518ac6c556497e835f4d5168940dd54cff16facc01cc6",
+  "metrics": {
+    "gain31_v_v": 39.28433395253736,
+    "gain31_db": 31.88438788568046,
+    "fpeak_mhz": 31.27,
+    "flo_mhz": 30.010774831191394,
+    "fhi_mhz": 31.969284105521755,
+    "center_edges_mhz": 30.99002946835657,
+    "bw_mhz": 1.958509274330359,
+    "disconnected_3db": false,
+    "relative29_db": -12.67940700345353,
+    "relative33_db": -11.739576976701205,
+    "zin31_ohm": [
+      119.78145537552751,
+      22.56567631284273
+    ],
+    "return_loss50_db": 7.367111928425083,
+    "vswr50": 2.4977128510974
+  },
+  "source": "archived C_Q50; no baseline rerun"
+}

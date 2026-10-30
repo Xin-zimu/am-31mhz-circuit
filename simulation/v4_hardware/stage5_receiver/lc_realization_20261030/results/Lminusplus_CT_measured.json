@@ -1,0 +1,39 @@
+{
+  "parameters": {
+    "l1": 446.5,
+    "l2": 493.5,
+    "q1": 50.0,
+    "q2": 50.0,
+    "cp1": 1.0,
+    "cp2": 1.0,
+    "ct1": 40.828618646076826,
+    "ct2": 44.38467286725843,
+    "cs": 14.529,
+    "co": 10.81,
+    "ck": 2.485,
+    "rs": 50.0,
+    "coil": "constant_esr",
+    "board1": 0.0,
+    "board2": 0.0
+  },
+  "metrics": {
+    "gain31_v_v": 39.877517355710715,
+    "gain31_db": 32.01456225443869,
+    "fpeak_mhz": 30.71,
+    "flo_mhz": 29.99366776730884,
+    "fhi_mhz": 31.941196153558423,
+    "center_edges_mhz": 30.967431960433633,
+    "bw_mhz": 1.9475283862495831,
+    "disconnected_3db": false,
+    "relative29_db": -13.16217441700392,
+    "relative33_db": -11.590202471863531,
+    "zin31_ohm": [
+      74.83528772484583,
+      -44.84922869501087
+    ],
+    "return_loss50_db": 8.257309156608347,
+    "vswr50": 2.259912976040653
+  },
+  "kind": "ngspice AC; 1008CS RVAR frozen at 31 MHz when applicable",
+  "source_result": "Lminusplus_CT.json"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "P460_C15_C11_CT",
+  "parameters": {
+    "l1": 460.0,
+    "l2": 460.0,
+    "q1": 50.0,
+    "q2": 50.0,
+    "cp1": 0.4763482757368821,
+    "cp2": 0.4763482757368821,
+    "ct1": 40.37920912906399,
+    "ct2": 46.31557312225309,
+    "cs": 15.0,
+    "co": 11.0,
+    "ck": 2.4,
+    "rs": 50.0,
+    "coil": "constant_esr",
+    "board1": 1.0,
+    "board2": 1.0
+  },
+  "metrics": {
+    "gain31_v_v": 37.614564003515824,
+    "gain31_db": 31.507120644138503,
+    "fpeak_mhz": 31.29,
+    "flo_mhz": 30.04060725065502,
+    "fhi_mhz": 31.959407250884933,
+    "center_edges_mhz": 31.000007250769976,
+    "bw_mhz": 1.91880000022991,
+    "disconnected_3db": false,
+    "relative29_db": -12.58862753474679,
+    "relative33_db": -11.801549941741058,
+    "zin31_ohm": [
+      113.2281407936506,
+      44.97828013188277
+    ],
+    "return_loss50_db": 6.777169050636598,
+    "vswr50": 2.6920207211008558
+  },
+  "optimization": {
+    "success": true,
+    "nfev": 6,
+    "cost": 0.039185155463300446,
+    "parameters": [
+      "ct1",
+      "ct2"
+    ],
+    "objective": "relative shape to archived A2; plus 8*complex reflection if matching"
+  }
+}

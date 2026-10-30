@@ -1,0 +1,47 @@
+{
+  "name": "CS471_exact_29",
+  "config": {
+    "kind": "B",
+    "cs": 27,
+    "lp": 470,
+    "ct": 15,
+    "cp": 1,
+    "q": 50,
+    "rs": 50.0,
+    "reu": 33,
+    "ceb": 330,
+    "inter": 100,
+    "temp": 27,
+    "ac": 0.01,
+    "m": 0.5,
+    "wave": "sine",
+    "duty": 0.5,
+    "blocker_f": 1600000.0,
+    "blocker_a": 0,
+    "phase": 0,
+    "step": 0.5,
+    "stop": 200,
+    "start": 100,
+    "lscale": 1,
+    "cscale": 1,
+    "supply": 9,
+    "load": 100000,
+    "variant": "R2",
+    "blockers": [],
+    "front_file": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage5_receiver\\lc_realization_20261030\\filters\\CS471_exact_29.cir",
+    "command": "ac lin 1 2.9e+07 2.9e+07"
+  },
+  "elapsed_s": 0.11481149999963236,
+  "net_sha256": "baa2548dd3077ce3d6e8f906fdeaa39aba40b93b762f2fab16963216a534ebbf",
+  "raw_sha256": "bfd088c025cbdbdcb06d5553043a6d2d17011b549aeb44b4f7a6c5cd88623433",
+  "raw_path": "D:\\ms_xsp\\s05_lc_20261030\\CS471_exact_29.raw",
+  "log_sha256": "7819d56447338017b47e96825e602ccb2741f637d5fd51695e33b91977e67840",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "metrics": {
+    "f_hz": 29000000.0,
+    "rf_complex": [
+      -4.508099302791347,
+      -6.139620265490488
+    ]
+  }
+}

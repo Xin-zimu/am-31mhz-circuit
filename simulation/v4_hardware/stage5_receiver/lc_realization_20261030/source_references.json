@@ -1,0 +1,34 @@
+[
+  {
+    "file": "sources/coilcraft_1008cs_model.pdf",
+    "url": "https://www.coilcraft.com/getmedia/8b8dc5bb-0e94-4194-b919-ac2586274005/spice_1008cs.pdf",
+    "revision": "2026-04-30",
+    "retrieved": "2026-10-30",
+    "sha256": "415c6fa4c05b1c977816d922bb054fe30eff0e8d3fed66edf2e5a7974b9ed4fe",
+    "note": "Official typical frequency-dependent model; pages visually checked"
+  },
+  {
+    "file": "sources/coilcraft_132.pdf",
+    "url": "https://www.coilcraft.com/getmedia/22e0981d-b6cb-4c11-a3ec-5cac433ee01c/132.pdf",
+    "revision": "2013-10-29",
+    "retrieved": "2026-10-30",
+    "sha256": "21bf11d15c0689aafb15e55fc516c47ccc0fa270894eb7cc3805e94e2716535e",
+    "note": "132-17L is 460nH; old meter reference column 475nH must not replace it"
+  },
+  {
+    "file": "sources/vishay_irf24.pdf",
+    "url": "https://www.vishay.com/docs/34056/irf24.pdf",
+    "revision": "2014-03-04",
+    "retrieved": "2026-10-30",
+    "sha256": "8c02960a9de8274f5ccb0d15027d8a7f5a32560d1df58e1f7f576ecfc1168a60",
+    "note": "Reference only; not selected primary sample"
+  },
+  {
+    "file": "sources/vishay_bfc280905.pdf",
+    "url": "https://www.vishay.com/docs/28529/bfc280905.pdf",
+    "revision": "2024-09-06",
+    "retrieved": "2026-10-30",
+    "sha256": "46ce1362d5fe612ea5ba840d449fe483bc28531d8b3d5ab0cd9e014afff02e35",
+    "note": "2-18pF 05003/05217 ordering and electrical table visually checked"
+  }
+]

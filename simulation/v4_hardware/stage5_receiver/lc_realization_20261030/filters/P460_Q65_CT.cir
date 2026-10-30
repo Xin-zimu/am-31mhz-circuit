@@ -1,0 +1,15 @@
+* S05-07 independent loaded LC fixture; original active stages unchanged
+CSEL input tank1 14.5p
+CK tank1 tank2 2.4p
+COUT tank2 port 10.8p
+RPORT port 0 1Meg
+CTUNE1 tank1 0 41.0604160355p
+CBOARD1 tank1 0 1p
+RLOSS1 tank1 ln1 1.37843419201
+LSEL1 ln1 0 460n
+CSELF1 tank1 0 0.476348275737p
+CTUNE2 tank2 0 46.2189786576p
+CBOARD2 tank2 0 1p
+RLOSS2 tank2 ln2 1.37843419201
+LSEL2 ln2 0 460n
+CSELF2 tank2 0 0.476348275737p

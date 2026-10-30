@@ -1,0 +1,39 @@
+{
+  "parameters": {
+    "l1": 460.0,
+    "l2": 460.0,
+    "q1": 50.0,
+    "q2": 50.0,
+    "cp1": 0.4763482757368821,
+    "cp2": 0.4763482757368821,
+    "ct1": 35.3,
+    "ct2": 47.2,
+    "cs": 19.1,
+    "co": 10.8,
+    "ck": 2.4,
+    "rs": 50.0,
+    "coil": "constant_esr",
+    "board1": 1.0,
+    "board2": 1.0
+  },
+  "metrics": {
+    "gain31_v_v": 42.722823553344035,
+    "gain31_db": 32.613198950220024,
+    "fpeak_mhz": 30.99,
+    "flo_mhz": 30.130663788660144,
+    "fhi_mhz": 31.845923985378477,
+    "center_edges_mhz": 30.98829388701931,
+    "bw_mhz": 1.7152601967183352,
+    "disconnected_3db": false,
+    "relative29_db": -12.869180706280234,
+    "relative33_db": -11.549523330964393,
+    "zin31_ohm": [
+      57.03586728012526,
+      0.6418741427496748
+    ],
+    "return_loss50_db": 23.608394587914137,
+    "vswr50": 1.141340283383094
+  },
+  "kind": "ngspice AC; 1008CS RVAR frozen at 31 MHz when applicable",
+  "source_result": "P460_match_rounded.json"
+}

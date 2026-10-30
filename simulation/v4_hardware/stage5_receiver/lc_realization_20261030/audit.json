@@ -1,0 +1,24 @@
+{
+  "git_base": "1bdd648431c799e707298164f0dc7d65cda6a2f2",
+  "python": "3.13.2",
+  "numpy": "2.3.5",
+  "ngspice_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "new_ac_results": 38,
+  "historical_files_checked": 2014,
+  "historical_errors": [],
+  "new_transient_runs": 0,
+  "retained_old_failures_not_retried": [
+    "F22_sq10_Ac20",
+    "F22_sq50_Q40"
+  ],
+  "user_hardware": "No components purchased; oscilloscope available; other equipment unconfirmed",
+  "measured_hardware": false,
+  "bat85s_qualified": false,
+  "passed": true,
+  "scripts": {
+    "check_corners.py": "caaafaefbb3be91f8458a02b9bcfb49cb80183cba57b999458b635abcdaa1639",
+    "check_extensions.py": "92091fb62e790e7bea7c9f71effc81ee03635e5f4700f8341fd863d555b83c05",
+    "publish_evidence.py": "54706a5199a4c4936700f08da75a5f5876a87aff03f045f61f1620e863118805",
+    "run_lc.py": "d2067d78957328e7d5e2d91de312a40b8cf166817673947dcb7f05b8bbfcd6e5"
+  }
+}

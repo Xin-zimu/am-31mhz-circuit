@@ -1,0 +1,1068 @@
+{
+  "git_base": "1bdd648431c799e707298164f0dc7d65cda6a2f2",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4962,
+      "sha256": "a5547c6b5f1e4d4ebb6aecd39d1370e691669d093f6518620806979c06d8d7eb"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/audit.json",
+      "bytes": 977,
+      "sha256": "6df02de526c2bab5c439e9053049ac631bfc284286f7048d3750cd389faaa091"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/baseline_reuse.json",
+      "bytes": 774,
+      "sha256": "3f08729908aeea7f35babd83d24518a4f74e6db7055d550014e381fe39f97222"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/baseline_snapshot.json",
+      "bytes": 313643,
+      "sha256": "bb1dae17e230b339862c12383d6fb84a6cd9d2940dff0911a9260b367d6ba3dd"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/check_corners.py",
+      "bytes": 1626,
+      "sha256": "caaafaefbb3be91f8458a02b9bcfb49cb80183cba57b999458b635abcdaa1639"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/check_extensions.py",
+      "bytes": 3987,
+      "sha256": "92091fb62e790e7bea7c9f71effc81ee03635e5f4700f8341fd863d555b83c05"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/comparison_table.md",
+      "bytes": 1107,
+      "sha256": "b009a4beca08d442d3c589a56bd2703b6a68b8f1dd4e22a59161531b1969f6e1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/corner_results.json",
+      "bytes": 60554,
+      "sha256": "4ae83c823c9be7a048b22679d6a229ad71f900ea03649252be0a70f2e87e2143"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/document_checks.json",
+      "bytes": 5000,
+      "sha256": "734681a9b3898d875a124bc198b568b431173ad1f296743f7cda4f5d5aff46f8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/extension_results.json",
+      "bytes": 6319,
+      "sha256": "ff42971a0fc98ec5ea9df946e9307ba6387e47dd52a9274d5695d343fe0631ed"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/corner_02.cir",
+      "bytes": 408,
+      "sha256": "737b589572001dc688f7a3a1eeaa73c500763494009818f9e2c879a1c01f4834"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/corner_08.cir",
+      "bytes": 411,
+      "sha256": "bfec0d6caf35ab77a5c9bc893b75917701e3c200d43052821c1ada579d4113e7"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/corner_37.cir",
+      "bytes": 412,
+      "sha256": "42daa0d6f0ebea4c40be5cb0eac49101f4784f98bc31ba714d47018551c76089"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/CS471_CT.cir",
+      "bytes": 606,
+      "sha256": "4b90c8b336298a0cad9b2ee0a6dc020fe0609809255e0b6a0556db56cfe50006"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/CS471_exact_29.cir",
+      "bytes": 606,
+      "sha256": "de4cbbc25cc4014f8a80802c61be38b5fab4ce4ead1e8d483e845811fc7c1e09"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/CS471_exact_31.cir",
+      "bytes": 606,
+      "sha256": "4b90c8b336298a0cad9b2ee0a6dc020fe0609809255e0b6a0556db56cfe50006"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/CS471_exact_33.cir",
+      "bytes": 606,
+      "sha256": "ae4e53d7908803ff05384ebfc63f86c9dbdf0e95d8b6d3efd3c39789b16df257"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/CS471_untuned.cir",
+      "bytes": 591,
+      "sha256": "a6057d0d15be8ccdf9e40cc1886453246d1b441654231557ba735e0b3ae4dac7"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/Lminusplus_CT.cir",
+      "bytes": 357,
+      "sha256": "ec68cb1faa072063f9f33da8045e7c0e21e17547316caded302679a430c59eaf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/Lminusplus_untuned.cir",
+      "bytes": 341,
+      "sha256": "1ac5ff86be83a4249209ff466c73856a5867047074a590f047c6df3408245c97"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/Lplusminus_CT.cir",
+      "bytes": 356,
+      "sha256": "ab7262c85e3d641b03442dcad4794213a2e9893e44007871830bbd7cb25fdd37"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/Lplusminus_untuned.cir",
+      "bytes": 341,
+      "sha256": "f6341cdac8624f5c9a6e2601fc3f09fc6c1c77760c375b8516bdacec2a1034e4"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_C15_C11_CT.cir",
+      "bytes": 408,
+      "sha256": "8779d950705360c40a99ce5e978bf8b1adcfb8e30147653f3a22981ee6ebb4f0"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_CK_high_CT.cir",
+      "bytes": 411,
+      "sha256": "be865fb69aea842b53603e8cdfc5365773f79e33101edaa2c9e903e688502a43"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_CK_low_CT.cir",
+      "bytes": 412,
+      "sha256": "b5f1a71d25a0e015cde38fe570110eaccdb48cb5300bae16ec79d2ed16233f22"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_coupling_high_CT.cir",
+      "bytes": 415,
+      "sha256": "2841b9f757e28118fc4c7f51d43a68cf763620ea22f85bc3b1e87a0e0d5c3c14"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_coupling_low_CT.cir",
+      "bytes": 415,
+      "sha256": "6aaf6d5f9aebb6691c6f16fe2cf74fb5942b103918782775204fc35da00ab529"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Cs20_CK2p7_CT.cir",
+      "bytes": 410,
+      "sha256": "fd26b6ac339fe443296fd614bf6b4150a3c46e929356a272aca9856264137303"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_CTlossQ200.cir",
+      "bytes": 488,
+      "sha256": "809483de732d8434157b4cad0a01ffd9b7198da45ac7fda2bae9cb5654c8deb4"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_CTlossQ500.cir",
+      "bytes": 488,
+      "sha256": "2afbd747fa60a535b65efb8218489f5396fe8b509a736d7a9c8b581e2ef1c213"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Lm1_m1_CT.cir",
+      "bytes": 411,
+      "sha256": "e4e2f8637127ca078646101478927613c831d9b03a5cddd43c1c59c328bc158f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Lm1_p1_CT.cir",
+      "bytes": 411,
+      "sha256": "5410cc4713e5092385808764a9d49714b33850d04bcdde5e47556652b9754b60"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Lp1_m1_CT.cir",
+      "bytes": 411,
+      "sha256": "f9e0df7a9271db275cd50b967c17d71472fff6b44bf6705f01ca0a8b02a6e71a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Lp1_p1_CT.cir",
+      "bytes": 412,
+      "sha256": "f74f4615b3a22c5a7e4ab629bd380fd753365446c89e9e98bcdeba91fd1d4936"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_match_CK.cir",
+      "bytes": 431,
+      "sha256": "26830a0e0a9c7039f2c64de69b84fbda6bcefa59b5130b4c1ce48ecc57708f7b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_match_rounded.cir",
+      "bytes": 394,
+      "sha256": "aa71e356de898538a5366bb00df457bd98ce6a4909bac09ec215b8b2990bac8f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_mutual_0p01.cir",
+      "bytes": 436,
+      "sha256": "2e04ee9fe984a22a062dc28f6a4940b33ae82fb5b4e518e4664ed2d92c3e21af"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_mutual_0p03.cir",
+      "bytes": 436,
+      "sha256": "17d3dba0f38bcd16ed82455d1b0b826003f2e87fc26c5d9d80fb2e238fb88431"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_mutual_m0p01.cir",
+      "bytes": 436,
+      "sha256": "b8cd94a4e66803a3d54544d86cb4a184e3dfb0913e03c354306d6ad9a3795953"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_mutual_m0p03.cir",
+      "bytes": 436,
+      "sha256": "32a041ab76f257d7243c88d41803669f63657678e98a75a463e3932277dd100f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_probe10p.cir",
+      "bytes": 413,
+      "sha256": "64c5ad072c98fee65c8c84e5d0b1c229549c01e3cb5349f9b5eec2f257a70666"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Q40_CT.cir",
+      "bytes": 411,
+      "sha256": "f9776e9a0816ba0f8e38081a1a25bf06c34428d2046868d2304bc67f4d6dfdcd"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Q50_CT.cir",
+      "bytes": 412,
+      "sha256": "efdbd5d4ecfae77fd65ce0b8d6ff9d200e60b145a83af0efe19fdac73c6e6529"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Q50_match.cir",
+      "bytes": 421,
+      "sha256": "897080c69711f5b4e76c3e8989ea1a39f5dea65b99a958a74db6b4297448557d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Q65_CT.cir",
+      "bytes": 412,
+      "sha256": "0c09bc95ce7d30d314d16e3432830c28efbfeb538348c7e42e8ccd68d0053af1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_Q80_CT.cir",
+      "bytes": 408,
+      "sha256": "67fabf89269c2cdb69d45a60bb3dd5a813284cccf61ea9d47b4e01297a05fa07"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_RS200.cir",
+      "bytes": 412,
+      "sha256": "efdbd5d4ecfae77fd65ce0b8d6ff9d200e60b145a83af0efe19fdac73c6e6529"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/filters/P460_stray_high_CT.cir",
+      "bytes": 411,
+      "sha256": "935446a324175a69243643d522daa949f9708f79ecbad2f79fca0a59ca71760b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/manufacturer_exact_check.json",
+      "bytes": 448,
+      "sha256": "54a35a56586cda9f484d8f09b8c26fc0b00e35321599140ac6e36ca0b908096f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/manufacturer_model_impedance.json",
+      "bytes": 1002,
+      "sha256": "5b209a31f3c4f787bed98d0039d03113cd015f93be410059665013d2aa728c28"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/corner_02.cir",
+      "bytes": 1555,
+      "sha256": "7cd62a41b37b526e7efdbc249fc5db7af61eec2751266655725b2aff16a07d6b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/corner_08.cir",
+      "bytes": 1558,
+      "sha256": "834e4ca58dd05431a1fb562ef8faf7dcae7fa3bffa67bb056783f5fa636e0c9a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/corner_37.cir",
+      "bytes": 1559,
+      "sha256": "cde51175c730fe0f76065ec23adc397b3943bbd32b28af85a0fb82f0f53ee5de"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/CS471_CT.cir",
+      "bytes": 1752,
+      "sha256": "903ab6a08d5c12e55b378ce69cff0f03a8ca9dda4c2eb8e606af9a1674a07146"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/CS471_exact_29.cir",
+      "bytes": 1759,
+      "sha256": "baa2548dd3077ce3d6e8f906fdeaa39aba40b93b762f2fab16963216a534ebbf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/CS471_exact_31.cir",
+      "bytes": 1759,
+      "sha256": "4253d3c0a45c7d27a89a432dc9ad5db2434786acbe14fab0c81dfe62ebabd8a6"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/CS471_exact_33.cir",
+      "bytes": 1759,
+      "sha256": "5db7b9036d778957d2daa84c8bba6683ad51bd1d5207746974be0be2658f57e9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/CS471_untuned.cir",
+      "bytes": 1742,
+      "sha256": "f588b301f7e1a4a71d395c2bacfa5a0c3c2aa4cb286a0fb0e45a5d27472305fe"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/Lminusplus_CT.cir",
+      "bytes": 1508,
+      "sha256": "56578c9137de38d347a5b48787ef86306a52f4fb9c54f4f88ef755eadfac5f7a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/Lminusplus_untuned.cir",
+      "bytes": 1497,
+      "sha256": "7eae417209e1a2f11ce23692c327c93fd2591e1471fa0ff59881fcd9f456e9b7"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/Lplusminus_CT.cir",
+      "bytes": 1507,
+      "sha256": "fccb782a93395ed88172c78dc1f38185b1f431531ba57452cf4ee0fe196033e1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/Lplusminus_untuned.cir",
+      "bytes": 1497,
+      "sha256": "73301faa0a6e598158ebb33f01f1e37e09b09b1766e57f1895af2322740cadc5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_C15_C11_CT.cir",
+      "bytes": 1561,
+      "sha256": "ec8d58e2b3f2bc8a3028a42111f8c64849739a687b8dd861bf51ef2fd6658403"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_CK_high_CT.cir",
+      "bytes": 1564,
+      "sha256": "8117c1cdd66d47fe446b4d11e857359cabc65e850ca02efe86e3b1c3e218d769"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_CK_low_CT.cir",
+      "bytes": 1564,
+      "sha256": "57b8971369283527e1ad80e8deb4a1f641c7c9d25176e4d5101d877a1f5823eb"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_coupling_high_CT.cir",
+      "bytes": 1574,
+      "sha256": "e2258ef80b48824d2304ebcf6aa77abc77a23320a9ed8118ca1271adc1168874"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_coupling_low_CT.cir",
+      "bytes": 1573,
+      "sha256": "a8d874cf709abae9a53c668bd383ce90bb666fcc0b1b17a9998194fc066f007c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Cs20_CK2p7_CT.cir",
+      "bytes": 1566,
+      "sha256": "1795d52616844d1888fed0a694ef10a4cf575f85e3f8aeaae8f293d91e417024"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_CTlossQ200.cir",
+      "bytes": 1641,
+      "sha256": "bb7ff4c60264c48de29c91bd50730ea355171ad9ea7544b6069beae411961680"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_CTlossQ500.cir",
+      "bytes": 1641,
+      "sha256": "f40f249ce9b38127f8a15d6370b8663d9d500a30ed8f115508770b03303b0259"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Lm1_m1_CT.cir",
+      "bytes": 1563,
+      "sha256": "b5f33043702a02f1b406e516daf5a31f386f4b7be470462290daeaa741c6b5fa"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Lm1_p1_CT.cir",
+      "bytes": 1563,
+      "sha256": "3cace5b5bd099c4c260e7241280f71ebc33ecd7437d3682cd87afc12cfc6de1e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Lp1_m1_CT.cir",
+      "bytes": 1563,
+      "sha256": "a6dfa8f458ac51641224df28b4c83de936212cf5f8aa27bd4c8585a4339cf2a5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Lp1_p1_CT.cir",
+      "bytes": 1564,
+      "sha256": "a185ecd952e618d4d1e9dbec56bd727eb5d90fe577b0faf9819c4a5cc4025a36"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_match_CK.cir",
+      "bytes": 1582,
+      "sha256": "6be7b528f5508330f49a1e9e7780c4cbda1d139f141a56463575e76b8fb3d81e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_match_rounded.cir",
+      "bytes": 1550,
+      "sha256": "34a2662ec20571beb3cde2b5e14602e8bb7fa9c36e0b417744b79ab5cc4cf315"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_mutual_0p01.cir",
+      "bytes": 1590,
+      "sha256": "23a1edd41cb710e7f3c0736933db249555db0c5c144a20e0a1578b7b03ed25bd"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_mutual_0p03.cir",
+      "bytes": 1590,
+      "sha256": "3f4319e6aff43290ad1a6467e49afa57e269bb4dd24e150d04b1275b180f7553"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_mutual_m0p01.cir",
+      "bytes": 1591,
+      "sha256": "f19429a41ac395bccc81185ca27b5695d6d2e0c86cad31b8055de85b139fabb2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_mutual_m0p03.cir",
+      "bytes": 1591,
+      "sha256": "a75a96ae471ee70312615b7409a1e953b176c9e8ef314f9375b599ebf8aac766"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_probe10p.cir",
+      "bytes": 1564,
+      "sha256": "f154ebcced381c53dca758f266975f8e96a142864077000c70b496128ed97e6f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Q40_CT.cir",
+      "bytes": 1560,
+      "sha256": "aa3c21720c5a41bc3ab37be29edb34a8b038b95391da6b170686546c9d751b01"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Q50_CT.cir",
+      "bytes": 1561,
+      "sha256": "19c706d788fe8e394b2641d1f6ad8fcebb13eb949375c9e06f91909c02802607"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Q50_match.cir",
+      "bytes": 1573,
+      "sha256": "9ed326e46b275959eda95b2ef0609eaae6930e9c757572684fcf38fe45ad1ae1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Q65_CT.cir",
+      "bytes": 1561,
+      "sha256": "27921b5042c32abaf49bb52f2cc4efedaf2a9994950b740034b80454c5848311"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_Q80_CT.cir",
+      "bytes": 1557,
+      "sha256": "b98ffc12362a204a803f92612b3abe94eb3e163f87cd786e4ac32cbf97006e3b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_RS200.cir",
+      "bytes": 1561,
+      "sha256": "cf5cc6525f887c4701a2002197521f2ee36fd7c51a1b17c9c2be7d066ba2860c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/netlists/P460_stray_high_CT.cir",
+      "bytes": 1567,
+      "sha256": "d85e5f06a89d729b91ab6ba28dd3e93cd6882557bd71ddaf648b78b5f128795f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/plots/lc_summary.png",
+      "bytes": 352204,
+      "sha256": "1a64d3e07f98183df46e8b3c1fc23b5ddbba5c2235683ee484549eab7a2e9a4e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/publish_evidence.py",
+      "bytes": 8742,
+      "sha256": "54706a5199a4c4936700f08da75a5f5876a87aff03f045f61f1620e863118805"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/replay_without_simulator.json",
+      "bytes": 382,
+      "sha256": "f0a9b03b8c9b245be3e25d94d1076b9fd399b871963dcb0d8a334b6871161b81"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/requirements_review.json",
+      "bytes": 1112,
+      "sha256": "e130c8ea2d20c1081cc03469e32eb3c24541ffe93f223f37ed8aea38905d7adf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/corner_02.json",
+      "bytes": 1326,
+      "sha256": "f3eb98fa8a03f504799b0bc01b9997a99feccf7f536fffd5de7ccace688045d9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/corner_02.log",
+      "bytes": 313,
+      "sha256": "0af6dd68f5eb11a1a68685ae72c321c8438773724c80ad02f0242a75d61db422"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/corner_02_measured.json",
+      "bytes": 981,
+      "sha256": "e1977e46c51b901d6e46281ec0ed746711d60204f0f451c093316bfe33b481c8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/corner_08.json",
+      "bytes": 1325,
+      "sha256": "0118a0a3330d7faba7347bda83d26110993bcf19ac57e252ec08fad21a3e1863"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/corner_08.log",
+      "bytes": 313,
+      "sha256": "9ecb5f02064e3862c20d324922cf1f2a830f95324dcff0a66ed2dff874400cad"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/corner_08_measured.json",
+      "bytes": 980,
+      "sha256": "134eea3f81ca040b35adfe74fddfb7cfb130da7f1ceac7fea2e1ee3cea47a67d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/corner_37.json",
+      "bytes": 1324,
+      "sha256": "1a1eb2be4db0376022b73f8db180406ba606db2a3c7c349359cbf31569d13264"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/corner_37.log",
+      "bytes": 313,
+      "sha256": "a7a07ad156795c3a0394a3f9e9bfce1c91d0fdc57d3fd8a24f30b3ef553d4885"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/corner_37_measured.json",
+      "bytes": 979,
+      "sha256": "7c244caf6f00e16a60198eeeeee919c96c595e19859ba96c904b4709df28e822"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_CT.json",
+      "bytes": 1321,
+      "sha256": "d4dbe930968599314850c4845fc06acdef4a4a0bea1eba2afdb82cbbc160e0b6"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_CT.log",
+      "bytes": 312,
+      "sha256": "304a1011fb126abba9fd6cc708a5a92896311ee45c812afa70886eeb823c37b2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_CT_measured.json",
+      "bytes": 961,
+      "sha256": "b2a3dd6c0e8799fe193ada48e756ef8eb05a37f892decc78ac1c3a5ab4f1ed44"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_exact_29.json",
+      "bytes": 1296,
+      "sha256": "abd1efcba4844e3675e4d324861516badd6c33954785190e01dac8f893c53233"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_exact_29.log",
+      "bytes": 315,
+      "sha256": "7819d56447338017b47e96825e602ccb2741f637d5fd51695e33b91977e67840"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_exact_31.json",
+      "bytes": 1295,
+      "sha256": "ed5dcd0beeeece3ea1a6dcbd57c27f11843319acfd9c090cfde8a7c1f3ea0aa8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_exact_31.log",
+      "bytes": 315,
+      "sha256": "bdb601925e33f9e62c33fbc483e14efb983ca3a71f04dc51d5de7537f74a0f1a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_exact_33.json",
+      "bytes": 1295,
+      "sha256": "e88fddce9392e65fbd88e285ee6fb9617e589141b67c48dcc075657cb0371fb1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_exact_33.log",
+      "bytes": 315,
+      "sha256": "5be0c8ca1df4eb9303124e2719b2ff308f26a16fd73f2964ac2d364d682242ba"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_untuned.json",
+      "bytes": 1336,
+      "sha256": "2fcf91b9dade7deaf08192ae1bccad37bd04943b5f5bf441290b4863d8f57c78"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_untuned.log",
+      "bytes": 317,
+      "sha256": "4309ea87d6278578f251607f8836da83899f6d0b07fa0a416cd17baa55eb7b83"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/CS471_untuned_measured.json",
+      "bytes": 937,
+      "sha256": "3b8b4277bc5c9677fc38934846d2be6cb686ff378e68556c7eeb47a9e851d508"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lminusplus_CT.json",
+      "bytes": 1337,
+      "sha256": "218c99e89804e4b173d68bbb4895ee2108364ded93c88eaeb400aa2dce9a28b3"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lminusplus_CT.log",
+      "bytes": 317,
+      "sha256": "0e9a1c01fab2cf011a6b2cde80db43ce4249247514b95599c7dc336c76bf490b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lminusplus_CT_measured.json",
+      "bytes": 959,
+      "sha256": "66be4bb2075b3c71b0f67d55965383c5eae9f11a773c942062d5d410abaa9b81"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lminusplus_untuned.json",
+      "bytes": 1351,
+      "sha256": "86391088351ab77f8534f02ea058fc3ef9d78929bea5200847cf9e1479a96795"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lminusplus_untuned.log",
+      "bytes": 322,
+      "sha256": "c393afa614a21e4d56c8a9145591f42821ac6447dad9baa758f8f34792914c5b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lminusplus_untuned_measured.json",
+      "bytes": 937,
+      "sha256": "7050d113e8e0129893669ef6487248a43ba1c9702f087059ddc5552788247146"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lplusminus_CT.json",
+      "bytes": 1338,
+      "sha256": "d0b4c50c967b129a1c7997595d50d2483af94d78549b722f2121689a1cebe07b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lplusminus_CT.log",
+      "bytes": 317,
+      "sha256": "d6b30fc155d965ea6a940e157838d348cbf05adfcacdd3d829953e977bf8ad00"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lplusminus_CT_measured.json",
+      "bytes": 958,
+      "sha256": "28108b72edb8bfcfd5ca611a6dad1ca27df0574dbd7d9c9ba8b1c311d6fdeebf"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lplusminus_untuned.json",
+      "bytes": 1352,
+      "sha256": "b7ddeb77236a9661a699843fd2e588f5e17950d1ad30da952873c27a975c9b6d"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lplusminus_untuned.log",
+      "bytes": 322,
+      "sha256": "08f3404488b6e8acd79e69b0187886cdaee13b9ec1fda5cef16b2a0481b78012"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/Lplusminus_untuned_measured.json",
+      "bytes": 941,
+      "sha256": "9d5c1994c32178e90689bc4a79cd41b5bdff21c2c6ee216e02fc8540194f5f96"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_C15_C11_CT.json",
+      "bytes": 1343,
+      "sha256": "833e0e0002f1914cc09677375f1de69bc055b2c743cf69d734b8ce6d879d4c80"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_C15_C11_CT.log",
+      "bytes": 319,
+      "sha256": "c77094a723f05c5657c7a70e3c10b45e321a3dff364755230eaa8ff362c3a8b8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_C15_C11_CT_measured.json",
+      "bytes": 984,
+      "sha256": "42ea8b182e71a739f340f959070017f7b9ec9df9c370786ecad0bf87f2a35902"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CK_high_CT.json",
+      "bytes": 1341,
+      "sha256": "b3e519466c88db1a0b5c97e6354de4dfc79ee5873d71a0a878c18715c2eecca9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CK_high_CT.log",
+      "bytes": 319,
+      "sha256": "1405365cfcddea37f500c26d577a5562147c1f6f8d15409ce68a01ef089cec54"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CK_high_CT_measured.json",
+      "bytes": 984,
+      "sha256": "75da8f806bad2084fa7b19e175719a615617ba5f93032fad77733d771b40357f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CK_low_CT.json",
+      "bytes": 1339,
+      "sha256": "a940b15b48e47e480f02150218e8352afbe29e49f4edcc2decc735abb86e587c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CK_low_CT.log",
+      "bytes": 318,
+      "sha256": "1788a247cc9c702653173cc4f7d8c154f0fa1757704524a1d439f51c57138bfb"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CK_low_CT_measured.json",
+      "bytes": 983,
+      "sha256": "eb7bedbe0fb19a27da40daac816637f6a1aa07aa27c480656795c3ecce2ef1de"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_coupling_high_CT.json",
+      "bytes": 1362,
+      "sha256": "8827be524605e765ae9f16825c034100917d05fd9d9e8d2640192097431c1133"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_coupling_high_CT.log",
+      "bytes": 325,
+      "sha256": "4eea8ba0c3e0fa7640796d2ce911ab2d7bb83c37b38386957e8233320b838d7b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_coupling_high_CT_measured.json",
+      "bytes": 1018,
+      "sha256": "988361d555a11cea1c76dd2f30bc5e6ed9c97707012136fd439b37bcc288aacb"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_coupling_low_CT.json",
+      "bytes": 1359,
+      "sha256": "848aaa2fc19352b1569b56857b679ab57f7288d996ea86e50515be71e6bc0377"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_coupling_low_CT.log",
+      "bytes": 324,
+      "sha256": "23bdb04f9b85cef5d6cb70509b9e4404a6812d350fc51f7172435bcbd72b21f1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_coupling_low_CT_measured.json",
+      "bytes": 1007,
+      "sha256": "214f716e427a94cd97afd2a99e283f73a0737537c78704e332ec3d35fd7e5fea"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Cs20_CK2p7_CT.json",
+      "bytes": 1351,
+      "sha256": "4302fba830727952be496758e2e2cef8e3c5f2d347543c55111ae7b1adadaed7"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Cs20_CK2p7_CT.log",
+      "bytes": 322,
+      "sha256": "1399d6c2c2108f98c4edb11efdd6a47f81993f61ed75e44b7450670997c45067"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Cs20_CK2p7_CT_measured.json",
+      "bytes": 992,
+      "sha256": "80bf372ffbd52a6820f2f7a6b3bd16d53e3410d07fc1408753fb00acffec813a"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CTlossQ200.json",
+      "bytes": 1704,
+      "sha256": "d0bb35fdc68e4052a458416865c0afc0bce6381d4b107b0df2fbd81fc28193f2"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CTlossQ200.log",
+      "bytes": 319,
+      "sha256": "161f039c1bc3312dc5447b15514e4e76fe3e75a4e9fe4f306d4e86cb3faeeef9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CTlossQ500.json",
+      "bytes": 1706,
+      "sha256": "676217c324958f0dd2d2ed504bc00f1b19da054eda922d1463e387e0f1af7345"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_CTlossQ500.log",
+      "bytes": 319,
+      "sha256": "ad42fff4903665cc6d3c55562b1481da215a30095616a534d59cd712d5ba69f6"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lm1_m1_CT.json",
+      "bytes": 1339,
+      "sha256": "cb131e0aa66ddc94ff8976ff768210d83e0582b43bae0736adc7367d164915ed"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lm1_m1_CT.log",
+      "bytes": 318,
+      "sha256": "b2f5d6997793d2439692b57528dcfb84af0edccc0ec687ccfb3390dd92d87dfd"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lm1_m1_CT_measured.json",
+      "bytes": 984,
+      "sha256": "5de6a754fc953d8030c7cee3f2fb6b7a63f131338c56802fc9187c787896aeff"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lm1_p1_CT.json",
+      "bytes": 1341,
+      "sha256": "96cf3ce5bfbb6e562d4c35adf8b0dd4e300f3d8680b9923725f188a6104df7ef"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lm1_p1_CT.log",
+      "bytes": 318,
+      "sha256": "fa095e9caa82c63c08b0288aa4410029849818dc7af0565420b10b0848ca1760"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lm1_p1_CT_measured.json",
+      "bytes": 985,
+      "sha256": "62924d3ecc8e7b8133eb4dcfd61c9e75a86615ddf9fc7413ca9b6d58e1ac6100"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lp1_m1_CT.json",
+      "bytes": 1336,
+      "sha256": "cad2e1012ccddfbfa640fd78ce1bdfcad0370e67d49ac23a875c9adcc5c6b31b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lp1_m1_CT.log",
+      "bytes": 318,
+      "sha256": "47449dc71cba9b97b2ae8f4e9e51f0ac63ebe02c329153ab6962850310e46435"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lp1_m1_CT_measured.json",
+      "bytes": 982,
+      "sha256": "e8d4d86e3d2cb47b0d4126c339d8a0d5b9a19906bf43fe9073d10006b9887aa1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lp1_p1_CT.json",
+      "bytes": 1340,
+      "sha256": "20b0001fe37aa63394def24cc85819fe6a6a2919489e8db4536a7635d2eeff60"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lp1_p1_CT.log",
+      "bytes": 318,
+      "sha256": "9dde58b5b81069764bde6ff365e1e98bf1988e2413514b86997b706cc7cf1b78"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Lp1_p1_CT_measured.json",
+      "bytes": 985,
+      "sha256": "d2d162d42a64677a2408b4553152f9405e015c345113f5a418660b58655c008c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_match_CK.json",
+      "bytes": 1336,
+      "sha256": "8c062e573226cfe2faf01060fceb24cc6ee0dd580e948415141edf0781a059d8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_match_CK.log",
+      "bytes": 317,
+      "sha256": "aa6513f2d616f323944c8807ce6423983e9bc6d0e3078b91ef6c09e67cccb807"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_match_CK_measured.json",
+      "bytes": 1013,
+      "sha256": "dc9c848b7a8cd348871295d68d96b9e0bbfd4ad4be02795dd2636e0ef54568bb"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_match_rounded.json",
+      "bytes": 1352,
+      "sha256": "b2d29d7d2367a9bfe74227390c7d54b67d8d277f18a2c04a7cb517d6910176b3"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_match_rounded.log",
+      "bytes": 322,
+      "sha256": "6fca995be0a3d74dfd86ea58815e2e1381e9ee12be112e57d6fcd4f5d7725fa1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_match_rounded_measured.json",
+      "bytes": 965,
+      "sha256": "11f369bddcc43c27f5964bb47f339f8d0ad02122a9f68f8bf08407b72a1c6559"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_mutual_0p01.json",
+      "bytes": 1711,
+      "sha256": "914b7256015c1015d03b6ab933ecdb5e24b7d02a294db36ad31bcbe5484ba6d1"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_mutual_0p01.log",
+      "bytes": 320,
+      "sha256": "ab00e844b72cd83e9a642d55e5b364ff746a616e5dde2149fbeac5e5876fc705"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_mutual_0p03.json",
+      "bytes": 1710,
+      "sha256": "220ed630cb0e239b12c1d49ea835a952591047d5fdd67f40172077d8db85b46f"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_mutual_0p03.log",
+      "bytes": 320,
+      "sha256": "cc460982f936714cd0cd2228844ff417c658369eb1fdf186fa012ea34eed6acd"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_mutual_m0p01.json",
+      "bytes": 1714,
+      "sha256": "e7dc5e370a222df26e4c081fa97f181ab3be9e5417cc08e7adcaaea95401eb46"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_mutual_m0p01.log",
+      "bytes": 321,
+      "sha256": "351d19a790d60d0bfaa8f18eab7280e4a116749aeb3c47fc148d208e6bb82bac"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_mutual_m0p03.json",
+      "bytes": 1713,
+      "sha256": "6bb3ca8fb8af0913b98d2ef85e5f07213c76c4facf02c909797092a15a8ab137"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_mutual_m0p03.log",
+      "bytes": 321,
+      "sha256": "b38ed54d6c4883df348a693d5f1effe399493c779641b4ecd154b3a76b4f1f32"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_probe10p.json",
+      "bytes": 1336,
+      "sha256": "0d7d43ff8ced72c7473b8f2c2c86f8d429e55a0eb2172bd916f3831f8bee8ff8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_probe10p.log",
+      "bytes": 317,
+      "sha256": "f40f5d6d30c47511ab36fc044bcdb5f16858c91845f488ddafefb927415cea57"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_probe10p_measured.json",
+      "bytes": 986,
+      "sha256": "5e5c94615f162929ffb860c100712e114b893f35ee3cd36bae8307de2a607ae8"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q40_CT.json",
+      "bytes": 1330,
+      "sha256": "b7f89152d03fa3fb338f20f6c2781b6cfbd0bb31fb10f889f7d732b69b0c3f39"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q40_CT.log",
+      "bytes": 315,
+      "sha256": "c41b39ae0edf1417450835782948647af824d6b5b546c9ad7db3f756fb3672e5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q40_CT_measured.json",
+      "bytes": 984,
+      "sha256": "0abf551218afacf163c62c3974d2c12981a3bdbd90185c3caa2dec344ed35463"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q50_CT.json",
+      "bytes": 1330,
+      "sha256": "ca5cfbd7543dc8c0b5f22daa7debeacd7300b01896cef40c7d9fbf8abe79a968"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q50_CT.log",
+      "bytes": 315,
+      "sha256": "a6a3ad32c940a19facb4608d18785478d4f36fcf9ba91ed6ecf9a3080991d82c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q50_CT_measured.json",
+      "bytes": 982,
+      "sha256": "0dc29b281820c5b2e38687fda7c9e1769554fe067158017a34192713cee0481b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q50_match.json",
+      "bytes": 1339,
+      "sha256": "ed8e6ac5698b7b1101663337fe21c2fb4acca47e413eb13399d521d2788e50af"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q50_match.log",
+      "bytes": 318,
+      "sha256": "3acd730df0e2095eaa5209e590785c7377f60de9ad6c59551de0fa813f926153"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q50_match_measured.json",
+      "bytes": 1000,
+      "sha256": "7868b7645523090e85292ceaef6bca408c033e92864ce59a033186ff7b6d4e31"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q65_CT.json",
+      "bytes": 1329,
+      "sha256": "940db72f65131499e2fc2de19c3f957e1e386985d49f2e7dfc879b3be0eb3945"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q65_CT.log",
+      "bytes": 315,
+      "sha256": "17f2f2356b875eafc5305998b3768bc28e2f8d3c07bf4d4f67b538af364aa219"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q65_CT_measured.json",
+      "bytes": 980,
+      "sha256": "3dd7c4c37c74dfda79c1137a7e23deac7350d20f84cf4f07dc3cc4ca2aee8631"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q80_CT.json",
+      "bytes": 1331,
+      "sha256": "9cefdd6367d63b3f2af355f5f7be6083fe18e57348e93b080393088b2b0f5d91"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q80_CT.log",
+      "bytes": 315,
+      "sha256": "ba52bb6da0018bf34a34ec4025ad114a03562de529ad0b2541dc5ad29ccbf283"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_Q80_CT_measured.json",
+      "bytes": 980,
+      "sha256": "277cf90a453cfa3a613505fdfd0188ef91fbcb9b434b0f8a93901f691c115743"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_RS200.json",
+      "bytes": 1328,
+      "sha256": "0acde81a248ed65f1801e29879ffbaedb2474f9282e91250897cf44c7f5d894e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_RS200.log",
+      "bytes": 314,
+      "sha256": "202bae2530148832dc34b4147060a6f88beb0093291fd62f93e9e22a8f4731f9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_RS200_measured.json",
+      "bytes": 980,
+      "sha256": "bf6f5df73f8dfe059371d481b7790e6749ac39acbf43d9cb3a5ee3ec6f462d35"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_stray_high_CT.json",
+      "bytes": 1353,
+      "sha256": "65edd018926c7c25c00cbf9da861a0e44328017f0abc6a817e8894e3f1cfb017"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_stray_high_CT.log",
+      "bytes": 322,
+      "sha256": "6bae99ab0ddbd67dacee87d5c5d2b0ebbaec151fd0c40ef96a4e9cba465abd8c"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/results/P460_stray_high_CT_measured.json",
+      "bytes": 990,
+      "sha256": "f7892b442a5696ba0a28c294532c04f11c27b27c8b56558e7ac183391556be8b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/run_lc.py",
+      "bytes": 10174,
+      "sha256": "d2067d78957328e7d5e2d91de312a40b8cf166817673947dcb7f05b8bbfcd6e5"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/s0506_network_units_corrected.csv",
+      "bytes": 3615,
+      "sha256": "dcdf0a56c202a76b4b477a605306e218616e4537b3886f3cd33c03e7a54af685"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/source_references.json",
+      "bytes": 1407,
+      "sha256": "c31c93d6979dfad664d50b82c850e8127111ff1d53409768f8b779a09e9b933b"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/sources/coilcraft_1008cs_model.pdf",
+      "bytes": 111878,
+      "sha256": "415c6fa4c05b1c977816d922bb054fe30eff0e8d3fed66edf2e5a7974b9ed4fe"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/sources/coilcraft_132.pdf",
+      "bytes": 298142,
+      "sha256": "21bf11d15c0689aafb15e55fc516c47ccc0fa270894eb7cc3805e94e2716535e"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/sources/retrieval_log.json",
+      "bytes": 114,
+      "sha256": "25985df971cf0f2f8666e985af5dce23daf7473caa0d7cc541759da0997dedd9"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/sources/vishay_bfc280905.pdf",
+      "bytes": 101923,
+      "sha256": "46ce1362d5fe612ea5ba840d449fe483bc28531d8b3d5ab0cd9e014afff02e35"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/sources/vishay_irf24.pdf",
+      "bytes": 65897,
+      "sha256": "8c02960a9de8274f5ccb0d15027d8a7f5a32560d1df58e1f7f576ecfc1168a60"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/standard_values.json",
+      "bytes": 1135,
+      "sha256": "331a48280dfcadc80f20a1e8aadc98c35b923b13b522713a5e9afbc0955b3a62"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/sweep_results.json",
+      "bytes": 41185,
+      "sha256": "a7a3649cb8f5777abccb22f4e0c91665e4c27bc762f3ba7509e9359264eed249"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/lc_realization_20261030/样品清单与示波器调谐步骤.md",
+      "bytes": 8365,
+      "sha256": "5ad538568b6db4354753dc6a7c19affb62a4982459a4720ef9f9e642e3f59794"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/S05_06_勘误_增益单位.md",
+      "bytes": 1696,
+      "sha256": "7acad8348567e70a61c894c2940723fdeeccd92e7ae8333a7ac16c7110db3332"
+    },
+    {
+      "path": "simulation/v4_hardware/stage5_receiver/S05_07_LC实物化与调谐验证.md",
+      "bytes": 14194,
+      "sha256": "160e5f5bea36eab5e6af0d6a28380b1c9d3b009c098040cf5e64d7466755e91c"
+    },
+    {
+      "path": "项目管理/02_当前阶段目标.md",
+      "bytes": 34078,
+      "sha256": "13afe672f54fab9c8a9a79ff7c7ca7d4bd5a1835827732c26d2d70f2da2b9e9c"
+    },
+    {
+      "path": "项目管理/03_当前实现状态.md",
+      "bytes": 69686,
+      "sha256": "1c824893faf5d86b6da4fac359fe31b1e54bdbe8a9ea2f8aa728229dde15cdfb"
+    }
+  ],
+  "raw_directory": "D:/ms_xsp/s05_lc_20261030",
+  "raw_hashes_in": "results/*.json",
+  "note": "S05-07 additions plus current management summaries; historical S05 hashes are in baseline_snapshot.json. No Git commit or push performed."
+}
