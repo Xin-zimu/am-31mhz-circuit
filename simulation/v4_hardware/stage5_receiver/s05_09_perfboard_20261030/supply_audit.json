@@ -1,0 +1,211 @@
+{
+  "question": "Is the reported 5.109 Vpp consistent with the actual OPA197 supply rail?",
+  "answer": "Yes on the netlists as built: every S05 netlist runs the OPA197 from a 9 V rail with a 3 V reference. A 0-5 V single rail would NOT allow it; that hypothetical is arithmetically excluded below.",
+  "rail_census_across_stage": {
+    "9.0": 603,
+    "10.0": 1,
+    "8.0": 1,
+    "5.0": 2
+  },
+  "reference_divider": {
+    "r_top": 20.0,
+    "r_bottom": 10.0,
+    "fraction": 0.3333333333333333
+  },
+  "reference_volts_on_9v": 3.0,
+  "model_file": "D:\\实验报告文件夹\\电路2\\simulation\\models\\OPA197_TI\\OPAx197.LIB",
+  "model_output_clamp_note": "OPAx197.LIB CLAWN/CLAWP tables act on V(VCC,VEE); they do not add a separate 5 V ceiling, so the rail is the limit",
+  "cases": [
+    {
+      "name": "T_sq50_six",
+      "rail_v": 9.0,
+      "vpp": 5.091568355473601,
+      "low": 0.41327727983977075,
+      "high": 5.504845635313372,
+      "headroom_low": 0.4133,
+      "headroom_high": 3.4952,
+      "fits": true
+    },
+    {
+      "name": "T_sq10_six",
+      "rail_v": 9.0,
+      "vpp": 5.10860482406184,
+      "low": 2.4420298274099563,
+      "high": 7.550634651471796,
+      "headroom_low": 2.442,
+      "headroom_high": 1.4494,
+      "fits": true
+    },
+    {
+      "name": "T_sine_clean",
+      "rail_v": 9.0,
+      "vpp": 5.07504060606344,
+      "low": 0.5819139124792647,
+      "high": 5.656954518542705,
+      "headroom_low": 0.5819,
+      "headroom_high": 3.343,
+      "fits": true
+    },
+    {
+      "name": "T_sine_29_10",
+      "rail_v": 9.0,
+      "vpp": 4.914980222667872,
+      "low": 0.6417954736293174,
+      "high": 5.556775696297189,
+      "headroom_low": 0.6418,
+      "headroom_high": 3.4432,
+      "fits": true
+    },
+    {
+      "name": "T_sine_29_50",
+      "rail_v": 9.0,
+      "vpp": 4.656706568319677,
+      "low": 0.7089635229400225,
+      "high": 5.3656700912597,
+      "headroom_low": 0.709,
+      "headroom_high": 3.6343,
+      "fits": true
+    },
+    {
+      "name": "T_sine_33_10",
+      "rail_v": 9.0,
+      "vpp": 4.90774479608829,
+      "low": 0.6465195389405552,
+      "high": 5.5542643350288445,
+      "headroom_low": 0.6465,
+      "headroom_high": 3.4457,
+      "fits": true
+    },
+    {
+      "name": "T_sine_33_40",
+      "rail_v": 9.0,
+      "vpp": 4.683990645275883,
+      "low": 0.7151330282682176,
+      "high": 5.399123673544101,
+      "headroom_low": 0.7151,
+      "headroom_high": 3.6009,
+      "fits": true
+    },
+    {
+      "name": "T_sq10_29_10",
+      "rail_v": 9.0,
+      "vpp": 4.9405737012284625,
+      "low": 2.4635834862083614,
+      "high": 7.404157187436824,
+      "headroom_low": 2.4636,
+      "headroom_high": 1.5958,
+      "fits": true
+    },
+    {
+      "name": "T_sq50_33_10",
+      "rail_v": 9.0,
+      "vpp": 4.925389652673495,
+      "low": 0.5158880697493682,
+      "high": 5.441277722422863,
+      "headroom_low": 0.5159,
+      "headroom_high": 3.5587,
+      "fits": true
+    },
+    {
+      "name": "T_sq50_Q40_six",
+      "rail_v": 9.0,
+      "vpp": 3.9653572121002134,
+      "low": 0.9889377772734435,
+      "high": 4.954294989373657,
+      "headroom_low": 0.9889,
+      "headroom_high": 4.0457,
+      "fits": true
+    },
+    {
+      "name": "T_sq50_TOL_retuned",
+      "rail_v": 9.0,
+      "vpp": 5.6909318733907055,
+      "low": 0.10939334998112639,
+      "high": 5.800325223371832,
+      "headroom_low": 0.1094,
+      "headroom_high": 3.1997,
+      "fits": true
+    },
+    {
+      "name": "T_sq50_TOL_held",
+      "rail_v": 9.0,
+      "vpp": 1.398478218694133,
+      "low": 2.287160883518857,
+      "high": 3.6856391022129897,
+      "headroom_low": 2.2872,
+      "headroom_high": 5.3144,
+      "fits": true
+    },
+    {
+      "name": "T_sq50_Ac20",
+      "rail_v": 9.0,
+      "vpp": 8.661111453627296,
+      "low": 0.03042806037883352,
+      "high": 8.691539514006129,
+      "headroom_low": 0.0304,
+      "headroom_high": 0.3085,
+      "fits": true
+    },
+    {
+      "name": "T_sq10_Ac20",
+      "rail_v": 9.0,
+      "vpp": 7.215796103545903,
+      "low": 1.762602934457461,
+      "high": 8.978399038003364,
+      "headroom_low": 1.7626,
+      "headroom_high": 0.0216,
+      "fits": true
+    },
+    {
+      "name": "T_sq50_QFLOOR_six",
+      "rail_v": 9.0,
+      "vpp": 4.921709274112861,
+      "low": 0.5003688361607527,
+      "high": 5.422078110273614,
+      "headroom_low": 0.5004,
+      "headroom_high": 3.5779,
+      "fits": true
+    },
+    {
+      "name": "T_sq10_QFLOOR_six",
+      "rail_v": 9.0,
+      "vpp": 4.938443219386128,
+      "low": 2.4608119547372085,
+      "high": 7.399255174123337,
+      "headroom_low": 2.4608,
+      "headroom_high": 1.6007,
+      "fits": true
+    },
+    {
+      "name": "T_sq50_TOL_0p95_0p95_six",
+      "rail_v": 9.0,
+      "vpp": 4.488289301080792,
+      "low": 0.7188964021052309,
+      "high": 5.207185703186023,
+      "headroom_low": 0.7189,
+      "headroom_high": 3.7928,
+      "fits": true
+    },
+    {
+      "name": "T_sq50_TOL_1p05_1p05_six",
+      "rail_v": 9.0,
+      "vpp": 5.6920779085984625,
+      "low": 0.10895524551473573,
+      "high": 5.801033154113198,
+      "headroom_low": 0.109,
+      "headroom_high": 3.199,
+      "fits": true
+    }
+  ],
+  "hypothetical_5v": {
+    "rail": 5.0,
+    "reference": 1.6666666666666665,
+    "max_symmetric_swing_vpp": 3.333333333333333,
+    "note": "a 0-5 V single rail with the same 20k/10k divider would centre the output at 1.667 V, so a symmetric square wave is capped near 3.33 Vpp; the reported 5.109 Vpp is arithmetically impossible on 0-5 V. On the 9 V rail actually used the centre is 3.000 V and the same square wave has room for 6.00 Vpp, so there is no contradiction in the netlists as built."
+  },
+  "invalid_run": {
+    "name": "T_sq50_supply5",
+    "reason": "supply was forced to 5 V while the initialisation still imposed .ic v(ref)=3 v(bbin)=3, a state the 5 V divider (1.667 V) cannot reach; the resulting 1.627 Vpp is a contaminated operating point, not a 5 V design result",
+    "verdict": "discarded, not cited anywhere"
+  }
+}

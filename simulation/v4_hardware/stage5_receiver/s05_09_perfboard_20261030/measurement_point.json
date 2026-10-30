@@ -1,0 +1,188 @@
+{
+  "baseline_tank": {
+    "probe_pf": 0.0,
+    "center": 30.998979678004293,
+    "bw": 1.920140906398032,
+    "gain31": 41.21258558232514,
+    "d29": -12.917713871815305,
+    "d33": -12.295937463663279
+  },
+  "rows": [
+    {
+      "probe_pf": 1.0,
+      "buffered_node": {
+        "probe_pf": 1.0,
+        "pole_hz": 159154943.09189537,
+        "droop_db": -0.16171729933476334,
+        "slope_db_per_mhz": -0.010240028316738974,
+        "distortion_29_vs_31_db": 0.019867653086787868,
+        "distortion_33_vs_31_db": -0.021092460180168027
+      },
+      "buffered_metrics": {
+        "gain31_v_v": 40.45237243641203,
+        "gain31_db": 32.13887994088346,
+        "fpeak_mhz": 31.4,
+        "flo_mhz": 30.037046029463543,
+        "fhi_mhz": 31.958462922540036,
+        "center_edges_mhz": 30.99775447600179,
+        "bw_mhz": 1.9214168930764906,
+        "disconnected_3db": false,
+        "relative29_db": -12.897846218728517,
+        "relative33_db": -12.317029923843446,
+        "zin31_ohm": [
+          119.86118628313098,
+          67.56192306502327
+        ],
+        "return_loss50_db": 5.487620225410559,
+        "vswr50": 3.270234438395023
+      },
+      "tank_node": {
+        "probe_pf": 1.0,
+        "center": 30.826713236687535,
+        "bw": 1.807972494668439,
+        "gain31": 45.80584274177991,
+        "d29": -12.812248895569997,
+        "d33": -14.59118567926983
+      },
+      "buffered_bw_error_pct": 0.06645276261793916,
+      "buffered_center_error_mhz": -0.0012252020025016463,
+      "tank_center_error_mhz": -0.17226644131675783,
+      "tank_bw_error_pct": -5.84167606428469,
+      "tank_suppression_error_db_29": 0.10546497624530815
+    },
+    {
+      "probe_pf": 3.0,
+      "buffered_node": {
+        "probe_pf": 3.0,
+        "pole_hz": 53051647.69729845,
+        "droop_db": -1.2757411226997504,
+        "slope_db_per_mhz": -0.07126891656387979,
+        "distortion_29_vs_31_db": 0.1402777199343619,
+        "distortion_33_vs_31_db": -0.14479794632115728
+      },
+      "buffered_metrics": {
+        "gain31_v_v": 35.58302009404282,
+        "gain31_db": 31.024856117518475,
+        "fpeak_mhz": 31.4,
+        "flo_mhz": 30.025863365506336,
+        "fhi_mhz": 31.955025111195486,
+        "center_edges_mhz": 30.990444238350914,
+        "bw_mhz": 1.9291617456891499,
+        "disconnected_3db": false,
+        "relative29_db": -12.777436151880945,
+        "relative33_db": -12.440735409984438,
+        "zin31_ohm": [
+          119.86118628313098,
+          67.56192306502327
+        ],
+        "return_loss50_db": 5.487620225410559,
+        "vswr50": 3.270234438395023
+      },
+      "tank_node": {
+        "probe_pf": 3.0,
+        "center": 30.497391803753114,
+        "bw": 1.704190655366689,
+        "gain31": 43.98029021918054,
+        "d29": -10.026418203475401,
+        "d33": -16.50744655647539
+      },
+      "buffered_bw_error_pct": 0.4698009016452883,
+      "buffered_center_error_mhz": -0.008535439653378774,
+      "tank_center_error_mhz": -0.5015878742511788,
+      "tank_bw_error_pct": -11.246583535186552,
+      "tank_suppression_error_db_29": 2.891295668339904
+    },
+    {
+      "probe_pf": 10.0,
+      "buffered_node": {
+        "probe_pf": 10.0,
+        "pole_hz": 15915494.309189534,
+        "droop_db": -6.806867900561847,
+        "slope_db_per_mhz": -0.22178243497668282,
+        "distortion_29_vs_31_db": 0.4518947974008176,
+        "distortion_33_vs_31_db": -0.43523494250591366
+      },
+      "buffered_metrics": {
+        "gain31_v_v": 18.822897053037607,
+        "gain31_db": 25.493729339656383,
+        "fpeak_mhz": 31.39,
+        "flo_mhz": 29.998338135488755,
+        "fhi_mhz": 31.94686120571125,
+        "center_edges_mhz": 30.972599670600005,
+        "bw_mhz": 1.9485230702224932,
+        "disconnected_3db": false,
+        "relative29_db": -12.46581907441449,
+        "relative33_db": -12.731172406169193,
+        "zin31_ohm": [
+          119.86118628313098,
+          67.56192306502327
+        ],
+        "return_loss50_db": 5.487620225410559,
+        "vswr50": 3.270234438395023
+      },
+      "tank_node": {
+        "probe_pf": 10.0,
+        "center": 29.509033247778884,
+        "bw": 2.3445564286364355,
+        "gain31": 17.055475076197297,
+        "d29": 4.105751673926311,
+        "d33": -13.482538470215912
+      },
+      "buffered_bw_error_pct": 1.4781292211363268,
+      "buffered_center_error_mhz": -0.026380007404288364,
+      "tank_center_error_mhz": -1.4899464302254088,
+      "tank_bw_error_pct": 22.103352979160228,
+      "tank_suppression_error_db_29": 17.023465545741615
+    },
+    {
+      "probe_pf": 15.0,
+      "buffered_node": {
+        "probe_pf": 15.0,
+        "pole_hz": 10610329.539459692,
+        "droop_db": -9.793763002093566,
+        "slope_db_per_mhz": -0.2509891062125904,
+        "distortion_29_vs_31_db": 0.5147732471598694,
+        "distortion_33_vs_31_db": -0.48918317769049224
+      },
+      "buffered_metrics": {
+        "gain31_v_v": 13.345710873763332,
+        "gain31_db": 22.50683423812466,
+        "fpeak_mhz": 31.38,
+        "flo_mhz": 29.993009346421868,
+        "fhi_mhz": 31.94533344777733,
+        "center_edges_mhz": 30.9691713970996,
+        "bw_mhz": 1.9523241013554633,
+        "disconnected_3db": false,
+        "relative29_db": -12.402940624655436,
+        "relative33_db": -12.785120641353773,
+        "zin31_ohm": [
+          119.86118628313098,
+          67.56192306502327
+        ],
+        "return_loss50_db": 5.487620225410559,
+        "vswr50": 3.270234438395023
+      },
+      "tank_node": {
+        "probe_pf": 15.0,
+        "center": 27.850701493984143,
+        "bw": 0.9823597425132766,
+        "gain31": 11.062722189206436,
+        "d29": 0.14008391891300734,
+        "d33": -12.163420947660592
+      },
+      "buffered_bw_error_pct": 1.6760850649134615,
+      "buffered_center_error_mhz": -0.029808280904692452,
+      "tank_center_error_mhz": -3.1482781840201497,
+      "tank_bw_error_pct": -48.83918470566449,
+      "tank_suppression_error_db_29": 13.057797790728312
+    }
+  ],
+  "verdict": "the two nodes are not equally usable and the difference is the whole point. A tank node is disqualified: 10 pF of probe moves the centre by 1.49 MHz, the bandwidth by 22 % and the 29 MHz relative suppression by +17 dB, so the measurement would destroy the thing it measures. The buffered rf node is conditionally usable: the same 10 pF probe pulls it 6.81 dB down at 31 MHz, but because that is a smooth 1 kOhm||C pole the bandwidth error is only +1.5 % and the 29-vs-31 MHz relative error is 0.45 dB. So shape and relative suppression survive at the buffered node; ABSOLUTE amplitude does not, and must be corrected or reported as a relative quantity only.",
+  "absolute_vs_relative": "do not quote a measured Vpp or gain in dB from a passive probe at the buffered node without stating the droop. With a 10 pF probe the honest number at 31 MHz is 6.81 dB below the true value; with a 3 pF probe it is 1.28 dB.",
+  "what_changes_the_answer": [
+    "an active probe at 1-3 pF: droop falls to 0.16-1.28 dB and the relative error to 0.02-0.14 dB, which makes the absolute reading defensible too",
+    "a dedicated on-board test buffer with a 50 Ohm output driven into a 50 Ohm scope input; this is a measurement fixture and must be documented as such, never counted as part of the receiver",
+    "a spectrum analyser or VNA with a high-impedance probe, which avoids the problem but is equipment the project does not have"
+  ],
+  "honest_note": "this replaces an earlier draft conclusion in this same script that claimed the buffered node was safe. The computed pole shows it is not; the claim was withdrawn before it reached the report."
+}

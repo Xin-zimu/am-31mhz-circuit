@@ -1,0 +1,200 @@
+{
+  "stage": "S05-09",
+  "file_count": 38,
+  "files": [
+    {
+      "path": "audit_stage.py",
+      "bytes": 2036,
+      "sha256": "b9963333065cafe6289b7230d1c90576c3ce5159bd956b93bfad09eef42cab91"
+    },
+    {
+      "path": "check_point.py",
+      "bytes": 5882,
+      "sha256": "6e71a216147092fa5b1cf6890c282df008f489ac2c3145e9807fd1d85f5d50a0"
+    },
+    {
+      "path": "check_probe.py",
+      "bytes": 2574,
+      "sha256": "2fa2bdf14a046c12572fa94c29db1af504db4fcada44ba5fbde79e28ecfefb01"
+    },
+    {
+      "path": "check_supply.py",
+      "bytes": 4662,
+      "sha256": "e18f92be7697e5e39861d4865a03bbec5a9ea92bdf0c1b15d98a896cfc377da2"
+    },
+    {
+      "path": "filters/QBRACK_50.cir",
+      "bytes": 433,
+      "sha256": "ab69ce085b058e771783a5d5a89d541f1be9a6afab18c98f3742eccb8d10d30f"
+    },
+    {
+      "path": "filters/QBRACK_55.cir",
+      "bytes": 434,
+      "sha256": "4d974ae6f6cbef218440ecf864c77d4a762604223b3029b9aa7523b8485b702d"
+    },
+    {
+      "path": "filters/QBRACK_60.cir",
+      "bytes": 434,
+      "sha256": "e1040e4af536114b6a47a0d0f081b51c94768bfb570bf37df97c19c5cde0770c"
+    },
+    {
+      "path": "measurement_point.json",
+      "bytes": 7847,
+      "sha256": "3fd9590923997d61c9ed57cbfa91be5582332df70ba402bd5bcaab2b1709ed20"
+    },
+    {
+      "path": "netlists/T_sq50_q50_six.cir",
+      "bytes": 451,
+      "sha256": "2a582209078332008bb057088642d5160467a55d41f2c653dad1227bbe458c53"
+    },
+    {
+      "path": "netlists/T_sq50_q50_six_RFopen.cir",
+      "bytes": 1999,
+      "sha256": "2b89fca50aef30156d75b5bdcd963338aa24cae0789d26cac3a00f08b904e0dd"
+    },
+    {
+      "path": "netlists/T_sq50_q50_six_source.cir",
+      "bytes": 6885,
+      "sha256": "bcaedb894be12d2db87005304cdede8b77724c77bc1bf8f834a7a5951d863a4f"
+    },
+    {
+      "path": "netlists/T_sq50_q55_six.cir",
+      "bytes": 451,
+      "sha256": "3d334dd87ff1ace57cf773f7825fdc661435e63a2cb478ae41fe67910c28c94b"
+    },
+    {
+      "path": "netlists/T_sq50_q55_six_RFopen.cir",
+      "bytes": 2000,
+      "sha256": "4b9b4b1bf4584607c4a4fa76560b24cabaccf89106a4f8d559f509a03ec60233"
+    },
+    {
+      "path": "netlists/T_sq50_q55_six_source.cir",
+      "bytes": 6886,
+      "sha256": "bb44c77eb89a40513a58d6fa9ad0c708fb1cad3b0ad43274aa4db4f5db078660"
+    },
+    {
+      "path": "netlists/T_sq50_q60_six.cir",
+      "bytes": 451,
+      "sha256": "297de9c54bd67d09b1f29b4cc4d031fcf4769e3a8d0e194198578e97e886f15f"
+    },
+    {
+      "path": "netlists/T_sq50_q60_six_RFopen.cir",
+      "bytes": 2000,
+      "sha256": "5a1817bd4db6246f000c4159bed8601eecd9ae23baddda9d769fb835b3358390"
+    },
+    {
+      "path": "netlists/T_sq50_q60_six_source.cir",
+      "bytes": 6886,
+      "sha256": "f6fc33024714c2ff8f98e4ef2158a1a31eda4705319d6c301707082b6d1a3b2a"
+    },
+    {
+      "path": "netlists/T_sq50_supply5.cir",
+      "bytes": 451,
+      "sha256": "315c549da28b65b1d6810cedaa8407a14727def112e363559f6550350f7c8ff7"
+    },
+    {
+      "path": "netlists/T_sq50_supply5_RFopen.cir",
+      "bytes": 1999,
+      "sha256": "e9655a7c3f44b2289a952325c36525935b4c31518ef39bf31d7e02d7ba89fd82"
+    },
+    {
+      "path": "netlists/T_sq50_supply5_source.cir",
+      "bytes": 6886,
+      "sha256": "4f8cc1aef6b44560767635dc59e674d7a8e57021da08e0dffb2cebc77502194f"
+    },
+    {
+      "path": "probe_loading.json",
+      "bytes": 3255,
+      "sha256": "a2ab2c3bf72d58d4eb256c1b3c31e9b89686f48ad04d9b8bc20b28254581d081"
+    },
+    {
+      "path": "results/T_sq50_q50_six.json",
+      "bytes": 22761,
+      "sha256": "25270549fd0f87bcba7f347ea8f72a4cad4adc05c67bf13eaf38b58d49b82ee9"
+    },
+    {
+      "path": "results/T_sq50_q50_six.log",
+      "bytes": 9998,
+      "sha256": "a1720a5a66d5425d99c0ba91b482561dbea2082cc11847fd09d1fb007fb1caed"
+    },
+    {
+      "path": "results/T_sq50_q50_six_RFopen.json",
+      "bytes": 14660,
+      "sha256": "4c12a0764204adbc6aaf10bd55be19ba44253bee279a17f5bc4ddda2a3b68ec1"
+    },
+    {
+      "path": "results/T_sq50_q50_six_RFopen.log",
+      "bytes": 1933,
+      "sha256": "e307567a55e2dec23cd9afd99993a52be0aad0fff7221147d812c0dcc9e88db1"
+    },
+    {
+      "path": "results/T_sq50_q55_six.json",
+      "bytes": 22797,
+      "sha256": "0481ea9a2d3a4eae66305b9ea999e2d7fa5f3dc2a9430064c5ea2c46b2d352f6"
+    },
+    {
+      "path": "results/T_sq50_q55_six.log",
+      "bytes": 9998,
+      "sha256": "839e90d0bcb6a6f5670bb571b8b772e7593bb79fb0de05184ac2dff9ab5172d9"
+    },
+    {
+      "path": "results/T_sq50_q55_six_RFopen.json",
+      "bytes": 14648,
+      "sha256": "665b44c56f7a7d34ab010e7d75ea12cbf88e5b9f88cb4116afa9568ee7accdd3"
+    },
+    {
+      "path": "results/T_sq50_q55_six_RFopen.log",
+      "bytes": 1933,
+      "sha256": "648cdaf442c74732b4eb413bf7cce5a01bd283967965ae5213e00b6814907093"
+    },
+    {
+      "path": "results/T_sq50_q60_six.json",
+      "bytes": 22800,
+      "sha256": "a0fe6f35a2ae407ff94a039bb4ae569a67ea3164d859c11ab5f26ad042db16f7"
+    },
+    {
+      "path": "results/T_sq50_q60_six.log",
+      "bytes": 9998,
+      "sha256": "9bef425bb28e170008d12e1e4daad1e307b24b00f88e4f3be17a586d5ba17b97"
+    },
+    {
+      "path": "results/T_sq50_q60_six_RFopen.json",
+      "bytes": 14659,
+      "sha256": "185831a6e5036f440edc52a669fea56cb46bc3d3ee7171cf9d3f0a89ad8f39f8"
+    },
+    {
+      "path": "results/T_sq50_q60_six_RFopen.log",
+      "bytes": 1933,
+      "sha256": "8b7b97dbd25c2c5696eec7afe51c8b594b417d7b4f70b89d871e75888972d48b"
+    },
+    {
+      "path": "results/T_sq50_supply5.json",
+      "bytes": 22661,
+      "sha256": "85228301896e8717a8979249f4c4503e5f93316c4d2b91bda027e2da0f161edb"
+    },
+    {
+      "path": "results/T_sq50_supply5.log",
+      "bytes": 9998,
+      "sha256": "7e346e674078ad8b9eeb2d3b5914fb77a0b9ba61b8cc8f4cd65a2e1273397e0a"
+    },
+    {
+      "path": "results/T_sq50_supply5_RFopen.json",
+      "bytes": 14692,
+      "sha256": "152668fc8e76ce801e3b467032b2bff89c386b169580a9db98530694e2e6f312"
+    },
+    {
+      "path": "results/T_sq50_supply5_RFopen.log",
+      "bytes": 1933,
+      "sha256": "559e731da2239842a3244f9e43f446dd88a9e66e12cc9f8528ff480b8b13b64f"
+    },
+    {
+      "path": "supply_audit.json",
+      "bytes": 6237,
+      "sha256": "1042f3142d32a596356fdf8bef7a202d3d6dfaa92050e39fae165bacfdecbd47"
+    }
+  ],
+  "ngspice_results_verified": 8,
+  "ngspice_failures": [],
+  "s05_08_baseline_dirty": [],
+  "note": "lc_parts_20261030 is the committed S05-08 baseline; S05-09 artifacts were initially written there by mistake and were moved out before this audit, which is why the dirty list must be empty"
+}
