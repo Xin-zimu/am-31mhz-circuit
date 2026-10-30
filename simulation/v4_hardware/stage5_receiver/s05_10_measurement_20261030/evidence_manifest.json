@@ -1,0 +1,26 @@
+{
+  "files": {
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\audit.json": "10baae265adc76a749ed61eb39805a9644522d9bf70c679b2e8657fbf3e397ec",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\audit_stage.py": "648185b4c6f40f500821e8deb083a114e181a0f84fb87d3969ac4b302493daf2",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\check_interfaces.py": "c70bb112aa2f9758de451761ebbea5375c20b687072886b8c8016e7308c0368a",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\failures\\preflight_reader_type.json": "ea230ef1f1e3dc866b0fa6f32e1d8c166f9181487189431b2bf2087d131597fc",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\history_manifest.json": "78838b39a386b2458529c89382631f273a088e9f14e87cc43072c6485dbf3966",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\interface_results.json": "d52db16ec5aebf127585f2551fc98e733c7182080983cff8a582f0c36312878a",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\netlists\\PORT_LOAD_953_14p.cir": "723a5a2d6daed337991b0b19d97140330728c820fc909d986ec7e676153fb76f",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\netlists\\RF_ADD_10p.cir": "269c9297bc211e5e750c325129e8de603c2fbe0594d560a81667eb405fd28f4a",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\netlists\\RF_ADD_1p.cir": "6b7d2c82b51993571656a946d5a678795c37cbb64ba6bf5a1f9f55e02ba4c99a",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\netlists\\RF_ADD_3p.cir": "aac59948dcb4184d01db9f14471e53c0791680a0d3a54f78adc5f3f8e41702b4",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\results\\PORT_LOAD_953_14p.json": "d02356befb147d71c14abebfd022ea5e1a36e418b9eccf1252d25f460d7ecef4",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\results\\PORT_LOAD_953_14p.log": "13a7df12f3ece371402091b0b352c3e949d92f9d18481c9aec9c6fda58cc5b87",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\results\\RF_ADD_10p.json": "6a6653a142d496af91facf8c850a2a68c56e3e2352ef3658b4da0d7679777ad7",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\results\\RF_ADD_10p.log": "3e71d2ae8f2c9031527cb570e21b7d561470fe4328321e2939175029d9e1f2be",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\results\\RF_ADD_1p.json": "8b7ac2c506a70a28593bee5c6bbcdf0e965ebd9753764a7653f0fc047b85837c",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\results\\RF_ADD_1p.log": "07696f1d6f2478336fa0cd5ad0e3f87e08cdda667e490a18dad45414eacb0ecb",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\results\\RF_ADD_3p.json": "53afbb7dfefb61d5af90db46fa0d33292699d1865afa9f95e581cf998351db26",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\results\\RF_ADD_3p.log": "840d6e066884718f43b5351258f94bb903718feefda8c106f106a92dd8f3b753",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\分阶段器件清单.md": "e1e49f93e7278c72c979b29cd69c0f6b4dafcd5571faae2f4457be78c59be3ed",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\加载扫频记录表.md": "5bc93f5e613400159792d3e8642f02f72413836ff5b7dbc74ba29a3bf2f3cae4",
+    "simulation\\v4_hardware\\stage5_receiver\\s05_10_measurement_20261030\\接口校核与勘误.md": "7a48042f22f558ed22705b79413d84d080fdd1eb649cb31a366cd301fb5a80b9",
+    "simulation\\v4_hardware\\stage5_receiver\\S05_10_实物实施前检查与LC测量准备.md": "5ad34ec2365da5581c565173d0e5c5fef8b14e52d07df516709d7a335a81412e"
+  }
+}

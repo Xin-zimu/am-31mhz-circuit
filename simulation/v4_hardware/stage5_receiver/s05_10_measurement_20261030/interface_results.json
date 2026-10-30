@@ -1,0 +1,255 @@
+{
+  "kind": "Small-signal AC only; no hardware or buffer stability qualification",
+  "git_head": "1ed155cf9e89a98af7193cc13a5ca8fe6de89fa3",
+  "historical_files_checked": 2752,
+  "baseline_raw_path": "D:\\ms_xsp\\s05_parts_20261030\\NOM_132.raw",
+  "baseline_raw_sha256": "93843951688564aa88488236ded06e12c652a2fd63bf945eca8e3e3265244d27",
+  "baseline_rf": {
+    "gain31_v_v": 41.21258558225211,
+    "gain31_db": 32.30059724020283,
+    "fpeak_mhz": 31.4,
+    "flo_mhz": 30.038909224807966,
+    "fhi_mhz": 31.95905013120164,
+    "center_edges_mhz": 30.9989796780048,
+    "bw_mhz": 1.9201409063936732,
+    "disconnected_3db": false,
+    "relative29_db": -12.917713871774543,
+    "relative33_db": -12.295937463655635,
+    "zin31_ohm": [
+      119.8611862830502,
+      67.56192306537538
+    ],
+    "return_loss50_db": 5.487620225396487,
+    "vswr50": 3.270234438402876
+  },
+  "baseline_port": {
+    "gain31_v_v": 1.1964720568831175,
+    "gain31_db": 1.5580512059481126,
+    "fpeak_mhz": 31.42,
+    "flo_mhz": 30.084972836650216,
+    "fhi_mhz": 31.972388928107723,
+    "center_edges_mhz": 31.028680882378968,
+    "bw_mhz": 1.8874160914575084,
+    "disconnected_3db": false,
+    "relative29_db": -13.4130912817813,
+    "relative33_db": -11.823381916360363,
+    "zin31_ohm": [
+      119.8611862830502,
+      67.56192306537538
+    ],
+    "return_loss50_db": 5.487620225396487,
+    "vswr50": 3.270234438402876
+  },
+  "probe_at_rf": [
+    {
+      "probe_pf": 1,
+      "probe_r_ohm": 1000000.0,
+      "metrics": {
+        "gain31_v_v": 41.27503810985407,
+        "gain31_db": 32.31374965851089,
+        "fpeak_mhz": 31.4,
+        "flo_mhz": 30.040481895028464,
+        "fhi_mhz": 31.959056392761003,
+        "center_edges_mhz": 30.99976914389473,
+        "bw_mhz": 1.9185744977325387,
+        "disconnected_3db": false,
+        "relative29_db": -12.927071548890346,
+        "relative33_db": -12.298691983652649,
+        "zin31_ohm": [
+          120.05190244872942,
+          67.6934212522885
+        ],
+        "return_loss50_db": 5.477944065238232,
+        "vswr50": 3.2756441352793866
+      },
+      "delta_vs_archived": {
+        "center_khz": 0.7894658899303408,
+        "bandwidth_khz": -1.566408661134444,
+        "gain31_db": 0.013152418308060021,
+        "relative29_db": -0.009357677115803043,
+        "relative33_db": -0.0027545199970138157
+      }
+    },
+    {
+      "probe_pf": 3,
+      "probe_r_ohm": 1000000.0,
+      "metrics": {
+        "gain31_v_v": 41.40063741257674,
+        "gain31_db": 32.34014055315892,
+        "fpeak_mhz": 31.41,
+        "flo_mhz": 30.043696545120365,
+        "fhi_mhz": 31.95903365057837,
+        "center_edges_mhz": 31.00136509784937,
+        "bw_mhz": 1.9153371054580026,
+        "disconnected_3db": false,
+        "relative29_db": -12.945826518688735,
+        "relative33_db": -12.30449407730033,
+        "zin31_ohm": [
+          120.43737508868216,
+          67.9573238871957
+        ],
+        "return_loss50_db": 5.458573081929341,
+        "vswr50": 3.286533493846081
+      },
+      "delta_vs_archived": {
+        "center_khz": 2.385419844568304,
+        "bandwidth_khz": -4.803800935670566,
+        "gain31_db": 0.039543312956084264,
+        "relative29_db": -0.028112646914191686,
+        "relative33_db": -0.008556613644694622
+      }
+    },
+    {
+      "probe_pf": 10,
+      "probe_r_ohm": 1000000.0,
+      "metrics": {
+        "gain31_v_v": 41.833360166757025,
+        "gain31_db": 32.43045499339208,
+        "fpeak_mhz": 31.41,
+        "flo_mhz": 30.05512412202526,
+        "fhi_mhz": 31.958545929355598,
+        "center_edges_mhz": 31.006835025690428,
+        "bw_mhz": 1.9034218073303402,
+        "disconnected_3db": false,
+        "relative29_db": -13.012102220766867,
+        "relative33_db": -12.32951789600629,
+        "zin31_ohm": [
+          121.84449644825895,
+          68.86813580126638
+        ],
+        "return_loss50_db": 5.391261270122969,
+        "vswr50": 3.325001054299758
+      },
+      "delta_vs_archived": {
+        "center_khz": 7.855347685627123,
+        "bandwidth_khz": -16.71909906333302,
+        "gain31_db": 0.12985775318924908,
+        "relative29_db": -0.0943883489923234,
+        "relative33_db": -0.03358043235065544
+      }
+    }
+  ],
+  "extracted_port_load": [
+    {
+      "f_mhz": 28,
+      "parallel_r_ohm": 999.6612759670227,
+      "parallel_c_pf": 14.218277286109988
+    },
+    {
+      "f_mhz": 29,
+      "parallel_r_ohm": 985.6679032085754,
+      "parallel_c_pf": 14.139534355160148
+    },
+    {
+      "f_mhz": 31,
+      "parallel_r_ohm": 957.9757158712146,
+      "parallel_c_pf": 14.004207357597512
+    },
+    {
+      "f_mhz": 33,
+      "parallel_r_ohm": 930.5780696914825,
+      "parallel_c_pf": 13.892225318657076
+    },
+    {
+      "f_mhz": 34,
+      "parallel_r_ohm": 916.9740366393897,
+      "parallel_c_pf": 13.843182109753407
+    }
+  ],
+  "passive_port_fixture": [
+    {
+      "total_pf": 13.0,
+      "metrics": {
+        "gain31_v_v": 1.1910335148875602,
+        "gain31_db": 1.518479648227144,
+        "fpeak_mhz": 31.45,
+        "flo_mhz": 30.084110555268655,
+        "fhi_mhz": 32.02167167579577,
+        "center_edges_mhz": 31.052891115532216,
+        "bw_mhz": 1.9375611205271184,
+        "disconnected_3db": false,
+        "relative29_db": -13.21326949591697,
+        "relative33_db": -11.249738793958219,
+        "zin31_ohm": [
+          112.78593648478015,
+          73.28964973479962
+        ],
+        "return_loss50_db": 5.342802734319225,
+        "vswr50": 3.353313744294797
+      },
+      "delta_vs_original_port": {
+        "center_khz": 24.210233153247884,
+        "bandwidth_khz": 50.14502906960993,
+        "gain31_db": -0.03957155772096854,
+        "relative29_db": 0.19982178586433008,
+        "relative33_db": 0.5736431224021441
+      }
+    },
+    {
+      "total_pf": 14.0,
+      "metrics": {
+        "gain31_v_v": 1.1947006027220395,
+        "gain31_db": 1.545181655859293,
+        "fpeak_mhz": 31.42,
+        "flo_mhz": 30.087071299187425,
+        "fhi_mhz": 31.97256123805366,
+        "center_edges_mhz": 31.029816268620543,
+        "bw_mhz": 1.8854899388662354,
+        "disconnected_3db": false,
+        "relative29_db": -13.388587825448042,
+        "relative33_db": -11.839664053416776,
+        "zin31_ohm": [
+          119.57872320280661,
+          67.34302991993799
+        ],
+        "return_loss50_db": 5.5030955947123426,
+        "vswr50": 3.261623397179734
+      },
+      "delta_vs_original_port": {
+        "center_khz": 1.1353862415752758,
+        "bandwidth_khz": -1.9261525912730448,
+        "gain31_db": -0.012869550088819626,
+        "relative29_db": 0.024503456333258455,
+        "relative33_db": -0.016282137056412793
+      }
+    },
+    {
+      "total_pf": 15.0,
+      "metrics": {
+        "gain31_v_v": 1.1966163702210109,
+        "gain31_db": 1.559098797598772,
+        "fpeak_mhz": 31.39,
+        "flo_mhz": 30.08709950878107,
+        "fhi_mhz": 31.92764968260883,
+        "center_edges_mhz": 31.00737459569495,
+        "bw_mhz": 1.8405501738277636,
+        "disconnected_3db": false,
+        "relative29_db": -13.548846807037286,
+        "relative33_db": -12.390081813286436,
+        "zin31_ohm": [
+          125.51451972959262,
+          60.02274767276323
+        ],
+        "return_loss50_db": 5.679359513325562,
+        "vswr50": 3.1669647939324506
+      },
+      "delta_vs_original_port": {
+        "center_khz": -21.30628668401613,
+        "bandwidth_khz": -46.86591762974479,
+        "gain31_db": 0.001047591650659374,
+        "relative29_db": -0.1357555252559859,
+        "relative33_db": -0.5666998969260728
+      }
+    }
+  ],
+  "passive_spice_crosscheck_max_relative_error": 6.959780958078848e-12,
+  "new_ac_cases": 4,
+  "transient_cases": 0,
+  "limits": [
+    "Probe capacitance is lumped; no probe transfer/ground lead model",
+    "RF reference already contains RRF=1k and RTEST=2k || CTEST=10p",
+    "953 ohm || 14pF approximates Q1 input; it is not a 50 ohm port",
+    "13/15p are sensitivity calculations, not additional SPICE simulations",
+    "No specific test-buffer device model, loop gain or hardware was tested"
+  ]
+}

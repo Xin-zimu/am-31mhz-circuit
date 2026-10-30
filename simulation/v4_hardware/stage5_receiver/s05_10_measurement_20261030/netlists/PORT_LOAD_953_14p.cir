@@ -1,0 +1,31 @@
+* S05 selection fixture; not wireless qualification
+VIN src 0 DC 0 AC 1
+RSOURCE src input 50.0
+* S05-08 purchasable-part loaded fixture; original active stages unchanged
+CSEL input tank1 15p
+CK tank1 tank2 2.4p
+COUT tank2 port 11p
+RPORT port 0 1Meg
+RCT1 tank1 ctl1 0.0956473805069
+CTUNE1 ctl1 0 41.609801788p
+RLOSS1 tank1 ln1 1.21911483406
+LSEL1 ln1 0 460n
+CSELF1 tank1 0 0.476348275737p
+RCT2 tank2 ctl2 0.0844103201462
+CTUNE2 ctl2 0 47.1490753446p
+RLOSS2 tank2 ln2 1.21911483406
+LSEL2 ln2 0 460n
+CSELF2 tank2 0 0.476348275737p
+* Passive emulator includes RPORT=1Meg above
+RLOAD port 0 953
+RPROBE port 0 1Meg
+CEXT port 0 11p
+CPROBE port 0 3p
+.control
+set filetype=binary
+save all
+ac lin 2401 20meg 44meg
+write D:/ms_xsp/s05_measurement_20261030/PORT_LOAD_953_14p.raw
+quit
+.endc
+.end

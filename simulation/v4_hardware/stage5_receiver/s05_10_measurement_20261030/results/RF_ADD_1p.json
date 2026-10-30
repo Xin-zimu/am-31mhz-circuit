@@ -1,0 +1,28 @@
+{
+  "name": "RF_ADD_1p",
+  "node": "rf",
+  "net_sha256": "6b7d2c82b51993571656a946d5a678795c37cbb64ba6bf5a1f9f55e02ba4c99a",
+  "raw_sha256": "729cbbc0cae5f4335a910451a1eb270f66825008509a5943024bdd57527bf7d3",
+  "raw_path": "D:\\ms_xsp\\s05_measurement_20261030\\RF_ADD_1p.raw",
+  "log_sha256": "07696f1d6f2478336fa0cd5ad0e3f87e08cdda667e490a18dad45414eacb0ecb",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "elapsed_s": 0.8380523999985598,
+  "metrics": {
+    "gain31_v_v": 41.27503810985407,
+    "gain31_db": 32.31374965851089,
+    "fpeak_mhz": 31.4,
+    "flo_mhz": 30.040481895028464,
+    "fhi_mhz": 31.959056392761003,
+    "center_edges_mhz": 30.99976914389473,
+    "bw_mhz": 1.9185744977325387,
+    "disconnected_3db": false,
+    "relative29_db": -12.927071548890346,
+    "relative33_db": -12.298691983652649,
+    "zin31_ohm": [
+      120.05190244872942,
+      67.6934212522885
+    ],
+    "return_loss50_db": 5.477944065238232,
+    "vswr50": 3.2756441352793866
+  }
+}

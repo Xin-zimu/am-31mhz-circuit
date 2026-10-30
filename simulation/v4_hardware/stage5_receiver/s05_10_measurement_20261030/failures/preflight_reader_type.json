@@ -1,0 +1,7 @@
+{
+  "stage": "preflight, before any simulator invocation",
+  "error": "AttributeError: 'str' object has no attribute 'open'",
+  "cause": "Historical readraw API expects pathlib.Path, caller supplied JSON string path",
+  "resolution": "Wrap raw path with Path; no circuit parameters changed",
+  "valid_simulation_data": false
+}

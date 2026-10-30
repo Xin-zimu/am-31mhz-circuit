@@ -1,0 +1,15 @@
+{
+  "git_head": "1ed155cf9e89a98af7193cc13a5ca8fe6de89fa3",
+  "historical_files_unchanged": 2752,
+  "new_ac_cases": 4,
+  "transient_cases": 0,
+  "simulations_run_by_audit": 0,
+  "independent_reduction_max_absolute_error": 4.8405723873656825e-14,
+  "local_document_links_checked": 19,
+  "git_diff_check": "pass",
+  "hardware_measurements": 0,
+  "buffer_device_qualified": false,
+  "retained_failures": [
+    "preflight_reader_type.json"
+  ]
+}

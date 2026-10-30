@@ -1,0 +1,28 @@
+{
+  "name": "PORT_LOAD_953_14p",
+  "node": "port",
+  "net_sha256": "723a5a2d6daed337991b0b19d97140330728c820fc909d986ec7e676153fb76f",
+  "raw_sha256": "848e1957584d158cbe662a534245e0c757550d70612c74dbcc392e67debd4cc6",
+  "raw_path": "D:\\ms_xsp\\s05_measurement_20261030\\PORT_LOAD_953_14p.raw",
+  "log_sha256": "13a7df12f3ece371402091b0b352c3e949d92f9d18481c9aec9c6fda58cc5b87",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "elapsed_s": 0.07185790000221459,
+  "metrics": {
+    "gain31_v_v": 1.1947006027196572,
+    "gain31_db": 1.5451816558419726,
+    "fpeak_mhz": 31.42,
+    "flo_mhz": 30.08707129918886,
+    "fhi_mhz": 31.972561238051444,
+    "center_edges_mhz": 31.029816268620152,
+    "bw_mhz": 1.8854899388625845,
+    "disconnected_3db": false,
+    "relative29_db": -13.388587825407615,
+    "relative33_db": -11.83966405340538,
+    "zin31_ohm": [
+      119.57872320271996,
+      67.34302992026426
+    ],
+    "return_loss50_db": 5.503095594699474,
+    "vswr50": 3.2616233971868738
+  }
+}
