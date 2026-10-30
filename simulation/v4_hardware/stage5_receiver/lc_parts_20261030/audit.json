@@ -1,0 +1,58 @@
+{
+  "results_verified": 63,
+  "results_failed": 0,
+  "failures": [],
+  "historical_directories": {
+    "lc_realization_20261030": {
+      "file_count": 208,
+      "aggregate_sha256": "21be677ed084a656280f354a8e6316630c63988d0dc638b5226d7b17d803ab0b"
+    },
+    "gain_20261030": {
+      "file_count": 522,
+      "aggregate_sha256": "60ebc8eebe12a2071172e781a7005885cabc3cfd4d3edecfa0b1711a426f682d"
+    },
+    "blocker_20261029": {
+      "file_count": 558,
+      "aggregate_sha256": "7ce896354f61c4b2c4589a8da29341429f1e8c075c24265d36712df336ced479"
+    },
+    "selectivity_20261029": {
+      "file_count": 501,
+      "aggregate_sha256": "55c9576369ed0dd1304c43b7c1d14175171988a653346be97189692bb1e7349c"
+    }
+  },
+  "git": {
+    "lc_realization_20261030": {
+      "dirty_lines": []
+    },
+    "gain_20261030": {
+      "dirty_lines": []
+    },
+    "head_at_audit_time": "16cba77f19dc0e76094613a76d9a05bf9b28637a",
+    "baseline_commit": "d05fe679f7f7d7d244935c8919fba90537e0a846",
+    "baseline_note": "S05-07 commit; fixed reference, does not move with amends of this stage"
+  },
+  "note": "historical aggregate hashes pin the S05-05/06/07 evidence this stage read; this script only reads them. git status is the independent check.",
+  "solvers": {
+    "note": "run_lc four-node analytic (S05-07) vs S05-08 eight-node MNA at k=0",
+    "max_relative_signal_error": 3.956085378619769e-13,
+    "max_relative_impedance_error": 8.574473492793189e-13,
+    "reference_metrics": {
+      "gain31_v_v": 37.614564003450695,
+      "gain31_db": 31.50712064412346,
+      "fpeak_mhz": 31.29,
+      "flo_mhz": 30.040607250665285,
+      "fhi_mhz": 31.95940725089827,
+      "center_edges_mhz": 31.000007250781774,
+      "bw_mhz": 1.9188000002329835,
+      "disconnected_3db": false,
+      "relative29_db": -12.58862753481421,
+      "relative33_db": -11.80154994162493,
+      "zin31_ohm": [
+        113.22814079290569,
+        44.97828013263734
+      ],
+      "return_loss50_db": 6.777169050629023,
+      "vswr50": 2.69202072110358
+    }
+  }
+}

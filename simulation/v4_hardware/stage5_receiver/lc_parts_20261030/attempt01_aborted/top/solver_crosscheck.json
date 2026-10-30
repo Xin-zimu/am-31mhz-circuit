@@ -1,0 +1,5 @@
+{
+  "note": "4-node run_lc solver vs 8-node MNA with explicit mutual branch at k=0",
+  "max_relative_signal_error": 3.952491974541951e-13,
+  "max_relative_impedance_error": 8.563022285124287e-13
+}

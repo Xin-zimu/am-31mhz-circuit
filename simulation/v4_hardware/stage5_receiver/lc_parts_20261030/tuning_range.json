@@ -1,0 +1,317 @@
+{
+  "board": {
+    "tank1": "30 pF C0G + 2..18 pF trimmer = 32..48 pF",
+    "tank2": "39 pF C0G + 2..18 pF trimmer = 41..57 pF"
+  },
+  "trimmer_range_pf": [
+    2.0,
+    18.0
+  ],
+  "rows": [
+    {
+      "case": "NOM_132",
+      "part": "132-17L",
+      "total_c1_pf": 41.61,
+      "total_c2_pf": 47.149,
+      "trimmer1_pf": 11.61,
+      "trimmer2_pf": 8.149,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.39,
+      "margin2_pf": 6.149
+    },
+    {
+      "case": "NOM_132_Rfreq",
+      "part": "132-17L",
+      "total_c1_pf": 41.61,
+      "total_c2_pf": 47.149,
+      "trimmer1_pf": 11.61,
+      "trimmer2_pf": 8.149,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.39,
+      "margin2_pf": 6.149
+    },
+    {
+      "case": "Q_FLOOR66",
+      "part": "132-17L",
+      "total_c1_pf": 41.558,
+      "total_c2_pf": 47.185,
+      "trimmer1_pf": 11.558,
+      "trimmer2_pf": 8.185,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.442,
+      "margin2_pf": 6.185
+    },
+    {
+      "case": "Q_OPT80",
+      "part": "132-17L",
+      "total_c1_pf": 41.642,
+      "total_c2_pf": 47.127,
+      "trimmer1_pf": 11.642,
+      "trimmer2_pf": 8.127,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.358,
+      "margin2_pf": 6.127
+    },
+    {
+      "case": "Q_PESS40",
+      "part": "132-17L",
+      "total_c1_pf": 40.986,
+      "total_c2_pf": 47.586,
+      "trimmer1_pf": 10.986,
+      "trimmer2_pf": 8.586,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 7.014,
+      "margin2_pf": 6.586
+    },
+    {
+      "case": "CT_Q400",
+      "part": "132-17L",
+      "total_c1_pf": 41.549,
+      "total_c2_pf": 47.173,
+      "trimmer1_pf": 11.549,
+      "trimmer2_pf": 8.173,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.451,
+      "margin2_pf": 6.173
+    },
+    {
+      "case": "CT_Q200",
+      "part": "132-17L",
+      "total_c1_pf": 41.45,
+      "total_c2_pf": 47.215,
+      "trimmer1_pf": 11.45,
+      "trimmer2_pf": 8.215,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.55,
+      "margin2_pf": 6.215
+    },
+    {
+      "case": "STRAY_p1p",
+      "part": "132-17L",
+      "total_c1_pf": 42.61,
+      "total_c2_pf": 48.149,
+      "trimmer1_pf": 12.61,
+      "trimmer2_pf": 9.149,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 5.39,
+      "margin2_pf": 7.149
+    },
+    {
+      "case": "STRAY_p1p_RETUNED",
+      "part": "132-17L",
+      "total_c1_pf": 41.61,
+      "total_c2_pf": 47.149,
+      "trimmer1_pf": 11.61,
+      "trimmer2_pf": 8.149,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.39,
+      "margin2_pf": 6.149
+    },
+    {
+      "case": "MUT_m03",
+      "part": "132-17L",
+      "total_c1_pf": 41.61,
+      "total_c2_pf": 47.149,
+      "trimmer1_pf": 11.61,
+      "trimmer2_pf": 8.149,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.39,
+      "margin2_pf": 6.149
+    },
+    {
+      "case": "MUT_m03_RETUNED",
+      "part": "132-17L",
+      "total_c1_pf": 41.25,
+      "total_c2_pf": 49.124,
+      "trimmer1_pf": 11.25,
+      "trimmer2_pf": 10.124,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.75,
+      "margin2_pf": 7.876
+    },
+    {
+      "case": "MUT_p03",
+      "part": "132-17L",
+      "total_c1_pf": 41.61,
+      "total_c2_pf": 47.149,
+      "trimmer1_pf": 11.61,
+      "trimmer2_pf": 8.149,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.39,
+      "margin2_pf": 6.149
+    },
+    {
+      "case": "MUT_p03_RETUNED",
+      "part": "132-17L",
+      "total_c1_pf": 44.865,
+      "total_c2_pf": 46.633,
+      "trimmer1_pf": 14.865,
+      "trimmer2_pf": 7.633,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 3.135,
+      "margin2_pf": 5.633
+    },
+    {
+      "case": "TOL_0p95_0p95_HELD",
+      "part": "132-17L",
+      "total_c1_pf": 41.379,
+      "total_c2_pf": 47.316,
+      "trimmer1_pf": 11.379,
+      "trimmer2_pf": 8.316,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.621,
+      "margin2_pf": 6.316
+    },
+    {
+      "case": "TOL_0p95_0p95",
+      "part": "132-17L",
+      "total_c1_pf": 44.974,
+      "total_c2_pf": 49.933,
+      "trimmer1_pf": 14.974,
+      "trimmer2_pf": 10.933,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 3.026,
+      "margin2_pf": 7.067
+    },
+    {
+      "case": "TOL_0p95_1p05_HELD",
+      "part": "132-17L",
+      "total_c1_pf": 41.379,
+      "total_c2_pf": 47.316,
+      "trimmer1_pf": 11.379,
+      "trimmer2_pf": 8.316,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.621,
+      "margin2_pf": 6.316
+    },
+    {
+      "case": "TOL_0p95_1p05",
+      "part": "132-17L",
+      "total_c1_pf": 41.492,
+      "total_c2_pf": 46.573,
+      "trimmer1_pf": 11.492,
+      "trimmer2_pf": 7.573,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.508,
+      "margin2_pf": 5.573
+    },
+    {
+      "case": "TOL_1p05_0p95_HELD",
+      "part": "132-17L",
+      "total_c1_pf": 41.379,
+      "total_c2_pf": 47.316,
+      "trimmer1_pf": 11.379,
+      "trimmer2_pf": 8.316,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.621,
+      "margin2_pf": 6.316
+    },
+    {
+      "case": "TOL_1p05_0p95",
+      "part": "132-17L",
+      "total_c1_pf": 38.806,
+      "total_c2_pf": 50.121,
+      "trimmer1_pf": 8.806,
+      "trimmer2_pf": 11.121,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.806,
+      "margin2_pf": 6.879
+    },
+    {
+      "case": "TOL_1p05_1p05_HELD",
+      "part": "132-17L",
+      "total_c1_pf": 41.379,
+      "total_c2_pf": 47.316,
+      "trimmer1_pf": 11.379,
+      "trimmer2_pf": 8.316,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.621,
+      "margin2_pf": 6.316
+    },
+    {
+      "case": "TOL_1p05_1p05",
+      "part": "132-17L",
+      "total_c1_pf": 38.508,
+      "total_c2_pf": 44.667,
+      "trimmer1_pf": 8.508,
+      "trimmer2_pf": 5.667,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.508,
+      "margin2_pf": 3.667
+    },
+    {
+      "case": "IRF24_Q40",
+      "part": "IRF-24",
+      "total_c1_pf": 38.644,
+      "total_c2_pf": 45.671,
+      "trimmer1_pf": 8.644,
+      "trimmer2_pf": 6.671,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.644,
+      "margin2_pf": 4.671
+    },
+    {
+      "case": "NOM_RS200",
+      "part": "132-17L",
+      "total_c1_pf": 41.61,
+      "total_c2_pf": 47.149,
+      "trimmer1_pf": 11.61,
+      "trimmer2_pf": 8.149,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 6.39,
+      "margin2_pf": 6.149
+    },
+    {
+      "case": "MATCH_CSEL",
+      "part": "132-17L",
+      "total_c1_pf": 35.842,
+      "total_c2_pf": 47.958,
+      "trimmer1_pf": 5.842,
+      "trimmer2_pf": 8.958,
+      "trimmer1_ok": true,
+      "trimmer2_ok": true,
+      "margin1_pf": 3.842,
+      "margin2_pf": 6.958
+    }
+  ],
+  "summary": {
+    "cases_checked": 19,
+    "all_inside_range": true,
+    "trimmer1_span_pf": [
+      5.842,
+      14.974
+    ],
+    "trimmer2_span_pf": [
+      5.667,
+      11.121
+    ],
+    "tightest_tank1": "TOL_0p95_0p95",
+    "tightest_tank1_margin_pf": 3.026,
+    "tightest_tank2": "TOL_1p05_1p05",
+    "tightest_tank2_margin_pf": 3.667
+  },
+  "caveat": "the simulation tunes to an exact shape; on the bench the trimmer is set by observation, so the usable margin is smaller than the arithmetic suggests"
+}

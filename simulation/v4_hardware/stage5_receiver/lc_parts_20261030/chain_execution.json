@@ -1,0 +1,52 @@
+[
+  {
+    "name": "T_sq50_six",
+    "completed": false,
+    "error": "Previous incomplete attempt: use a new name"
+  },
+  {
+    "name": "T_sq10_six",
+    "completed": true
+  },
+  {
+    "name": "T_sine_clean",
+    "completed": true
+  },
+  {
+    "name": "T_sine_29_10",
+    "completed": false,
+    "error": ""
+  },
+  {
+    "name": "T_sine_29_50",
+    "completed": true
+  },
+  {
+    "name": "T_sine_33_10",
+    "completed": true
+  },
+  {
+    "name": "T_sine_33_40",
+    "completed": true
+  },
+  {
+    "name": "T_sq10_29_10",
+    "completed": true
+  },
+  {
+    "name": "T_sq50_33_10",
+    "completed": true
+  },
+  {
+    "name": "T_sq50_Q40_six",
+    "completed": true
+  },
+  {
+    "name": "T_sq50_TOL_retuned",
+    "completed": true
+  },
+  {
+    "name": "T_sq50_TOL_held",
+    "completed": true
+  }
+]

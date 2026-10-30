@@ -1,0 +1,23 @@
+{
+  "note": "run_lc four-node analytic (S05-07) vs S05-08 eight-node MNA at k=0",
+  "max_relative_signal_error": 3.956085378619769e-13,
+  "max_relative_impedance_error": 8.574473492793189e-13,
+  "reference_metrics": {
+    "gain31_v_v": 37.614564003450695,
+    "gain31_db": 31.50712064412346,
+    "fpeak_mhz": 31.29,
+    "flo_mhz": 30.040607250665285,
+    "fhi_mhz": 31.95940725089827,
+    "center_edges_mhz": 31.000007250781774,
+    "bw_mhz": 1.9188000002329835,
+    "disconnected_3db": false,
+    "relative29_db": -12.58862753481421,
+    "relative33_db": -11.80154994162493,
+    "zin31_ohm": [
+      113.22814079290569,
+      44.97828013263734
+    ],
+    "return_loss50_db": 6.777169050629023,
+    "vswr50": 2.69202072110358
+  }
+}

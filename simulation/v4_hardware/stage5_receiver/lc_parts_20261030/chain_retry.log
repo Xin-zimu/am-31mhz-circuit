@@ -1,0 +1,30 @@
+{"name": "P_G22p0_noic", "op": {"v(bbin)": 3.000013159750599, "v(bbo)": 3.000438531686086, "v(final)": 3.000138517834303, "v(ref)": 3.0000129383444087, "i(vsup)": -0.001303001455915158}}
+{"name": "T_sq50_six_RFopen", "bb": 0.15631865653297256, "rf": 0.414439642360779, "elapsed": 3.034139999999752}
+{"name": "T_sq50_six", "final": {"vpp": 5.091568355473601, "robust_vpp": 5.0903041640445155, "low": 0.41327727983977075, "high": 5.504845635313372, "duty_pct": 50.71461224604732, "frequency_hz": 19999.99506969981, "rise_10_90_us": 1.171025086172783, "fall_90_10_us": 2.120476847897228, "overshoot_pct": 0.017377285019057647, "undershoot_pct": 0.007457997674181539, "dc": 3.004706080507606, "peak20": 3.2232852921877764, "complex20": [-0.5275317897632434, -3.1798236249237517], "cycle_count": 6, "cycle_mean_span": 0.00014695741527681605, "cycle_robust_span": 0.0011904071133379546, "mean_span_relative": 2.8870323944640284e-05, "robust_span_relative": 0.00023385984928582686, "max_slew_v_us": 5.169404874297179, "rising_crossings": 6, "falling_crossings": 6, "complete_crossing_cycles": 5, "invalid_crossing_cycles": 0, "period_span_relative": 1.7899722020504876e-06, "rail_fraction": 0.0, "window_repeatable": true}, "elapsed": 65.66994040000009}
+{"name": "P_G22p0_noic", "op": {"v(bbin)": 3.000013159750599, "v(bbo)": 3.000438531686086, "v(final)": 3.000138517834303, "v(ref)": 3.0000129383444087, "i(vsup)": -0.001303001455915158}}
+Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+    R.seeded('T_sine_29_10', f, stop=200, timeout_s=200, blockers=[[29e6,.01,0]])
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ʵ�鱨���ļ���\��·2\simulation/v4_hardware/stage5_receiver/lc_parts_20261030\run_chain.py", line 44, in seeded
+    rfraw, rfr = G.rf(name+'_RFopen', **rc)
+                 ~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ʵ�鱨���ļ���\��·2\simulation\v4_hardware\stage5_receiver\gain_20261030\run_gain.py", line 102, in rf
+    return d.tran(name,**c)
+           ~~~~~~^^^^^^^^^^
+  File "D:\ʵ�鱨���ļ���\��·2\simulation\v4_hardware\stage5_receiver\blocker_20261029\run_diagnosis.py", line 163, in tran
+    d,r=execute(name,net,c);r['metrics']=measure(d,c);save(r)
+        ~~~~~~~^^^^^^^^^^^^
+  File "D:\ʵ�鱨���ļ���\��·2\simulation\v4_hardware\stage5_receiver\blocker_20261029\run_diagnosis.py", line 33, in execute
+    assert sha(src)==r['net_sha256'] and sha(raw)==r['raw_sha256']
+                                         ~~~^^^^^
+  File "D:\ʵ�鱨���ļ���\��·2\simulation\v4_hardware\stage5_receiver\run_s05.py", line 13, in sha
+    return hashlib.sha256(p.read_bytes()).hexdigest()
+                          ~~~~~~~~~~~~^^
+  File "C:\Users\86139\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 625, in read_bytes
+    with self.open(mode='rb') as f:
+         ~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\86139\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\ms_xsp\\s05_parts_tran_20261030\\T_sine_29_10_RFopen.raw'

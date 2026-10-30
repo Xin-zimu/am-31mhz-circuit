@@ -1,0 +1,12 @@
+* S05-06. Source SHA256 53edf611192d40d6ecb154203783ef4cbc91577338c487b19016f9cbf6b0997a
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_parts_tran_20261030/T_sq10_QFLOOR_six_source.cir
+set filetype=binary
+set num_threads=1
+save v(src) v(input) v(port) v(b1) v(c1) v(e1) v(b2) v(c2) v(e2) v(ee) v(rf) v(det) v(out) i(vsup) v(bbin) v(ref) v(bbo) v(final)
+tran 0.5n 400u 100u 0.5n
+write D:/ms_xsp/s05_parts_tran_20261030/T_sq10_QFLOOR_six.raw
+quit
+.endc
+.end

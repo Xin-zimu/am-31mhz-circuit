@@ -1,0 +1,116 @@
+{
+  "132-17L": {
+    "part": "132-17L",
+    "label": "Coilcraft 132-17L",
+    "l_nh": 460.0,
+    "tol": 0.05,
+    "srf_mhz": 340.0,
+    "dcr_ohm": 0.0431,
+    "cp_from_srf_pf": 0.4763482757368821,
+    "evidence": {
+      "l_nh": "datasheet",
+      "tol": "datasheet",
+      "q_ref": "datasheet",
+      "f_ref": "datasheet",
+      "srf_mhz": "datasheet",
+      "dcr_ohm": "datasheet",
+      "srf_to_cp": "derived: Cp = 1/((2*pi*SRF)^2*L), an upper bound because SRF is a minimum",
+      "q_law": "assumed: series R = R25*(f/25MHz)**beta, beta in [0,1]",
+      "q31": "derived: Q31 = 2*pi*31MHz*L/R(31MHz)"
+    },
+    "source": "https://www.coilcraft.com/en-us/products/rf/air-core-inductors/maxi-spring/132/132-17/",
+    "q_vs_beta": {
+      "0.0": {
+        "q31": 81.15955032504982,
+        "r31_ohm": 1.1039763296067266,
+        "r25_ohm": 1.0947974398873521
+      },
+      "0.25": {
+        "q31": 76.91023690237671,
+        "r31_ohm": 1.16497134957612,
+        "r25_ohm": 1.0947974398873521
+      },
+      "0.5": {
+        "q31": 72.88340584968834,
+        "r31_ohm": 1.229336382346957,
+        "r25_ohm": 1.0947974398873521
+      },
+      "0.75": {
+        "q31": 69.06740853668248,
+        "r31_ohm": 1.2972576266965958,
+        "r25_ohm": 1.0947974398873521
+      },
+      "1.0": {
+        "q31": 65.45120622313098,
+        "r31_ohm": 1.3689315698007134,
+        "r25_ohm": 1.0947974398873521
+      }
+    }
+  },
+  "IRF-24": {
+    "part": "IRF-24",
+    "label": "Vishay IRF-24 0.47 uH",
+    "l_nh": 470.0,
+    "tol": 0.2,
+    "srf_mhz": 200.0,
+    "dcr_ohm": 0.17,
+    "cp_from_srf_pf": 1.347356165456619,
+    "evidence": {
+      "l_nh": "datasheet",
+      "tol": "datasheet",
+      "q_ref": "datasheet",
+      "f_ref": "datasheet",
+      "srf_mhz": "datasheet",
+      "dcr_ohm": "datasheet"
+    },
+    "source": "https://www.vishay.com/docs/34056/irf24.pdf",
+    "q_vs_beta": {
+      "0.0": {
+        "q31": 48.02367841666667,
+        "r31_ohm": 1.906268177363012,
+        "r25_ohm": 1.8604511694558756
+      },
+      "0.25": {
+        "q31": 45.599979988394495,
+        "r31_ohm": 2.007588817997413,
+        "r25_ohm": 1.8604511694558756
+      },
+      "0.5": {
+        "q31": 43.29859751994868,
+        "r31_ohm": 2.114295038850374,
+        "r25_ohm": 1.8604511694558756
+      },
+      "0.75": {
+        "q31": 41.11335785498947,
+        "r31_ohm": 2.226673147167829,
+        "r25_ohm": 1.8604511694558756
+      },
+      "1.0": {
+        "q31": 39.038399375000004,
+        "r31_ohm": 2.3450246780412876,
+        "r25_ohm": 1.8604511694558756
+      }
+    }
+  },
+  "BFC280905003": {
+    "cmin_pf": 2.0,
+    "cmax_pf": 18.0,
+    "q_law": "assumed: constant series R from tan d=25e-4 at 100 MHz -> Q(31MHz) in [400,1290]",
+    "q_range": [
+      400.0,
+      1290.0
+    ],
+    "evidence": {
+      "cmin_pf": "datasheet",
+      "cmax_pf": "datasheet",
+      "tand": "datasheet: 25e-4 at Cmax, 100 MHz",
+      "srf": "datasheet: min 360 MHz at Cmax",
+      "life": "datasheet: max 10 full 180 deg cycles"
+    },
+    "source": "https://www.vishay.com/docs/28529/bfc280905.pdf",
+    "q31_range": [
+      400.0,
+      1290.0
+    ]
+  }
+}

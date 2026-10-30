@@ -1,0 +1,405 @@
+{
+  "definition": "Delta20k = 20log10(|C20k,disturbed|/|C20k,clean|); negative = loss",
+  "nominal_gain31_v_v": 41.2126,
+  "rows": [
+    {
+      "name": "T_sq50_six",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 3.2232852921877764,
+      "robust_vpp": 5.0903041640445155,
+      "vpp": 5.091568355473601,
+      "duty": 50.71461224604732,
+      "frequency": 19999.99506969981,
+      "low": 0.41327727983977075,
+      "high": 5.504845635313372,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 65.66994040000009
+    },
+    {
+      "name": "T_sq10_six",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 1.0866401356620694,
+      "robust_vpp": 5.102186560992335,
+      "vpp": 5.10860482406184,
+      "duty": 10.710916997036767,
+      "frequency": 19999.98499618958,
+      "low": 2.4420298274099563,
+      "high": 7.550634651471796,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 62.30394690000003
+    },
+    {
+      "name": "T_sine_clean",
+      "wave": "sine",
+      "ac_mv": 10.0,
+      "peak20": 2.5653012458970186,
+      "robust_vpp": 5.06538771496387,
+      "vpp": 5.07504060606344,
+      "duty": 47.251736427121365,
+      "frequency": 20000.226802905196,
+      "low": 0.5819139124792647,
+      "high": 5.656954518542705,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 36.526262999999744
+    },
+    {
+      "name": "T_sine_29_10",
+      "wave": "sine",
+      "ac_mv": 10.0,
+      "peak20": 2.451038070534166,
+      "robust_vpp": 4.8684968706215574,
+      "vpp": 4.914980222667872,
+      "duty": 47.61283672174837,
+      "frequency": 20000.765376912284,
+      "low": 0.6417954736293174,
+      "high": 5.556775696297189,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [
+        [
+          29000000.0,
+          0.01,
+          0
+        ]
+      ],
+      "elapsed": 38.82302080000045
+    },
+    {
+      "name": "T_sine_29_50",
+      "wave": "sine",
+      "ac_mv": 10.0,
+      "peak20": 2.277360001941159,
+      "robust_vpp": 4.573033873778715,
+      "vpp": 4.656706568319677,
+      "duty": 66.37719488448683,
+      "frequency": 40263.90931559914,
+      "low": 0.7089635229400225,
+      "high": 5.3656700912597,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [
+        [
+          29000000.0,
+          0.05,
+          0
+        ]
+      ],
+      "elapsed": 32.61462449999999
+    },
+    {
+      "name": "T_sine_33_10",
+      "wave": "sine",
+      "ac_mv": 10.0,
+      "peak20": 2.4470680186354796,
+      "robust_vpp": 4.8609306356131965,
+      "vpp": 4.90774479608829,
+      "duty": 47.63354597215034,
+      "frequency": 20000.082401517077,
+      "low": 0.6465195389405552,
+      "high": 5.5542643350288445,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [
+        [
+          33000000.0,
+          0.01,
+          0
+        ]
+      ],
+      "elapsed": 41.54646399999956
+    },
+    {
+      "name": "T_sine_33_40",
+      "wave": "sine",
+      "ac_mv": 10.0,
+      "peak20": 2.2970078264178087,
+      "robust_vpp": 4.60499884257272,
+      "vpp": 4.683990645275883,
+      "duty": 66.27443805190536,
+      "frequency": 40260.9302989484,
+      "low": 0.7151330282682176,
+      "high": 5.399123673544101,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [
+        [
+          33000000.0,
+          0.04,
+          0
+        ]
+      ],
+      "elapsed": 49.02324270000008
+    },
+    {
+      "name": "T_sq10_29_10",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 1.0260306463942992,
+      "robust_vpp": 4.900778891863228,
+      "vpp": 4.9405737012284625,
+      "duty": 10.617952316560537,
+      "frequency": 19999.982877351846,
+      "low": 2.4635834862083614,
+      "high": 7.404157187436824,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [
+        [
+          29000000.0,
+          0.01,
+          0
+        ]
+      ],
+      "elapsed": 40.20591860000013
+    },
+    {
+      "name": "T_sq50_33_10",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 3.0957355981075194,
+      "robust_vpp": 4.920965370735772,
+      "vpp": 4.925389652673495,
+      "duty": 50.60474269554774,
+      "frequency": 19999.995892647083,
+      "low": 0.5158880697493682,
+      "high": 5.441277722422863,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [
+        [
+          33000000.0,
+          0.01,
+          0
+        ]
+      ],
+      "elapsed": 44.04718950000006
+    },
+    {
+      "name": "T_sq50_Q40_six",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 2.509322531665175,
+      "robust_vpp": 3.9647351291915047,
+      "vpp": 3.9653572121002134,
+      "duty": 50.69207803379061,
+      "frequency": 19999.996789202447,
+      "low": 0.9889377772734435,
+      "high": 4.954294989373657,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 93.0874603999996
+    },
+    {
+      "name": "T_sq50_TOL_retuned",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 3.604594371720689,
+      "robust_vpp": 5.690422307278206,
+      "vpp": 5.6909318733907055,
+      "duty": 50.69836909772819,
+      "frequency": 19999.954951219588,
+      "low": 0.10939334998112639,
+      "high": 5.800325223371832,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 33.969787500000166
+    },
+    {
+      "name": "T_sq50_TOL_held",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 0.8832608315554383,
+      "robust_vpp": 1.3982596866528918,
+      "vpp": 1.398478218694133,
+      "duty": 51.00867273761431,
+      "frequency": 20000.04161647639,
+      "low": 2.287160883518857,
+      "high": 3.6856391022129897,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 35.992576499999814
+    },
+    {
+      "name": "T_sq50_Ac20",
+      "wave": "square",
+      "ac_mv": 20.0,
+      "peak20": 5.502906007722158,
+      "robust_vpp": 8.660696889733256,
+      "vpp": 8.661111453627296,
+      "duty": 49.558843165994695,
+      "frequency": 20000.00910163993,
+      "low": 0.03042806037883352,
+      "high": 8.691539514006129,
+      "rail_fraction": 0.48416,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 34.24002109999947
+    },
+    {
+      "name": "T_sq10_Ac20",
+      "wave": "square",
+      "ac_mv": 20.0,
+      "peak20": 1.7387109351990513,
+      "robust_vpp": 7.215441841013837,
+      "vpp": 7.215796103545903,
+      "duty": 12.056437002779056,
+      "frequency": 20000.020143784168,
+      "low": 1.762602934457461,
+      "high": 8.978399038003364,
+      "rail_fraction": 0.107,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 159.72441699999945
+    },
+    {
+      "name": "T_sq50_QFLOOR_six",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 3.115541181303267,
+      "robust_vpp": 4.92016910766465,
+      "vpp": 4.921709274112861,
+      "duty": 50.71144582434683,
+      "frequency": 20000.0090525407,
+      "low": 0.5003688361607527,
+      "high": 5.422078110273614,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 69.7407789000008
+    },
+    {
+      "name": "T_sq10_QFLOOR_six",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 1.0505500624176936,
+      "robust_vpp": 4.932120924170425,
+      "vpp": 4.938443219386128,
+      "duty": 10.708385963344572,
+      "frequency": 19999.98763849604,
+      "low": 2.4608119547372085,
+      "high": 7.399255174123337,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 65.1147192999997
+    },
+    {
+      "name": "T_sq50_TOL_0p95_0p95_six",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 2.840852138317617,
+      "robust_vpp": 4.487336159517638,
+      "vpp": 4.488289301080792,
+      "duty": 50.72923684907774,
+      "frequency": 20000.000517768975,
+      "low": 0.7188964021052309,
+      "high": 5.207185703186023,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 72.21710990000065
+    },
+    {
+      "name": "T_sq50_TOL_1p05_1p05_six",
+      "wave": "square",
+      "ac_mv": 10.0,
+      "peak20": 3.604705058497474,
+      "robust_vpp": 5.690949340319661,
+      "vpp": 5.6920779085984625,
+      "duty": 50.69840820359151,
+      "frequency": 19999.992205101335,
+      "low": 0.10895524551473573,
+      "high": 5.801033154113198,
+      "rail_fraction": 0.0,
+      "front": "132-17L",
+      "blockers": [],
+      "elapsed": 68.61963839999953
+    }
+  ],
+  "blocking": [
+    {
+      "case": "T_sine_29_10",
+      "reference": "T_sine_clean",
+      "delta20k_db": -0.39576630266915797,
+      "reference_peak20": 2.5653012458970186,
+      "case_peak20": 2.451038070534166,
+      "duty_valid": false
+    },
+    {
+      "case": "T_sine_29_50",
+      "reference": "T_sine_clean",
+      "delta20k_db": -1.0341336672351322,
+      "reference_peak20": 2.5653012458970186,
+      "case_peak20": 2.277360001941159,
+      "duty_valid": false
+    },
+    {
+      "case": "T_sine_33_10",
+      "reference": "T_sine_clean",
+      "delta20k_db": -0.40984661843732484,
+      "reference_peak20": 2.5653012458970186,
+      "case_peak20": 2.4470680186354796,
+      "duty_valid": false
+    },
+    {
+      "case": "T_sine_33_40",
+      "reference": "T_sine_clean",
+      "delta20k_db": -0.9595179428650168,
+      "reference_peak20": 2.5653012458970186,
+      "case_peak20": 2.2970078264178087,
+      "duty_valid": false
+    },
+    {
+      "case": "T_sq10_29_10",
+      "reference": "T_sq10_six",
+      "delta20k_db": -0.4985081808239971,
+      "reference_peak20": 1.0866401356620694,
+      "case_peak20": 1.0260306463942992,
+      "duty_valid": true
+    },
+    {
+      "case": "T_sq50_33_10",
+      "reference": "T_sq50_six",
+      "delta20k_db": -0.3506977064576421,
+      "reference_peak20": 3.2232852921877764,
+      "case_peak20": 3.0957355981075194,
+      "duty_valid": true
+    }
+  ],
+  "audit": {
+    "checked": [
+      "T_sq50_six",
+      "T_sq10_six",
+      "T_sine_clean",
+      "T_sine_29_10",
+      "T_sine_29_50",
+      "T_sine_33_10",
+      "T_sine_33_40",
+      "T_sq10_29_10",
+      "T_sq50_33_10",
+      "T_sq50_Q40_six",
+      "T_sq50_TOL_retuned",
+      "T_sq50_TOL_held",
+      "T_sq50_Ac20",
+      "T_sq10_Ac20",
+      "T_sq50_QFLOOR_six",
+      "T_sq10_QFLOOR_six",
+      "T_sq50_TOL_0p95_0p95_six",
+      "T_sq50_TOL_1p05_1p05_six"
+    ],
+    "missing": [],
+    "hash_mismatch": []
+  },
+  "note": "10 mV / 50 ohm source, 31 MHz, m=0.5, 20 kHz; blockers are open-circuit peak at 29/33 MHz"
+}

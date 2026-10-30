@@ -1,0 +1,12 @@
+* S05-06. Source SHA256 47682b65f0680a6c51c7f3edcb96206bd4cfc0d14106ddf531da9237d9d76335
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_parts_tran_20261030/T_sq50_TOL_1p05_1p05_six_source.cir
+set filetype=binary
+set num_threads=1
+save v(src) v(input) v(port) v(b1) v(c1) v(e1) v(b2) v(c2) v(e2) v(ee) v(rf) v(det) v(out) i(vsup) v(bbin) v(ref) v(bbo) v(final)
+tran 0.5n 400u 100u 0.5n
+write D:/ms_xsp/s05_parts_tran_20261030/T_sq50_TOL_1p05_1p05_six.raw
+quit
+.endc
+.end

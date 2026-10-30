@@ -1,0 +1,19 @@
+{"name": "P_G22p0_noic", "op": {"v(bbin)": 3.000013159750599, "v(bbo)": 3.000438531686086, "v(final)": 3.000138517834303, "v(ref)": 3.0000129383444087, "i(vsup)": -0.001303001455915158}}
+{"name": "T_sq50_TOL_0p95_0p95_six_RFopen", "bb": 0.13794349079788618, "rf": 0.37819497604396185, "elapsed": 3.3849355000002106}
+{"name": "T_sq50_TOL_0p95_0p95_six", "final": {"vpp": 4.488289301080792, "robust_vpp": 4.487336159517638, "low": 0.7188964021052309, "high": 5.207185703186023, "duty_pct": 50.72923684907774, "frequency_hz": 20000.000517768975, "rise_10_90_us": 1.1693500431030392, "fall_90_10_us": 2.187183901003852, "overshoot_pct": 0.0162325721524732, "undershoot_pct": 0.005008126767134919, "dc": 3.0050819277807665, "peak20": 2.840852138317617, "complex20": [-0.47139635274872366, -2.8014686059991782], "cycle_count": 6, "cycle_mean_span": 0.0002505451893655142, "cycle_robust_span": 0.000752154166861807, "mean_span_relative": 5.583445515654881e-05, "robust_span_relative": 0.00016761893615602333, "max_slew_v_us": 4.566579331631403, "rising_crossings": 6, "falling_crossings": 6, "complete_crossing_cycles": 5, "invalid_crossing_cycles": 0, "period_span_relative": 3.901425972821175e-06, "rail_fraction": 0.0, "window_repeatable": true}, "elapsed": 72.21710990000065}
+{"name": "P_G22p0_noic", "op": {"v(bbin)": 3.000013159750599, "v(bbo)": 3.000438531686086, "v(final)": 3.000138517834303, "v(ref)": 3.0000129383444087, "i(vsup)": -0.001303001455915158}}
+{"name": "T_sq50_TOL_0p95_1p05_six_RFopen", "bb": 0.1563217161936442, "rf": 0.414590357299955, "elapsed": 4.191780600000129}
+Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+    R.seeded('T_sq50_'+tag+'_six', f, wave='square', duty=.5, stop=400, timeout_s=500)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ʵ�鱨���ļ���\��·2\simulation/v4_hardware/stage5_receiver/lc_parts_20261030\run_chain.py", line 52, in seeded
+    raw, r = G.wrapper(name, net,
+             ~~~~~~~~~^^^^^^^^^^^
+                       f"tran {c['step']}n {c['stop']}u {c['start']}u {c['step']}n",
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       c, G.d.SAVES+' v(bbin) v(ref) v(bbo) v(final)')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ʵ�鱨���ļ���\��·2\simulation\v4_hardware\stage5_receiver\gain_20261030\run_gain.py", line 87, in wrapper
+    raise RuntimeError(name+': incomplete transient, see retained log/raw')
+RuntimeError: T_sq50_TOL_0p95_1p05_six: incomplete transient, see retained log/raw
