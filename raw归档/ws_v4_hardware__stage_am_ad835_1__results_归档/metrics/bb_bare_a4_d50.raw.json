@@ -1,0 +1,111 @@
+{
+ "variables": {
+  "time": {
+   "min": 0.0015000071735277263,
+   "max": 0.002,
+   "mean": 0.0017494880400529562,
+   "n": 27617,
+   "first_min": 0.0015000071735277263,
+   "first_max": 0.0015246596726153617,
+   "first_mean": 0.0015124075251814692,
+   "mid_min": 0.001736974751038397,
+   "mid_max": 0.0017620027431064548,
+   "mid_mean": 0.0017495819137095265,
+   "last_min": 0.0019746990883007225,
+   "last_max": 0.002,
+   "last_mean": 0.0019868734141116717
+  },
+  "v(v1)": {
+   "min": 0.0748174912752298,
+   "max": 4.074825806454271,
+   "mean": 2.0616800164632085,
+   "n": 27617,
+   "first_min": 0.07481749416290526,
+   "first_max": 4.074825752410049,
+   "first_mean": 2.6406968578912853,
+   "mid_min": 0.07505950311428371,
+   "mid_max": 4.074817565932301,
+   "mid_mean": 3.425358732175015,
+   "last_min": 0.07481749127524091,
+   "last_max": 4.074817565930127,
+   "last_mean": 1.4714709360890108
+  },
+  "i(v5)": {
+   "min": 0.0010791382380713472,
+   "max": 0.005123764565890894,
+   "mean": 0.0034238451095678682,
+   "n": 27617,
+   "first_min": 0.001079348518029688,
+   "first_max": 0.003219869497313783,
+   "first_mean": 0.0025334548949675906,
+   "mid_min": 0.0011505713951825113,
+   "mid_max": 0.005123760298114067,
+   "mid_mean": 0.0031561013529376363,
+   "last_min": 0.002982303139177467,
+   "last_max": 0.005123752722256476,
+   "last_mean": 0.004307744699377473
+  },
+  "i(vn)": {
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0,
+   "n": 27617,
+   "first_min": 0.0,
+   "first_max": 0.0,
+   "first_mean": 0.0,
+   "mid_min": 0.0,
+   "mid_max": 0.0,
+   "mid_mean": 0.0,
+   "last_min": 0.0,
+   "last_max": 0.0,
+   "last_mean": 0.0
+  },
+  "i(vp)": {
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0,
+   "n": 27617,
+   "first_min": 0.0,
+   "first_max": 0.0,
+   "first_mean": 0.0,
+   "mid_min": 0.0,
+   "mid_max": 0.0,
+   "mid_mean": 0.0,
+   "last_min": 0.0,
+   "last_max": 0.0,
+   "last_mean": 0.0
+  },
+  "v(x)": {
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0,
+   "n": 27617,
+   "first_min": 0.0,
+   "first_max": 0.0,
+   "first_mean": 0.0,
+   "mid_min": 0.0,
+   "mid_max": 0.0,
+   "mid_mean": 0.0,
+   "last_min": 0.0,
+   "last_max": 0.0,
+   "last_mean": 0.0
+  }
+ },
+ "meta": {
+  "file": "bb_bare_a4_d50.raw",
+  "title": "lm393p stage 1 - rc oscillator, pwm threshold, amplitude potentiometer",
+  "date": "Sun Nov 15 00:26:21  2026",
+  "plotname": "Transient Analysis",
+  "flags": "real",
+  "n_points": 27617,
+  "n_variables": 6,
+  "sha256": "043D7136DADF88C37497BD1403FA95666A64E0CE8635437C8E1B29585602A20E",
+  "size_bytes": 1325968,
+  "x_min": 0.0015000071735277263,
+  "x_max": 0.002,
+  "is_ac": false
+ },
+ "plot_vars": [
+  "v(v1)"
+ ]
+}

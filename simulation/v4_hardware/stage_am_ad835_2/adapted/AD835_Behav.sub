@@ -1,0 +1,61 @@
+* AD835 behavioral model -- ADAPTER (.subckt wrapper of a SCHEMATIC)
+* Original schematic (unmodified): AD835_Behav_Model.asc
+*   GLuisF/LTspice  examples/LtSpicePlus/Multiplicadores/ad835
+*   author marker in the .asc: 'Oct-05/G.Mi'
+*
+* The device equations below are copied VERBATIM from LTspice's own netlist
+* of that .asc; only the .asc's own 5 test-bench sources were removed and
+* the internal node names prefixed so they stay local to this subcircuit.
+*
+* Port order = AD835 datasheet pin order 1..8, identical to ad835.asy SpiceOrder:
+*   1 X1  2 X2  3 Y1  4 Y2  5 VN(=VNEG)  6 Z  7 W  8 VP(=VPOS)
+*
+* THIS IS NOT AN ANALOG DEVICES MODEL and carries no ADI warranty.
+.SUBCKT AD835_BEHAV X1 X2 Y1 Y2 VNEG Z W VPOS
+.param Ioff=2uA Ib1=10uA+Ioff/2 Ib2=10u-Ioff/2 Ibz=60uA;Input Biases/Offsets
+.param feedX=-46 fdx=10**(feedX/20) ;feedthroughX, worst case
+.param feedY=-60 fdy=10**(feedY/20) ;feedthroughY, worst case
+.param Vdcl=1.4-0.6 ;diff. input clipping voltage (approx.)
+.param Slew=1E9 ;slew rate
+.param Vop=2.5V ;peak-output
+.param Ish=75mA ;short-circ. output
+.param Vos=25mV ;output.offset @X,Y,Z=0
+* ---------- device equations (verbatim) ----------
+R1 X1 X2 100k
+R3 Y1 Y2 100k
+C1 X1 0 2p
+C2 X2 0 2p
+C3 Y1 0 2p
+C4 Y2 0 2p
+B1 i9 0 V=V(idcx)*V(idcy)+V(Z)+V(idcx)*fdx+V(idcy)*fdy+Vos
+B2 W 0 I=table((V(W)-V(i11)),-Ish/1E4,-Ish,Ish/1E4,Ish)
+R5 i9 i10 10
+C5 i10 0 63.662p
+R6 Z 0 60k
+C6 Z 0 2p
+R7 VPOS VNEG {10V/16mA}
+B3 idcx 0 I=(V(X1)-V(X2))*1m
+R11 idcx 0 1k
+D1 idcx iP001 D
+D2 iP002 idcx D
+V6 iP001 0 {Vdcl}
+V7 0 iP002 {Vdcl}
+B4 idcy 0 I=(V(Y1)-V(Y2))*1m
+R12 idcy 0 1k
+D3 idcy iP003 D
+D4 iP004 idcy D
+V8 iP003 0 {Vdcl}
+V9 0 iP004 {Vdcl}
+R2 X2 0 1p
+R4 Y2 0 1p
+I1 X2 VNEG {Ib2} load
+I2 X1 VNEG {Ib1} load
+I3 Y2 VNEG {Ib2} load
+I4 Y1 VNEG {Ib1} load
+I5 Z VNEG {Ibz} load
+B5 i11 0 I=Table((V(i11)-V(i10)),-10m,-20m,10m,20m)
+C7 i11 0 {20m/Slew}
+R13 W 0 {Vop/Ish}
+.model D D
+.lib C:\Users\86139\AppData\Local\LTspice\lib\cmp\standard.dio
+.ENDS AD835_BEHAV

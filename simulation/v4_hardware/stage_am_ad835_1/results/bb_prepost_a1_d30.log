@@ -1,0 +1,23 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * existing project pspice compatibility workflow
+
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps
+
+
+Circuit: lm393p stage 1 - rc oscillator, pwm threshold, amplitude potentiometer
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  1.50002e-03 Reference value :  1.53568e-03 Reference value :  1.56444e-03 Reference value :  1.60103e-03 Reference value :  1.63184e-03 Reference value :  1.66323e-03 Reference value :  1.70250e-03 Reference value :  1.73404e-03 Reference value :  1.76480e-03 Reference value :  1.80714e-03 Reference value :  1.84175e-03 Reference value :  1.87151e-03 Reference value :  1.90847e-03 Reference value :  1.94371e-03 Reference value :  1.97437e-03
+No. of Data Rows : 29291
+binary raw file "bb_prepost_a1_d30.raw"
+ngspice-47 done

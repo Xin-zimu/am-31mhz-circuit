@@ -1,0 +1,45 @@
+* Base modulation isolated fixture; ideal RF source only
+VSUP vcc 0 5
+VRF out 0 SIN(0 1 31meg)
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+
+VMOD vm 0 PULSE(0.0748175 1.0748175 20u 20n 20n 1.498e-05 50u)
+
+* RF attenuation/coupling to base; no uncontrolled floating transistor terminal.
+RMRF out mrftap 2200
+RMRG mrftap 0 10
+CMRF mrftap mb 1e-10
+* DC-coupled base injection: no duty-dependent coupling-capacitor baseline.
+RMT vcc mb 15000
+RMB mb 0 3300
+RMINJ vm mb 47000
+QM mc mb me 2N3904
+RMC vcc mc 1000
+RME me 0 470
+CME me 0 1e-09
+* TP3 is the AC-coupled MODULATOR output, not automatically v3.
+CMOUT mc tp3 1e-10
+RTP3DC tp3 0 1000
+* Explicit output follower and final AC-coupled connector.
+CBUF tp3 ob 1e-10
+ROBT vcc ob 33000
+ROBB ob 0 33000
+QOB vcc ob oe 2N3904
+ROE oe 0 330
+COV3 oe v3 10n
+* Measurement fixture, NOT a specified antenna or course load.
+RTEST v3 0 10000
+CTEST v3 0 5e-12
+.options method=trap maxord=2 reltol=1e-5 trtol=7 temp=27 tnom=27
+.control
+set filetype=binary
+set num_threads=1
+save v(out) v(vm) v(mb) v(me) v(mc) v(tp3) v(oe) v(ob) v(v3) i(vsup) i(vmod)
+tran 0.5n 0.0003 0.00015 0.5n 
+write matrix2_a1_d30.raw
+quit
+.endc
+.end

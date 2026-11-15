@@ -1,0 +1,141 @@
+21:03:13 第二批开始，共 13 批
+21:03:13 [v3_20k] 2 个 / 33.7 MB → 归档
+���: 2 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\v3_20k_�鵵
+
+�˱�����: 2
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 2
+����ͨ����ɾ�����
+
+21:03:16 [v3_20k] 完成（已删除），耗时 2.6 秒
+21:03:16 [v4_lm393] 8 个 / 133.6 MB → 归档
+���: 8 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\v4_lm393_�鵵
+
+�˱�����: 8
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 8
+����ͨ����ɾ�����
+
+21:03:25 [v4_lm393] 完成（已删除），耗时 9.1 秒
+21:03:25 [s04_power_20261016] 2 个 / 20.2 MB → 归档
+  [fail] monitor_control.raw: zero-size array to reduction operation minimum which has no identity
+���: 2 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s04_power_20261016_�鵵
+
+�˱�����: 1
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 1
+����ͨ����ɾ�����
+
+21:03:26 [s04_power_20261016] 完成（已删除），耗时 1.6 秒
+21:03:26 [s04_poly_20261016\verified] 3 个 / 44.1 MB → 归档
+  [fail] truth_table.raw: zero-size array to reduction operation minimum which has no identity
+���: 3 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s04_poly_20261016_verified_�鵵
+
+�˱�����: 2
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 2
+����ͨ����ɾ�����
+
+21:03:29 [s04_poly_20261016\verified] 完成（已删除），耗时 3.1 秒
+21:03:29 [s04_3904_20261029] 7 个 / 235.6 MB → 归档
+C:\Users\86139\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\Lib\site-packages\numpy\_core\_methods.py:134: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+���: 7 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s04_3904_20261029_�鵵
+
+�˱�����: 7
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 7
+����ͨ����ɾ�����
+
+21:03:33 [s04_3904_20261029] 完成（已删除），耗时 3.7 秒
+21:03:33 [s04_c518062_20261016] 7 个 / 489 MB → 归档
+  [fail] lowdrive_port_ac.raw: only length-1 arrays can be converted to Python scalars
+���: 7 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s04_c518062_20261016_�鵵
+
+�˱�����: 6
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 6
+����ͨ����ɾ�����
+
+21:04:03 [s04_c518062_20261016] 完成（已删除），耗时 30.3 秒
+21:04:03 [s04_crosscheck_20261017] 6 个 / 457.8 MB → 归档
+���: 6 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s04_crosscheck_20261017_�鵵
+
+�˱�����: 6
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 6
+����ͨ����ɾ�����
+
+21:04:11 [s04_crosscheck_20261017] 完成（已删除），耗时 7.2 秒
+21:04:11 [repair_20261011] 2 个 / 68 MB → 归档
+���: 2 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\repair_20261011_�鵵
+
+�˱�����: 2
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 2
+����ͨ����ɾ�����
+
+21:04:15 [repair_20261011] 完成（已删除），耗时 4.6 秒
+21:04:15 [s05_parts_tran_20261030] 49 个 / 1979.1 MB → 归档
+���: 49 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s05_parts_tran_20261030_�鵵
+
+�˱�����: 49
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 49
+����ͨ����ɾ�����
+
+21:04:45 [s05_parts_tran_20261030] 完成（已删除），耗时 29.7 秒
+21:04:45 [s05_gain_20261030] 88 个 / 3322.7 MB → 归档
+���: 88 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s05_gain_20261030_�鵵
+
+�˱�����: 88
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 88
+����ͨ����ɾ�����
+
+21:05:33 [s05_gain_20261030] 完成（已删除），耗时 48.3 秒
+21:05:33 [s05_blocker_20261029] 154 个 / 3418.8 MB → 归档
+C:\Users\86139\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\Lib\site-packages\numpy\_core\_methods.py:134: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+���: 154 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s05_blocker_20261029_�鵵
+
+�˱�����: 154
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 154
+����ͨ����ɾ�����
+
+21:06:24 [s05_blocker_20261029] 完成（已删除），耗时 51.3 秒
+21:06:24 [s05_receiver_20261029] 127 个 / 3508.6 MB → 归档
+C:\Users\86139\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\Lib\site-packages\numpy\_core\_methods.py:134: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+���: 127 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s05_receiver_20261029_�鵵
+
+�˱�����: 127
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 127
+����ͨ����ɾ�����
+
+21:07:17 [s05_receiver_20261029] 完成（已删除），耗时 52.2 秒
+21:07:17 [s05_selectivity_20261029] 79 个 / 4159.7 MB → 归档
+���: 79 �� raw �� D:\ʵ�鱨���ļ���\��·2\raw�鵵\s05_selectivity_20261029_�鵵
+
+�˱�����: 79
+�ļ�ȱʧ: 0
+��ϣ����: 0
+��ɾ��: 79
+����ͨ����ɾ�����
+
+21:08:17 [s05_selectivity_20261029] 完成（已删除），耗时 60.4 秒
+21:08:17 第二批完成。本批处理前合计约 17870.8 MB；处理后 ms_xsp 剩余 raw 共 4432.3 MB

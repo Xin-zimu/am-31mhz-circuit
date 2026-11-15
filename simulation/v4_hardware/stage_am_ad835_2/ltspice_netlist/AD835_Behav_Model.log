@@ -1,0 +1,17 @@
+LTspice 26.0.0 for Windows
+Circuit: D:\实验报告文件夹\电路2\simulation\v4_hardware\stage_am_ad835_2\ltspice_netlist\AD835_Behav_Model.net
+Start Time: Sun Nov 15 01:34:00 2026
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = trap
+ERROR: Node 11 is floating and connected to current source B5
+
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.115 seconds.
+
+Files loaded:
+D:\实验报告文件夹\电路2\simulation\v4_hardware\stage_am_ad835_2\ltspice_netlist\AD835_Behav_Model.net
+C:\Users\86139\AppData\Local\LTspice\lib\cmp\standard.dio
+

@@ -1,0 +1,317 @@
+[
+ {
+  "parameter": "Transfer function W=(X1-X2)(Y1-Y2)/U+Z",
+  "datasheet": "eq.(1)",
+  "modelA": "same eq., U=1.000",
+  "modelB": "same eq., U=1.000",
+  "verdictA": "不一致",
+  "verdictB": "不一致",
+  "note": "both hard-wire U=1.0 V; datasheet U=1.05 V nom."
+ },
+ {
+  "parameter": "Scale factor U",
+  "datasheet": "1.05 V nom (1.00 by divider)",
+  "modelA": "1.000 V",
+  "modelB": "1.000 V",
+  "verdictA": "不一致",
+  "verdictB": "不一致",
+  "note": "31 MHz envelope error follows directly"
+ },
+ {
+  "parameter": "X/Y differential R",
+  "datasheet": "100 k",
+  "modelA": "100 k",
+  "modelB": "100 k",
+  "verdictA": "一致",
+  "verdictB": "一致",
+  "note": ""
+ },
+ {
+  "parameter": "X/Y single-sided C",
+  "datasheet": "2 pF",
+  "modelA": "2 pF",
+  "modelB": "2 pF",
+  "verdictA": "一致",
+  "verdictB": "一致",
+  "note": ""
+ },
+ {
+  "parameter": "X/Y diff voltage range",
+  "datasheet": "+-1 V",
+  "modelA": "unlimited in model (only output clamps)",
+  "modelB": "clipped at +-1.387 V",
+  "verdictA": "不一致",
+  "verdictB": "近似",
+  "note": "datasheet clipping 1.21 typ / 1.40 max"
+ },
+ {
+  "parameter": "X/Y common-mode range",
+  "datasheet": "-2.5 .. +3 V",
+  "modelA": "not modelled (inputs pulled to VN via 500k)",
+  "modelB": "not modelled (current sources to VNEG)",
+  "verdictA": "未实现",
+  "verdictB": "未实现",
+  "note": ""
+ },
+ {
+  "parameter": "X/Y bias current",
+  "datasheet": "10 uA typ / 20 max / 27 over temp",
+  "modelA": "10.0 uA fixed both pins",
+  "modelB": "11.0 / 9.0 uA (Ioff=2uA)",
+  "verdictA": "近似",
+  "verdictB": "近似",
+  "note": "A has no offset current; B adds Ios=2uA"
+ },
+ {
+  "parameter": "X/Y offset bias current",
+  "datasheet": "2 uA",
+  "modelA": "0 (identical both pins)",
+  "modelB": "2 uA",
+  "verdictA": "未实现",
+  "verdictB": "一致",
+  "note": ""
+ },
+ {
+  "parameter": "X feedthrough",
+  "datasheet": "-46 dB",
+  "modelA": "not modelled (-inf)",
+  "modelB": "-46.00 dB (forced)",
+  "verdictA": "未实现",
+  "verdictB": "一致",
+  "note": "B sets it as a fixed parameter, not a physical path"
+ },
+ {
+  "parameter": "Y feedthrough",
+  "datasheet": "-60 dB",
+  "modelA": "not modelled (-inf)",
+  "modelB": "-60.00 dB (forced)",
+  "verdictA": "未实现",
+  "verdictB": "一致",
+  "note": "ditto"
+ },
+ {
+  "parameter": "Z differential R",
+  "datasheet": "60 k",
+  "modelA": "60 k but referenced to VN -> 9.09 k to ground",
+  "modelB": "60 k to ground only",
+  "verdictA": "不一致",
+  "verdictB": "近似",
+  "note": "A measured 9.09 k, B 7.32 k at V(Z)=0.5 V"
+ },
+ {
+  "parameter": "Z single-sided C",
+  "datasheet": "2 pF",
+  "modelA": "2 pF",
+  "modelB": "2 pF",
+  "verdictA": "一致",
+  "verdictB": "一致",
+  "note": ""
+ },
+ {
+  "parameter": "Z bias current",
+  "datasheet": "50 uA typ (no max published)",
+  "modelA": "50.0 uA",
+  "modelB": "60 uA",
+  "verdictA": "近似",
+  "verdictB": "近似",
+  "note": "B uses 60 uA, above the datasheet typ"
+ },
+ {
+  "parameter": "Z->W gain",
+  "datasheet": "0.990..0.995 (f<=10 MHz)",
+  "modelA": "0.9993",
+  "modelB": "1.0000 (0.99999 at DC)",
+  "verdictA": "不一致",
+  "verdictB": "不一致",
+  "note": "both ~1.00, datasheet <=0.995"
+ },
+ {
+  "parameter": "-3 dB bandwidth",
+  "datasheet": "250 MHz typ / 150 min",
+  "modelA": "250 MHz (single pole)",
+  "modelB": "250 MHz (single pole)",
+  "verdictA": "近似",
+  "verdictB": "近似",
+  "note": "see phase row - the pole shape is wrong"
+ },
+ {
+  "parameter": "Gain at 31 MHz",
+  "datasheet": "-0.180 dB (Fig.5 digitised)",
+  "modelA": "-0.066 dB",
+  "modelB": "-0.066 dB",
+  "verdictA": "不一致",
+  "verdictB": "不一致",
+  "note": "models are 0.114 dB optimistic"
+ },
+ {
+  "parameter": "Phase at 31 MHz",
+  "datasheet": "-28.3 deg (Fig.5 digitised)",
+  "modelA": "-7.05 deg",
+  "modelB": "-7.16 deg",
+  "verdictA": "不一致",
+  "verdictB": "不一致",
+  "note": "~21 deg optimistic - the key 31 MHz error"
+ },
+ {
+  "parameter": "Phase at 10 MHz",
+  "datasheet": "-11.4 deg",
+  "modelA": "-2.29 deg",
+  "modelB": "-2.33 deg",
+  "verdictA": "不一致",
+  "verdictB": "不一致",
+  "note": ""
+ },
+ {
+  "parameter": "Phase at 100 MHz",
+  "datasheet": "-86.5 deg",
+  "modelA": "-21.8 deg",
+  "modelB": "-22.2 deg",
+  "verdictA": "不一致",
+  "verdictB": "不一致",
+  "note": ""
+ },
+ {
+  "parameter": "-0.1 dB gain flatness freq",
+  "datasheet": "15 MHz",
+  "modelA": "~24 MHz",
+  "modelB": "~24 MHz",
+  "verdictA": "近似",
+  "verdictB": "近似",
+  "note": ""
+ },
+ {
+  "parameter": "Slew rate",
+  "datasheet": "1000 V/us",
+  "modelA": "1500 V/us (RC limited, no explicit SR)",
+  "modelB": "1000 V/us (parameter)",
+  "verdictA": "近似",
+  "verdictB": "一致",
+  "note": "A overshoots because 63.7 pF/10 ohm sets it"
+ },
+ {
+  "parameter": "Output swing",
+  "datasheet": "+-2.2 min / +-2.5 typ (RL=150)",
+  "modelA": "+-2.998 (rail limited)",
+  "modelB": "+-2.047 @150R",
+  "verdictA": "不一致",
+  "verdictB": "近似",
+  "note": "B's 33.3R shunt sets the 150R value"
+ },
+ {
+  "parameter": "Output swing into 50 ohm",
+  "datasheet": "+-2.0 V min",
+  "modelA": "+-2.994",
+  "modelB": "+-1.501",
+  "verdictA": "不一致",
+  "verdictB": "不一致",
+  "note": "B cannot reach +-2.0 V into 50 ohm"
+ },
+ {
+  "parameter": "Output swing into 25 ohm",
+  "datasheet": "drive loads as low as 25 ohm",
+  "modelA": "+-2.988",
+  "modelB": "+-1.071",
+  "verdictA": "不一致",
+  "verdictB": "不一致",
+  "note": "B collapses"
+ },
+ {
+  "parameter": "Short-circuit current",
+  "datasheet": "75 mA",
+  "modelA": "not limited (15 A measured)",
+  "modelB": "74.8 mA",
+  "verdictA": "不一致",
+  "verdictB": "一致",
+  "note": ""
+ },
+ {
+  "parameter": "Output offset Vos",
+  "datasheet": "+-25 mV typ / +-75 max",
+  "modelA": "0.000 V",
+  "modelB": "+25.0 mV",
+  "verdictA": "未实现",
+  "verdictB": "近似",
+  "note": "A has no offset at all"
+ },
+ {
+  "parameter": "Quiescent supply current",
+  "datasheet": "16 mA typ / 25 max",
+  "modelA": "16.667 / 16.757 mA",
+  "modelB": "16.000 / 16.100 mA",
+  "verdictA": "一致",
+  "verdictB": "一致",
+  "note": ""
+ },
+ {
+  "parameter": "Supply voltage",
+  "datasheet": "+-5 V nom, +-4.5..5.5",
+  "modelA": "no supply dependence",
+  "modelB": "no supply dependence",
+  "verdictA": "未实现",
+  "verdictB": "未实现",
+  "note": ""
+ },
+ {
+  "parameter": "PSRR",
+  "datasheet": "0.5 %/V",
+  "modelA": "not modelled",
+  "modelB": "not modelled",
+  "verdictA": "未实现",
+  "verdictB": "未实现",
+  "note": ""
+ },
+ {
+  "parameter": "CMRR",
+  "datasheet": "70 dB (<=100 kHz)",
+  "modelA": "not modelled",
+  "modelB": "not modelled",
+  "verdictA": "未实现",
+  "verdictB": "未实现",
+  "note": ""
+ },
+ {
+  "parameter": "Nonlinearity",
+  "datasheet": "0.3/0.51 % FS",
+  "modelA": "none (ideal multiply)",
+  "modelB": "none (ideal multiply)",
+  "verdictA": "未实现",
+  "verdictB": "未实现",
+  "note": ""
+ },
+ {
+  "parameter": "Harmonic distortion",
+  "datasheet": "-70 dB @10 MHz, -40 dB @50 MHz",
+  "modelA": "not modelled",
+  "modelB": "not modelled",
+  "verdictA": "未实现",
+  "verdictB": "未实现",
+  "note": ""
+ },
+ {
+  "parameter": "Noise 50 nV/rtHz",
+  "datasheet": "50 nV/rtHz",
+  "modelA": "noiseless",
+  "modelB": "noiseless",
+  "verdictA": "未实现",
+  "verdictB": "未实现",
+  "note": ""
+ },
+ {
+  "parameter": "Temperature drift",
+  "datasheet": "specified over -40..+85 C",
+  "modelA": "none",
+  "modelB": "none",
+  "verdictA": "未实现",
+  "verdictB": "未实现",
+  "note": ""
+ },
+ {
+  "parameter": "Package / pin numbers",
+  "datasheet": "1 Y1 2 Y2 3 VN 4 Z 5 W 6 VP 7 X2 8 X1",
+  "modelA": "1 X1 2 X2 3 Y1 4 Y2 5 VN 6 Z 7 W 8 VP",
+  "modelB": "adapter forced to datasheet order",
+  "verdictA": "不一致",
+  "verdictB": "一致",
+  "note": "A's node order is NOT the package order"
+ }
+]

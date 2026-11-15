@@ -1,0 +1,23 @@
+{
+  "name": "bb_prepost_a4_d30",
+  "amplitude_setting": 4,
+  "duty_setting": 30,
+  "topology": "prepost",
+  "x_fixture_current_a": 1e-05,
+  "vm_low": 0.07481749297131622,
+  "vm_high": 4.074817481364561,
+  "x_low": -0.41212283958449236,
+  "x_high": 0.007877083772257019,
+  "target_x_low": -0.4121441632380118,
+  "target_x_high": 0.0078558355432789,
+  "plateau_max_error_v": 0.00016446020544286233,
+  "settling_1pct_own_plateau_s": 4.3e-07,
+  "max_total_waveform_error_v": 0.3077880256107458,
+  "x_min": -0.4121228407783882,
+  "x_max": 0.007877105454392182,
+  "source_mw": 19.15117825797864,
+  "positive_extra_mw": 10.11611980405165,
+  "negative_extra_mw": 10.19082357223609,
+  "status": "REAL_LM393_AND_EXISTING_OPA197_MODEL_X_IS_RC_CURRENT_FIXTURE",
+  "netlist_sha256": "5687317a7306ab0cc14fc97b8cc8c12ec4a3e2bcbd908402e0a811d9c99d9e58"
+}

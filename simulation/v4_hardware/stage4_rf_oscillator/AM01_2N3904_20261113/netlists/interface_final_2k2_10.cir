@@ -1,0 +1,38 @@
+* AM-01 two-2N3904 modulator, RBB=62000, RE=1200, RL=2000
+VSUP vcc 0 DC 5
+CDEC1 vcc 0 100n
+CDEC2 vcc 0 10u
+VRF src 0 DC 0 AC 1
+RIN src rfatt 2200
+RSH rfatt 0 10
+CIN rfatt b1 1e-09
+RB1T vcc b1 10000
+RB1B b1 0 10000
+Q1 c1 b1 x 2N3904
+RC vcc c1 1000
+CE1 x 0 1e-09
+Q2 x b2 e2 2N3904
+RB2T vcc b2 22000
+RB2B b2 0 6800
+RE e2 0 1200
+CB2 b2 0 4.7e-11
+VMOD mod 0 DC 0
+CBB mod b2ac 1e-07
+RBB b2ac b2 62000
+COUT c1 out 1e-10
+RL out 0 2000
+CL out 0 1e-11
+
+.model 2N3904 NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++ Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++ Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++ Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-4 trtol=7 temp=27 tnom=27
+.control
+set num_threads=1
+ac lin 1 31meg 31meg
+let zin = v(src)/(-i(vrf))
+print mag(zin) ph(zin)
+quit
+.endc
+.end

@@ -1,0 +1,67 @@
+{
+ "variables": {
+  "frequency": {
+   "min": 100000.0,
+   "max": 299226463.6608444,
+   "mean": 37502455.12567293,
+   "n": 870,
+   "first_min": 100000.0,
+   "first_max": 147231.2502432725,
+   "first_mean": 122133.016625716,
+   "mid_min": 4528975.79903639,
+   "mid_max": 6606934.480076254,
+   "mid_mean": 5504310.648313561,
+   "last_min": 203235701.0936387,
+   "last_max": 299226463.6608444,
+   "last_mean": 248217892.60608426
+  },
+  "inoise_spectrum": {
+   "min": 1.3521490016266937e-09,
+   "max": 0.00023281398320681824,
+   "mean": 1.4513202322337521e-05,
+   "n": 870,
+   "first_min": 0.00010688896778086594,
+   "first_max": 0.00023281398320681824,
+   "first_mean": 0.00016195202828725398,
+   "mid_min": 4.459877348814632e-08,
+   "mid_max": 9.662437012753882e-08,
+   "mid_mean": 6.743167086165584e-08,
+   "last_min": 3.389495215953616e-09,
+   "last_max": 5.52191039332909e-09,
+   "last_mean": 4.306542913830143e-09
+  },
+  "onoise_spectrum": {
+   "min": 3.2846154808436807e-09,
+   "max": 4.2693305992821794e-07,
+   "mean": 1.7971381727132968e-07,
+   "n": 870,
+   "first_min": 4.995560675027228e-08,
+   "first_max": 8.707862419165836e-08,
+   "first_mean": 6.690676265970052e-08,
+   "mid_min": 2.015267279499961e-07,
+   "mid_max": 2.6813582158004615e-07,
+   "mid_mean": 2.3412853860818735e-07,
+   "last_min": 3.2846154808436807e-09,
+   "last_max": 6.0108696034814235e-09,
+   "last_mean": 4.52173202290849e-09
+  }
+ },
+ "meta": {
+  "file": "A_noise.raw",
+  "title": "* s05 selection fixture; not wireless qualification",
+  "date": "Thu Oct 29 17:54:58  2026",
+  "plotname": "Noise Spectral Density Curves",
+  "flags": "real",
+  "n_points": 870,
+  "n_variables": 3,
+  "sha256": "D2C506303767FA3682842DF46F402D28910DBCE8013EEDD1B0297ADD5FB33D47",
+  "size_bytes": 21225,
+  "x_min": 100000.0,
+  "x_max": 299226463.6608444,
+  "is_ac": false
+ },
+ "plot_vars": [
+  "inoise_spectrum",
+  "onoise_spectrum"
+ ]
+}

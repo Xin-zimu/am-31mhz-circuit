@@ -1,0 +1,170 @@
+﻿板,图纸位号,原位号,实际脚,孔坐标,节点,说明
+LC,CSEL1,CSEL,1,H06,input,轴向/径向尺寸待实购核实
+LC,CSEL1,CSEL,2,H07,tank1,轴向/径向尺寸待实购核实
+LC,CK1,CK,1,G10,tank1,轴向/径向尺寸待实购核实
+LC,CK1,CK,2,G11,tank2,轴向/径向尺寸待实购核实
+LC,COUT1,COUT,1,H15,tank2,轴向/径向尺寸待实购核实
+LC,COUT1,COUT,2,H16,port,轴向/径向尺寸待实购核实
+LC,LSEL1,LSEL1,1,G07,tank1,Coilcraft 132-17L；落点9.16mm与手册3.96mm相差5.20mm，落孔方案待实物确认
+LC,LSEL1,LSEL1,2,E04,0,Coilcraft 132-17L；落点9.16mm与手册3.96mm相差5.20mm，落孔方案待实物确认
+LC,LSEL2,LSEL2,1,G14,tank2,Coilcraft 132-17L；落点9.16mm与手册3.96mm相差5.20mm，落孔方案待实物确认
+LC,LSEL2,LSEL2,2,D16,0,Coilcraft 132-17L；落点9.16mm与手册3.96mm相差5.20mm，落孔方案待实物确认
+LC,CFIX1,CFIX1,1,H08,tank1,C0G/NP0 ≥50V ±2%
+LC,CFIX1,CFIX1,2,I08,0,C0G/NP0 ≥50V ±2%
+LC,CFIX2,CFIX2,1,H12,tank2,C0G/NP0 ≥50V ±2%
+LC,CFIX2,CFIX2,2,I12,0,C0G/NP0 ≥50V ±2%
+LC,CT1,CT1,1,J09,tank1,Vishay BFC280905217；图纸1=S定片/2=R动片；孔距5.08mm；孔径待实物（手册矛盾）
+LC,CT1,CT1,2,L09,0,Vishay BFC280905217；图纸1=S定片/2=R动片；孔距5.08mm；孔径待实物（手册矛盾）
+LC,CT2,CT2,1,J14,tank2,Vishay BFC280905217；图纸1=S定片/2=R动片；孔距5.08mm；孔径待实物（手册矛盾）
+LC,CT2,CT2,2,L14,0,Vishay BFC280905217；图纸1=S定片/2=R动片；孔距5.08mm；孔径待实物（手册矛盾）
+LC,RPORT1,RPORT,1,H17,port,轴向/径向尺寸待实购核实
+LC,RPORT1,RPORT,2,K17,0,轴向/径向尺寸待实购核实
+LC,JRF1,JRF,1,H03,input,具体接头待核实，图纸编号1=信号/正，2=地
+LC,JRF1,JRF,2,I03,0,具体接头待核实，图纸编号1=信号/正，2=地
+LC,RMEAS1,RMEAS,1,H18,port,可拆测量夹具；1%电阻
+LC,RMEAS1,RMEAS,2,K18,0,可拆测量夹具；1%电阻
+LC,CEXT1,CEXT,1,H19,port,可拆C0G；数值按总14pF预算，待核实
+LC,CEXT1,CEXT,2,I19,0,可拆C0G；数值按总14pF预算，待核实
+LC,PORT,接口/测试焊点,焊点,H16,port,RF点不装长针；端点为元件侧坐标
+LC,GPORT,接口/测试焊点,焊点,I16,0,RF点不装长针；端点为元件侧坐标
+RF,Q1,Q1,1,G07,e1,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实
+RF,Q1,Q1,2,G08,b1,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实
+RF,Q1,Q1,3,G09,c1,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实
+RF,RBT1,RBT1,1,B08,vcc,轴向/径向尺寸待实购核实
+RF,RBT1,RBT1,2,E08,b1,轴向/径向尺寸待实购核实
+RF,RBB1,RBB1,1,I10,b1,轴向/径向尺寸待实购核实
+RF,RBB1,RBB1,2,L10,0,轴向/径向尺寸待实购核实
+RF,RC1,RC1,1,B10,vcc,轴向/径向尺寸待实购核实
+RF,RC1,RC1,2,E10,c1,轴向/径向尺寸待实购核实
+RF,REU1,REU1,1,G06,e1,轴向/径向尺寸待实购核实
+RF,REU1,REU1,2,G04,eb1,轴向/径向尺寸待实购核实
+RF,REB1,REB1,1,H04,eb1,轴向/径向尺寸待实购核实
+RF,REB1,REB1,2,K04,0,轴向/径向尺寸待实购核实
+RF,CEB1,CEB1,1,H05,eb1,轴向/径向尺寸待实购核实
+RF,CEB1,CEB1,2,I05,0,轴向/径向尺寸待实购核实
+RF,CDQ1,CDQ1,1,C10,vcc,≥16V；CPWR正极接vcc；100n紧靠有源器件
+RF,CDQ1,CDQ1,2,C11,0,≥16V；CPWR正极接vcc；100n紧靠有源器件
+RF,Q2,Q2,1,G19,e2,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实
+RF,Q2,Q2,2,G20,b2,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实
+RF,Q2,Q2,3,G21,c2,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实
+RF,RBT2,RBT2,1,B20,vcc,轴向/径向尺寸待实购核实
+RF,RBT2,RBT2,2,E20,b2,轴向/径向尺寸待实购核实
+RF,RBB2,RBB2,1,I22,b2,轴向/径向尺寸待实购核实
+RF,RBB2,RBB2,2,L22,0,轴向/径向尺寸待实购核实
+RF,RC2,RC2,1,B22,vcc,轴向/径向尺寸待实购核实
+RF,RC2,RC2,2,E22,c2,轴向/径向尺寸待实购核实
+RF,REU2,REU2,1,G18,e2,轴向/径向尺寸待实购核实
+RF,REU2,REU2,2,G16,eb2,轴向/径向尺寸待实购核实
+RF,REB2,REB2,1,H16,eb2,轴向/径向尺寸待实购核实
+RF,REB2,REB2,2,K16,0,轴向/径向尺寸待实购核实
+RF,CEB2,CEB2,1,H17,eb2,轴向/径向尺寸待实购核实
+RF,CEB2,CEB2,2,I17,0,轴向/径向尺寸待实购核实
+RF,CDQ2,CDQ2,1,C22,vcc,≥16V；CPWR正极接vcc；100n紧靠有源器件
+RF,CDQ2,CDQ2,2,C23,0,≥16V；CPWR正极接vcc；100n紧靠有源器件
+RF,CIN1,CIN1,1,F05,port,轴向/径向尺寸待实购核实
+RF,CIN1,CIN1,2,F06,b1,轴向/径向尺寸待实购核实
+RF,CIN2,CIN2,1,G13,c1,轴向/径向尺寸待实购核实
+RF,CIN2,CIN2,2,G14,b2,轴向/径向尺寸待实购核实
+RF,CBUF1,CBUF,1,G25,c2,轴向/径向尺寸待实购核实
+RF,CBUF1,CBUF,2,G26,bb,轴向/径向尺寸待实购核实
+RF,QBUF1,QBUF,1,G31,ee,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实
+RF,QBUF1,QBUF,2,G32,bb,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实
+RF,QBUF1,QBUF,3,G33,vcc,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实
+RF,RBTB1,RBTB,1,B31,vcc,轴向/径向尺寸待实购核实
+RF,RBTB1,RBTB,2,E31,bb,轴向/径向尺寸待实购核实
+RF,RBBB1,RBBB,1,I32,bb,轴向/径向尺寸待实购核实
+RF,RBBB1,RBBB,2,L32,0,轴向/径向尺寸待实购核实
+RF,REBUF1,REBUF,1,I30,ee,轴向/径向尺寸待实购核实
+RF,REBUF1,REBUF,2,L30,0,轴向/径向尺寸待实购核实
+RF,COBUF1,COBUF,1,J31,ee,轴向/径向尺寸待实购核实
+RF,COBUF1,COBUF,2,J32,rf,轴向/径向尺寸待实购核实
+RF,RRF1,RRF,1,K33,rf,轴向/径向尺寸待实购核实
+RF,RRF1,RRF,2,N33,0,轴向/径向尺寸待实购核实
+RF,RCONNECT1,RCONNECT,1,J33,rf,轴向/径向尺寸待实购核实
+RF,RCONNECT1,RCONNECT,2,J34,an,轴向/径向尺寸待实购核实
+RF,DDET1,DDET,2,J35,an,Nexperia BAT85 SOD68/DO-34；采购待确认
+RF,DDET1,DDET,1,J37,det,Nexperia BAT85 SOD68/DO-34；采购待确认
+RF,RDET1,RDET,1,K37,det,轴向/径向尺寸待实购核实
+RF,RDET1,RDET,2,N37,0,轴向/径向尺寸待实购核实
+RF,CDET1,CDET,1,K38,det,轴向/径向尺寸待实购核实
+RF,CDET1,CDET,2,L38,0,轴向/径向尺寸待实购核实
+RF,RFILT1,RFILT,1,J39,det,轴向/径向尺寸待实购核实
+RF,RFILT1,RFILT,2,J42,out,轴向/径向尺寸待实购核实
+RF,CFILT1,CFILT,1,K42,out,轴向/径向尺寸待实购核实
+RF,CFILT1,CFILT,2,L42,0,轴向/径向尺寸待实购核实
+RF,CDBUF1,CDBUF,1,C33,vcc,≥16V；CPWR正极接vcc；100n紧靠有源器件
+RF,CDBUF1,CDBUF,2,C34,0,≥16V；CPWR正极接vcc；100n紧靠有源器件
+RF,PORT_IN,接口/测试焊点,焊点,F03,port,RF点不装长针；端点为元件侧坐标
+RF,GPORT,接口/测试焊点,焊点,E03,0,RF点不装长针；端点为元件侧坐标
+RF,VCC,接口/测试焊点,焊点,B02,vcc,RF点不装长针；端点为元件侧坐标
+RF,GND,接口/测试焊点,焊点,C02,0,RF点不装长针；端点为元件侧坐标
+RF,BB_OUT,接口/测试焊点,焊点,J43,out,RF点不装长针；端点为元件侧坐标
+RF,GOUT,接口/测试焊点,焊点,K43,0,RF点不装长针；端点为元件侧坐标
+RF,TP_C1,接口/测试焊点,焊点,F11,c1,RF点不装长针；端点为元件侧坐标
+RF,TP_C2,接口/测试焊点,焊点,F23,c2,RF点不装长针；端点为元件侧坐标
+RF,TP_RF,接口/测试焊点,焊点,J33,rf,RF点不装长针；端点为元件侧坐标
+RF,TP_DET,接口/测试焊点,焊点,J37,det,RF点不装长针；端点为元件侧坐标
+RF,GB01,地铜带接点,焊点,D02,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB02,地铜带接点,焊点,I02,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB03,地铜带接点,焊点,M02,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB04,地铜带接点,焊点,D03,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB05,地铜带接点,焊点,M04,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB06,地铜带接点,焊点,M10,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB07,地铜带接点,焊点,D11,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB08,地铜带接点,焊点,D15,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB09,地铜带接点,焊点,I15,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB10,地铜带接点,焊点,K15,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB11,地铜带接点,焊点,M15,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB12,地铜带接点,焊点,M22,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB13,地铜带接点,焊点,D23,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB14,地铜带接点,焊点,D27,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB15,地铜带接点,焊点,M27,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB16,地铜带接点,焊点,M30,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB17,地铜带接点,焊点,M32,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB18,地铜带接点,焊点,M33,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB19,地铜带接点,焊点,D34,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB20,地铜带接点,焊点,M37,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB21,地铜带接点,焊点,M38,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB22,地铜带接点,焊点,M42,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB23,地铜带接点,焊点,D44,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB24,地铜带接点,焊点,K44,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+RF,GB25,地铜带接点,焊点,M44,0,RF背面D/M行及2/15/27/44列(D至M)为地铜带，跨过的其他跳线须绝缘
+BB,RVT1,RVT,1,C04,vcc,轴向/径向尺寸待实购核实
+BB,RVT1,RVT,2,F04,ref,轴向/径向尺寸待实购核实
+BB,RVB1,RVB,1,G04,ref,轴向/径向尺寸待实购核实
+BB,RVB1,RVB,2,J04,0,轴向/径向尺寸待实购核实
+BB,CVREF1,CVREF,1,G06,ref,轴向/径向尺寸待实购核实
+BB,CVREF1,CVREF,2,I06,0,轴向/径向尺寸待实购核实
+BB,CCOUP1,CCOUP,1,L06,out,轴向/径向尺寸待实购核实
+BB,CCOUP1,CCOUP,2,L08,bbin,轴向/径向尺寸待实购核实
+BB,RBIAS1,RBIAS,1,H09,bbin,轴向/径向尺寸待实购核实
+BB,RBIAS1,RBIAS,2,K09,ref,轴向/径向尺寸待实购核实
+BB,RG1,RG,1,G11,neg,轴向/径向尺寸待实购核实
+BB,RG1,RG,2,J11,ref,轴向/径向尺寸待实购核实
+BB,RFB1,RFB,1,E17,bbo,轴向/径向尺寸待实购核实
+BB,RFB1,RFB,2,E14,neg,轴向/径向尺寸待实购核实
+BB,ROUT1,ROUT,1,H19,bbo,轴向/径向尺寸待实购核实
+BB,ROUT1,ROUT,2,H22,final,轴向/径向尺寸待实购核实
+BB,U1,U1,1,F13,NC,TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板
+BB,U1,U1,2,G13,neg,TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板
+BB,U1,U1,3,H13,bbin,TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板
+BB,U1,U1,4,I13,0,TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板
+BB,U1,U1,5,I16,NC,TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板
+BB,U1,U1,6,H16,bbo,TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板
+BB,U1,U1,7,G16,vcc,TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板
+BB,U1,U1,8,F16,NC,TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板
+BB,CDU1,CDU1,1,G17,vcc,≥16V；CPWR正极接vcc；100n紧靠有源器件
+BB,CDU1,CDU1,2,H17,0,≥16V；CPWR正极接vcc；100n紧靠有源器件
+BB,CPWR1,CPWR,1,A04,vcc,≥16V；CPWR正极接vcc；100n紧靠有源器件
+BB,CPWR1,CPWR,2,B04,0,≥16V；CPWR正极接vcc；100n紧靠有源器件
+BB,JPOWER1,JPOWER,1,A02,vcc,具体接头待核实，图纸编号1=信号/正，2=地
+BB,JPOWER1,JPOWER,2,B02,0,具体接头待核实，图纸编号1=信号/正，2=地
+BB,JOUT1,JOUT,1,H24,final,具体接头待核实，图纸编号1=信号/正，2=地
+BB,JOUT1,JOUT,2,I24,0,具体接头待核实，图纸编号1=信号/正，2=地
+BB,DET_IN,接口/测试焊点,焊点,L04,out,RF点不装长针；端点为元件侧坐标
+BB,GIN,接口/测试焊点,焊点,M04,0,RF点不装长针；端点为元件侧坐标
+BB,TP_REF,接口/测试焊点,焊点,F06,ref,RF点不装长针；端点为元件侧坐标
+BB,TP_BBIN,接口/测试焊点,焊点,H12,bbin,RF点不装长针；端点为元件侧坐标
+BB,TP_BBO,接口/测试焊点,焊点,H18,bbo,RF点不装长针；端点为元件侧坐标
+BB,RF_9V,接口/测试焊点,焊点,D02,vcc,RF点不装长针；端点为元件侧坐标
+BB,RF_GND,接口/测试焊点,焊点,E02,0,RF点不装长针；端点为元件侧坐标

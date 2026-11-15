@@ -1,0 +1,18 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * zin sanity: 50 ohm through 100 nf should read +50 - j0.05
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 7
+binary raw file "zin_sanity.raw"
+ngspice-47 done

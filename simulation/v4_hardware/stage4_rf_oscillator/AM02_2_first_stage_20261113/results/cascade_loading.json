@@ -1,0 +1,212 @@
+[
+  {
+    "candidate": "A",
+    "load_ohm": 2000.0,
+    "am01_out": {
+      "high_vpp": 0.05068676001566466,
+      "low_vpp": 0.02985268534088788,
+      "step_vpp": 0.02083407467477678,
+      "modulation_index": 0.2586816259106726
+    },
+    "candidate_out": {
+      "high_vpp": 0.14309118316621683,
+      "low_vpp": 0.08432717145941332,
+      "step_vpp": 0.05876401170680351,
+      "modulation_index": 0.25839608154556926
+    },
+    "candidate_gain_db": 9.006744402628577,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_A_2000.cir",
+    "netlist_sha256": "e9372308f285bc21ca0dcf6483d8606d5298736f16c641c2e713f861b109d96d",
+    "raw_sha256": "f15bc5947933150e9299e5b42782c27c5c77f861a60cff2e0d711f3ef91b9d69",
+    "log_sha256": "63672f2d6cde22ef5455a87ef90423e80dbd42adad46b144ead64929acd9f4f6"
+  },
+  {
+    "candidate": "A",
+    "load_ohm": 10000.0,
+    "am01_out": {
+      "high_vpp": 0.05025854935822632,
+      "low_vpp": 0.029566733074426383,
+      "step_vpp": 0.02069181628379994,
+      "modulation_index": 0.25921381864520543
+    },
+    "candidate_out": {
+      "high_vpp": 0.1515255941267094,
+      "low_vpp": 0.08919552900355912,
+      "step_vpp": 0.062330065123150286,
+      "modulation_index": 0.25893060115634214
+    },
+    "candidate_gain_db": 9.57797933718838,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_A_10000.cir",
+    "netlist_sha256": "f0ce9791a413b9f01b971fafb3131aa3ec0a96c840c4658edd4d8852d1dc60a3",
+    "raw_sha256": "34bea0b5d071e377e5de24927bb042cb2fbbe7e7f1cc35695d5a82d65cab1e4d",
+    "log_sha256": "9b056e8127d846794cf088ae086fc20c9e0f45e04209071b69b445147db72c2f"
+  },
+  {
+    "candidate": "B",
+    "load_ohm": 2000.0,
+    "am01_out": {
+      "high_vpp": 0.0028803450176604086,
+      "low_vpp": 0.0016635348771958576,
+      "step_vpp": 0.001216810140464551,
+      "modulation_index": 0.2677909998990063
+    },
+    "candidate_out": {
+      "high_vpp": 0.05556148592136739,
+      "low_vpp": 0.03208918578944545,
+      "step_vpp": 0.02347230013192194,
+      "modulation_index": 0.2677937279176188
+    },
+    "candidate_gain_db": 25.706656587737093,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_B_2000.cir",
+    "netlist_sha256": "ded5a25cdf990686d1c5b40fdd832ccb00bb4143be1ebfc7fd566eea823310e4",
+    "raw_sha256": "bad253160e70a0b109802ddcce43e81cc457e0042c5e4b5c839707a2f3203d7c",
+    "log_sha256": "15620f51878420536201f79ba66d3bd9e2da330b4f8b0ca915c92d813fa492a0"
+  },
+  {
+    "candidate": "B",
+    "load_ohm": 10000.0,
+    "am01_out": {
+      "high_vpp": 0.002911861496862087,
+      "low_vpp": 0.0016817649683810857,
+      "step_vpp": 0.0012300965284810013,
+      "modulation_index": 0.267783316250962
+    },
+    "candidate_out": {
+      "high_vpp": 0.059072439152294064,
+      "low_vpp": 0.034117489754530855,
+      "step_vpp": 0.02495494939776321,
+      "modulation_index": 0.2677859044480459
+    },
+    "candidate_gain_db": 26.14435001419515,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_B_10000.cir",
+    "netlist_sha256": "d5b97a1785c68bf3f36d958eb2653a75de361804d509ee933f953da1d0788a3d",
+    "raw_sha256": "196dce9867406933541833ceba5c1eeef50e63d259b80ae362c2228937a223bf",
+    "log_sha256": "8dc740f9f1171ce18007ca6ba5723617e4bb67ad90b92897f2b10c6cf1e9ecf0"
+  },
+  {
+    "candidate": "C",
+    "load_ohm": 2000.0,
+    "am01_out": {
+      "high_vpp": 0.03733665866381308,
+      "low_vpp": 0.021867046470694193,
+      "step_vpp": 0.01546961219311889,
+      "modulation_index": 0.2612946631967181
+    },
+    "candidate_out": {
+      "high_vpp": 0.19650534096941824,
+      "low_vpp": 0.1151427765803597,
+      "step_vpp": 0.08136256438905855,
+      "modulation_index": 0.2610718942528601
+    },
+    "candidate_gain_db": 14.418904034264843,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_C_2000.cir",
+    "netlist_sha256": "cdb0faae5a8274fbb0467dd98341a807e3ca3bb96fd406b6768b24f93c4ba17c",
+    "raw_sha256": "cad1ae66bade50412da092a0c766fcadba04fbacfa9d651ce942c05bb3afa4b6",
+    "log_sha256": "4d9f68ac43f9262943728afe2658f86e249c4e21c7fc85a3c06a4c72682ad439"
+  },
+  {
+    "candidate": "C",
+    "load_ohm": 10000.0,
+    "am01_out": {
+      "high_vpp": 0.03695961708959773,
+      "low_vpp": 0.021644307153947887,
+      "step_vpp": 0.015315309935649845,
+      "modulation_index": 0.2613359110902306
+    },
+    "candidate_out": {
+      "high_vpp": 0.19917056822125068,
+      "low_vpp": 0.11668754964581109,
+      "step_vpp": 0.08248301857543959,
+      "modulation_index": 0.26113946075672817
+    },
+    "candidate_gain_db": 14.624775122153084,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_C_10000.cir",
+    "netlist_sha256": "9971bea18dc3599552e8fc6871f9d6289979058ea263e7616d065cd480294dab",
+    "raw_sha256": "20309cd54602d4413ee01ef24dcc04402ba3e673cada3414edf4d8108fbdb1ab",
+    "log_sha256": "32dfbd71bff53df6998327ffa9e44e7dcb21c4770474f3eb68e30bd9b2aa32b6"
+  },
+  {
+    "candidate": "D",
+    "load_ohm": 2000.0,
+    "am01_out": {
+      "high_vpp": 0.03420008955743671,
+      "low_vpp": 0.019847492818783074,
+      "step_vpp": 0.014352596738653637,
+      "modulation_index": 0.2655548334936918
+    },
+    "candidate_out": {
+      "high_vpp": 0.3723769311161551,
+      "low_vpp": 0.22463321774481648,
+      "step_vpp": 0.14774371337133863,
+      "modulation_index": 0.24747269984139644
+    },
+    "candidate_gain_db": 20.251570551278316,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_D_2000.cir",
+    "netlist_sha256": "58df69a03d1ed11c9a6d13c56103273f0a4f58d1435aad5b3136ee006c09c73a",
+    "raw_sha256": "d1a60fdc801f16d3c5d90cc8f49dd0b9fca41ed80409527fde12991fa497f06c",
+    "log_sha256": "ab6680c8c09129e6accb854c8235137a0d4525a97fe4c3823459280d1d36b6b6"
+  },
+  {
+    "candidate": "D",
+    "load_ohm": 10000.0,
+    "am01_out": {
+      "high_vpp": 0.03417228556449729,
+      "low_vpp": 0.019831001066350856,
+      "step_vpp": 0.014341284498146437,
+      "modulation_index": 0.26556317944460633
+    },
+    "candidate_out": {
+      "high_vpp": 0.3968277641873107,
+      "low_vpp": 0.23936962604680628,
+      "step_vpp": 0.1574581381405044,
+      "modulation_index": 0.24749887465360512
+    },
+    "candidate_gain_db": 20.811541210758236,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_D_10000.cir",
+    "netlist_sha256": "d63d52d386203d8aaa9436944443da89df1f84973dc0aeb1b1d86d6a9ad94d04",
+    "raw_sha256": "ff59f582788ff65ba42d9294d78b6ab9848f1c6fbe0839a2d5e767b5465ac579",
+    "log_sha256": "30b032ad181f32467aedd5fd4a77a5746126d7c08c4c7422614cf972a1c8cfe5"
+  },
+  {
+    "candidate": "E",
+    "load_ohm": 2000.0,
+    "am01_out": {
+      "high_vpp": 0.10762651519653113,
+      "low_vpp": 0.06562421770588564,
+      "step_vpp": 0.04200229749064549,
+      "modulation_index": 0.24243647797036003
+    },
+    "candidate_out": {
+      "high_vpp": 0.28278680363709086,
+      "low_vpp": 0.16724254227336083,
+      "step_vpp": 0.11554426136373003,
+      "modulation_index": 0.2567482818925355
+    },
+    "candidate_gain_db": 8.789506680621518,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_E_2000.cir",
+    "netlist_sha256": "3768b80c0b501ea61340bbe58c52b70271e66386c867c02c9feedcf57f81d993",
+    "raw_sha256": "c90d64050125e37b4092bfcb2ccfa9c1f3878357211fe29323265b091de9a115",
+    "log_sha256": "04034b6ceb7688180235bf409654769923377be1859d94f83b116f2ae7efec21"
+  },
+  {
+    "candidate": "E",
+    "load_ohm": 10000.0,
+    "am01_out": {
+      "high_vpp": 0.10663241314889728,
+      "low_vpp": 0.06501204672560029,
+      "step_vpp": 0.04162036642329699,
+      "modulation_index": 0.2424801036615387
+    },
+    "candidate_out": {
+      "high_vpp": 0.29801728701744895,
+      "low_vpp": 0.1763833250745591,
+      "step_vpp": 0.12163396194288986,
+      "modulation_index": 0.2563950358464113
+    },
+    "candidate_gain_db": 9.314979074149223,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\cascade_E_10000.cir",
+    "netlist_sha256": "377c9a560e17315fcb5bf82519743934916ac098d3a6dc919407d96af1f56e25",
+    "raw_sha256": "1799755330da13fcb34157246a4e190c6880ee8567526df5a0eb10c53a406b7c",
+    "log_sha256": "55bedf478ef2ae3b1a8c362bd954d4dcd6981fc9a78580384394fc814262ad69"
+  }
+]

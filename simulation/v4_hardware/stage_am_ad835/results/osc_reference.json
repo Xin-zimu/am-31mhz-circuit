@@ -1,0 +1,21 @@
+{
+  "status": "interface RC approximation only; not AD835",
+  "r_ohm": 2000,
+  "c_f": 1e-11,
+  "f_hz": 30997389.736179657,
+  "vpp": 1.9748868493526792,
+  "minimum": -1.080700400507043,
+  "maximum": 0.8941864488456361,
+  "fundamental_vpp": 1.964787738177886,
+  "thd_2_to_5": 0.1150090305570177,
+  "mean_supply_ma": 8.560621444749524,
+  "rail_power_mw": 42.80310722374762,
+  "last_two_windows_vpp": [
+    1.9748865402098066,
+    1.9748864286152499
+  ],
+  "window_relative_difference": 5.650682241244358e-08,
+  "source": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\stage4_rf_oscillator\\S04_RF_CARRIER\\XTAL\\c4_dual_load_20261030\\netlists\\c4_trap_0p125n_2k_rtol1e5.cir",
+  "source_sha256": "dc2487792839e085bcd149d4b8d94f21c11e776a3b7dee7e62c1cf6a79ca3d81",
+  "netlist_sha256": "a34c9397387fa370ed069bbbbf6273f933526d244514e01ff4b3cdb73d8c01d2"
+}

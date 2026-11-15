@@ -1,0 +1,55 @@
+<Slide
+  notes={`（1:20–1:55）四个单元：方波源用 LM393 张弛振荡，比较电压调占空比；载波最花力气——有源晶振被禁用，只能无源晶体自己搭，仿真 30.999 MHz；调幅级工作点必须放放大区中点，否则包络不对称；接收链最难，预选、放大、检波、基带环环相扣。`}
+  style={{ width: 1280, height: 720, padding: '60px 60px 0 60px', background: '#FFFFFF', flexDirection: 'column', fontFamily: 'Microsoft YaHei' }}
+>
+  <Box style={{ flex: 1, flexDirection: 'column' }}>
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#111111', lineHeight: 1.25 }}>
+      四个关键单元：器件选型与实现要点
+    </Text>
+    <Box style={{ width: '100%', height: 1, background: '#DCDCDC', marginTop: 12 }} />
+
+    <Box style={{ flexDirection: 'row', marginTop: 30, paddingBottom: 12, borderBottom: '1px solid #111111' }}>
+      <Text style={{ width: 40, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>序号</Text>
+      <Text style={{ width: 210, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>功能模块</Text>
+      <Text style={{ width: 620, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>实现方式</Text>
+      <Text style={{ width: 260, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>关键参数</Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', height: 104, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
+      <Text style={{ width: 40, fontSize: 15, fontWeight: 'bold', color: '#1F4E79' }}>01</Text>
+      <Text style={{ width: 210, fontSize: 19, fontWeight: 'bold', color: '#111111' }}>20 kHz 方波源</Text>
+      <Text style={{ width: 620, fontSize: 17, color: '#333333', lineHeight: 1.5 }}>LM393 比较器接成 RC 张弛振荡，比较电压设定占空比；输出经分压网络与射随缓冲，覆盖 1~4 V 峰峰值</Text>
+      <Text style={{ width: 260, fontSize: 16, color: '#333333' }}>20.00 kHz；10~50%；1~4 V</Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', height: 104, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
+      <Text style={{ width: 40, fontSize: 15, fontWeight: 'bold', color: '#1F4E79' }}>02</Text>
+      <Text style={{ width: 210, fontSize: 19, fontWeight: 'bold', color: '#111111' }}>31 MHz 载波源</Text>
+      <Text style={{ width: 620, fontSize: 17, color: '#333333', lineHeight: 1.5 }}>无源石英晶体配 S9013 共射振荡，射极跟随器隔离后级负载，抑制负载牵引引起的频率漂移</Text>
+      <Text style={{ width: 260, fontSize: 16, color: '#333333' }}>30.999 MHz；2.0 V</Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', height: 104, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
+      <Text style={{ width: 40, fontSize: 15, fontWeight: 'bold', color: '#1F4E79' }}>03</Text>
+      <Text style={{ width: 210, fontSize: 19, fontWeight: 'bold', color: '#111111' }}>AM 调制级</Text>
+      <Text style={{ width: 620, fontSize: 17, color: '#333333', lineHeight: 1.5 }}>S9013 集电极调幅，基带经射随驱动，静态工作点设在放大区中点，保证包络上下对称、不削顶</Text>
+      <Text style={{ width: 260, fontSize: 16, color: '#333333' }}>载波 31 MHz；调制度 m ≤ 0.5</Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', height: 104, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
+      <Text style={{ width: 40, fontSize: 15, fontWeight: 'bold', color: '#1F4E79' }}>04</Text>
+      <Text style={{ width: 210, fontSize: 19, fontWeight: 'bold', color: '#111111' }}>接收与解调</Text>
+      <Text style={{ width: 620, fontSize: 17, color: '#333333', lineHeight: 1.5 }}>空心线圈配 2~18 pF 微调电容做 LC 预选，两级共射放大后由 BAT85 包络检波，OPA197 完成基带放大</Text>
+      <Text style={{ width: 260, fontSize: 16, color: '#333333' }}>中心 31.000 MHz；G = 22</Text>
+    </Box>
+
+    <Text style={{ fontSize: 15, color: '#6B6B6B', marginTop: 18, lineHeight: 1.6 }}>
+      各单元先按独立夹具验证，再逐级接入整链；不在一次改动中替换全部理想模块，便于定位偏差来源。
+    </Text>
+  </Box>
+
+  <Box style={{ height: 60, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: 10 }}>
+    <Text style={{ fontSize: 14, color: '#8A8A8A' }}>31 MHz 模拟调幅无线方波传输系统　·　方案汇报</Text>
+    <Text style={{ fontSize: 14, color: '#8A8A8A' }}>04 / 07</Text>
+  </Box>
+</Slide>

@@ -1,0 +1,215 @@
+{
+  "predecessor": {
+    "manifest_used": "simulation\\v4_hardware\\stage_am_alt2_20261115\\sources\\predecessor_sha256.json",
+    "entries": 190,
+    "changed_or_missing": [],
+    "unchanged": true
+  },
+  "runs": [
+    {
+      "run": "alt3_iso100",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 45.69,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "alt3_iso1k",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 45.64,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "alt3_iso22",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 45.27,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "closure_sense10_fine",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 53.08,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "closure_sense10_preliminary",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 32.03,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "det_c_hi",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 17.19,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "det_c_lo",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 17.35,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "det_c_nom",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 17.46,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "drv2_a",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 25.25,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "drv2_b",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 25.27,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "drv2_c",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 25.26,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "drv2_ef_only",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 14.08,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "drv4_150",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 26.14,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "drv4_200",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 26.19,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "fin_hi",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 17.19,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "fin_lo",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 17.35,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "fin_nom",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 17.46,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "probe_iso22",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 25.37,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "probe_roe10",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 25.95,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "probe_roe47",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 25.36,
+      "log": true,
+      "log_errors": false
+    },
+    {
+      "run": "probe_stock",
+      "netlist": true,
+      "raw": true,
+      "raw_mb": 25.88,
+      "log": true,
+      "log_errors": false
+    }
+  ],
+  "numbers": {
+    "nominal I_ant 6.250": true,
+    "nominal m 22.5%": true,
+    "nominal P_bat 308.7": true,
+    "detuned lo 1.860": true,
+    "detuned hi 2.076": true,
+    "req 5.30 mA rms": true,
+    "ceiling 1.193 mA rms": true,
+    "gap 4.44x": true,
+    "report states 8.91 pF": true,
+    "report states impedance unmeasured": true,
+    "report keeps 6 m unverified": true,
+    "report records ROISO issue": true,
+    "report records m mismatch": true
+  },
+  "errata": {
+    "present": true,
+    "checks": {
+      "published 5.30 reproduced as its own model /sqrt2": true,
+      "its own model rms is 7.50": true,
+      "corrected D=3 is 3.75": true,
+      "5.30 equals the D=1.5 value": true,
+      "h_eff=h/2 implies impossible D<1": true,
+      "net factor is sqrt2": true,
+      "driver covers the whole D bracket": true,
+      "errata report states the retraction": true,
+      "errata report states L must be tunable": true,
+      "errata report keeps 6 m unmeasured": true,
+      "probe detunes antenna node from 31 to 18.5 MHz": true,
+      "low-freq L route is the accurate one": true,
+      "first report left intact (still says 5.30)": true
+    },
+    "all_pass": true
+  },
+  "all_checks_pass": true,
+  "stage_status": "NOT complete: the antenna impedance is still unmeasured and the requirement has been corrected; see 02_AM-ALT.3 errata",
+  "original_checks_scope": "the `numbers` block above certifies that the first report agrees with its own JSON. It does NOT certify that those numbers are the correct requirement -- the errata block supersedes several of them"
+}

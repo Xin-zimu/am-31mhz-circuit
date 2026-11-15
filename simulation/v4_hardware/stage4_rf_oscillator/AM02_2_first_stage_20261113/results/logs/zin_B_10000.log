@@ -1,0 +1,29 @@
+Note: iac: has no value, DC 0 assumed
+Note: iac: has no value, DC 0 assumed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-02.2 candidate b zin, load=10000
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+v(b) = 2.439076e+00
+v(c) = 3.253379e+00
+v(e) = 1.758806e+00
+i(vcc) = -2.00271e-03
+@q1[ic] = 1.746641e-03
+@q1[ib] = 1.218486e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+real(v(e)) = 1.692576e+01
+imag(v(e)) = 2.088850e-01
+mag(v(e)) = 1.692705e+01
+ph(v(e)) = 1.234062e-02
+ngspice-47 done

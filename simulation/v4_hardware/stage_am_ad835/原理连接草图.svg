@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#f7f9fc"/>
+<g font-family="Arial, sans-serif" fill="#15243b">
+<text x="45" y="48" font-size="25" font-weight="bold">AD835 route A — candidate connections</text>
+<text x="45" y="78" font-size="17" fill="#b03528">UNVERIFIED • Official model unavailable • Not a construction schematic</text>
+<g fill="white" stroke="#65758e" stroke-width="2">
+<rect x="525" y="215" width="260" height="340" rx="8"/>
+<rect x="45" y="235" width="330" height="105" rx="6"/>
+<rect x="45" y="410" width="330" height="120" rx="6"/>
+<rect x="405" y="110" width="490" height="65" rx="6"/>
+<rect x="405" y="610" width="490" height="65" rx="6"/>
+</g>
+<g stroke="#2469ad" stroke-width="3" fill="none">
+<path d="M375 275 H525 M375 455 H435 V390 H525 M435 455 V485 H525"/>
+<path d="M650 175 V215 M785 520 H850 V610 M785 370 H1040"/>
+<path d="M580 555 V580 H745 V555 M660 580 V595"/>
+<path d="M1035 370 V420 M1035 490 V540 M985 370 V435 M985 465 V540 M985 540 H1035"/>
+</g>
+<g stroke="#15243b" stroke-width="2" fill="none">
+<path d="M645 595 H675 M650 601 H670 M655 607 H665"/>
+<rect x="1023" y="420" width="24" height="70"/>
+<path d="M967 435 H1003 M967 465 H1003 M995 548 H1025 M1000 554 H1020 M1005 560 H1015 M1010 540 V548"/>
+</g>
+<g font-size="18">
+<text x="590" y="250" font-size="24" font-weight="bold">AD835</text>
+<text x="541" y="283">8 · X1</text><text x="541" y="398">1 · Y1</text><text x="541" y="493">4 · Z</text>
+<text x="706" y="365">W · 5</text><text x="665" y="205">6 · VP</text><text x="795" y="507">3 · VN</text>
+<text x="548" y="538">7 · X2</text><text x="707" y="538">2 · Y2</text>
+<text x="62" y="263">Vm → resistor sum → buffer</text>
+<text x="62" y="292">X = 0.105 Vm − 0.420 V</text>
+<text x="62" y="320" font-size="15">Resistors / buffer: see candidate template</text>
+<text x="62" y="440">TP2 → RF interface (TBD)</text>
+<text x="62" y="470">DC return + amplitude conditioning</text>
+<text x="62" y="500" font-size="15">Direct TP2 connection NOT qualified</text>
+<text x="423" y="138">+5 V → bead → VP; 4.7 µF || 10 nF to AGND</text>
+<text x="423" y="162" font-size="15">Local decoupling adjacent to pin 6</text>
+<text x="423" y="637">−5 V → bead → VN; 4.7 µF || 10 nF to AGND</text>
+<text x="423" y="660" font-size="15">Negative-rail polarized capacitor: positive terminal to AGND</text>
+<text x="867" y="347">AM output</text><text x="1060" y="457">50 Ω</text>
+<text x="881" y="455">10 pF</text>
+<text x="45" y="715" font-size="16">All grounds are AGND. Supply conversion, RF bias network and component parasitics remain unverified.</text>
+<text x="45" y="741" font-size="16">Physical pin labels shown here are NOT an official SPICE macro-model port mapping.</text>
+</g></g></svg>

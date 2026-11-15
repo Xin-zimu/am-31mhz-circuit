@@ -1,0 +1,30 @@
+{
+  "conditions": "A=4 Vpp, 50%, RL=2k, final component values",
+  "records": [
+    {
+      "label": "stability_no_carrier",
+      "carrier_enabled": false,
+      "carrier_31mhz_vpp": 0.0,
+      "rf_rms_5mhz_plus_mv": 0.18778546286979012,
+      "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\netlists\\stability_no_carrier_rbb62k_re1200_a4_d50_rl2000.cir",
+      "netlist_sha256": "e38c4c9f5d69d0ac79c30b86f375f10ae50634e5ead8d552ef133f616335e954",
+      "raw_sha256": "15f861553c213e189b42891107eb35c806cfeed43a121e43805368e4762b6dd7",
+      "max_spurious_frequency_mhz": 5.01994980055902,
+      "max_spurious_amplitude_mv": 0.025556637802583337,
+      "spurious_rms_5mhz_plus_mv": 0.18778546286979012
+    },
+    {
+      "label": "stability_no_modulation",
+      "carrier_enabled": true,
+      "carrier_31mhz_vpp": 0.04588276079588065,
+      "rf_rms_5mhz_plus_mv": 29.236072737711947,
+      "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\netlists\\stability_no_modulation_rbb62k_re1200_a4_d50_rl2000.cir",
+      "netlist_sha256": "9b59488ccfb2ba16c8d6618c18fdf76720322a131d4da047b673f35de052a0cd",
+      "raw_sha256": "bb70db99986bd5eddc9f2650063538d2ed46f9a477f0c9d38a7e7b9c505f48a5",
+      "max_spurious_frequency_mhz": 29.999700003340763,
+      "max_spurious_amplitude_mv": 0.03821123435996508,
+      "spurious_rms_5mhz_plus_mv": 0.2854752271180395,
+      "max_spurious_dbc": -55.568569579019936
+    }
+  ]
+}

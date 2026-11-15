@@ -1,0 +1,140 @@
+S3 50ohm 1Vpp 10%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1759.0933 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1805.1942 mV
+  cap 2: Vcap=-0.748811 V, <b2ac-b2>=-0.0270 mV
+  out   332.9/  293.3 mVpp m=  6.33% THD= 1.16% P= 162.8mW VCE=4.30V
+S3 50ohm 1Vpp 30%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1595.4716 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1641.5726 mV
+  cap 2: Vcap=-0.571346 V, <b2ac-b2>=-0.0227 mV
+  out   324.2/  284.5 mVpp m=  6.53% THD= 1.17% P= 162.8mW VCE=4.30V
+S3 50ohm 1Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1329.9725 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1376.0738 mV
+  cap 2: Vcap=-0.283385 V, <b2ac-b2>=-0.0161 mV
+  out   319.8/  280.0 mVpp m=  6.64% THD= 1.18% P= 162.9mW VCE=4.30V
+S3 50ohm 2Vpp 10%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1676.7566 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1722.8575 mV
+  cap 2: Vcap=-0.659507 V, <b2ac-b2>=-0.0248 mV
+  out   368.0/  288.9 mVpp m= 12.04% THD= 1.11% P= 162.8mW VCE=4.30V
+S3 50ohm 2Vpp 30%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1349.5104 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1395.6116 mV
+  cap 2: Vcap=-0.304576 V, <b2ac-b2>=-0.0168 mV
+  out   350.6/  271.2 mVpp m= 12.77% THD= 1.13% P= 162.8mW VCE=4.30V
+S3 50ohm 2Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=818.5079 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=864.6095 mV
+  cap 2: Vcap=0.271343 V, <b2ac-b2>=-0.0065 mV
+  out   341.8/  262.3 mVpp m= 13.17% THD= 1.14% P= 162.9mW VCE=4.30V
+S3 50ohm 3Vpp 10%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1594.4186 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1640.5196 mV
+  cap 2: Vcap=-0.570203 V, <b2ac-b2>=-0.0227 mV
+  out   403.0/  284.5 mVpp m= 17.23% THD= 1.05% P= 162.8mW VCE=4.30V
+S3 50ohm 3Vpp 30%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1103.5450 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1149.6464 mV
+  cap 2: Vcap=-0.037803 V, <b2ac-b2>=-0.0116 mV
+  out   377.0/  258.0 mVpp m= 18.74% THD= 1.09% P= 162.8mW VCE=4.30V
+S3 50ohm 3Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=307.0337 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=353.1358 mV
+  cap 2: Vcap=0.826071 V, <b2ac-b2>=-0.0010 mV
+  out   363.7/  244.5 mVpp m= 19.60% THD= 1.12% P= 162.9mW VCE=4.30V
+S3 50ohm 4Vpp 10%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1512.0794 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1558.1805 mV
+  cap 2: Vcap=-0.480897 V, <b2ac-b2>=-0.0207 mV
+  out   437.8/  280.1 mVpp m= 21.96% THD= 0.99% P= 162.7mW VCE=4.30V
+S3 50ohm 4Vpp 30%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=857.5750 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=903.6767 mV
+  cap 2: Vcap=0.228973 V, <b2ac-b2>=-0.0073 mV
+  out   403.3/  244.7 mVpp m= 24.47% THD= 1.05% P= 162.8mW VCE=4.30V
+S3 50ohm 4Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=-204.4511 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=-158.3484 mV
+  cap 2: Vcap=1.380798 V, <b2ac-b2>=-0.0003 mV
+  out   385.7/  226.8 mVpp m= 25.95% THD= 1.08% P= 162.9mW VCE=4.30V
+S3 2000ohm 1Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1329.9725 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1376.0738 mV
+  cap 2: Vcap=-0.283385 V, <b2ac-b2>=-0.0161 mV
+  out   319.8/  280.0 mVpp m=  6.64% THD= 1.18% P= 162.9mW VCE=4.30V
+S3 2000ohm 2Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=818.5079 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=864.6095 mV
+  cap 2: Vcap=0.271343 V, <b2ac-b2>=-0.0065 mV
+  out   341.8/  262.3 mVpp m= 13.17% THD= 1.14% P= 162.9mW VCE=4.30V
+S3 2000ohm 3Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=307.0337 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=353.1358 mV
+  cap 2: Vcap=0.826071 V, <b2ac-b2>=-0.0010 mV
+  out   363.7/  244.5 mVpp m= 19.60% THD= 1.12% P= 162.9mW VCE=4.30V
+S3 2000ohm 4Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=-204.4511 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=-158.3484 mV
+  cap 2: Vcap=1.380798 V, <b2ac-b2>=-0.0003 mV
+  out   385.7/  226.8 mVpp m= 25.95% THD= 1.08% P= 162.9mW VCE=4.30V
+S6 50ohm 1Vpp 10%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1759.0933 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1805.1942 mV
+  cap 2: Vcap=-0.748811 V, <b2ac-b2>=-0.0270 mV
+  out   499.5/  442.9 mVpp m=  6.01% THD= 0.48% P= 101.0mW VCE=4.16V
+S6 50ohm 1Vpp 30%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1595.4716 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1641.5726 mV
+  cap 2: Vcap=-0.571346 V, <b2ac-b2>=-0.0227 mV
+  out   487.1/  430.1 mVpp m=  6.21% THD= 0.47% P= 101.1mW VCE=4.16V
+S6 50ohm 1Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1329.9725 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1376.0737 mV
+  cap 2: Vcap=-0.283385 V, <b2ac-b2>=-0.0162 mV
+  out   480.7/  423.6 mVpp m=  6.31% THD= 0.46% P= 101.1mW VCE=4.16V
+S6 50ohm 2Vpp 10%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1676.7566 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1722.8575 mV
+  cap 2: Vcap=-0.659507 V, <b2ac-b2>=-0.0248 mV
+  out   549.0/  436.5 mVpp m= 11.42% THD= 0.53% P= 101.0mW VCE=4.15V
+S6 50ohm 2Vpp 30%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1349.5104 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1395.6116 mV
+  cap 2: Vcap=-0.304576 V, <b2ac-b2>=-0.0168 mV
+  out   524.5/  411.0 mVpp m= 12.14% THD= 0.51% P= 101.0mW VCE=4.16V
+S6 50ohm 2Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=818.5078 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=864.6095 mV
+  cap 2: Vcap=0.271343 V, <b2ac-b2>=-0.0065 mV
+  out   512.0/  397.9 mVpp m= 12.54% THD= 0.50% P= 101.1mW VCE=4.16V
+S6 50ohm 3Vpp 10%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1594.4186 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1640.5196 mV
+  cap 2: Vcap=-0.570203 V, <b2ac-b2>=-0.0227 mV
+  out   597.7/  430.2 mVpp m= 16.30% THD= 0.58% P= 101.0mW VCE=4.15V
+S6 50ohm 3Vpp 30%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1103.5450 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1149.6464 mV
+  cap 2: Vcap=-0.037803 V, <b2ac-b2>=-0.0117 mV
+  out   561.6/  391.7 mVpp m= 17.82% THD= 0.54% P= 101.0mW VCE=4.16V
+S6 50ohm 3Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=307.0337 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=353.1358 mV
+  cap 2: Vcap=0.826071 V, <b2ac-b2>=-0.0011 mV
+  out   543.0/  372.1 mVpp m= 18.68% THD= 0.53% P= 101.2mW VCE=4.16V
+S6 50ohm 4Vpp 10%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=1512.0794 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=1558.1805 mV
+  cap 2: Vcap=-0.480897 V, <b2ac-b2>=-0.0207 mV
+  out   645.6/  423.8 mVpp m= 20.74% THD= 0.62% P= 101.0mW VCE=4.15V
+S6 50ohm 4Vpp 30%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=857.5750 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=903.6767 mV
+  cap 2: Vcap=0.228973 V, <b2ac-b2>=-0.0074 mV
+  out   598.1/  372.4 mVpp m= 23.26% THD= 0.58% P= 101.0mW VCE=4.15V
+S6 50ohm 4Vpp 50%
+  cap 0: Vcap=1.159063 V, <b2ac-b2>=-204.4511 mV
+  cap 1: Vcap=1.209063 V, <b2ac-b2>=-158.3484 mV
+  cap 2: Vcap=1.380798 V, <b2ac-b2>=-0.0003 mV
+  out   573.7/  346.1 mVpp m= 24.74% THD= 0.55% P= 101.2mW VCE=4.16V

@@ -1,0 +1,76 @@
+{
+  "coupled_filter_d10_r2": {
+    "finite_monotonic_raw": true,
+    "netlist_hash_matches": true,
+    "v3_frequency_range_hz": [
+      30979833.427250557,
+      30979872.23310982
+    ],
+    "VH": 0.09641580232060908,
+    "VL": 0.06008842293154326,
+    "m": 0.23211756315547918,
+    "thd_max_pct": 0.862082504822913,
+    "power_9v_iq8ma_est_mw": 231.72441973598222
+  },
+  "coupled_filter_d50_r2": {
+    "finite_monotonic_raw": true,
+    "netlist_hash_matches": true,
+    "v3_frequency_range_hz": [
+      30979850.79942692,
+      30979879.230777174
+    ],
+    "VH": 0.096422761762983,
+    "VL": 0.0600104285939958,
+    "m": 0.23276603312822977,
+    "thd_max_pct": 0.8618120708419506,
+    "power_9v_iq8ma_est_mw": 226.3700967367176
+  },
+  "coupled_filter_a2": {
+    "finite_monotonic_raw": true,
+    "netlist_hash_matches": true,
+    "v3_frequency_range_hz": [
+      30979766.34306144,
+      30979838.817090984
+    ],
+    "VH": 0.0788333001576605,
+    "VL": 0.060065210124410774,
+    "m": 0.13512088787083468,
+    "thd_max_pct": 0.8312114343313195,
+    "power_9v_iq8ma_est_mw": 225.30266186888716
+  },
+  "coupled_filter_d50_fine": {
+    "finite_monotonic_raw": true,
+    "netlist_hash_matches": true,
+    "v3_frequency_range_hz": [
+      30997344.680506036,
+      30997402.15550187
+    ],
+    "VH": 0.096406040076436,
+    "VL": 0.06000055549595493,
+    "m": 0.23276182469959347,
+    "thd_max_pct": 0.8717241353458838,
+    "power_9v_iq8ma_est_mw": 226.37001136893997
+  },
+  "historical": {
+    "count": 859,
+    "changed_or_missing": [],
+    "manifest_filename_encoding_resolutions": [
+      {
+        "manifest_path": "simulation\\v4_hardware\\stage_am_alt1\\AM-ALT.1_\u6d5c\u3086\u5e34\u93c2\u56e8\u3002.md",
+        "actual_path": "simulation\\v4_hardware\\stage_am_alt1\\AM-ALT.1_\u4ea4\u63a5\u6587\u6863.md",
+        "sha256": "a863e3f84e38f9f90837d7d4b379c47997b130c7dfaef1d6b2236ca5bbba779e"
+      },
+      {
+        "manifest_path": "simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_3_second_stage_20261113\\AM02_3_\u93b6\u30e5\u61a1.md",
+        "actual_path": "simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_3_second_stage_20261113\\AM02_3_\u62a5\u544a.md",
+        "sha256": "172b3f5dc92705f8892f594be2635ceee421edeb73ae07a3d4ec6daf37000db0"
+      }
+    ]
+  },
+  "fine_vs_coarse": {
+    "VH": -0.017342053101643273,
+    "VL": -0.016452303828173864,
+    "m": -0.0018080080584570446,
+    "v3_frequency_midpoint_delta_hz": 17508.40290190652
+  }
+}

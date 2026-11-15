@@ -1,0 +1,23 @@
+{
+  "name": "bb_bare_a3_d50",
+  "amplitude_setting": 3,
+  "duty_setting": 50,
+  "topology": "bare",
+  "x_fixture_current_a": 1e-05,
+  "vm_low": 0.056073021865037834,
+  "vm_high": 3.056072762936438,
+  "x_low": 0.0,
+  "x_high": 0.0,
+  "target_x_low": -0.414112332704171,
+  "target_x_high": -0.099112359891674,
+  "plateau_max_error_v": 0.4141123660940792,
+  "settling_1pct_own_plateau_s": 0,
+  "max_total_waveform_error_v": 0.4141123660940792,
+  "x_min": 0.0,
+  "x_max": 0.0,
+  "source_mw": 17.238281763901664,
+  "positive_extra_mw": -0.0,
+  "negative_extra_mw": 0.0,
+  "status": "REAL_LM393_AND_EXISTING_OPA197_MODEL_X_IS_RC_CURRENT_FIXTURE",
+  "netlist_sha256": "cc0df25a3a6db6fdbfc1529c33d4894bbb0de523924cf998caf9de5f092ac415"
+}

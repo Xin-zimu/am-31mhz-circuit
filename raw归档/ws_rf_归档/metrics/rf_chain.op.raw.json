@@ -1,0 +1,16 @@
+{
+ "meta": {
+  "file": "rf_chain.op.raw",
+  "title": "D:\\实验报告文件夹\\电路2\\simulation\\rf\\rf_chain.cir",
+  "date": "Thu Sep 17 13:52:13 2026",
+  "plotname": "Operating Point",
+  "flags": "real nocompression",
+  "n_points": 1,
+  "n_variables": 8,
+  "sha256": "0023172F6CE5282E5CE8897B5FB3AAA4A01941C8D321300A3227A38C139FFF6A",
+  "size_bytes": 916,
+  "is_ac": false,
+  "note": "LTspice 截断的操作点输出：数据段不完整，仅登记头部与哈希，未解析波形"
+ },
+ "variables": {}
+}

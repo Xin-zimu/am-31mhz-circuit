@@ -1,0 +1,34 @@
+* AM-02.2 candidate E, load=10000
+VCC vcc 0 DC 5
+R1 vcc b1 100k
+R2 b1 0 100k
+Q1 vcc b1 e1 2N3904
+RE1 e1 0 2.2k
+C1 e1 b2 1n
+R3 vcc b2 33k
+R4 b2 0 6.8k
+Q2 c2 b2 e2 2N3904
+RE2 e2 0 100
+RC1 vcc c2 1k
+COUT c2 out 100p
+RL out 0 10000
+CL out 0 10p
+VTEST vt 0 DC 0 AC 1
+CTEST vt b1 1
+.model 2N3904 NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++ Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++ Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++ Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-4 trtol=7 temp=27 tnom=27
+.control
+set num_threads=1
+op
+print v(b1) v(e1) v(b2) v(c2) v(e2) i(vcc) @q1[ic] @q1[ib] @q2[ic] @q2[ib]
+ac lin 1 31meg 31meg
+let zin=-v(b1)/i(vtest)
+print real(zin) imag(zin) mag(zin) ph(zin)
+ac dec 60 1meg 100meg
+wrdata D:\实验报告文件夹\电路2\simulation\v4_hardware\stage4_rf_oscillator\AM02_2_first_stage_20261113\results\resp_E_10000.txt frequency db(v(c2)) ph(v(c2))
+quit
+.endc
+.end

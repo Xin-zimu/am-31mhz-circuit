@@ -1,0 +1,20 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-01 (frozen) + am-02.3 stage s6, 4 vpp, duty 0.50
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  1.91024e-05 Reference value :  4.09668e-05 Reference value :  6.32137e-05 Reference value :  8.49342e-05
+No. of Data Rows : 176041
+binary raw file "r62_10_10.raw"
+ngspice-47 done

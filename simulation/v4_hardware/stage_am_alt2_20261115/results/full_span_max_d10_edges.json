@@ -1,0 +1,49 @@
+{
+  "name": "full_span_max_d10",
+  "method": "raw carrier-cycle extrema, half peak-to-peak envelope; 2% settling is diagnostic only",
+  "edges": [
+    {
+      "rising": false,
+      "time_s": 0.0018595429970379325,
+      "overshoot_step_pct": 2.2090359256586645,
+      "reverse_excursion_step_pct": 0.08073576879785388,
+      "transition_10_90_ns": 506.65711731399693,
+      "settle_2pct_step_us": 1.4344760243806527,
+      "plateau_tilt_step_pct": 0.49131104938703074,
+      "max_center_mv": 0.4734903118518083
+    },
+    {
+      "rising": true,
+      "time_s": 0.0019045253875916404,
+      "overshoot_step_pct": 0.30887776446328896,
+      "reverse_excursion_step_pct": 0.0,
+      "transition_10_90_ns": 546.8584345339708,
+      "settle_2pct_step_us": 0.9648323238341078,
+      "plateau_tilt_step_pct": -0.03200716453589431,
+      "max_center_mv": 0.3168383757158541
+    },
+    {
+      "rising": false,
+      "time_s": 0.0019095267853721388,
+      "overshoot_step_pct": 2.2096029870786182,
+      "reverse_excursion_step_pct": 0.055223434120298336,
+      "transition_10_90_ns": 507.38159087462844,
+      "settle_2pct_step_us": 1.450985393468829,
+      "plateau_tilt_step_pct": 0.49955121833984933,
+      "max_center_mv": 0.4848424296497525
+    },
+    {
+      "rising": true,
+      "time_s": 0.0019545090733460785,
+      "overshoot_step_pct": 0.32780802806291476,
+      "reverse_excursion_step_pct": 0.0,
+      "transition_10_90_ns": 545.3465418083902,
+      "settle_2pct_step_us": 0.9492130129169776,
+      "plateau_tilt_step_pct": -0.04582091464254412,
+      "max_center_mv": 0.31731835509115136
+    }
+  ],
+  "max_overshoot_step_pct": 2.2096029870786182,
+  "max_reverse_step_pct": 0.08073576879785388,
+  "max_abs_tilt_step_pct": 0.49955121833984933
+}

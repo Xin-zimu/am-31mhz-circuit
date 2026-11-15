@@ -1,0 +1,1430 @@
+
+
+========== PAGE 1 ==========
+250 MHz, Voltage Output, 
+4-Quadrant Multiplier 
+Data Sheet 
+AD835 
+FEATURES 
+Simple: basic function is W = XY + Z 
+Complete: minimal external components required 
+Very fast: Settles to 0.1% of full scale (FS) in 20 ns 
+DC-coupled voltage output simplifies use 
+High differential input impedance X, Y, and Z inputs 
+Low multiplier noise: 50 nV/√Hz 
+APPLICATIONS 
+Very fast multiplication, division, squaring 
+Wideband modulation and demodulation 
+Phase detection and measurement 
+Sinusoidal frequency doubling 
+Video gain control and keying 
+Voltage-controlled amplifiers and filters 
+GENERAL DESCRIPTION 
+The AD835 is a complete four-quadrant, voltage output analog 
+multiplier, fabricated on an advanced dielectrically isolated 
+complementary bipolar process. It generates the linear product 
+of its X and Y voltage inputs with a −3 dB output bandwidth of 
+250 MHz (a small signal rise time of 1 ns). Full-scale (−1 V to 
++1 V) rise to fall times are 2.5 ns (with a standard RL of 150 Ω), 
+and the settling time to 0.1% under the same conditions is 
+typically 20 ns. 
+Its differential multiplication inputs (X, Y) and its summing 
+input (Z) are at high impedance. The low impedance output 
+voltage (W) can provide up to ±2.5 V and drive loads as low as 
+25 Ω. Normal operation is from ±5 V supplies. 
+Though providing state-of-the-art speed, the AD835 is simple 
+to use and versatile. For example, as well as permitting the 
+addition of a signal at the output, the Z input provides the 
+means to operate the AD835 with voltage gains up to about ×10. 
+In this capacity, the very low product noise of this multiplier 
+(50 nV/√Hz) makes it much more useful than earlier products. 
+The AD835 is available in an 8-lead PDIP package (N) and an 
+8-lead SOIC package (R) and is specified to operate over the 
+−40°C to +85°C industrial temperature range. 
+FUNCTIONAL BLOCK DIAGRAM 
+00883-001
+X1
+X2
+X = X1 – X2
+Z INPUT
+Y = Y1 – Y2
+AD835
+W OUTPUT
+Y1
+Y2
+XY
+XY + Z X1
++
++
+Figure 1. 
+PRODUCT HIGHLIGHTS 
+1.
+The AD835 is the first monolithic 250 MHz, four-quadrant
+voltage output multiplier.
+2.
+Minimal external components are required to apply the
+AD835 to a variety of signal processing applications.
+3.
+High input impedances (100 kΩ||2 pF) make signal source
+loading negligible.
+4.
+High output current capability allows low impedance loads
+to be driven.
+5.
+State-of-the-art noise levels achieved through careful
+device optimization and the use of a special low noise,
+band gap voltage reference.
+6.
+Designed to be easy to use and cost effective in applications
+that require the use of hybrid or board-level solutions. 
+Rev. E 
+Document Feedback 
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no 
+responsibility is assumed by Analog Devices for its use, nor for any infringements of patents or other 
+rights of third parties that may result from its use. Specifications subject to change without notice. No 
+license is granted by implication or otherwise under any patent or patent rights of Analog Devices. 
+Trademarks and registered trademarks are the property of their respective owners. 
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A. 
+Tel: 781.329.4700 
+©1994–2014 Analog Devices, Inc. All rights reserved. 
+Technical Support 
+www.analog.com  
+
+
+========== PAGE 2 ==========
+AD835 
+Data Sheet 
+TABLE OF CONTENTS 
+Features .............................................................................................. 1 
+Applications ....................................................................................... 1 
+General Description ......................................................................... 1 
+Functional Block Diagram .............................................................. 1 
+Product Highlights ........................................................................... 1 
+Revision History ............................................................................... 2 
+Specifications ..................................................................................... 3 
+Absolute Maximum Ratings ............................................................ 5 
+Thermal Resistance ...................................................................... 5 
+ESD Caution .................................................................................. 5 
+Pin Configuration and Function Descriptions ............................. 6 
+Typical Performance Characteristics ..............................................7 
+Theory of Operation ...................................................................... 10 
+Basic Theory ............................................................................... 10 
+Scaling Adjustment .................................................................... 10 
+Applications Information .............................................................. 11 
+Multiplier Connections ............................................................. 11 
+Wideband Voltage-Controlled Amplifier ............................... 11 
+Amplitude Modulator ................................................................ 11 
+Squaring and Frequency Doubling .......................................... 12 
+Outline Dimensions ....................................................................... 13 
+Ordering Guide .......................................................................... 14 
+REVISION HISTORY 
+12/14—Rev. D to Rev. E 
+Changes to Figure 1 .......................................................................... 1 
+Changes to Figure 20 ...................................................................... 10 
+Changes to Wideband Voltage-Controlled Amplifier Section 
+and Figure 21 ................................................................................... 11 
+Changes to Ordering Guide .......................................................... 14 
+12/10—Rev. C to Rev. D 
+Changes to Figure 1 .......................................................................... 1 
+Changes to Absolute Maximum Ratings and Table 2 .................. 5 
+Added Figure 19, Renumbered Subsequent Tables .................... 10 
+Added Figure 23 .............................................................................. 11 
+10/09—Rev. B to Rev. C 
+Updated Format .................................................................. Universal 
+Changes to Figure 22 ...................................................................... 11 
+Updated Outline Dimensions ....................................................... 13 
+Changes to Ordering Guide .......................................................... 14 
+6/03—Rev. A to Rev. B 
+Updated Format .................................................................. Universal 
+Updated Outline Dimensions ....................................................... 10 
+Rev. E | Page 2 of 14 
+
+
+========== PAGE 3 ==========
+Data Sheet 
+AD835 
+SPECIFICATIONS 
+TA = 25°C, VS = ±5 V, RL = 150 Ω, CL ≤ 5 pF, unless otherwise noted. 
+Table 1.  
+Parameter  
+Conditions  
+Min  
+Typ  
+Max  
+Unit  
+TRANSFER FUNCTION 
+(
+)(
+)
+Z
+U
+Y
+Y
+X
+X
+W
++
+−
+−
+=
+2
+1
+2
+1
+INPUT CHARACTERISTICS (X, Y)  
+Differential Voltage Range  
+VCM = 0 V 
+±1  
+V  
+Differential Clipping Level  
+±1.21 
+±1.4  
+V  
+Low Frequency Nonlinearity  
+X = ±1 V, Y = 1 V  
+0.3  
+0.51  
+% FS  
+Y = ±1 V, X = 1 V  
+0.1  
+0.31  
+% FS  
+vs. Temperature  
+TMIN to TMAX2  
+X = ±1 V, Y = 1 V  
+0.7  
+% FS  
+Y = ±1 V, X = 1 V  
+0.5  
+% FS  
+Common-Mode Voltage Range 
+−2.5  
++3  
+V  
+Offset Voltage  
+±3  
+±201  
+mV  
+vs. Temperature  
+TMIN to TMAX2  
+±25  
+mV  
+CMRR  
+f ≤ 100 kHz; ±1 V p-p  
+701  
+dB  
+Bias Current  
+10  
+201  
+µA  
+vs. Temperature  
+TMIN to TMAX2  
+27  
+µA  
+Offset Bias Current  
+2  
+µA  
+Differential Resistance  
+100  
+kΩ  
+Single-Sided Capacitance  
+2  
+pF  
+Feedthrough, X  
+X = ±1 V, Y = 0 V  
+−461  
+dB  
+Feedthrough, Y  
+Y = ±1 V, X = 0 V  
+−601  
+dB  
+DYNAMIC CHARACTERISTICS  
+−3 dB Small Signal Bandwidth  
+150  
+250  
+MHz  
+−0.1 dB Gain Flatness Frequency  
+15  
+MHz  
+Slew Rate  
+W = −2.5 V to +2.5 V  
+1000  
+V/µs  
+Differential Gain Error, X  
+f = 3.58 MHz  
+0.3  
+%  
+Differential Phase Error, X  
+f = 3.58 MHz  
+0.2  
+Degrees  
+Differential Gain Error, Y  
+f = 3.58 MHz  
+0.1  
+%  
+Differential Phase Error, Y  
+f = 3.58 MHz  
+0.1  
+Degrees  
+Harmonic Distortion  
+X or Y = 10 dBm, second and third harmonic  
+Fund = 10 MHz  
+−70  
+dB  
+Fund = 50 MHz  
+−40  
+dB  
+Settling Time, X or Y  
+To 0.1%, W = 2 V p-p  
+20  
+ns  
+SUMMING INPUT (Z) 
+Gain  
+From Z to W, f ≤ 10 MHz  
+0.990  
+0.995  
+−3 dB Small Signal Bandwidth  
+250  
+MHz  
+Differential Input Resistance  
+60  
+kΩ  
+Single-Sided Capacitance  
+2  
+pF  
+Maximum Gain  
+X, Y to W, Z shorted to W, f = 1 kHz  
+50  
+dB  
+Bias Current  
+50  
+µA  
+Rev. E | Page 3 of 14 
+
+
+========== PAGE 4 ==========
+AD835 
+Data Sheet 
+Parameter  
+Conditions  
+Min  
+Typ  
+Max  
+Unit  
+OUTPUT CHARACTERISTICS  
+Voltage Swing  
+±2.2  
+±2.5  
+V  
+vs. Temperature  
+TMIN to TMAX2  
+±2.0  
+V  
+Voltage Noise Spectral Density 
+X = Y = 0 V, f < 10 MHz 
+50 
+nV/√Hz 
+Offset Voltage  
+±25  
+±751  
+mV  
+vs. Temperature3 
+TMIN to TMAX2  
+±10  
+mV  
+Short-Circuit Current  
+75  
+mA  
+Scale Factor Error  
+±5  
+±81  
+% FS  
+vs. Temperature  
+TMIN to TMAX2  
+±9  
+% FS  
+Linearity (Relative Error)4 
+±0.5  
+±1.01  
+% FS  
+vs. Temperature  
+TMIN to TMAX2  
+±1.25  
+% FS  
+POWER SUPPLIES  
+Supply Voltage  
+For Specified Performance  
+±4.5  
+±5  
+±5.5  
+V  
+Quiescent Supply Current  
+16  
+251  
+mA  
+vs. Temperature  
+TMIN to TMAX2  
+26  
+mA  
+PSRR at Output vs. VP  
++4.5 V to +5.5 V  
+0.51  
+%/V  
+PSRR at Output vs. VN  
+−4.5 V to −5.5 V  
+0.5  
+%/V  
+1 All minimum and maximum specifications are guaranteed. These specifications are tested on all production units at final electrical test. 
+2 TMIN = −40°C, TMAX = 85°C. 
+3 Normalized to zero at 25°C. 
+4 Linearity is defined as residual error after compensating for input offset, output voltage offset, and scale factor errors. 
+Rev. E | Page 4 of 14 
+
+
+========== PAGE 5 ==========
+Data Sheet 
+AD835 
+ABSOLUTE MAXIMUM RATINGS 
+Table 2. 
+Parameter 
+Rating 
+Supply Voltage 
+±6 V 
+Internal Power Dissipation 
+300 mW 
+Operating Temperature Range 
+−40°C to +85°C 
+Storage Temperature Range 
+−65°C to +150°C 
+Lead Temperature, Soldering 60 sec 
+300°C 
+ESD Rating 
+HBM 
+1500 V 
+CDM 
+250 V 
+Stresses at or above those listed under Absolute Maximum 
+Ratings may cause permanent damage to the product. This is a 
+stress rating only; functional operation of the product at these 
+or any other conditions above those indicated in the operational 
+section of this specification is not implied. Operation beyond 
+the maximum operating conditions for extended periods may 
+affect product reliability. 
+For more information, see the Analog Devices, Inc., Tutorial 
+MT-092, Electrostatic Discharge.  
+THERMAL RESISTANCE 
+Table 3. 
+Package Type 
+θJA 
+θJC 
+Unit 
+8-Lead PDIP (N) 
+90 
+35 
+°C/W 
+8-Lead SOIC (R) 
+115 
+45 
+°C/W 
+ESD CAUTION 
+Rev. E | Page 5 of 14 
+
+
+========== PAGE 6 ==========
+AD835 
+Data Sheet 
+PIN CONFIGURATION AND FUNCTION DESCRIPTIONS 
+Y1
+1
+Y2
+2
+VN
+3
+Z
+4
+X1
+8
+X2
+7
+VP
+6
+W
+5
+AD835
+TOP VIEW
+(Not to Scale)
+00883-002
+Figure 2. Pin Configuration 
+Table 4. Pin Function Descriptions 
+Pin No. 
+Mnemonic 
+Description 
+1 
+Y1 
+Noninverting Y Multiplicand Input 
+2 
+Y2 
+Inverting Y Multiplicand Input 
+3 
+VN 
+Negative Supply Voltage 
+4 
+Z 
+Summing Input 
+5 
+W 
+Product 
+6 
+VP 
+Positive Supply Voltage 
+7 
+X2 
+Inverting X Multiplicand Input 
+8 
+X1 
+Noninverting X Multiplicand Input 
+Rev. E | Page 6 of 14 
+
+
+========== PAGE 7 ==========
+Data Sheet 
+AD835 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+00883-003
+DIFFERENTIAL
+GAIN (%)
+DIFFERENTIAL
+PHASE (Degrees)
+0.4
+0
+DG DP (NTSC)
+FIELD = 1 LINE = 18
+Wfm →FCC
+COMPOSITE
+MIN = 0
+MAX = 0.2
+p-p/MAX = 0.2
+1ST
+2ND
+3RD
+4TH
+5TH
+6TH
+0.06
+0.11
+0.16
+0.19
+0.20
+0
+1ST
+2ND
+3RD
+4TH
+5TH
+6TH
+0.02
+0.02
+0.03
+0.03
+0.06
+0.2
+0
+–0.2
+–0.4
+–0.3
+–0.2
+–0.1
+0
+0.1
+0.2
+0.3
+MIN = 0
+MAX = 0.06
+p-p = 0.06
+Figure 3. Typical Composite Output Differential Gain and Phase,  
+NTSC for X Channel; f = 3.58 MHz, RL = 150 Ω 
+00883-004
+DG DP (NTSC)
+FIELD = 1 LINE = 18
+Wfm →FCC
+COMPOSITE
+DIFFERENTIAL
+GAIN (%)
+0.20
+0
+MIN = 0
+MAX = 0.16
+p-p = 0.16
+1ST
+2ND
+3RD
+4TH
+5TH
+6TH
+0.03
+0.04
+0.07
+0.10
+0.16
+0.10
+0
+–0.10
+–0.20
+DIFFERENTIAL
+PHASE (DEGREES)
+0
+1ST
+2ND
+3RD
+4TH
+5TH
+6TH
+0.01
+0
+0
+–0.01
+–0.20
+–0.3
+–0.2
+–0.1
+0
+0.1
+0.2
+0.3
+MIN = –0.02
+MAX = 0.01
+p-p/MAX = 0.03
+Figure 4. Typical Composite Output Differential Gain and Phase,  
+NTSC for Y Channel; f = 3.58 MHz, RL = 150 Ω 
+00883-005
+FREQUENCY (Hz)
+GAIN
+PHASE
+MAGNITUDE (dB)
+PHASE (Degrees)
+2
+180
+90
+0
+–90
+–180
+0
+–2
+–4
+–6
+–8
+–10
+1M
+10M
+100M
+1G
+X, Y, Z CH = 0dBm
+RL = 150Ω
+CL ≤5pF
+Figure 5. Gain and Phase vs. Frequency of X, Y, Z Inputs 
+00883-006
+FREQUENCY (Hz)
+MAGNITUDE (dB)
+0
+–0.1
+–0.2
+–0.3
+–0.4
+–0.5
+–0.6
+300k
+10M
+1M
+100M
+1G
+X, Y CH = 0dBm
+RL = 150Ω
+CL ≤5pF
+Figure 6. Gain Flatness to 0.1 dB 
+00883-007
+FREQUENCY (Hz)
+MAGNITUDE (dB)
+–10
+–20
+–30
+–40
+–50
+–60
+1M
+10M
+100M
+1G
+X FEEDTHROUGH
+X FEEDTHROUGH
+Y FEEDTHROUGH
+Y FEEDTHROUGH
+X, Y CH = 5dBm
+RL = 150Ω
+CL < 5pF
+Figure 7. X and Y Feedthrough vs. Frequency 
+00883-008
++0.2V
+–0.2V
+GND
+100mV
+10ns
+Figure 8. Small Signal Pulse Response at W Output, RL = 150 Ω, CL ≤ 5 pF,  
+X Channel = ±0.2 V, Y Channel = ±1.0 V 
+Rev. E | Page 7 of 14 
+
+
+========== PAGE 8 ==========
+AD835 
+Data Sheet 
+00883-009
++1V
+–1V
+GND
+500mV
+10ns
+Figure 9. Large Signal Pulse Response at W Output, RL = 150 Ω, CL ≤ 5 pF,  
+X Channel = ±1.0 V, Y Channel = ±1.0 V 
+00883-010
+0
+20
+40
+60
+80
+1M
+10M
+100M
+CMRR (dB)
+1G
+FREQUENCY (Hz)
+Figure 10. CMRR vs. Frequency for X or Y Channel, RL = 150 Ω, CL ≤ 5 pF 
+00883-011
+PSSR (dB)
+–10
+–20
+–30
+–40
+–50
+–60
+300k
+1M
+10M
+100M
+1G
+PSSR ON V–
+PSSR ON V+
+0dBm ON SUPPLY
+X, Y = 1V
+FREQUENCY (Hz)
+Figure 11. PSRR vs. Frequency for V+ and V– Supply 
+00883-012
+10dB/DIV
+10MHz
+20MHz
+30MHz
+Figure 12. Harmonic Distortion at 10 MHz; 10 dBm Input to X or Y Channels, 
+RL = 150 Ω, CL = ≤ 5 pF 
+00883-013
+10dB/DIV
+100MHz
+50MHz
+150MHz
+Figure 13. Harmonic Distortion at 50 MHz, 10 dBm Input to X or Y Channel,  
+RL = 150 Ω, CL ≤ 5 pF 
+00883-014
+10dB/DIV
+200MHz
+100MHz
+300MHz
+Figure 14. Harmonic Distortion at 100 MHz, 10 dBm Input to X or Y Channel,  
+RL = 150 Ω, CL ≤ 5 pF 
+Rev. E | Page 8 of 14 
+
+
+========== PAGE 9 ==========
+Data Sheet 
+AD835 
+00883-015
+10dB/DIV
++2.5V
+–2.5V
+10ns
+1V
+Figure 15. Maximum Output Voltage Swing, RL = 50 Ω, CL ≤ 5 pF 
+00883-016
+TEMPERATURE (°C)
+VOS OUTPUT DRIFT (mV)
+10
+15
+5
+0
+–5
+–10
+–15
+–55
+–35
+–15
+5
+25
+45
+65
+85
+105
+125
+OUTPUT OFFSET DRIFT WILL
+TYPICALLY BE WITHIN SHADED AREA
+OUTPUT VOS DRIFT, NORMALIZED TO 0 AT 25°C
+Figure 16. VOS Output Drift vs. Temperature 
+00883-017
+RF FREQUENCY INPUT TO X CHANNEL (MHz)
+THIRD ORDER INTERCEPT (dBm)
+30
+35
+25
+20
+15
+10
+5
+0
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+X CH = 6dBm
+Y CH = 10dBm
+RL = 100Ω
+Figure 17. Fixed LO on Y Channel vs. RF Frequency Input to X Channel 
+00883-018
+LO FREQUENCY ON Y CHANNEL (MHz)
+THIRD ORDER INTERCEPT (dBm)
+30
+35
+25
+20
+15
+10
+5
+0
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+X CH = 6dBm
+Y CH = 10dBm
+RL = 100Ω
+Figure 18. Fixed IF vs. LO Frequency on Y Channel 
+Rev. E | Page 9 of 14 
+
+
+========== PAGE 10 ==========
+AD835 
+Data Sheet 
+THEORY OF OPERATION 
+The AD835 is a four-quadrant, voltage output analog multiplier, 
+fabricated on an advanced dielectrically isolated complementary 
+bipolar process. In its basic mode, it provides the linear product 
+of its X and Y voltage inputs. In this mode, the −3 dB output 
+voltage bandwidth is 250 MHz (with small signal rise time of 1 ns). 
+Full-scale (−1 V to +1 V) rise to fall times are 2.5 ns (with a 
+standard RL of 150 Ω), and the settling time to 0.1% under the 
+same conditions is typically 20 ns. 
+As in earlier multipliers from Analog Devices a unique 
+summing feature is provided at the Z input. As well as providing 
+independent ground references for the input and the output and 
+enhanced versatility, this feature allows the AD835 to operate 
+with voltage gain. Its X-, Y-, and Z-input voltages are all 
+nominally ±1 V FS, with an overrange of at least 20%. The 
+inputs are fully differential at high impedance (100 kΩ||2 pF) 
+and provide a 70 dB CMRR (f ≤ 1 MHz). 
+The low impedance output is capable of driving loads as small 
+as 25 Ω. The peak output can be as large as ±2.2 V minimum 
+for RL = 150 Ω, or ±2.0 V minimum into RL = 50 Ω. The AD835 
+has much lower noise than the AD534 or AD734, making it 
+attractive in low level, signal processing applications, for 
+example, as a wideband gain control element or modulator.  
+BASIC THEORY 
+The multiplier is based on a classic form, having a translinear core, 
+supported by three (X, Y, and Z) linearized voltage-to-current 
+converters, and the load driving output amplifier. The scaling 
+voltage (the denominator U in the equations) is provided by a 
+band gap reference of novel design, optimized for ultralow noise. 
+Figure 19 shows the functional block diagram. 
+In general terms, the AD835 provides the function 
+(
+)(
+)
+Z
+U
+Y
+Y
+X
+X
+W
++
+−
+−
+=
+2
+1
+2
+1
+(1) 
+where the variables W, U, X, Y, and Z are all voltages. Connected as 
+a simple multiplier, with X = X1 − X2, Y = Y1 − Y2, and Z = 0 
+and with a scale factor adjustment (see Figure 19) that sets U = 1 V, 
+the output can be expressed as 
+W = XY 
+(2) 
+00883-025
+X1
+X2
+X = X1 – X2
+Z INPUT
+Y = Y1 – Y2
+AD835
+W OUTPUT
+Y1
+Y2
+XY
+XY + Z X1
++
++
+Figure 19. Functional Block Diagram 
+Simplified representations of this sort, where all signals are 
+presumed expressed in V, are used throughout this data sheet to 
+avoid the needless use of less intuitive subscripted variables 
+(such as, VX1). All variables as being normalized to 1 V.  
+For example, the input X can either be stated as being in the −1 V 
+to +1 V range or simply –1 to +1. The latter representation is found 
+to facilitate the development of new functions using the AD835. 
+The explicit inclusion of the denominator, U, is also less helpful, as 
+in the case of the AD835, if it is not an electrical input variable. 
+SCALING ADJUSTMENT 
+The basic value of U in Equation 1 is nominally 1.05 V. Figure 20, 
+which shows the basic multiplier connections, also shows how 
+the effective value of U can be adjusted to have any lower 
+voltage (usually 1 V) through the use of a resistive divider 
+between W (Pin 5) and Z (Pin 4). Using the general resistor 
+values shown, Equation 1can be rewritten as 
+(
+) '
+1
+kW
+Z
+k
+U
+XY
+W
+−
++
++
+=
+(3) 
+where Z' is distinguished from the signal Z at Pin 4. It follows that 
+(
+)
+'
+1
+Z
+U
+k
+XY
+W
++
+−
+=
+(4) 
+In this way, the effective value of U can be modified to 
+U’ = (1 − k)U 
+(5) 
+without altering the scaling of the Z' input, which is expected because 
+the only ground reference for the output is through the Z' input. 
+Therefore, to set U' to 1 V, remembering that the basic value of 
+U is 1.05 V, R1 must have a nominal value of 20 × R2. The values 
+shown allow U to be adjusted through the nominal range of 
+0.95 V to 1.05 V. That is, R2 provides a 5% gain adjustment. 
+In many applications, the exact gain of the multiplier may not 
+be very important; in which case, this network may be omitted 
+entirely, or R2 fixed at 100 Ω. 
+00883-020
++
++
+R1 = (1–k) R
+2kΩ
+R2 = kR
+200Ω
+Z’
+FB
++5V
+AD835
+4.7µF TANTALUM
+0.01µF CERAMIC
+0.01µF CERAMIC
+4.7µF TANTALUM
+1
+2
+3
+4
+8
+X
+W
+Y
+X2
+VP
+W
+Y1
+X1
+Y2
+VN
+Z
+7
+6
+5
+FB
++5V
+Figure 20. Multiplier Connections 
+Rev. E | Page 10 of 14 
+
+
+========== PAGE 11 ==========
+Data Sheet 
+AD835 
+APPLICATIONS INFORMATION 
+The AD835 is easy to use and versatile. The capability for adding 
+another signal to the output at the Z input is frequently valuable. 
+Three applications of this feature are presented here: a wideband 
+voltage-controlled amplifier, an amplitude modulator, and a 
+frequency doubler. Of course, the AD835 may also be used as a 
+square law detector (with its X inputs and Y inputs connected in 
+parallel). In this mode, it is useful at input frequencies to well 
+over 250 MHz because that is the bandwidth limitation of the 
+output amplifier only. 
+MULTIPLIER CONNECTIONS 
+Figure 20 shows the basic connections for multiplication. The 
+inputs are often single sided, in which case the X2 and Y2 inputs 
+are normally grounded. Note that by assigning Pin 7 (X2) and 
+Pin 2 (Y2), respectively, to these (inverting) inputs, an extra 
+measure of isolation between inputs and output is provided. 
+The X and Y inputs may be reversed to achieve some desired 
+overall sign with inputs of a particular polarity, or they may be 
+driven fully differentially. 
+Power supply decoupling and careful board layout are always 
+important in applying wideband circuits. The decoupling 
+recommendations shown in Figure 20 should be followed 
+closely. In Figure 21, Figure 23, and Figure 24, these power 
+supply decoupling components are omitted for clarity but should 
+be used wherever optimal performance with high speed inputs 
+is required. However, if the full, high frequency capabilities of the 
+AD835 are not being exploited, these components can be omitted. 
+WIDEBAND VOLTAGE-CONTROLLED AMPLIFIER 
+Figure 21 shows the AD835 configured to provide a gain of 
+nominally 0 dB to 12 dB. (In fact, the control range extends from 
+well under –12 dB to about +14 dB.) R1 and R2 set the gain to 
+be nominally ×4. The attendant bandwidth reduction that comes 
+with this increased gain is partially offset by the addition of the 
+peaking capacitor C1. Although this circuit shows the use of 
+dual supplies, the AD835 can operate from a single 9 V supply 
+(such as a 9 V battery) with a slight revision. For G = 0 dB, omit 
+R1 and R2, and connect Pin Z directly to ground. Pin Z must be 
+connected to a reference; otherwise, the output W floats to a rail. 
+00883-021
+R1
+97.6Ω
+C1
+33pF
+R2
+301Ω
+AD835
+1
+2
+3
+4
+8
+VOLTAGE
+OUTPUT
+VG
+(GAIN CONTROL)
+VIN
+(SIGNAL)
+X2
+VP
+W
+Y1
+X1
+Y2
++5V
+–5V
+VN
+Z
+7
+6
+5
+Figure 21. Voltage-Controlled 50 MHz Amplifier Using the AD835 
+The ac response of this amplifier for gains of 0 dB (VG = 0.25 V), 
+6 dB (VG = 0.5 V), and 12 dB (VG = 1 V) is shown in Figure 22. 
+In this application, the resistor values have been slightly adjusted to 
+reflect the nominal value of U = 1.05 V. The overall sign of the 
+gain may be controlled by the sign of VG. 
+00883-022
+10k
+100k
+1M
+FREQUENCY (Hz)
+–9
+–6
+–3
+0
+3
+6
+9
+12
+15
+18
+21
+GAIN (dB)
+10M
+100M
+12dB
+(VG = 1V)
+6dB
+(VG = 0.5V)
+0dB
+(VG = 0.25V)
+Figure 22. AC Response of VCA  
+AMPLITUDE MODULATOR 
+Figure 23 shows a simple modulator. The carrier is applied to the 
+Y input and the Z input, while the modulating signal is applied to 
+the X input. For zero modulation, there is no product term so the 
+carrier input is simply replicated at unity gain by the voltage 
+follower action from the Z input. At X = 1 V, the RF output is 
+doubled, while for X = –1 V, it is fully suppressed. That is, an 
+X input of approximately ±1 V (actually ±U or about 1.05 V) 
+corresponds to a modulation index of 100%. Carrier and 
+modulation frequencies can be up to 300 MHz, somewhat 
+beyond the nominal −3 dB bandwidth. 
+Of course, a suppressed carrier modulator can be implemented 
+by omitting the feedforward to the Z input, grounding that  
+pin instead. 
+00883-026
++5V
+–5V
+AD835
+1
+2
+3
+4
+8
+X2
+MODULATION
+SOURCE
+MODULATED
+CARRIER
+OUTPUT
+CARRIER
+SOURCE
+VP
+W
+Y1
+X1
+Y2
+VN
+Z
+7
+6
+5
+Figure 23. Simple Amplitude Modulator Using the AD835 
+Rev. E | Page 11 of 14 
+
+
+========== PAGE 12 ==========
+AD835 
+Data Sheet 
+SQUARING AND FREQUENCY DOUBLING 
+Amplitude domain squaring of an input signal, E, is achieved 
+simply by connecting the X and Y inputs in parallel to produce 
+an output of E2/U. The input can have either polarity, but the 
+output in this case is always positive. The output polarity can be 
+reversed by interchanging either the X or Y inputs. 
+When the input is a sine wave E sin ωt, a signal squarer behaves 
+as a frequency doubler because 
+(
+)
+(
+)
+ωt
+U
+E
+U
+ωt
+E
+2
+cos
+1
+2
+sin
+2
+2
+−
+=
+ 
+(6) 
+While useful, Equation 6 shows a dc term at the output, which 
+varies strongly with the amplitude of the input, E.  
+Figure 24 shows a frequency doubler that overcomes this 
+limitation and provides a relatively constant output over a 
+moderately wide frequency range, determined by the time 
+constant R1C1. The voltage applied to the X and Y inputs is 
+exactly in quadrature at a frequency f = ½πC1R1, and their 
+amplitudes are equal. At higher frequencies, the X input becomes 
+smaller while the Y input increases in amplitude; the opposite 
+happens at lower frequencies. The result is a double frequency 
+output centered on ground whose amplitude of 1 V for a 1 V 
+input varies by only 0.5% over a frequency range of ±10%. 
+Because there is no squared dc component at the output, sudden 
+changes in the input amplitude do not cause a bounce in the dc level. 
+00883-024
+AD835
+1
+2
+3
+4
+8
+VOLTAGE
+OUTPUT
+R2
+97.6Ω
+R1
+R3
+301Ω
+X2
+VP
+W
+Y1
+X1
+Y2
++5V
+C1
+–5V
+VN
+Z
+7
+6
+5
+VG
+Figure 24. Broadband Zero-Bounce Frequency Doubler 
+This circuit is based on the identity 
+θ
+=
+θ
+θ
+2
+sin
+2
+1
+sin
+cos
+(7) 
+At ωO = 1/C1R1, the X input leads the input signal by 45° (and is 
+attenuated by √2, while the Y input lags the input signal by 45° 
+and is also attenuated by √2. Because the X and Y inputs are 90° 
+out of phase, the response of the circuit is 
+(
+)
+(
+)
+(
+)t
+U
+E
+t
+E
+t
+E
+U
+W
+ω
+=
+°
++
+ω
+°
+−
+ω
+=
+2
+sin
+2
+45
+sin
+2
+45
+sin
+2
+1
+2
+ 
+(8) 
+which has no dc component, R2 and R3 are included to restore 
+the output to 1 V for an input amplitude of 1 V (the same gain 
+adjustment as previously mentioned). Because the voltage across 
+the capacitor (C1) decreases with frequency, while that across 
+the resistor (R1) increases, the amplitude of the output varies 
+only slightly with frequency. In fact, it is only 0.5% below its full 
+value (at its center frequency ωO = 1/C1R1) at 90% and 110% of 
+this frequency.  
+Rev. E | Page 12 of 14 
+
+
+========== PAGE 13 ==========
+Data Sheet 
+AD835 
+OUTLINE DIMENSIONS 
+COMPLIANT TO JEDEC STANDARDS MS-001
+CONTROLLING DIMENSIONS ARE IN INCHES; MILLIMETER DIMENSIONS
+(IN PARENTHESES) ARE ROUNDED-OFF INCH EQUIVALENTS FOR
+REFERENCE ONLY AND ARE NOT APPROPRIATE FOR USE IN DESIGN.
+CORNER LEADS MAY BE CONFIGURED AS WHOLE OR HALF LEADS.
+070606-A
+0.022 (0.56)
+0.018 (0.46)
+0.014 (0.36)
+SEATING
+PLANE
+0.015
+(0.38)
+MIN
+0.210 (5.33)
+MAX
+0.150 (3.81)
+0.130 (3.30)
+0.115 (2.92)
+0.070 (1.78)
+0.060 (1.52)
+0.045 (1.14)
+8
+1
+4
+5
+0.280 (7.11)
+0.250 (6.35)
+0.240 (6.10)
+0.100 (2.54)
+BSC
+0.400 (10.16)
+0.365 (9.27)
+0.355 (9.02)
+0.060 (1.52)
+MAX
+0.430 (10.92)
+MAX
+0.014 (0.36)
+0.010 (0.25)
+0.008 (0.20)
+0.325 (8.26)
+0.310 (7.87)
+0.300 (7.62)
+0.195 (4.95)
+0.130 (3.30)
+0.115 (2.92)
+0.015 (0.38)
+GAUGE
+PLANE
+0.005 (0.13)
+MIN
+Figure 25. 8-Lead Plastic Dual In-Line Package [PDIP] 
+Narrow Body 
+(N-8) 
+Dimensions shown in inches and (millimeters) 
+CONTROLLING DIMENSIONS ARE IN MILLIMETERS; INCH DIMENSIONS
+(IN PARENTHESES) ARE ROUNDED-OFF MILLIMETER EQUIVALENTS FOR
+REFERENCE ONLY AND ARE NOT APPROPRIATE FOR USE IN DESIGN.
+COMPLIANT TO JEDEC STANDARDS MS-012-AA
+012407-A
+0.25 (0.0098)
+0.17 (0.0067)
+1.27 (0.0500)
+0.40 (0.0157)
+0.50 (0.0196)
+0.25 (0.0099)
+45°
+8°
+0°
+1.75 (0.0688)
+1.35 (0.0532)
+SEATING
+PLANE
+0.25 (0.0098)
+0.10 (0.0040)
+4
+1
+8
+5
+5.00 (0.1968)
+4.80 (0.1890)
+4.00 (0.1574)
+3.80 (0.1497)
+1.27 (0.0500)
+BSC
+6.20 (0.2441)
+5.80 (0.2284)
+0.51 (0.0201)
+0.31 (0.0122)
+COPLANARITY
+0.10
+Figure 26. 8-Lead Standard Small Outline Package [SOIC_N]  
+Narrow Body 
+(R-8)  
+Dimensions shown in millimeters and (inches) 
+Rev. E | Page 13 of 14 
+
+
+========== PAGE 14 ==========
+AD835 
+Data Sheet 
+ORDERING GUIDE 
+Model1 
+Temperature Range 
+Package Description 
+Package Option 
+AD835ANZ  
+−40°C to +85°C 
+8-Lead Plastic Dual In-Line Package [PDIP] 
+N-8 
+AD835AR 
+−40°C to +85°C 
+8-Lead Standard Small Outline Package [SOIC_N] 
+R-8 
+AD835AR-REEL7 
+−40°C to +85°C 
+8-Lead Standard Small Outline Package [SOIC_N] 
+R-8 
+AD835ARZ 
+−40°C to +85°C 
+8-Lead Standard Small Outline Package [SOIC_N] 
+R-8 
+AD835ARZ-REEL 
+−40°C to +85°C 
+8-Lead Standard Small Outline Package [SOIC_N] 
+R-8 
+AD835ARZ-REEL7 
+−40°C to +85°C 
+8-Lead Standard Small Outline Package [SOIC_N] 
+R-8 
+1 Z = RoHS Compliant Part. 
+©1994–2014 Analog Devices, Inc. All rights reserved. Trademarks and  
+ registered trademarks are the property of their respective owners. 
+D00883-0-12/14(E)  
+Rev. E | Page 14 of 14 

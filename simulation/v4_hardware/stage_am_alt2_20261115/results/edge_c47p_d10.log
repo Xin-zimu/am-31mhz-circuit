@@ -1,0 +1,15 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * base modulation isolated fixture; ideal rf source only
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  2.50000e-04 Reference value :  2.60161e-04 Reference value :  2.68174e-04 Reference value :  2.76970e-04 Reference value :  2.88224e-04 Reference value :  2.99519e-04 Reference value :  3.09873e-04 Reference value :  3.17903e-04 Reference value :  3.26190e-04 Reference value :  3.37064e-04 Reference value :  3.47769e-04 Reference value :  3.58525e-04 Reference value :  3.68599e-04 Reference value :  3.78996e-04 Reference value :  3.90072e-04
+No. of Data Rows : 316573
+binary raw file "edge_c47p_d10.raw"
+ngspice-47 done

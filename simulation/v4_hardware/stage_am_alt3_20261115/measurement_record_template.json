@@ -1,0 +1,56 @@
+{
+  "stage": "AM-ALT.3",
+  "status": "已执行、勘误完成、待技术闭合",
+  "is_measurement": false,
+  "antenna_height_m": 1.0,
+  "tuning_target_uH": [
+    2.2,
+    4.4
+  ],
+  "installation": {
+    "ground_dimensions": null,
+    "wire_diameter_mm": null,
+    "cable_route": null,
+    "nearby_objects": null,
+    "photo_reference": null
+  },
+  "coil_calibration": [
+    {
+      "position": null,
+      "C1_pF": null,
+      "C2_pF": null,
+      "capacitor_error_bounds_pF": null,
+      "f1_repeats_Hz": null,
+      "f2_repeats_Hz": null,
+      "L_uH": null,
+      "fitted_parasitic_pF": null,
+      "additional_check_point": null
+    }
+  ],
+  "antenna_measurement": {
+    "coil_position": null,
+    "resonance_Hz": null,
+    "sense_R_ohm": null,
+    "sense_voltage_rms_V": null,
+    "source_voltage_rms_V": null,
+    "differential_residual_V": null,
+    "equivalent_C_pF": null,
+    "uncertainty_pct": null,
+    "parasitic_correction": null
+  },
+  "driver_measurement": {
+    "carrier_rms_mA": null,
+    "total_time_weighted_rms_mA": null,
+    "envelope_high_peak_mA": null,
+    "envelope_low_peak_mA": null,
+    "modulation_index": null,
+    "battery_power_mW": null
+  },
+  "note": "null 表示尚未测量；不以模型数值预填实测字段。",
+  "measurement_status": {
+    "date": "2026-11-16",
+    "user_confirmed": "未测",
+    "antenna_parameters": "待实测",
+    "installed_matching": "待实测"
+  }
+}

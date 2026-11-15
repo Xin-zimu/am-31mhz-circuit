@@ -1,0 +1,12 @@
+{
+  "antenna_h_m": 1.0,
+  "wire_radius_m": 0.0005,
+  "coil_q": 60.0,
+  "R_total_ohm": 13.824155905540815,
+  "X_ant_ohm": -576.035515515845,
+  "L_series_nH": 2957.383860994674,
+  "C_shunt_pF": 2.0,
+  "port_Z_ohm": 13.823955449317923,
+  "i_ant_per_volt_mA": 0.9498128175048561,
+  "power_vs_available_pct": 5.183107470148567
+}

@@ -1,0 +1,93 @@
+<Slide
+  notes={`（0:15–0:45）六项指标共 40 分，解调 v2 占 12 分最重，且必须无线测，所以接收链是重点。频率按 1%、占空比按 5 个百分点扣分，我按七成留余量。右边禁用清单用错一项即 0 分，所有器件都先对着筛过。`}
+  style={{ width: 1280, height: 720, padding: '60px 60px 0 60px', background: '#FFFFFF', flexDirection: 'column', fontFamily: 'Microsoft YaHei' }}
+>
+  <Box style={{ flex: 1, flexDirection: 'column' }}>
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#111111', lineHeight: 1.25 }}>
+      任务拆解：一组参数、六项指标、四条红线
+    </Text>
+    <Box style={{ width: '100%', height: 1, background: '#DCDCDC', marginTop: 12 }} />
+
+    <Box style={{ flex: 1, flexDirection: 'row', marginTop: 30, gap: 40 }}>
+      <Box style={{ width: 380, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#111111' }}>由学号推出的题目参数</Text>
+        <Box style={{ width: '100%', height: 1, background: '#E6E6E6', marginTop: 14 }} />
+
+        <Box style={{ flexDirection: 'row', marginTop: 22 }}>
+          <Text style={{ width: 96, fontSize: 19, fontWeight: 'bold', color: '#1F4E79' }}>N = 31</Text>
+          <Text style={{ flex: 1, fontSize: 17, color: '#333333', lineHeight: 1.55 }}>序号为奇数，调制方式取模拟调幅（AM）</Text>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', marginTop: 20 }}>
+          <Text style={{ width: 96, fontSize: 19, fontWeight: 'bold', color: '#1F4E79' }}>M = 50</Text>
+          <Text style={{ flex: 1, fontSize: 17, color: '#333333', lineHeight: 1.55 }}>方波频率 f₁ = M − N + 1 = 20 kHz</Text>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', marginTop: 20 }}>
+          <Text style={{ width: 96, fontSize: 19, fontWeight: 'bold', color: '#1F4E79' }}>载波</Text>
+          <Text style={{ flex: 1, fontSize: 17, color: '#333333', lineHeight: 1.55 }}>f₀ = N = 31 MHz，即本设计的射频频点</Text>
+        </Box>
+
+        <Text style={{ fontSize: 15, color: '#6B6B6B', marginTop: 40, lineHeight: 1.7 }}>
+          频率按 ±1%、占空比按 ±5 个百分点判扣分，设计余量按上限的 70% 控制。
+        </Text>
+      </Box>
+
+      <Box style={{ flex: 1, flexDirection: 'column' }}>
+        <Box style={{ flexDirection: 'row', borderBottom: '1px solid #111111', paddingBottom: 12 }}>
+          <Text style={{ width: 150, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>评分项</Text>
+          <Text style={{ width: 490, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>指标要求</Text>
+          <Text style={{ width: 100, fontSize: 16, fontWeight: 'bold', color: '#111111', textAlign: 'right' }}>分值</Text>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', borderBottom: '1px solid #E6E6E6', paddingTop: 13, paddingBottom: 13 }}>
+          <Text style={{ width: 150, fontSize: 16, color: '#333333' }}>方波波形 v1</Text>
+          <Text style={{ width: 490, fontSize: 16, color: '#333333' }}>20 kHz；占空比 10~50%；峰峰值 1~4 V 可调</Text>
+          <Text style={{ width: 100, fontSize: 16, color: '#333333', textAlign: 'right' }}>8</Text>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', borderBottom: '1px solid #E6E6E6', paddingTop: 13, paddingBottom: 13 }}>
+          <Text style={{ width: 150, fontSize: 16, color: '#333333' }}>发射机供电</Text>
+          <Text style={{ width: 490, fontSize: 16, color: '#333333' }}>电池供电；电池端功耗 &lt; 0.5 W</Text>
+          <Text style={{ width: 100, fontSize: 16, color: '#333333', textAlign: 'right' }}>4</Text>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', borderBottom: '1px solid #E6E6E6', paddingTop: 13, paddingBottom: 13 }}>
+          <Text style={{ width: 150, fontSize: 16, color: '#333333' }}>载波频率</Text>
+          <Text style={{ width: 490, fontSize: 16, color: '#333333' }}>31 MHz；模拟调幅</Text>
+          <Text style={{ width: 100, fontSize: 16, color: '#333333', textAlign: 'right' }}>6</Text>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', borderBottom: '1px solid #E6E6E6', paddingTop: 13, paddingBottom: 13 }}>
+          <Text style={{ width: 150, fontSize: 16, color: '#333333' }}>调制波形 v3</Text>
+          <Text style={{ width: 490, fontSize: 16, color: '#333333' }}>包络无明显失真；载波中心漂移 &lt; 1%</Text>
+          <Text style={{ width: 100, fontSize: 16, color: '#333333', textAlign: 'right' }}>4</Text>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', borderBottom: '1px solid #E6E6E6', paddingTop: 13, paddingBottom: 13 }}>
+          <Text style={{ width: 150, fontSize: 16, color: '#333333' }}>解调波形 v2</Text>
+          <Text style={{ width: 490, fontSize: 16, color: '#333333' }}>频率与占空比同 v1；≥ 4 V；随 v1 幅度线性</Text>
+          <Text style={{ width: 100, fontSize: 16, color: '#333333', textAlign: 'right' }}>12</Text>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', borderBottom: '1px solid #111111', paddingTop: 13, paddingBottom: 13 }}>
+          <Text style={{ width: 150, fontSize: 16, color: '#333333' }}>通信距离</Text>
+          <Text style={{ width: 490, fontSize: 16, color: '#333333' }}>6 m；收发天线各不超过 1 m</Text>
+          <Text style={{ width: 100, fontSize: 16, color: '#333333', textAlign: 'right' }}>6</Text>
+        </Box>
+
+        <Box style={{ flexDirection: 'column', marginTop: 24, background: '#F7F7F7', borderLeft: '3px solid #1F4E79', padding: '16px 20px' }}>
+          <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#111111' }}>禁用清单（违反即作品总分 0）</Text>
+          <Text style={{ fontSize: 15, color: '#333333', marginTop: 10, lineHeight: 1.65 }}>
+            方波与载波不得由 NE555、单片机或有源晶振产生；不得使用 ICL8038、MAX038、NE564、MC1648 及兼容芯片、无线收发模块与数字收发芯片；芯片须为在售型号，PCB 须自制或采用通用板。
+          </Text>
+        </Box>
+      </Box>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 60, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: 10 }}>
+    <Text style={{ fontSize: 14, color: '#8A8A8A' }}>31 MHz 模拟调幅无线方波传输系统　·　方案汇报</Text>
+    <Text style={{ fontSize: 14, color: '#8A8A8A' }}>02 / 07</Text>
+  </Box>
+</Slide>

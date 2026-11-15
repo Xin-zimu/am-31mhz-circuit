@@ -1,0 +1,22 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * existing project pspice compatibility workflow
+
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps
+
+
+Circuit: lm393p stage 1 - rc oscillator, pwm threshold, amplitude potentiometer
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  1.50000e-03
+No. of Data Rows : 27459
+binary raw file "bb_passive_a3_d50.raw"
+ngspice-47 done

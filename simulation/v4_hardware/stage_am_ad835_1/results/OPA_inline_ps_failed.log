@@ -1,0 +1,45 @@
+warning, model type mismatch in line
+    s_s1 3 4 1 2 _s1
+warning, model type mismatch in line
+    s_s2 3 4 1 2 _s2
+warning, model type mismatch in line
+    s1 esdn vcc esdn vcc esd_sw
+warning, model type mismatch in line
+    s2 esdp vcc esdp vcc esd_sw
+warning, model type mismatch in line
+    s3 vee esdn vee esdn esd_sw
+warning, model type mismatch in line
+    s4 vee esdp vee esdp esd_sw
+warning, model type mismatch in line
+    s1 out vcc out vcc esd_sw
+warning, model type mismatch in line
+    s2 vee out vee out esd_sw
+warning, model type mismatch in line
+    s1 cap_l cap_r sw_ol_opax197 mid ol_sw
+Error in netlist line no. 472, new internal line no. 454:
+
+Undefined parameter [temp]
+Error in netlist line no. 472, new internal line no. 454:
+
+Cannot compute substitute
+Error in netlist line no. 472, new internal line no. 454:
+
+Undefined parameter [temp]
+Error in netlist line no. 472, new internal line no. 454:
+
+Cannot compute substitute
+
+ERROR: fatal error in ngspice, exit(1)
+
+Note: No compatibility mode selected!
+
+
+Circuit: * existing project pspice compatibility workflow
+
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps
+
+
+Circuit: lm393p stage 1 - rc oscillator, pwm threshold, amplitude potentiometer
+

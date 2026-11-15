@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Compares the B1 purchase table against the archived Coilcraft and Vishay datasheets. Validates catalogue numbers, electrical limits and mechanical spacing only; says nothing about stock or price.",
+  "selftest": {
+    "field": "SRF_MHz",
+    "original": 340.0,
+    "altered": 360.0,
+    "caught": true
+  },
+  "checks": {
+    "coilcraft_132_17L": {
+      "L_nH": 460.0,
+      "Qmin": 66.0,
+      "test_MHz": 25.0,
+      "SRF_MHz": 340.0,
+      "DCR_mOhm": 43.1,
+      "Irms_A": 2.5,
+      "colour": "Violet",
+      "DimA_in": "0.156/3,96",
+      "old_L_nH": 475.0,
+      "DimA_mm": 3.96
+    },
+    "vishay_codes_present": {
+      "280905003": true,
+      "280905217": true,
+      "280905002": true
+    }
+  },
+  "errors": []
+}

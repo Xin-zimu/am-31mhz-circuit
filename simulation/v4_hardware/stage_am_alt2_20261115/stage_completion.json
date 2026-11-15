@@ -1,0 +1,69 @@
+{
+  "stage": "AM-ALT.2",
+  "status": "simulation work complete; hardware verification not started",
+  "completed_at": "2026-11-15T20:45+08:00",
+  "stage_directory": "simulation/v4_hardware/stage_am_alt2_20261115",
+  "primary_candidate": {
+    "baseband_source": "LM393 with original 2.2k pull-up and 20k amplitude potentiometer, calibrated under the real modulator load",
+    "injection_network": "RPRE 10k + CENV 47pF to ground + RMINJ 37k (DC total 47k unchanged)",
+    "bias": "RMT 15k / RMB 3.3k unchanged from AM-ALT.1",
+    "output": "AM-ALT.1 finite-Q preselection, L Q=40 assumed, not an antenna match"
+  },
+  "v1_calibration_pot_top_ohm": {
+    "1": 15101.789798130005,
+    "2": 9897.568110823531,
+    "3": 5049.093362306836,
+    "4": 931.277842280237
+  },
+  "matrix_runs": 12,
+  "check_runs": 5,
+  "measured_ranges": {
+    "v1_calibration_error_mv": [-7.37, 0.78],
+    "v1_frequency_hz": [19998.08, 20006.53],
+    "v1_duty_pct": [9.9994, 50.0121],
+    "v3_low_plateau_vpp": [0.059634, 0.060172],
+    "modulation_index_pct": [8.241, 24.322],
+    "plateau_thd_pct": [0.816, 0.866],
+    "envelope_overshoot_step_pct": [0.292, 1.347],
+    "reverse_excursion_step_pct": [0.051, 0.114],
+    "plateau_tilt_step_pct": [0.231, 0.483],
+    "transition_10_90_ns": [586.8, 831.1],
+    "settle_2pct_us": [1.080, 1.634],
+    "entire_window_vce_min_v": [3.686, 4.163]
+  },
+  "v1_range_ceiling_on_rf_chain_vpp": 4.248602780274748,
+  "v1_headroom_above_4vpp_mv": 248.603,
+  "battery_budget_mw": {
+    "assuming": "9V battery, linear 5V regulator, 8mA regulator ground current",
+    "range": [224.881, 231.779],
+    "share_of_500mw_limit_pct": 46.35,
+    "is_measurement": false
+  },
+  "step_convergence": {
+    "frequency_mid_mhz": [30.979848, 30.992816, 30.997364],
+    "successive_shift_ratio": 2.8513622413916346,
+    "richardson_extrapolation_mhz": [30.997138, 30.998880],
+    "extrapolation_remainder_hz": 1741.3,
+    "frequency_converged": false,
+    "amplitude_change_pct": [-0.0206, -0.0152]
+  },
+  "open_items": [
+    "carrier frequency not fully converged in this step-size range: about 1.74 kHz numerical uncertainty",
+    "envelope step at the 1 Vpp setting is 11.6% larger than the 4 Vpp setting relative to measured v1; to be judged by the receiver v2 result in AM-ALT.4",
+    "antenna impedance and output matching not designed (AM-ALT.3)",
+    "wireless reception, v2 and 6 m not tested (AM-ALT.4, requires hardware)",
+    "battery-side power measured only as a budget, not on hardware (AM-ALT.4)",
+    "procurement, assembly and BOM freeze not started (AM-ALT.5)"
+  ],
+  "integrity": {
+    "predecessor_manifest_entries": 190,
+    "predecessor_manifest_changed_or_missing": [],
+    "stage_netlists": 52,
+    "verified_runs": 17,
+    "checks_passed": true,
+    "frozen_circuit_modified": false,
+    "am_alt1_modified": false,
+    "git_commit_created": false,
+    "procurement_or_assembly": false
+  }
+}

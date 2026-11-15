@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/mnt/d/实验报告文件夹/电路2/output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch</source>
+    <date>2026-10-31T01:44:20+0800</date>
+    <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>09_model_and_test_boundaries.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CK1">
+      <value>2.4p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_h" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27997da1-1776-5f3b-a678-8d9dbf6d11b6</tstamps>
+    </comp>
+    <comp ref="CLOAD1">
+      <value>100p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f648bd33-4e74-5947-bf84-fd9d5807d150</tstamps>
+    </comp>
+    <comp ref="COUT1">
+      <value>11p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_h" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05323d8c-01d9-5922-aff9-d4f984298632</tstamps>
+    </comp>
+    <comp ref="CSEL1">
+      <value>15p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_h" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>588806d0-650d-5eee-9535-df85d95602f6</tstamps>
+    </comp>
+    <comp ref="CSELF1">
+      <value>0.476348275737p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33d56c9c-7bf2-5f9a-a7f2-f54c129a771a</tstamps>
+    </comp>
+    <comp ref="CSELF2">
+      <value>0.476348275737p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>337b3c93-6dd2-523c-8538-5d3c42943a3a</tstamps>
+    </comp>
+    <comp ref="CTUNE1">
+      <value>41.609801788p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6927a9b-ab27-56cf-aecb-695d38d82a7c</tstamps>
+    </comp>
+    <comp ref="CTUNE2">
+      <value>47.1490753446p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5772d3b-411c-5627-8009-8876fe3fae38</tstamps>
+    </comp>
+    <comp ref="JSRC1">
+      <value>SOURCE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="J_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a1e9f2c-29ba-5e89-85e4-5630bf5ccb09</tstamps>
+    </comp>
+    <comp ref="LSEL1">
+      <value>460n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="L_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0eaac2e7-4be2-552f-8d6e-755dcdb6bbd1</tstamps>
+    </comp>
+    <comp ref="LSEL2">
+      <value>460n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="L_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6f3e7d0-5b4f-5666-a022-5f42f32629fe</tstamps>
+    </comp>
+    <comp ref="RBBLOAD1">
+      <value>1000000.0</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="R_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ce7ce24-a5b9-5d56-84d6-7f0988b9d87b</tstamps>
+    </comp>
+    <comp ref="RCT1">
+      <value>0.0956473805069</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="R_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0fd6d03-c7f6-52a9-a867-963f2985f1fe</tstamps>
+    </comp>
+    <comp ref="RCT2">
+      <value>0.0844103201462</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="R_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca71e4b5-a443-5b73-a999-8373ac06e149</tstamps>
+    </comp>
+    <comp ref="RLOSS1">
+      <value>1.21911483406</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="R_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0e8be82-8a16-5715-91a2-96a617510c37</tstamps>
+    </comp>
+    <comp ref="RLOSS2">
+      <value>1.21911483406</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="R_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf9e06ba-7dd1-5db3-a632-427b25d18c84</tstamps>
+    </comp>
+    <comp ref="RPORT1">
+      <value>1Meg</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="R_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0605a42-1510-5861-8879-c69485fe7501</tstamps>
+    </comp>
+    <comp ref="RSOURCE1">
+      <value>50</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="R_h" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/09_model_and_test_boundaries.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa8d7155-a4b7-5ce2-b932-e5117280be0d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="S05" part="C_h">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">C_h</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="C_v">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">C_v</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="J_v">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">J_v</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG/+" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="L_v">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">L_v</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="R_h">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">R_h</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="R_v">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">R_v</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="S05">
+      <uri>/home/xin/.config/kicad/8.0/S05.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/0">
+      <node ref="CLOAD1" pin="2" pintype="passive"/>
+      <node ref="CSELF1" pin="2" pintype="passive"/>
+      <node ref="CSELF2" pin="2" pintype="passive"/>
+      <node ref="CTUNE1" pin="2" pintype="passive"/>
+      <node ref="CTUNE2" pin="2" pintype="passive"/>
+      <node ref="JSRC1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="LSEL1" pin="2" pintype="passive"/>
+      <node ref="LSEL2" pin="2" pintype="passive"/>
+      <node ref="RBBLOAD1" pin="2" pintype="passive"/>
+      <node ref="RPORT1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/ctl1">
+      <node ref="CTUNE1" pin="1" pintype="passive"/>
+      <node ref="RCT1" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/ctl2">
+      <node ref="CTUNE2" pin="1" pintype="passive"/>
+      <node ref="RCT2" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/final">
+      <node ref="CLOAD1" pin="1" pintype="passive"/>
+      <node ref="RBBLOAD1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/input">
+      <node ref="CSEL1" pin="1" pintype="passive"/>
+      <node ref="RSOURCE1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/ln1">
+      <node ref="LSEL1" pin="1" pintype="passive"/>
+      <node ref="RLOSS1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/ln2">
+      <node ref="LSEL2" pin="1" pintype="passive"/>
+      <node ref="RLOSS2" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/port">
+      <node ref="COUT1" pin="2" pintype="passive"/>
+      <node ref="RPORT1" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/src">
+      <node ref="JSRC1" pin="1" pinfunction="SIG/+" pintype="passive"/>
+      <node ref="RSOURCE1" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/tank1">
+      <node ref="CK1" pin="1" pintype="passive"/>
+      <node ref="CSEL1" pin="2" pintype="passive"/>
+      <node ref="CSELF1" pin="1" pintype="passive"/>
+      <node ref="RCT1" pin="1" pintype="passive"/>
+      <node ref="RLOSS1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/tank2">
+      <node ref="CK1" pin="2" pintype="passive"/>
+      <node ref="COUT1" pin="1" pintype="passive"/>
+      <node ref="CSELF2" pin="1" pintype="passive"/>
+      <node ref="RCT2" pin="1" pintype="passive"/>
+      <node ref="RLOSS2" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

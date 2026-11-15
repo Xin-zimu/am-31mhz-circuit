@@ -1,0 +1,73 @@
+LM393P Stage 1 - RC oscillator, PWM threshold, amplitude potentiometer
+* TI LM393 macromodel from installed NI Multisim master database LM393/TI.
+* U1A: DIP pins IN+=3 IN-=2 V+=8 GND=4 OUT=1
+* U1B: DIP pins IN+=5 IN-=6 V+=8 GND=4 OUT=7
+V5 V5 0 5
+CDEC V5 0 100n
+CBULK V5 0 10u
+RPU1 V5 OSC 2.2k
+RHT V5 HYST 30k
+RHB HYST 0 10k
+RHF OSC HYST 20k
+RFIX OSC FSET 22k
+RVRF FSET RAMP 15288.86443
+CT RAMP 0 1n
+XU1A HYST RAMP V5 0 OSC LM393_TI
+* VDUTY resistor chain: 10k + 10k potentiometer + 4.7k.
+RDT V5 DUTY_TOP 10k
+RVDT DUTY_TOP DUTY 8566.555109
+RVDB DUTY DUTY_BOT 1433.444891
+RDB DUTY_BOT 0 4.7k
+XU1B DUTY RAMP V5 0 PWM_RAW LM393_TI
+RPU2 V5 PWM_RAW 2.2k
+* 20k amplitude potentiometer, wiper at V1, includes specified load.
+RVAT PWM_RAW V1 15460.74812
+RVAB V1 0 4539.251882
+RINPUT V1 0 1000000
+CINPUT V1 0 15p
+*****************************************************************************
+* (C) Copyright 2002 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an as is basis.  The entire risk as to its quality
+** and performance is with the customer.
+*****************************************************************************
+* LM393 VOLTAGE COMPARATOR "MACROMODEL" SUBCIRCUIT
+* CREATED USING PARTS VERSION 4.03 ON 03/07/90 AT 14:17
+* REV (N/A)
+* CONNECTIONS:   NON-INVERTING INPUT
+*                | INVERTING INPUT
+*                | | POSITIVE POWER SUPPLY
+*                | | | NEGATIVE POWER SUPPLY
+*                | | | | OPEN COLLECTOR OUTPUT
+*                | | | | |
+.SUBCKT LM393_TI    1 2 3 4 5
+*
+  F1    9  3 V1 1
+  IEE   3  7 DC 100.0E-6
+  VI1  21  1 DC .75
+  VI2  22  2 DC .75
+  Q1    9 21  7 QIN
+  Q2    8 22  7 QIN
+  Q3    9  8  4 QMO
+  Q4    8  8  4 QMI
+.MODEL QIN PNP(IS=800.0E-18 BF=2.000E3)
+.MODEL QMI NPN(IS=800.0E-18 BF=1002)
+.MODEL QMO NPN(IS=800.0E-18 BF=1000 CJC=1E-15 TR=807.4E-9)
+  E1   10  4  9  4  1
+  V1   10 11 DC 0
+  Q5    5 11  4 QOC
+.MODEL QOC NPN(IS=800.0E-18 BF=20.29E3 CJC=1E-15 TF=942.6E-12 TR=543.8E-9)
+  DP    4  3 DX
+  RP 3  4 46.3E3
+.MODEL DX  D(IS=800.0E-18)
+*
+.ENDS
+
+.options plotwinsize=0 reltol=0.0001
+.save V(RAMP) V(HYST) V(OSC) V(DUTY) V(PWM_RAW) V(V1)
+.tran 50n 1.5m 0 50n
+.end

@@ -1,0 +1,13 @@
+* PSpice compatibility wrapper for preserved TI model
+.control
+set ngbehavior=ps
+source ../netlists/bb_opa_ps_network.cir
+
+set filetype=binary
+set num_threads=1
+save v(v1) v(vm) v(pwm_raw) v(mb) v(mc) v(me) i(v5) i(vsup)
+tran 20n 1.5m 1.2m 20n uic
+write bb_opa_ps.raw
+quit
+.endc
+.end

@@ -1,0 +1,19 @@
+[
+  {
+    "file": "ad835.cir",
+    "url": "https://www.analog.com/media/en/simulation-models/spice-models/ad835.cir",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "ad835.pdf",
+    "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ad835.pdf",
+    "sha256": "9467874374ea88a8a3ef35b00f2cf10808da4ec92856970eb705089ff841b96e",
+    "date": "2026-11-14"
+  },
+  {
+    "file": "license.html",
+    "url": "https://www.analog.com/en/license/spice-models.html?mediaPath=/media/en/simulation-models/spice-models/ad835.cir&modelType=spice-models",
+    "sha256": "763f54ec617bc2285b4e5ca011ac4dab29bbf0bc731ac947dfd073bd216ddf39",
+    "date": "2026-11-14"
+  }
+]

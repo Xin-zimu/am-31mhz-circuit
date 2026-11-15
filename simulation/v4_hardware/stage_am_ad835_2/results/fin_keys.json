@@ -1,0 +1,48 @@
+{
+ "ref_poly": [
+  "time",
+  "V(tp2)",
+  "V(tp3)",
+  "V(v1)"
+ ],
+ "A_510_680": [
+  "time",
+  "V(a)",
+  "V(tp2)",
+  "V(tp3)",
+  "V(v1)",
+  "V(xa)",
+  "I(VADN)",
+  "I(VADP)"
+ ],
+ "A_direct": [
+  "time",
+  "V(a)",
+  "V(tp2)",
+  "V(tp3)",
+  "V(v1)",
+  "V(xa)",
+  "I(VADN)",
+  "I(VADP)"
+ ],
+ "A_U100": [
+  "time",
+  "V(a)",
+  "V(tp2)",
+  "V(tp3)",
+  "V(v1)",
+  "V(xa)",
+  "I(VADN)",
+  "I(VADP)"
+ ],
+ "B_short": [
+  "time",
+  "V(a)",
+  "V(tp2)",
+  "V(tp3)",
+  "V(v1)",
+  "V(xa)",
+  "I(VADN)",
+  "I(VADP)"
+ ]
+}

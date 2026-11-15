@@ -1,0 +1,28 @@
+{
+  "requirement": {
+    "m_alt2": 0.2431,
+    "v_oc_needed_mV_peak": 17.222246285527447,
+    "p_radiated_needed_uW": 237.2846136954911,
+    "i_ant_needed_mA_peak": 7.49540752352047,
+    "i_ant_needed_mA_rms": 5.300053487637991,
+    "efficiency_pct": 28.491092559935197,
+    "p_port_needed_uW": 832.8378885306979,
+    "v_port_needed_mV_rms": 78.5688192084509
+  },
+  "supply": {
+    "v_tp3_rms_mV": 50.0,
+    "r_out_ohm": 39.0,
+    "i_max_mA_rms_by_source_ohm": {
+      "39.0": 0.7352037616225509,
+      "20.0": 1.026656180837918,
+      "14.8": 1.1934635682415549,
+      "10.0": 1.4519110948351484
+    },
+    "i_absolute_ceiling_mA_rms": 1.1924907996317227
+  },
+  "gap": {
+    "current_ratio": 4.444523588169241,
+    "power_ratio": 19.75378992579278,
+    "driver_voltage_gain_needed": 4.444523588169241
+  }
+}

@@ -1,0 +1,21 @@
+﻿Ref,Quantity,Value,Package/Notes,Function,Status vs frozen candidate
+Q1,1,2N3904BU,TO-92 1=E 2=B 3=C,RF common-emitter amplifier,Unchanged
+Q2,1,2N3904BU,TO-92 1=E 2=B 3=C,Series current-control transistor,Unchanged
+R1,1,2.2 kΩ ±1% 1/4 W,axial,31 MHz input series resistor,Changed from 10 kΩ
+R2,1,10 Ω ±1% 1/4 W,axial,31 MHz input shunt resistor,Changed from 100 Ω
+R3,1,10 kΩ ±1% 1/4 W,axial,Q1 base bias upper,Unchanged
+R4,1,10 kΩ ±1% 1/4 W,axial,Q1 base bias lower,Unchanged
+R5,1,1 kΩ ±1% 1/4 W,axial,Q1 collector load,Unchanged
+R6,1,1.2 kΩ ±1% 1/4 W,axial,Q2 emitter degeneration,Changed from 470 Ω
+R7,1,22 kΩ ±1% 1/4 W,axial,Q2 base bias upper,Unchanged
+R8,1,6.8 kΩ ±1% 1/4 W,axial,Q2 base bias lower,Unchanged
+R9,1,62 kΩ ±1% 1/4 W,axial,Q2 modulation injection,Changed from 82 kΩ
+C1,1,1 nF C0G ≥50 V,through-hole,Q1 carrier input coupling,Changed from 100 pF
+C2,1,1 nF C0G ≥50 V,through-hole,Q1 emitter RF bypass,Unchanged
+C3,1,100 nF X7R ≥16 V,through-hole,Local +5 V decoupling,Unchanged
+C4,1,10 µF ≥16 V,electrolytic,Local +5 V bulk decoupling,Unchanged
+C5,1,100 pF C0G ≥50 V,through-hole,RF output coupling,Unchanged
+C6,1,47 pF C0G ≥50 V,through-hole,Q2 base RF bypass,Unchanged
+C7,1,100 nF X7R ≥16 V,through-hole,20 kHz modulation coupling,Unchanged
+RL,0/1,2 kΩ,test only,Specified test load,Not a mandatory build item
+CL,0/1,10 pF C0G,test only,Specified test load capacitance,Not a mandatory build item

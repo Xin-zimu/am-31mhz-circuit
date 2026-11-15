@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "Verifies the B3 derivation (22 needed / 9 covered / 13 missing), that all 8 C4 netlists agree, that the merged sheet totals 13/45/13, that exactly two items are blocked, and that model-only parts are excluded. Does not check stock or price.",
+  "c4_netlists": [
+    {
+      "file": "c4_gear_0p125n_10k.cir",
+      "same_as_cascade": true
+    },
+    {
+      "file": "c4_gear_0p125n_2k.cir",
+      "same_as_cascade": true
+    },
+    {
+      "file": "c4_trap_0p0625n_10k.cir",
+      "same_as_cascade": true
+    },
+    {
+      "file": "c4_trap_0p0625n_2k.cir",
+      "same_as_cascade": true
+    },
+    {
+      "file": "c4_trap_0p125n_10k.cir",
+      "same_as_cascade": true
+    },
+    {
+      "file": "c4_trap_0p125n_10k_rtol1e5.cir",
+      "same_as_cascade": true
+    },
+    {
+      "file": "c4_trap_0p125n_2k.cir",
+      "same_as_cascade": true
+    },
+    {
+      "file": "c4_trap_0p125n_2k_rtol1e5.cir",
+      "same_as_cascade": true
+    }
+  ],
+  "cascade_parts": 22,
+  "covered_by_board": 9,
+  "missing": 13,
+  "surplus_on_board": [
+    [
+      "C",
+      "2.2p"
+    ]
+  ],
+  "merged_sheet": {
+    "rows": 36,
+    "B1": 13,
+    "B2": 45,
+    "B3": 13,
+    "blocked": [
+      "Coilcraft 132-17L 460nH ±5% 直插",
+      "BAT85（Nexperia DO-34）"
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,108 @@
+{
+  "scope": "Mechanical items for the LC board. Drawing-level spans come from perfboard_graph.json; datasheet spans come from the archived PDFs. Nothing here is a physical measurement.",
+  "grid_mm": 2.54,
+  "placements": [
+    {
+      "ref": "LSEL1",
+      "part": "Coilcraft 132-17L",
+      "drawing_pads": {
+        "1": [
+          7,
+          7
+        ],
+        "2": [
+          4,
+          5
+        ]
+      },
+      "drawing_span_mm": 9.158,
+      "datasheet_span_mm": 3.96,
+      "delta_mm": 5.198,
+      "status": "BLOCKED_PENDING_PHYSICAL_PART",
+      "why_blocked": "lead length and forming method are unknown until the part arrives; do not redraw holes from datasheet dimensions alone",
+      "datasheet_note": "lead spacing 3.96 mm (Dim A, ±0.13); body 9.65x6.60x5.84 mm"
+    },
+    {
+      "ref": "LSEL2",
+      "part": "Coilcraft 132-17L",
+      "drawing_pads": {
+        "1": [
+          14,
+          7
+        ],
+        "2": [
+          16,
+          4
+        ]
+      },
+      "drawing_span_mm": 9.158,
+      "datasheet_span_mm": 3.96,
+      "delta_mm": 5.198,
+      "status": "BLOCKED_PENDING_PHYSICAL_PART",
+      "why_blocked": "lead length and forming method are unknown until the part arrives; do not redraw holes from datasheet dimensions alone",
+      "datasheet_note": "lead spacing 3.96 mm (Dim A, ±0.13); body 9.65x6.60x5.84 mm"
+    },
+    {
+      "ref": "CT1",
+      "part": "Vishay BFC280905217",
+      "drawing_pads": {
+        "1": [
+          9,
+          10
+        ],
+        "2": [
+          9,
+          12
+        ]
+      },
+      "drawing_span_mm": 5.08,
+      "datasheet_span_mm": 5.08,
+      "delta_mm": 0.0,
+      "status": "matches_datasheet",
+      "why_blocked": "hole diameter is contradictory in the datasheet (Ø1.2 mm in the hole pattern vs 2.54 mm minimum in MOUNTING)",
+      "datasheet_note": "S=stator (left), R=rotor (right); hole diameter contradictory in datasheet"
+    },
+    {
+      "ref": "CT2",
+      "part": "Vishay BFC280905217",
+      "drawing_pads": {
+        "1": [
+          14,
+          10
+        ],
+        "2": [
+          14,
+          12
+        ]
+      },
+      "drawing_span_mm": 5.08,
+      "datasheet_span_mm": 5.08,
+      "delta_mm": 0.0,
+      "status": "matches_datasheet",
+      "why_blocked": "hole diameter is contradictory in the datasheet (Ø1.2 mm in the hole pattern vs 2.54 mm minimum in MOUNTING)",
+      "datasheet_note": "S=stator (left), R=rotor (right); hole diameter contradictory in datasheet"
+    }
+  ],
+  "open_items": [
+    {
+      "item": "132-17L 落孔方案",
+      "detail": "图纸落点 9.16 mm 与手册 3.96 mm 相差 5.20 mm。可选：引线成形 / 增开孔 / 立装。必须按到货实物引脚长度决定，并同步更新逐脚孔位表与跳线端点。",
+      "owner_decision": "user",
+      "blocks": "首块 LC 小板焊接"
+    },
+    {
+      "item": "Vishay 微调电容安装孔径",
+      "detail": "厂家手册内部矛盾：孔位图 Ø1.2 mm，MOUNTING 正文最小孔径 2.54 mm。须以实物引脚直径 + 焊盘间隙 + 厂家确认决定；不得按任一数字扩孔。",
+      "owner_decision": "user",
+      "blocks": "LC 板微调电容安装"
+    },
+    {
+      "item": "LC 测量接口（源、探头、加载方式）",
+      "detail": "RF 信号源型号与 28–34 MHz 覆盖未确认；探头型号与尖端电容未知，CEXT 只能买候选组。未定前不能判定 1.85–1.95 MHz 带宽。",
+      "owner_decision": "user",
+      "blocks": "LC 调谐结果判定"
+    }
+  ],
+  "can_solder_lc_board_now": false,
+  "reason": "线圈落孔方案未定，且微调电容孔径未确认；两项都必须等实物到货。"
+}

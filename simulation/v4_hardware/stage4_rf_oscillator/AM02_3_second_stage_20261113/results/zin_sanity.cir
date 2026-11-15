@@ -1,0 +1,17 @@
+* Zin sanity: 50 ohm through 100 nF should read +50 - j0.05
+VS in0 0 DC 0 AC 1
+CINX in0 n1 100n
+R1 n1 0 50
+L1 n2 0 1u
+R2 n2 0 200
+VS2 in2 0 DC 0 AC 1
+CIN2 in2 n2 100n
+.control
+set num_threads=1
+set filetype=binary
+op
+ac dec 20 20meg 40meg
+write zin_sanity.raw
+quit
+.endc
+.end

@@ -1,0 +1,14 @@
+{
+  "name": "su_C_B",
+  "label": "C_B (330/1000)",
+  "carrier_period_s": 3.227914670050097e-08,
+  "envelope_window_s": 6.455829340100195e-06,
+  "cycles_per_window": 200,
+  "quantisation_bound_pct": 0.5,
+  "final_envelope_vpp": 2.2091093120604928,
+  "peak_envelope_vpp": 2.2091577583820605,
+  "overshoot_pct": 0.0021930250940105367,
+  "steady_state_envelope_spread_pct": 2.259717240677166e-09,
+  "run_seconds": 0.005,
+  "status": "STARTUP_ENVELOPE_CYCLE_ALIGNED_NO_AD835_MODEL"
+}

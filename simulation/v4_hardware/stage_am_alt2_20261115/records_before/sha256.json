@@ -1,0 +1,18 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "ee6398f422a11dd7673f8809fad4e1e0fda4a9df319083f8b50e9c68ef6defb9"
+  },
+  {
+    "path": "项目管理/01_总计划.md",
+    "sha256": "14129e093d7797f30aeaa7e4a29be98ed90cd92ae276a8f34e204dc1912735dc"
+  },
+  {
+    "path": "项目管理/02_当前阶段目标.md",
+    "sha256": "3462e684a28978adab8551a34c1f6c71a278a3027d82122746b906d9b7a7f681"
+  },
+  {
+    "path": "项目管理/03_当前实现状态.md",
+    "sha256": "6e247c8f5661de839b4282ca0f6069e1ef1b0148646aac90fafde945318bfe49"
+  }
+]

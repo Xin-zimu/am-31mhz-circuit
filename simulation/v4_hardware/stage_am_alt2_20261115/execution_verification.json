@@ -1,0 +1,40 @@
+{
+  "stage": "AM-ALT.2",
+  "recorded_at": "2026-11-15T20:45+08:00",
+  "supersedes": "registration_verification.json (kept unchanged as the registration-time record)",
+  "execution": {
+    "plan_items_total": 7,
+    "plan_items_completed": 7,
+    "matrix_runs": 12,
+    "check_runs": 5,
+    "stage_netlists": 52,
+    "verified_runs": 17
+  },
+  "documents_updated": [
+    "01_AM-ALT.2_基带加载校准与包络边沿报告.md section 8",
+    "00_AM-ALT.2至AM-ALT.5阶段计划与任务书.md status and checklist",
+    "README.md",
+    "项目管理/01_总计划.md",
+    "项目管理/02_当前阶段目标.md",
+    "项目管理/03_当前实现状态.md"
+  ],
+  "new_scripts": [
+    "scripts/span_check.py",
+    "scripts/verify_stage.py"
+  ],
+  "script_fixes": [
+    "scripts/summarize_alt2.py: tolerate edges with no measured 10-90% transition (the 220 pF case)",
+     "scripts/verify_stage.py: include full_span_max_d10 in the checked run list"
+  ],
+  "environment_note": "simulation/ and its subdirectories denied writes for the current user at the start of this run (Windows file permissions, not the DSH sandbox); repaired by granting the signed-in user full control on the affected directories. Backups and rollback commands: .tmp/acl-recovery-20261115/",
+  "integrity": {
+    "predecessor_hashes_unchanged": true,
+    "frozen_circuit_modified": false,
+    "am_alt1_modified": false,
+    "am_02_3_modified": false,
+    "git_commit_created": false,
+    "procurement_or_assembly": false
+  },
+  "verification_file": "results/stage_verification.json",
+  "completion_file": "stage_completion.json"
+}

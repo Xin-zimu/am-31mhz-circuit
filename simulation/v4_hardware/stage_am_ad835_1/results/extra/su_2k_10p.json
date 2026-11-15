@@ -1,0 +1,18 @@
+{
+  "name": "su_2k_10p",
+  "top": "load",
+  "r": 2000,
+  "c": 1e-11,
+  "run_seconds": 0.005,
+  "envelope_window_s": 2.5e-07,
+  "final_envelope_vpp": 1.9745181205867202,
+  "peak_envelope_vpp": 2.0876600370381886,
+  "overshoot_ratio": 1.0573010271578813,
+  "build_time_to_10pct_band_s": 0.001061125005,
+  "converged": true,
+  "envelope_ripple_after_build": 0.19717998520237257,
+  "supply_mw_steady": 42.7922698163475,
+  "supply_mw_whole_run_inrush_included": 93.14733897408428,
+  "y_peak_v": 2.418793051139743,
+  "status": "AUTONOMOUS_STARTUP_C4_PLUS_RC_FIXTURE_NO_AD835_MODEL"
+}

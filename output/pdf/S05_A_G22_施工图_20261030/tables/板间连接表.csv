@@ -1,0 +1,10 @@
+﻿线号,节点,端A,端B,工艺
+X01,port,LC H16 (PORT),RF F03 (PORT_IN),最短信号线；接入前拆RMEAS1/CEXT1/探头，重新加载核对
+X02,0,LC I16 (GPORT),RF E03 (GPORT),贴近X01的短宽地回路；不要经电源长线绕回
+X03,out,RF J43 (BB_OUT),BB L04 (DET_IN),与X04相邻，远离RF输入和线圈
+X04,0,RF K43 (GOUT),BB M04 (GIN),基带信号地回路；不接ref
+X05,vcc,BB D02 (RF_9V),RF B02 (VCC),9 V供电，配合两端就地去耦
+X06,0,BB E02 (RF_GND),RF C02 (GND),供电回流，与X05相邻；所有0是同一地
+X07,input / 0,50 Ω信号源同轴芯 / 屏蔽,LC H03 / I03 (JRF1),入口不另并50 Ω；按源开路幅度口径校准
+X08,vcc / 0,外部9 V电源+ / -,BB A02 / B02 (JPOWER1),检查极性；本轮不焊整机、不上电
+X09,final / 0,BB H24 / I24 (JOUT1),基带测量输入 / 地,反馈在ROUT1前；输出总测试负载1 MΩ∥100 pF，计入仪器

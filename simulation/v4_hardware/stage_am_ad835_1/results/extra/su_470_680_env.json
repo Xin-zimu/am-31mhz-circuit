@@ -1,0 +1,14 @@
+{
+  "name": "su_470_680",
+  "label": "A470 (470/680)",
+  "carrier_period_s": 3.227828814682984e-08,
+  "envelope_window_s": 6.455657629365968e-06,
+  "cycles_per_window": 200,
+  "quantisation_bound_pct": 0.5,
+  "final_envelope_vpp": 2.8145612002560667,
+  "peak_envelope_vpp": 2.8145612002837415,
+  "overshoot_pct": 9.832801239895161e-10,
+  "steady_state_envelope_spread_pct": 1.5426419593608564e-09,
+  "run_seconds": 0.005,
+  "status": "STARTUP_ENVELOPE_CYCLE_ALIGNED_NO_AD835_MODEL"
+}

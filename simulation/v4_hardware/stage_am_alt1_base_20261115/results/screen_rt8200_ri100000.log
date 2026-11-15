@@ -1,0 +1,34 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * base modulation isolated fixture; ideal rf source only
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vcc                                          5
+out                                          0
+vm                                   0.0748175
+mrftap                                       0
+mb                                     1.37959
+mc                                     3.51243
+me                                    0.704049
+tp3                                          0
+ob                                     2.07338
+oe                                     1.37061
+v3                                           0
+vmod#branch                        1.30477e-05
+vrf#branch                                   0
+vsup#branch                        -0.00614528
+
+ Reference value :  1.50000e-04 Reference value :  2.04193e-04 Reference value :  2.58557e-04
+No. of Data Rows : 301984
+binary raw file "screen_rt8200_ri100000.raw"
+ngspice-47 done

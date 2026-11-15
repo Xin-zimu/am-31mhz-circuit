@@ -1,0 +1,7 @@
+{
+  "simulation\\v4_hardware\\stage5_receiver\\S05_10_补充_现有仪器与阻抗设置.md": {
+    "before_sha256": "56a66926c6e819506284b03cc7c613c064d75ec4f34e49081243738721e1ed6e",
+    "after_sha256": "399d5e9a9675898e300a869c8d60738beefa582618f2e7c26c0ab14b11891072",
+    "review": "Concurrent workspace update: only appended section 5 closeout notes; previous content prefix matches baseline hash. No netlist/parameter/pin/measurement change. Not edited by this drawing task."
+  }
+}

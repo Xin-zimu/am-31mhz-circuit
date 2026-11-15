@@ -1,0 +1,47 @@
+* AM-01 optimized two-2N3904 AM modulator - verified 4 Vpp / 50% / 2 kOhm point
+* Carrier: 31 MHz, 2 Vpp at the TP2 interface. Supply: 5 V. Load: 2 kOhm || 10 pF.
+* IMPORTANT: the modulation source below is the zero-mean steady equivalent of
+* the physical 0..4 V square after CBB. The 60 ms cold-start run used the real
+* 0..4 V source with no .ic and is recorded in results/cold_start.json.
+* The .ic values are the solved periodic state, not the only validation evidence.
+VSUP vcc 0 DC 5
+CDEC1 vcc 0 100n
+CDEC2 vcc 0 10u
+VRF src 0 SIN(0 1 31meg)
+RIN src rfatt 2200
+RSH rfatt 0 10
+CIN rfatt b1 1n
+RB1T vcc b1 10k
+RB1B b1 0 10k
+Q1 c1 b1 x 2N3904
+RC vcc c1 1k
+CE1 x 0 1n
+Q2 x b2 e2 2N3904
+RB2T vcc b2 22k
+RB2B b2 0 6.8k
+RE e2 0 1.2k
+CB2 b2 0 47p
+VMOD mod 0 PULSE(-2 2 25u 20n 20n 24.96u 50u)
+CBB mod b2ac 100n
+RBB b2ac b2 62k
+COUT c1 out 100p
+RL out 0 2k
+CL out 0 10p
+.ic v(vcc)=5 v(src)=0 v(rfatt)=0 v(b1)=2.4631 v(c1)=4.002394 v(x)=1.797899
++ v(b2)=1.141575 v(e2)=0.4758707 v(mod)=-2 v(b2ac)=-0.840936627907 v(out)=0
+.model 2N3904 NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++ Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++ Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++ Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-4 trtol=7 temp=27 tnom=27
+.control
+set num_threads=1
+set filetype=binary
+op
+print v(b1) v(c1) v(x) v(b2) v(e2) @q1[ic] @q2[ic]
+save v(src) v(b1) v(c1) v(x) v(b2) v(e2) v(mod) v(b2ac) v(out) i(vsup)
+tran 0.5n 130u 0 0.5n uic
+write AM01_optimized_verified_4v50.raw
+quit
+.endc
+.end

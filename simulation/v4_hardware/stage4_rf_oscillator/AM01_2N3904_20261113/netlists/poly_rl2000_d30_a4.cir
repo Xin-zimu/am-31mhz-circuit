@@ -1,0 +1,14 @@
+* Original POLY(3) modulation law: VAM=Vc*(0.6+0.1*V1)
+VMOD mod 0 PULSE(0 4 25u 20n 20n 1.496e-05 50u)
+BAM out 0 V=(0.6+0.1*v(mod))*sin(2*pi*31e6*time)
+RL out 0 2000
+CL out 0 10p
+.options method=trap maxord=2 reltol=1e-5 trtol=7
+.control
+set filetype=binary
+save v(out) v(mod)
+tran 0.5n 130u 0 0.5n
+write D:/实验报告文件夹/电路2/simulation/v4_hardware/stage4_rf_oscillator/AM01_2N3904_20261113/results/raw/poly_rl2000_d30_a4.raw
+quit
+.endc
+.end

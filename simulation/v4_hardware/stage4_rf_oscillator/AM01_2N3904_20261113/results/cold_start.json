@@ -1,0 +1,126 @@
+{
+  "conditions": "real 0..4 V unipolar 20 kHz square, 50%, RL=2k, no .ic, no uic",
+  "duration_ms": 60.0,
+  "max_step_ns": 20.0,
+  "windows": [
+    {
+      "window_ms": [
+        0,
+        5
+      ],
+      "mean_coupling_error_mv": 1300.053898271207,
+      "mean_b2_v": 1.2677590003173578,
+      "mean_b2ac_v": 2.5678128985885644
+    },
+    {
+      "window_ms": [
+        5,
+        10
+      ],
+      "mean_coupling_error_mv": 616.7142277523022,
+      "mean_b2_v": 1.2121420564334053,
+      "mean_b2ac_v": 1.8288562841857077
+    },
+    {
+      "window_ms": [
+        10,
+        15
+      ],
+      "mean_coupling_error_mv": 292.5523094500558,
+      "mean_b2_v": 1.1857620033098457,
+      "mean_b2ac_v": 1.4783143127599014
+    },
+    {
+      "window_ms": [
+        15,
+        20
+      ],
+      "mean_coupling_error_mv": 138.7790373513207,
+      "mean_b2_v": 1.1732488650389319,
+      "mean_b2ac_v": 1.3120279023902528
+    },
+    {
+      "window_ms": [
+        20,
+        25
+      ],
+      "mean_coupling_error_mv": 65.83224755407221,
+      "mean_b2_v": 1.167313084248523,
+      "mean_b2ac_v": 1.2331453318025951
+    },
+    {
+      "window_ms": [
+        25,
+        30
+      ],
+      "mean_coupling_error_mv": 31.22962813544502,
+      "mean_b2_v": 1.1644974630196339,
+      "mean_b2ac_v": 1.1957270911550788
+    },
+    {
+      "window_ms": [
+        30,
+        35
+      ],
+      "mean_coupling_error_mv": 14.8140008660834,
+      "mean_b2_v": 1.1631617313923985,
+      "mean_b2ac_v": 1.1779757322584818
+    },
+    {
+      "window_ms": [
+        35,
+        40
+      ],
+      "mean_coupling_error_mv": 7.028273879974927,
+      "mean_b2_v": 1.1625282118106055,
+      "mean_b2ac_v": 1.1695564856905805
+    },
+    {
+      "window_ms": [
+        40,
+        45
+      ],
+      "mean_coupling_error_mv": 3.3341336870597544,
+      "mean_b2_v": 1.1622276228991095,
+      "mean_b2ac_v": 1.1655617565861693
+    },
+    {
+      "window_ms": [
+        45,
+        50
+      ],
+      "mean_coupling_error_mv": 1.5813329428649967,
+      "mean_b2_v": 1.1620849994958398,
+      "mean_b2ac_v": 1.1636663324387047
+    },
+    {
+      "window_ms": [
+        50,
+        55
+      ],
+      "mean_coupling_error_mv": 0.7502114313049343,
+      "mean_b2_v": 1.1620173721815859,
+      "mean_b2ac_v": 1.1627675836128908
+    },
+    {
+      "window_ms": [
+        55,
+        60
+      ],
+      "mean_coupling_error_mv": 0.3566201420219472,
+      "mean_b2_v": 1.161985346008414,
+      "mean_b2ac_v": 1.1623419661504357
+    }
+  ],
+  "fitted_tau_ms": 6.706160308747105,
+  "fit_r_squared": 0.9999997985811363,
+  "final_mean_coupling_error_mv": 0.3566201420219472,
+  "shooting_vcap_v": 1.159063372092645,
+  "shooting_residual_mv": 4.808852094239941e-06,
+  "final_minus_shooting_b2_mv": 2.9219739157688718,
+  "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\netlists\\cold_start_4v_d50.cir",
+  "netlist_sha256": "c911e734a2151bcd5e3aed0860dbb146ad2db1d436d4fd900c5003b627f87734",
+  "raw_sha256": "435f561e2ba28c25830df8c5841fffdb16b3cdbba601f113b60ded6c7ddc0ed1",
+  "raw_bytes": 1163995320,
+  "log_sha256": "f2e6cb7163353f96aa46a60d6e392e4114696a71819a61675db2e9f51b77297e"
+}

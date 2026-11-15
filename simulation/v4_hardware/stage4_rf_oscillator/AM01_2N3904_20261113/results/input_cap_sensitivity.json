@@ -1,0 +1,46 @@
+{
+  "conditions": "4 Vpp, 50%, 10 kOhm in parallel with indicated capacitance",
+  "purpose": "preliminary AM-02.1 input-interface sensitivity; not an amplifier design",
+  "rows": [
+    {
+      "input_resistance_ohm": 10000.0,
+      "input_capacitance_pf": 2.0,
+      "carrier_vpp_high": 0.11415676818604925,
+      "carrier_vpp_low": 0.06902631868149267,
+      "mean_carrier_vpp": 0.09158725454523914,
+      "gain_to_high_2v_db": 24.87056660793001,
+      "gain_to_low_1p2v_db": 24.80333067756597,
+      "gain_to_mean_1p6v_db": 24.84569884041742
+    },
+    {
+      "input_resistance_ohm": 10000.0,
+      "input_capacitance_pf": 5.0,
+      "carrier_vpp_high": 0.08789832438295926,
+      "carrier_vpp_low": 0.05290198550944006,
+      "mean_carrier_vpp": 0.07039780022679565,
+      "gain_to_high_2v_db": 27.140987990455095,
+      "gain_to_low_1p2v_db": 27.114185476614907,
+      "gain_to_mean_1p6v_db": 27.131217880585968
+    },
+    {
+      "input_resistance_ohm": 10000.0,
+      "input_capacitance_pf": 8.0,
+      "carrier_vpp_high": 0.06993169030931026,
+      "carrier_vpp_low": 0.04182004150315065,
+      "mean_carrier_vpp": 0.05587376276923656,
+      "gain_to_high_2v_db": 29.127119400488493,
+      "gain_to_low_1p2v_db": 29.155935731242742,
+      "gain_to_mean_1p6v_db": 29.138241262647018
+    },
+    {
+      "input_resistance_ohm": 10000.0,
+      "input_capacitance_pf": 10.0,
+      "carrier_vpp_high": 0.061206854116730894,
+      "carrier_vpp_low": 0.03646640741450925,
+      "mean_carrier_vpp": 0.04883453234162113,
+      "gain_to_high_2v_db": 30.284598745401603,
+      "gain_to_low_1p2v_db": 30.345765326136963,
+      "gain_to_mean_1p6v_db": 30.307858991064577
+    }
+  ]
+}

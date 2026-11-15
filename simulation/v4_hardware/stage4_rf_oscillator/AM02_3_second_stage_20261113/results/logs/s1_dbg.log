@@ -1,0 +1,32 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * s1 ef+ce rfc 50 ohm
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+v(b0) = 1.755140e+00
+v(e0) = 1.068849e+00
+v(b1) = 7.959907e-01
+v(e1) = 5.184711e-02
+v(c) = 5.000000e+00
+@q0[ic] = 2.259251e-03
+@q1[ic] = 1.717900e-02
+@q1[ib] = 1.033676e-04
+i(vcc) = -2.07446e-02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+v(b0) = 9.927020e-01,-3.66593e-03
+v(e0) = 8.510597e-01,-1.47890e-01
+v(b1) = 7.878169e-01,-9.63450e-02
+v(e1) = 4.403536e-01,-1.25889e-01
+v(c) = -9.37052e+00,1.134377e+01
+v(out) = -9.69621e+00,1.261494e+00
+ngspice-47 done

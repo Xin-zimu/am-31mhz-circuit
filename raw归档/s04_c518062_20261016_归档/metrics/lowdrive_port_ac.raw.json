@@ -1,0 +1,58 @@
+{
+ "variables": {
+  "n1": {
+   "min": 30980000.0,
+   "max": 31020000.0,
+   "mean": 31000000.0,
+   "n": 4001,
+   "first_min": 30980000.0,
+   "first_max": 30981990.0,
+   "first_mean": 30980995.0,
+   "mid_min": 30999000.0,
+   "mid_max": 31000990.0,
+   "mid_mean": 30999995.0,
+   "last_min": 31018010.0,
+   "last_max": 31020000.0,
+   "last_mean": 31019005.0,
+   "min_db": 149.82162826846374,
+   "max_db": 149.83283586955173,
+   "mean_db": 149.827233273825
+  },
+  "n2": {
+   "min": 338.27207905464445,
+   "max": 338.942260895708,
+   "mean": 338.6069653776362,
+   "n": 4001,
+   "first_min": 338.90886125637104,
+   "first_max": 338.942260895708,
+   "first_mean": 338.92556057085056,
+   "mid_min": 338.59027676657223,
+   "mid_max": 338.6236183026788,
+   "mid_mean": 338.6069470306527,
+   "last_min": 338.27207905464445,
+   "last_max": 338.30536259687904,
+   "last_mean": 338.28872032300234,
+   "min_db": 50.58532305283797,
+   "max_db": 50.602514441341725,
+   "mean_db": 50.59391633355829
+  }
+ },
+ "meta": {
+  "file": "lowdrive_port_ac.raw",
+  "title": "* AC test fixture: 1 A small-signal injection; not a transient DUT",
+  "date": "Sat Oct 17 02:02:53  2026",
+  "plotname": "AC Analysis",
+  "flags": "complex",
+  "n_points": 4001,
+  "n_variables": 2,
+  "sha256": "C5FF3FEE8EA07E938E0A873F4EA6A79533C3FA76CEC155DA22C85D13AE354EC4",
+  "size_bytes": 403245,
+  "x_min": 30980000.0,
+  "x_max": 31020000.0,
+  "is_ac": true
+ },
+ "plot_vars": [
+  "n1",
+  "n2"
+ ]
+}

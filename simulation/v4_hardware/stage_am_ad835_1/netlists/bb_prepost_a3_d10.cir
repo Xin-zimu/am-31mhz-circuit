@@ -1,0 +1,13 @@
+* Existing project PSpice compatibility workflow
+.control
+set ngbehavior=ps
+source ../netlists/bb_prepost_a3_d10_source.cir
+
+set filetype=binary
+set num_threads=1
+save v(v1) v(x) i(v5) i(vp) i(vn)
+tran 20n 2m 1.5m 20n uic
+write bb_prepost_a3_d10.raw
+quit
+.endc
+.end

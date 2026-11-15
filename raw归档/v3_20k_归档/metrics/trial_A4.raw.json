@@ -1,0 +1,82 @@
+{
+ "variables": {
+  "n1": {
+   "min": 0.0,
+   "max": 9.255505599807462e-05,
+   "mean": 4.629079921739311e-05,
+   "n": 93420,
+   "first_min": 0.0,
+   "first_max": 4.69150966011663e-06,
+   "first_mean": 2.3377340770216315e-06,
+   "mid_min": 4.39158572642702e-05,
+   "mid_max": 4.862251049009054e-05,
+   "mid_mean": 4.626918387718037e-05,
+   "last_min": 8.784739470776979e-05,
+   "last_max": 9.255505599807462e-05,
+   "last_mean": 9.020122535292221e-05
+  },
+  "n2": {
+   "min": 0.0,
+   "max": 4.0,
+   "mean": 2.1925636067369827,
+   "n": 93420,
+   "first_min": 0.0,
+   "first_max": 0.0,
+   "first_mean": 0.0,
+   "mid_min": 0.0,
+   "mid_max": 0.0,
+   "mid_mean": 0.0,
+   "last_min": 0.0,
+   "last_max": 0.0,
+   "last_mean": 0.0
+  },
+  "n3": {
+   "min": 4.495055439017083,
+   "max": 12.52192571900288,
+   "mean": 10.313796755411996,
+   "n": 93420,
+   "first_min": 4.495055439017083,
+   "first_max": 8.182507746593691,
+   "first_mean": 8.014818907960555,
+   "mid_min": 7.889173630291769,
+   "mid_max": 7.929087402431167,
+   "mid_mean": 7.90871731816773,
+   "last_min": 7.639650012805465,
+   "last_max": 7.678407978653786,
+   "last_mean": 7.658625582619662
+  },
+  "n4": {
+   "min": 2.492877168993357e-18,
+   "max": 0.583675156567925,
+   "mean": 0.4071105538088678,
+   "n": 93420,
+   "first_min": 2.492877168993357e-18,
+   "first_max": 0.2724449818301405,
+   "first_mean": 0.24241011920497554,
+   "mid_min": 0.2268717379061979,
+   "mid_max": 0.2730001318778257,
+   "mid_mean": 0.24606119107034785,
+   "last_min": 0.2271823116695513,
+   "last_max": 0.2732830575269672,
+   "last_mean": 0.24638316305065958
+  }
+ },
+ "meta": {
+  "file": "trial_A4.raw",
+  "title": "* 31MHz AM SYSTEM - XSPICE variant of the original .cir (no LTspice-isms)",
+  "date": "Thu Oct  8 09:39:37  2026",
+  "plotname": "Transient Analysis",
+  "flags": "real",
+  "n_points": 93420,
+  "n_variables": 4,
+  "sha256": "D0683EEEBA5EE90C8D2748AEBB9E9237CD3AAAAB823947AF8775E07E000E5A4E",
+  "size_bytes": 9704868,
+  "x_min": 0.0,
+  "x_max": 9.255505599807462e-05,
+  "is_ac": false
+ },
+ "plot_vars": [
+  "n1",
+  "n2"
+ ]
+}

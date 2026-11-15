@@ -1,0 +1,13 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-01 (frozen) + am-02.3 stage s6, 4 vpp, duty 0.50
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+binary raw file "op_ld2_S6_2000_3_S6.raw"
+ngspice-47 done

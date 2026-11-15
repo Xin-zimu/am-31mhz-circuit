@@ -1,0 +1,14 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-01 two-2n3904 modulator, rbb=62000, re=1200, rl=2000
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+mag(zout) = 8.515655e+02
+ph(zout) = -5.86887e-01
+ngspice-47 done

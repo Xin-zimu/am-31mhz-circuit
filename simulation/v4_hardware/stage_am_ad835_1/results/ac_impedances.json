@@ -1,0 +1,345 @@
+[
+  {
+    "topology": "source",
+    "port": "out",
+    "z_real": 699.0111652106298,
+    "z_imag": -351.2770263307644,
+    "z_abs": 782.3120594218824,
+    "phase_deg": -26.6810931912084,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        699.0111652106298,
+        -351.2770263307644
+      ]
+    }
+  },
+  {
+    "topology": "A",
+    "port": "y",
+    "z_real": 350.03589917407544,
+    "z_imag": -159.11352521118636,
+    "z_abs": 384.5025937698397,
+    "phase_deg": -24.444809185681727,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        233.8959290551821,
+        -147.73357212390079
+      ],
+      "v(y)": [
+        350.03589917407544,
+        -159.11352521118636
+      ],
+      "v(z)": [
+        350.03589917407544,
+        -159.11352521118636
+      ]
+    }
+  },
+  {
+    "topology": "A",
+    "port": "z",
+    "z_real": 350.03589917407544,
+    "z_imag": -159.11352521118636,
+    "z_abs": 384.5025937698397,
+    "phase_deg": -24.444809185681727,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        233.8959290551821,
+        -147.73357212390079
+      ],
+      "v(y)": [
+        350.03589917407544,
+        -159.11352521118636
+      ],
+      "v(z)": [
+        350.03589917407544,
+        -159.11352521118636
+      ]
+    }
+  },
+  {
+    "topology": "A470",
+    "port": "y",
+    "z_real": 365.8697975824305,
+    "z_imag": -162.72511145389075,
+    "z_abs": 400.4249875828054,
+    "phase_deg": -23.97769741236073,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        212.92329977319994,
+        -143.2606872443802
+      ],
+      "v(y)": [
+        365.8697975824305,
+        -162.72511145389075
+      ],
+      "v(z)": [
+        365.8697975824305,
+        -162.72511145389075
+      ]
+    }
+  },
+  {
+    "topology": "A470",
+    "port": "z",
+    "z_real": 365.8697975824305,
+    "z_imag": -162.72511145389075,
+    "z_abs": 400.4249875828054,
+    "phase_deg": -23.97769741236073,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        212.92329977319994,
+        -143.2606872443802
+      ],
+      "v(y)": [
+        365.8697975824305,
+        -162.72511145389075
+      ],
+      "v(z)": [
+        365.8697975824305,
+        -162.72511145389075
+      ]
+    }
+  },
+  {
+    "topology": "B",
+    "port": "y",
+    "z_real": 24.17436561988949,
+    "z_imag": 25.69494586431626,
+    "z_abs": 35.279316831455766,
+    "phase_deg": 46.74648181304834,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        11.35671981027263,
+        9.476511419270727
+      ],
+      "v(y)": [
+        24.17436561988949,
+        25.69494586431626
+      ],
+      "v(z)": [
+        24.17436561988949,
+        25.69494586431626
+      ]
+    }
+  },
+  {
+    "topology": "B",
+    "port": "z",
+    "z_real": 24.17436561988949,
+    "z_imag": 25.69494586431626,
+    "z_abs": 35.279316831455766,
+    "phase_deg": 46.74648181304834,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        11.35671981027263,
+        9.476511419270727
+      ],
+      "v(y)": [
+        24.17436561988949,
+        25.69494586431626
+      ],
+      "v(z)": [
+        24.17436561988949,
+        25.69494586431626
+      ]
+    }
+  },
+  {
+    "topology": "C_A",
+    "port": "y",
+    "z_real": 342.05952099684384,
+    "z_imag": -78.83863037058862,
+    "z_abs": 351.0274142332769,
+    "phase_deg": -12.979001591310563,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        189.32280987375736,
+        -73.38561153885006
+      ],
+      "v(y)": [
+        342.05952099684384,
+        -78.83863037058862
+      ],
+      "v(z)": [
+        121.84374497980797,
+        -59.732667167321594
+      ]
+    }
+  },
+  {
+    "topology": "C_A",
+    "port": "z",
+    "z_real": 341.3974846867709,
+    "z_imag": -78.5770488102456,
+    "z_abs": 350.3235578007589,
+    "phase_deg": -12.961630926468514,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        189.05475363480173,
+        -73.25419967108193
+      ],
+      "v(y)": [
+        121.84374497980792,
+        -59.73266716732158
+      ],
+      "v(z)": [
+        341.3974846867709,
+        -78.5770488102456
+      ]
+    }
+  },
+  {
+    "topology": "C_B",
+    "port": "y",
+    "z_real": 359.7669082900004,
+    "z_imag": -87.84362323921634,
+    "z_abs": 370.3359696874433,
+    "phase_deg": -13.721329857543656,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        216.8395500328032,
+        -84.51403599315732
+      ],
+      "v(y)": [
+        359.7669082900004,
+        -87.84362323921634
+      ],
+      "v(z)": [
+        79.89851985203434,
+        -46.49266252283856
+      ]
+    }
+  },
+  {
+    "topology": "C_B",
+    "port": "z",
+    "z_real": 437.8198966438246,
+    "z_imag": -92.2677652861976,
+    "z_abs": 447.4367021245778,
+    "phase_deg": -11.900581647869585,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        124.91328306801358,
+        -58.93743191049351
+      ],
+      "v(y)": [
+        79.89851985203431,
+        -46.49266252283855
+      ],
+      "v(z)": [
+        437.8198966438246,
+        -92.2677652861976
+      ]
+    }
+  },
+  {
+    "topology": "A470_AMB",
+    "port": "y",
+    "z_real": 157.1851966543836,
+    "z_imag": -19.19491619876063,
+    "z_abs": 158.3528681620724,
+    "phase_deg": -6.962292022876485,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        97.09581833030305,
+        -29.533939136700344
+      ],
+      "v(y)": [
+        157.1851966543836,
+        -19.19491619876063
+      ],
+      "v(z)": [
+        93.99057839445945,
+        -13.713833742064786
+      ]
+    }
+  },
+  {
+    "topology": "A470_AMB",
+    "port": "z",
+    "z_real": 116.13857466841387,
+    "z_imag": -10.942859336996277,
+    "z_abs": 116.65296694246585,
+    "phase_deg": -5.382656576975996,
+    "definition": "DC5 operating-point AC at31MHz; input RC included; NOT periodic steady-state output impedance",
+    "all_nodes": {
+      "frequency": [
+        31000000.0,
+        0.0
+      ],
+      "v(out)": [
+        57.8117213882953,
+        -19.0716228233233
+      ],
+      "v(y)": [
+        93.99057839445945,
+        -13.713833742064786
+      ],
+      "v(z)": [
+        116.13857466841387,
+        -10.942859336996277
+      ]
+    }
+  }
+]

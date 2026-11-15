@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://www.analog.com/en/products/ad835.html",
+    "date": "2026-11-15",
+    "time_utc": "2026-11-14T16:19:21.157398+00:00",
+    "status": 200,
+    "final_url": "https://www.analog.com/en/products/ad835.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 117856,
+    "redirects": [],
+    "sha256": "20cfadf12e7f700748ea2d3491a0834181b2675839ac96986b88be9f17afc902",
+    "valid_model_candidate": false,
+    "saved_as": "product.html"
+  },
+  {
+    "url": "https://www.analog.com/en/license/spice-models.html?mediaPath=/media/en/simulation-models/spice-models/ad835.cir&modelType=spice-models",
+    "date": "2026-11-15",
+    "time_utc": "2026-11-14T16:19:21.933828+00:00",
+    "status": 200,
+    "final_url": "https://www.analog.com/en/license/spice-models.html?mediaPath=/media/en/simulation-models/spice-models/ad835.cir&modelType=spice-models",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 24913,
+    "redirects": [],
+    "sha256": "763f54ec617bc2285b4e5ca011ac4dab29bbf0bc731ac947dfd073bd216ddf39",
+    "valid_model_candidate": false,
+    "saved_as": "license.html"
+  },
+  {
+    "url": "https://www.analog.com/media/en/simulation-models/spice-models/ad835.cir",
+    "date": "2026-11-15",
+    "time_utc": "2026-11-14T16:19:23.336394+00:00",
+    "status": 404,
+    "final_url": "https://www.analog.com/media/en/simulation-models/spice-models/ad835.cir",
+    "content_type": "application/octet-stream",
+    "bytes": 179,
+    "redirects": [],
+    "sha256": "66cf12b4ce70e6ef2cee7166d9ef5101aec486f3bf57cff791e6a527184b42b9",
+    "valid_model_candidate": false,
+    "saved_as": "model_entry_response.bin"
+  },
+  {
+    "url": "https://www.analog.com/media/en/simulation-models/spice-models/ad835.cir?modelType=spice-models",
+    "date": "2026-11-15",
+    "time_utc": "2026-11-14T16:19:24.237479+00:00",
+    "status": 404,
+    "final_url": "https://www.analog.com/media/en/simulation-models/spice-models/ad835.cir?modelType=spice-models",
+    "content_type": "application/octet-stream",
+    "bytes": 179,
+    "redirects": [],
+    "sha256": "66cf12b4ce70e6ef2cee7166d9ef5101aec486f3bf57cff791e6a527184b42b9",
+    "valid_model_candidate": false,
+    "saved_as": "accept_download_response.bin"
+  },
+  {
+    "url": "https://ez.analog.com/other-products/a/documents/c/questions/DO22920/ad835-related",
+    "date": "2026-11-15",
+    "time_utc": "2026-11-14T16:19:24.936936+00:00",
+    "status": 200,
+    "final_url": "https://ez.analog.com/other-products/a/documents/c/questions/DO22920/ad835-related",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 220958,
+    "redirects": [],
+    "sha256": "63ae7ffdbe7bbbf683797c0d169a2ddc6863f95cc72df0b0f2039b8a8fb7b56a",
+    "valid_model_candidate": false,
+    "saved_as": "official_support_related.html"
+  },
+  {
+    "url": "https://ez.analog.com/other-products/a/documents/c/questions/DO22950/ad835-spice-model",
+    "date": "2026-11-15",
+    "time_utc": "2026-11-14T16:19:30.137066+00:00",
+    "status": 200,
+    "final_url": "https://ez.analog.com/other-products/a/documents/c/questions/DO22950/ad835-spice-model",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 220378,
+    "redirects": [],
+    "sha256": "38e892221128f7b7aac44dc65b1a067b0ee7a26f6467cd539954fb9786d9f397",
+    "valid_model_candidate": false,
+    "saved_as": "official_support_model.html"
+  }
+]

@@ -1,0 +1,36 @@
+Note: v.xbb.vccvs1_in: has no value, DC 0 assumed
+Note: v.xbb.vccvs2_in: has no value, DC 0 assumed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * pspice compatibility wrapper for preserved ti model
+
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps
+
+
+Circuit: * alt2 baseband and dc transistor load; no rf or wireless claim
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+Warning: singular matrix:  check node xbb.48
+
+Warning: singular matrix:  check node xbb.48
+
+Warning: singular matrix:  check node xbb.48
+
+doAnalyses: TRAN:  Timestep too small; time = 2.00012e-10, timestep = 2.5e-20: trouble with node "e.xbb.e.xr105.eres#branch"
+
+
+tran simulation(s) aborted
+Warning from checkvalid: vector mb is not available or has zero length.
+Error during 'write': no writable vector found.
+
+No. of Data Rows : 0
+ngspice-47 done

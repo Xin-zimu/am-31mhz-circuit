@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://www.analog.com/media/en/simulation-models/spice-models/AD835.cir",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.analog.com/static/imported-files/spice_models/AD835.cir",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.analog.com/static/imported-files/spice_models/ad835.cir",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.analog.com/media/en/simulation-models/spice-models/ad835.cir?download=1",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

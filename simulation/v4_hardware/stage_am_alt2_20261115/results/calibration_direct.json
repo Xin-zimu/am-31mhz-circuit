@@ -1,0 +1,30 @@
+{
+  "1": {
+    "pot_top_ohm": 15101.789798130005,
+    "pot_bottom_ohm": 4898.210201869995,
+    "result": "cal_direct_a1_i2",
+    "actual_vpp": 1.0000877677406372,
+    "settings": {}
+  },
+  "2": {
+    "pot_top_ohm": 9897.568110823531,
+    "pot_bottom_ohm": 10102.431889176469,
+    "result": "cal_direct_a2_i3",
+    "actual_vpp": 1.9999903094426608,
+    "settings": {}
+  },
+  "3": {
+    "pot_top_ohm": 5049.093362306836,
+    "pot_bottom_ohm": 14950.906637693164,
+    "result": "cal_direct_a3_i3",
+    "actual_vpp": 2.99995457273708,
+    "settings": {}
+  },
+  "4": {
+    "pot_top_ohm": 931.277842280237,
+    "pot_bottom_ohm": 19068.722157719763,
+    "result": "cal_direct_a4_i3",
+    "actual_vpp": 4.000055187845635,
+    "settings": {}
+  }
+}

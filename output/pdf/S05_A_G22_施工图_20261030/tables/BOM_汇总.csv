@@ -1,0 +1,38 @@
+﻿类型,数值/型号,数量,图纸位号,规格/状态
+RX,15p,1,CSEL1,RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+RX,2.4p,1,CK1,RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+RX,11p,1,COUT1,RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+RX,1Meg,1,RPORT1,1%，≥1/8 W，小型金属膜/薄膜
+RX,460n,2,"LSEL1, LSEL2",见逐器件表；封装待核实
+RX,1n,2,"CIN1, COBUF1",RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+RX,22k,2,"RBT1, RBT2",1%，≥1/8 W，小型金属膜/薄膜
+RX,4.7k,2,"RBB1, RBB2",1%，≥1/8 W，小型金属膜/薄膜
+RX,2N3904,3,"Q1, Q2, QBUF1",见逐器件表；封装待核实
+RX,1000,3,"RC1, RC2, RRF1",1%，≥1/8 W，小型金属膜/薄膜
+RX,33,2,"REU1, REU2",1%，≥1/8 W，小型金属膜/薄膜
+RX,220,2,"REB1, REB2",1%，≥1/8 W，小型金属膜/薄膜
+RX,330p,2,"CEB1, CEB2",RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+RX,100p,4,"CIN2, CBUF1, CDET1, CFILT1",RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+RX,10k,4,"RBTB1, RBBB1, RVB1, RG1",1%，≥1/8 W，小型金属膜/薄膜
+RX,470,1,REBUF1,1%，≥1/8 W，小型金属膜/薄膜
+RX,BAT85,1,DDET1,见逐器件表；封装待核实
+RX,4700,2,"RDET1, RFILT1",1%，≥1/8 W，小型金属膜/薄膜
+RX,20k,1,RVT1,1%，≥1/8 W，小型金属膜/薄膜
+RX,10u,1,CVREF1,10u ≥16 V，核对正负极与脚距
+RX,100n,1,CCOUP1,RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+RX,100k,1,RBIAS1,1%，≥1/8 W，小型金属膜/薄膜
+RX,210000,1,RFB1,1%，≥1/8 W，小型金属膜/薄膜
+RX,OPAx197,1,U1,见逐器件表；封装待核实
+RX,100,1,ROUT1,1%，≥1/8 W，小型金属膜/薄膜
+RX,30p,1,CFIX1,RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+RX,2-18p,2,"CT1, CT2",见逐器件表；封装待核实
+RX,39p,1,CFIX2,RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+DECOUPLING,100n,4,"CDQ1, CDQ2, CDBUF1, CDU1",RF用C0G/NP0≥50 V；100n耦合/去耦≥16 V，详说明
+DECOUPLING,10u,1,CPWR1,10u ≥16 V，核对正负极与脚距
+INTERFACE,RF IN,1,JRF1,见逐器件表；封装待核实
+INTERFACE,9 V,1,JPOWER1,见逐器件表；封装待核实
+INTERFACE,BASEBAND,1,JOUT1,见逐器件表；封装待核实
+可拆LC夹具,953 Ω,1,RMEAS1,1%；仅独立板测试，整链拆除
+可拆LC夹具,CEXT TBD,1,CEXT1,C0G，按总14pF预算选配；未定值，不盲购
+外部测试边界,1 MΩ∥100 pF,1组,RBBLOAD1 / CLOAD1,输出总负载，可由仪器及补偿构成，不默认额外焊上
+结构附件,SOIC8→DIP8转接、洞洞板、短同轴、绝缘线/地铜带,1套,U1转接及结构,转接逐脚通断与机械尺寸待核实；不含未资格化ADA4817缓冲器

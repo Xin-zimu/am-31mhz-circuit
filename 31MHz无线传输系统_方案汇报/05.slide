@@ -1,0 +1,57 @@
+<Slide
+  notes={`（1:55–2:25）四处取舍：调制体制没得选，N 为奇数即调幅；载波本可用有源晶振，被禁用后改无源晶体，偏差万分之三；解调选包络检波，省掉本振，抑制压力交给前级 LC；基带增益从 11.2 提到 22，否则只有 2.4 Vpp，够不到 4 V。`}
+  style={{ width: 1280, height: 720, padding: '60px 60px 0 60px', background: '#FFFFFF', flexDirection: 'column', fontFamily: 'Microsoft YaHei' }}
+>
+  <Box style={{ flex: 1, flexDirection: 'column' }}>
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#111111', lineHeight: 1.25 }}>
+      四处关键取舍及其依据
+    </Text>
+    <Box style={{ width: '100%', height: 1, background: '#DCDCDC', marginTop: 12 }} />
+
+    <Box style={{ flexDirection: 'row', marginTop: 28, paddingBottom: 12, borderBottom: '1px solid #111111' }}>
+      <Text style={{ width: 136, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>决策点</Text>
+      <Text style={{ width: 224, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>备选方案</Text>
+      <Text style={{ width: 104, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>选择</Text>
+      <Text style={{ width: 636, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>依据</Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', height: 92, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
+      <Text style={{ width: 136, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>调制体制</Text>
+      <Text style={{ width: 224, fontSize: 16, color: '#333333' }}>调幅 AM / 调频 FM</Text>
+      <Text style={{ width: 104, fontSize: 16, fontWeight: 'bold', color: '#1F4E79' }}>AM</Text>
+      <Text style={{ width: 636, fontSize: 16, color: '#333333', lineHeight: 1.5 }}>题目 N = 31 为奇数，任务书表 1 直接指定调幅；包络检波无需本振，有源器件最少</Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', height: 92, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
+      <Text style={{ width: 136, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>载波来源</Text>
+      <Text style={{ width: 224, fontSize: 16, color: '#333333' }}>LC 振荡 / 陶瓷谐振 / 无源晶体</Text>
+      <Text style={{ width: 104, fontSize: 16, fontWeight: 'bold', color: '#1F4E79' }}>无源晶体</Text>
+      <Text style={{ width: 636, fontSize: 16, color: '#333333', lineHeight: 1.5 }}>有源晶振被明令禁用；晶体 Q 值高、频率偏差 0.003%，LC 方案需随温度反复微调</Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', height: 92, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
+      <Text style={{ width: 136, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>解调方式</Text>
+      <Text style={{ width: 224, fontSize: 16, color: '#333333' }}>包络检波 / 同步检波</Text>
+      <Text style={{ width: 104, fontSize: 16, fontWeight: 'bold', color: '#1F4E79' }}>包络检波</Text>
+      <Text style={{ width: 636, fontSize: 16, color: '#333333', lineHeight: 1.5 }}>省去本振与同步电路，元件少、易调；代价是邻近抑制全压给前级 LC，已由两级选频补偿</Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', height: 92, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
+      <Text style={{ width: 136, fontSize: 16, fontWeight: 'bold', color: '#111111' }}>基带增益</Text>
+      <Text style={{ width: 224, fontSize: 16, color: '#333333' }}>单级 G = 11.2 / G = 22</Text>
+      <Text style={{ width: 104, fontSize: 16, fontWeight: 'bold', color: '#1F4E79' }}>G = 22</Text>
+      <Text style={{ width: 636, fontSize: 16, color: '#333333', lineHeight: 1.5 }}>10 mV 输入时 G = 11.2 仅得 2.4 Vpp，够不到 4 V 门槛；提到 22 后为 4.8~5.1 Vpp</Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', marginTop: 26, background: '#F7F7F7', borderLeft: '3px solid #1F4E79', padding: '16px 20px' }}>
+      <Text style={{ fontSize: 17, color: '#111111', lineHeight: 1.6 }}>
+        共同原则：在禁用清单内用最少的有源器件满足指标，把复杂度留给可调的无源网络。
+      </Text>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 60, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: 10 }}>
+    <Text style={{ fontSize: 14, color: '#8A8A8A' }}>31 MHz 模拟调幅无线方波传输系统　·　方案汇报</Text>
+    <Text style={{ fontSize: 14, color: '#8A8A8A' }}>05 / 07</Text>
+  </Box>
+</Slide>

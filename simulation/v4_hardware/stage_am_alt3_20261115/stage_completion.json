@@ -1,0 +1,212 @@
+{
+  "stage": "AM-ALT.3",
+  "status": "已执行、勘误完成、待技术闭合",
+  "completed_at": "2026-11-15T22:10+08:00",
+  "SUPERSEDED": {
+    "superseded_at": "2026-11-15T23:05+08:00",
+    "superseded_by": "02_AM-ALT.3_勘误与天线阻抗测量方案.md",
+    "why": "review of the link budget found two convention defects in the requirement derivation, and the fixed 2.96 uH matching value is not usable because the tuning inductance must be adjustable over 2.2-4.4 uH",
+    "what_still_stands": [
+      "the 1.00 m vertical monopole antenna decision",
+      "the series-L matching topology",
+      "the ROISO 1 kohm finding (0.046 / 0.786 / 1.193 mA)",
+      "the sideband check (recovered envelope 19999.9 Hz, duty 48.6%)",
+      "the detuning sensitivity warning (C +/-15% cuts current to about 1/3)",
+      "the rejection of three antenna models, including the failed MoM attempts"
+    ],
+    "what_is_retracted": [
+      "requirement of 5.30 mA rms: it is the result of h_eff = h/2 (inflates 2x) and an rms current divided by sqrt(2) (deflates 1.41x), net sqrt(2). The self-consistent value at D=3 is 3.75 mA rms",
+      "the driver margin '118%': it compares an ngspice rms current against a requirement already divided by sqrt(2). Apples-to-apples against its own model it is 83%. Against the corrected D-bracket (D=1.5 to 3) it is 112%-167%, which is the figure that should be quoted",
+      "the gap ratio 4.44x: it is 3.14x against the corrected D=3 requirement",
+      "the fixed L_match of 2.96 uH as a design value: C_ant from 6 to 12 pF requires 2.2-4.4 uH, so the coil must be adjustable",
+      "the implication that AM-ALT.3 is a closed stage: the antenna impedance is an unmeasured prerequisite, not a footnote, and blocks any v2 or 6 m conclusion"
+    ],
+    "does_not_change": "the driver stage is still justified: every point of the corrected bracket (3.75-5.30 mA rms) exceeds the existing output ceiling of 1.19 mA rms by 3.1x-4.4x",
+    "evidence": [
+      "results/link_budget_audit.json (scripts/link_budget_audit.py)",
+      "results/measurement_design.json (scripts/measurement_design.py)"
+    ]
+  },
+  "question_answered": "Which antenna, and what impedance does it present at 31 MHz?",
+  "stage_directory": "simulation/v4_hardware/stage_am_alt3_20261115",
+  "antenna_decision": {
+    "type": "straight vertical monopole over the transmitter chassis/ground",
+    "height_m": 1.0,
+    "height_in_lambda": 0.103,
+    "wire_radius_m": 0.0005,
+    "reason": "course limit is 1 m; full length maximises R_rad and efficiency, and a monopole avoids balanced feed"
+  },
+  "impedance": {
+    "R_rad_ohm": 4.224,
+    "X_ohm": -576.0,
+    "equivalent_series_C_pF": 8.91,
+    "antenna_Q": 136,
+    "confidence": "engineering estimate from Schelkunoff's transmission-line approximation; NOT a full-wave solve and NOT a measurement",
+    "must_be_measured": true,
+    "why": "the capacitance depends on the ground plane, wire routing, nearby objects and hand proximity; a 15% error changes the antenna current by about 3x"
+  },
+  "rejected_models": [
+    {
+      "model": "induced-EMF with sinusoidal current",
+      "why_rejected": "collapses to ~0.10 of the correct radiation resistance at 0.103 lambda (verified in scripts/model_check.py); its early numbers 1.64 ohm / -189 ohm were wrong and are not used",
+      "kept_for": "reproduces the half-wave and quarter-wave textbook references, so it is retained only as a validation fixture"
+    },
+    {
+      "model": "self-written method-of-moments solver",
+      "why_rejected": "three implementations failed the half-wave/quarter-wave checks (errors 20%-400%); deleted so no design number depends on an unvalidated solver"
+    },
+    {
+      "model": "static capacitance C = 2*pi*eps0*h/ln(2h/a)",
+      "why_rejected": "gives the wrong sign at 0.25 lambda (-350 ohm vs the true +21 ohm); used only as a lower bound on |X|"
+    }
+  ],
+  "matching": {
+    "topology": "series L to resonate the antenna capacitance, antenna current sampled for tuning",
+    "L_match_uH": 2.9572,
+    "loaded_Q": 41.7,
+    "bandwidth_kHz": 743,
+    "sideband_check": {
+      "recovered_envelope_frequency_Hz": 19999.9,
+      "recovered_envelope_duty_pct": 48.6,
+      "verdict": "20 kHz AM sidebands pass the tuned antenna with no loss; the cost of the short antenna is efficiency, not bandwidth"
+    }
+  },
+  "interface_change": {
+    "finding": "the 1 kohm ROISO in the AM-ALT.2 output was sized for the 10k||5pF bench fixture and dissipates ~95% of the power into a 14 ohm antenna",
+    "action": "removed for the antenna interface; this is an AM-ALT.3 change and AM-ALT.2 files were not edited",
+    "measured": {
+      "roiso_1k_mA": 0.046,
+      "roiso_22_mA": 0.786,
+      "roiso_0_mA": 1.193
+    }
+  },
+  "driver": {
+    "needed": true,
+    "derived_from_requirement_not_assumed": true,
+    "requirement_i_ant_mA_rms": 5.3,
+    "existing_ceiling_i_ant_mA_rms": 1.193,
+    "gap_ratio": 4.44,
+    "topology": "common-emitter gain stage + emitter follower, two 2N3904",
+    "bias": {
+      "RDC_ohm": 1250,
+      "RB1_ohm": 40000,
+      "RB2_ohm": 10000,
+      "RDE_ohm": 150,
+      "REF_ohm": 200
+    },
+    "measured_i_ant_mA_rms": 6.25,
+    "measured_m_pct": 22.5,
+    "margin_vs_requirement_pct": 118,
+    "VCE_V": 2.71
+  },
+  "power": {
+    "i_rf_mA": 22.82,
+    "i_lm393_mA": 3.48,
+    "regulator_ground_mA_assumed": 8.0,
+    "p_bat_budget_mW": 308.7,
+    "share_of_500mW_pct": 61.7,
+    "is_measurement": false
+  },
+  "sensitivity": {
+    "c_minus_15pct_i_ant_mA": 1.86,
+    "nominal_i_ant_mA": 6.25,
+    "c_plus_15pct_i_ant_mA": 2.076,
+    "modulation_index_stays_pct": [
+      28.3,
+      22.5,
+      28.2
+    ],
+    "implication": "tuning is mandatory and must be judged by antenna current, not by waveform shape"
+  },
+  "v3_redefined": "voltage at the antenna feed point after the matching network; tp3 remains an internal modulator observation point and is not a course acceptance point",
+  "open_items": [
+    "antenna impedance not measured: 8.91 pF is an estimate and the design is sensitive to it",
+    "6 m wireless communication not verified, and cannot be verified by simulation (AM-ALT.4)",
+    "receiver v2 not verified; AM-ALT.2 delivers m=22.5-24.3% while S05 was designed at m=50%, so v2 is roughly halved at the same field strength and must be recomputed",
+    "battery-side power is a budget, not a measurement",
+    "driver stage not built, antenna not built, no measurement of the ground return"
+  ],
+  "integrity": {
+    "predecessor_entries": 190,
+    "predecessor_changed_or_missing": [],
+    "runs_with_netlist_and_raw": "19/19",
+    "frozen_circuit_modified": false,
+    "am_alt1_or_alt2_modified": false,
+    "am_02_3_modified": false,
+    "git_commit_created": false,
+    "procurement_or_assembly": false
+  },
+  "current_review": {
+    "date": "2026-11-16",
+    "document": "03_AM-ALT.3_测量匹配与驱动复核.md",
+    "precedence": "Current review overrides conflicting historical fields below; historical simulation fields retained.",
+    "antenna_m": 1.0,
+    "adjustable_L_uH": [
+      2.2,
+      4.4
+    ],
+    "requirement_rms_mA": [
+      3.75,
+      5.3
+    ],
+    "measurement_method": "100/220 pF low-frequency calibration; 10 ohm current sensing",
+    "bench_measurement_performed": false,
+    "procurement_or_assembly": false,
+    "closure_pending": [
+      "Measured antenna impedance and uncertainty",
+      "Parasitic model validation at 31 MHz",
+      "Driver verification including 10 ohm sensing and corrected loss",
+      "Carrier RMS versus time-weighted total RMS"
+    ]
+  },
+  "closure_tasks": {
+    "A": {
+      "name": "天线参数闭合",
+      "status": "用户已确认未测，待实测"
+    },
+    "B": {
+      "name": "匹配网络闭合",
+      "status": "用户已确认未测，待实际安装测量"
+    },
+    "C": {
+      "name": "驱动级闭合",
+      "status": "名义模型两次瞬态预复核完成，待A/B实测回填及最终复验",
+      "evidence": "05_AM-ALT.3_含10Ω驱动预复核结果.md"
+    },
+    "decision_gate": "三个任务全部闭合后，才判断是否需要修改驱动级",
+    "document": "04_AM-ALT.3_三个闭合任务.md"
+  },
+  "driver_freeze": {
+    "date": "2026-11-16",
+    "user_authorized": "冻结两只2N3904驱动拓扑；不改电阻，不增加晶体管；先取得天线实测再决定调整",
+    "bias_ohm": {
+      "RDC": 1250,
+      "RDB1": 40000,
+      "RDB2": 10000,
+      "RDE": 150,
+      "REF": 200
+    },
+    "sense_ohm": 10,
+    "hardware_change_allowed": false,
+    "round2_confirmed": "A~E复核期间未改拓扑/电阻，网表检查通过（两只2N3904、五只偏置电阻、10 Ω取样在全部12份网表中一致）"
+  },
+  "round2_plan": {
+    "completed_at": "2026-11-16T01:13+08:00",
+    "document": "06_AM-ALT.3_冻结驱动后ABCDE仿真复核.md",
+    "A": "扩展既有九组解析：2700点解析网格（C=6~12 pF×Q=30/60/100×C±3%×L±1%×Cp=0/0.25/0.5/1 pF），已生成；75个谐振恒等点自检通过",
+    "B": "低VCE判定：最低VCE 0.1671 V出现在下降沿后0.391 us，属瞬态结正向偏置（VBC最大0.534 V、最长连续408 ns）；稳定平台VBC为负、基波增益差-0.061 dB，未见持续平台饱和；另记录边沿包络塌陷（后级射随近截止）",
+    "C": "12组完整链路瞬态：载波RMS 1.696(H压力)~5.727 mA，未证明现驱动覆盖3.75~5.30 mA需求；功耗均<500 mW",
+    "D": "0.5/0.25/0.125/0.0625/0.05 ns五级步长：收敛阶1.987，零步长外推30998793.391 Hz，最细残差248 Hz，0.05 ns对照与外推预测差0.177 Hz，判据通过",
+    "E": "名义基线（d05）=载波4.6407 mA、总RMS 4.8306 mA、电池预算303.76 mW，标为受限仿真基线",
+    "status": "A～E仿真复核已完成",
+    "hardware_changed": false,
+    "antenna_measured": false,
+    "directory": "round2_20261116",
+    "artifacts": [
+      "round2_20261116/summary.json",
+      "round2_20261116/results/d_convergence.json",
+      "round2_20261116/results/round2_summary.png",
+      "round2_20261116/results/evidence_sha256.json"
+    ]
+  }
+}

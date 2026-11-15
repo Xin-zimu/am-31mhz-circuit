@@ -1,0 +1,2632 @@
+{
+  "status": "PASS",
+  "kicad": "8.0.9",
+  "scope": "Native KiCad verification of the delivered S05-11 schematics: ERC, netlist re-export, plot re-export and LC-board landing spans. Recorded against the final files. Electrical parameters were not changed, no simulation was run.",
+  "locked_schematics": {
+    "01_receiver": {
+      "sha256": "3c87ffdfc4354f865d1679b74c501832c8c1397b51997f6baa48220cb073562e",
+      "size": 84345,
+      "header": "(kicad_sch (version 20230121) (generator s05_netlist_drawings) ("
+    },
+    "02_lc_module": {
+      "sha256": "bbf2a05b798b37f10952bddb7c3489c7c05ddeca009a97f475ff0f28899b7c00",
+      "size": 25768,
+      "header": "(kicad_sch (version 20230121) (generator s05_netlist_drawings) ("
+    },
+    "09_model_and_test_boundaries": {
+      "sha256": "08f4b39f89e1b12bb477fa5078d2bdabe5cf18a46654342f52e2dc540b0d635b",
+      "size": 28114,
+      "header": "(kicad_sch (version 20230121) (generator s05_netlist_drawings) ("
+    }
+  },
+  "erc": {
+    "01_receiver": {
+      "report": "output\\pdf\\S05_A_G22_施工图_20261030\\qa\\kicad_native_20261031\\erc_01_receiver.rpt",
+      "messages": 62,
+      "errors": 0,
+      "warnings": 62,
+      "by_rule": {
+        "lib_symbol_issues": 56,
+        "no_connect_dangling": 3,
+        "no_connect_connected": 3
+      },
+      "by_severity": {
+        "warning": 62
+      },
+      "findings": [
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "66.0400",
+              "y": "96.5200",
+              "what": "Symbol LSEL1 [L_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "38.1000",
+              "y": "63.5000",
+              "what": "Symbol CSEL1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "139.7000",
+              "y": "63.5000",
+              "what": "Symbol CK1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "167.6400",
+              "y": "96.5200",
+              "what": "Symbol LSEL2 [L_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "116.8400",
+              "y": "96.5200",
+              "what": "Symbol CT1 [T_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "91.4400",
+              "y": "96.5200",
+              "what": "Symbol CFIX1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "193.0400",
+              "y": "96.5200",
+              "what": "Symbol CFIX2 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "25.4000",
+              "y": "228.6000",
+              "what": "Symbol CBUF1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "48.2600",
+              "y": "203.2000",
+              "what": "Symbol RBTB1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "114.3000",
+              "y": "238.7600",
+              "what": "Symbol COBUF1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "81.2800",
+              "y": "261.6200",
+              "what": "Symbol REBUF1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "48.2600",
+              "y": "254.0000",
+              "what": "Symbol RBBB1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "76.2000",
+              "y": "228.6000",
+              "what": "Symbol QBUF1 [Q_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "132.0800",
+              "y": "355.6000",
+              "what": "Symbol CPWR1 [P_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "43.1800",
+              "y": "340.3600",
+              "what": "Symbol RVT1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "43.1800",
+              "y": "365.7600",
+              "what": "Symbol RVB1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "78.7400",
+              "y": "365.7600",
+              "what": "Symbol CVREF1 [P_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "172.7200",
+              "y": "355.6000",
+              "what": "Symbol CDQ1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "139.7000",
+              "y": "261.6200",
+              "what": "Symbol RRF1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "165.1000",
+              "y": "238.7600",
+              "what": "Symbol RCONNECT1 [W_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "193.0400",
+              "y": "238.7600",
+              "what": "Symbol DDET1 [D_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "320.0400",
+              "y": "63.5000",
+              "what": "Symbol RBT1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "353.0600",
+              "y": "55.8800",
+              "what": "Symbol RC1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "294.6400",
+              "y": "88.9000",
+              "what": "Symbol CIN1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "264.1600",
+              "y": "96.5200",
+              "what": "Symbol RPORT1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "353.0600",
+              "y": "137.1600",
+              "what": "Symbol REB1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "381.0000",
+              "y": "137.1600",
+              "what": "Symbol CEB1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "347.9800",
+              "y": "88.9000",
+              "what": "Symbol Q1 [Q_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "353.0600",
+              "y": "114.3000",
+              "what": "Symbol REU1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "320.0400",
+              "y": "114.3000",
+              "what": "Symbol RBB1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "218.4400",
+              "y": "96.5200",
+              "what": "Symbol CT2 [T_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "241.3000",
+              "y": "63.5000",
+              "what": "Symbol COUT1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "243.8400",
+              "y": "261.6200",
+              "what": "Symbol CDET1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "294.6400",
+              "y": "261.6200",
+              "what": "Symbol CFILT1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "335.2800",
+              "y": "238.7600",
+              "what": "Symbol CCOUP1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "269.2400",
+              "y": "238.7600",
+              "what": "Symbol RFILT1 [R_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "383.5400",
+              "y": "320.0400",
+              "what": "Symbol RG1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "436.8800",
+              "y": "299.7200",
+              "what": "Symbol RFB1 [R_hflip]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "520.7000",
+              "y": "375.9200",
+              "what": "Symbol JOUT1 [J_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "520.7000",
+              "y": "345.4400",
+              "what": "Symbol JPOWER1 [J_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "520.7000",
+              "y": "314.9600",
+              "what": "Symbol JRF1 [J_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "469.9000",
+              "y": "114.3000",
+              "what": "Symbol REU2 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "436.8800",
+              "y": "63.5000",
+              "what": "Symbol RBT2 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "411.4800",
+              "y": "88.9000",
+              "what": "Symbol CIN2 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "464.8200",
+              "y": "88.9000",
+              "what": "Symbol Q2 [Q_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "436.8800",
+              "y": "114.3000",
+              "what": "Symbol RBB2 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "469.9000",
+              "y": "137.1600",
+              "what": "Symbol REB2 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "497.8400",
+              "y": "137.1600",
+              "what": "Symbol CEB2 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "469.9000",
+              "y": "55.8800",
+              "what": "Symbol RC2 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "no_connect_dangling",
+          "message": "Unconnected \"no connection\" flag",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "425.4500",
+              "y": "228.6000",
+              "what": "No Connect"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "360.6800",
+              "y": "264.1600",
+              "what": "Symbol RBIAS1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "457.2000",
+              "y": "243.8400",
+              "what": "Symbol ROUT1 [R_h]"
+            }
+          ]
+        },
+        {
+          "rule": "no_connect_connected",
+          "message": "Pin with 'no connection' type is connected",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "415.2900",
+              "y": "228.6000",
+              "what": "Symbol U1 Pin 1 [NC, Unconnected, Line]"
+            },
+            {
+              "x": "415.2900",
+              "y": "228.6000",
+              "what": "No Connect"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "406.4000",
+              "y": "243.8400",
+              "what": "Symbol U1 [U_h]"
+            }
+          ]
+        },
+        {
+          "rule": "no_connect_dangling",
+          "message": "Unconnected \"no connection\" flag",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "415.2900",
+              "y": "228.6000",
+              "what": "No Connect"
+            }
+          ]
+        },
+        {
+          "rule": "no_connect_dangling",
+          "message": "Unconnected \"no connection\" flag",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "420.3700",
+              "y": "228.6000",
+              "what": "No Connect"
+            }
+          ]
+        },
+        {
+          "rule": "no_connect_connected",
+          "message": "Pin with 'no connection' type is connected",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "420.3700",
+              "y": "228.6000",
+              "what": "Symbol U1 Pin 5 [NC, Unconnected, Line]"
+            },
+            {
+              "x": "420.3700",
+              "y": "228.6000",
+              "what": "No Connect"
+            }
+          ]
+        },
+        {
+          "rule": "no_connect_connected",
+          "message": "Pin with 'no connection' type is connected",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "425.4500",
+              "y": "228.6000",
+              "what": "Symbol U1 Pin 8 [NC, Unconnected, Line]"
+            },
+            {
+              "x": "425.4500",
+              "y": "228.6000",
+              "what": "No Connect"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "218.4400",
+              "y": "261.6200",
+              "what": "Symbol RDET1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "213.3600",
+              "y": "355.6000",
+              "what": "Symbol CDQ2 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "254.0000",
+              "y": "355.6000",
+              "what": "Symbol CDBUF1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "294.6400",
+              "y": "355.6000",
+              "what": "Symbol CDU1 [C_v]"
+            }
+          ]
+        }
+      ]
+    },
+    "02_lc_module": {
+      "report": "output\\pdf\\S05_A_G22_施工图_20261030\\qa\\kicad_native_20261031\\erc_02_lc_module.rpt",
+      "messages": 13,
+      "errors": 1,
+      "warnings": 12,
+      "by_rule": {
+        "lib_symbol_issues": 12,
+        "label_dangling": 1
+      },
+      "by_severity": {
+        "warning": 12,
+        "error": 1
+      },
+      "findings": [
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "66.0400",
+              "y": "91.4400",
+              "what": "Symbol LSEL1 [L_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "167.6400",
+              "y": "91.4400",
+              "what": "Symbol LSEL2 [L_v]"
+            }
+          ]
+        },
+        {
+          "rule": "label_dangling",
+          "message": "Label not connected to anything",
+          "severity": "error",
+          "objects": [
+            {
+              "x": "20.3200",
+              "y": "58.4200",
+              "what": "Label 'input'"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "38.1000",
+              "y": "58.4200",
+              "what": "Symbol CSEL1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "116.8400",
+              "y": "91.4400",
+              "what": "Symbol CT1 [T_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "91.4400",
+              "y": "91.4400",
+              "what": "Symbol CFIX1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "139.7000",
+              "y": "58.4200",
+              "what": "Symbol CK1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "304.8000",
+              "y": "91.4400",
+              "what": "Symbol RMEAS1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "358.1400",
+              "y": "91.4400",
+              "what": "Symbol CEXT1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "241.3000",
+              "y": "58.4200",
+              "what": "Symbol COUT1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "264.1600",
+              "y": "91.4400",
+              "what": "Symbol RPORT1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "193.0400",
+              "y": "91.4400",
+              "what": "Symbol CFIX2 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "218.4400",
+              "y": "91.4400",
+              "what": "Symbol CT2 [T_v]"
+            }
+          ]
+        }
+      ]
+    },
+    "09_model_and_test_boundaries": {
+      "report": "output\\pdf\\S05_A_G22_施工图_20261030\\qa\\kicad_native_20261031\\erc_09_model_and_test_boundaries.rpt",
+      "messages": 18,
+      "errors": 1,
+      "warnings": 17,
+      "by_rule": {
+        "lib_symbol_issues": 17,
+        "label_dangling": 1
+      },
+      "by_severity": {
+        "warning": 17,
+        "error": 1
+      },
+      "findings": [
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "215.9000",
+              "y": "58.4200",
+              "what": "Symbol CK1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "86.3600",
+              "y": "86.3600",
+              "what": "Symbol RLOSS1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "172.7200",
+              "y": "86.3600",
+              "what": "Symbol RCT1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "172.7200",
+              "y": "119.3800",
+              "what": "Symbol CTUNE1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "label_dangling",
+          "message": "Label not connected to anything",
+          "severity": "error",
+          "objects": [
+            {
+              "x": "12.7000",
+              "y": "58.4200",
+              "what": "Label 'src'"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "63.5000",
+              "y": "58.4200",
+              "what": "Symbol CSEL1 [C_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "30.4800",
+              "y": "58.4200",
+              "what": "Symbol RSOURCE1 [R_h]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "157.4800",
+              "y": "223.5200",
+              "what": "Symbol CLOAD1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "88.9000",
+              "y": "223.5200",
+              "what": "Symbol RBBLOAD1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "86.3600",
+              "y": "119.3800",
+              "what": "Symbol LSEL1 [L_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "129.5400",
+              "y": "119.3800",
+              "what": "Symbol CSELF1 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "264.1600",
+              "y": "86.3600",
+              "what": "Symbol RLOSS2 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "264.1600",
+              "y": "119.3800",
+              "what": "Symbol LSEL2 [L_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "307.3400",
+              "y": "119.3800",
+              "what": "Symbol CSELF2 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "431.8000",
+              "y": "119.3800",
+              "what": "Symbol RPORT1 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "350.5200",
+              "y": "119.3800",
+              "what": "Symbol CTUNE2 [C_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "350.5200",
+              "y": "86.3600",
+              "what": "Symbol RCT2 [R_v]"
+            }
+          ]
+        },
+        {
+          "rule": "lib_symbol_issues",
+          "message": "The current configuration does not include the library 'S05'",
+          "severity": "warning",
+          "objects": [
+            {
+              "x": "388.6200",
+              "y": "58.4200",
+              "what": "Symbol COUT1 [C_h]"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "erc_causes": {
+    "01_receiver": {
+      "library_reference": {
+        "count": 56,
+        "items": [
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "66.0400",
+                "y": "96.5200",
+                "what": "Symbol LSEL1 [L_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "38.1000",
+                "y": "63.5000",
+                "what": "Symbol CSEL1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "139.7000",
+                "y": "63.5000",
+                "what": "Symbol CK1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "167.6400",
+                "y": "96.5200",
+                "what": "Symbol LSEL2 [L_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "116.8400",
+                "y": "96.5200",
+                "what": "Symbol CT1 [T_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "91.4400",
+                "y": "96.5200",
+                "what": "Symbol CFIX1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "193.0400",
+                "y": "96.5200",
+                "what": "Symbol CFIX2 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "25.4000",
+                "y": "228.6000",
+                "what": "Symbol CBUF1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "48.2600",
+                "y": "203.2000",
+                "what": "Symbol RBTB1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "114.3000",
+                "y": "238.7600",
+                "what": "Symbol COBUF1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "81.2800",
+                "y": "261.6200",
+                "what": "Symbol REBUF1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "48.2600",
+                "y": "254.0000",
+                "what": "Symbol RBBB1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "76.2000",
+                "y": "228.6000",
+                "what": "Symbol QBUF1 [Q_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "132.0800",
+                "y": "355.6000",
+                "what": "Symbol CPWR1 [P_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "43.1800",
+                "y": "340.3600",
+                "what": "Symbol RVT1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "43.1800",
+                "y": "365.7600",
+                "what": "Symbol RVB1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "78.7400",
+                "y": "365.7600",
+                "what": "Symbol CVREF1 [P_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "172.7200",
+                "y": "355.6000",
+                "what": "Symbol CDQ1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "139.7000",
+                "y": "261.6200",
+                "what": "Symbol RRF1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "165.1000",
+                "y": "238.7600",
+                "what": "Symbol RCONNECT1 [W_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "193.0400",
+                "y": "238.7600",
+                "what": "Symbol DDET1 [D_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "320.0400",
+                "y": "63.5000",
+                "what": "Symbol RBT1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "353.0600",
+                "y": "55.8800",
+                "what": "Symbol RC1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "294.6400",
+                "y": "88.9000",
+                "what": "Symbol CIN1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "264.1600",
+                "y": "96.5200",
+                "what": "Symbol RPORT1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "353.0600",
+                "y": "137.1600",
+                "what": "Symbol REB1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "381.0000",
+                "y": "137.1600",
+                "what": "Symbol CEB1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "347.9800",
+                "y": "88.9000",
+                "what": "Symbol Q1 [Q_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "353.0600",
+                "y": "114.3000",
+                "what": "Symbol REU1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "320.0400",
+                "y": "114.3000",
+                "what": "Symbol RBB1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "218.4400",
+                "y": "96.5200",
+                "what": "Symbol CT2 [T_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "241.3000",
+                "y": "63.5000",
+                "what": "Symbol COUT1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "243.8400",
+                "y": "261.6200",
+                "what": "Symbol CDET1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "294.6400",
+                "y": "261.6200",
+                "what": "Symbol CFILT1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "335.2800",
+                "y": "238.7600",
+                "what": "Symbol CCOUP1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "269.2400",
+                "y": "238.7600",
+                "what": "Symbol RFILT1 [R_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "383.5400",
+                "y": "320.0400",
+                "what": "Symbol RG1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "436.8800",
+                "y": "299.7200",
+                "what": "Symbol RFB1 [R_hflip]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "520.7000",
+                "y": "375.9200",
+                "what": "Symbol JOUT1 [J_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "520.7000",
+                "y": "345.4400",
+                "what": "Symbol JPOWER1 [J_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "520.7000",
+                "y": "314.9600",
+                "what": "Symbol JRF1 [J_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "469.9000",
+                "y": "114.3000",
+                "what": "Symbol REU2 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "436.8800",
+                "y": "63.5000",
+                "what": "Symbol RBT2 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "411.4800",
+                "y": "88.9000",
+                "what": "Symbol CIN2 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "464.8200",
+                "y": "88.9000",
+                "what": "Symbol Q2 [Q_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "436.8800",
+                "y": "114.3000",
+                "what": "Symbol RBB2 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "469.9000",
+                "y": "137.1600",
+                "what": "Symbol REB2 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "497.8400",
+                "y": "137.1600",
+                "what": "Symbol CEB2 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "469.9000",
+                "y": "55.8800",
+                "what": "Symbol RC2 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "360.6800",
+                "y": "264.1600",
+                "what": "Symbol RBIAS1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "457.2000",
+                "y": "243.8400",
+                "what": "Symbol ROUT1 [R_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "406.4000",
+                "y": "243.8400",
+                "what": "Symbol U1 [U_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "218.4400",
+                "y": "261.6200",
+                "what": "Symbol RDET1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "213.3600",
+                "y": "355.6000",
+                "what": "Symbol CDQ2 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "254.0000",
+                "y": "355.6000",
+                "what": "Symbol CDBUF1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "294.6400",
+                "y": "355.6000",
+                "what": "Symbol CDU1 [C_v]"
+              }
+            ]
+          }
+        ]
+      },
+      "nc_flag_offset_from_pin": {
+        "count": 3,
+        "items": [
+          {
+            "rule": "no_connect_dangling",
+            "message": "Unconnected \"no connection\" flag",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "425.4500",
+                "y": "228.6000",
+                "what": "No Connect"
+              }
+            ]
+          },
+          {
+            "rule": "no_connect_dangling",
+            "message": "Unconnected \"no connection\" flag",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "415.2900",
+                "y": "228.6000",
+                "what": "No Connect"
+              }
+            ]
+          },
+          {
+            "rule": "no_connect_dangling",
+            "message": "Unconnected \"no connection\" flag",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "420.3700",
+                "y": "228.6000",
+                "what": "No Connect"
+              }
+            ]
+          }
+        ]
+      },
+      "redundant_nc_flag_on_nc_type_pin": {
+        "count": 3,
+        "items": [
+          {
+            "rule": "no_connect_connected",
+            "message": "Pin with 'no connection' type is connected",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "415.2900",
+                "y": "228.6000",
+                "what": "Symbol U1 Pin 1 [NC, Unconnected, Line]"
+              },
+              {
+                "x": "415.2900",
+                "y": "228.6000",
+                "what": "No Connect"
+              }
+            ]
+          },
+          {
+            "rule": "no_connect_connected",
+            "message": "Pin with 'no connection' type is connected",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "420.3700",
+                "y": "228.6000",
+                "what": "Symbol U1 Pin 5 [NC, Unconnected, Line]"
+              },
+              {
+                "x": "420.3700",
+                "y": "228.6000",
+                "what": "No Connect"
+              }
+            ]
+          },
+          {
+            "rule": "no_connect_connected",
+            "message": "Pin with 'no connection' type is connected",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "425.4500",
+                "y": "228.6000",
+                "what": "Symbol U1 Pin 8 [NC, Unconnected, Line]"
+              },
+              {
+                "x": "425.4500",
+                "y": "228.6000",
+                "what": "No Connect"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "02_lc_module": {
+      "library_reference": {
+        "count": 12,
+        "items": [
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "66.0400",
+                "y": "91.4400",
+                "what": "Symbol LSEL1 [L_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "167.6400",
+                "y": "91.4400",
+                "what": "Symbol LSEL2 [L_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "38.1000",
+                "y": "58.4200",
+                "what": "Symbol CSEL1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "116.8400",
+                "y": "91.4400",
+                "what": "Symbol CT1 [T_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "91.4400",
+                "y": "91.4400",
+                "what": "Symbol CFIX1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "139.7000",
+                "y": "58.4200",
+                "what": "Symbol CK1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "304.8000",
+                "y": "91.4400",
+                "what": "Symbol RMEAS1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "358.1400",
+                "y": "91.4400",
+                "what": "Symbol CEXT1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "241.3000",
+                "y": "58.4200",
+                "what": "Symbol COUT1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "264.1600",
+                "y": "91.4400",
+                "what": "Symbol RPORT1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "193.0400",
+                "y": "91.4400",
+                "what": "Symbol CFIX2 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "218.4400",
+                "y": "91.4400",
+                "what": "Symbol CT2 [T_v]"
+              }
+            ]
+          }
+        ]
+      },
+      "single_pin_label": {
+        "count": 1,
+        "items": [
+          {
+            "rule": "label_dangling",
+            "message": "Label not connected to anything",
+            "severity": "error",
+            "objects": [
+              {
+                "x": "20.3200",
+                "y": "58.4200",
+                "what": "Label 'input'"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "09_model_and_test_boundaries": {
+      "library_reference": {
+        "count": 17,
+        "items": [
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "215.9000",
+                "y": "58.4200",
+                "what": "Symbol CK1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "86.3600",
+                "y": "86.3600",
+                "what": "Symbol RLOSS1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "172.7200",
+                "y": "86.3600",
+                "what": "Symbol RCT1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "172.7200",
+                "y": "119.3800",
+                "what": "Symbol CTUNE1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "63.5000",
+                "y": "58.4200",
+                "what": "Symbol CSEL1 [C_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "30.4800",
+                "y": "58.4200",
+                "what": "Symbol RSOURCE1 [R_h]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "157.4800",
+                "y": "223.5200",
+                "what": "Symbol CLOAD1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "88.9000",
+                "y": "223.5200",
+                "what": "Symbol RBBLOAD1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "86.3600",
+                "y": "119.3800",
+                "what": "Symbol LSEL1 [L_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "129.5400",
+                "y": "119.3800",
+                "what": "Symbol CSELF1 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "264.1600",
+                "y": "86.3600",
+                "what": "Symbol RLOSS2 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "264.1600",
+                "y": "119.3800",
+                "what": "Symbol LSEL2 [L_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "307.3400",
+                "y": "119.3800",
+                "what": "Symbol CSELF2 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "431.8000",
+                "y": "119.3800",
+                "what": "Symbol RPORT1 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "350.5200",
+                "y": "119.3800",
+                "what": "Symbol CTUNE2 [C_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "350.5200",
+                "y": "86.3600",
+                "what": "Symbol RCT2 [R_v]"
+              }
+            ]
+          },
+          {
+            "rule": "lib_symbol_issues",
+            "message": "The current configuration does not include the library 'S05'",
+            "severity": "warning",
+            "objects": [
+              {
+                "x": "388.6200",
+                "y": "58.4200",
+                "what": "Symbol COUT1 [C_h]"
+              }
+            ]
+          }
+        ]
+      },
+      "single_pin_label": {
+        "count": 1,
+        "items": [
+          {
+            "rule": "label_dangling",
+            "message": "Label not connected to anything",
+            "severity": "error",
+            "objects": [
+              {
+                "x": "12.7000",
+                "y": "58.4200",
+                "what": "Label 'src'"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "netlist_reexport": {
+    "01_receiver": {
+      "components_old": 56,
+      "components_new": 56,
+      "value_differences": {},
+      "net_differences": {},
+      "electrically_identical": true
+    },
+    "02_lc_module": {
+      "components_old": 12,
+      "components_new": 12,
+      "value_differences": {},
+      "net_differences": {},
+      "electrically_identical": true
+    },
+    "09_model_and_test_boundaries": {
+      "components_old": 17,
+      "components_new": 17,
+      "value_differences": {},
+      "net_differences": {},
+      "electrically_identical": true
+    }
+  },
+  "plots": {
+    "01_receiver": {
+      "pdf_ok": true,
+      "svg_ok": true,
+      "pdf": "qa/kicad_native_20261031/pdf_01_receiver.pdf"
+    },
+    "02_lc_module": {
+      "pdf_ok": true,
+      "svg_ok": true,
+      "pdf": "qa/kicad_native_20261031/pdf_02_lc_module.pdf"
+    },
+    "09_model_and_test_boundaries": {
+      "pdf_ok": true,
+      "svg_ok": true,
+      "pdf": "qa/kicad_native_20261031/pdf_09_model_and_test_boundaries.pdf"
+    }
+  },
+  "single_pin_nets": {
+    "01_receiver": [],
+    "02_lc_module": [
+      {
+        "net": "input",
+        "pins": [
+          [
+            "CSEL1",
+            "1"
+          ]
+        ]
+      }
+    ],
+    "09_model_and_test_boundaries": [
+      {
+        "net": "src",
+        "pins": [
+          [
+            "RSOURCE1",
+            "1"
+          ]
+        ]
+      }
+    ]
+  },
+  "mechanical_landing": [
+    {
+      "ref": "CSEL",
+      "pad_a": [
+        6,
+        8
+      ],
+      "pad_b": [
+        7,
+        8
+      ],
+      "landing_mm": 2.54,
+      "datasheet_mm": 2.54,
+      "verdict": "matches datasheet"
+    },
+    {
+      "ref": "CK",
+      "pad_a": [
+        10,
+        7
+      ],
+      "pad_b": [
+        11,
+        7
+      ],
+      "landing_mm": 2.54,
+      "datasheet_mm": 2.54,
+      "verdict": "matches datasheet"
+    },
+    {
+      "ref": "COUT",
+      "pad_a": [
+        15,
+        8
+      ],
+      "pad_b": [
+        16,
+        8
+      ],
+      "landing_mm": 2.54,
+      "datasheet_mm": 2.54,
+      "verdict": "matches datasheet"
+    },
+    {
+      "ref": "LSEL1",
+      "pad_a": [
+        7,
+        7
+      ],
+      "pad_b": [
+        4,
+        5
+      ],
+      "landing_mm": 9.158,
+      "datasheet_mm": 3.96,
+      "verdict": "needs lead forming: datasheet 3.96 mm vs landing 9.158 mm"
+    },
+    {
+      "ref": "LSEL2",
+      "pad_a": [
+        14,
+        7
+      ],
+      "pad_b": [
+        16,
+        4
+      ],
+      "landing_mm": 9.158,
+      "datasheet_mm": 3.96,
+      "verdict": "needs lead forming: datasheet 3.96 mm vs landing 9.158 mm"
+    },
+    {
+      "ref": "CFIX1",
+      "pad_a": [
+        8,
+        8
+      ],
+      "pad_b": [
+        8,
+        9
+      ],
+      "landing_mm": 2.54,
+      "datasheet_mm": 2.54,
+      "verdict": "matches datasheet"
+    },
+    {
+      "ref": "CFIX2",
+      "pad_a": [
+        12,
+        8
+      ],
+      "pad_b": [
+        12,
+        9
+      ],
+      "landing_mm": 2.54,
+      "datasheet_mm": 2.54,
+      "verdict": "matches datasheet"
+    },
+    {
+      "ref": "CT1",
+      "pad_a": [
+        9,
+        10
+      ],
+      "pad_b": [
+        9,
+        12
+      ],
+      "landing_mm": 5.08,
+      "datasheet_mm": 5.08,
+      "verdict": "matches datasheet"
+    },
+    {
+      "ref": "CT2",
+      "pad_a": [
+        14,
+        10
+      ],
+      "pad_b": [
+        14,
+        12
+      ],
+      "landing_mm": 5.08,
+      "datasheet_mm": 5.08,
+      "verdict": "matches datasheet"
+    },
+    {
+      "ref": "RPORT",
+      "pad_a": [
+        17,
+        8
+      ],
+      "pad_b": [
+        17,
+        11
+      ],
+      "landing_mm": 7.62,
+      "datasheet_mm": null,
+      "verdict": "axial: span set by lead forming"
+    },
+    {
+      "ref": "JRF",
+      "pad_a": [
+        3,
+        8
+      ],
+      "pad_b": [
+        3,
+        9
+      ],
+      "landing_mm": 2.54,
+      "datasheet_mm": null,
+      "verdict": "axial: span set by lead forming"
+    },
+    {
+      "ref": "RMEAS",
+      "pad_a": [
+        18,
+        8
+      ],
+      "pad_b": [
+        18,
+        11
+      ],
+      "landing_mm": 7.62,
+      "datasheet_mm": null,
+      "verdict": "axial: span set by lead forming"
+    },
+    {
+      "ref": "CEXT",
+      "pad_a": [
+        19,
+        8
+      ],
+      "pad_b": [
+        19,
+        9
+      ],
+      "landing_mm": 2.54,
+      "datasheet_mm": 2.54,
+      "verdict": "matches datasheet"
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "ERC cannot prove the circuit works; it only checks drawing-level rules.",
+    "Landing spans come from drawing data, not from a physical board.",
+    "No purchased part has been measured; datasheet dimensions are not arrival checks."
+  ]
+}

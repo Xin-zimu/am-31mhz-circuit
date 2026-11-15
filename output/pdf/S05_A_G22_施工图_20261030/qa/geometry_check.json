@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "method": "Parsed the delivered .kicad_sch s-expressions directly: symbol placement, library pin offsets, wires, junctions and labels. Connectivity rebuilt from geometry only; no KiCad CLI, no netlist export, no simulation.",
+  "why": "The last kicad-cli netlist export predates the final .kicad_sch rewrite, and KiCad is not installed on this machine (WSL unreachable). This is the fallback evidence for that gap.",
+  "scope": "Drawing geometry of the editable schematics. It does not prove KiCad opens the files, does not qualify footprints, and is not a hardware result.",
+  "tolerance_mm": 0.02,
+  "selftest": {
+    "dropped_pin_is_caught": true
+  },
+  "checks": {
+    "01_receiver": {
+      "schematic": "01_receiver",
+      "symbols": 56,
+      "physical_pins": 121,
+      "wires": 140,
+      "junctions": 25,
+      "labels": 59,
+      "nets_compared": 25,
+      "unlabelled_clusters_matched": 0,
+      "all_nets_match": true,
+      "selftest_dropped_pin": {
+        "net": "0",
+        "pin": [
+          "CDBUF1",
+          "2"
+        ],
+        "caught": true,
+        "errors": [
+          "01_receiver net 0: unexpected pins on the drawn net: [('CDBUF1', '2')]"
+        ]
+      }
+    },
+    "02_lc_module": {
+      "schematic": "02_lc_module",
+      "symbols": 12,
+      "physical_pins": 24,
+      "wires": 37,
+      "junctions": 12,
+      "labels": 9,
+      "nets_compared": 4,
+      "unlabelled_clusters_matched": 0,
+      "all_nets_match": true
+    },
+    "09_model_and_test_boundaries": {
+      "schematic": "09_model_and_test_boundaries",
+      "symbols": 17,
+      "physical_pins": 34,
+      "wires": 40,
+      "junctions": 9,
+      "labels": 14,
+      "nets_compared": 10,
+      "unlabelled_clusters_matched": 0,
+      "all_nets_match": true
+    }
+  },
+  "errors": []
+}

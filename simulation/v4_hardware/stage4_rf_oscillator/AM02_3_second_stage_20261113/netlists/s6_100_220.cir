@@ -1,0 +1,31 @@
+* AM-02.3 stage S6 standalone
+VCCX vcc 0 DC 5
+VS in0 0 DC 0 AC 1
+* --- S6: CE + shunt-fed tank + capacitive tap + input L-match
+CM in0 0 2.2e-10
+LM in0 bi 1e-07
+RBT vcc bi 2200
+RBB2 bi 0 1100
+QA ca bi ea 2N3904
+RAX ea ex 5
+REA ex 0 39
+CEA ex 0 1e-09
+LTANK vcc ca 4.7e-07
+CT1 ca rl 1e-10
+CT2 rl 0 5.6e-11
+RLD rl 0 50
+CLD rl 0 1e-11
+.model 2N3904 NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++ Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++ Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++ Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-4 trtol=7 temp=27 tnom=27
+.control
+set num_threads=1
+set filetype=binary
+op
+ac dec 80 5meg 120meg
+write s6_100_220.raw
+quit
+.endc
+.end

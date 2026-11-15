@@ -1,0 +1,39 @@
+{
+  "design_only": true,
+  "measured_antenna_parameters": false,
+  "window_s": [
+    0.001890531035266445,
+    0.0019905407162059048
+  ],
+  "modulation_cycles": 2,
+  "carrier_Hz": 30979629.75155043,
+  "carrier_fit_success": true,
+  "total_time_weighted_rms_mA": 4.830754989854036,
+  "carrier_fundamental_rms_mA": 4.640940217333886,
+  "high_plateau_median_peak_mA": 8.489380118644194,
+  "low_plateau_median_peak_mA": 4.919791992838944,
+  "high_plateau_sine_equivalent_rms_mA": 6.0028982499635655,
+  "high_plateau_fundamental_rms_mA": 5.984527451895156,
+  "low_plateau_fundamental_rms_mA": 3.464938326011339,
+  "plateau_fundamental_rms_samples_mA": {
+    "high": [
+      5.984320252920635,
+      5.984734650869676
+    ],
+    "low": [
+      3.464825943837427,
+      3.4650507081852506
+    ]
+  },
+  "full_window_peak_mA": 8.519116068709058,
+  "modulation_index": 0.26620496001750776,
+  "minimum_QCE_VCE_V": 0.16706520382571263,
+  "minimum_QEF_VCE_V": 1.2920530535095098,
+  "rf_supply_average_mA": 22.27306882707831,
+  "baseband_supply_average_mA": 3.4782517156505013,
+  "simulated_supply_power_mW": 128.75660271364407,
+  "battery_budget_mW": 303.76188488455927,
+  "sense_resistor_power_mW": 0.23336193771999664,
+  "assumptions": "Nominal 8.913 pF, 2.9572 uH, 14.824 ohm antenna+coil+ground, 10 ohm sensing; 9 V battery, linear regulators, 8 mA regulator ground current.",
+  "metric_notes": "Carrier: time-weighted sine/cosine/DC least-squares fit. Plateau RMS is sine-equivalent of median RF peaks, not a spectral RMS. Stable window only; no startup verdict."
+}

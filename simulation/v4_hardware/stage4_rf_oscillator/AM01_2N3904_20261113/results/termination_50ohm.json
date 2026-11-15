@@ -1,0 +1,28 @@
+{
+  "point": {
+    "amp_vpp": 4.0,
+    "duty_pct": 50.0,
+    "load_ohm": 50.0,
+    "carrier": "31 MHz, 2 Vpp equivalent at TP2 interface"
+  },
+  "definitions": {
+    "carrier_vpp_high": "median carrier Vpp on the central 60% of the high envelope plateau",
+    "carrier_vpp_low": "median carrier Vpp on the central 60% of the low envelope plateau",
+    "mean_carrier_vpp": "2 * time average of the demodulated carrier peak envelope over one complete 20 kHz period",
+    "at_50pct_duty": "mean_carrier_vpp equals the arithmetic mean of high and low plateau Vpp"
+  },
+  "carrier_vpp_high": 0.0082724206032527,
+  "carrier_vpp_low": 0.0047812985319876065,
+  "mean_carrier_vpp": 0.006525155749639649,
+  "arithmetic_mean_high_low_vpp": 0.0065268595676201534,
+  "modulation_index": 0.2674427138423969,
+  "envelope_duty_pct": 49.94296768571715,
+  "q1_vce_high_v": 2.6264614724950066,
+  "q1_vce_low_v": 2.8394420472712993,
+  "q2_vce_high_v": 1.1676759867956994,
+  "q2_vce_low_v": 1.47547346409465,
+  "supply_power_mw": 4.27266040023341,
+  "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\netlists\\termination50_final_rbb62k_re1200_a4_d50_rl50.cir",
+  "netlist_sha256": "256e983985307f9d052d24f818d10458b74d799540bf277ff4e8918b478c1bb5",
+  "raw_sha256": "6ea65e12d29519cae332f4470b124011f9d105c88e2a8820a38b60d7cec1fdce"
+}

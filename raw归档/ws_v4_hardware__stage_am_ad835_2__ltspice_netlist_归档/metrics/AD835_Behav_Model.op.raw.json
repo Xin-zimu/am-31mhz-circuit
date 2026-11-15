@@ -1,0 +1,16 @@
+{
+ "meta": {
+  "file": "AD835_Behav_Model.op.raw",
+  "title": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage_am_ad835_2\\ltspice_netlist\\AD835_Behav_Model.net",
+  "date": "Sun Nov 15 01:34:00 2026",
+  "plotname": "Operating Point",
+  "flags": "real",
+  "n_points": 1,
+  "n_variables": 57,
+  "sha256": "F3D55A72BFC42D4E15503901A3435B45B939E9DCEA24B8EC999248478C77E368",
+  "size_bytes": 3476,
+  "is_ac": false,
+  "note": "LTspice 截断的操作点输出：数据段不完整，仅登记头部与哈希，未解析波形"
+ },
+ "variables": {}
+}

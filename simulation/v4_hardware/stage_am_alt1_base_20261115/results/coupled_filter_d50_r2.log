@@ -1,0 +1,15 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * c3 numerical-consistency run: c4_trap_0p125n_2k_rtol1e5
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  1.85000e-03 Reference value :  1.85566e-03 Reference value :  1.86105e-03 Reference value :  1.86567e-03 Reference value :  1.87044e-03 Reference value :  1.87526e-03 Reference value :  1.88073e-03 Reference value :  1.88635e-03 Reference value :  1.89207e-03 Reference value :  1.89847e-03 Reference value :  1.90477e-03 Reference value :  1.91097e-03 Reference value :  1.91691e-03 Reference value :  1.92290e-03 Reference value :  1.92860e-03 Reference value :  1.93465e-03 Reference value :  1.94082e-03 Reference value :  1.94724e-03 Reference value :  1.95353e-03 Reference value :  1.95981e-03 Reference value :  1.96610e-03 Reference value :  1.97254e-03 Reference value :  1.97883e-03 Reference value :  1.98504e-03 Reference value :  1.99128e-03 Reference value :  1.99769e-03
+No. of Data Rows : 364592
+binary raw file "coupled_filter_d50_r2.raw"
+ngspice-47 done

@@ -1,0 +1,27 @@
+{
+  "stage": "AM-02.2",
+  "date": "2026-11-13",
+  "decision": "recommend_A_for_AM-02.3_with_conditions",
+  "recommended_candidate": "A",
+  "recommended_topology": "2N3904 common emitter with unbypassed RE=100 ohm",
+  "recommended_reason": "Only high-gain candidate with positive-real input and acceptable AM-01 loading; lowest end-to-end gain requirement among stable positive-input candidates",
+  "not_recommended": {
+    "B": "17 ohm input collapses AM-01 output; system gain requirement 56.9 dB",
+    "C": "CE input still loads AM-01; 12.7 pF equivalent input capacitance",
+    "D": "High first-stage gain but 22.8 pF input and 5.14 dB loading penalty; system 35.45 dB",
+    "E": "3.44 pF and best raw system budget, but negative input resistance -176 ohm; not accepted without stabilization"
+  },
+  "am01_frozen": true,
+  "am01_modified": false,
+  "purchase": false,
+  "weld": false,
+  "required_second_stage_gain_db": 22.47,
+  "remaining_total_gain_from_loaded_am01_db": 32.06,
+  "caveats": [
+    "AM-01 output loading measured with the optimized AM-01 model, not the physical board",
+    "2N3904 educational model is not the delivered transistor lot",
+    "A still has 8 pF equivalent input capacitance and 1.75 dB loading penalty",
+    "C/D/E negative-real input terms require physical verification or stabilization",
+    "No alternate transistor was accepted without a validated model and package/availability check"
+  ]
+}

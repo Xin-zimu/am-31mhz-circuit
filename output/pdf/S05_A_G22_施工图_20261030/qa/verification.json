@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "checks": {
+    "01_receiver": {
+      "components": 56,
+      "physical_pins": 121,
+      "nets_including_NC": 28,
+      "all_pins_and_values_equal": true
+    },
+    "02_lc_module": {
+      "components": 13,
+      "physical_pins": 26,
+      "nets_including_NC": 5,
+      "all_pins_and_values_equal": true
+    },
+    "source_transformations": {
+      "retained_source_elements": 44,
+      "supply_9V": true,
+      "gain_22": true,
+      "CT_plus_board_budget_checked": true,
+      "diode_macro_to_physical_pin_reversal_checked": true,
+      "explicit_model_and_fixture_exclusions": [
+        "VMOD",
+        "BSIG",
+        "RSOURCE",
+        "VSUP",
+        "RLOSS1/2",
+        "RCT1/2",
+        "CSELF1/2",
+        "RLOAD",
+        "RBBLOAD",
+        "CLOAD"
+      ]
+    },
+    "09_model_and_test_boundaries": {
+      "components": 18,
+      "physical_pins": 36,
+      "nets_including_NC": 11,
+      "all_pins_and_values_equal": true
+    },
+    "board_LC": {
+      "parts": 13,
+      "wires": 22,
+      "pin_pad_conflicts": 0,
+      "point_to_point_graph_checked": true,
+      "mechanical_and_RF_qualification": "NOT VERIFIED"
+    },
+    "board_RF": {
+      "parts": 32,
+      "wires": 86,
+      "pin_pad_conflicts": 0,
+      "point_to_point_graph_checked": true,
+      "mechanical_and_RF_qualification": "NOT VERIFIED"
+    },
+    "board_BB": {
+      "parts": 13,
+      "wires": 28,
+      "pin_pad_conflicts": 0,
+      "point_to_point_graph_checked": true,
+      "mechanical_and_RF_qualification": "NOT VERIFIED"
+    },
+    "inter_board": {
+      "conductors_checked": 6,
+      "global_net_partitions_checked": 25
+    },
+    "history": {
+      "files": 2002,
+      "unreviewed_changes": [],
+      "reviewed_external_append_only_updates": [
+        "simulation\\v4_hardware\\stage5_receiver\\S05_10_补充_现有仪器与阻抗设置.md"
+      ]
+    },
+    "T_sq50_six_raw_hash": true,
+    "T_sq10_six_raw_hash": true
+  },
+  "errors": [],
+  "scope": "Connectivity, values, mapping, hole/wire graph, source hashes. NOT hardware validation or RF layout qualification. No simulation run."
+}

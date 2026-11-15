@@ -1,0 +1,30 @@
+{
+  "baseline_10k_100": {
+    "params": {
+      "rbb": 82000.0,
+      "re": 470.0,
+      "rin": 10000.0,
+      "rsh": 100.0,
+      "cin": 1e-10
+    },
+    "magnitude_ohm": 10064.7,
+    "phase_deg": -0.00305356,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\netlists\\interface_baseline_10k_100.cir",
+    "log": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\results\\logs\\interface_baseline_10k_100.log",
+    "netlist_sha256": "cc3c4e99e2bf5d15b325469b449aca00c876d15891d96bb960cd4ecfe20588fe"
+  },
+  "final_2k2_10": {
+    "params": {
+      "rbb": 62000.0,
+      "re": 1200.0,
+      "rin": 2200.0,
+      "rsh": 10.0,
+      "cin": 1e-09
+    },
+    "magnitude_ohm": 2209.744,
+    "phase_deg": -0.000173708,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\netlists\\interface_final_2k2_10.cir",
+    "log": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\results\\logs\\interface_final_2k2_10.log",
+    "netlist_sha256": "f11149e0ccc44d1beb4684eb8269a24575dff6b70b096b921089f8fd9d4ea7ff"
+  }
+}

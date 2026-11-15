@@ -1,0 +1,29 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-01 two-2n3904 modulator, rbb=36000, re=390, rl=2000
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+v(b1) = 2.457291e+00
+v(c1) = 3.823661e+00
+v(x) = 1.787688e+00
+v(b2) = 1.135528e+00
+v(e2) = 4.654841e-01
+@q1[ic] = 1.176339e-03
+@q2[ic] = 1.184881e-03
+@q1[ib] = 8.541889e-06
+@q2[ib] = 8.668335e-06
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+
+No. of Data Rows : 100030
+binary raw file "D:/实验报告文件夹/电路2/simulation/v4_hardware/stage4_rf_oscillator/AM01_2N3904_20261113/results/raw/re390_a2_shoot0_rbb36k_re390_a2_d10_rl2000.raw"
+ngspice-47 done

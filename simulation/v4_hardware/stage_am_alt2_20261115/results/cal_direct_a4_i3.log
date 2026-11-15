@@ -1,0 +1,15 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * alt2 baseband and dc transistor load; no rf or wireless claim
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  1.20001e-03
+No. of Data Rows : 16842
+binary raw file "cal_direct_a4_i3.raw"
+ngspice-47 done

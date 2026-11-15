@@ -1,0 +1,9 @@
+{
+  "source": "D:\\\u5b9e\u9a8c\u62a5\u544a\u6587\u4ef6\u5939\\\u7535\u8def2\\simulation\\v4_hardware\\repair_20261011\\final_actual.cir",
+  "low_v": 0.07481749472072069,
+  "high_v": 4.074818298667456,
+  "raw_vpp": 4.000009083458354,
+  "mean_supply_ma": 3.4485502100090915,
+  "rail_power_mw": 17.24275105004546,
+  "status": "original LM393 front end, isolated, nominal amplitude/duty only"
+}

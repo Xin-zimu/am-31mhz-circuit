@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "S05")(type "KiCad")(uri "${KIPRJMOD}/S05.kicad_sym")(options "")(descr "S05 receiver symbols extracted from the delivered schematics"))
+)

@@ -1,0 +1,127 @@
+{
+  "design_only": true,
+  "bench_measurement_performed": false,
+  "status": "已执行、勘误完成、待技术闭合",
+  "driver_previous_simulation": {
+    "i_ant_rms_mA": 6.249898162776399,
+    "i_peak_high_mA": 10.875606744339024,
+    "i_peak_low_mA": 6.877042649303093,
+    "m_plateau": 0.22523759729451787,
+    "f_envelope_Hz": 19999.870823084108,
+    "duty_envelope_pct": 48.60094705122686,
+    "i_rf_mA": 22.822456813265646,
+    "i_lm393_mA": 3.476768020577762,
+    "n_cycles": 4646,
+    "c_scale": 1.0,
+    "c_pf": 8.913,
+    "p_bat_budget_mW": 308.6930235045907
+  },
+  "coverage_ratio": [
+    1.1792260684483773,
+    1.6666395100737066
+  ],
+  "sense_impedance_ohm": {
+    "real": 9.99029710138259,
+    "imag": -0.31134360429035884,
+    "magnitude": 9.995147373291996
+  },
+  "capacitor_error_corners": [
+    {
+      "cap_tolerance_pct": 0.25,
+      "frequency_bound_pct": 0.1,
+      "L_error_min_pct": -1.2092030851716062,
+      "L_error_max_pct": 1.2108030881715859
+    },
+    {
+      "cap_tolerance_pct": 1.0,
+      "frequency_bound_pct": 0.1,
+      "L_error_min_pct": -3.207709082181631,
+      "L_error_max_pct": 3.2123090911815977
+    }
+  ],
+  "matching": [
+    {
+      "C_pF": 6,
+      "L_uH": 4.3930447295498505,
+      "coil_Q_assumed": 30,
+      "R_without_sense_ohm": 33.746391235106685,
+      "V_required_without_sense_mV_rms": 178.85587354606542,
+      "V_required_with_sense_mV_rms": 231.85587354606542,
+      "bandwidth_with_sense_kHz": 1584.881292163084
+    },
+    {
+      "C_pF": 6,
+      "L_uH": 4.3930447295498505,
+      "coil_Q_assumed": 60,
+      "R_without_sense_ohm": 19.485195617553345,
+      "V_required_without_sense_mV_rms": 103.27153677303272,
+      "V_required_with_sense_mV_rms": 156.27153677303272,
+      "bandwidth_with_sense_kHz": 1068.2146254964175
+    },
+    {
+      "C_pF": 6,
+      "L_uH": 4.3930447295498505,
+      "coil_Q_assumed": 100,
+      "R_without_sense_ohm": 13.780717370532006,
+      "V_required_without_sense_mV_rms": 73.03780206381963,
+      "V_required_with_sense_mV_rms": 126.03780206381963,
+      "bandwidth_with_sense_kHz": 861.5479588297508
+    },
+    {
+      "C_pF": 8.913,
+      "L_uH": 2.9572835607875136,
+      "coil_Q_assumed": 30,
+      "R_without_sense_ohm": 24.424532638913963,
+      "V_required_without_sense_mV_rms": 129.450022986244,
+      "V_required_with_sense_mV_rms": 182.45002298624397,
+      "bandwidth_with_sense_kHz": 1852.6578261749278
+    },
+    {
+      "C_pF": 8.913,
+      "L_uH": 2.9572835607875136,
+      "coil_Q_assumed": 60,
+      "R_without_sense_ohm": 14.824266319456981,
+      "V_required_without_sense_mV_rms": 78.568611493122,
+      "V_required_with_sense_mV_rms": 131.568611493122,
+      "bandwidth_with_sense_kHz": 1335.9911595082613
+    },
+    {
+      "C_pF": 8.913,
+      "L_uH": 2.9572835607875136,
+      "coil_Q_assumed": 100,
+      "R_without_sense_ohm": 10.98415979167419,
+      "V_required_without_sense_mV_rms": 58.2160468958732,
+      "V_required_with_sense_mV_rms": 111.21604689587319,
+      "bandwidth_with_sense_kHz": 1129.3244928415945
+    },
+    {
+      "C_pF": 12,
+      "L_uH": 2.1965223647749252,
+      "coil_Q_assumed": 30,
+      "R_without_sense_ohm": 19.485195617553345,
+      "V_required_without_sense_mV_rms": 103.27153677303272,
+      "V_required_with_sense_mV_rms": 156.27153677303272,
+      "bandwidth_with_sense_kHz": 2136.429250992835
+    },
+    {
+      "C_pF": 12,
+      "L_uH": 2.1965223647749252,
+      "coil_Q_assumed": 60,
+      "R_without_sense_ohm": 12.35459780877667,
+      "V_required_without_sense_mV_rms": 65.47936838651636,
+      "V_required_with_sense_mV_rms": 118.47936838651636,
+      "bandwidth_with_sense_kHz": 1619.762584326168
+    },
+    {
+      "C_pF": 12,
+      "L_uH": 2.1965223647749252,
+      "coil_Q_assumed": 100,
+      "R_without_sense_ohm": 9.502358685266003,
+      "V_required_without_sense_mV_rms": 50.362501031909815,
+      "V_required_with_sense_mV_rms": 103.36250103190982,
+      "bandwidth_with_sense_kHz": 1413.0959176595015
+    }
+  ],
+  "fixed_voltage_sense_estimate_mA": 3.6265359386425846,
+  "caveat": "Fixed-voltage estimate excludes driver output impedance and nonlinear load response; not a transistor simulation."
+}

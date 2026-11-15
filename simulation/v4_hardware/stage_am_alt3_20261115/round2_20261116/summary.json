@@ -1,0 +1,36 @@
+{
+  "completed_simulation_cases": 12,
+  "frozen_files_unchanged": true,
+  "convergence": {
+    "step_ns": [
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.05
+    ],
+    "frequency_Hz": [
+      30979629.75155043,
+      30992712.29634278,
+      30997259.191183355,
+      30998406.327489194,
+      30998545.11870618
+    ],
+    "successive_difference_Hz": [
+      13082.544792350382,
+      4546.894840575755,
+      1147.1363058388233,
+      138.7912169881165
+    ],
+    "observed_order": 1.986844811718996,
+    "predicted_0p05_Hz": 30998544.942020763,
+    "prediction_error_Hz": 0.17668541893363,
+    "extrapolated_zero_step_Hz": 30998793.39077346,
+    "estimated_finest_residual_Hz": 248.27206727862358,
+    "criterion": "Engineering numerical target: estimated frequency residual <1 kHz, last difference <1 kHz, observed order approximately 2. Not a course frequency tolerance.",
+    "passed": true
+  },
+  "hardware_changed": false,
+  "antenna_measured": false,
+  "stage_status": "已执行、勘误完成、待技术闭合"
+}

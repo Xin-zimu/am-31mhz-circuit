@@ -1,0 +1,68 @@
+[
+  {
+    "name": "c_lowC_loss",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 156.70506525039673
+  },
+  {
+    "name": "c_highC_lowLoss",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 151.54057264328003
+  },
+  {
+    "name": "d125",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 311.5597176551819
+  },
+  {
+    "name": "c_det_minus3",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 124.21061682701111
+  },
+  {
+    "name": "c_det_plus3",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 125.7958595752716
+  },
+  {
+    "name": "d0625",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 532.3197543621063
+  },
+  {
+    "name": "c_device_fast",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 145.42198872566223
+  },
+  {
+    "name": "c_device_slow",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 163.49402475357056
+  },
+  {
+    "name": "c_supply_low",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 149.9972939491272
+  },
+  {
+    "name": "c_supply_high",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 134.31414818763733
+  },
+  {
+    "name": "e_adverse",
+    "status": "complete",
+    "returncode": 0,
+    "seconds": 138.9679217338562
+  }
+]

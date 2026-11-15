@@ -1,0 +1,57 @@
+﻿图纸位号,原用名,数值,数量,类型,原网表位号,引脚与节点,封装与资格,说明
+CSEL1,CSEL,15p,1,RX,CSEL,1=input; 2=tank1,轴向/径向尺寸待实购核实,原整链网表
+CK1,CK,2.4p,1,RX,CK,1=tank1; 2=tank2,轴向/径向尺寸待实购核实,原整链网表
+COUT1,COUT,11p,1,RX,COUT,1=tank2; 2=port,轴向/径向尺寸待实购核实,原整链网表
+RPORT1,RPORT,1Meg,1,RX,RPORT,1=port; 2=0,轴向/径向尺寸待实购核实,原整链网表
+LSEL1,LSEL1,460n,1,RX,LSEL1,1=tank1; 2=0,Coilcraft 132-17L；落点9.16mm与手册3.96mm相差5.20mm，落孔方案待实物确认,RLOSS/CSELF并入实物线圈；端子编号为图纸自定义；安装方式未定
+LSEL2,LSEL2,460n,1,RX,LSEL2,1=tank2; 2=0,Coilcraft 132-17L；落点9.16mm与手册3.96mm相差5.20mm，落孔方案待实物确认,RLOSS/CSELF并入实物线圈；端子编号为图纸自定义；安装方式未定
+CIN1,CIN1,1n,1,RX,CIN1,1=port; 2=b1,轴向/径向尺寸待实购核实,原整链网表
+RBT1,RBT1,22k,1,RX,RBT1,1=vcc; 2=b1,轴向/径向尺寸待实购核实,原整链网表
+RBB1,RBB1,4.7k,1,RX,RBB1,1=b1; 2=0,轴向/径向尺寸待实购核实,原整链网表
+Q1,Q1,2N3904,1,RX,Q1,3=c1; 2=b1; 1=e1,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实,原整链网表
+RC1,RC1,1000,1,RX,RC1,1=vcc; 2=c1,轴向/径向尺寸待实购核实,原整链网表
+REU1,REU1,33,1,RX,REU1,1=e1; 2=eb1,轴向/径向尺寸待实购核实,原整链网表
+REB1,REB1,220,1,RX,REB1,1=eb1; 2=0,轴向/径向尺寸待实购核实,原整链网表
+CEB1,CEB1,330p,1,RX,CEB1,1=eb1; 2=0,轴向/径向尺寸待实购核实,原整链网表
+CIN2,CIN2,100p,1,RX,CIN2,1=c1; 2=b2,轴向/径向尺寸待实购核实,原整链网表
+RBT2,RBT2,22k,1,RX,RBT2,1=vcc; 2=b2,轴向/径向尺寸待实购核实,原整链网表
+RBB2,RBB2,4.7k,1,RX,RBB2,1=b2; 2=0,轴向/径向尺寸待实购核实,原整链网表
+Q2,Q2,2N3904,1,RX,Q2,3=c2; 2=b2; 1=e2,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实,原整链网表
+RC2,RC2,1000,1,RX,RC2,1=vcc; 2=c2,轴向/径向尺寸待实购核实,原整链网表
+REU2,REU2,33,1,RX,REU2,1=e2; 2=eb2,轴向/径向尺寸待实购核实,原整链网表
+REB2,REB2,220,1,RX,REB2,1=eb2; 2=0,轴向/径向尺寸待实购核实,原整链网表
+CEB2,CEB2,330p,1,RX,CEB2,1=eb2; 2=0,轴向/径向尺寸待实购核实,原整链网表
+CBUF1,CBUF,100p,1,RX,CBUF,1=c2; 2=bb,轴向/径向尺寸待实购核实,原整链网表
+RBTB1,RBTB,10k,1,RX,RBTB,1=vcc; 2=bb,轴向/径向尺寸待实购核实,原整链网表
+RBBB1,RBBB,10k,1,RX,RBBB,1=bb; 2=0,轴向/径向尺寸待实购核实,原整链网表
+QBUF1,QBUF,2N3904,1,RX,QBUF,3=vcc; 2=bb; 1=ee,onsemi 2N3904 TO-92 条件映射；实购厂牌待核实,原整链网表
+REBUF1,REBUF,470,1,RX,REBUF,1=ee; 2=0,轴向/径向尺寸待实购核实,原整链网表
+COBUF1,COBUF,1n,1,RX,COBUF,1=ee; 2=rf,轴向/径向尺寸待实购核实,原整链网表
+RRF1,RRF,1000,1,RX,RRF,1=rf; 2=0,轴向/径向尺寸待实购核实,原整链网表
+RCONNECT1,RCONNECT,wire / model 0.1R,1,RX,RCONNECT,1=rf; 2=an,轴向/径向尺寸待实购核实,0.1Ω是连接等效；用短连线实现，不作为独立电阻采购
+DDET1,DDET,BAT85,1,RX,XDET,2=an; 1=det,Nexperia BAT85 SOD68/DO-34；采购待确认,XDET参数1=A/物理2；参数2=K/物理1；色环接det
+RDET1,RDET,4700,1,RX,RDET,1=det; 2=0,轴向/径向尺寸待实购核实,原整链网表
+CDET1,CDET,100p,1,RX,CDET,1=det; 2=0,轴向/径向尺寸待实购核实,原整链网表
+RFILT1,RFILT,4700,1,RX,RFILT,1=det; 2=out,轴向/径向尺寸待实购核实,原整链网表
+CFILT1,CFILT,100p,1,RX,CFILT,1=out; 2=0,轴向/径向尺寸待实购核实,原整链网表
+RVT1,RVT,20k,1,RX,RVT,1=vcc; 2=ref,轴向/径向尺寸待实购核实,原整链网表
+RVB1,RVB,10k,1,RX,RVB,1=ref; 2=0,轴向/径向尺寸待实购核实,原整链网表
+CVREF1,CVREF,10u,1,RX,CVREF,1=ref; 2=0,轴向/径向尺寸待实购核实,10u ≥16V；正极ref，负极GND；ref不是GND
+CCOUP1,CCOUP,100n,1,RX,CCOUP,1=out; 2=bbin,轴向/径向尺寸待实购核实,100n无极性；连接out与bbin，不能短接
+RBIAS1,RBIAS,100k,1,RX,RBIAS,1=bbin; 2=ref,轴向/径向尺寸待实购核实,原整链网表
+RG1,RG,10k,1,RX,RG,1=neg; 2=ref,轴向/径向尺寸待实购核实,原整链网表
+RFB1,RFB,210000,1,RX,RFB,1=bbo; 2=neg,轴向/径向尺寸待实购核实,210k 1%；可采购210k单件，未擅自改为其他增益
+U1,U1,OPAx197,1,RX,XOPA,3=bbin; 2=neg; 7=vcc; 4=0; 6=bbo; 1=NC; 5=NC; 8=NC,TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板,不得套用SOT-23-5引脚；转接板映射待通断核实
+ROUT1,ROUT,100,1,RX,ROUT,1=bbo; 2=final,轴向/径向尺寸待实购核实,原整链网表
+CFIX1,CFIX1,30p,1,RX,CTUNE1,1=tank1; 2=0,C0G/NP0 ≥50V ±2%,固定段+微调；微调模型起点 10.609801788p；另含1pF布局寄生，实物按加载调谐
+CT1,CT1,2-18p,1,RX,CTUNE1,1=tank1; 2=0,Vishay BFC280905217；图纸1=S定片/2=R动片；孔距5.08mm；孔径待实物（手册矛盾）,固定段+微调；微调模型起点 10.609801788p；另含1pF布局寄生，实物按加载调谐
+CFIX2,CFIX2,39p,1,RX,CTUNE2,1=tank2; 2=0,C0G/NP0 ≥50V ±2%,固定段+微调；微调模型起点 7.1490753446p；另含1pF布局寄生，实物按加载调谐
+CT2,CT2,2-18p,1,RX,CTUNE2,1=tank2; 2=0,Vishay BFC280905217；图纸1=S定片/2=R动片；孔距5.08mm；孔径待实物（手册矛盾）,固定段+微调；微调模型起点 7.1490753446p；另含1pF布局寄生，实物按加载调谐
+CDQ1,CDQ1,100n,1,DECOUPLING,S05-10 实物配套,1=vcc; 2=0,≥16V；CPWR正极接vcc；100n紧靠有源器件,新增电源去耦；不在原整链模型内，未声称仿真覆盖
+CDQ2,CDQ2,100n,1,DECOUPLING,S05-10 实物配套,1=vcc; 2=0,≥16V；CPWR正极接vcc；100n紧靠有源器件,新增电源去耦；不在原整链模型内，未声称仿真覆盖
+CDBUF1,CDBUF,100n,1,DECOUPLING,S05-10 实物配套,1=vcc; 2=0,≥16V；CPWR正极接vcc；100n紧靠有源器件,新增电源去耦；不在原整链模型内，未声称仿真覆盖
+CDU1,CDU1,100n,1,DECOUPLING,S05-10 实物配套,1=vcc; 2=0,≥16V；CPWR正极接vcc；100n紧靠有源器件,新增电源去耦；不在原整链模型内，未声称仿真覆盖
+CPWR1,CPWR,10u,1,DECOUPLING,S05-10 实物配套,1=vcc; 2=0,≥16V；CPWR正极接vcc；100n紧靠有源器件,新增电源去耦；不在原整链模型内，未声称仿真覆盖
+JRF1,JRF,RF IN,1,INTERFACE,接口,1=input; 2=0,具体接头待核实，图纸编号1=信号/正，2=地,焊盘/短接线接口，RF口用短同轴与相邻地
+JPOWER1,JPOWER,9 V,1,INTERFACE,接口,1=vcc; 2=0,具体接头待核实，图纸编号1=信号/正，2=地,焊盘/短接线接口，RF口用短同轴与相邻地
+JOUT1,JOUT,BASEBAND,1,INTERFACE,接口,1=final; 2=0,具体接头待核实，图纸编号1=信号/正，2=地,焊盘/短接线接口，RF口用短同轴与相邻地

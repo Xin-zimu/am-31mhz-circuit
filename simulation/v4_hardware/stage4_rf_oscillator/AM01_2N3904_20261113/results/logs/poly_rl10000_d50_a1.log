@@ -1,0 +1,24 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * original poly(3) modulation law: vam=vc*(0.6+0.1*v1)
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+mod                                          0
+out                                          0
+bam#branch                                   0
+vmod#branch                                  0
+
+ Reference value :  8.33876e-05
+No. of Data Rows : 266018
+binary raw file "D:/实验报告文件夹/电路2/simulation/v4_hardware/stage4_rf_oscillator/AM01_2N3904_20261113/results/raw/poly_rl10000_d50_a1.raw"
+ngspice-47 done

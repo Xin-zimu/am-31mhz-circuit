@@ -1,0 +1,97 @@
+{
+ "variables": {
+  "time": {
+   "min": 5.44610219846404e-310,
+   "max": 1.7758025437315941e+308,
+   "mean": Infinity,
+   "n": 75265,
+   "first_min": 1.783166110669154e-309,
+   "first_max": 1.1349129979740482e+308,
+   "first_mean": Infinity,
+   "mid_min": 5.79217718491466e-309,
+   "mid_max": 1.0903640181748448e+308,
+   "mid_mean": Infinity,
+   "last_min": 1.234620361843878e-308,
+   "last_max": 2.764312941006915e+307,
+   "last_mean": 1.7397983678961992e+304
+  },
+  "V(carrier_buf)": {
+   "min": 1.544109073447635e-309,
+   "max": 1.736302403768114e+308,
+   "mean": Infinity,
+   "n": 75264,
+   "first_min": 2.054737874690126e-309,
+   "first_max": 1.5969545046030057e+308,
+   "first_mean": Infinity,
+   "mid_min": 2.867306365069671e-308,
+   "mid_max": 6.804160835329518e+307,
+   "mid_mean": Infinity,
+   "last_min": 1.9402773481264177e-308,
+   "last_max": 7.184338176101566e+307,
+   "last_mean": 3.4383897204415e+304
+  },
+  "V(osc_c)": {
+   "min": 3.391140254340354e-309,
+   "max": 1.7930267887328356e+308,
+   "mean": Infinity,
+   "n": 75264,
+   "first_min": 1.735758605372047e-308,
+   "first_max": 1.4160210185489223e+308,
+   "first_mean": Infinity,
+   "mid_min": 1.107504300395966e-308,
+   "mid_max": 1.7930267887328356e+308,
+   "mid_mean": Infinity,
+   "last_min": 9.678940137580346e-309,
+   "last_max": 1.017639774140223e+307,
+   "last_mean": 4.63584701127021e+303
+  },
+  "V(vcc_osc)": {
+   "min": 1.11762018370766e-309,
+   "max": 1.7545163821114623e+308,
+   "mean": Infinity,
+   "n": 75258,
+   "first_min": 8.49202984118133e-309,
+   "first_max": 1.6060615509205793e+308,
+   "first_mean": Infinity,
+   "mid_min": 1.085231801984991e-308,
+   "mid_max": 1.4386232037194037e+308,
+   "mid_mean": Infinity,
+   "last_min": 1.1210851095123825e-308,
+   "last_max": 1.148587575095771e+307,
+   "last_mean": 7.401485912628984e+303
+  },
+  "I(VTX)": {
+   "min": 1.829252968134244e-309,
+   "max": 1.7630765489751683e+308,
+   "mean": Infinity,
+   "n": 75259,
+   "first_min": 4.40692898375066e-309,
+   "first_max": 1.605514636903064e+308,
+   "first_mean": Infinity,
+   "mid_min": 1.938647628107655e-308,
+   "mid_max": 1.314968168902113e+308,
+   "mid_mean": Infinity,
+   "last_min": 2.362910961930273e-308,
+   "last_max": 1.5944695105972582e+307,
+   "last_mean": 5.557109434481141e+303
+  }
+ },
+ "meta": {
+  "file": "osc_candidate_40.raw",
+  "title": "D:\\实验报告文件夹\\电路2\\simulation\\rf\\osc_candidate_40.cir",
+  "date": "Thu Sep 17 13:45:32 2026",
+  "plotname": "Transient Analysis",
+  "flags": "real forward nocompression",
+  "n_points": 125475,
+  "n_variables": 5,
+  "sha256": "8ADAADF5CE35C905CD467CEAED0B41F770CDAF037F4BA80892D2AB58D6D4F692",
+  "size_bytes": 3012198,
+  "x_min": 82415920616989.5,
+  "x_max": 6.130907014662561e+135,
+  "is_ac": false
+ },
+ "plot_vars": [
+  "V(carrier_buf)",
+  "V(osc_c)"
+ ]
+}

@@ -1,0 +1,364 @@
+# -*- coding: utf-8 -*-
+"""AM-02.3 shared library: frozen AM-01 front end + candidate 31 MHz second stage.
+
+The AM-01 front end is not re-typed here. It is extracted verbatim from the
+frozen delivered netlist, so a second-stage experiment can never drift away
+from the frozen modulator. Only two things are changed:
+  * the front-end load resistor RL is dropped (the second stage is the load);
+  * VMOD is re-emitted with the swept amplitude/duty.
+Everything else (bias, CBB/RBB, COUT, CL) is the frozen text.
+
+Two-pass start-up:
+  pass 1  .op  -> every node voltage of the cascade (the second stage is a DC
+                  network, so its OP is the correct steady state);
+  pass 2  .ic built from those OP values, with v(b2ac) overridden by the
+                  modulation-coupling capacitor solution, and uic transient.
+The 100 nF coupling capacitor is still solved by the same periodic condition
+used in AM-01: the time average of v(b2ac)-v(b2) over one 20 kHz period is 0.
+"""
+from pathlib import Path
+import json
+import re
+import subprocess
+import sys
+import time
+
+import numpy as np
+
+ROOT = Path(__file__).resolve().parents[1]
+AM01_DIR = ROOT.parent / "AM01_2N3904_20261113"
+AM022_DIR = ROOT.parent / "AM02_2_first_stage_20261113"
+FROZEN_CIR = AM01_DIR / "AM01_optimized_verified_4v50.cir"
+
+RESULTS = ROOT / "results"
+NETLISTS = ROOT / "netlists"
+RAWS = RESULTS / "raw"
+LOGS = RESULTS / "logs"
+for _d in (RESULTS, NETLISTS, RAWS, LOGS):
+    _d.mkdir(parents=True, exist_ok=True)
+
+sys.path.insert(0, str(AM01_DIR / "scripts"))
+import am01_lib as L  # noqa: E402
+
+# keep am01_lib from writing anything into the frozen AM-01 folders
+L.RESULTS = RESULTS
+L.NETLISTS = NETLISTS
+L.RAWS = RAWS
+L.LOGS = LOGS
+
+EXE = L.EXE
+FC = L.FC
+FM = L.FM
+PERIOD = L.PERIOD
+MODEL = L.MODEL
+read_raw = L.read_raw
+demodulate = L.demodulate
+time_mean = L.time_mean
+sha256 = L.sha256
+_median_plateau = L._median_plateau
+_harmonic_fit = L._harmonic_fit
+
+AM01_P = {
+    "rbb": 62e3, "re": 1200.0, "rb2t": 22e3, "rb2b": 6.8e3, "rc": 1e3,
+    "rb1t": 10e3, "rb1b": 10e3, "rin": 2200.0, "rsh": 10.0, "cin": 1e-9,
+    "cbb": 100e-9, "ce1": 1e-9, "cb2": 47e-12, "cout": 100e-12, "cload": 10e-12,
+}
+VCAP_REF = -0.840936627907
+
+
+def frozen_frontend():
+    """Element lines VSUP..COUT of the frozen netlist, minus VMOD and RL."""
+    text = FROZEN_CIR.read_text(encoding="utf-8")
+    lines, started = [], False
+    for raw in text.splitlines():
+        s = raw.strip()
+        if s.startswith("VSUP "):
+            started = True
+        if not started:
+            continue
+        if not s or s.startswith("*"):
+            continue
+        if s.startswith("VMOD "):
+            continue          # re-emitted with the swept amplitude/duty
+        lines.append(s)
+        if s.startswith("COUT "):
+            break
+    if not lines or not lines[-1].startswith("COUT "):
+        raise RuntimeError("frozen front end not extracted")
+    return "\n".join(lines)
+
+
+FRONTEND = frozen_frontend()
+
+
+def stage_s1(p):
+    """S1: CE with RFC collector load, followed by an emitter follower."""
+    return f"""* --- AM-02.3 stage S1: CE + RFC + emitter follower (broadband, untuned)
+CIN2 out ba {p['cin2']:.6g}
+RBAT vcc ba {p['rbat']:.6g}
+RBAB ba 0 {p['rbab']:.6g}
+QA ca ba ea 2N3904
+REA ea 0 {p['rea']:.6g}
+LRFC vcc ca {p['lrfc']:.6g}
+QB vcc ca eb 2N3904
+REB eb 0 {p['reb']:.6g}
+COUT2 eb rl {p['cout2']:.6g}
+RLD rl 0 {p['rload']:.6g}
+CLD rl 0 {p['cload']:.6g}"""
+
+
+def stage_s2(p):
+    """S2: CE with shunt-fed parallel tank and capacitive divider tap to 50 ohm."""
+    return f"""* --- AM-02.3 stage S2: CE + shunt-fed tank + capacitive divider tap
+CIN2 out ba {p['cin2']:.6g}
+RBAT vcc ba {p['rbat']:.6g}
+RBAB ba 0 {p['rbab']:.6g}
+QA ca ba ea 2N3904
+REA ea 0 {p['rea']:.6g}
+CEA ea 0 {p['cea']:.6g}
+LTANK vcc ca {p['ltank']:.6g}
+CT1 ca rl {p['ct1']:.6g}
+CT2 rl 0 {p['ct2']:.6g}
+RLD rl 0 {p['rload']:.6g}
+CLD rl 0 {p['cload']:.6g}"""
+
+
+def stage_s3(p):
+    """S3: CE + RFC feed + L-match (shunt C at collector, series L, DC block)."""
+    return f"""* --- AM-02.3 stage S3: CE + RFC feed + L-match to 50 ohm
+CIN2 out ba {p['cin2']:.6g}
+RBAT vcc ba {p['rbat']:.6g}
+RBAB ba 0 {p['rbab']:.6g}
+QA ca ba ea 2N3904
+REA ea 0 {p['rea']:.6g}
+CEA ea 0 {p['cea']:.6g}
+LRFC vcc ca {p['lrfc']:.6g}
+CM1 ca 0 {p['cm1']:.6g}
+LM1 ca rm {p['lm1']:.6g}
+CB1 rm rl {p['cb1']:.6g}
+RLD rl 0 {p['rload']:.6g}
+CLD rl 0 {p['cload']:.6g}"""
+
+
+STAGES = {"S1": stage_s1, "S2": stage_s2, "S3": stage_s3}
+STAGE_NODES = {
+    "S1": ["ba", "ea", "ca", "eb", "rl"],
+    "S2": ["ba", "ea", "ca", "rl"],
+    "S3": ["ba", "ea", "ca", "rm", "rl"],
+}
+
+
+def default_stage(topology):
+    if topology == "S1":
+        return {"cin2": 100e-9, "rbat": 22e3, "rbab": 4.7e3, "rea": 10.0,
+                "lrfc": 2.2e-6, "reb": 180.0, "cout2": 100e-9,
+                "rload": 50.0, "cload": 10e-12}
+    if topology == "S2":
+        return {"cin2": 100e-9, "rbat": 22e3, "rbab": 3.3e3, "rea": 12.0,
+                "cea": 1e-9, "ltank": 2.2e-6, "ct1": 24e-12, "ct2": 24e-12,
+                "rload": 50.0, "cload": 10e-12}
+    return {"cin2": 100e-9, "rbat": 22e3, "rbab": 3.3e3, "rea": 12.0,
+            "cea": 1e-9, "lrfc": 2.2e-6, "cm1": 33e-12, "lm1": 0.56e-6,
+            "cb1": 100e-9, "rload": 50.0, "cload": 10e-12}
+
+
+def stage_info(topology, p):
+    """Bias-only .op card used to size the stage before any transient."""
+    return f"""VCCX vcc 0 DC 5
+{STAGES[topology](p)}
+VINX in0 0 DC 0 AC 1
+CINX in0 ba {p['cin2']:.6g}
+{MODEL}
+.options method=trap maxord=2 reltol=1e-4
+.control
+set num_threads=1
+op
+print v(ba) v(ea) v(ca) @qa[ic] @qa[ib] i(vccx)
+ac dec 40 1meg 200meg
+wrdata {topology}_ac.txt frequency db(v(rl)) ph(v(rl)) v(ba)
+quit
+.endc
+.end
+"""
+
+
+def _ic_all(state):
+    order = ["vcc", "src", "rfatt", "b1", "c1", "x", "b2", "e2", "mod",
+             "b2ac", "out", "ba", "ea", "ca", "eb", "rm", "rl"]
+    parts = [f"v({n})={state[n]:.10g}" for n in order if n in state]
+    for n in sorted(state):
+        if n not in order:
+            parts.append(f"v({n})={state[n]:.10g}")
+    head, out = parts[:6], []
+    for i in range(0, len(parts), 6):
+        chunk = parts[i:i + 6]
+        out.append(("" if i == 0 else "+ ") + " ".join(chunk))
+    return ".ic " + "\n".join(out)
+
+
+def build(topology, stage=None, amp=4.0, duty=0.5, state=None, stop_us=130.0,
+          tmax_ns=0.5, mode="tran", raw_name="run.raw"):
+    p = dict(default_stage(topology), **(stage or {}))
+    low, high, delay = -amp * duty, amp * (1.0 - duty), 25e-6
+    width = duty * PERIOD - 40e-9
+    if width <= 0:
+        raise ValueError("duty too small")
+    ic = _ic_all(state) if state else ""
+    uic = " uic" if ic else ""
+    body = f"""* AM-01 (frozen) + AM-02.3 stage {topology}, {amp:g} Vpp, duty {duty:.2f}
+{FRONTEND}
+CL out 0 {AM01_P['cload']:.6g}
+{STAGES[topology](p)}
+VMOD mod 0 PULSE({low:.12g} {high:.12g} {delay:.12g} 20n 20n {width:.12g} 50u)"""
+    if mode == "op":
+        control = f"""set num_threads=1
+set filetype=binary
+op
+write {raw_name}
+quit"""
+    else:
+        save = "save v(out) v(rl) v(b2) v(b2ac) v(c1) v(x) v(e2) v(mod) i(vsup)"
+        for node in STAGE_NODES[topology]:
+            save += f" v({node})"
+        control = f"""set num_threads=1
+set filetype=binary
+op
+print v(ba) v(ea) v(ca) @qa[ic] @qa[ib] i(vsup)
+{save}
+tran {tmax_ns}n {stop_us}u 0 {tmax_ns}n{uic}
+write {raw_name}
+quit"""
+    return f"""{body}
+{ic}
+{MODEL}
+.options method=trap maxord=2 reltol=1e-4 trtol=7 temp=27 tnom=27
+.control
+{control}
+.endc
+.end
+"""
+
+
+def run(name, text, timeout=900):
+    cir = NETLISTS / (name + ".cir")
+    cir.write_text(text, encoding="utf-8", newline="\n")
+    log = LOGS / (name + ".log")
+    tic = time.monotonic()
+    with log.open("w", encoding="utf-8", errors="replace") as stream:
+        proc = subprocess.run([str(EXE), "-b", str(cir)], cwd=str(RESULTS),
+                              stdout=stream, stderr=subprocess.STDOUT,
+                              timeout=timeout)
+    if proc.returncode != 0:
+        raise RuntimeError(f"ngspice failed for {name}; see {log}")
+    return {"cir": cir, "log": log, "seconds": time.monotonic() - tic}
+
+
+def op_state(topology, stage=None, tag="op"):
+    raw_name = f"{tag}_{topology}.raw"
+    info = run(f"{tag}_{topology}",
+               build(topology, stage, mode="op", raw_name=raw_name), timeout=180)
+    data = read_raw(RESULTS / raw_name)
+    nodes = {k[2:-1]: float(v[0]) for k, v in data.items()
+             if k.startswith("v(") and k.endswith(")")}
+    return {"nodes": nodes, "log": str(info["log"])}
+
+
+def solve_cap(topology, stage=None, amp=4.0, duty=0.5, stop_us=50.0,
+              v0=None, tol=2e-4, max_iter=5, tag=None):
+    op = op_state(topology, stage, tag=f"op_{tag or topology}")
+    v = VCAP_REF if v0 is None else v0
+    history, v_prev, g_prev = [], None, None
+    tag = tag or f"cap_{topology}"
+    for it in range(max_iter):
+        state = dict(op["nodes"])
+        state["b2ac"] = op["nodes"]["b2"] + v
+        name = f"{tag}_it{it}"
+        raw_name = name + ".raw"
+        run(name, build(topology, stage, amp, duty, state=state,
+                        stop_us=stop_us, raw_name=raw_name), timeout=900)
+        data = read_raw(RESULTS / raw_name)
+        g = time_mean(data["time"], data["v(b2ac)"] - data["v(b2)"])
+        history.append({"iteration": it, "vcap": v, "residual": g})
+        print(f"  cap {it}: Vcap={v:.6f} V, <b2ac-b2>={g*1e3:.4f} mV")
+        if abs(g) < tol:
+            break
+        if v_prev is None:
+            v_next = v + 0.05
+        else:
+            den = g - g_prev
+            v_next = v + 0.05 if abs(den) < 1e-15 else v - g * (v - v_prev) / den
+        v_prev, g_prev = v, g
+        v = v_next
+    else:
+        raise RuntimeError("cap solve did not converge")
+    return {"vcap": v, "residual": g, "iterations": history, "op": op}
+
+
+def _band(t, vec, lo, hi, margin=0.2):
+    m = margin * (hi - lo)
+    mask = (t >= lo + m) & (t <= hi - m)
+    return float(np.median(vec[mask]))
+
+
+def measure(raw_path, topology, duty, p0_us=75.0, load_r=50.0):
+    data = read_raw(raw_path)
+    t = data["time"]
+    y = data["v(rl)"]
+    env = demodulate(t, y)
+    p0 = p0_us * 1e-6
+    high = (p0, p0 + duty * PERIOD)
+    low = (p0 + duty * PERIOD, p0 + PERIOD)
+    ah = _median_plateau(t, env, *high)
+    al = _median_plateau(t, env, *low)
+    step = ah - al
+
+    def extreme(lo, hi):
+        m = 0.2 * (hi - lo)
+        mask = (t >= lo + m) & (t <= hi - m)
+        return float(np.min(env[mask])), float(np.max(env[mask]))
+
+    hmin, hmax = extreme(*high)
+    lmin, lmax = extreme(*low)
+    central = (t >= p0 + 5e-6) & (t <= low[1] - 5e-6)
+
+    thd_h = _harmonic_fit(t[(t >= high[0] + 0.2 * (high[1] - high[0]))
+                            & (t <= high[1] - 0.2 * (high[1] - high[0]))],
+                          y[(t >= high[0] + 0.2 * (high[1] - high[0]))
+                            & (t <= high[1] - 0.2 * (high[1] - high[0]))], FC)
+    thd_l = _harmonic_fit(t[(t >= low[0] + 0.2 * (low[1] - low[0]))
+                            & (t <= low[1] - 0.2 * (low[1] - low[0]))],
+                          y[(t >= low[0] + 0.2 * (low[1] - low[0]))
+                            & (t <= low[1] - 0.2 * (low[1] - low[0]))], FC)
+
+    ca, ea = data["v(ca)"], data["v(ea)"]
+    out = {
+        "output_node": "rl",
+        "load_ohm": load_r,
+        "duty_pct": 100.0 * duty,
+        "vpp_high": 2.0 * ah,
+        "vpp_low": 2.0 * al,
+        "step_vpp": 2.0 * step,
+        "modulation_index": step / (ah + al),
+        "mean_vpp": 2.0 * float(np.mean(env[(t >= p0) & (t <= p0 + PERIOD)])),
+        "plateau_flatness": max(hmax - hmin, lmax - lmin) / step if step else float("inf"),
+        "overshoot": max(0.0, hmax - ah, al - lmin) / step if step else float("inf"),
+        "thd_high_pct": 100.0 * thd_h["thd"],
+        "thd_low_pct": 100.0 * thd_l["thd"],
+        "rl_min_v": float(np.min(y[(t >= p0) & (t <= p0 + PERIOD)])),
+        "rl_max_v": float(np.max(y[(t >= p0) & (t <= p0 + PERIOD)])),
+        "supply_mw": 1000.0 * time_mean(t, -5.0 * data["i(vsup)"], central),
+        "ca_high_v": _band(t, ca, *high),
+        "ca_low_v": _band(t, ca, *low),
+        "ea_high_v": _band(t, ea, *high),
+        "ea_low_v": _band(t, ea, *low),
+        "qa_vce_high_v": _band(t, ca, *high) - _band(t, ea, *high),
+        "qa_vce_low_v": _band(t, ca, *low) - _band(t, ea, *low),
+        "envelope_peak_mw": 1000.0 * (ah ** 2) / (2.0 * load_r),
+        "envelope_avg_mw": 1000.0 * (2.0 * ah) * (2.0 * al) / (8.0 * load_r),
+    }
+    if topology == "S1":
+        eb = data["v(eb)"]
+        out["eb_high_v"] = _band(t, eb, *high)
+        out["eb_low_v"] = _band(t, eb, *low)
+        out["qb_vce_v"] = _band(t, data["v(vcc)"], *high) - _band(t, eb, *high) if "v(vcc)" in data else None
+    return out

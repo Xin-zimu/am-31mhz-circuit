@@ -1,0 +1,51 @@
+{
+ "retrieved": "2026-11-15T01:33:00+08:00",
+ "source_repo": "https://github.com/GLuisF/LTspice/tree/master/examples/LtSpicePlus/Multiplicadores/ad835",
+ "files": [
+  {
+   "file": "AD835_Behav_Model.asc",
+   "bytes": 7037,
+   "sha256": "12fc053ecc5bad0ac886da09fb1296aaf9bd47a60b2deec920d3f84081a0fcaa",
+   "url": "https://raw.githubusercontent.com/GLuisF/LTspice/master/examples/LtSpicePlus/Multiplicadores/ad835/AD835_Behav_Model.asc",
+   "repo_page": "https://github.com/GLuisF/LTspice/tree/master/examples/LtSpicePlus/Multiplicadores/ad835",
+   "retrieved_utc": "2026-11-14T17:33:00Z",
+   "retrieved_local": "2026-11-15T01:33:00+08:00"
+  },
+  {
+   "file": "ad835.asy",
+   "bytes": 1874,
+   "sha256": "58370e2a102a8b2dde0c6cfa2d954d2fd5351b073e52e393be49589180f68823",
+   "url": "https://raw.githubusercontent.com/GLuisF/LTspice/master/examples/LtSpicePlus/Multiplicadores/ad835/ad835.asy",
+   "repo_page": "https://github.com/GLuisF/LTspice/tree/master/examples/LtSpicePlus/Multiplicadores/ad835",
+   "retrieved_utc": "2026-11-14T17:33:00Z",
+   "retrieved_local": "2026-11-15T01:33:00+08:00"
+  },
+  {
+   "file": "ad835.sub",
+   "bytes": 697,
+   "sha256": "4316099bbb93db14cdbc91c868bc347a29401fba22c5a4d2e4aa9c1a3e9370ae",
+   "url": "https://raw.githubusercontent.com/GLuisF/LTspice/master/examples/LtSpicePlus/Multiplicadores/ad835/ad835.sub",
+   "repo_page": "https://github.com/GLuisF/LTspice/tree/master/examples/LtSpicePlus/Multiplicadores/ad835",
+   "retrieved_utc": "2026-11-14T17:33:00Z",
+   "retrieved_local": "2026-11-15T01:33:00+08:00"
+  },
+  {
+   "file": "ad835_test1.asc",
+   "bytes": 2783,
+   "sha256": "179dbb6d13f64b32b12cb4ecf4f630881f3eeae95cb020c651cfe11cfaa205d7",
+   "url": "https://raw.githubusercontent.com/GLuisF/LTspice/master/examples/LtSpicePlus/Multiplicadores/ad835/ad835_test1.asc",
+   "repo_page": "https://github.com/GLuisF/LTspice/tree/master/examples/LtSpicePlus/Multiplicadores/ad835",
+   "retrieved_utc": "2026-11-14T17:33:00Z",
+   "retrieved_local": "2026-11-15T01:33:00+08:00"
+  },
+  {
+   "file": "hfa1100.sub",
+   "bytes": 2803,
+   "sha256": "09a8ea15d3e02f706d38090ed4061be3e465d48c4c15b2aab155857c2dc68930",
+   "url": "https://raw.githubusercontent.com/GLuisF/LTspice/master/examples/LtSpicePlus/Multiplicadores/ad835/hfa1100.sub",
+   "repo_page": "https://github.com/GLuisF/LTspice/tree/master/examples/LtSpicePlus/Multiplicadores/ad835",
+   "retrieved_utc": "2026-11-14T17:33:00Z",
+   "retrieved_local": "2026-11-15T01:33:00+08:00"
+  }
+ ]
+}

@@ -1,0 +1,542 @@
+{
+  "scope": "Independent candidate review only; educational 2N3904 model, not the physical transistor lot",
+  "source_note": "Zero-mean steady-state equivalents of AC-coupled unipolar square waves; not startup waveforms",
+  "ideal_poly_reference": {
+    "formula": "VAM=Vc*(0.6+0.1*V1), Vc=2 Vpp, V1=0..A",
+    "a4": {
+      "carrier_vpp_low": 1.2,
+      "carrier_vpp_high": 2.0,
+      "envelope_step_vpp": 0.8,
+      "modulation_index": 0.25
+    },
+    "a2": {
+      "carrier_vpp_low": 1.2,
+      "carrier_vpp_high": 1.6,
+      "envelope_step_vpp": 0.4,
+      "modulation_index": 0.14285714285714285
+    }
+  },
+  "d50_envelope_step_linearity_error_at_2v": -0.008023098664674544,
+  "results": [
+    {
+      "coupling_period_mean_error_v": -0.0005671970515786651,
+      "amp_vpp": 1.0,
+      "duty": 0.1,
+      "carrier_vpp_high": 0.12246514212335852,
+      "carrier_vpp_low": 0.11685464096526399,
+      "envelope_step_vpp": 0.005610501158094527,
+      "modulation_index": 0.02344353268955163,
+      "envelope_duty_pct": 9.682029957097464,
+      "envelope_rise_10_90_us": 0.035553848121901176,
+      "envelope_fall_90_10_us": 0.5207771666144306,
+      "mean_carrier_vpp": 0.1175712075252499,
+      "b2_plateau_v": [
+        1.1359633105295863,
+        1.1919167998045301
+      ],
+      "e2_plateau_v": [
+        0.4705573266042099,
+        0.5236703506440892
+      ],
+      "q2_ie_plateau_ma": [
+        1.001185801285553,
+        1.1141922354129556
+      ],
+      "q1_vce_plateau_v": [
+        2.2150329096231185,
+        2.110501801334286
+      ],
+      "q2_vce_plateau_v": [
+        1.3284247143342571,
+        1.2688095216088355
+      ],
+      "supply_power_mw": 7.112873031529292,
+      "out_raw_min_v": -0.08970582445394237,
+      "out_raw_max_v": 0.08755177736125974,
+      "name": "a1_d10",
+      "seconds": 1.185589999997319,
+      "netlist_sha256": "113a79d162d73373fb2a3fd4bb760d2f58d16323e8b7c1b8e35911518d5ec20a",
+      "raw_sha256": "c6a7a1bf89aa7186d129e0d7f93dfa17cd43725829e595d9f456732dc705720f"
+    },
+    {
+      "coupling_period_mean_error_v": -0.0009122079882024469,
+      "amp_vpp": 1.0,
+      "duty": 0.3,
+      "carrier_vpp_high": 0.12140939257446583,
+      "carrier_vpp_low": 0.11562410868512003,
+      "envelope_step_vpp": 0.005785283889345794,
+      "modulation_index": 0.02440703047713949,
+      "envelope_duty_pct": 29.684044925650312,
+      "envelope_rise_10_90_us": 0.036879363563477034,
+      "envelope_fall_90_10_us": 0.5232515035324048,
+      "mean_carrier_vpp": 0.1175135023179371,
+      "b2_plateau_v": [
+        1.1247494603889199,
+        1.1807287106067461
+      ],
+      "e2_plateau_v": [
+        0.4599482011224388,
+        0.5130282754387269
+      ],
+      "q2_ie_plateau_ma": [
+        0.9786131938775293,
+        1.091549522210057
+      ],
+      "q1_vce_plateau_v": [
+        2.2359859724290234,
+        2.1310096096426685
+      ],
+      "q2_vce_plateau_v": [
+        1.3403727706904498,
+        1.2807339453475435
+      ],
+      "supply_power_mw": 7.108733272931611,
+      "out_raw_min_v": -0.0891176537663414,
+      "out_raw_max_v": 0.08690250313400583,
+      "name": "a1_d30",
+      "seconds": 1.193922599999496,
+      "netlist_sha256": "42dcef66e2c9357c6c08f2309e0f33812c548c560f3c127c24e1307c261fce7e",
+      "raw_sha256": "271d61b107f186e103b58bee3ff35125b72848b92b6dbd67edca7fb8b262ed3f"
+    },
+    {
+      "coupling_period_mean_error_v": -0.0010427065567295923,
+      "amp_vpp": 1.0,
+      "duty": 0.5,
+      "carrier_vpp_high": 0.12032168864460138,
+      "carrier_vpp_low": 0.11435752739882747,
+      "envelope_step_vpp": 0.005964161245773911,
+      "modulation_index": 0.025414100772648763,
+      "envelope_duty_pct": 49.686170117738456,
+      "envelope_rise_10_90_us": 0.038254363523179916,
+      "envelope_fall_90_10_us": 0.5262453918096163,
+      "mean_carrier_vpp": 0.11749162106218182,
+      "b2_plateau_v": [
+        1.1135488633301325,
+        1.169525433154626
+      ],
+      "e2_plateau_v": [
+        0.4493646110930193,
+        0.5023822549335131
+      ],
+      "q2_ie_plateau_ma": [
+        0.9560949172191899,
+        1.0688984147521554
+      ],
+      "q1_vce_plateau_v": [
+        2.2568704691472266,
+        2.152098600221256
+      ],
+      "q2_vce_plateau_v": [
+        1.3523072622966321,
+        1.292668832414109
+      ],
+      "supply_power_mw": 7.136042528759594,
+      "out_raw_min_v": -0.08851291780150294,
+      "out_raw_max_v": 0.08623592727160823,
+      "name": "a1_d50",
+      "seconds": 1.1845231000006606,
+      "netlist_sha256": "214069eb6a8b9ada787e71f8b4ba4fe5fde51c9821bb8a63bf96bec23050a538",
+      "raw_sha256": "cc6b41340488d7aa68758e633c47533d5005259c1647e1007c3a5269bbc78e72"
+    },
+    {
+      "coupling_period_mean_error_v": -0.0011355195498049676,
+      "amp_vpp": 2.0,
+      "duty": 0.1,
+      "carrier_vpp_high": 0.12680458381550003,
+      "carrier_vpp_low": 0.11624366529765179,
+      "envelope_step_vpp": 0.010560918517848239,
+      "modulation_index": 0.04345194238750337,
+      "envelope_duty_pct": 9.715394193376166,
+      "envelope_rise_10_90_us": 0.06118528205316669,
+      "envelope_fall_90_10_us": 0.5479115204742196,
+      "mean_carrier_vpp": 0.11745947207420879,
+      "b2_plateau_v": [
+        1.130351925935666,
+        1.2422868454809728
+      ],
+      "e2_plateau_v": [
+        0.46524696331322524,
+        0.5717036404992937
+      ],
+      "q2_ie_plateau_ma": [
+        0.9898871559855856,
+        1.2163907244665824
+      ],
+      "q1_vce_plateau_v": [
+        2.2255206407714603,
+        2.0159850224002662
+      ],
+      "q2_vce_plateau_v": [
+        1.3344032139546298,
+        1.2151483433322918
+      ],
+      "supply_power_mw": 7.0924059911405495,
+      "out_raw_min_v": -0.1203159014661801,
+      "out_raw_max_v": 0.11697072174905321,
+      "name": "a2_d10",
+      "seconds": 1.2370565999990504,
+      "netlist_sha256": "aeb64ebe328263f9ccdbb80a14b68149028d54b0e32ffdb7b37560d72ff3b739",
+      "raw_sha256": "a31dc7d1e692fffbd1beef3288123d571f5c979e796aee697da9af35eb9cd566"
+    },
+    {
+      "coupling_period_mean_error_v": -0.0018271095156609928,
+      "amp_vpp": 2.0,
+      "duty": 0.3,
+      "carrier_vpp_high": 0.12494975950168127,
+      "carrier_vpp_low": 0.11370705287927849,
+      "envelope_step_vpp": 0.011242706622402787,
+      "modulation_index": 0.047108257712151276,
+      "envelope_duty_pct": 29.72118764275414,
+      "envelope_rise_10_90_us": 0.0657055650353321,
+      "envelope_fall_90_10_us": 0.5534969453452999,
+      "mean_carrier_vpp": 0.11723631029903536,
+      "b2_plateau_v": [
+        1.1079253985141744,
+        1.2198887235729114
+      ],
+      "e2_plateau_v": [
+        0.4440560285858223,
+        0.5503214507771632
+      ],
+      "q2_ie_plateau_ma": [
+        0.9448000608208986,
+        1.1708967037811984
+      ],
+      "q1_vce_plateau_v": [
+        2.2673404512467545,
+        2.0570574166894047
+      ],
+      "q2_vce_plateau_v": [
+        1.3582996605702613,
+        1.239023107048317
+      ],
+      "supply_power_mw": 7.084549885512493,
+      "out_raw_min_v": -0.1191607208442873,
+      "out_raw_max_v": 0.1156158279236239,
+      "name": "a2_d30",
+      "seconds": 1.1671260000002803,
+      "netlist_sha256": "db9e506e0a5e364332578da2c345364fd3643819fb25d1cc605b1e96bd08cba4",
+      "raw_sha256": "7c229a80d2dfa1c078f8b76db10a8a8770d8e118d3dd88cdd5260f035169e324"
+    },
+    {
+      "coupling_period_mean_error_v": -0.0020887603405200165,
+      "amp_vpp": 2.0,
+      "duty": 0.5,
+      "carrier_vpp_high": 0.12297247516460297,
+      "carrier_vpp_low": 0.11101918294092039,
+      "envelope_step_vpp": 0.011953292223682577,
+      "modulation_index": 0.0510842665095864,
+      "envelope_duty_pct": 49.72741847537534,
+      "envelope_rise_10_90_us": 0.07058644586564192,
+      "envelope_fall_90_10_us": 0.5592928783278921,
+      "mean_carrier_vpp": 0.11714857946733553,
+      "b2_plateau_v": [
+        1.0855265285879585,
+        1.1974792486758323
+      ],
+      "e2_plateau_v": [
+        0.4229467238901472,
+        0.5289653508144576
+      ],
+      "q2_ie_plateau_ma": [
+        0.8998866465747813,
+        1.12545819322225
+      ],
+      "q1_vce_plateau_v": [
+        2.3089322967687167,
+        2.099426681214228
+      ],
+      "q2_vce_plateau_v": [
+        1.382169364509107,
+        1.262891845889884
+      ],
+      "supply_power_mw": 7.139417523707878,
+      "out_raw_min_v": -0.11791202359181918,
+      "out_raw_max_v": 0.11419137104809396,
+      "name": "a2_d50",
+      "seconds": 1.269114200000331,
+      "netlist_sha256": "0f41375dd8b92d5fe278e1356cb42ae61bf5dc51cae275b64a95842da4a03dfa",
+      "raw_sha256": "a47de63010642fc9ec87647a4abb50fe9d16348e11eaed19e018fb852812cb00"
+    },
+    {
+      "coupling_period_mean_error_v": -0.0017047714725864015,
+      "amp_vpp": 3.0,
+      "duty": 0.1,
+      "carrier_vpp_high": 0.13053168733616105,
+      "carrier_vpp_low": 0.11562313364902252,
+      "envelope_step_vpp": 0.014908553687138532,
+      "modulation_index": 0.06056575949831143,
+      "envelope_duty_pct": 9.749783086569172,
+      "envelope_rise_10_90_us": 0.08108754025137573,
+      "envelope_fall_90_10_us": 0.5679577043715326,
+      "mean_carrier_vpp": 0.11728183926495288,
+      "b2_plateau_v": [
+        1.1247407414251223,
+        1.2926678603423691
+      ],
+      "e2_plateau_v": [
+        0.4599399176701655,
+        0.6199236328111261
+      ],
+      "q2_ie_plateau_ma": [
+        0.9785955695109905,
+        1.3189864527896298
+      ],
+      "q1_vce_plateau_v": [
+        2.236002306790415,
+        1.920859083324149
+      ],
+      "q2_vce_plateau_v": [
+        1.3403821063367065,
+        1.161484813228769
+      ],
+      "supply_power_mw": 7.072088828420944,
+      "out_raw_min_v": -0.15097911654201468,
+      "out_raw_max_v": 0.14647334459270622,
+      "name": "a3_d10",
+      "seconds": 1.1808850999987044,
+      "netlist_sha256": "946f3f759828b7ecda156bb458b49e0dc3afc1bab9cfa605abf1a3f6f9c3fd0b",
+      "raw_sha256": "0555392ab4ff7aea1b24385d3112200ddb3b2ce2f6a55f392a5edefc909f36b6"
+    },
+    {
+      "coupling_period_mean_error_v": -0.0027444845031550937,
+      "amp_vpp": 3.0,
+      "duty": 0.3,
+      "carrier_vpp_high": 0.12810542584483253,
+      "carrier_vpp_low": 0.11170317908599071,
+      "envelope_step_vpp": 0.016402246758841818,
+      "modulation_index": 0.06839724022235698,
+      "envelope_duty_pct": 29.76006595883053,
+      "envelope_rise_10_90_us": 0.09028867485108008,
+      "envelope_fall_90_10_us": 0.5758288791528554,
+      "mean_carrier_vpp": 0.11678720465840453,
+      "b2_plateau_v": [
+        1.0911026597348075,
+        1.259054284323284
+      ],
+      "e2_plateau_v": [
+        0.4281963956012315,
+        0.5877340212174125
+      ],
+      "q2_ie_plateau_ma": [
+        0.9110561608536841,
+        1.2504979174838562
+      ],
+      "q1_vce_plateau_v": [
+        2.29859530586731,
+        1.982736632606314
+      ],
+      "q2_vce_plateau_v": [
+        1.3762265479629674,
+        1.197311032812015
+      ],
+      "supply_power_mw": 7.060932081041209,
+      "out_raw_min_v": -0.14929234857714713,
+      "out_raw_max_v": 0.14436169549952504,
+      "name": "a3_d30",
+      "seconds": 1.1621463000010408,
+      "netlist_sha256": "99f3c2aac41f17222b3cbd33fdc54ecb6fa1d9b9994e94f114d2c96bf7d425ee",
+      "raw_sha256": "d773b537ee8c497ed465f73c85f8240b234e91eff97a0658f2a5800048e98a7b"
+    },
+    {
+      "coupling_period_mean_error_v": -0.003138055170855555,
+      "amp_vpp": 3.0,
+      "duty": 0.5,
+      "carrier_vpp_high": 0.12541955376995353,
+      "carrier_vpp_low": 0.10742916960351453,
+      "envelope_step_vpp": 0.017990384166439,
+      "modulation_index": 0.0772621120949161,
+      "envelope_duty_pct": 49.77091748299879,
+      "envelope_rise_10_90_us": 0.10057978914214123,
+      "envelope_fall_90_10_us": 0.5838913400194707,
+      "mean_carrier_vpp": 0.11658246456964699,
+      "b2_plateau_v": [
+        1.0575078947936947,
+        1.2254360575381353
+      ],
+      "e2_plateau_v": [
+        0.3966272872027642,
+        0.5556138600092801
+      ],
+      "q2_ie_plateau_ma": [
+        0.8438878451122642,
+        1.1821571489559153
+      ],
+      "q1_vce_plateau_v": [
+        2.360671011785308,
+        2.0465513049295425
+      ],
+      "q2_vce_plateau_v": [
+        1.4120309751525646,
+        1.233115501657885
+      ],
+      "supply_power_mw": 7.1436532324319275,
+      "out_raw_min_v": -0.14740335976358354,
+      "out_raw_max_v": 0.14203456535148717,
+      "name": "a3_d50",
+      "seconds": 1.2031489000000875,
+      "netlist_sha256": "502fe325a3932a126de7dc9f90e81cb112572985f66b3ea07e98f74aed34f278",
+      "raw_sha256": "d3f363dca5cf9344f98ecc0cdf8e790312dc32574893709d5e45b489c0a9fb6f"
+    },
+    {
+      "coupling_period_mean_error_v": -0.002274859990010746,
+      "amp_vpp": 4.0,
+      "duty": 0.1,
+      "carrier_vpp_high": 0.13368750108765357,
+      "carrier_vpp_low": 0.11499310754110585,
+      "envelope_step_vpp": 0.018694393546547713,
+      "modulation_index": 0.07517431153812025,
+      "envelope_duty_pct": 9.785440571344761,
+      "envelope_rise_10_90_us": 0.09719955630120765,
+      "envelope_fall_90_10_us": 0.584423240162379,
+      "mean_carrier_vpp": 0.1170426392965122,
+      "b2_plateau_v": [
+        1.1191295604310627,
+        1.343057177623502
+      ],
+      "e2_plateau_v": [
+        0.45463621465761256,
+        0.6683028219126019
+      ],
+      "q2_ie_plateau_ma": [
+        0.9673110950161969,
+        1.4219208976863873
+      ],
+      "q1_vce_plateau_v": [
+        2.2464710237587475,
+        1.8251457727852807
+      ],
+      "q2_vce_plateau_v": [
+        1.3463609020373386,
+        1.1078201774148726
+      ],
+      "supply_power_mw": 7.051906103597822,
+      "out_raw_min_v": -0.1816719687843653,
+      "out_raw_max_v": 0.1760727234093724,
+      "name": "a4_d10",
+      "seconds": 1.1622132999982568,
+      "netlist_sha256": "50d3b018366948ff5bed1c09f527ef52a4281cb4807bab21c56f8f6cf349dc6a",
+      "raw_sha256": "8e7a357ba6bfc23ee05d262ab3dac52ed394c429cdeead852bbad5a4c6a06e2f"
+    },
+    {
+      "coupling_period_mean_error_v": -0.0036642149824975137,
+      "amp_vpp": 4.0,
+      "duty": 0.3,
+      "carrier_vpp_high": 0.13089979360411264,
+      "carrier_vpp_low": 0.10960928121990746,
+      "envelope_step_vpp": 0.02129051238420518,
+      "modulation_index": 0.08852269877876083,
+      "envelope_duty_pct": 29.800123834254908,
+      "envelope_rise_10_90_us": 0.11272154675687457,
+      "envelope_fall_90_10_us": 0.594537199288662,
+      "mean_carrier_vpp": 0.11617096111544728,
+      "b2_plateau_v": [
+        1.074281215140589,
+        1.2982248221735988
+      ],
+      "e2_plateau_v": [
+        0.41237135079980936,
+        0.6252523064780717
+      ],
+      "q2_ie_plateau_ma": [
+        0.8773858527655518,
+        1.330324056336323
+      ],
+      "q1_vce_plateau_v": [
+        2.3297316480825385,
+        1.9080694618531404
+      ],
+      "q2_vce_plateau_v": [
+        1.3941536601141018,
+        1.1556003853969663
+      ],
+      "supply_power_mw": 7.0378623378850875,
+      "out_raw_min_v": -0.17950148537675226,
+      "out_raw_max_v": 0.17314072977343065,
+      "name": "a4_d30",
+      "seconds": 1.1661528000004182,
+      "netlist_sha256": "7d5f310843355a82250b5f7c968744222e0f9a21bdf9217899318445fc071e13",
+      "raw_sha256": "9a97a23ad1f76e4fcd9bf782f6dde2fe62a5630228f8270a3217fe929178704c"
+    },
+    {
+      "coupling_period_mean_error_v": -0.004190575337338689,
+      "amp_vpp": 4.0,
+      "duty": 0.5,
+      "carrier_vpp_high": 0.12767240841847138,
+      "carrier_vpp_low": 0.10357246776946646,
+      "envelope_step_vpp": 0.02409994064900492,
+      "modulation_index": 0.10421826873006415,
+      "envelope_duty_pct": 49.816243461090174,
+      "envelope_rise_10_90_us": 0.13093641941084483,
+      "envelope_fall_90_10_us": 0.6047747670586919,
+      "mean_carrier_vpp": 0.11579061235877271,
+      "b2_plateau_v": [
+        1.0294931166190022,
+        1.2533955684103804
+      ],
+      "e2_plateau_v": [
+        0.37041826451426074,
+        0.582322052511876
+      ],
+      "q2_ie_plateau_ma": [
+        0.7881239670516186,
+        1.2389830904508
+      ],
+      "q1_vce_plateau_v": [
+        2.412074108167269,
+        1.9934922607467955
+      ],
+      "q2_vce_plateau_v": [
+        1.4418941136081393,
+        1.2033390204179113
+      ],
+      "supply_power_mw": 7.14878257866579,
+      "out_raw_min_v": -0.17696423609039913,
+      "out_raw_max_v": 0.16980342804439896,
+      "name": "a4_d50",
+      "seconds": 1.179764200001955,
+      "netlist_sha256": "03d085acee4ddf9e29f1d45a6ba645855c44ee0ccee42a07524d75217ab064bd",
+      "raw_sha256": "f38379748e46ea4c628447bea82c96fe6baf3313b9dca6a5f124c16c1f2af0d3"
+    },
+    {
+      "coupling_period_mean_error_v": -0.004190655553294544,
+      "amp_vpp": 4.0,
+      "duty": 0.5,
+      "carrier_vpp_high": 0.027302281214182676,
+      "carrier_vpp_low": 0.01941008460449633,
+      "envelope_step_vpp": 0.007892196609686347,
+      "modulation_index": 0.1689530485422443,
+      "envelope_duty_pct": 50.13522007489784,
+      "envelope_rise_10_90_us": 0.12604857740578856,
+      "envelope_fall_90_10_us": 0.6267810021176232,
+      "mean_carrier_vpp": 0.02335232872336967,
+      "b2_plateau_v": [
+        1.029493210161147,
+        1.2533956872944292
+      ],
+      "e2_plateau_v": [
+        0.3704183831963074,
+        0.5823222126405548
+      ],
+      "q2_ie_plateau_ma": [
+        0.7881242195666115,
+        1.2389834311501167
+      ],
+      "q1_vce_plateau_v": [
+        2.411652831415158,
+        1.9934005781828974
+      ],
+      "q2_vce_plateau_v": [
+        1.442098242659998,
+        1.2034921018333171
+      ],
+      "supply_power_mw": 7.148766600536415,
+      "out_raw_min_v": -0.01681692543198876,
+      "out_raw_max_v": 0.015943109099279873,
+      "name": "a4_d50_r50",
+      "load_ohm": 50,
+      "netlist_sha256": "dc200ec7295a83cadd9393440433ec0a0e7d44a484b1bdcc64eb0402406018c1",
+      "raw_sha256": "042f42eb0055b867e6ca0ea20696d5b4f2f45b6beb58ead1245ffeb95e72b404"
+    }
+  ]
+}

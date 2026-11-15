@@ -1,0 +1,10 @@
+{
+  "pot_top_ohm": 303.0437614193344,
+  "pot_bottom_ohm": 9696.956238580666,
+  "result": "cal_stiffer_a4_i3",
+  "actual_vpp": 3.9999380244725575,
+  "settings": {
+    "total": 10000,
+    "pullup": 1500
+  }
+}

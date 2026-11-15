@@ -1,0 +1,6 @@
+{
+  "netlists\\closure_sense10_fine.cir": "e10b8a7edd242bc41f86f806364ff19d93a436f7c3a4771b9eb257c1f581f02c",
+  "scripts\\closure_metrics.py": "1043b2427efbf9ffc08a8d7a0f845ef1c34bde1a812c0faca8e9b5f61c0aa3ff",
+  "results\\closure_sense10_fine_metrics.json": "e5068319e2fc8439455bafc2b3284f3ef2d221a83dfbfed35542f4a0e4253aa9",
+  "results\\closure_review.json": "6ccb57ef2c62329b30a60b2ada79db18af1cfdc88969d967e3b67ccdbab98c6d"
+}

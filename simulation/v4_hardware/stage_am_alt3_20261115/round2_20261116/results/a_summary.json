@@ -1,0 +1,22 @@
+[
+  {
+    "Cp_pF": 0,
+    "minimum_current_ratio": 0.561770034547655,
+    "maximum_required_mV": 296.99880636972904
+  },
+  {
+    "Cp_pF": 0.25,
+    "minimum_current_ratio": 0.3147985013506322,
+    "maximum_required_mV": 451.0471763273613
+  },
+  {
+    "Cp_pF": 0.5,
+    "minimum_current_ratio": 0.20549911617993064,
+    "maximum_required_mV": 652.2966279092509
+  },
+  {
+    "Cp_pF": 1,
+    "minimum_current_ratio": 0.11313503935078952,
+    "maximum_required_mV": 1142.9434380598811
+  }
+]

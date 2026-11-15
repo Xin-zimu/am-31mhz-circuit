@@ -1,0 +1,464 @@
+{
+  "candidates": [
+    {
+      "candidate": "A",
+      "description": "2N3904 common emitter, unbypassed RE=100 ohm",
+      "input_node": "b",
+      "output_node": "c",
+      "loads": [
+        {
+          "load_ohm": 2000.0,
+          "dc": {
+            "nodes": {
+              "b": 0.8026162,
+              "c": 3.700086,
+              "e": 0.1309076
+            },
+            "currents": {
+              "q1_ic": 0.001299914,
+              "q1_ib": 9.161653e-06
+            },
+            "supply_current_ma": 1.42711,
+            "supply_power_mw": 7.13555
+          },
+          "vce": 3.5691784,
+          "zin_real_ohm": 297.2751,
+          "zin_imag_ohm": -326.182,
+          "zin_mag_ohm": 441.3243503411182,
+          "zin_phase_deg": -47.654646254954564,
+          "parallel_c_pf": 8.598103090380102,
+          "response": {
+            "gain_1mhz_db": 16.0517385,
+            "gain_25mhz_db": 11.0680322,
+            "gain_31mhz_db": 9.97116814,
+            "gain_37mhz_db": 8.74409483,
+            "phase_31mhz_deg": 2.01079699,
+            "gain_31_vs_1_db": -6.080570359999999,
+            "minus3db_frequency_mhz": 16.4689787,
+            "peak_gain_db": 16.0517385,
+            "peak_frequency_mhz": 1.0,
+            "response_ripple_db_1_100": 14.88233696
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\A_2000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_A_2000.cir",
+          "gain_netlist_sha256": "4f8c812f2ee273217c3f52465a8d781292c82d23bf837fb6981c1935109a3f47",
+          "zin_netlist_sha256": "6ad7ce651a0a49d5ebac4bd0d0b9d05993699547596c2906317d53f506372a58"
+        },
+        {
+          "load_ohm": 10000.0,
+          "dc": {
+            "nodes": {
+              "b": 0.8026162,
+              "c": 3.700086,
+              "e": 0.1309076
+            },
+            "currents": {
+              "q1_ic": 0.001299914,
+              "q1_ib": 9.161653e-06
+            },
+            "supply_current_ma": 1.42711,
+            "supply_power_mw": 7.13555
+          },
+          "vce": 3.5691784,
+          "zin_real_ohm": 319.2379,
+          "zin_imag_ohm": -299.406,
+          "zin_mag_ohm": 437.67201147938397,
+          "zin_phase_deg": -43.16389497470444,
+          "parallel_c_pf": 8.024562927655307,
+          "response": {
+            "gain_1mhz_db": 17.6195247,
+            "gain_25mhz_db": 11.8375934,
+            "gain_31mhz_db": 10.5569002,
+            "gain_37mhz_db": 9.17819473,
+            "phase_31mhz_deg": 1.89950601,
+            "gain_31_vs_1_db": -7.0626245,
+            "minus3db_frequency_mhz": 15.2522296,
+            "peak_gain_db": 17.6195247,
+            "peak_frequency_mhz": 1.0,
+            "response_ripple_db_1_100": 16.37749497
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\A_10000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_A_10000.cir",
+          "gain_netlist_sha256": "c0bb680f4484b5b58991c108f1b686955c6a15921b824ac951fc3d5812b17e76",
+          "zin_netlist_sha256": "1ea339a17f990c11ecf1652ea0d9e011cc33a2913cc754f7f1ab7d22f5d9e4ea"
+        }
+      ]
+    },
+    {
+      "candidate": "B",
+      "description": "2N3904 common base, base AC-grounded",
+      "input_node": "e",
+      "output_node": "c",
+      "loads": [
+        {
+          "load_ohm": 2000.0,
+          "dc": {
+            "nodes": {
+              "b": 2.439076,
+              "c": 3.253379,
+              "e": 1.758806
+            },
+            "currents": {
+              "q1_ic": 0.001746641,
+              "q1_ib": 1.218486e-05
+            },
+            "supply_current_ma": 2.00271,
+            "supply_power_mw": 10.01355
+          },
+          "vce": 1.4945729999999997,
+          "zin_real_ohm": 16.7345,
+          "zin_imag_ohm": 0.3754655,
+          "zin_mag_ohm": 16.73871155709693,
+          "zin_phase_deg": 1.285307584263153,
+          "parallel_c_pf": -6.879936410251855,
+          "response": {
+            "gain_1mhz_db": 33.8772921,
+            "gain_25mhz_db": 27.8923869,
+            "gain_31mhz_db": 26.6641129,
+            "gain_37mhz_db": 25.3210145,
+            "phase_31mhz_deg": -1.11973851,
+            "gain_31_vs_1_db": -7.213179199999999,
+            "minus3db_frequency_mhz": 13.593563900000001,
+            "peak_gain_db": 33.8772921,
+            "peak_frequency_mhz": 1.0,
+            "response_ripple_db_1_100": 16.660147
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\B_2000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_B_2000.cir",
+          "gain_netlist_sha256": "ee2fe3f115cc6615d917dd31285968c75e4c3dfc931a3cde221663c16b4bfe6b",
+          "zin_netlist_sha256": "11908ecfe43cc043eff9ec07063b4dd71e194d5e0bc3bab36c7c1900cfb47cc5"
+        },
+        {
+          "load_ohm": 10000.0,
+          "dc": {
+            "nodes": {
+              "b": 2.439076,
+              "c": 3.253379,
+              "e": 1.758806
+            },
+            "currents": {
+              "q1_ic": 0.001746641,
+              "q1_ib": 1.218486e-05
+            },
+            "supply_current_ma": 2.00271,
+            "supply_power_mw": 10.01355
+          },
+          "vce": 1.4945729999999997,
+          "zin_real_ohm": 16.92576,
+          "zin_imag_ohm": 0.208885,
+          "zin_mag_ohm": 16.927048901708325,
+          "zin_phase_deg": 0.7070655229952438,
+          "parallel_c_pf": -3.7428566537037957,
+          "response": {
+            "gain_1mhz_db": 35.4243385,
+            "gain_25mhz_db": 28.4942,
+            "gain_31mhz_db": 27.1131176,
+            "gain_37mhz_db": 25.6494234,
+            "phase_31mhz_deg": -1.21867852,
+            "gain_31_vs_1_db": -8.311220899999999,
+            "minus3db_frequency_mhz": 13.081774699999999,
+            "peak_gain_db": 35.4243385,
+            "peak_frequency_mhz": 1.0,
+            "response_ripple_db_1_100": 18.148081599999998
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\B_10000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_B_10000.cir",
+          "gain_netlist_sha256": "59994458b408eeab10d1c704c9bb0d1656e0e2e682664ec329a7794e5b2803d0",
+          "zin_netlist_sha256": "ffd0762adbc2596918ee3ec030393a726bd2e3bd3ddd88fbbaf9dc5025d8b728"
+        }
+      ]
+    },
+    {
+      "candidate": "C",
+      "description": "A followed by emitter follower Q2",
+      "input_node": "b",
+      "output_node": "e2",
+      "loads": [
+        {
+          "load_ohm": 2000.0,
+          "dc": {
+            "nodes": {
+              "b": 0.8026126,
+              "c": 3.690425,
+              "e": 0.1309018,
+              "e2": 3.016938
+            },
+            "currents": {
+              "q1_ic": 0.001299855,
+              "q1_ib": 9.162302e-06,
+              "q2_ic": 0.001361616,
+              "q2_ib": 9.719885e-06
+            },
+            "supply_current_ma": 2.79838,
+            "supply_power_mw": 13.991900000000001
+          },
+          "vce": {
+            "q1": 3.5595231999999997,
+            "q2": 1.9830619999999999
+          },
+          "zin_real_ohm": 204.9626,
+          "zin_imag_ohm": -199.898,
+          "zin_mag_ohm": 286.3020743947902,
+          "zin_phase_deg": -44.28329634982682,
+          "parallel_c_pf": 12.520391163952327,
+          "response": {
+            "gain_1mhz_db": 18.1561527,
+            "gain_25mhz_db": 16.0858338,
+            "gain_31mhz_db": 15.3463498,
+            "gain_37mhz_db": 14.4146315,
+            "phase_31mhz_deg": 2.09507254,
+            "gain_31_vs_1_db": -2.8098028999999993,
+            "minus3db_frequency_mhz": 32.8599325,
+            "peak_gain_db": 18.1561527,
+            "peak_frequency_mhz": 1.0,
+            "response_ripple_db_1_100": 11.91118228
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\C_2000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_C_2000.cir",
+          "gain_netlist_sha256": "8a274439d27da58abc84358b8029bf33fdb498f64648e49791247a278d377398",
+          "zin_netlist_sha256": "762eadb13da0f7c91198ae858ddfe7d8256dc4f095d06af4d097715fbb8eaefb"
+        },
+        {
+          "load_ohm": 10000.0,
+          "dc": {
+            "nodes": {
+              "b": 0.8026126,
+              "c": 3.690425,
+              "e": 0.1309018,
+              "e2": 3.016938
+            },
+            "currents": {
+              "q1_ic": 0.001299855,
+              "q1_ib": 9.162302e-06,
+              "q2_ic": 0.001361616,
+              "q2_ib": 9.719885e-06
+            },
+            "supply_current_ma": 2.79838,
+            "supply_power_mw": 13.991900000000001
+          },
+          "vce": {
+            "q1": 3.5595231999999997,
+            "q2": 1.9830619999999999
+          },
+          "zin_real_ohm": 201.4979,
+          "zin_imag_ohm": -197.87,
+          "zin_mag_ohm": 282.4074018229869,
+          "zin_phase_deg": -44.47953342999398,
+          "parallel_c_pf": 12.737559949584842,
+          "response": {
+            "gain_1mhz_db": 18.1942638,
+            "gain_25mhz_db": 16.2603532,
+            "gain_31mhz_db": 15.5459774,
+            "gain_37mhz_db": 14.6373972,
+            "phase_31mhz_deg": 2.10379607,
+            "gain_31_vs_1_db": -2.6482864000000017,
+            "minus3db_frequency_mhz": 34.1454887,
+            "peak_gain_db": 18.1942638,
+            "peak_frequency_mhz": 1.0,
+            "response_ripple_db_1_100": 11.746876570000001
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\C_10000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_C_10000.cir",
+          "gain_netlist_sha256": "0dcc4e955b6a707d334bd7754c2b587aeaf54452bf133aadad69d53cd95ef83e",
+          "zin_netlist_sha256": "74f6a65baf8c5ae150e44dd13ca1c356584c9574c8b690d413dbd12180ce453d"
+        }
+      ]
+    },
+    {
+      "candidate": "D",
+      "description": "2N3904 cascode: Q1 CE with RF-bypassed RE + Q2 CB",
+      "input_node": "b",
+      "output_node": "c2",
+      "loads": [
+        {
+          "load_ohm": 2000.0,
+          "dc": {
+            "nodes": {
+              "b": 1.108539,
+              "e": 0.444635,
+              "b2": 2.465251,
+              "x": 1.80186,
+              "c2": 4.067987
+            },
+            "currents": {
+              "q1_ic": 0.000938963,
+              "q1_ib": 7.069159e-06,
+              "q2_ic": 0.0009320131,
+              "q2_ib": 6.949836e-06
+            },
+            "supply_current_ma": 1.3034100000000002,
+            "supply_power_mw": 6.51705
+          },
+          "vce": {
+            "q1": 1.3572250000000001,
+            "q2": 2.2661269999999996
+          },
+          "zin_real_ohm": -4.96521,
+          "zin_imag_ohm": -225.005,
+          "zin_mag_ohm": 225.0597772489436,
+          "zin_phase_deg": -91.26414707867774,
+          "parallel_c_pf": 22.80630023961734,
+          "response": {
+            "gain_1mhz_db": 13.4009411,
+            "gain_25mhz_db": 23.2625419,
+            "gain_31mhz_db": 22.2058777,
+            "gain_37mhz_db": 20.9851637,
+            "phase_31mhz_deg": 2.14864348,
+            "gain_31_vs_1_db": 8.804936599999998,
+            "minus3db_frequency_mhz": null,
+            "peak_gain_db": 25.4624708,
+            "peak_frequency_mhz": 10.7977516,
+            "response_ripple_db_1_100": 12.693482299999998
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\D_2000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_D_2000.cir",
+          "gain_netlist_sha256": "6b66246e7dda827c8599842d3c56bc3da41a03c0d034215ff6bfb2d8b6cee0b4",
+          "zin_netlist_sha256": "9cbe9e674b50c6581483846b1b652cf3928a5badfbde790ac50fe49ba82f582b"
+        },
+        {
+          "load_ohm": 10000.0,
+          "dc": {
+            "nodes": {
+              "b": 1.108539,
+              "e": 0.444635,
+              "b2": 2.465251,
+              "x": 1.80186,
+              "c2": 4.067987
+            },
+            "currents": {
+              "q1_ic": 0.000938963,
+              "q1_ib": 7.069159e-06,
+              "q2_ic": 0.0009320131,
+              "q2_ib": 6.949836e-06
+            },
+            "supply_current_ma": 1.3034100000000002,
+            "supply_power_mw": 6.51705
+          },
+          "vce": {
+            "q1": 1.3572250000000001,
+            "q2": 2.2661269999999996
+          },
+          "zin_real_ohm": -4.8041,
+          "zin_imag_ohm": -224.821,
+          "zin_mag_ohm": 224.87232248058007,
+          "zin_phase_deg": -91.22414174246883,
+          "parallel_c_pf": 22.825657817260314,
+          "response": {
+            "gain_1mhz_db": 14.9735174,
+            "gain_25mhz_db": 24.0183607,
+            "gain_31mhz_db": 22.7791097,
+            "gain_37mhz_db": 21.408329,
+            "phase_31mhz_deg": 2.03766843,
+            "gain_31_vs_1_db": 7.805592299999999,
+            "minus3db_frequency_mhz": null,
+            "peak_gain_db": 27.2320411,
+            "peak_frequency_mhz": 9.26118728,
+            "response_ripple_db_1_100": 14.3953424
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\D_10000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_D_10000.cir",
+          "gain_netlist_sha256": "15c926b5dfacb731cf2771350033a099b50956bed2450d005b022d98ae2dbd9f",
+          "zin_netlist_sha256": "6817a7801f77a689276758252fb072b8d6004d098e152c93c99e23e0c5e6d0ba"
+        }
+      ]
+    },
+    {
+      "candidate": "E",
+      "description": "Emitter-follower input Q1 followed by CE Q2",
+      "input_node": "b1",
+      "output_node": "c2",
+      "loads": [
+        {
+          "load_ohm": 2000.0,
+          "dc": {
+            "nodes": {
+              "b1": 2.22935,
+              "e1": 1.573503,
+              "b2": 0.8026162,
+              "c2": 3.700086,
+              "e2": 0.1309076
+            },
+            "currents": {
+              "q1_ic": 0.0007098155,
+              "q1_ib": 5.412993e-06,
+              "q2_ic": 0.001299914,
+              "q2_ib": 9.161653e-06
+            },
+            "supply_current_ma": 2.16463,
+            "supply_power_mw": 10.82315
+          },
+          "vce": {
+            "q1": 3.426497,
+            "q2": 3.5691784
+          },
+          "zin_real_ohm": -208.451,
+          "zin_imag_ohm": -1484.62,
+          "zin_mag_ohm": 1499.1825652004493,
+          "zin_phase_deg": -97.99247869682968,
+          "parallel_c_pf": 3.39128820022064,
+          "response": {
+            "gain_1mhz_db": 15.6554426,
+            "gain_25mhz_db": 10.395194,
+            "gain_31mhz_db": 9.25292691,
+            "gain_37mhz_db": 7.98198592,
+            "phase_31mhz_deg": 1.96300798,
+            "gain_31_vs_1_db": -6.402515690000001,
+            "minus3db_frequency_mhz": 15.2522296,
+            "peak_gain_db": 15.6554426,
+            "peak_frequency_mhz": 1.0,
+            "response_ripple_db_1_100": 15.542664789
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\E_2000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_E_2000.cir",
+          "gain_netlist_sha256": "ade65f3fbab16b94ad6fe6b32a2cf3dcc4d49dab0438353217eeb637166c73fd",
+          "zin_netlist_sha256": "d9a5ea68fabb9897ad5d2923216c2986300fbb754865021fdf57ce42b6742bd0"
+        },
+        {
+          "load_ohm": 10000.0,
+          "dc": {
+            "nodes": {
+              "b1": 2.22935,
+              "e1": 1.573503,
+              "b2": 0.8026162,
+              "c2": 3.700086,
+              "e2": 0.1309076
+            },
+            "currents": {
+              "q1_ic": 0.0007098155,
+              "q1_ib": 5.412993e-06,
+              "q2_ic": 0.001299914,
+              "q2_ib": 9.161653e-06
+            },
+            "supply_current_ma": 2.16463,
+            "supply_power_mw": 10.82315
+          },
+          "vce": {
+            "q1": 3.426497,
+            "q2": 3.5691784
+          },
+          "zin_real_ohm": -175.974,
+          "zin_imag_ohm": -1471.58,
+          "zin_mag_ohm": 1482.0642850686334,
+          "zin_phase_deg": -96.81914418131065,
+          "parallel_c_pf": 3.439602303482623,
+          "response": {
+            "gain_1mhz_db": 17.200947,
+            "gain_25mhz_db": 11.1206211,
+            "gain_31mhz_db": 9.80571722,
+            "gain_37mhz_db": 8.39413994,
+            "phase_31mhz_deg": 1.85661354,
+            "gain_31_vs_1_db": -7.395229779999999,
+            "minus3db_frequency_mhz": 14.677992699999999,
+            "peak_gain_db": 17.200947,
+            "peak_frequency_mhz": 1.0,
+            "response_ripple_db_1_100": 17.007228733999998
+          },
+          "gain_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\E_10000.cir",
+          "zin_netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\zin_E_10000.cir",
+          "gain_netlist_sha256": "2e36f4e781ff34f9597587863c0f20e30e06ff7fd238281180ef40b2483ee7c4",
+          "zin_netlist_sha256": "1b43bf8200809d6e0aea961d2ab7bdaeb7a1da9c52df3b4c7dd24ec266f06caf"
+        }
+      ]
+    }
+  ]
+}

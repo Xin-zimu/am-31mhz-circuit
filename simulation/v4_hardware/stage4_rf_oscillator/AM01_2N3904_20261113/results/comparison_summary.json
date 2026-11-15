@@ -1,0 +1,29 @@
+{
+  "reference_point": {
+    "amp_vpp": 4,
+    "duty_pct": 50,
+    "load_ohm": 2000
+  },
+  "optimized": {
+    "carrier_vpp_high": 0.057695720677510345,
+    "carrier_vpp_low": 0.03426228661397004,
+    "envelope_step_vpp": 0.023433434063540308,
+    "modulation_index": 0.2548275539427804,
+    "supply_power_mw": 4.272662756144403
+  },
+  "poly": {
+    "carrier_vpp_high": 1.9556059209331655,
+    "carrier_vpp_low": 1.1733635525759398,
+    "envelope_step_vpp": 0.7822423683572257,
+    "modulation_index": 0.24999999999359193
+  },
+  "amplitude_ratios": {
+    "carrier_vpp_high": 0.0295027336846983,
+    "carrier_vpp_high_db": -30.602754819979303,
+    "carrier_vpp_low": 0.02920006040647201,
+    "carrier_vpp_low_db": -30.692325002421818,
+    "envelope_step_vpp": 0.029956743602053255,
+    "envelope_step_vpp_db": -30.470107953311526
+  },
+  "post_modulator_gain_needed_to_match_poly_db": 30.6368166169384
+}

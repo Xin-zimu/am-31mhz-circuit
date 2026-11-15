@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "scope": "Derives the S04 gap from the cascade netlist and the built-board data. Excludes model branches, simulator commands and test loads. Says nothing about stock or price.",
+  "source_netlist": "simulation\\v4_hardware\\stage4_rf_oscillator\\S04_RF_CARRIER\\XTAL\\simulations\\c1_cascade.cir",
+  "source_board": "simulation\\v4_hardware\\stage4_rf_oscillator\\perfboard_20261017\\assembly_data.json",
+  "totals": {
+    "needed": 22,
+    "covered_by_board": 9,
+    "still_to_buy": 13
+  },
+  "detail": [
+    {
+      "part": "C 100n",
+      "needed": 1,
+      "on_board": 1,
+      "still_to_buy": 0
+    },
+    {
+      "part": "C 10n",
+      "needed": 2,
+      "on_board": 0,
+      "still_to_buy": 2
+    },
+    {
+      "part": "C 10u",
+      "needed": 1,
+      "on_board": 1,
+      "still_to_buy": 0
+    },
+    {
+      "part": "C 1n",
+      "needed": 2,
+      "on_board": 0,
+      "still_to_buy": 2
+    },
+    {
+      "part": "C 33p",
+      "needed": 2,
+      "on_board": 2,
+      "still_to_buy": 0
+    },
+    {
+      "part": "Q 2N3904",
+      "needed": 3,
+      "on_board": 1,
+      "still_to_buy": 2
+    },
+    {
+      "part": "R 10k",
+      "needed": 4,
+      "on_board": 2,
+      "still_to_buy": 2
+    },
+    {
+      "part": "R 1k",
+      "needed": 1,
+      "on_board": 0,
+      "still_to_buy": 1
+    },
+    {
+      "part": "R 22k",
+      "needed": 1,
+      "on_board": 0,
+      "still_to_buy": 1
+    },
+    {
+      "part": "R 330",
+      "needed": 1,
+      "on_board": 0,
+      "still_to_buy": 1
+    },
+    {
+      "part": "R 4.7k",
+      "needed": 2,
+      "on_board": 1,
+      "still_to_buy": 1
+    },
+    {
+      "part": "R 56",
+      "needed": 1,
+      "on_board": 0,
+      "still_to_buy": 1
+    },
+    {
+      "part": "X C518062",
+      "needed": 1,
+      "on_board": 1,
+      "still_to_buy": 0
+    }
+  ],
+  "surplus_on_board": [
+    {
+      "part": "C 2.2p",
+      "qty": 1
+    }
+  ],
+  "errors": []
+}

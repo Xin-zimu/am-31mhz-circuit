@@ -1,0 +1,122 @@
+[
+  {
+    "output_rms_mv": 1.0206741708766522e-13,
+    "output_max_mv": 4.307636247847813e-11,
+    "peak_frequency_mhz": 0.009999950000092548,
+    "peak_amplitude_mv": 5.817539560786299e-16,
+    "candidate": "A",
+    "input_termination_ohm": null,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_A_open.cir",
+    "netlist_sha256": "d870ec3751dbcfd497570d81a5a6018069047eb17696904404a48ccc4a3f663f",
+    "raw_sha256": "8140139ceab97d7e3271eb65f5af119cf41527be87412320dbad0b8c37aaf0ec",
+    "log_sha256": "a732f1f1878464bc82c0025819a0f0daebe26ba0777ac1d82a73af588c95702f"
+  },
+  {
+    "output_rms_mv": 1.4884512005078127e-13,
+    "output_max_mv": 6.306024591606905e-11,
+    "peak_frequency_mhz": 0.009999950000092548,
+    "peak_amplitude_mv": 8.437652798101036e-16,
+    "candidate": "A",
+    "input_termination_ohm": 1000.0,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_A_1000.cir",
+    "netlist_sha256": "319b55f2f3fabfab66a25590a1702e248101a025cb0372c6ba0bad48125d6ae6",
+    "raw_sha256": "c9d18ecc9f113d53866ea52af717e152b6bd59279a1c32fc3b8e827c1093e33d",
+    "log_sha256": "098bd9a6712b0cb9d64c8f89102d835fb129d15224d6301873d8e768423d3582"
+  },
+  {
+    "output_rms_mv": 0.09612703402069861,
+    "output_max_mv": 0.37206936810008256,
+    "peak_frequency_mhz": 0.009999950000092548,
+    "peak_amplitude_mv": 0.11012185937137169,
+    "candidate": "B",
+    "input_termination_ohm": null,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_B_open.cir",
+    "netlist_sha256": "15e17d5eaf7a0b67493c00a5c9f2184b7c271d869670c54b5aa07a1a90b45996",
+    "raw_sha256": "580cf46c69934434301e3ec1274a36961ceaa8bb703cbd64ca959b12151aa4e0",
+    "log_sha256": "eede43eb5435d20e8ff7c3fd043f5ace7475924a79b5003f232ca406fa23b0bf"
+  },
+  {
+    "output_rms_mv": 0.09518060093038984,
+    "output_max_mv": 0.3682352993552365,
+    "peak_frequency_mhz": 0.009999950000092548,
+    "peak_amplitude_mv": 0.10929808492036401,
+    "candidate": "B",
+    "input_termination_ohm": 1000.0,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_B_1000.cir",
+    "netlist_sha256": "a64a4b068cb8d91274545efeaa9094fe025cf8ec808b8a1761c9b2e3a2c2f392",
+    "raw_sha256": "4c8dbc898c4803f315787b54fe424eee6bba93c78fb58ab6d9199ffd030f3019",
+    "log_sha256": "7211940e6b1893f5517faa4a2f69198f43b70430d9c68255eb25ea8f34619dd7"
+  },
+  {
+    "output_rms_mv": 5.038604515611959e-13,
+    "output_max_mv": 4.10335689884733e-11,
+    "peak_frequency_mhz": 499.99750000462734,
+    "peak_amplitude_mv": 4.3094637258556776e-13,
+    "candidate": "C",
+    "input_termination_ohm": null,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_C_open.cir",
+    "netlist_sha256": "41a91936ae4958f0f3b7e019d38698293f38ae3c6ed8642169e6a5e9369a6921",
+    "raw_sha256": "40b61d7c5f99cc10774734e31c1a3f749ce3fa135a85878e0bd6367fe4fe9302",
+    "log_sha256": "3a38802fdbc151d9cee45dc7fdc50f315aa64c538f2ace2003d82c1297cc8e77"
+  },
+  {
+    "output_rms_mv": 1.4762098806826218e-14,
+    "output_max_mv": 4.884934679216871e-12,
+    "peak_frequency_mhz": 0.009999950000092548,
+    "peak_amplitude_mv": 9.325826776569525e-17,
+    "candidate": "C",
+    "input_termination_ohm": 1000.0,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_C_1000.cir",
+    "netlist_sha256": "69f5adc85dd280a0823ed08a1e799cd3b714292fe26a4e2fa61c88127f2ec236",
+    "raw_sha256": "f86a2928210d62f0fe621dee9717e5901b5398867ff319df5804492dee89bf6e",
+    "log_sha256": "176b0f76a056a791840c80b244bb93bd92e9391a28ed53a8d2ab087894a4ff83"
+  },
+  {
+    "output_rms_mv": 0.7205202095733256,
+    "output_max_mv": 2.282748211711825,
+    "peak_frequency_mhz": 0.009999950000092548,
+    "peak_amplitude_mv": 0.7622091518129397,
+    "candidate": "D",
+    "input_termination_ohm": null,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_D_open.cir",
+    "netlist_sha256": "f2f96ea9c2f41521dace0e29b002778cb7d79c3c104aa4a2149f2c5ebd1c5591",
+    "raw_sha256": "6f0d50c9cc0b86efe2e7270873cf854e096c432333f2b80fba72c9500388dc4c",
+    "log_sha256": "390b163a6a06cd9d51df310a079c162620b0620de11ed53ecaf662d975d3fc22"
+  },
+  {
+    "output_rms_mv": 0.7188111625587276,
+    "output_max_mv": 2.2786193931890457,
+    "peak_frequency_mhz": 0.009999950000092548,
+    "peak_amplitude_mv": 0.7605068426844792,
+    "candidate": "D",
+    "input_termination_ohm": 1000.0,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_D_1000.cir",
+    "netlist_sha256": "95daa9d5947d1a5df66d28bb4a3649c8a39f73d719a3391c0eabe22d27298a50",
+    "raw_sha256": "13f7a53ebe455d71f9d3ab87f3f6db7e61b67ed21a1b5210318fcded00ebd31f",
+    "log_sha256": "95ac9cc1c44bc5dba51d5bf4a624b74749f2ae9dd9a43eaf490035105b6b1036"
+  },
+  {
+    "output_rms_mv": 5.272461303361082e-13,
+    "output_max_mv": 6.7247337859248235e-12,
+    "peak_frequency_mhz": 428.5678571539663,
+    "peak_amplitude_mv": 4.1717279425430237e-13,
+    "candidate": "E",
+    "input_termination_ohm": null,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_E_open.cir",
+    "netlist_sha256": "2c7ce512397f47183c6279439d73be909714c3dd2b7ff8f95a103801ba6154e5",
+    "raw_sha256": "d38aeaf077df8989d1178d40ede369a98d6f3428b0f6a29c7e69f36a0739d65b",
+    "log_sha256": "57a66563b0b8d1d2d6a0567a33b3e7482d3cedf9242ba4f49ea44cdb8e1895f3"
+  },
+  {
+    "output_rms_mv": 5.428776141296241e-09,
+    "output_max_mv": 3.407454627778037e-08,
+    "peak_frequency_mhz": 0.009999950000092548,
+    "peak_amplitude_mv": 3.0190874168682142e-09,
+    "candidate": "E",
+    "input_termination_ohm": 1000.0,
+    "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM02_2_first_stage_20261113\\netlists\\stab_E_1000.cir",
+    "netlist_sha256": "29af5c6faf04a168ec198ced7e5cf759f99f3ece7482609806e738eeb0e1fb69",
+    "raw_sha256": "f96e71326e62c67ccbedd18c9bd7ee3da0f6316ba822830ebcc33978158a0c2c",
+    "log_sha256": "3dc16cae979320287839f2fc07f27c98076ed1ef8f6c1ad7933b9ac0dfaf85eb"
+  }
+]

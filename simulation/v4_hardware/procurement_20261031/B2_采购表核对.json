@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "scope": "Checks the B2 table against the drawing part data: B2 set size, B1 boundary, key-device pin maps, resistor quantities and catalogue numbers. Does not check stock or price.",
+  "b2_part_count": 46,
+  "b2_purchasable_count": 45,
+  "b1_refs_excluded": [
+    "CEXT",
+    "CFIX1",
+    "CFIX2",
+    "CK",
+    "COUT",
+    "CSEL",
+    "CT1",
+    "CT2",
+    "LSEL1",
+    "LSEL2",
+    "RMEAS",
+    "RPORT"
+  ],
+  "pin_maps": {
+    "U1": {
+      "expected": {
+        "3": "bbin",
+        "2": "neg",
+        "7": "vcc",
+        "4": "0",
+        "6": "bbo",
+        "1": "NC",
+        "5": "NC",
+        "8": "NC"
+      },
+      "actual": {
+        "3": "bbin",
+        "2": "neg",
+        "7": "vcc",
+        "4": "0",
+        "6": "bbo",
+        "1": "NC",
+        "5": "NC",
+        "8": "NC"
+      },
+      "match": true
+    },
+    "Q1": {
+      "expected": {
+        "3": "c1",
+        "2": "b1",
+        "1": "e1"
+      },
+      "actual": {
+        "3": "c1",
+        "2": "b1",
+        "1": "e1"
+      },
+      "match": true
+    },
+    "Q2": {
+      "expected": {
+        "3": "c2",
+        "2": "b2",
+        "1": "e2"
+      },
+      "actual": {
+        "3": "c2",
+        "2": "b2",
+        "1": "e2"
+      },
+      "match": true
+    },
+    "QBUF": {
+      "expected": {
+        "3": "vcc",
+        "2": "bb",
+        "1": "ee"
+      },
+      "actual": {
+        "3": "vcc",
+        "2": "bb",
+        "1": "ee"
+      },
+      "match": true
+    },
+    "DDET": {
+      "expected": {
+        "2": "an",
+        "1": "det"
+      },
+      "actual": {
+        "2": "an",
+        "1": "det"
+      },
+      "match": true
+    }
+  },
+  "resistor_quantities": {
+    "33": {
+      "drawing_qty": 2,
+      "table_qty": 2
+    },
+    "100": {
+      "drawing_qty": 1,
+      "table_qty": 1
+    },
+    "220": {
+      "drawing_qty": 2,
+      "table_qty": 2
+    },
+    "470": {
+      "drawing_qty": 1,
+      "table_qty": 1
+    },
+    "1000": {
+      "drawing_qty": 3,
+      "table_qty": 3
+    },
+    "4700": {
+      "drawing_qty": 4,
+      "table_qty": 4
+    },
+    "10000": {
+      "drawing_qty": 4,
+      "table_qty": 4
+    },
+    "20000": {
+      "drawing_qty": 1,
+      "table_qty": 1
+    },
+    "22000": {
+      "drawing_qty": 2,
+      "table_qty": 2
+    },
+    "100000": {
+      "drawing_qty": 1,
+      "table_qty": 1
+    },
+    "210000": {
+      "drawing_qty": 1,
+      "table_qty": 1
+    }
+  },
+  "errors": []
+}

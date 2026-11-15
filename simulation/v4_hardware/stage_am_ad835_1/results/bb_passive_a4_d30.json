@@ -1,0 +1,23 @@
+{
+  "name": "bb_passive_a4_d30",
+  "amplitude_setting": 4,
+  "duty_setting": 30,
+  "topology": "passive",
+  "x_fixture_current_a": 1e-05,
+  "vm_low": 0.06500213258859525,
+  "vm_high": 3.9411351682150206,
+  "x_low": -0.518174776076025,
+  "x_high": -0.11118080733745284,
+  "target_x_low": -0.41317477607819747,
+  "target_x_high": -0.0061808073374227945,
+  "plateau_max_error_v": 0.10504151836565273,
+  "settling_1pct_own_plateau_s": 2.1e-07,
+  "max_total_waveform_error_v": 0.18326244327343852,
+  "x_min": -0.518174777228981,
+  "x_max": -0.11118071119424146,
+  "source_mw": 19.19870225345023,
+  "positive_extra_mw": -0.0,
+  "negative_extra_mw": 0.18416185893827428,
+  "status": "REAL_LM393_AND_EXISTING_OPA197_MODEL_X_IS_RC_CURRENT_FIXTURE",
+  "netlist_sha256": "8e9b77f3dff419b83ffcc8cefae3e4213f0ef8f8820fe50e969301842d81c91f"
+}

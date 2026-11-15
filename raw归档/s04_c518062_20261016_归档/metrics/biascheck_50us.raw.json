@@ -1,0 +1,112 @@
+{
+ "variables": {
+  "n1": {
+   "min": 0.0,
+   "max": 5e-05,
+   "mean": 2.4953005186337362e-05,
+   "n": 25049,
+   "first_min": 0.0,
+   "first_max": 2.406168938404614e-06,
+   "first_mean": 1.171900043403451e-06,
+   "mid_min": 2.370016893840656e-05,
+   "mid_max": 2.620216893840781e-05,
+   "mid_mean": 2.495116893840718e-05,
+   "last_min": 4.749816893838966e-05,
+   "last_max": 5e-05,
+   "last_mean": 4.874916880345335e-05
+  },
+  "n2": {
+   "min": 0.0,
+   "max": 2.394778396005155,
+   "mean": 2.3649777231666493,
+   "n": 25049,
+   "first_min": 0.0,
+   "first_max": 2.394778396005155,
+   "first_mean": 1.7985508743069045,
+   "mid_min": 2.39477838770216,
+   "mid_max": 2.394778387771115,
+   "mid_mean": 2.3947783877366686,
+   "last_min": 2.394778387735841,
+   "last_max": 2.394778387737515,
+   "last_mean": 2.3947783877366757
+  },
+  "n3": {
+   "min": 0.0,
+   "max": 1.668042567253094,
+   "mean": 1.6435748561520527,
+   "n": 25049,
+   "first_min": 0.0,
+   "first_max": 1.668042567253094,
+   "first_mean": 1.178512561303673,
+   "mid_min": 1.668042561836792,
+   "mid_max": 1.668042561918475,
+   "mid_mean": 1.668042561877591,
+   "last_min": 1.668042561877029,
+   "last_max": 1.668042561878161,
+   "last_mean": 1.668042561877606
+  },
+  "n4": {
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0,
+   "n": 25049,
+   "first_min": 0.0,
+   "first_max": 0.0,
+   "first_mean": 0.0,
+   "mid_min": 0.0,
+   "mid_max": 0.0,
+   "mid_mean": 0.0,
+   "last_min": 0.0,
+   "last_max": 0.0,
+   "last_mean": 0.0
+  },
+  "n5": {
+   "min": 0.0,
+   "max": 0.001942703290058571,
+   "mean": 0.0018814439704045178,
+   "n": 25049,
+   "first_min": 0.0,
+   "first_max": 0.001942703290058571,
+   "first_mean": 0.001385487295493032,
+   "mid_min": 0.00190753681005876,
+   "mid_max": 0.001907537352084069,
+   "mid_mean": 0.0019075370810989524,
+   "last_min": 0.001907537076930685,
+   "last_max": 0.00190753708522637,
+   "last_mean": 0.0019075370810740116
+  },
+  "n6": {
+   "min": 0.0,
+   "max": 5.0,
+   "mean": 4.94414475753233,
+   "n": 25049,
+   "first_min": 0.0,
+   "first_max": 5.0,
+   "first_mean": 3.8824936353253428,
+   "mid_min": 5.0,
+   "mid_max": 5.0,
+   "mid_mean": 5.0,
+   "last_min": 5.0,
+   "last_max": 5.0,
+   "last_mean": 5.0
+  }
+ },
+ "meta": {
+  "file": "biascheck_50us.raw",
+  "title": "* Exploratory 5 V Colpitts; C518062 motional parameters NOT verified",
+  "date": "Fri Oct 16 19:15:22  2026",
+  "plotname": "Transient Analysis",
+  "flags": "real",
+  "n_points": 25049,
+  "n_variables": 6,
+  "sha256": "B6B841E6E7755FBE9F4BAC7C0C8F004E4064ADC26A63312E3D9C86DA3FEA3A87",
+  "size_bytes": 3796688,
+  "x_min": 0.0,
+  "x_max": 5e-05,
+  "is_ac": false
+ },
+ "plot_vars": [
+  "n1",
+  "n2"
+ ]
+}

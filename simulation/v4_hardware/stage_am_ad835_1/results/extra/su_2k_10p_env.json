@@ -1,0 +1,14 @@
+{
+  "name": "su_2k_10p",
+  "label": "original C4 (2k // 10p)",
+  "carrier_period_s": 3.2282032601636704e-08,
+  "envelope_window_s": 6.456406520327341e-06,
+  "cycles_per_window": 200,
+  "quantisation_bound_pct": 0.5,
+  "final_envelope_vpp": 1.974518120589249,
+  "peak_envelope_vpp": 2.4187924277892887,
+  "overshoot_pct": 22.500391491340487,
+  "steady_state_envelope_spread_pct": 1.9319783763106827e-10,
+  "run_seconds": 0.005,
+  "status": "STARTUP_ENVELOPE_CYCLE_ALIGNED_NO_AD835_MODEL"
+}

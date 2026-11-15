@@ -1,0 +1,40 @@
+{
+  "names": [
+    "full_a4_d50",
+    "fine_a4_d50_h025",
+    "fine_a4_d50_h0125"
+  ],
+  "tmax_ns": [
+    0.5,
+    0.25,
+    0.125
+  ],
+  "frequency_mid_hz": [
+    30979848.066409476,
+    30992815.79901423,
+    30997363.706823524
+  ],
+  "successive_shift_ratio": 2.8513622413916346,
+  "h2_extrapolated_hz_using_coarse_pair": 30997138.376549143,
+  "h2_extrapolated_hz_using_fine_pair": 30998879.67609329,
+  "extrapolation_is_not_measured_frequency": true,
+  "VH_relative_change_fine_vs_coarse_pct": -0.020627073618451064,
+  "VL_relative_change_fine_vs_coarse_pct": -0.015244682244142105,
+  "linear_oscillator_phase_error_diagnostic_not_hardware_measurement": [
+    {
+      "name": "full_a4_d50",
+      "time_weighted_h_eff_ns": 0.44120726016924455,
+      "linear_trap_phase_corrected_hz_estimate": 30998889.587659776
+    },
+    {
+      "name": "fine_a4_d50_h025",
+      "time_weighted_h_eff_ns": 0.2490906336955764,
+      "linear_trap_phase_corrected_hz_estimate": 30998892.619274534
+    },
+    {
+      "name": "fine_a4_d50_h0125",
+      "time_weighted_h_eff_ns": 0.12499760607560392,
+      "linear_trap_phase_corrected_hz_estimate": 30998894.639733996
+    }
+  ]
+}

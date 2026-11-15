@@ -1,0 +1,739 @@
+{
+  "CSEL": {
+    "ref": "CSEL",
+    "kind": "C",
+    "value": "15p",
+    "pins": {
+      "1": "input",
+      "2": "tank1"
+    },
+    "source": "CSEL",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CK": {
+    "ref": "CK",
+    "kind": "C",
+    "value": "2.4p",
+    "pins": {
+      "1": "tank1",
+      "2": "tank2"
+    },
+    "source": "CK",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "COUT": {
+    "ref": "COUT",
+    "kind": "C",
+    "value": "11p",
+    "pins": {
+      "1": "tank2",
+      "2": "port"
+    },
+    "source": "COUT",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RPORT": {
+    "ref": "RPORT",
+    "kind": "R",
+    "value": "1Meg",
+    "pins": {
+      "1": "port",
+      "2": "0"
+    },
+    "source": "RPORT",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "LSEL1": {
+    "ref": "LSEL1",
+    "kind": "L",
+    "value": "460n",
+    "pins": {
+      "1": "tank1",
+      "2": "0"
+    },
+    "source": "LSEL1",
+    "note": "RLOSS/CSELF并入实物线圈；端子编号为图纸自定义；安装方式未定",
+    "package": "Coilcraft 132-17L；落点9.16mm与手册3.96mm相差5.20mm，落孔方案待实物确认",
+    "group": "RX"
+  },
+  "LSEL2": {
+    "ref": "LSEL2",
+    "kind": "L",
+    "value": "460n",
+    "pins": {
+      "1": "tank2",
+      "2": "0"
+    },
+    "source": "LSEL2",
+    "note": "RLOSS/CSELF并入实物线圈；端子编号为图纸自定义；安装方式未定",
+    "package": "Coilcraft 132-17L；落点9.16mm与手册3.96mm相差5.20mm，落孔方案待实物确认",
+    "group": "RX"
+  },
+  "CIN1": {
+    "ref": "CIN1",
+    "kind": "C",
+    "value": "1n",
+    "pins": {
+      "1": "port",
+      "2": "b1"
+    },
+    "source": "CIN1",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RBT1": {
+    "ref": "RBT1",
+    "kind": "R",
+    "value": "22k",
+    "pins": {
+      "1": "vcc",
+      "2": "b1"
+    },
+    "source": "RBT1",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RBB1": {
+    "ref": "RBB1",
+    "kind": "R",
+    "value": "4.7k",
+    "pins": {
+      "1": "b1",
+      "2": "0"
+    },
+    "source": "RBB1",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "Q1": {
+    "ref": "Q1",
+    "kind": "Q",
+    "value": "2N3904",
+    "pins": {
+      "3": "c1",
+      "2": "b1",
+      "1": "e1"
+    },
+    "source": "Q1",
+    "note": "原整链网表",
+    "package": "onsemi 2N3904 TO-92 条件映射；实购厂牌待核实",
+    "group": "RX"
+  },
+  "RC1": {
+    "ref": "RC1",
+    "kind": "R",
+    "value": "1000",
+    "pins": {
+      "1": "vcc",
+      "2": "c1"
+    },
+    "source": "RC1",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "REU1": {
+    "ref": "REU1",
+    "kind": "R",
+    "value": "33",
+    "pins": {
+      "1": "e1",
+      "2": "eb1"
+    },
+    "source": "REU1",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "REB1": {
+    "ref": "REB1",
+    "kind": "R",
+    "value": "220",
+    "pins": {
+      "1": "eb1",
+      "2": "0"
+    },
+    "source": "REB1",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CEB1": {
+    "ref": "CEB1",
+    "kind": "C",
+    "value": "330p",
+    "pins": {
+      "1": "eb1",
+      "2": "0"
+    },
+    "source": "CEB1",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CIN2": {
+    "ref": "CIN2",
+    "kind": "C",
+    "value": "100p",
+    "pins": {
+      "1": "c1",
+      "2": "b2"
+    },
+    "source": "CIN2",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RBT2": {
+    "ref": "RBT2",
+    "kind": "R",
+    "value": "22k",
+    "pins": {
+      "1": "vcc",
+      "2": "b2"
+    },
+    "source": "RBT2",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RBB2": {
+    "ref": "RBB2",
+    "kind": "R",
+    "value": "4.7k",
+    "pins": {
+      "1": "b2",
+      "2": "0"
+    },
+    "source": "RBB2",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "Q2": {
+    "ref": "Q2",
+    "kind": "Q",
+    "value": "2N3904",
+    "pins": {
+      "3": "c2",
+      "2": "b2",
+      "1": "e2"
+    },
+    "source": "Q2",
+    "note": "原整链网表",
+    "package": "onsemi 2N3904 TO-92 条件映射；实购厂牌待核实",
+    "group": "RX"
+  },
+  "RC2": {
+    "ref": "RC2",
+    "kind": "R",
+    "value": "1000",
+    "pins": {
+      "1": "vcc",
+      "2": "c2"
+    },
+    "source": "RC2",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "REU2": {
+    "ref": "REU2",
+    "kind": "R",
+    "value": "33",
+    "pins": {
+      "1": "e2",
+      "2": "eb2"
+    },
+    "source": "REU2",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "REB2": {
+    "ref": "REB2",
+    "kind": "R",
+    "value": "220",
+    "pins": {
+      "1": "eb2",
+      "2": "0"
+    },
+    "source": "REB2",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CEB2": {
+    "ref": "CEB2",
+    "kind": "C",
+    "value": "330p",
+    "pins": {
+      "1": "eb2",
+      "2": "0"
+    },
+    "source": "CEB2",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CBUF": {
+    "ref": "CBUF",
+    "kind": "C",
+    "value": "100p",
+    "pins": {
+      "1": "c2",
+      "2": "bb"
+    },
+    "source": "CBUF",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RBTB": {
+    "ref": "RBTB",
+    "kind": "R",
+    "value": "10k",
+    "pins": {
+      "1": "vcc",
+      "2": "bb"
+    },
+    "source": "RBTB",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RBBB": {
+    "ref": "RBBB",
+    "kind": "R",
+    "value": "10k",
+    "pins": {
+      "1": "bb",
+      "2": "0"
+    },
+    "source": "RBBB",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "QBUF": {
+    "ref": "QBUF",
+    "kind": "Q",
+    "value": "2N3904",
+    "pins": {
+      "3": "vcc",
+      "2": "bb",
+      "1": "ee"
+    },
+    "source": "QBUF",
+    "note": "原整链网表",
+    "package": "onsemi 2N3904 TO-92 条件映射；实购厂牌待核实",
+    "group": "RX"
+  },
+  "REBUF": {
+    "ref": "REBUF",
+    "kind": "R",
+    "value": "470",
+    "pins": {
+      "1": "ee",
+      "2": "0"
+    },
+    "source": "REBUF",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "COBUF": {
+    "ref": "COBUF",
+    "kind": "C",
+    "value": "1n",
+    "pins": {
+      "1": "ee",
+      "2": "rf"
+    },
+    "source": "COBUF",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RRF": {
+    "ref": "RRF",
+    "kind": "R",
+    "value": "1000",
+    "pins": {
+      "1": "rf",
+      "2": "0"
+    },
+    "source": "RRF",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RCONNECT": {
+    "ref": "RCONNECT",
+    "kind": "W",
+    "value": "wire / model 0.1R",
+    "pins": {
+      "1": "rf",
+      "2": "an"
+    },
+    "source": "RCONNECT",
+    "note": "0.1Ω是连接等效；用短连线实现，不作为独立电阻采购",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "DDET": {
+    "ref": "DDET",
+    "kind": "D",
+    "value": "BAT85",
+    "pins": {
+      "2": "an",
+      "1": "det"
+    },
+    "source": "XDET",
+    "note": "XDET参数1=A/物理2；参数2=K/物理1；色环接det",
+    "package": "Nexperia BAT85 SOD68/DO-34；采购待确认",
+    "group": "RX"
+  },
+  "RDET": {
+    "ref": "RDET",
+    "kind": "R",
+    "value": "4700",
+    "pins": {
+      "1": "det",
+      "2": "0"
+    },
+    "source": "RDET",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CDET": {
+    "ref": "CDET",
+    "kind": "C",
+    "value": "100p",
+    "pins": {
+      "1": "det",
+      "2": "0"
+    },
+    "source": "CDET",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RFILT": {
+    "ref": "RFILT",
+    "kind": "R",
+    "value": "4700",
+    "pins": {
+      "1": "det",
+      "2": "out"
+    },
+    "source": "RFILT",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CFILT": {
+    "ref": "CFILT",
+    "kind": "C",
+    "value": "100p",
+    "pins": {
+      "1": "out",
+      "2": "0"
+    },
+    "source": "CFILT",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RVT": {
+    "ref": "RVT",
+    "kind": "R",
+    "value": "20k",
+    "pins": {
+      "1": "vcc",
+      "2": "ref"
+    },
+    "source": "RVT",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RVB": {
+    "ref": "RVB",
+    "kind": "R",
+    "value": "10k",
+    "pins": {
+      "1": "ref",
+      "2": "0"
+    },
+    "source": "RVB",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CVREF": {
+    "ref": "CVREF",
+    "kind": "P",
+    "value": "10u",
+    "pins": {
+      "1": "ref",
+      "2": "0"
+    },
+    "source": "CVREF",
+    "note": "10u ≥16V；正极ref，负极GND；ref不是GND",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CCOUP": {
+    "ref": "CCOUP",
+    "kind": "C",
+    "value": "100n",
+    "pins": {
+      "1": "out",
+      "2": "bbin"
+    },
+    "source": "CCOUP",
+    "note": "100n无极性；连接out与bbin，不能短接",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RBIAS": {
+    "ref": "RBIAS",
+    "kind": "R",
+    "value": "100k",
+    "pins": {
+      "1": "bbin",
+      "2": "ref"
+    },
+    "source": "RBIAS",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RG": {
+    "ref": "RG",
+    "kind": "R",
+    "value": "10k",
+    "pins": {
+      "1": "neg",
+      "2": "ref"
+    },
+    "source": "RG",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "RFB": {
+    "ref": "RFB",
+    "kind": "R",
+    "value": "210000",
+    "pins": {
+      "1": "bbo",
+      "2": "neg"
+    },
+    "source": "RFB",
+    "note": "210k 1%；可采购210k单件，未擅自改为其他增益",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "U1": {
+    "ref": "U1",
+    "kind": "U",
+    "value": "OPAx197",
+    "pins": {
+      "3": "bbin",
+      "2": "neg",
+      "7": "vcc",
+      "4": "0",
+      "6": "bbo",
+      "1": "NC",
+      "5": "NC",
+      "8": "NC"
+    },
+    "source": "XOPA",
+    "note": "不得套用SOT-23-5引脚；转接板映射待通断核实",
+    "package": "TI OPA197ID/IDR SOIC-8 + 逐脚直通转接板",
+    "group": "RX"
+  },
+  "ROUT": {
+    "ref": "ROUT",
+    "kind": "R",
+    "value": "100",
+    "pins": {
+      "1": "bbo",
+      "2": "final"
+    },
+    "source": "ROUT",
+    "note": "原整链网表",
+    "package": "轴向/径向尺寸待实购核实",
+    "group": "RX"
+  },
+  "CFIX1": {
+    "ref": "CFIX1",
+    "kind": "C",
+    "value": "30p",
+    "pins": {
+      "1": "tank1",
+      "2": "0"
+    },
+    "source": "CTUNE1",
+    "note": "固定段+微调；微调模型起点 10.609801788p；另含1pF布局寄生，实物按加载调谐",
+    "package": "C0G/NP0 ≥50V ±2%",
+    "group": "RX"
+  },
+  "CT1": {
+    "ref": "CT1",
+    "kind": "T",
+    "value": "2-18p",
+    "pins": {
+      "1": "tank1",
+      "2": "0"
+    },
+    "source": "CTUNE1",
+    "note": "固定段+微调；微调模型起点 10.609801788p；另含1pF布局寄生，实物按加载调谐",
+    "package": "Vishay BFC280905217；图纸1=S定片/2=R动片；孔距5.08mm；孔径待实物（手册矛盾）",
+    "group": "RX"
+  },
+  "CFIX2": {
+    "ref": "CFIX2",
+    "kind": "C",
+    "value": "39p",
+    "pins": {
+      "1": "tank2",
+      "2": "0"
+    },
+    "source": "CTUNE2",
+    "note": "固定段+微调；微调模型起点 7.1490753446p；另含1pF布局寄生，实物按加载调谐",
+    "package": "C0G/NP0 ≥50V ±2%",
+    "group": "RX"
+  },
+  "CT2": {
+    "ref": "CT2",
+    "kind": "T",
+    "value": "2-18p",
+    "pins": {
+      "1": "tank2",
+      "2": "0"
+    },
+    "source": "CTUNE2",
+    "note": "固定段+微调；微调模型起点 7.1490753446p；另含1pF布局寄生，实物按加载调谐",
+    "package": "Vishay BFC280905217；图纸1=S定片/2=R动片；孔距5.08mm；孔径待实物（手册矛盾）",
+    "group": "RX"
+  },
+  "CDQ1": {
+    "ref": "CDQ1",
+    "kind": "C",
+    "value": "100n",
+    "pins": {
+      "1": "vcc",
+      "2": "0"
+    },
+    "source": "S05-10 实物配套",
+    "note": "新增电源去耦；不在原整链模型内，未声称仿真覆盖",
+    "package": "≥16V；CPWR正极接vcc；100n紧靠有源器件",
+    "group": "DECOUPLING"
+  },
+  "CDQ2": {
+    "ref": "CDQ2",
+    "kind": "C",
+    "value": "100n",
+    "pins": {
+      "1": "vcc",
+      "2": "0"
+    },
+    "source": "S05-10 实物配套",
+    "note": "新增电源去耦；不在原整链模型内，未声称仿真覆盖",
+    "package": "≥16V；CPWR正极接vcc；100n紧靠有源器件",
+    "group": "DECOUPLING"
+  },
+  "CDBUF": {
+    "ref": "CDBUF",
+    "kind": "C",
+    "value": "100n",
+    "pins": {
+      "1": "vcc",
+      "2": "0"
+    },
+    "source": "S05-10 实物配套",
+    "note": "新增电源去耦；不在原整链模型内，未声称仿真覆盖",
+    "package": "≥16V；CPWR正极接vcc；100n紧靠有源器件",
+    "group": "DECOUPLING"
+  },
+  "CDU1": {
+    "ref": "CDU1",
+    "kind": "C",
+    "value": "100n",
+    "pins": {
+      "1": "vcc",
+      "2": "0"
+    },
+    "source": "S05-10 实物配套",
+    "note": "新增电源去耦；不在原整链模型内，未声称仿真覆盖",
+    "package": "≥16V；CPWR正极接vcc；100n紧靠有源器件",
+    "group": "DECOUPLING"
+  },
+  "CPWR": {
+    "ref": "CPWR",
+    "kind": "P",
+    "value": "10u",
+    "pins": {
+      "1": "vcc",
+      "2": "0"
+    },
+    "source": "S05-10 实物配套",
+    "note": "新增电源去耦；不在原整链模型内，未声称仿真覆盖",
+    "package": "≥16V；CPWR正极接vcc；100n紧靠有源器件",
+    "group": "DECOUPLING"
+  },
+  "JRF": {
+    "ref": "JRF",
+    "kind": "J",
+    "value": "RF IN",
+    "pins": {
+      "1": "input",
+      "2": "0"
+    },
+    "source": "接口",
+    "note": "焊盘/短接线接口，RF口用短同轴与相邻地",
+    "package": "具体接头待核实，图纸编号1=信号/正，2=地",
+    "group": "INTERFACE"
+  },
+  "JPOWER": {
+    "ref": "JPOWER",
+    "kind": "J",
+    "value": "9 V",
+    "pins": {
+      "1": "vcc",
+      "2": "0"
+    },
+    "source": "接口",
+    "note": "焊盘/短接线接口，RF口用短同轴与相邻地",
+    "package": "具体接头待核实，图纸编号1=信号/正，2=地",
+    "group": "INTERFACE"
+  },
+  "JOUT": {
+    "ref": "JOUT",
+    "kind": "J",
+    "value": "BASEBAND",
+    "pins": {
+      "1": "final",
+      "2": "0"
+    },
+    "source": "接口",
+    "note": "焊盘/短接线接口，RF口用短同轴与相邻地",
+    "package": "具体接头待核实，图纸编号1=信号/正，2=地",
+    "group": "INTERFACE"
+  }
+}

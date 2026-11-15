@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/mnt/d/实验报告文件夹/电路2/output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch</source>
+    <date>2026-10-31T01:44:19+0800</date>
+    <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>02_lc_module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CEXT1">
+      <value>TBD / budget</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>699141fe-135c-595f-ab17-5b833002286e</tstamps>
+    </comp>
+    <comp ref="CFIX1">
+      <value>30p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4717d286-17c3-50ea-8f8e-f8b3538708d5</tstamps>
+    </comp>
+    <comp ref="CFIX2">
+      <value>39p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a77a72c8-305d-5418-a2e7-a8076a489d52</tstamps>
+    </comp>
+    <comp ref="CK1">
+      <value>2.4p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_h" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3738f20-d2f9-5fcf-8466-a9ab61e3846b</tstamps>
+    </comp>
+    <comp ref="COUT1">
+      <value>11p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_h" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d84238ff-3718-5787-a741-3661d79d86c5</tstamps>
+    </comp>
+    <comp ref="CSEL1">
+      <value>15p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="C_h" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a0713a5-9e8c-5feb-906d-eaa1b9e89d09</tstamps>
+    </comp>
+    <comp ref="CT1">
+      <value>2-18p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="T_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6cb6e34-a071-5692-9bfa-be20849431de</tstamps>
+    </comp>
+    <comp ref="CT2">
+      <value>2-18p</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="T_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>827abbfb-49ce-5104-8e92-82d1b3fc13db</tstamps>
+    </comp>
+    <comp ref="JRF1">
+      <value>RF IN</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="J_h" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e28c1c1-315e-5f30-aafd-0b5330aaf261</tstamps>
+    </comp>
+    <comp ref="LSEL1">
+      <value>460n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="L_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f00695a8-62e3-5304-bcb8-44a71be72e91</tstamps>
+    </comp>
+    <comp ref="LSEL2">
+      <value>460n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="L_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f28c17f4-3ef0-5cb7-afb8-592efc03928d</tstamps>
+    </comp>
+    <comp ref="RMEAS1">
+      <value>953</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="R_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1c58676-8c2c-5dda-89a3-0f56960466c0</tstamps>
+    </comp>
+    <comp ref="RPORT1">
+      <value>1Meg</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="S05" part="R_v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="output/pdf/S05_A_G22_施工图_20261030/kicad/02_lc_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ab6b43d-61bd-5fdd-92ce-b7a2cbcaa1b8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="S05" part="C_h">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">C_h</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="C_v">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">C_v</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="J_h">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">J_h</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG/+" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="L_v">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">L_v</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="R_v">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">R_v</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S05" part="T_v">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">T_v</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="R" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="S05">
+      <uri>/home/xin/.config/kicad/8.0/S05.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/0">
+      <node ref="CEXT1" pin="2" pintype="passive"/>
+      <node ref="CFIX1" pin="2" pintype="passive"/>
+      <node ref="CFIX2" pin="2" pintype="passive"/>
+      <node ref="CT1" pin="2" pinfunction="R" pintype="passive"/>
+      <node ref="CT2" pin="2" pinfunction="R" pintype="passive"/>
+      <node ref="JRF1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="LSEL1" pin="2" pintype="passive"/>
+      <node ref="LSEL2" pin="2" pintype="passive"/>
+      <node ref="RMEAS1" pin="2" pintype="passive"/>
+      <node ref="RPORT1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/input">
+      <node ref="CSEL1" pin="1" pintype="passive"/>
+      <node ref="JRF1" pin="1" pinfunction="SIG/+" pintype="passive"/>
+    </net>
+    <net code="3" name="/port">
+      <node ref="CEXT1" pin="1" pintype="passive"/>
+      <node ref="COUT1" pin="2" pintype="passive"/>
+      <node ref="RMEAS1" pin="1" pintype="passive"/>
+      <node ref="RPORT1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/tank1">
+      <node ref="CFIX1" pin="1" pintype="passive"/>
+      <node ref="CK1" pin="1" pintype="passive"/>
+      <node ref="CSEL1" pin="2" pintype="passive"/>
+      <node ref="CT1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="LSEL1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/tank2">
+      <node ref="CFIX2" pin="1" pintype="passive"/>
+      <node ref="CK1" pin="2" pintype="passive"/>
+      <node ref="COUT1" pin="1" pintype="passive"/>
+      <node ref="CT2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="LSEL2" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

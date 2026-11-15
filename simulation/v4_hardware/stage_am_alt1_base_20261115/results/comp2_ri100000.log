@@ -1,0 +1,34 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * base modulation isolated fixture; ideal rf source only
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vcc                                          5
+out                                          0
+vm                                   0.0748175
+mrftap                                       0
+mb                                    0.869888
+mc                                     4.52538
+me                                    0.224853
+tp3                                          0
+ob                                     2.07338
+oe                                     1.37061
+v3                                           0
+vmod#branch                        7.95071e-06
+vrf#branch                                   0
+vsup#branch                        -0.00496617
+
+ Reference value :  1.50000e-04 Reference value :  1.93792e-04 Reference value :  2.37060e-04 Reference value :  2.79357e-04
+No. of Data Rows : 307438
+binary raw file "comp2_ri100000.raw"
+ngspice-47 done

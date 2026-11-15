@@ -1,0 +1,50 @@
+Warning: singular matrix:  check node bo
+
+Note: Starting dynamic gmin stepping
+Warning: singular matrix:  check node bo
+
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: singular matrix:  check node bo
+
+Warning: singular matrix:  check node bo
+
+Warning: singular matrix:  check node bo
+
+Warning: singular matrix:  check node bo
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+Note: No compatibility mode selected!
+
+
+Circuit: * c3 numerical-consistency run: c4_trap_0p125n_2k_rtol1e5
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+v(b) = -1.99498e-08
+v(e) = -9.72306e-09
+v(bf) = -1.03454e-08
+v(ef) = 2.737924e-07
+v(bg) = 1.227588e-05
+v(eg) = 5.384887e-10
+v(cg) = -1.07530e-02
+@q1[ic] = -7.24201e-11
+@qb[ic] = -3.46989e-11
+@qg[ic] = 3.971655e-09
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  4.50000e-03 Reference value :  4.50676e-03 Reference value :  4.51482e-03 Reference value :  4.52226e-03 Reference value :  4.53083e-03 Reference value :  4.53836e-03 Reference value :  4.54513e-03 Reference value :  4.55260e-03 Reference value :  4.56040e-03 Reference value :  4.56832e-03 Reference value :  4.57617e-03 Reference value :  4.58415e-03 Reference value :  4.59137e-03 Reference value :  4.59869e-03 Reference value :  4.60522e-03 Reference value :  4.61319e-03 Reference value :  4.62104e-03 Reference value :  4.62732e-03 Reference value :  4.63535e-03 Reference value :  4.64279e-03 Reference value :  4.65123e-03 Reference value :  4.65846e-03 Reference value :  4.66436e-03 Reference value :  4.67205e-03 Reference value :  4.68023e-03 Reference value :  4.68780e-03 Reference value :  4.69596e-03 Reference value :  4.70319e-03 Reference value :  4.71054e-03 Reference value :  4.71751e-03 Reference value :  4.72571e-03 Reference value :  4.73444e-03 Reference value :  4.74300e-03 Reference value :  4.75160e-03 Reference value :  4.76002e-03 Reference value :  4.76888e-03 Reference value :  4.77737e-03 Reference value :  4.78520e-03 Reference value :  4.79282e-03 Reference value :  4.80174e-03 Reference value :  4.80980e-03 Reference value :  4.81791e-03 Reference value :  4.82615e-03 Reference value :  4.83394e-03 Reference value :  4.84127e-03 Reference value :  4.84933e-03 Reference value :  4.85753e-03 Reference value :  4.86434e-03 Reference value :  4.87171e-03 Reference value :  4.87757e-03 Reference value :  4.88685e-03 Reference value :  4.89554e-03 Reference value :  4.90348e-03 Reference value :  4.91212e-03 Reference value :  4.92075e-03 Reference value :  4.92822e-03 Reference value :  4.93556e-03 Reference value :  4.94090e-03 Reference value :  4.94755e-03 Reference value :  4.95578e-03 Reference value :  4.96386e-03 Reference value :  4.97233e-03 Reference value :  4.98076e-03 Reference value :  4.98809e-03 Reference value :  4.99503e-03
+No. of Data Rows : 2000001
+binary raw file "float_10n_1k.raw"
+ngspice-47 done

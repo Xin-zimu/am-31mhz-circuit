@@ -1,0 +1,72 @@
+[
+  {
+    "config": "S1_EF_CE",
+    "topology": "S1",
+    "gain_31_db": 22.59,
+    "gain_31m20k_db": 22.59,
+    "gain_31p20k_db": 22.59,
+    "f_peak_mhz": 26.71,
+    "zin_real": -87.7,
+    "zin_imag": -264.9,
+    "zin_equiv_pf": 19.4,
+    "v_ca_dc": 5.0,
+    "v_e_dc": 0.699,
+    "vce_v": 4.301
+  },
+  {
+    "config": "S2_CE_tank",
+    "topology": "S2",
+    "gain_31_db": 32.48,
+    "gain_31m20k_db": 32.48,
+    "gain_31p20k_db": 32.48,
+    "f_peak_mhz": 29.99,
+    "zin_real": 3.7,
+    "zin_imag": -7.3,
+    "zin_equiv_pf": 705.0,
+    "v_ca_dc": 5.0,
+    "v_e_dc": 0.699,
+    "vce_v": 4.301
+  },
+  {
+    "config": "S3_CE_RFC_EF",
+    "topology": "S3",
+    "gain_31_db": 43.69,
+    "gain_31m20k_db": 43.69,
+    "gain_31p20k_db": 43.69,
+    "f_peak_mhz": 26.71,
+    "zin_real": 12.1,
+    "zin_imag": -7.9,
+    "zin_equiv_pf": 648.3,
+    "v_ca_dc": 5.0,
+    "v_e_dc": 0.699,
+    "vce_v": 4.301
+  },
+  {
+    "config": "S4_cascode",
+    "topology": "S4",
+    "gain_31_db": 31.41,
+    "gain_31m20k_db": 31.41,
+    "gain_31p20k_db": 31.41,
+    "f_peak_mhz": 30.86,
+    "zin_real": -40.5,
+    "zin_imag": -132.1,
+    "zin_equiv_pf": 38.9,
+    "v_ca_dc": 5.0,
+    "v_e_dc": 1.23,
+    "vce_v": 3.77
+  },
+  {
+    "config": "S6_matched_CE",
+    "topology": "S6",
+    "gain_31_db": 18.53,
+    "gain_31m20k_db": 18.53,
+    "gain_31p20k_db": 18.53,
+    "f_peak_mhz": 25.95,
+    "zin_real": 721.0,
+    "zin_imag": -645.3,
+    "zin_equiv_pf": 8.0,
+    "v_ca_dc": 5.0,
+    "v_e_dc": 0.841,
+    "vce_v": 4.159
+  }
+]

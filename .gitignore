@@ -6,7 +6,14 @@
 # ============================================================
 
 # 大型波形/数组证据（可由 .cir+.cmd 重跑再生，或已有哈希台账）
+# 2026-11-16 归档口径：仿真 RAW 原始数据只留在本机，不随 GitHub 分发。
+#   - 大小写两种扩展名都显式列出：gitignore 在 Linux/macOS 上区分大小写，
+#     仅写 *.raw 不会在远端克隆环境里匹配 .RAW。
+#   - 对应证据以 SHA-256 清单 + metrics JSON + 汇总图 + 网表 + 分析脚本形式入库，
+#     例如 simulation/v4_hardware/stage_am_alt3_20261115/round2_20261116/
+#     results/evidence_sha256.json（52 项）与 frozen_sha256.json。
 *.raw
+*.RAW
 *.npz
 *.gra
 *.gra.xml
@@ -51,3 +58,10 @@ archive_*/
 Thumbs.db
 desktop.ini
 ~$*
+
+# 本机工具产物（2026-11-16）：演示工具与助手记忆，含本机绝对路径，无项目证据价值
+.slidep/
+.workbuddy/
+
+# 本机沙箱/权限恢复备份与临时提取物，不入库
+.tmp/

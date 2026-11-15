@@ -1,0 +1,8 @@
+﻿Ref,Frozen candidate,Optimized,Change reason
+R1,10 kΩ,2.2 kΩ,Reduce 31 MHz source impedance presented to Q1 from about 100 Ω to 10 Ω while keeping the TP2 input at 2.21 kΩ
+R2,100 Ω,10 Ω,Lower the Thevenin source impedance that drives Q1 base; removes current-dependent input division and gain compression at 10%/30% duty
+R9 / RBB,82 kΩ,62 kΩ,Restore 25% modulation index after RE and input-interface changes
+R6 / RE,470 Ω,1.2 kΩ,Reduce Q2 current excursion and linearize envelope step versus V1 over 1–4 Vpp at all duties
+C1,100 pF,1 nF C0G,Make the series reactance small compared with Q1 base impedance at 31 MHz, reducing input-division nonlinearity
+Other parts,—,—,No value change; Q1/Q2 and remaining R/C values retained
+Purchase status,—,Not purchased,Stage AM-01 forbids procurement; availability and stock are not claimed

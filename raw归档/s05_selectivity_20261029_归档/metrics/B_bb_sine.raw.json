@@ -1,0 +1,154 @@
+{
+ "variables": {
+  "yes": {
+   "min_db": 0.0,
+   "max_db": 0.0,
+   "mean_db": 0.0,
+   "span_db": 0.0,
+   "min_mag": 1.0,
+   "max_mag": 1.0,
+   "mean_mag": 1.0,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "false": {
+   "min_db": -600.0,
+   "max_db": -600.0,
+   "mean_db": -600.0,
+   "span_db": 0.0,
+   "min_mag": 0.0,
+   "max_mag": 0.0,
+   "mean_mag": 0.0,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "true": {
+   "min_db": 0.0,
+   "max_db": 0.0,
+   "mean_db": 0.0,
+   "span_db": 0.0,
+   "min_mag": 1.0,
+   "max_mag": 1.0,
+   "mean_mag": 1.0,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "boltz": {
+   "min_db": -457.1983373661947,
+   "max_db": -457.1983373661947,
+   "mean_db": -457.1983373661947,
+   "span_db": 0.0,
+   "min_mag": 1.38064852e-23,
+   "max_mag": 1.38064852e-23,
+   "mean_mag": 1.38064852e-23,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "c": {
+   "min_db": 169.53641405855853,
+   "max_db": 169.53641405855853,
+   "mean_db": 169.53641405855853,
+   "span_db": 0.0,
+   "min_mag": 299792458.0,
+   "max_mag": 299792458.0,
+   "mean_mag": 299792458.0,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "e": {
+   "min_db": 8.685889638065037,
+   "max_db": 8.685889638065037,
+   "mean_db": 8.685889638065037,
+   "span_db": 0.0,
+   "min_mag": 2.718281828459045,
+   "max_mag": 2.718281828459045,
+   "mean_mag": 2.718281828459045,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "echarge": {
+   "min_db": -375.90579219686157,
+   "max_db": -375.90579219686157,
+   "mean_db": -375.90579219686157,
+   "span_db": 0.0,
+   "min_mag": 1.6021766207999999e-19,
+   "max_mag": 1.6021766207999999e-19,
+   "mean_mag": 1.6021766207999999e-19,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "i": {
+   "min_db": 0.0,
+   "max_db": 0.0,
+   "mean_db": 0.0,
+   "span_db": 0.0,
+   "min_mag": 1.0,
+   "max_mag": 1.0,
+   "mean_mag": 1.0,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "kelvin": {
+   "min_db": 48.728024097012025,
+   "max_db": 48.728024097012025,
+   "mean_db": 48.728024097012025,
+   "span_db": 0.0,
+   "min_mag": 273.15,
+   "max_mag": 273.15,
+   "mean_mag": 273.15,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "no": {
+   "min_db": -600.0,
+   "max_db": -600.0,
+   "mean_db": -600.0,
+   "span_db": 0.0,
+   "min_mag": 0.0,
+   "max_mag": 0.0,
+   "mean_mag": 0.0,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "pi": {
+   "min_db": 9.942997453882677,
+   "max_db": 9.942997453882677,
+   "mean_db": 9.942997453882677,
+   "span_db": 0.0,
+   "min_mag": 3.141592653589793,
+   "max_mag": 3.141592653589793,
+   "mean_mag": 3.141592653589793,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  },
+  "planck": {
+   "min_db": -600.0,
+   "max_db": -600.0,
+   "mean_db": -600.0,
+   "span_db": 0.0,
+   "min_mag": 6.62607004e-34,
+   "max_mag": 6.62607004e-34,
+   "mean_mag": 6.62607004e-34,
+   "phase_span_deg": 0.0,
+   "n_points": 1
+  }
+ },
+ "meta": {
+  "file": "B_bb_sine.raw",
+  "title": "Constant values",
+  "date": "Aug 11 2026   13:55:25",
+  "plotname": "constants",
+  "flags": "complex",
+  "n_points": 1,
+  "n_variables": 12,
+  "sha256": "1DAF02F8C6531D2760303DBFC1A8D2D10005C5CAAF6608FA5EF06680550F4CB7",
+  "size_bytes": 557,
+  "x_min": 1.0,
+  "x_max": 1.0,
+  "is_ac": true
+ },
+ "plot_vars": [
+  "yes",
+  "false"
+ ]
+}

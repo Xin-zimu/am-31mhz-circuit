@@ -1,0 +1,18 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-02.3 stage s6 standalone
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 111
+binary raw file "s6_390_100.raw"
+ngspice-47 done

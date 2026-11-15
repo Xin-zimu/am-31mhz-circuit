@@ -1,0 +1,21 @@
+* NOT RUNNABLE. UNVERIFIED DESIGN CONNECTIONS ONLY. NO OFFICIAL MODEL.
+* Physical-pin adapter MUST be mapped after inspecting the official .SUBCKT.
+* Carrier source must provide a verified DC return and adequate current.
+* TP2 is AC coupled: do NOT connect it here blindly.
+XU1 rf 0 vn rf amout vp 0 x AD835_PHYSICAL_ADAPTER_TODO
+* Pins: Y1 Y2 VN Z W VP X2 X1 (physical order, NOT macro-model order).
+* Candidate A baseband summing network, buffered before X1:
+RM vm xsum 100k
+RN vn xsum 125k
+RG xsum 0 12.9469790395k
+* XBUF requires a verified unity follower, +/-5V, low input bias current.
+XBUF xsum x vp vn x BUFFER_MODEL_AND_PIN_MAP_TODO
+* VP/VN to be supplied by validated dual rails, each through an RF bead.
+* Bead models, capacitor ESR/ESL and PCB parasitics remain to be selected.
+CP1 vp 0 4.7u
+CP2 vp 0 10n
+CN1 0 vn 4.7u
+CN2 0 vn 10n
+RLOAD amout 0 50
+CLOAD amout 0 10p
+* No .include, no simulation command, no invented AD835 model.

@@ -1,0 +1,15 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * c3 numerical-consistency run: c4_trap_0p125n_2k_rtol1e5
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  1.85000e-03 Reference value :  1.85177e-03 Reference value :  1.85338e-03 Reference value :  1.85517e-03 Reference value :  1.85697e-03 Reference value :  1.85863e-03 Reference value :  1.86034e-03 Reference value :  1.86196e-03 Reference value :  1.86375e-03 Reference value :  1.86551e-03 Reference value :  1.86711e-03 Reference value :  1.86887e-03 Reference value :  1.87062e-03 Reference value :  1.87247e-03 Reference value :  1.87422e-03 Reference value :  1.87582e-03 Reference value :  1.87764e-03 Reference value :  1.87928e-03 Reference value :  1.88111e-03 Reference value :  1.88279e-03 Reference value :  1.88421e-03 Reference value :  1.88595e-03 Reference value :  1.88775e-03 Reference value :  1.88968e-03 Reference value :  1.89156e-03 Reference value :  1.89344e-03 Reference value :  1.89540e-03 Reference value :  1.89734e-03 Reference value :  1.89923e-03 Reference value :  1.90090e-03 Reference value :  1.90275e-03 Reference value :  1.90455e-03 Reference value :  1.90635e-03 Reference value :  1.90804e-03 Reference value :  1.90935e-03 Reference value :  1.91129e-03 Reference value :  1.91311e-03 Reference value :  1.91495e-03 Reference value :  1.91660e-03 Reference value :  1.91841e-03 Reference value :  1.92037e-03 Reference value :  1.92212e-03 Reference value :  1.92391e-03 Reference value :  1.92531e-03 Reference value :  1.92692e-03 Reference value :  1.92863e-03 Reference value :  1.93013e-03 Reference value :  1.93181e-03 Reference value :  1.93352e-03 Reference value :  1.93487e-03 Reference value :  1.93667e-03 Reference value :  1.93863e-03 Reference value :  1.94032e-03 Reference value :  1.94204e-03 Reference value :  1.94392e-03 Reference value :  1.94556e-03 Reference value :  1.94743e-03 Reference value :  1.94895e-03 Reference value :  1.95092e-03 Reference value :  1.95267e-03 Reference value :  1.95437e-03 Reference value :  1.95606e-03 Reference value :  1.95785e-03 Reference value :  1.95940e-03 Reference value :  1.96105e-03 Reference value :  1.96283e-03 Reference value :  1.96474e-03 Reference value :  1.96676e-03 Reference value :  1.96865e-03 Reference value :  1.97065e-03 Reference value :  1.97250e-03 Reference value :  1.97454e-03 Reference value :  1.97646e-03 Reference value :  1.97836e-03 Reference value :  1.98028e-03 Reference value :  1.98217e-03 Reference value :  1.98386e-03 Reference value :  1.98567e-03 Reference value :  1.98744e-03 Reference value :  1.98920e-03 Reference value :  1.99094e-03 Reference value :  1.99267e-03 Reference value :  1.99431e-03 Reference value :  1.99593e-03 Reference value :  1.99762e-03 Reference value :  1.99930e-03
+No. of Data Rows : 1200206
+binary raw file "coupled_filter_d50_fine.raw"
+ngspice-47 done

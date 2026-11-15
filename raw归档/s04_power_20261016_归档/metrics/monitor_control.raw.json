@@ -1,0 +1,67 @@
+{
+ "variables": {
+  "n1": {
+   "min": 0.0,
+   "max": 2e-08,
+   "mean": 7.292275862068966e-09,
+   "n": 29,
+   "first_min": 0.0,
+   "first_max": 0.0,
+   "first_mean": 0.0,
+   "mid_min": 5.024e-09,
+   "mid_max": 6.024e-09,
+   "mid_mean": 5.524e-09,
+   "last_min": 2e-08,
+   "last_max": 2e-08,
+   "last_mean": 2e-08
+  },
+  "n2": {
+   "min": 0.005,
+   "max": 0.005,
+   "mean": 0.005000000000000001,
+   "n": 29,
+   "first_min": 0.005,
+   "first_max": 0.005,
+   "first_mean": 0.005,
+   "mid_min": 0.005,
+   "mid_max": 0.005,
+   "mid_mean": 0.005,
+   "last_min": 0.005,
+   "last_max": 0.005,
+   "last_mean": 0.005
+  },
+  "n3": {
+   "min": 5.0,
+   "max": 5.0,
+   "mean": 5.0,
+   "n": 29,
+   "first_min": 5.0,
+   "first_max": 5.0,
+   "first_mean": 5.0,
+   "mid_min": 5.0,
+   "mid_max": 5.0,
+   "mid_mean": 5.0,
+   "last_min": 5.0,
+   "last_max": 5.0,
+   "last_mean": 5.0
+  }
+ },
+ "meta": {
+  "file": "monitor_control.raw",
+  "title": "* Current monitor polarity and scale control",
+  "date": "Fri Oct 16 17:18:16  2026",
+  "plotname": "Transient Analysis",
+  "flags": "real",
+  "n_points": 29,
+  "n_variables": 3,
+  "sha256": "039FE757765C148FB3131914B1D159E9F8B31DB7FA49BBFD04C9F7090D7265B2",
+  "size_bytes": 2468,
+  "x_min": 0.0,
+  "x_max": 2e-08,
+  "is_ac": false
+ },
+ "plot_vars": [
+  "n1",
+  "n2"
+ ]
+}

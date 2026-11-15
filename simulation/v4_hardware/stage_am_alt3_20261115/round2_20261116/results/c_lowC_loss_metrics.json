@@ -1,0 +1,261 @@
+{
+  "case": {
+    "c": 6,
+    "q": 30,
+    "retune": true,
+    "step_ns": 0.25,
+    "C_pF": 6,
+    "L_uH": 4.393044729549851,
+    "RANT_ohm": 33.746391235106685,
+    "fixture_only": true
+  },
+  "metrics": {
+    "design_only": true,
+    "measured_antenna_parameters": false,
+    "window_s": [
+      0.0018905287260704287,
+      0.0019905383980113153
+    ],
+    "modulation_cycles": 2,
+    "carrier_Hz": 30992717.107907735,
+    "carrier_fit_success": true,
+    "total_time_weighted_rms_mA": 3.2526319289521366,
+    "carrier_fundamental_rms_mA": 3.1180665248227823,
+    "high_plateau_median_peak_mA": 5.73332364490808,
+    "low_plateau_median_peak_mA": 3.2503762181720384,
+    "high_plateau_sine_equivalent_rms_mA": 4.054072028051677,
+    "high_plateau_fundamental_rms_mA": 4.045752146322589,
+    "low_plateau_fundamental_rms_mA": 2.2916182700300243,
+    "plateau_fundamental_rms_samples_mA": {
+      "high": [
+        4.045628809775427,
+        4.045875482869751
+      ],
+      "low": [
+        2.291575887880781,
+        2.2916606521792677
+      ]
+    },
+    "full_window_peak_mA": 5.75622269897947,
+    "modulation_index": 0.2763836130523563,
+    "minimum_QCE_VCE_V": 0.1656326477720617,
+    "minimum_QEF_VCE_V": 1.2530700785858886,
+    "rf_supply_average_mA": 22.27383202932963,
+    "baseband_supply_average_mA": 3.478251632544,
+    "simulated_supply_power_mW": 128.76041830936816,
+    "battery_budget_mW": 303.76875295686267,
+    "sense_resistor_power_mW": 0.10579614465238897,
+    "assumptions": {
+      "c": 6,
+      "q": 30,
+      "retune": true,
+      "step_ns": 0.25,
+      "C_pF": 6,
+      "L_uH": 4.393044729549851,
+      "RANT_ohm": 33.746391235106685,
+      "fixture_only": true
+    },
+    "metric_notes": "Carrier: time-weighted sine/cosine/DC least-squares fit. Plateau RMS is sine-equivalent of median RF peaks, not a spectral RMS. Stable window only; no startup verdict."
+  },
+  "diagnostics": {
+    "plateaus": {
+      "high": [
+        {
+          "QCE_bc_max_V": -1.6171774311167453,
+          "QCE_be_min_V": 0.6606493373015674,
+          "carrier_from_zero_crossing_regression_Hz": 30992775.32747013,
+          "QCE_min_VCE_V": 2.3006093952398987,
+          "fraction_bc_positive_be_positive": 0.0,
+          "fraction_bc_above_0p1": 0.0,
+          "QCE_mean_ic_mA": 1.5834432763315354,
+          "ce_fundamental_gain": 18.91680097505444,
+          "total_transconductance_A_per_V": 0.3965779382738693,
+          "spectra": {
+            "v(tp3)": {
+              "dc": -6.393987072465923e-05,
+              "fundamental_rms": 0.010201309330944488,
+              "thd_2_to_5_pct": 3.400725269617992
+            },
+            "v(drv_b)": {
+              "dc": 0.9128947983228898,
+              "fundamental_rms": 0.010162401302321962,
+              "thd_2_to_5_pct": 3.37839742382533
+            },
+            "v(drv_c)": {
+              "dc": 2.9359423704159795,
+              "fundamental_rms": 0.1922401228646586,
+              "thd_2_to_5_pct": 8.044426773760623
+            },
+            "v(ef_e)": {
+              "dc": 2.20798010239252,
+              "fundamental_rms": 0.17702903425050445,
+              "thd_2_to_5_pct": 7.874889130999703
+            },
+            "i(ltune)": {
+              "dc": 3.573276764696143e-08,
+              "fundamental_rms": 0.00404561422215995,
+              "thd_2_to_5_pct": 0.2670381269759875
+            }
+          }
+        },
+        {
+          "QCE_bc_max_V": -1.6176633033768697,
+          "QCE_be_min_V": 0.6606488048952972,
+          "carrier_from_zero_crossing_regression_Hz": 30992775.661598828,
+          "QCE_min_VCE_V": 2.301012239875512,
+          "fraction_bc_positive_be_positive": 0.0,
+          "fraction_bc_above_0p1": 0.0,
+          "QCE_mean_ic_mA": 1.583457587889539,
+          "ce_fundamental_gain": 18.914299095434412,
+          "total_transconductance_A_per_V": 0.3965822247107627,
+          "spectra": {
+            "v(tp3)": {
+              "dc": -6.414386665729926e-05,
+              "fundamental_rms": 0.01020183921330623,
+              "thd_2_to_5_pct": 3.4050752563632796
+            },
+            "v(drv_b)": {
+              "dc": 0.9128945844378413,
+              "fundamental_rms": 0.010162966739021029,
+              "thd_2_to_5_pct": 3.382447562739484
+            },
+            "v(drv_c)": {
+              "dc": 2.935942447805509,
+              "fundamental_rms": 0.19222539259879548,
+              "thd_2_to_5_pct": 8.021106209030805
+            },
+            "v(ef_e)": {
+              "dc": 2.2079803275103282,
+              "fundamental_rms": 0.17701285654110346,
+              "thd_2_to_5_pct": 7.8490899797877365
+            },
+            "i(ltune)": {
+              "dc": 4.4039543369719564e-08,
+              "fundamental_rms": 0.0040458680913544815,
+              "thd_2_to_5_pct": 0.2670535286010485
+            }
+          }
+        }
+      ],
+      "low": [
+        {
+          "QCE_bc_max_V": -1.8815958533404893,
+          "QCE_be_min_V": 0.6646926445052435,
+          "carrier_from_zero_crossing_regression_Hz": 30992832.6073708,
+          "QCE_min_VCE_V": 2.5613821478781906,
+          "fraction_bc_positive_be_positive": 0.0,
+          "fraction_bc_above_0p1": 0.0,
+          "QCE_mean_ic_mA": 1.54473046337195,
+          "ce_fundamental_gain": 18.97970525498746,
+          "total_transconductance_A_per_V": 0.40106068621930463,
+          "spectra": {
+            "v(tp3)": {
+              "dc": 0.00014920214568150237,
+              "fundamental_rms": 0.005716941502086128,
+              "thd_2_to_5_pct": 3.053806280821835
+            },
+            "v(drv_b)": {
+              "dc": 0.9125528868827052,
+              "fundamental_rms": 0.0056949448662974,
+              "thd_2_to_5_pct": 3.0284478115536353
+            },
+            "v(drv_c)": {
+              "dc": 2.983384871843913,
+              "fundamental_rms": 0.10808837500572863,
+              "thd_2_to_5_pct": 7.112038987232854
+            },
+            "v(ef_e)": {
+              "dc": 2.2525171852488577,
+              "fundamental_rms": 0.10023594039335308,
+              "thd_2_to_5_pct": 7.187690892411602
+            },
+            "i(ltune)": {
+              "dc": -5.724541428899024e-08,
+              "fundamental_rms": 0.0022928404819022846,
+              "thd_2_to_5_pct": 0.2437371486817135
+            }
+          }
+        },
+        {
+          "QCE_bc_max_V": -1.8815823131505223,
+          "QCE_be_min_V": 0.6647081722522202,
+          "carrier_from_zero_crossing_regression_Hz": 30992831.831986062,
+          "QCE_min_VCE_V": 2.561369082912732,
+          "fraction_bc_positive_be_positive": 0.0,
+          "fraction_bc_above_0p1": 0.0,
+          "QCE_mean_ic_mA": 1.5448066495146442,
+          "ce_fundamental_gain": 18.994633102983,
+          "total_transconductance_A_per_V": 0.4010641905252182,
+          "spectra": {
+            "v(tp3)": {
+              "dc": 0.0001492209747306701,
+              "fundamental_rms": 0.0057171034171026505,
+              "thd_2_to_5_pct": 3.049772835284913
+            },
+            "v(drv_b)": {
+              "dc": 0.9125528892447069,
+              "fundamental_rms": 0.005695087023916913,
+              "thd_2_to_5_pct": 3.025242217995169
+            },
+            "v(drv_c)": {
+              "dc": 2.983383879236875,
+              "fundamental_rms": 0.10817608850886112,
+              "thd_2_to_5_pct": 7.134327538864251
+            },
+            "v(ef_e)": {
+              "dc": 2.252516492052033,
+              "fundamental_rms": 0.10032310564759406,
+              "thd_2_to_5_pct": 7.215119503111851
+            },
+            "i(ltune)": {
+              "dc": -5.726089564111516e-08,
+              "fundamental_rms": 0.0022929254541292333,
+              "thd_2_to_5_pct": 0.2438492572334805
+            }
+          }
+        }
+      ]
+    },
+    "ce_gain_high_vs_low_dB": -0.03282491239456174,
+    "transition_diagnostics": {
+      "saturation_time_fraction": 0.00874799215467505,
+      "maximum_VBC_V": 0.5352983395994935,
+      "minimum_VCE_offset_from_nearest_edge_us": 0.39501708223041787,
+      "longest_contiguous_saturation_ns": 411.0060370554787,
+      "edge_metrics": [
+        {
+          "edge": "fall",
+          "minimum_complete_cycle_peak_mA": 0.020195263809485876,
+          "maximum_complete_cycle_peak_mA": 5.754776680527644,
+          "last_outside_2pct_us": 2.743044143984838,
+          "observation_window_us": 8
+        },
+        {
+          "edge": "rise",
+          "minimum_complete_cycle_peak_mA": 3.0494809200832647,
+          "maximum_complete_cycle_peak_mA": 5.739719585537142,
+          "last_outside_2pct_us": 1.198354968162934,
+          "observation_window_us": 8
+        },
+        {
+          "edge": "fall",
+          "minimum_complete_cycle_peak_mA": 0.020664367616363425,
+          "maximum_complete_cycle_peak_mA": 5.75622269897947,
+          "last_outside_2pct_us": 2.749695694423751,
+          "observation_window_us": 8
+        }
+      ],
+      "at_minimum_VCE": {
+        "time": 0.001915927391773563,
+        "v(tp3)": 0.031980363619398794,
+        "v(drv_b)": 0.9433484963710623,
+        "v(drv_e)": 0.24286870760705273,
+        "v(drv_c)": 0.4085013553791144,
+        "v(ef_e)": 0.011868517669056444,
+        "i(@qce[ic])": 0.003667880542604063,
+        "i(@qef[ic])": 7.525513979405754e-08
+      }
+    },
+    "interpretation": "Gain ratio across two AM plateaus, not a small-signal P1dB sweep. BC/BE simultaneous forward bias plus gain change and THD diagnose saturation/compression."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "design_only": true,
+  "not_a_measurement": true,
+  "probe_loading": [
+    {
+      "node": "antenna feed (high-Z)",
+      "probe_impedance_ohm": 320.87690139495027,
+      "antecedent_impedance_ohm": 576.0159791674189,
+      "distortion": "adds 16 pF to a 8.91 pF antenna (+180%), resonance moves from 31.0 to 18.5 MHz",
+      "acceptable": false
+    },
+    {
+      "node": "sense resistor (10 ohm)",
+      "probe_impedance_ohm": 320.87690139495027,
+      "antecedent_impedance_ohm": 10.0,
+      "distortion": "10 ohm || 321 ohm = 9.70 ohm (-3.0%)",
+      "acceptable": true
+    }
+  ],
+  "tuning_range": {
+    "rows": [
+      {
+        "C_ant_pF": 6.0,
+        "X_ohm": -855.6717370532007,
+        "L_required_uH": 4.3930447295498505
+      },
+      {
+        "C_ant_pF": 8.913,
+        "X_ohm": -576.0159791674189,
+        "L_required_uH": 2.9572835607875136
+      },
+      {
+        "C_ant_pF": 12.0,
+        "X_ohm": -427.83586852660034,
+        "L_required_uH": 2.1965223647749252
+      }
+    ],
+    "L_min_uH": 2.1965223647749252,
+    "L_max_uH": 4.3930447295498505,
+    "conclusion": "a fixed 2.96 uH coil is NOT usable: C_ant from 6 to 12 pF needs about 2.2 to 4.4 uH. The coil must be tapped or sliding-contact, not fixed, exactly as the sensitivity analysis warned"
+  },
+  "bench_levels": {
+    "v_emf_pp": 4.0,
+    "loop_R_ohm": 73.824,
+    "I_res_mA_rms": 19.156555623822808,
+    "V_sense_mV_rms": 191.56555623822808,
+    "V_sense_mV_pp": 541.829215431296,
+    "V_across_L_V_rms": 11.03448214513142,
+    "loaded_Q_at_resonance": 7.802557151704309
+  },
+  "c_sensitivity": {
+    "dC_over_C_formula": "dC/C = -2*df/f - dL/L",
+    "freq_accuracy_pct": 0.1,
+    "L_accuracy_pct": 2.0,
+    "resulting_C_error_pct": 2.1999999999999997,
+    "C_uncertainty_pF": 0.19608599999999998,
+    "note": "frequency enters squared, so frequency accuracy is the dominant single term; 0.1% frequency accuracy is easy with a scope counter, and 2% on L is achievable only with the two-capacitor method at a low test frequency"
+  },
+  "l_measurement_scenarios": [
+    {
+      "scenario": "in-band (28-34 MHz), 6.8 / 4.7 pF",
+      "f1_MHz": 29.565241547822126,
+      "f2_MHz": 33.35409080666929,
+      "C_step_pF": 2.0999999999999996,
+      "needs_generator_below_MHz": null,
+      "error_budget": {
+        "true_L_uH": 2.957,
+        "recovered_L_uH": 2.348547470054134,
+        "total_error_pct": -20.576683461138522,
+        "freq_only_error_pct": -1.6663699995048464,
+        "cap_only_error_pct": -19.23076923076923,
+        "cap_tolerance_used_pF": 0.25,
+        "freq_error_used_pct": 0.1
+      }
+    },
+    {
+      "scenario": "low frequency, 100 / 220 pF",
+      "f1_MHz": 9.119601409411937,
+      "f2_MHz": 6.197863937059847,
+      "C_step_pF": 120.0,
+      "needs_generator_below_MHz": 10,
+      "error_budget": {
+        "true_L_uH": 2.957,
+        "recovered_L_uH": 2.985514915294628,
+        "total_error_pct": 0.9643190833489301,
+        "freq_only_error_pct": 0.5436344205016486,
+        "cap_only_error_pct": 0.4184100418409997,
+        "cap_tolerance_used_pF": 0.25,
+        "freq_error_used_pct": 0.1
+      }
+    }
+  ],
+  "recommended": {
+    "scenario": "low frequency, 100 / 220 pF",
+    "L_error_pct": 0.9643190833489301,
+    "C_error_pct_combined": 3.16431908334893,
+    "note": "measure L at the lowest frequency the generator reaches, using a large accurately-known capacitance, then measure C_ant at 31 MHz against that L"
+  },
+  "prerequisites": {
+    "blocking": [
+      "signal generator model and its frequency range are still unconfirmed (S05-10 records only 'roughly covers 28-34 MHz'). The recommended route needs operation near 6-9 MHz, which is NOT established. If the generator cannot go below 28 MHz, fall back to the in-band route and accept very poor accuracy, or borrow an LCR meter",
+      "probe model and its 10x tip capacitance are unconfirmed; the 16 pF figure used here is the DS2102E input specification, not the probe's",
+      "whether a Low-Z / High-Z menu sets the source resistance or merely re-scales the displayed amplitude must be established by measuring the actual output into a known load, not by reading the menu"
+    ],
+    "non_blocking": [
+      "the antenna must be built and mounted in its final position before measuring, and the mounting state recorded (height, ground plane, nearby metal, hand position), because impedance depends on all of them"
+    ]
+  },
+  "cannot_measure": [
+    "radiation resistance separately from coil loss: the series-resonance method measures their SUM only. Splitting them needs an assumed coil Q, so the 28.5% efficiency figure stays an estimate, not a measurement",
+    "the coil's own Q at 31 MHz (no Q meter available)",
+    "directivity / ground-plane effectiveness, which is what actually decides the 6 m link",
+    "far-field behaviour at 6 m, which is inside the near field (r/lambda = 0.62)"
+  ],
+  "conclusion": {
+    "is_the_measurement_worth_doing": "yes, and it is the only way to settle the matching. The model's 8.91 pF cannot be trusted to better than roughly a factor because the infinite-ground-plane assumption is wrong for a small chassis, and a +/-15% error in C_ant already cuts the antenna current to about a third",
+    "expected_accuracy": "C_ant to about +/-3% if L is measured at low frequency; the in-band-only route is much worse because the capacitance step is only about 2 pF",
+    "what_it_does_not_settle": "even a perfect impedance measurement does not predict 6 m. It fixes the matching and the current; the link itself must be measured"
+  }
+}

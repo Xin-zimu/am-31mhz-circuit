@@ -1,0 +1,382 @@
+[
+ {
+  "file": "CS471_CT.raw",
+  "ok": true,
+  "size": 1076414,
+  "sha256": "436538B19E4F3CF2A89F622B0B0A779483096198F1206C7711860B58266559BD",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 28,
+  "flags": "complex"
+ },
+ {
+  "file": "CS471_exact_29.raw",
+  "ok": true,
+  "size": 1211,
+  "sha256": "BFD088C025CBDBDCB06D5553043A6D2D17011B549AEB44B4F7A6C5CD88623433",
+  "plot": "AC Analysis",
+  "np": 1,
+  "nv": 28,
+  "flags": "complex"
+ },
+ {
+  "file": "CS471_exact_31.raw",
+  "ok": true,
+  "size": 1211,
+  "sha256": "A09757197FDEBEB3A96511A99B2A71265AD87EB37A5B0DAF81978B95A96CD810",
+  "plot": "AC Analysis",
+  "np": 1,
+  "nv": 28,
+  "flags": "complex"
+ },
+ {
+  "file": "CS471_exact_33.raw",
+  "ok": true,
+  "size": 1211,
+  "sha256": "5680A9409FB2DB6D87C592637C9432F26631A4E9A4DFB5B8D1D23CAD0A59287A",
+  "plot": "AC Analysis",
+  "np": 1,
+  "nv": 28,
+  "flags": "complex"
+ },
+ {
+  "file": "CS471_untuned.raw",
+  "ok": true,
+  "size": 1076414,
+  "sha256": "1F3A73ED2CFAADF66191B373848470EC54E26D97E56BEC8804322C8E1BDF13D5",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 28,
+  "flags": "complex"
+ },
+ {
+  "file": "Lminusplus_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "6DCD852C5C0F2FB2BD4F1FA3819A01E06CFC3E42969C2D1C0C4A35B0B9DD02E2",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "Lminusplus_untuned.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "C697CEF79FFD5865837CCC35488F681D3BB12A480DA8DFDD918508EE5495516C",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "Lplusminus_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "D706BDAD28DAB18517B14F8DF8020D01BE673A7F1090C515BE17AAB95CB41C3F",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "Lplusminus_untuned.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "6883D3495E1FABB3346C50D2C711DB52DDD26AED409373A7F34407907C27C5B1",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_C15_C11_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "AB76FEA8FD84DCFBEEFAE31B471B232F43F374F025C933426472D43CD9BB93D7",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_CK_high_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "1F33CBE8320E8905C15D64B0375DF3A066AE5E7C57EA8546CEC300FEAFED16BD",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_CK_low_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "316E02ED3FB4B26BD0C5542F3F2B3058173F2300D0513212542F3831655337BE",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_CTlossQ200.raw",
+  "ok": true,
+  "size": 999550,
+  "sha256": "AF07630208A1C6E1730D04C921C00CC1ACA09A4F93B99F8C6A09E1B86A903BEF",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 26,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_CTlossQ500.raw",
+  "ok": true,
+  "size": 999550,
+  "sha256": "E9FE16F1B8A3A20CFD4AD02DAB640F9CF8530B8C1CC9F6711851DA3F09493371",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 26,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Cs20_CK2p7_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "01E414BF70EB5AD5484781D1B67340D0F6F9210E0A9F58E3341405C45A6A3212",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Lm1_m1_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "80D603C9D34F0D8C5E1B88BBDF5301966ADCC1CD5EB2116D54E36E3C5C365878",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Lm1_p1_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "95907A3466A522016EFC318DAD5FB1D550A03B9F18196157FF1403286682622D",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Lp1_m1_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "70D1C8DDFA591B5647287EAA4C1527BC37E724612689120F741A5A46A05D1F96",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Lp1_p1_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "1E226428C3DD9D135ABA7D692DA63A4039F1B4C134CC05982143617DF3DD4367",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Q40_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "223DCCF804F761474D84F5E5D8F1FD191FE250ABD9FCA375AB2F3BBF1D1B03FB",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Q50_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "DBD649109944E5AE37D1A957A919AF062AC73A1742EB833AF3AC1060C8213322",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Q50_match.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "82E86B45E52FE1C30147523578986F78C46790335C924263264AA3A39C756249",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Q65_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "07041366781250290C5C755A01FC55C29DA77D8D2B12AD817C1A605B9D97CFAC",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_Q80_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "D615576DC75E0DFF5C39FD2A72E139556711676DE6FA3EFD73DAEBEAE67D024C",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_RS200.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "A8E6ADB4259DF1DDD9A7358A07E2DE1ECE40B17D118352B45A3C6AE9CB7FD0A6",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_coupling_high_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "703CAC166A3D5EE4429B3B52342032343DA2DC4FEB57559BEE48F8670BD42F61",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_coupling_low_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "EDEC519083D8B068812A175889E270F5C30F8583A18C8B0C4838DB88ECBEDBEF",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_match_CK.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "E5DD9741C8469ECD64BA012515604B604BFC07CBD3B9EBA9DCD79FC1C80DEB19",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_match_rounded.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "90BDCF50BE139E921BDD7B18C8736CE00A18D00B32D4C9D317256F2C23A4650B",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_mutual_0p01.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "D44AD3E4A0EC14E4A34C8B969BBD4C1E6201EA824B1A798F34C631EBF927FE96",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_mutual_0p03.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "CD2293283199E577E12A92BE95C038ACFFDD01896F0DCF8D6759978D21F3558B",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_mutual_m0p01.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "3E7F3059A5B91D09946A2D5E890EFCA0EE6C71A475F749A05161722D6565399E",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_mutual_m0p03.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "4202636E20780AE93584E0F29E0005EDE69504C44D5A6047B133F6EE3FB7B14E",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_probe10p.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "1C8F480F6293F37EB24FC918BDCF911833C3F34C8AE618A628E9A0C92ADB02AE",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "P460_stray_high_CT.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "5AE9B53B620D87441BEE87E7DA682F7DA2FBE14C2247BE4FCF599EDED46BA76E",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "corner_02.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "AA4489C380B82F6A22F2F38F87750D1DCC1922C81BCEF0DEB84A23F897D332A2",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "corner_08.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "6E0BC859877038DB30DB38CFB0D736B56A3F9597FBB501BDC59A64BE24DA7006",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ },
+ {
+  "file": "corner_37.raw",
+  "ok": true,
+  "size": 922670,
+  "sha256": "E7BF7CEDB0E645E2E92FEB5D1AF457ACF2236EC7AB803BCED8E30E11ECB0BDD8",
+  "plot": "AC Analysis",
+  "np": 2401,
+  "nv": 24,
+  "flags": "complex"
+ }
+]

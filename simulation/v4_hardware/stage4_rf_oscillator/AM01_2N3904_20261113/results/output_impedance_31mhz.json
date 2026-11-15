@@ -1,0 +1,29 @@
+{
+  "frequency_hz": 31000000.0,
+  "method": "AC voltage injection at out; RL and CL removed; Q2 base forced to the measured high/low plateau voltage through a 1 H AC-blocking inductor",
+  "caveat": "Small-signal audit around each plateau; not a large-signal load-pull measurement",
+  "points": [
+    {
+      "plateau": "high",
+      "forced_b2_dc_v": 1.2533955684103804,
+      "magnitude_ohm": 839.1097,
+      "phase_deg": -0.605992,
+      "resistance_ohm": 839.0627675512818,
+      "reactance_ohm": -8.874724968903866,
+      "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\netlists\\zout_high.cir",
+      "netlist_sha256": "b5dce51b4eaf7806826f2107ddb185201b0a37b11dfa7465d56e1b70780e1032",
+      "log_sha256": "9d96ad0b5cc803c422eeb4f39f93dd658d399a0755fc348f38be793fb534bd6d"
+    },
+    {
+      "plateau": "low",
+      "forced_b2_dc_v": 1.0294931166190022,
+      "magnitude_ohm": 869.8463,
+      "phase_deg": -0.559329,
+      "resistance_ohm": 869.8048524861553,
+      "reactance_ohm": -8.491420094882223,
+      "netlist": "D:\\实验报告文件夹\\电路2\\simulation\\v4_hardware\\stage4_rf_oscillator\\AM01_2N3904_20261113\\netlists\\zout_low.cir",
+      "netlist_sha256": "840f1e23d9ea440ebe0a6358104a4b364b89f9e4cc69df9e782d451aa9c84f34",
+      "log_sha256": "1406a53142f32d1b3bcf1757b65654c62a95a3c89b276f4e36803390a9bf5848"
+    }
+  ]
+}

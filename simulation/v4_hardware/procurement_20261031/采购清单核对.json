@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "scope": "Cross-checks the hand-written purchase list against the delivered drawing part data. Verifies quantity coverage only, not supplier stock, price, or package fit.",
+  "drawing_parts_total": 56,
+  "list_rows_parsed": 25,
+  "values_compared": 22,
+  "selftest": {
+    "victim": [
+      "C",
+      1e-10
+    ],
+    "caught": true,
+    "sample_error": "under-stated 1e-10"
+  },
+  "checks": [
+    {
+      "kind": "C",
+      "si_value": 2.4e-12,
+      "drawing_qty": 1,
+      "list_qty": 5,
+      "refs": [
+        "CK"
+      ]
+    },
+    {
+      "kind": "C",
+      "si_value": 1.1e-11,
+      "drawing_qty": 1,
+      "list_qty": 5,
+      "refs": [
+        "COUT"
+      ]
+    },
+    {
+      "kind": "C",
+      "si_value": 1.5e-11,
+      "drawing_qty": 1,
+      "list_qty": 5,
+      "refs": [
+        "CSEL"
+      ]
+    },
+    {
+      "kind": "C",
+      "si_value": 3e-11,
+      "drawing_qty": 1,
+      "list_qty": 5,
+      "refs": [
+        "CFIX1"
+      ]
+    },
+    {
+      "kind": "C",
+      "si_value": 3.9e-11,
+      "drawing_qty": 1,
+      "list_qty": 5,
+      "refs": [
+        "CFIX2"
+      ]
+    },
+    {
+      "kind": "C",
+      "si_value": 1e-10,
+      "drawing_qty": 4,
+      "list_qty": 4,
+      "refs": [
+        "CBUF",
+        "CDET",
+        "CFILT",
+        "CIN2"
+      ]
+    },
+    {
+      "kind": "C",
+      "si_value": 3.3e-10,
+      "drawing_qty": 2,
+      "list_qty": 2,
+      "refs": [
+        "CEB1",
+        "CEB2"
+      ]
+    },
+    {
+      "kind": "C",
+      "si_value": 1e-09,
+      "drawing_qty": 2,
+      "list_qty": 2,
+      "refs": [
+        "CIN1",
+        "COBUF"
+      ]
+    },
+    {
+      "kind": "C",
+      "si_value": 1e-07,
+      "drawing_qty": 5,
+      "list_qty": 5,
+      "refs": [
+        "CCOUP",
+        "CDBUF",
+        "CDQ1",
+        "CDQ2",
+        "CDU1"
+      ]
+    },
+    {
+      "kind": "C",
+      "si_value": 1e-05,
+      "drawing_qty": 2,
+      "list_qty": 2,
+      "refs": [
+        "CPWR",
+        "CVREF"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 33.0,
+      "drawing_qty": 2,
+      "list_qty": 2,
+      "refs": [
+        "REU1",
+        "REU2"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 100.0,
+      "drawing_qty": 1,
+      "list_qty": 1,
+      "refs": [
+        "ROUT"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 220.0,
+      "drawing_qty": 2,
+      "list_qty": 2,
+      "refs": [
+        "REB1",
+        "REB2"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 470.0,
+      "drawing_qty": 1,
+      "list_qty": 1,
+      "refs": [
+        "REBUF"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 1000.0,
+      "drawing_qty": 3,
+      "list_qty": 3,
+      "refs": [
+        "RC1",
+        "RC2",
+        "RRF"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 4700.0,
+      "drawing_qty": 4,
+      "list_qty": 4,
+      "refs": [
+        "RBB1",
+        "RBB2",
+        "RDET",
+        "RFILT"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 10000.0,
+      "drawing_qty": 4,
+      "list_qty": 4,
+      "refs": [
+        "RBBB",
+        "RBTB",
+        "RG",
+        "RVB"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 20000.0,
+      "drawing_qty": 1,
+      "list_qty": 1,
+      "refs": [
+        "RVT"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 22000.0,
+      "drawing_qty": 2,
+      "list_qty": 2,
+      "refs": [
+        "RBT1",
+        "RBT2"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 100000.0,
+      "drawing_qty": 1,
+      "list_qty": 1,
+      "refs": [
+        "RBIAS"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 210000.0,
+      "drawing_qty": 1,
+      "list_qty": 1,
+      "refs": [
+        "RFB"
+      ]
+    },
+    {
+      "kind": "R",
+      "si_value": 1000000.0,
+      "drawing_qty": 1,
+      "list_qty": 3,
+      "refs": [
+        "RPORT"
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,1442 @@
+[
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "A",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 1,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 2,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 3,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 10,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 30,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 2000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 10000,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 0,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 2,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 5,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  },
+  {
+    "topology": "B",
+    "amplitude_vpp": 4,
+    "duty_pct": 50,
+    "resistance_ohm": 50,
+    "capacitance_pf": 10,
+    "status": "BLOCKED_OFFICIAL_MODEL",
+    "actual_vm_low": null,
+    "actual_vm_high": null
+  }
+]

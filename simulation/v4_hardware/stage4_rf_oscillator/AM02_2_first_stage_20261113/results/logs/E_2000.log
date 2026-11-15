@@ -1,0 +1,36 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-02.2 candidate e, load=2000
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+v(b1) = 2.229350e+00
+v(e1) = 1.573503e+00
+v(b2) = 8.026162e-01
+v(c2) = 3.700086e+00
+v(e2) = 1.309076e-01
+i(vcc) = -2.16463e-03
+@q1[ic] = 7.098155e-04
+@q1[ib] = 5.412993e-06
+@q2[ic] = 1.299914e-03
+@q2[ib] = 9.161653e-06
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+real(zin) = -2.08458e+02
+imag(zin) = -1.48465e+03
+mag(zin) = 1.499210e+03
+ph(zin) = -1.71029e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 121
+ngspice-47 done

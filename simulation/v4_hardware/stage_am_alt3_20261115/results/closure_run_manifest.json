@@ -1,0 +1,11 @@
+{
+  "scripts\\closure_metrics.py": "1043b2427efbf9ffc08a8d7a0f845ef1c34bde1a812c0faca8e9b5f61c0aa3ff",
+  "netlists\\closure_sense10_fine.cir": "e10b8a7edd242bc41f86f806364ff19d93a436f7c3a4771b9eb257c1f581f02c",
+  "netlists\\closure_sense10_preliminary.cir": "07c2e7b82a804b473b0beea296c3d470ffbd5443c6eaa5a570650e41b4c9f081",
+  "results\\closure_sense10_fine.log": "759933b6be0ff46dc6584b23d8ffd7ccef9cd8a282654d0f9c67c30b858429df",
+  "results\\closure_sense10_fine.raw": "1984cf9de44eb5eeea0b9eb4ce889eef5f46d4cce40f35c1223e4c90a863c09a",
+  "results\\closure_sense10_fine_metrics.json": "e5068319e2fc8439455bafc2b3284f3ef2d221a83dfbfed35542f4a0e4253aa9",
+  "results\\closure_sense10_metrics.json": "38168c7864d3f0bd067f27b79a47de5ba3075c9c55fe77a6e5c8f2bb027ee7be",
+  "results\\closure_sense10_preliminary.log": "fd993239a64aebf17f2444934a98ac17a674278bb58a4765c76d93be2441f589",
+  "results\\closure_sense10_preliminary.raw": "1d8123dd45fac8590219e093158c704bf3997cdc9f72436aaac283da2eb6fce2"
+}

@@ -1,0 +1,50 @@
+Warning: singular matrix:  check node bo
+
+Note: Starting dynamic gmin stepping
+Warning: singular matrix:  check node bo
+
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: singular matrix:  check node bo
+
+Warning: singular matrix:  check node bo
+
+Warning: singular matrix:  check node bo
+
+Warning: singular matrix:  check node bo
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+Note: No compatibility mode selected!
+
+
+Circuit: * c3 numerical-consistency run: c4_trap_0p125n_2k_rtol1e5
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+v(b) = 1.154471e-09
+v(e) = 4.921811e-10
+v(bf) = 4.207536e-10
+v(ef) = 2.151327e-07
+v(bg) = 4.018333e-06
+v(eg) = 3.038860e-10
+v(cg) = -6.91397e-03
+@q1[ic] = -3.85401e-11
+@qb[ic] = -1.83268e-11
+@qg[ic] = 1.674400e-09
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  2.45000e-03 Reference value :  2.46060e-03 Reference value :  2.47079e-03 Reference value :  2.47921e-03 Reference value :  2.48890e-03 Reference value :  2.49943e-03
+No. of Data Rows : 200001
+binary raw file "C_A_nom.raw"
+ngspice-47 done
