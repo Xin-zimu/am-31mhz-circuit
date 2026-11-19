@@ -1,0 +1,104 @@
+{
+  "assumptions": [
+    "130cm straight uniform 3mm diameter steel radiator",
+    "single ideal fixed series loading inductor, calibrated to X=0 at 27MHz at 130cm",
+    "eight 50cm copper radials, height83cm above soil er13 sigma.005S/m",
+    "no internal coil self-capacitance, transformer, feed cable, housing or contact model",
+    "sensitivity is illustrative, not statistical confidence or actual component tolerance",
+    "resonance does not establish 50ohm match, efficiency, bandwidth or 6m link"
+  ],
+  "inferred_coil_uH": 3.3360054997565647,
+  "nominal": {
+    "coil_factor": 1,
+    "coil_uH": 3.3360054997565647,
+    "length_cm": 85.99609374999999,
+    "residual_X_ohm": -0.047037037037057416,
+    "bare_R_ohm": 3.1335
+  },
+  "coil_sensitivity": [
+    {
+      "coil_factor": 0.8,
+      "coil_uH": 2.6688043998052517,
+      "length_cm": 114.78515625000001,
+      "residual_X_ohm": -0.0036296296295859065,
+      "bare_R_ohm": 5.4287
+    },
+    {
+      "coil_factor": 0.9,
+      "coil_uH": 3.0024049497809084,
+      "length_cm": 98.92578125,
+      "residual_X_ohm": 0.06466666666665333,
+      "bare_R_ohm": 4.084
+    },
+    {
+      "coil_factor": 1,
+      "coil_uH": 3.3360054997565647,
+      "length_cm": 85.99609374999999,
+      "residual_X_ohm": -0.047037037037057416,
+      "bare_R_ohm": 3.1335
+    },
+    {
+      "coil_factor": 1.1,
+      "coil_uH": 3.669606049732222,
+      "length_cm": 75.56640625,
+      "residual_X_ohm": -0.10874074074058626,
+      "bare_R_ohm": 2.4599
+    },
+    {
+      "coil_factor": 1.2,
+      "coil_uH": 4.003206599707878,
+      "length_cm": 67.05078124999999,
+      "residual_X_ohm": -0.12044444444450164,
+      "bare_R_ohm": 1.9693
+    }
+  ],
+  "convergence": [
+    {
+      "segments": 40,
+      "length_cm": 87.20703125,
+      "residual_X_ohm": 0.06296296296295623,
+      "bare_R_ohm": 3.284
+    },
+    {
+      "segments": 80,
+      "length_cm": 85.13671875000001,
+      "residual_X_ohm": 0.07296296296294713,
+      "bare_R_ohm": 3.0335
+    }
+  ],
+  "changed_counterpoise_same_coil": [
+    {
+      "radials": 4,
+      "radial_cm": 50.0,
+      "length_cm": 110.91796875,
+      "residual_X_ohm": -0.017037037036971014,
+      "bare_R_ohm": 5.0421
+    },
+    {
+      "radials": 4,
+      "radial_cm": 25.0
+    }
+  ],
+  "lengths": [
+    {
+      "length_cm": 70,
+      "R_bare_ohm": 2.1336,
+      "X_loaded_ohm": -106.237037037037
+    },
+    {
+      "length_cm": 80,
+      "R_bare_ohm": 2.7355,
+      "X_loaded_ohm": -35.54703703703706
+    },
+    {
+      "length_cm": 90,
+      "R_bare_ohm": 3.4153,
+      "X_loaded_ohm": 21.362962962963024
+    },
+    {
+      "length_cm": 100,
+      "R_bare_ohm": 4.1667,
+      "X_loaded_ohm": 70.20296296296294
+    }
+  ]
+}
