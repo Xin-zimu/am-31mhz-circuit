@@ -1,0 +1,29 @@
+[
+  {
+    "Q": 30,
+    "R_coil": 22.659,
+    "R_tuned_without_sense": 26.7466,
+    "R_tuned_with_sense": 36.7466,
+    "eta_without_sense": 0.038632392098867784,
+    "eta_with_sense": 0.028119203913058,
+    "I_mA_per_100mVrms": 2.721340205624466
+  },
+  {
+    "Q": 60,
+    "R_coil": 11.3295,
+    "R_tuned_without_sense": 15.4171,
+    "R_tuned_with_sense": 25.417099999999998,
+    "eta_without_sense": 0.06702201701432677,
+    "eta_with_sense": 0.04065314841235142,
+    "I_mA_per_100mVrms": 3.9343591519095416
+  },
+  {
+    "Q": 100,
+    "R_coil": 6.7977,
+    "R_tuned_without_sense": 10.8853,
+    "R_tuned_with_sense": 20.8853,
+    "eta_without_sense": 0.0949248195742494,
+    "eta_with_sense": 0.04947427800948883,
+    "I_mA_per_100mVrms": 4.788056671438763
+  }
+]

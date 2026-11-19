@@ -1,0 +1,122 @@
+[
+  {
+    "installation_parallel_C_pF": 0,
+    "coil_self_C_pF": 0,
+    "L_effective_31MHz_uH": 3.4899598601799258,
+    "L_winding_low_frequency_uH": 3.4899598601799258
+  },
+  {
+    "installation_parallel_C_pF": 0,
+    "coil_self_C_pF": 0.5,
+    "L_effective_31MHz_uH": 3.4899598601799258,
+    "L_winding_low_frequency_uH": 3.273262137332267
+  },
+  {
+    "installation_parallel_C_pF": 0,
+    "coil_self_C_pF": 1,
+    "L_effective_31MHz_uH": 3.4899598601799258,
+    "L_winding_low_frequency_uH": 3.081901474644886
+  },
+  {
+    "installation_parallel_C_pF": 0,
+    "coil_self_C_pF": 2,
+    "L_effective_31MHz_uH": 3.4899598601799258,
+    "L_winding_low_frequency_uH": 2.7592770894193657
+  },
+  {
+    "installation_parallel_C_pF": 0.25,
+    "coil_self_C_pF": 0,
+    "L_effective_31MHz_uH": 3.3781432240456737,
+    "L_winding_low_frequency_uH": 3.3781432240456737
+  },
+  {
+    "installation_parallel_C_pF": 0.25,
+    "coil_self_C_pF": 0.5,
+    "L_effective_31MHz_uH": 3.3781432240456737,
+    "L_winding_low_frequency_uH": 3.174704116335097
+  },
+  {
+    "installation_parallel_C_pF": 0.25,
+    "coil_self_C_pF": 1,
+    "L_effective_31MHz_uH": 3.3781432240456737,
+    "L_winding_low_frequency_uH": 2.994376285547633
+  },
+  {
+    "installation_parallel_C_pF": 0.25,
+    "coil_self_C_pF": 2,
+    "L_effective_31MHz_uH": 3.3781432240456737,
+    "L_winding_low_frequency_uH": 2.6889084327377923
+  },
+  {
+    "installation_parallel_C_pF": 0.5,
+    "coil_self_C_pF": 0,
+    "L_effective_31MHz_uH": 3.2732690300070812,
+    "L_winding_low_frequency_uH": 3.2732690300070812
+  },
+  {
+    "installation_parallel_C_pF": 0.5,
+    "coil_self_C_pF": 0.5,
+    "L_effective_31MHz_uH": 3.2732690300070812,
+    "L_winding_low_frequency_uH": 3.081907584960786
+  },
+  {
+    "installation_parallel_C_pF": 0.5,
+    "coil_self_C_pF": 1,
+    "L_effective_31MHz_uH": 3.2732690300070812,
+    "L_winding_low_frequency_uH": 2.9116850191767254
+  },
+  {
+    "installation_parallel_C_pF": 0.5,
+    "coil_self_C_pF": 2,
+    "L_effective_31MHz_uH": 3.2732690300070812,
+    "L_winding_low_frequency_uH": 2.622039540891853
+  },
+  {
+    "installation_parallel_C_pF": 1,
+    "coil_self_C_pF": 0,
+    "L_effective_31MHz_uH": 3.081912980834387,
+    "L_winding_low_frequency_uH": 3.081912980834387
+  },
+  {
+    "installation_parallel_C_pF": 1,
+    "coil_self_C_pF": 0.5,
+    "L_effective_31MHz_uH": 3.081912980834387,
+    "L_winding_low_frequency_uH": 2.911689835451836
+  },
+  {
+    "installation_parallel_C_pF": 1,
+    "coil_self_C_pF": 1,
+    "L_effective_31MHz_uH": 3.081912980834387,
+    "L_winding_low_frequency_uH": 2.7592863126800005
+  },
+  {
+    "installation_parallel_C_pF": 1,
+    "coil_self_C_pF": 2,
+    "L_effective_31MHz_uH": 3.081912980834387,
+    "L_winding_low_frequency_uH": 2.4978062180632827
+  },
+  {
+    "installation_parallel_C_pF": 2,
+    "coil_self_C_pF": 0,
+    "L_effective_31MHz_uH": 2.7592936048817562,
+    "L_winding_low_frequency_uH": 2.7592936048817562
+  },
+  {
+    "installation_parallel_C_pF": 2,
+    "coil_self_C_pF": 0.5,
+    "L_effective_31MHz_uH": 2.7592936048817562,
+    "L_winding_low_frequency_uH": 2.622050031444368
+  },
+  {
+    "installation_parallel_C_pF": 2,
+    "coil_self_C_pF": 1,
+    "L_effective_31MHz_uH": 2.7592936048817562,
+    "L_winding_low_frequency_uH": 2.497812193677043
+  },
+  {
+    "installation_parallel_C_pF": 2,
+    "coil_self_C_pF": 2,
+    "L_effective_31MHz_uH": 2.7592936048817562,
+    "L_winding_low_frequency_uH": 2.2815989855271788
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "prior_evidence_unchanged": 522,
+  "physical_coil_tested": false,
+  "procurement_released": false,
+  "original_bom_sha256": "66680e99711ebe909002121cb13c5aafc44db5aa3597f7fa1123394953f81e93",
+  "required_C_for_original_geometry_pF": 0.1884946497096443,
+  "coupled_model_checks": "passed",
+  "source": "Medhurst March 1947 p84 table VI; skin effect plus explicit assumed loss sweep",
+  "exact_winding_validated": false
+}

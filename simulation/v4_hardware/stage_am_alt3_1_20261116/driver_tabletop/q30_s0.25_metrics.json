@@ -1,0 +1,45 @@
+{
+  "design_only": true,
+  "measured_antenna_parameters": false,
+  "window_s": [
+    0.0018905317507162537,
+    0.0019905414387037445
+  ],
+  "modulation_cycles": 2,
+  "carrier_Hz": 30992716.31589114,
+  "carrier_fit_success": true,
+  "total_time_weighted_rms_mA": 3.7092096179398997,
+  "carrier_fundamental_rms_mA": 3.557154955032167,
+  "high_plateau_median_peak_mA": 6.534459998899522,
+  "low_plateau_median_peak_mA": 3.721386522555344,
+  "high_plateau_sine_equivalent_rms_mA": 4.620560976614092,
+  "high_plateau_fundamental_rms_mA": 4.609051072256262,
+  "low_plateau_fundamental_rms_mA": 2.622213079766267,
+  "plateau_fundamental_rms_samples_mA": {
+    "high": [
+      4.608894467655062,
+      4.609207676857463
+    ],
+    "low": [
+      2.6221240730939197,
+      2.6223020864386144
+    ]
+  },
+  "full_window_peak_mA": 6.563746486029042,
+  "modulation_index": 0.27428974004820844,
+  "minimum_QCE_VCE_V": 0.1660244029319754,
+  "minimum_QEF_VCE_V": 1.2640794892080227,
+  "rf_supply_average_mA": 22.272690921519075,
+  "baseband_supply_average_mA": 3.478251703950657,
+  "simulated_supply_power_mW": 128.75471312734868,
+  "battery_budget_mW": 303.75848362922756,
+  "sense_resistor_power_mW": 0.13758235989817855,
+  "assumptions": "NEC 31MHz equivalent R-C + series L at effective Q; unchanged frozen driver including 10ohm sense. 9V linear-regulator budget with 8mA ground current. Not measured.",
+  "metric_notes": "Carrier: time-weighted sine/cosine/DC least-squares fit. Plateau RMS is sine-equivalent of median RF peaks, not a spectral RMS. Stable window only; no startup verdict.",
+  "Q": 30,
+  "step_ns": 0.25,
+  "NEC_case": "desk_r8_l0.5_n120_soil",
+  "load_L_uH": 3.4899598601799258,
+  "load_C_pF": 7.552599294348389,
+  "load_R_ohm": 26.7466
+}

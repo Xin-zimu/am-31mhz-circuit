@@ -1,0 +1,14 @@
+{
+  "frozen_original_unchanged": true,
+  "only_load_step_output_changed": true,
+  "official_example_error_ohm": 9.99999999891088e-05,
+  "image_test_relative_error": 0.0013127652828492783,
+  "free_space_power_balance_residual": 0.03930619748726105,
+  "impedance_mesh_change_R_pct": 0.516195322438584,
+  "impedance_mesh_change_X_pct": 0.00882651485061281,
+  "NEC_loaded_circuit_crosscheck": true,
+  "driver_current_step_change_pct": 0.0029678534873012197,
+  "physical_antenna_measured": false,
+  "coil_Q_verified": false,
+  "wireless_6m_pass": false
+}

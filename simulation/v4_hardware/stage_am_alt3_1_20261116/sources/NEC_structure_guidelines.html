@@ -1,0 +1,310 @@
+<!DOCTYPE HTML SYSTEM "html.dtd"> 
+ 
+<HTML>
+ 
+<HEAD>
+<TITLE>Section II - Structure Modeling Guidelines</TITLE>
+</HEAD>
+ 
+<BODY>
+<CENTER>
+Section II - Structure Modeling Guidelines
+</CENTER>
+<P>The basic devices for modeling structures with the NEC code are short,
+straight segments for modeling wires and flat patches for modeling surfaces. An
+antenna and any other conducting objects in its vicinity that affect its
+performance must be modeled with strings of segments following the paths of
+wires and with patches covering surfaces. Proper choice of the segments and
+patches for a model is the most critical step to obtaining accurate results.
+The number of segments and patches should be the minimum required for accuracy,
+however, since the program running time increases rapidly a this number
+increases. Guidelines for choosing segments and patches are given below and
+should be followed carefully by anyone using the NEC code. Experience gained by
+using the code will also aid the user in developing models. </P>
+<H3>l. WIRE MODELING</H3>
+<P>A wire segment is defined by the coordinates of its two end points and its
+radius. Modeling a wire structure with segments involves both geometrical and
+electrical factors. Geometrically, the segments should follow the paths of
+conductors as closely as possible, using a piece-wise linear fit on curves. 
+</P>
+<P>The main electrical consideration is segment length Delta relative to the
+wavelength Lambda. Generally, Delta should be less than about 0.l Lambda at the
+desired frequency. Somewhat longer segments may be acceptable on long wires
+with no abrupt changes while shorter segments, 0.05 Lambda or less, may be
+needed in modeling critical regions of an antenna. The size of the segments
+determines the resolution in solving for the current on the model since the
+current is computed at the center of each segment. Extremely short segments,
+less than about 10<SUP>-3</SUP> Lambda, should also be avoided since the
+similarity of the constant and cosine components of the current expansion leads
+to numerical inaccuracy. </P>
+<P>The wire radius, a, relative to Lambda is limited by the approximations used
+in the kernel of the electric field integral equation. Two approximation
+options are available in NEC: the thin-wire kernel and the extended thin-wire
+kernel. These are discussed in reference 1. In the thin-wire kernel, the
+current on the surface of a segment is reduced to a filament of current on the
+segment axis. In the extended thin-wire kernel, a current uniformly distributed
+around the segment surface is assumed. The field of the current is approximated
+by the first two terms in a series expansion of the exact field in powers of
+a<SUP>2</SUP>. The first term in the series, which is independent of a, is
+identical to the thin-wire kernel while the second term extends the accuracy
+for larger values of a. Higher order approximation are not used because they
+would require excessive computation time. </P>
+<P>In either of these approximations, only currents in the axial direction on a
+segment are considered, and there is no allowance for variation of the current
+around the wire circumference. The acceptability of these approximations
+depends on both the value of a/Lambda and the tendency of the excitation to
+produce circumferential current or current variation. Unless 2Pi a/Lambda is
+much less than 1, the validity of these approximations should be considered. 
+</P>
+<P>The accuracy of the numerical solution for the dominant axial current is
+also dependent on Delta/a. Small values of Delta/a may result in extraneous
+oscillations in the computed current near free wire ends, voltage sources, or
+lumped loads. Use of the extended thin-wire kernel will extend the limit on
+Delta/a to smaller values than are permissible with the normal thin-wire
+kernel. Studies of the computed field on a segment due to its own current have
+shown that with the thin-wire kernel, Delta/a must be greater than about 8 for
+errors of less than 1%. With the extended thin-wire kernel, Delta/a may be as
+small as 2 for the same accuracy (ref. 3). In the current solution with either
+of these kernels, the error tends to be less than for a single field
+evaluation. Reasonable current solutions have been obtained with the thin-wire
+kernel for Delta/a down to about 2 and with the extended thin-wire kernel for
+Delta/a down to 0.5. When a model includes segments with Delta/a less than
+about 2, the extended thin-wire kernel option should be used by inclusion of an
+EK card in the data deck. </P>
+<P>When the extended thin-wire kernel option is selected, it is used at free
+wire ends and between parallel, connected segments. The normal thin-wire kernel
+is always used at bends in wires, however. Hence, segments with small Delta/a
+should be avoided at bends. Use of a small Delta/a at a bend, which results in
+the center of one segment falling within the radius of the other segment,
+generally leads to severe error. </P>
+<P>The current expansion used in NEC enforces conditions on the current and
+charge density along wires, at unctions, and at wire ends. For these conditions
+to be applied properly, segments that are electrically connected must have
+coincident end points. If segments intersect other than at their ends, the NEC
+code will not allow current to flow from one segment to the other. Segments
+will be treated as connected if the separation of their ends is less than about
+10<SUP>-3</SUP> times the length of the shortest segment. When possible,
+however, identical coordinates should be used for connected segment ends. </P>
+<P>The angle of the intersection of wire segments in NEC is not restricted in
+any manner. In fact, the acute angle may be so small as to place the
+observation point on one wire segment within the volume of another wire
+segment. Numerical studies have shown that such overlapping leads to
+meaningless results; thus, as a minimum, one must ensure that the angle is
+large enough to prevent overlaps. Even with such care, the details of the
+current distribution near the intersection may not be reliable even though the
+results for the current may be accurate at distances from this region. </P>
+<P>NEC includes a patch option for modeling surfaces using the magnetic-field
+integral equation. This formulation is restricted to closed surfaces with
+nonvanishing enclosed volume. For example, it is not theoretically applicable
+to a conducting plate of zero thickness and, actually, the numerical algorithm
+is not practical for thin bodies (such as solar panels). The latter difficulty
+is due to the possibility of poor conditioning of the matrix equation. </P>
+<P>Wire-grid modeling of conducting surfaces has been used with varying
+success. The earliest applications to the computation of radar cross sections
+and radiation patterns provided reasonably accurate results. Even computations
+for the input impedance of antennas driven against grid models of surfaces have
+oftentimes exhibited good agreement with experiments. However, broad and
+generalized guidelines for near-field quantities have not been developed, and
+the use of wire-grid modeling for near-field parameters should be approached
+with caution. A single wire grid, however, may represent both surfaces of a
+thin conducting plate. The current on the grid will be the sum of the currents
+that would flow on opposite sites of the plate. While information on the
+currents on the individual surfaces is lost the grid will yield the correct
+radiated fields. </P>
+<UL>
+<LH><B>Other rules for the segment model follow:</B></LH>
+<LI>Segments (or patches) may not overlap since the division of current between
+two overlapping segments is indeterminate. Overlapping segments may result in a
+singular matrix equation. </LI>
+<LI>A large radius change between connected segments may decrease accuracy;
+particularly, with small Delta/a. The problem may be reduced by making the
+radius change in steps over several segments. </LI>
+<LI>A segment is required at each point where a network connection or voltage
+source will be located. This may seem contrary to the idea of an excitation gap
+as a break in a wire. A continuous wire across the gap is needed, however, so
+that the required voltage drop can be specified as a boundary condition. </LI>
+<LI>The two segments on each side of a charge density discontinuity voltage
+source should be parallel and have the same length and radius. When this source
+is at the base of a segment connected to a ground plane. the segment should be
+vertical. </LI>
+<LI>The number of wires joined at a single junction cannot exceed 30 because of
+a dimension limitation in the code. </LI>
+<LI>When wires are parallel and very close together, the segments should be
+aligned to avoid incorrect current perturbation from offset match point and
+segment junctions. </LI>
+<LI>Although extensive tests have not been conducted, it is safe to specify
+that wires should be several radii apart. </LI>
+</UL>
+<H3>2. SURFACE MODELING</H3>
+<P>A conducting surface is modeled by means of multiple, small flat surface
+patches corresponding to the segments used to model wires. The patches are
+chosen to cover completely the surface to be modeled, conforming as closely as
+possible to curved surfaces. The parameters defining a surface patch are the
+Cartesian coordinates of the patch center, the components of the
+outward-directed, unit normal vector and the patch area. These are illustrated
+in <A HREF="gifs/fig1.gif">figure 1</A> where
+<I>r<SUB>0</SUB></I>=x<SUB>0</SUB> ^x + y<SUB>0</SUB> ^y + z<SUB>0</SUB> ^z is
+the position of the segment center; ^n=n<SUB>x</SUB> ^x + n<SUB>y</SUB> ^y +
+n<SUB>z</SUB> ^z is the unit normal vector and A is the patch area. </P>
+<P><A HREF="gifs/fig1.gif">Figure 1</A>. Patch Position and Orientation </P>
+<P>Although the shape (square, rectangular, etc.) may be used to define a patch
+on input it does not affect the solution since there is no integration over the
+patch unless a wire is connected to the patch center. The program computes the
+surface current on each patch along the orthogonal unit vectors ^t<SUB>1</SUB>
+and ^t<SUB>2</SUB>, which are tangent to the surface. The vector ^t<SUB>1</SUB>
+is parallel to a side of the triangular, rectangular, or quadrilateral patch.
+For a patch of arbitrary shape, it is chosen by the following rules: </P>
+<P>For a horizontal patch,</P>
+<P>^t<SUB>1</SUB>=^x . </P>
+<P> For a non horizontal patch, </P>
+<P> ^t<SUB>1</SUB>=( ^z X ^n ) / I ^z X ^n I , </P>
+<P> ^t<SUB>2</SUB> is then chosen as ^t<SUB>2</SUB>=^n X ^t<SUB>1</SUB>. When a
+structure having plane symmetry is formed by reflection in a coordinate plane
+using a GX input card, the vectors ^t<SUB>1</SUB> ^t<SUB>2</SUB> and ^n are
+also reflected so that :he new patches will have ^t<SUB>2</SUB>=-^n X
+^t<SUB>1</SUB>. </P>
+<P>When a wire is connected to a surface, the wire must end at the center of a
+patch with identical coordinates used for the wire end and the patch center.
+The program then divides the patch into four equal patches about the wire end
+as shown in <A HREF="gifs/fig2.gif">figure 2</A>, where a wire has been
+connected to the second of three previously identical patches. The connection
+patch is divided along lines defined by the vectors ^t<SUB>1</SUB> and
+t<SUB>2</SUB> for that patch, with a square patch assumed. The four new patches
+are ordinary patches like those input by the user, except when the interactions
+between the patches and the lowest segment on the connected wire are computed.
+In this case an interpolation function is applied to the four patches to
+represent the current from the wire onto the surface, and the function is
+numerically integrated over the patches. Thus, the shape of the patch is
+significant in this case. The user should try to choose patches so that those
+with wires connected are approximately square with sides parallel to
+^t<SUB>1</SUB> and t<SUB>2</SUB>. The connected wire is not required to be
+normal to the patch but cannot lie in the plane of the patch. Only a single
+wire may connect to a given patch and a segment may have a patch connection on
+only one of its ends. Also, wire may never connect to a patch formed by
+subdividing another patch for a previous connection. </P>
+<P><A HREF="gifs/fig2.gif">Figure 2</A>. Connection of a Wire to a Surface
+Patch. </P>
+<P>As with wire modeling, patch size measured in wavelengths is very important
+for accuracy of the results. A minimum of about 25 patches should be used per
+square wavelength of surface area, with the maximum size for an individual
+patch about 0.04 square wavelengths. Large patches may be used on large smooth
+surfaces while smaller patches are needed in areas of small radius of
+curvature, both for geometrical modeling accuracy and for accuracy of the
+integral equation solution. In the case of an edge, a precise local
+representation cannot be included; however, smaller patches in the vicinity of
+the edge can lead to more accurate results since the current magnitude may vary
+rapidly in this region. Since connection of a wire to a patch causes the patch
+to be divided into four smaller patches, a larger patch may be input in
+anticipation of the subdivision. </P>
+<P>While patch shape is not input to the program, very long narrow patches
+should be avoided when subdividing the surface. This is illustrated by the two
+methods of modeling a sphere shown in <A HREF="gifs/fig3.gif">figure 3</A>. The
+first uses uniform division in azimuth and equal cuts along the vertical axis.
+This results in all patches having equal areas but with long narrow patches
+near the poles. In the second method, the number of divisions in azimuth is
+increased toward the equator so that the patch length and width are kept more
+nearly equal. The areas are again kept approximately equal. The results of the
+two segmentations are shown in <A HREF="gifs/fig4.gif">figure 4</A> for
+scattering by a sphere of ka (2Pi <SUP>.</SUP> radius/wavelength) equal to 5.3.
+The uniform segmentation used 14 increments in azimuth and 14 equal bands along
+the vertical axis. The variable segmentation used 13 equal increments in arc
+length along the vertical axis, with each band from top to bottom divided into
+the following number of patches in azimuth: 4, 8, 12, 16, 20, 24, 24, 24, 20,
+16, 12, 8, 4. Much better agreement with experiment is obtained with the
+variable segmentation. </P>
+<P><A HREF="gifs/fig3.gif">Figure 3</A>. Patch Models for a Sphere. </P>
+<P><A HREF="gifs/fig4.gif">Figure 4</A>. Bistatic RCS of a Sphere with ka=5.3. 
+</P>
+<P>In general, the use of surface patches is restricted to modeling voluminous
+bodies. The surface modeled must be closed since the patches only model the
+side of the surface from which their normals are directed outward. If a
+somewhat thin body, such as a box with one narrow dimension, is modeled with
+patches the narrow sites (edges) must be modeled a well as the broad surfaces.
+Furthermore, the parallel surface on opposite sides cannot be too close
+together or severe numerical error will occur. </P>
+<P>When modeling complex structures with features not previously encountered,
+accuracy may be checked by comparison with reliable experimental data if
+available. Alternatively, it may be possible to develop an idealized model for
+which the correct results can be estimated while retaining the critical
+features of the desired model. The optimum model for a class of structures can
+be estimated by varying the segment and patch density and observing the effect
+on the results. Some dependence of results on segmentation will always be
+found. A large dependence, however, would indicate that the solution has not
+converged and more segments or patches should be used. A model will generally
+be useable over a band of frequencies. For frequencies beyond the upper limit
+of a particular model, a new set of geometry cards must be input with a finer
+segmentation. </P>
+<H3>3. MODELING STRUCTURES OVER GROUND</H3>
+<P>Several options are available in NEC for modeling an antenna over a ground
+plane. For a perfectly conducting ground, the code generates an image of the
+structure reflected in the ground surface. The image is exactly equivalent to a
+perfectly conducting ground and results in solution accuracy comparable to hat
+for a free-space model. Structures may be close to the ground or contacting it
+in this case. However, for a horizontal wire with radius a, and height h, to
+the wire axis, [h<SUP>2</SUP> + a<SUP>2</SUP>]<SUP>1/2</SUP> should be greater
+than about 10<SUP>-6</SUP> wavelengths. Furthermore, the height should be at
+least several times the radius for the thin-wire approximation to be valid.
+This method doubles the time to fill the interaction matrix. A finitely
+conducting ground may be modeled by an image modified by the Fresnel plane-wave
+reflection coefficients. This method is fast but of limited accuracy and should
+not be used for structures close to the ground. The reflection coefficient
+approximation for the near fields can yield reasonable accuracy if the
+structure is a least several tenths of a wavelength above the ground. It should
+not be used for structures having a large horizontal extent over the ground
+such as some traveling-wave antennas. An alternate method (Sommerfeld/Norton),
+available for wires only, uses the exact solution for the fields in the
+presence of ground and is accurate close to the ground. For a horizontal wire
+the height restriction is the same as for a perfect ground. When this method is
+used NEC requires an input file (TAPE21) containing field values for the
+specific ground parameters and frequency. This interpolation table must be
+generated by running a separate program, SOMNEC, prior to the NEC run. The
+present NEC code uses the Sommerfeld/Norton method only for wire-to-wire
+interactions. If Sommerfeld/ Norton is requested for a structure that includes
+surfaces, the reflection coefficient approximation will be used for
+surface-to-surface and surface-to-wire interactions. Computation of
+wire-to-wire interactions by the Sommerfeld/ Norton method take about four
+times longer than for free space. In addition, computation of the interpolation
+table requires about 15 s on a CDC 7600 computer. However, the file of
+interpolation tables may be saved and reused for problems having the same
+ground parameters and frequency. The Sommerfeld/ Norton method is not available
+in the earlier code NEC-l. </P>
+<P>A wire ground screen may be modeled with the Sommerfeld/Norton method if it
+is raised slightly above the ground surface. A ground stake cannot be modeled
+in NEC since there is presently no provision to compute interactions across the
+interface. Wires may end on a ground plane with a condition that the charge
+density (i.e., derivative of current) be zero at the base of the wire, but this
+is accurate only for a perfectly conducting ground. A wire may end on a
+finitely conducting ground with the charge set to zero at the connection, but
+this will not accurately model a ground stake. If a wire is driven against a
+finitely conducting ground in this way, the input impedance will typically be
+dependent on length of the source segment. </P>
+<P>NEC also includes options for a radial-wire ground-screen approximation and
+two-medium ground approximation (cliff) based on modified reflection
+coefficients. These methods are implemented only for wires and not for patches,
+however. For the radial-wire ground-screen approximation, an approximate
+surface impedance - based on the wire density and the ground parameters - is
+computed at specular reflection points. Since the formula for surface impedance
+yields zero at the center of the screen, the current on a vertical monopole
+will be the same as over a perfect ground. The ground screen approximation is
+used in computing both near-field interactions and the radiated field. It
+should be noted that defraction from the edge of the screen is not included.
+When limited accuracy can be accepted, the ground screen approximation provides
+a large time saving over explicit modeling with the Sommerfeld/Norton method
+since the ground screen does not increase the number of unknowns in the matrix
+equation. </P>
+<P>The two-medium ground approximation permits the user to define a linear or
+circular cliff with different ground parameters and ground height on opposite
+sides. This aprroximation is not used for the near-field interactions affecting
+the currents but is used in computing the radiated field. The reflection
+coefficient is based on the ground parameters and height at the
+specular-reflection point for each ray. This option may also be used to compute
+the current over a perfect ground and then compute radiated fields for a
+finitely conducting ground. </P>
+<HR>
+<SCRIPT LANGUAGE="JavaScript">
+ <!--
+       document.write("Last modified " + document.lastModified);
+ // --></SCRIPT>
+</BODY>
+</HTML>
+ 

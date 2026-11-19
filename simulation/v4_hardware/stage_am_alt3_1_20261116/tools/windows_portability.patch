@@ -1,0 +1,55 @@
+--- upstream/nec2c.h
++++ windows/nec2c.h
+@@ -12,7 +12,7 @@
+ #include <errno.h>
+ #include <time.h>
+ #include <sys/types.h>
+-#include <sys/times.h>
++#define PACKAGE_STRING "nec2c 1.3.1 Windows portability build"
+ 
+ #ifndef	TRUE
+ #define	TRUE	1
+--- upstream/main.c
++++ windows/main.c
+@@ -81,20 +81,11 @@
+ 
+   /*** signal handler related code ***/
+   /* new and old actions for sigaction() */
+-  struct sigaction sa_new, sa_old;
+-
+-
+-  /* initialize new actions */
+-  sa_new.sa_handler = sig_handler;
+-  sigemptyset( &sa_new.sa_mask );
+-  sa_new.sa_flags = 0;
+-
+-  /* register function to handle signals */
+-  sigaction( SIGINT,  &sa_new, &sa_old );
+-  sigaction( SIGSEGV, &sa_new, 0 );
+-  sigaction( SIGFPE,  &sa_new, 0 );
+-  sigaction( SIGTERM, &sa_new, 0 );
+-  sigaction( SIGABRT, &sa_new, 0 );
++  signal(SIGINT, sig_handler);
++  signal(SIGSEGV, sig_handler);
++  signal(SIGFPE, sig_handler);
++  signal(SIGTERM, sig_handler);
++  signal(SIGABRT, sig_handler);
+ 
+   /*** command line arguments handler ***/
+   if( argc == 1 )
+--- upstream/misc.c
++++ windows/misc.c
+@@ -77,12 +77,7 @@
+ /* Returns process time (user+system) BUT in _msec_ */
+ void secnds( double *x)
+ {
+-  struct tms buffer;
+-  double clk_tck;
+-
+-  times(&buffer);
+-  clk_tck = sysconf( _SC_CLK_TCK );
+-  *x = 1000.0 * (double)(buffer.tms_utime + buffer.tms_stime) / clk_tck;
++  *x = 1000.0 * (double)clock() / CLOCKS_PER_SEC;
+ 
+   return;
+ }

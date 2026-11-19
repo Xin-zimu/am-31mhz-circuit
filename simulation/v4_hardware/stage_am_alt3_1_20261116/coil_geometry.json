@@ -1,0 +1,198 @@
+[
+  {
+    "turns": 12,
+    "centre_diameter_mm": 25,
+    "length_mm": 25,
+    "L_low_frequency_uH": 2.443660059733913,
+    "wire_length_m": 0.9828093105702989
+  },
+  {
+    "turns": 12,
+    "centre_diameter_mm": 25,
+    "length_mm": 30,
+    "L_low_frequency_uH": 2.147458840372226,
+    "wire_length_m": 0.9829551400241914
+  },
+  {
+    "turns": 12,
+    "centre_diameter_mm": 25,
+    "length_mm": 35,
+    "L_low_frequency_uH": 1.9153011278995529,
+    "wire_length_m": 0.9831274548532888
+  },
+  {
+    "turns": 12,
+    "centre_diameter_mm": 25,
+    "length_mm": 40,
+    "L_low_frequency_uH": 1.7284424812752064,
+    "wire_length_m": 0.9833262405435578
+  },
+  {
+    "turns": 12,
+    "centre_diameter_mm": 25,
+    "length_mm": 45,
+    "L_low_frequency_uH": 1.574803149606299,
+    "wire_length_m": 0.9835514803645015
+  },
+  {
+    "turns": 12,
+    "centre_diameter_mm": 25,
+    "length_mm": 50,
+    "L_low_frequency_uH": 1.4462477904547646,
+    "wire_length_m": 0.9838031553761845
+  },
+  {
+    "turns": 12,
+    "centre_diameter_mm": 25,
+    "length_mm": 60,
+    "L_low_frequency_uH": 1.2432656444260257,
+    "wire_length_m": 0.9843857242133863
+  },
+  {
+    "turns": 14,
+    "centre_diameter_mm": 25,
+    "length_mm": 25,
+    "L_low_frequency_uH": 3.3260928590822703,
+    "wire_length_m": 1.1398415972918312
+  },
+  {
+    "turns": 14,
+    "centre_diameter_mm": 25,
+    "length_mm": 30,
+    "L_low_frequency_uH": 2.922930088284419,
+    "wire_length_m": 1.1399666081901971
+  },
+  {
+    "turns": 14,
+    "centre_diameter_mm": 25,
+    "length_mm": 35,
+    "L_low_frequency_uH": 2.606937646307725,
+    "wire_length_m": 1.1401143300282233
+  },
+  {
+    "turns": 14,
+    "centre_diameter_mm": 25,
+    "length_mm": 40,
+    "L_low_frequency_uH": 2.352602266180142,
+    "wire_length_m": 1.1402847536585456
+  },
+  {
+    "turns": 14,
+    "centre_diameter_mm": 25,
+    "length_mm": 45,
+    "L_low_frequency_uH": 2.143482064741907,
+    "wire_length_m": 1.1404778685341412
+  },
+  {
+    "turns": 14,
+    "centre_diameter_mm": 25,
+    "length_mm": 50,
+    "L_low_frequency_uH": 1.968503937007874,
+    "wire_length_m": 1.1406936627115858
+  },
+  {
+    "turns": 14,
+    "centre_diameter_mm": 25,
+    "length_mm": 60,
+    "L_low_frequency_uH": 1.6922226826909794,
+    "wire_length_m": 1.1411932342388627
+  },
+  {
+    "turns": 16,
+    "centre_diameter_mm": 25,
+    "length_mm": 25,
+    "L_low_frequency_uH": 4.344284550638067,
+    "wire_length_m": 1.2968857164333984
+  },
+  {
+    "turns": 16,
+    "centre_diameter_mm": 25,
+    "length_mm": 30,
+    "L_low_frequency_uH": 3.81770460510618,
+    "wire_length_m": 1.2969951090494733
+  },
+  {
+    "turns": 16,
+    "centre_diameter_mm": 25,
+    "length_mm": 35,
+    "L_low_frequency_uH": 3.404979782932539,
+    "wire_length_m": 1.2971243789594955
+  },
+  {
+    "turns": 16,
+    "centre_diameter_mm": 25,
+    "length_mm": 40,
+    "L_low_frequency_uH": 3.072786633378145,
+    "wire_length_m": 1.2972735200322552
+  },
+  {
+    "turns": 16,
+    "centre_diameter_mm": 25,
+    "length_mm": 45,
+    "L_low_frequency_uH": 2.7996500437445317,
+    "wire_length_m": 1.2974425251971946
+  },
+  {
+    "turns": 16,
+    "centre_diameter_mm": 25,
+    "length_mm": 50,
+    "L_low_frequency_uH": 2.5711071830306924,
+    "wire_length_m": 1.2976313864460831
+  },
+  {
+    "turns": 16,
+    "centre_diameter_mm": 25,
+    "length_mm": 60,
+    "L_low_frequency_uH": 2.210250034535157,
+    "wire_length_m": 1.298068640486002
+  },
+  {
+    "turns": 18,
+    "centre_diameter_mm": 25,
+    "length_mm": 25,
+    "L_low_frequency_uH": 5.498235134401304,
+    "wire_length_m": 1.4539377253686228
+  },
+  {
+    "turns": 18,
+    "centre_diameter_mm": 25,
+    "length_mm": 30,
+    "L_low_frequency_uH": 4.831782390837509,
+    "wire_length_m": 1.4540349681746187
+  },
+  {
+    "turns": 18,
+    "centre_diameter_mm": 25,
+    "length_mm": 35,
+    "L_low_frequency_uH": 4.309427537773995,
+    "wire_length_m": 1.4541498828697739
+  },
+  {
+    "turns": 18,
+    "centre_diameter_mm": 25,
+    "length_mm": 40,
+    "L_low_frequency_uH": 3.8889955828692147,
+    "wire_length_m": 1.454282465146406
+  },
+  {
+    "turns": 18,
+    "centre_diameter_mm": 25,
+    "length_mm": 45,
+    "L_low_frequency_uH": 3.543307086614173,
+    "wire_length_m": 1.454432710036287
+  },
+  {
+    "turns": 18,
+    "centre_diameter_mm": 25,
+    "length_mm": 50,
+    "L_low_frequency_uH": 3.2540575285232203,
+    "wire_length_m": 1.4546006119115724
+  },
+  {
+    "turns": 18,
+    "centre_diameter_mm": 25,
+    "length_mm": 60,
+    "L_low_frequency_uH": 2.797347699958558,
+    "wire_length_m": 1.4549893608153366
+  }
+]
