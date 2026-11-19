@@ -1,0 +1,15 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-alt.3 frozen-driver round2: d05
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  1.85000e-03 Reference value :  1.85299e-03 Reference value :  1.85592e-03 Reference value :  1.85882e-03 Reference value :  1.86113e-03 Reference value :  1.86353e-03 Reference value :  1.86579e-03 Reference value :  1.86799e-03 Reference value :  1.87035e-03 Reference value :  1.87278e-03 Reference value :  1.87515e-03 Reference value :  1.87804e-03 Reference value :  1.88102e-03 Reference value :  1.88398e-03 Reference value :  1.88681e-03 Reference value :  1.88985e-03 Reference value :  1.89275e-03 Reference value :  1.89535e-03 Reference value :  1.89820e-03 Reference value :  1.90118e-03 Reference value :  1.90416e-03 Reference value :  1.90717e-03 Reference value :  1.91008e-03 Reference value :  1.91289e-03 Reference value :  1.91582e-03 Reference value :  1.91863e-03 Reference value :  1.92160e-03 Reference value :  1.92463e-03 Reference value :  1.92762e-03 Reference value :  1.93048e-03 Reference value :  1.93337e-03 Reference value :  1.93632e-03 Reference value :  1.93932e-03 Reference value :  1.94214e-03 Reference value :  1.94508e-03 Reference value :  1.94801e-03 Reference value :  1.95078e-03 Reference value :  1.95371e-03 Reference value :  1.95661e-03 Reference value :  1.95955e-03 Reference value :  1.96252e-03 Reference value :  1.96549e-03 Reference value :  1.96824e-03 Reference value :  1.97122e-03 Reference value :  1.97410e-03 Reference value :  1.97705e-03 Reference value :  1.98003e-03 Reference value :  1.98288e-03 Reference value :  1.98577e-03 Reference value :  1.98871e-03 Reference value :  1.99165e-03 Reference value :  1.99470e-03 Reference value :  1.99768e-03
+No. of Data Rows : 604484
+binary raw file "h90_rs2.raw"
+ngspice-47 done

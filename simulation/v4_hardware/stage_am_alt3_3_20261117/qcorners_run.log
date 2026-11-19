@@ -1,0 +1,17 @@
+bare_port 70 18.66 26.81 ratio 1.44
+bare_port 80 19.08 27.22 ratio 1.43
+bare_port 90 19.42 27.52 ratio 1.42
+bare_port 100 19.75 27.81 ratio 1.41
+matched_with_10ohm 70 0.48 1.76 ratio 3.64
+matched_with_10ohm 80 0.65 2.23 ratio 3.43
+matched_with_10ohm 90 0.85 2.75 ratio 3.25
+matched_with_10ohm 100 1.07 3.31 ratio 3.09
+optimistic_highQ 0.5 Q31= 119.1
+optimistic_highQ 0.7 Q31= 85.2
+typical 1.0 Q31= 59.7
+datasheet_min_Q50_63 1.2646 Q31= 47.3
+lowQ_stress 1.5 Q31= 39.9
+lowQ_stress 2.0 Q31= 29.9
+lowQ_stress 3.0 Q31= 19.9
+h90_Qmin50m63 3.5239 303.76
+h90_Qhigh119 4.6742 303.77

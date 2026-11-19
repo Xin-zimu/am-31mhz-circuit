@@ -1,0 +1,27 @@
+{
+  "note": "Screening estimate. Internal coil of the real product is unknown; this uses the coil that a bare 1.3 m whip would need at 27 MHz as a stand-in.",
+  "implied_internal_coil_H": 3.3360054997565652e-06,
+  "rows": [
+    {
+      "length_cm": 70,
+      "f_res_Hz": 33270667.33039236,
+      "X31_ohm": -106.23703703703688
+    },
+    {
+      "length_cm": 80,
+      "f_res_Hz": 31768910.800544295,
+      "X31_ohm": -35.54703703703683
+    },
+    {
+      "length_cm": 90,
+      "f_res_Hz": 30534095.812907983,
+      "X31_ohm": 21.362962962963024
+    },
+    {
+      "length_cm": 100,
+      "f_res_Hz": 29459251.405498907,
+      "X31_ohm": 70.20296296296306
+    }
+  ],
+  "length_cm_for_31MHz_resonance": 86.24618468406905
+}

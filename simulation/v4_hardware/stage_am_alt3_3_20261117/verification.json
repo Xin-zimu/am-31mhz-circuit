@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "transient_cases": 22,
+  "NEC_antenna_cases": 44,
+  "analytic_cases": 216,
+  "checks": [
+    "frozen core exact text match all cases",
+    "source hash unchanged",
+    "raw layouts and monotonic time",
+    "RMS independent time integration",
+    "nominal resonance residual",
+    "free-space energy residual below5percent",
+    "nonuniform RMS selftest"
+  ],
+  "versions": {
+    "python": "3.13.2",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "ngspice": "47",
+    "nec2c": "1.3.1"
+  },
+  "hardware_acceptance": false
+}

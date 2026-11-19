@@ -1,0 +1,31 @@
+{
+  "note": "Screening estimate only; the real product internal coil is unknown.",
+  "full_1p3m_27MHz": {
+    "R": 5.5998,
+    "Lant_H": 5.16398844057985e-07,
+    "Cant_F": 9.019466940948278e-12,
+    "implied_coil_H": 3.3360054997565652e-06
+  },
+  "rows": [
+    {
+      "length_cm": 70,
+      "f_res_Hz": 33270667.33039236,
+      "X31_ohm": -106.23703703703688
+    },
+    {
+      "length_cm": 80,
+      "f_res_Hz": 31768910.800544295,
+      "X31_ohm": -35.54703703703683
+    },
+    {
+      "length_cm": 90,
+      "f_res_Hz": 30534095.812907983,
+      "X31_ohm": 21.362962962963024
+    },
+    {
+      "length_cm": 100,
+      "f_res_Hz": 29459251.405498907,
+      "X31_ohm": 70.20296296296306
+    }
+  ]
+}

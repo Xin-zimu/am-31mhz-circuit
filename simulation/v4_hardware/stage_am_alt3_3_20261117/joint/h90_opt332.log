@@ -1,0 +1,15 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-alt.3 frozen-driver round2: d05
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  1.85000e-03 Reference value :  1.85319e-03 Reference value :  1.85646e-03 Reference value :  1.85936e-03 Reference value :  1.86150e-03 Reference value :  1.86354e-03 Reference value :  1.86562e-03 Reference value :  1.86763e-03 Reference value :  1.86974e-03 Reference value :  1.87182e-03 Reference value :  1.87396e-03 Reference value :  1.87675e-03 Reference value :  1.87968e-03 Reference value :  1.88287e-03 Reference value :  1.88613e-03 Reference value :  1.88943e-03 Reference value :  1.89265e-03 Reference value :  1.89582e-03 Reference value :  1.89907e-03 Reference value :  1.90221e-03 Reference value :  1.90536e-03 Reference value :  1.90861e-03 Reference value :  1.91181e-03 Reference value :  1.91510e-03 Reference value :  1.91824e-03 Reference value :  1.92147e-03 Reference value :  1.92467e-03 Reference value :  1.92781e-03 Reference value :  1.93105e-03 Reference value :  1.93433e-03 Reference value :  1.93758e-03 Reference value :  1.94086e-03 Reference value :  1.94409e-03 Reference value :  1.94715e-03 Reference value :  1.95032e-03 Reference value :  1.95357e-03 Reference value :  1.95683e-03 Reference value :  1.95984e-03 Reference value :  1.96243e-03 Reference value :  1.96504e-03 Reference value :  1.96742e-03 Reference value :  1.97000e-03 Reference value :  1.97258e-03 Reference value :  1.97531e-03 Reference value :  1.97852e-03 Reference value :  1.98183e-03 Reference value :  1.98504e-03 Reference value :  1.98799e-03 Reference value :  1.99124e-03 Reference value :  1.99452e-03 Reference value :  1.99771e-03
+No. of Data Rows : 603772
+binary raw file "h90_opt332.raw"
+ngspice-47 done

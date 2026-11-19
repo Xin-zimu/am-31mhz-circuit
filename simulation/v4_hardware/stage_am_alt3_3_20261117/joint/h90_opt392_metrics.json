@@ -1,0 +1,92 @@
+{
+  "design_only": true,
+  "measured_antenna_parameters": false,
+  "window_s": [
+    0.001890530905653962,
+    0.001990540567212647
+  ],
+  "modulation_cycles": 2,
+  "carrier_Hz": 30992716.117010914,
+  "carrier_fit_success": true,
+  "total_time_weighted_rms_mA": 4.506778466465311,
+  "carrier_fundamental_rms_mA": 4.328110352807672,
+  "high_plateau_median_peak_mA": 7.921236946138312,
+  "low_plateau_median_peak_mA": 4.5872080751998,
+  "high_plateau_sine_equivalent_rms_mA": 5.601160359999819,
+  "high_plateau_fundamental_rms_mA": 5.589786979561667,
+  "low_plateau_fundamental_rms_mA": 3.232884815252866,
+  "plateau_fundamental_rms_samples_mA": {
+    "high": [
+      5.589603759045293,
+      5.5899702000780405
+    ],
+    "low": [
+      3.2327754442697034,
+      3.2329941862360285
+    ]
+  },
+  "full_window_peak_mA": 7.940596710016519,
+  "modulation_index": 0.2665422332872715,
+  "minimum_QCE_VCE_V": 0.16687122831256251,
+  "minimum_QEF_VCE_V": 1.2945200311863698,
+  "rf_supply_average_mA": 22.2726543794065,
+  "baseband_supply_average_mA": 3.4782515428544336,
+  "simulated_supply_power_mW": 128.75452961130466,
+  "battery_budget_mW": 303.7581533003484,
+  "sense_resistor_power_mW": 0.22873284243934336,
+  "assumptions": {
+    "L_scale": 1,
+    "coil_loss_scale": 1,
+    "coil_extra_C_pF": 0.0,
+    "contact_ohm": 0.2,
+    "base_C_pF": 0.5,
+    "antenna_C_scale": 1,
+    "trim_C_scale": 1
+  },
+  "metric_notes": "Radiator current is I(VANT); RMS trapezoidal, complete baseband periods. Manufacturer typical L model, Rskin frozen at31MHz in transient; not a broadband harmonic certification.",
+  "qce_peak_ic_mA": 4.318873434176145,
+  "qce_average_power_mW": 4.1660709373329965,
+  "qce_peak_power_mW": 6.394191415204133,
+  "qef_peak_ic_mA": 22.749626324927334,
+  "qef_average_power_mW": 29.670860241665068,
+  "qef_peak_power_mW": 54.69824556070256,
+  "envelope_overshoot_pct_step": 0.5806717526341311,
+  "envelope_undershoot_pct_step": 136.71868732299356,
+  "antenna_peak_V": 6.684383683617445,
+  "sense_current_rms_mA": 4.782602246051237,
+  "name": "h90_opt392",
+  "length_m": 0.9,
+  "step_ns": 0.25,
+  "Ctrim_total_pF": 26.818668242236438,
+  "part_model_parameters": {
+    "R1": 121.0,
+    "R2": 5.0,
+    "Cp": 1.18e-13,
+    "L": 3.95e-06,
+    "k": 0.00112
+  },
+  "coil_Z31_ohm": [
+    11.501634694191416,
+    783.2243260253825
+  ],
+  "port_Z31_with_10ohm": [
+    25.1905444091833,
+    0.0
+  ],
+  "resonance_Hz": 31000000.000000004,
+  "link_theta65": {
+    "Epeak_per_Irms": 2.132988569426759,
+    "required_carrier_mA_RXheff1m": 7.364108761762486,
+    "V2pp_estimate_RXheff1m": 2.3509214721439315
+  },
+  "link_theta85": {
+    "Epeak_per_Irms": 0.9988229856401912,
+    "required_carrier_mA_RXheff1m": 15.72606962262401,
+    "V2pp_estimate_RXheff1m": 1.1008752871298797
+  },
+  "baseband_frequency_Hz": 19998.067874936423,
+  "port_Z31_with_shunt": [
+    25.1905444091833,
+    0.0
+  ]
+}
