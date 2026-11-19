@@ -1,0 +1,15 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * am-alt.3 frozen-driver round2: d05
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Operating point simulation skipped by 'uic',
+  now using transient initial conditions.
+ Reference value :  1.85000e-03 Reference value :  1.85255e-03 Reference value :  1.85521e-03 Reference value :  1.85789e-03 Reference value :  1.85976e-03 Reference value :  1.86165e-03 Reference value :  1.86357e-03 Reference value :  1.86528e-03 Reference value :  1.86702e-03 Reference value :  1.86893e-03 Reference value :  1.87081e-03 Reference value :  1.87280e-03 Reference value :  1.87486e-03 Reference value :  1.87741e-03 Reference value :  1.88005e-03 Reference value :  1.88242e-03 Reference value :  1.88482e-03 Reference value :  1.88703e-03 Reference value :  1.88916e-03 Reference value :  1.89121e-03 Reference value :  1.89337e-03 Reference value :  1.89556e-03 Reference value :  1.89778e-03 Reference value :  1.89995e-03 Reference value :  1.90209e-03 Reference value :  1.90454e-03 Reference value :  1.90711e-03 Reference value :  1.90968e-03 Reference value :  1.91230e-03 Reference value :  1.91479e-03 Reference value :  1.91729e-03 Reference value :  1.91989e-03 Reference value :  1.92245e-03 Reference value :  1.92473e-03 Reference value :  1.92704e-03 Reference value :  1.92953e-03 Reference value :  1.93208e-03 Reference value :  1.93475e-03 Reference value :  1.93734e-03 Reference value :  1.94001e-03 Reference value :  1.94258e-03 Reference value :  1.94499e-03 Reference value :  1.94747e-03 Reference value :  1.94997e-03 Reference value :  1.95248e-03 Reference value :  1.95511e-03 Reference value :  1.95761e-03 Reference value :  1.95974e-03 Reference value :  1.96145e-03 Reference value :  1.96321e-03 Reference value :  1.96479e-03 Reference value :  1.96646e-03 Reference value :  1.96813e-03 Reference value :  1.96983e-03 Reference value :  1.97151e-03 Reference value :  1.97319e-03 Reference value :  1.97494e-03 Reference value :  1.97750e-03 Reference value :  1.98011e-03 Reference value :  1.98251e-03 Reference value :  1.98513e-03 Reference value :  1.98776e-03 Reference value :  1.99047e-03 Reference value :  1.99313e-03 Reference value :  1.99586e-03 Reference value :  1.99850e-03
+No. of Data Rows : 603164
+binary raw file "h90_332_cb2.raw"
+ngspice-47 done

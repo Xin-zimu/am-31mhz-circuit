@@ -1,0 +1,35 @@
+rebuilding 33 cases
+  h100_332             Prad 0.021725 mW  closure -1.39e-07
+  h100_392             Prad 0.019991 mW  closure -1.60e-07
+  h100_472             Prad 0.015895 mW  closure -1.10e-07
+  h90_332              Prad 0.018021 mW  closure -1.41e-07
+  h90_332_Lm5          Prad 0.013015 mW  closure -5.62e-08
+  h90_332_Lp5          Prad 0.007971 mW  closure +1.10e-07
+  h90_332_Qds          Prad 0.015188 mW  closure -1.18e-07
+  h90_332_Qx           Prad 0.015766 mW  closure -1.29e-07
+  h90_332_cb2          Prad 0.013584 mW  closure -1.94e-07
+  h90_332_ct2          Prad 0.016717 mW  closure -1.34e-07
+  h90_332_cx5          Prad 0.005631 mW  closure +3.75e-08
+  h90_332_loss2        Prad 0.011286 mW  closure -4.29e-08
+  h90_332_srf          Prad 0.017399 mW  closure -1.25e-07
+  h90_392              Prad 0.016711 mW  closure -1.16e-07
+  h90_392_Lm5          Prad 0.010416 mW  closure +1.70e-08
+  h90_392_Lp5          Prad 0.006458 mW  closure +8.83e-09
+  h90_392_Qds          Prad 0.013695 mW  closure -9.49e-08
+  h90_392_Qx           Prad 0.014372 mW  closure -7.51e-08
+  h90_392_cb2          Prad 0.012433 mW  closure -1.34e-07
+  h90_392_ct2          Prad 0.015500 mW  closure -1.14e-07
+  h90_392_cx5          Prad 0.003460 mW  closure +1.27e-07
+  h90_392_loss2        Prad 0.009955 mW  closure -8.78e-08
+  h90_392_srf          Prad 0.015786 mW  closure -9.06e-08
+  h90_472              Prad 0.013272 mW  closure +1.57e-09
+  h90_472_Lm5          Prad 0.007207 mW  closure -6.71e-08
+  h90_472_Lp5          Prad 0.004754 mW  closure +3.93e-08
+  h90_472_Qds          Prad 0.011023 mW  closure -3.10e-08
+  h90_472_Qx           Prad 0.010966 mW  closure -9.15e-08
+  h90_472_cb2          Prad 0.009873 mW  closure -1.13e-07
+  h90_472_ct2          Prad 0.012342 mW  closure -6.82e-08
+  h90_472_cx5          Prad 0.001784 mW  closure +8.05e-08
+  h90_472_loss2        Prad 0.007045 mW  closure -8.63e-08
+  h90_472_srf          Prad 0.012087 mW  closure -9.02e-08
+done, 0 problems

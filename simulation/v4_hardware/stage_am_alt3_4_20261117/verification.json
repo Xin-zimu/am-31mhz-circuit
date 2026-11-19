@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": 137,
+  "failures": [],
+  "case_count": 33,
+  "worst_energy_closure": 1.9350449598241767e-07,
+  "worst_energy_closure_case": "h90_332_cb2",
+  "model_limitations": [
+    "Analytic coil topology and frozen transient topology differ; see 05 section 8",
+    "Q31 floor is model-derived, not a vendor guarantee"
+  ],
+  "hardware_acceptance": false,
+  "note": "Checks re-derive numbers from raw waveforms and from the closed-form model. PASS validates the listed numerical/cache checks, NOT that the hardware works."
+}

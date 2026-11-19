@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "stage": "AM-02.3 retrospective revision",
+    "date": "2026-11-16",
+    "workspace": "D:\\实验报告文件夹\\电路2",
+    "nature": "read-only audit; no circuit simulation re-run; no historical file modified",
+    "report": "AM-02.3_回溯修订_50Ω口径与AM-ALT.3目标复核.md",
+    "verifier": "simulation/v4_hardware/stage_am_023_review_20261116/verify_revision.py"
+  },
+
+  "course_source_audit": {
+    "file": "电子线路实验评分标准-学生.docx",
+    "bytes": 73513,
+    "sha256": "657a5112b09cb5b01adab3f22449501df8864369cf884b61983dd7d320f94f23",
+    "pages": 7,
+    "term_counts": {
+      "Ohm_sign_U03A9_or_U2126": 0,
+      "ohm_or_Ohm": 0,
+      "欧": 0,
+      "负载": 0,
+      "假负载": 0,
+      "终端": 0,
+      "匹配": 0,
+      "阻抗": 0,
+      "输出阻抗": 0,
+      "2.0": 0,
+      "包络": 0,
+      "调制度": 0,
+      "调制指数": 0,
+      "探头": 0,
+      "倍率": 0,
+      "校准": 0,
+      "MOhm": 0,
+      "1.2": 1,
+      "Vpp": 2,
+      "50": 11
+    },
+    "term_count_notes": {
+      "1.2": "single occurrence is the table-4 section numbering '1.1, 1.2', not a voltage",
+      "Vpp": "both occurrences are in the page-5 test data table, v1 and v2 rows only; the v3 row has none",
+      "50": "10 are duty-cycle percentages (10~50%, 50%), 1 is part of +-500kHz; none denotes a resistance"
+    },
+    "extraction_method": {
+      "rule": "split on <w:p>, concatenate the <w:t> runs inside each paragraph, join paragraphs with a newline, then unescape XML entities",
+      "traps_demonstrated_by_verifier": [
+        "regex '<w:t[^>]*>' also matches <w:tbl>/<w:tc> and yields 61,860 fake characters instead of 3,905",
+        "blind concatenation of all <w:t> nodes fuses the page-7 similarity cells 1 / 0.8 / 0.5 / 0.2 into '0.80.50.20' and fabricates a 12th '50'",
+        "splitting every run on a separator yields 9 and loses the '50' inside '占空比10~50%' because Word splits the sentence across runs"
+      ]
+    },
+    "v3_requirement_verbatim": {
+      "table": "表3 性能指标要求和评分标准 (page 3), 满分 4",
+      "indicator": "指定调制波形",
+      "scoring": "(1)波形：明显失真扣1。(2)载波中心频率漂移：大于1%扣1分；大于10%扣2分。(3)调频波频偏：大于±500kHz扣2分。",
+      "test_data_row_page5": "调制波形v3｜指定调制波形｜4｜失真： 中心频率： 调频波频偏：",
+      "observation": "no amplitude value, no load entry, no power entry; the '中心频率：' field has no unit while the 载波频率 row specifies '频率：MHz'"
+    },
+    "conclusion": {
+      "tx_must_drive_50_ohm": "no_source_text",
+      "v3_high_low_envelope_2p0_1p2_vpp": "no_source_text",
+      "v3_formal_measurement_point": "requires_teacher_confirmation",
+      "probe_or_scope_input_impedance_or_load": "no_source_text",
+      "scope_of_inference": "course does not specify a load != course permits high-Z or arbitrary amplitude; v3 amplitude is simply blank in the source"
+    }
+  },
+
+  "fifty_ohm_introduction_chain": [
+    {
+      "step": 1,
+      "where": "simulation/v4_hardware/repair_20261011/final_actual.cir:287",
+      "line": "rRRF TP5 RF_OUT 50 vresRRF",
+      "role": "series resistor inside the RECEIVE detector branch, between TP5 and RF_OUT; neither a TX load nor a shunt termination"
+    },
+    {
+      "step": 2,
+      "where": "simulation/v4_hardware/stage4_rf_oscillator/am_modulator_review_20261113/review_candidate.py:201",
+      "line": "cir.write_text(netlist(4.0, 0.5, rload=\"50\")...",
+      "role": "one-off candidate load trial",
+      "supporting": {
+        "default_rload": "review_candidate.py:44 -> def netlist(amp, duty, rload=\"2k\", tmax=\"0.5n\")",
+        "excluded_from_linearity_baseline": "review_candidate.py:213 filters records having no 'load_ohm' key, i.e. explicitly keeps a4_d50_r50 out of the main matrix",
+        "artifact": "a4_d50_r50.cir:23 -> RL out 0 50 ; :24 -> CL out 0 10p"
+      }
+    },
+    {
+      "step": 3,
+      "where": "simulation/v4_hardware/stage4_rf_oscillator/AM01_2N3904_20261113/AM01_报告.md:45",
+      "line": "无论哪种口径，末级都必须能向 50 Ω 提供 1.6 Vpp 且不削顶；",
+      "role": "the single node where an engineering test became a mandatory admission condition; no derivation, no teacher citation"
+    },
+    {
+      "step": 4,
+      "where": "simulation/v4_hardware/stage4_rf_oscillator/AM01_2N3904_20261113/AM01_报告.md:284",
+      "line": "若 AM-02 以 POLY 的 1.6 Vpp 平均幅度为目标，需 47.8 dB；若以 POLY 高电平 2.0 Vpp 或低电平 1.2 Vpp 为目标，则分别需 47.7 dB / 48.0 dB。三种口径相差约 0.3 dB，不改变“必须增加约 48 dB、且能驱动 50 Ω”的结论。",
+      "role": "POLY algebraic model amplitudes multiplied onto the 50-ohm load assumption; :286 closes with '必须明确 50 Ω 驱动能力'"
+    },
+    {
+      "step": 5,
+      "where": "simulation/v4_hardware/stage4_rf_oscillator/AM02_2_first_stage_20261113/AM02_2_报告.md:166",
+      "line": "第二级按≥23 dB设计（留0.5 dB余量），并验证50 Ω驱动；",
+      "role": "text-only condition; AM-02.2 never ran a single 50-ohm simulation",
+      "supporting": {
+        "loads_used": "run_matrix.py:13 -> LOADS = [2000.0, 10000.0]; run_poly_compare.py:15 -> LOADS = [2000.0, 10000.0]",
+        "decision_json_has_no_50": "AM02_2_decision.json contains no '50' substring"
+      }
+    },
+    {
+      "step": 6,
+      "where": "simulation/v4_hardware/stage4_rf_oscillator/AM02_3_second_stage_20261113/scripts/am023_lib.py:201",
+      "line": "\"ct2\": 66e-12, \"rload\": 50.0, \"cload\": 10e-12}",
+      "role": "hard-coded library default; any caller that does not override rload silently gets 50 ohm",
+      "supporting": {
+        "measure_default": "am023_lib.py:420 -> def measure(raw_path, topology, duty, p0_us=75.0, load_r=50.0)",
+        "power_also_uses_it": "am023_lib.py:472 -> envelope_high_mw = 1000.0*(2.0*ah)**2/(8.0*load_r)"
+      }
+    }
+  ],
+
+  "load_not_propagated_bug": {
+    "script": "simulation/v4_hardware/stage4_rf_oscillator/AM02_3_second_stage_20261113/scripts/run_final_matrix.py",
+    "mechanism": "the per-case 'load' enters only the filename (:31) and the measure() metadata (:37); the stage dict (:20-21) never carries rload, so default_stage() rload=50.0 always wins",
+    "evidence": {
+      "mx_S3_50_4_50.cir:38": "RLD rl 0 50",
+      "mx_S3_2000_4_50.cir:38": "RLD rl 0 50",
+      "ld2_S3_2000_4.cir:38": "RLD rl 0 2000"
+    },
+    "contaminated_artifacts": [
+      "results/final_matrix.json: 4 records labelled load_ohm=2000 are actually 50-ohm data (vpp_high bit-identical to the 50-ohm rows)",
+      "AM02_3_matrix.csv: those 4 rows sit beside 4 genuine 2k rows from source=load2k, all labelled load_ohm=2000.0"
+    ],
+    "report_not_affected": "AM02_3_报告.md:201 already declares the bug and states only rerun data is quoted; section 5.1 values do match load2k_matrix.json"
+  },
+
+  "tp3_connectivity": {
+    "netlist": "simulation/v4_hardware/repair_20261011/final_actual.cir",
+    "sha256": "d9aba8eff74e679f709bc6a680bf569e6dab87a00303b6ff138f19d4964ccaf",
+    "all_lines_mentioning_tp3": [
+      "266 : xEAM_-EAM TP2 0 V1 0 EAM_-EAM_OPEN_5 EAM_-EAM_OPEN_6 TP3 0 POLYSourceEAM_-EAM",
+      "278 : eEPA TP4 0 TP3 0 1"
+    ],
+    "driver_of_tp3": "267-268 .SUBCKT POLYSourceEAM_-EAM ; E1 7 8 POLY(3) (1,2) (3,4) (5,6) 0 0.6 0 0 0 0.1 0 ... ; pin 7 = TP3, pin 8 = 0",
+    "one_petaohm_resistors_are_not_on_tp3": "R0 1 2 / R5 1 0 (and R1..R4) all sit on the subcircuit's INPUT pins; none is on node 7 (TP3)",
+    "tp3_element_count": 2,
+    "tp3_finite_shunt_load_ohm": null,
+    "downstream": [
+      "278 : eEPA TP4 0 TP3 0 1      (ideal VCVS, infinite input impedance)",
+      "281 : eECHANNEL ANT_RX 0 TP4 0 0.1",
+      "284 : eERX TP5 0 ANT_RX 0 10",
+      "287 : rRRF TP5 RF_OUT 50 vresRRF   (series, after the receive gain stage)"
+    ],
+    "net_gain_to_tp5": 1.0,
+    "cross_check_multisim_net_txt": {
+      "file": "simulation/v4_hardware/repair_20261011/final_reopen.net.txt",
+      "tp3_pins": ["EAM_-EAM pin 7", "EPA pin 2"],
+      "no_resistor_pin_on_tp3": true,
+      "rRF_pins": "pin1=TP5, pin2=RF_OUT"
+    },
+    "conclusion": "TP3 is driven by an ideal zero-impedance source and loaded only by an ideal infinite-impedance control input; it cannot support any statement about driving a real load"
+  },
+
+  "fourteen_point_three_db": {
+    "expression": "20*log10(2.0 / 0.38569311162061176)",
+    "numerator": {
+      "value_vpp": 2.0,
+      "provenance": "POLY model algebra: V(TP3)=Vc*(0.6+0.1*Vm), Vc peak 1 V, Vm high 4 V",
+      "sources": ["final_actual.cir:268", "review_candidate.py:220", "AM01_报告.md:284"]
+    },
+    "denominator": {
+      "value_vpp": 0.38569311162061176,
+      "condition": "S3, 50 ohm || 10 pF, 4 Vpp, 50% duty, 31 MHz",
+      "source": "results/load2k_matrix.json (config=S3, amp_vpp=4, duty_pct=50, load_ohm=50)"
+    },
+    "result_db": 14.296,
+    "low_envelope": {"expression": "20*log10(1.2/0.2267683267244924)", "result_db": 14.472},
+    "s6_high_envelope": {"expression": "20*log10(2.0/0.5736709)", "result_db": 10.847},
+    "depends_on_50_ohm": true,
+    "gap_vs_load": [
+      {"load_ohm": 50, "s3_high_vpp": 0.38569311162061176, "gap_to_2p0_db": 14.296, "gap_to_1p2_db": 14.472, "gap_to_1p6_db": 12.358},
+      {"load_ohm": 2000, "s3_high_vpp": 0.440567473966195, "gap_to_2p0_db": 13.140, "gap_to_1p2_db": 13.335, "gap_to_1p6_db": 11.202}
+    ],
+    "gap_improvement_db": 1.155,
+    "reading": "changing load recovers only ~1.2 dB; the gap magnitude is unchanged, so the 50-ohm number is not an artifact of load choice - but it is also not a course requirement"
+  },
+
+  "same_50_ohm_point_two_values": {
+    "condition": "S3, 50 ohm || 10 pF, 4 Vpp, 50% duty, 31 MHz",
+    "A": {
+      "file": "results/load2k_matrix.json",
+      "producer": "run_load2k.py",
+      "vpp_high": 0.38569311162061176,
+      "vpp_low": 0.2267683267244924,
+      "modulation_index": 0.25948537319433634,
+      "cap_v": 1.380797676461787,
+      "solver": "solve_cap(..., stop_us=45.0, max_iter=4)  [run_load2k.py:25]"
+    },
+    "B": {
+      "file": "results/cascade_candidates.json",
+      "producer": "run_cascade_candidates.py",
+      "vpp_high": 0.37703694057203,
+      "vpp_low": 0.218082259720677,
+      "modulation_index": 0.267097214764994,
+      "cap_v": 1.159063372093,
+      "solver": "solve_cap(..., stop_us=50.0, max_iter=5 default)  [run_cascade_candidates.py:31 + am023_lib.py:384]"
+    },
+    "difference_db": 0.197,
+    "cap_v_difference_v": 0.222,
+    "impact": "AM02_3 report carries both 14.3 dB (sections 0.1/8.1, from A) and 14.5 dB (section 4, from B) without explaining the 0.2 dB"
+  },
+
+  "reclassification": {
+    "principle": "raw test data is not altered; only the judgement statements are split and re-tagged",
+    "items": [
+      {"id": 1, "statement": "50 ohm high-envelope attenuation 14.3 dB", "class": "measured result under a specific load", "verdict": "retained_valid"},
+      {"id": 2, "statement": "failed course acceptance / AM-02 incomplete", "class": "course judgement", "verdict": "withdrawn_no_basis"},
+      {"id": 3, "statement": "S6 oscillates on a 2 kohm load", "class": "load robustness", "verdict": "retained"},
+      {"id": 4, "statement": "S1 oscillates (negative input resistance)", "class": "load robustness", "verdict": "retained"},
+      {"id": 5, "statement": "S4 compresses m to 7.88% at 0.54 Vpp", "class": "linear range limit", "verdict": "retained"},
+      {"id": 6, "statement": "whole TX 413 mW < 500 mW", "class": "course clause (has source text)", "verdict": "retained_and_passes"},
+      {"id": 7, "statement": "m=25.95%, duty 10/30/50% all work, THD 1.08%, 31 MHz", "class": "positive evidence for course v3", "verdict": "retained_and_promoted"},
+      {"id": 8, "statement": "S3 output is 1.2 dB higher into 2 kohm than into 50 ohm", "class": "load sensitivity", "verdict": "retained"},
+      {"id": 9, "statement": "no operating point gives 2.0 Vpp with 25% modulation", "class": "capability limit under that load", "verdict": "retained_as_conditional"},
+      {"id": 10, "statement": "lowering the target to 0.4 Vpp needs written confirmation", "class": "open item", "verdict": "retained_and_still_open"}
+    ]
+  },
+
+  "am_alt3_target_audit": {
+    "requirement_chain": {
+      "target": "3.75 - 5.30 mA rms antenna current",
+      "steps": [
+        {"step": "V_oc needed", "formula": "V2_target / (S * m/M_S05)", "course_input": "V2 >= 4 Vpp (table 3, v2)", "project_inputs": "S=4.7770/10 Vpp/mV (S05-06, calibrated with a 50-ohm source); m_S05=0.50; m_ALT2=0.2431"},
+        {"step": "E needed", "formula": "V_oc / h_eff", "project_inputs": "h_eff = h = 1.00 m (forced by D=3 reciprocity in the erratum)"},
+        {"step": "P_radiated needed", "formula": "E^2 * r^2 / 180", "course_input": "r = 6 m (table 3)", "project_inputs": "G = 3 (D in [1.5,3])"},
+        {"step": "I antenna needed", "formula": "sqrt(P / R_rad), R_rad = 395*(h/lambda)^2", "course_input": "h = 1.00 m (table 3 antenna <= 1 m)", "project_inputs": "coil Q = 60, ground loss 1 ohm"}
+      ],
+      "only_50_ohm_contact": "the S05 sensitivity constant was calibrated with a 50-ohm generator source; that is a receive-bench measurement condition, not a transmit output requirement",
+      "verdict": "the AM-ALT.3 target is NOT derived from the 50-ohm requirement; withdrawing 50 ohm does not change 3.75-5.30 mA"
+    },
+    "fifty_ohm_occurrences_in_alt3": {
+      "exact_token_50_in_netlists": 0,
+      "netlists_scanned": {"stage": 21, "round2": 12},
+      "explicit_declaration": "03_AM-ALT.3_测量匹配与驱动复核.md:53 - '发生器 50 Ω 用于测量模型，不应写入实际驱动级负载。'",
+      "two_point_zero_or_one_point_two_vpp_hits": 0
+    },
+    "driver_load": {
+      "definition": "tuned antenna equivalent: LTUNE + RANT(13.824 or 14.824 ohm) + CANT(8.913 pF), plus a 10-ohm sense resistor in the closure runs",
+      "netlist_evidence": ["netlists/fin_nom.cir:187-189", "netlists/closure_sense10_fine.cir:188-191"],
+      "sizing_rule": "driver_sized.py:13-15 - follower bias set by the 7.5 mA antenna peak across 14.8 ohm, i.e. a current target, not a 50-ohm voltage target"
+    },
+    "completed_verifications_still_valid": [
+      {"item": "frequency numerical convergence", "key": "five step sizes 0.5/0.25/0.125/0.0625/0.05 ns; order 1.987; extrapolated 30998793.391 Hz; finest residual 248.27 Hz; 0.05 ns cross-check differs by 0.177 Hz", "source": "round2_20261116/summary.json, results/d_convergence.json"},
+      {"item": "transient cases", "key": "12 full-chain cases; 21 stage-level netlists all with netlist+raw+log, failed=0", "source": "summary.json:2, stage_verification.json"},
+      {"item": "VCE mechanism", "key": "min QCE VCE 0.167061 V at 0.39075 us from the nearest edge; plateau VCE 2.32286/2.57546 V; plateau VBC negative (-1.6385/-1.8953 V); plateau gain difference -0.0611 dB", "source": "d05_metrics.json:39,40,60,63,141,219"},
+      {"item": "RMS currents", "key": "with 10 ohm: total 4.830755 mA, carrier 4.640940 mA; without 10 ohm: 6.2499 mA", "source": "closure_sense10_metrics.json:11-16,28; final_verify.json:3"},
+      {"item": "power budget", "key": "303.762 mW (with 10 ohm) / 308.693 mW (13.824 ohm); both < 500 mW", "source": "closure_sense10_metrics.json:35; final_verify.json:14"},
+      {"item": "2700-point analytic grid", "key": "25 C x 3 Q x 3 dC x 3 dL x 4 Cp; 75 zero-error resonances recover relative current 1", "source": "06_报告 section A; a_summary.json"}
+    ],
+    "dependence_classification": {
+      "a_fully_independent_of_50_ohm": "all items in completed_verifications_still_valid, plus antenna selection, matching topology, sideband check, ROISO discovery, C+-15% sensitivity, VCE mechanism",
+      "b_partly_dependent": [
+        {"item": "coverage percentage", "stated": "117.92% - 166.66%", "recomputed": "123.8% vs D=3 and 87.5% vs D=1.5 (carrier 4.6407 mA over 24.824 ohm); 128.9%/91.1% on total RMS", "reason": "the stated range uses the old 13.824-ohm no-sense-resistor 6.2499 mA"}
+      ],
+      "c_fully_dependent_on_50_ohm": []
+    },
+    "driver_stage_still_necessary": {
+      "old_reason_withdrawn": "deliver 2.0/1.2 Vpp into 50 ohm",
+      "new_reason": "course table 3 requires v2 >= 4 Vpp under wireless 6 m (with an explicit zero-score clause if wireless reception fails); that implies 3.75-5.30 mA rms antenna current against a hard ceiling of 1.193 mA rms",
+      "gap": "3.14x to 4.44x",
+      "verdict": "necessary, for a different reason"
+    }
+  },
+
+  "new_defects_found_unrelated_to_50_ohm": [
+    {
+      "id": "D1",
+      "title": "coverage percentage inflated by index",
+      "detail": "README.md and 项目管理/03_当前实现状态.md still carry 117.92%-166.66% next to 'not proven to cover'; with the 10-ohm sense resistor the carrier is 4.6407 mA giving 87.5%-123.8%",
+      "action": "re-label at the index level"
+    },
+    {
+      "id": "D2",
+      "title": "v3 node no longer exists in the netlist",
+      "detail": "netlists/fin_nom.cir:193 saves v(v3) but results/fin_nom.raw has only 6 variables: time, v(ef_e), i(ltune), v(v1), i(v5), i(vsup); v(v3) vanished silently after ROISO was removed",
+      "action": "rename ef_e to v3 or document the equivalence"
+    },
+    {
+      "id": "D3",
+      "title": "link_budget.py still uses the refuted h_eff = h/2",
+      "detail": "scripts/link_budget.py:9 and :37 keep h/2 although the erratum proved D=0.749 < 1 is impossible",
+      "action": "deprecation note or cross-reference to the erratum"
+    }
+  ],
+
+  "unchanged_state": {
+    "am_alt3_complete": false,
+    "blocking_item": "antenna impedance not measured (C_ant and R_total; 8.913 pF is a Schelkunoff estimate; C +-15% drops the current to ~1/3)",
+    "blocking_item_is_50_ohm_related": false,
+    "am_alt4_started": false,
+    "course_v3_measurement_definition": "still requires teacher confirmation (AM-REQ.1 questions 1, 2, 5)"
+  },
+
+  "files_modified": [],
+  "files_added": [
+    "AM-02.3_回溯修订_50Ω口径与AM-ALT.3目标复核.md",
+    "simulation/v4_hardware/stage_am_023_review_20261116/reclassification.json",
+    "simulation/v4_hardware/stage_am_023_review_20261116/verify_revision.py"
+  ]
+}

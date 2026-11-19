@@ -1,0 +1,908 @@
+{
+  "meta": {
+    "title": "31 MHz 短单极子串联加载：成品电感候选核查",
+    "generated": "2026-11-17",
+    "scope_uH": [
+      2.5,
+      5.5
+    ],
+    "design_target": {
+      "need": "抵消裸天线约 -580~-760 Ω 容抗；本轮模型需求 2.98~3.88 µH",
+      "f_MHz": 31,
+      "rsense_ohm": 10
+    },
+    "tier_definitions": {
+      "A": "有厂家 datasheet 支持 Q 与 SRF 数值，且存在可核实、当前显示有库存/可下单的渠道编码",
+      "B": "有确切型号（可能含厂家 datasheet），但缺关键 RF 数据，或数据不满足 31 MHz 使用，或当前无可下单渠道",
+      "C": "淘宝类无参数商品，仅可进待核实清单；不得赋予理想 Q 值"
+    },
+    "method": "厂家 PDF 数据手册直接下载并用 pypdf 抽取正文表格；采购数据取自立创商城 item 页 JSON-LD（item.szlcsc.com）与 JLCPCB 官方器件库检索接口（jlcpcb.com/api/.../selectSmtComponentList）。未编造任何型号、价格或库存。",
+    "price_note": "price_cny 来自 item.szlcsc.com 商品页；price_usd_1pc 来自 lcsc.com 商品页 JSON-LD 或 JLCPCB 器件库 1 只价（已在 price_source 标注）。均为 2026-11-17 查询值，随汇率与库存波动。"
+  },
+  "candidates": [
+    {
+      "id": "CC-1812CS-272",
+      "tier": "A",
+      "mfr": "Coilcraft",
+      "series": "1812CS (4532)",
+      "part_number": "1812CS-272XJLC",
+      "L_uH": 2.7,
+      "L_tol_pct": 5,
+      "Q_min": 63,
+      "Q_test_freq_MHz": 50,
+      "SRF_min_MHz": 160,
+      "DCR_max_ohm": 3.2,
+      "Irms_mA": 230,
+      "Irms_note": null,
+      "package": "1812 (4532)",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": true,
+      "datasheet": {
+        "doc": "Coilcraft Document 105-1, Rev 08/08/22",
+        "url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C20882986",
+          "price_usd_1pc": 1.3237,
+          "price_source": "JLCPCB 器件库",
+          "stock": 44,
+          "orderable_2026_11_17": true,
+          "url": "https://jlcpcb.com/partdetail/20882986"
+        }
+      ],
+      "notes": "SRF 为该族最高之一；Q 定义在 50 MHz（厂家 guarantees），31 MHz 处 Q 需实测或由厂家 SPICE 模型推算。Irms 为 15°C 温升参考值，非绝对最大值。",
+      "source_url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+    },
+    {
+      "id": "CC-1812CS-332",
+      "tier": "A",
+      "mfr": "Coilcraft",
+      "series": "1812CS (4532)",
+      "part_number": "1812CS-332XJLC",
+      "L_uH": 3.3,
+      "L_tol_pct": 5,
+      "Q_min": 65,
+      "Q_test_freq_MHz": 50,
+      "SRF_min_MHz": 145,
+      "DCR_max_ohm": 3.8,
+      "Irms_mA": 270,
+      "Irms_note": null,
+      "package": "1812 (4532)",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": true,
+      "datasheet": {
+        "doc": "Coilcraft Document 105-1, Rev 08/08/22",
+        "url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C38021502",
+          "price_cny": 6.06,
+          "price_usd_1pc": 1.5677,
+          "price_source": "item.szlcsc.com ¥6.06 / JLCPCB US$1.5677",
+          "stock": 319,
+          "orderable_2026_11_17": true,
+          "url": "https://item.szlcsc.com/39745045.html"
+        }
+      ],
+      "notes": "库存为该族中最充裕。项目既有模型量 1812CS-332 在 90 cm 时 Q31≈64.3、需外加 28.5–58.8 pF C0G。",
+      "source_url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+    },
+    {
+      "id": "CC-1812CS-392",
+      "tier": "A",
+      "mfr": "Coilcraft",
+      "series": "1812CS (4532)",
+      "part_number": "1812CS-392XGRC",
+      "L_uH": 3.9,
+      "L_tol_pct": 2,
+      "Q_min": 69,
+      "Q_test_freq_MHz": 50,
+      "SRF_min_MHz": 130,
+      "DCR_max_ohm": 5,
+      "Irms_mA": 240,
+      "Irms_note": null,
+      "package": "1812 (4532)",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": true,
+      "datasheet": {
+        "doc": "Coilcraft Document 105-1, Rev 08/08/22",
+        "url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C40634571",
+          "price_usd_1pc": 1.168,
+          "price_source": "JLCPCB 器件库",
+          "stock": 89,
+          "orderable_2026_11_17": true,
+          "url": "https://jlcpcb.com/partdetail/40634571"
+        }
+      ],
+      "notes": "G 档=±2%，是该族内 Q 最高的量产档（Q min 69）。项目既有固定长度对比显示 90–100 cm 时效率/复杂度折中最优（eta_driver 2.93%@90cm）。",
+      "source_url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+    },
+    {
+      "id": "CC-1812CS-472",
+      "tier": "A",
+      "mfr": "Coilcraft",
+      "series": "1812CS (4532)",
+      "part_number": "1812CS-472XJLC",
+      "L_uH": 4.7,
+      "L_tol_pct": 5,
+      "Q_min": 63,
+      "Q_test_freq_MHz": 50,
+      "SRF_min_MHz": 115,
+      "DCR_max_ohm": 5.4,
+      "Irms_mA": 230,
+      "Irms_note": null,
+      "package": "1812 (4532)",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": true,
+      "datasheet": {
+        "doc": "Coilcraft Document 105-1, Rev 08/08/22",
+        "url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C46470453",
+          "price_cny": 4.83,
+          "price_usd_1pc": 0.799,
+          "price_source": "item.szlcsc.com ¥4.83 / lcsc.com US$0.799",
+          "stock": 19,
+          "orderable_2026_11_17": true,
+          "url": "https://item.szlcsc.com/48587917.html"
+        }
+      ],
+      "notes": "本项目主比较件。更正：早期文档称『国内货源与现价未核实』，现已在立创核到确切编码与 ¥4.83 单价；但库存仅 19 只，属薄库存，批量前须复核。",
+      "source_url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+    },
+    {
+      "id": "CC-1008CS-332",
+      "tier": "A",
+      "mfr": "Coilcraft",
+      "series": "1008CS (2520)",
+      "part_number": "1008CS-332XGLC",
+      "L_uH": 3.3,
+      "L_tol_pct": 2,
+      "Q_min": 22,
+      "Q_test_freq_MHz": 25,
+      "SRF_min_MHz": 110,
+      "DCR_max_ohm": 3.4,
+      "Irms_mA": 290,
+      "Irms_note": null,
+      "package": "1008 (2520)",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": true,
+      "datasheet": {
+        "doc": "Coilcraft Document 101-2, Rev 08/05/22",
+        "url": "https://www.coilcraft.com/pdfs/1008cs.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C22418119",
+          "price_usd_1pc": 0.7487,
+          "price_source": "JLCPCB 器件库",
+          "stock": 15,
+          "orderable_2026_11_17": true,
+          "url": "https://jlcpcb.com/partdetail/22418119"
+        }
+      ],
+      "notes": "Q 测试频率 25 MHz 比 1812CS 的 50 MHz 更接近 31 MHz，但 Q min 仅 22（1812CS 同值 65）。DCR 更低。尺寸更小、更易贴装。",
+      "source_url": "https://www.coilcraft.com/pdfs/1008cs.pdf"
+    },
+    {
+      "id": "CC-1008CS-472",
+      "tier": "A",
+      "mfr": "Coilcraft",
+      "series": "1008CS (2520)",
+      "part_number": "1008CS-472XGRC",
+      "L_uH": 4.7,
+      "L_tol_pct": 2,
+      "Q_min": 20,
+      "Q_test_freq_MHz": 25,
+      "SRF_min_MHz": 90,
+      "DCR_max_ohm": 4,
+      "Irms_mA": 260,
+      "Irms_note": null,
+      "package": "1008 (2520)",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": false,
+      "datasheet": {
+        "doc": "Coilcraft Document 101-2, Rev 08/05/22",
+        "url": "https://www.coilcraft.com/pdfs/1008cs.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C7159458",
+          "price_usd_1pc": 0.5505,
+          "price_source": "JLCPCB 器件库",
+          "stock": 18,
+          "orderable_2026_11_17": true,
+          "url": "https://jlcpcb.com/partdetail/7159458"
+        },
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C41062739",
+          "price_usd_1pc": 1.1167,
+          "price_source": "lcsc.com 商品页 JSON-LD",
+          "stock": 400,
+          "orderable_2026_11_17": true,
+          "url": "https://www.lcsc.com/product-detail/C41062739.html"
+        }
+      ],
+      "notes": "SRF 90 MHz 低于 100 MHz 建议线（仍为 31 MHz 的 2.9 倍）。Q min 20@25MHz 明显劣于 1812CS-472 的 63@50MHz。C41062739（GLC，±2%）库存 400 只，是该族最厚的可下单渠道。",
+      "source_url": "https://www.coilcraft.com/pdfs/1008cs.pdf"
+    },
+    {
+      "id": "VS-IMC1812-4R7",
+      "tier": "B",
+      "mfr": "Vishay Dale",
+      "series": "IMC-1812",
+      "part_number": "IMC1812ES4R7K",
+      "L_uH": 4.7,
+      "L_tol_pct": 10,
+      "Q_min": 50,
+      "Q_test_freq_MHz": 7.96,
+      "SRF_min_MHz": 35,
+      "DCR_max_ohm": 1,
+      "Irms_mA": 315,
+      "Irms_note": "40°C 温升 @85°C 环境",
+      "package": "1812",
+      "core": "powdered iron (1.0–120 µH 档)",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": false,
+      "datasheet": {
+        "doc": "Vishay Dale Document 34044, Rev 19-Dec-2024",
+        "url": "https://www.vishay.com/docs/34044/imc1812.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C1334117",
+          "price_usd_1pc": 0.4029,
+          "price_source": "JLCPCB 器件库",
+          "stock": 0,
+          "orderable_2026_11_17": false,
+          "url": "https://jlcpcb.com/partdetail/1334117"
+        }
+      ],
+      "notes": "关键否定项：SRF min 仅 35 MHz，与 31 MHz 工作频率过近，不能视为『远高于 31 MHz』。DCR 1.0 Ω 远优于 1812CS 的 5.4 Ω，但磁芯为羰基铁/铁粉，Q 也不能按陶瓷芯外推。当前库存 0，不可下单。",
+      "source_url": "https://www.vishay.com/docs/34044/imc1812.pdf"
+    },
+    {
+      "id": "VS-IMC1812-3R9",
+      "tier": "B",
+      "mfr": "Vishay Dale",
+      "series": "IMC-1812",
+      "part_number": "IMC1812ES3R9K",
+      "L_uH": 3.9,
+      "L_tol_pct": 10,
+      "Q_min": 50,
+      "Q_test_freq_MHz": 7.96,
+      "SRF_min_MHz": 40,
+      "DCR_max_ohm": 0.9,
+      "Irms_mA": 330,
+      "Irms_note": "40°C 温升 @85°C 环境",
+      "package": "1812",
+      "core": "powdered iron",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": false,
+      "datasheet": {
+        "doc": "Vishay Dale Document 34044, Rev 19-Dec-2024",
+        "url": "https://www.vishay.com/docs/34044/imc1812.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": null,
+          "price_usd_1pc": null,
+          "price_source": null,
+          "stock": null,
+          "orderable_2026_11_17": false,
+          "url": null
+        }
+      ],
+      "notes": "SRF 40 MHz 同样过低。未查到 3.9 µH 档的立创编码（只查到 4.7 µH 档 C1334117/C2051062，均 0 库存）。",
+      "source_url": "https://www.vishay.com/docs/34044/imc1812.pdf"
+    },
+    {
+      "id": "AB-AISC1210-4R7",
+      "tier": "B",
+      "mfr": "Abracon",
+      "series": "AISC-1210",
+      "part_number": "AISC-1210-4R7J-T",
+      "L_uH": 4.7,
+      "L_tol_pct": 5,
+      "Q_min": 20,
+      "Q_test_freq_MHz": 25,
+      "SRF_min_MHz": 60,
+      "DCR_max_ohm": 4,
+      "Irms_mA": 280,
+      "Irms_note": "Irms 列，datasheet 未注明温升口径",
+      "package": "1210",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": false,
+      "datasheet": {
+        "doc": "Abracon AISC-1210 series datasheet (mirror PDF)",
+        "url": "https://pdf.utmel.com/r/datasheets/25af81c58c3f0b8fd30489ad1eeff4f7.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C2046881",
+          "price_usd_1pc": 0.1793,
+          "price_source": "JLCPCB 器件库",
+          "stock": 0,
+          "orderable_2026_11_17": false,
+          "url": "https://jlcpcb.com/partdetail/2046881"
+        }
+      ],
+      "notes": "厂家表列 Q 测试频率为 7.9/25 MHz。SRF 60 MHz 未达建议线，Q min 20 低于 1812CS。单价最低但 0 库存。",
+      "source_url": "https://pdf.utmel.com/r/datasheets/25af81c58c3f0b8fd30489ad1eeff4f7.pdf"
+    },
+    {
+      "id": "AB-AISC1210-2R7",
+      "tier": "B",
+      "mfr": "Abracon",
+      "series": "AISC-1210",
+      "part_number": "AISC-1210-2R7J-T",
+      "L_uH": 2.7,
+      "L_tol_pct": 5,
+      "Q_min": 25,
+      "Q_test_freq_MHz": 25,
+      "SRF_min_MHz": 110,
+      "DCR_max_ohm": 2.85,
+      "Irms_mA": 300,
+      "Irms_note": "Irms 列，未注明温升口径",
+      "package": "1210",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": true,
+      "datasheet": {
+        "doc": "Abracon AISC-1210 series datasheet (mirror PDF)",
+        "url": "https://pdf.utmel.com/r/datasheets/25af81c58c3f0b8fd30489ad1eeff4f7.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": null,
+          "price_usd_1pc": null,
+          "price_source": null,
+          "stock": null,
+          "orderable_2026_11_17": false,
+          "url": null
+        }
+      ],
+      "notes": "2.7 µH 落在 2.5–5.5 µH 区间且 SRF 110 MHz 达标，但 Q min 25 远低于 1812CS-272 的 63。未查到该档的确切立创编码。",
+      "source_url": "https://pdf.utmel.com/r/datasheets/25af81c58c3f0b8fd30489ad1eeff4f7.pdf"
+    },
+    {
+      "id": "MU-LQW2UAS4R7",
+      "tier": "B",
+      "mfr": "Murata",
+      "series": "LQW2UAS",
+      "part_number": "LQW2UAS4R7J00L",
+      "L_uH": 4.7,
+      "L_tol_pct": 5,
+      "Q_min": null,
+      "Q_test_freq_MHz": null,
+      "SRF_min_MHz": null,
+      "DCR_max_ohm": 4,
+      "Irms_mA": 260,
+      "Irms_note": null,
+      "package": "1008",
+      "core": "wire-wound (陶瓷/非磁，未由 datasheet 确认)",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": null,
+      "datasheet": {
+        "doc": null,
+        "url": null
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C703710",
+          "price_usd_1pc": 0.1329,
+          "price_source": "JLCPCB 器件库",
+          "stock": 1596,
+          "orderable_2026_11_17": true,
+          "url": "https://jlcpcb.com/partdetail/703710"
+        }
+      ],
+      "notes": "本次未取得 Murata 官方 PDF（murata.com 的 pdfdownloadapi 返回 HTML、直接 PDF 路径 404）。因此 Q/SRF 缺失，不能进 A 类。库存 1596、单价最低，是最值得补取 datasheet 的对象。",
+      "source_url": "https://jlcpcb.com/partdetail/703710"
+    },
+    {
+      "id": "TDK-NLC453232T-4R7",
+      "tier": "B",
+      "mfr": "TDK",
+      "series": "NLC453232T",
+      "part_number": "NLC453232T-4R7K-PF",
+      "L_uH": 4.7,
+      "L_tol_pct": 10,
+      "Q_min": null,
+      "Q_test_freq_MHz": null,
+      "SRF_min_MHz": null,
+      "DCR_max_ohm": 0.27,
+      "Irms_mA": 650,
+      "Irms_note": null,
+      "package": "1812 (4532)",
+      "core": "未由 datasheet 确认（NLC 为绕线型）",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": null,
+      "datasheet": {
+        "doc": null,
+        "url": null
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C307782",
+          "price_usd_1pc": 0.2187,
+          "price_source": "JLCPCB 器件库",
+          "stock": 0,
+          "orderable_2026_11_17": false,
+          "url": "https://jlcpcb.com/partdetail/307782"
+        }
+      ],
+      "notes": "DCR 0.27 Ω、Irms 650 mA 看起来很有吸引力，但未取得厂家 Q/SRF；且该类绕线件多为铁氧体芯，SRF 可能偏低。0 库存。",
+      "source_url": "https://jlcpcb.com/partdetail/307782"
+    },
+    {
+      "id": "SL-SDWL4532C4R7",
+      "tier": "B",
+      "mfr": "Sunlord 顺络",
+      "series": "SDWL4532C (1812)",
+      "part_number": "SDWL4532C4R7□STF（□=公差码，未确认）",
+      "L_uH": 4.7,
+      "L_tol_pct": null,
+      "Q_min": null,
+      "Q_test_freq_MHz": null,
+      "SRF_min_MHz": null,
+      "DCR_max_ohm": null,
+      "Irms_mA": null,
+      "Irms_note": null,
+      "package": "1812 (4532)",
+      "core": "ceramic（厂家目录标注 陶瓷绕线高 Q）",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": null,
+      "datasheet": {
+        "doc": "顺络射频电感选型目录（仅系列级参数，不含 4.7 µH 单值 Q/SRF）",
+        "url": "http://www.szdst.com.cn/UploadFile/2021102914354765.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": null,
+          "price_usd_1pc": null,
+          "price_source": null,
+          "stock": null,
+          "orderable_2026_11_17": false,
+          "url": null
+        }
+      ],
+      "notes": "目录确认 SDWL4532C 覆盖 1000–33000 nH、145–480 mA，但只给系列级范围，没有 4.7 µH 单值的 Q/SRF 行。立创只检索到 220(20µH)/1R5/330/100 四档，无 4R7，故无渠道。国内可采购的陶瓷高 Q 路线仍需另找具体料号。",
+      "source_url": "http://www.szdst.com.cn/UploadFile/2021102914354765.pdf"
+    },
+    {
+      "id": "CC-0805CS-472",
+      "tier": "B",
+      "mfr": "Coilcraft",
+      "series": "0805CS (2012)",
+      "part_number": "0805CS-472X_R_",
+      "L_uH": 4.7,
+      "L_tol_pct": 5,
+      "Q_min": 14,
+      "Q_test_freq_MHz": 25,
+      "SRF_min_MHz": 75,
+      "DCR_max_ohm": 6.2,
+      "Irms_mA": 80,
+      "Irms_note": null,
+      "package": "0805 (2012)",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": false,
+      "datasheet": {
+        "doc": "Coilcraft Document 100-2, Rev 08/05/22（SRF 列为 typ 非 min）",
+        "url": "https://www.coilcraft.com/pdfs/0805cs.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": null,
+          "price_usd_1pc": null,
+          "price_source": null,
+          "stock": null,
+          "orderable_2026_11_17": false,
+          "url": null
+        }
+      ],
+      "notes": "Q min 仅 14@25MHz、SRF 75 MHz（且为 typ）、Irms 80 mA，全部指标明显劣于 1812CS，排除。0805CS 全系最大电感 10 µH，但 1 µH 以上 Q/SRF 迅速恶化。",
+      "source_url": "https://www.coilcraft.com/pdfs/0805cs.pdf"
+    },
+    {
+      "id": "CC-1812CS-562",
+      "tier": "B",
+      "mfr": "Coilcraft",
+      "series": "1812CS (4532)",
+      "part_number": "1812CS-562XJRC",
+      "L_uH": 5.6,
+      "L_tol_pct": 5,
+      "Q_min": 59,
+      "Q_test_freq_MHz": 50,
+      "SRF_min_MHz": 100,
+      "DCR_max_ohm": 5.7,
+      "Irms_mA": 220,
+      "Irms_note": null,
+      "package": "1812 (4532)",
+      "core": "ceramic",
+      "mounting": "SMD",
+      "meets_SRF_ge_100MHz": true,
+      "datasheet": {
+        "doc": "Coilcraft Document 105-1, Rev 08/08/22",
+        "url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": null,
+          "price_usd_1pc": null,
+          "price_source": null,
+          "stock": null,
+          "orderable_2026_11_17": false,
+          "url": null
+        }
+      ],
+      "notes": "5.6 µH 略高于 2.5–5.5 µH 检索区间，仅作区间外相邻参考。SRF 恰为 100 MHz。立创/JLC 均未检索到该值。",
+      "source_url": "https://www.coilcraft.com/pdfs/1812cs.pdf"
+    },
+    {
+      "id": "CC-7M2-472",
+      "tier": "B",
+      "mfr": "Coilcraft",
+      "series": "7M2 \"Slot Seven\" 7 mm 可调",
+      "part_number": "7M2-472",
+      "L_uH": 4.7,
+      "L_min_uH": 4.2,
+      "L_max_uH": 5.2,
+      "L_tol_pct": null,
+      "Q_min": 27,
+      "Q_test_freq_MHz": 7.9,
+      "SRF_min_MHz": null,
+      "DCR_max_ohm": 1.38,
+      "Irms_mA": null,
+      "Irms_note": "datasheet 未给 Irms",
+      "package": "7 mm 插件（含塑料套屏蔽）",
+      "core": "可调磁芯（slug）",
+      "mounting": "THT",
+      "meets_SRF_ge_100MHz": null,
+      "datasheet": {
+        "doc": "Coilcraft Document 112-2 Rev 08/20/12 \"Slot Seven\" 7 mm Tunable Inductors",
+        "url": "https://www.icpdf.com/COILCRAFT_datasheet/7M3_pdf_24768964/"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C47148147（同系列 7M2-822，非 -472）",
+          "price_usd_1pc": 15.867,
+          "price_source": "JLCPCB 器件库",
+          "stock": 10,
+          "orderable_2026_11_17": true,
+          "url": "https://jlcpcb.com/partdetail/47148147"
+        }
+      ],
+      "notes": "**可调件中唯一落在 4.2–5.2 µH 且有厂家 Q 值的一款**。但 Q min 27 定义在 7.9 MHz，厂家未给 SRF，也未给 31 MHz 处 Q。典型 Q-频率曲线只到 100 MHz 且为 typ 非保证。同系列仅 -822/-123/-183 有立创编码，-472 本身未查到。",
+      "source_url": "https://www.icpdf.com/COILCRAFT_datasheet/7M3_pdf_24768964/"
+    },
+    {
+      "id": "CC-7M3-472",
+      "tier": "B",
+      "mfr": "Coilcraft",
+      "series": "7M3 \"Slot Seven\" 7 mm 可调（铁氧体套屏蔽）",
+      "part_number": "7M3-472",
+      "L_uH": 4.7,
+      "L_min_uH": 3.8,
+      "L_max_uH": 5.6,
+      "L_tol_pct": null,
+      "Q_min": 40,
+      "Q_test_freq_MHz": 7.9,
+      "SRF_min_MHz": null,
+      "DCR_max_ohm": 0.898,
+      "Irms_mA": null,
+      "Irms_note": "datasheet 未给 Irms",
+      "package": "7 mm 插件（铁氧体套屏蔽）",
+      "core": "可调磁芯（slug）",
+      "mounting": "THT",
+      "meets_SRF_ge_100MHz": null,
+      "datasheet": {
+        "doc": "Coilcraft Document 112-3 Rev 08/20/12 \"Slot Seven\" 7 mm Tunable Inductors",
+        "url": "https://www.icpdf.com/COILCRAFT_datasheet/7M3_pdf_24768964/"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": "C50132498（同系列 7M3-271，非 -472）",
+          "price_usd_1pc": 22.2132,
+          "price_source": "JLCPCB 器件库",
+          "stock": 5,
+          "orderable_2026_11_17": true,
+          "url": "https://jlcpcb.com/partdetail/50132498"
+        }
+      ],
+      "notes": "可调件中 Q min 最高者（40@7.9MHz），DCR 0.898 Ω 显著低于 1812CS-472 的 5.4 Ω。但同样缺 SRF、缺 31 MHz Q；且铁氧体套在 31 MHz 可能引入额外损耗。-472 本身无立创编码。",
+      "source_url": "https://www.icpdf.com/COILCRAFT_datasheet/7M3_pdf_24768964/"
+    },
+    {
+      "id": "CC-SLOTTEN-2",
+      "tier": "B",
+      "mfr": "Coilcraft",
+      "series": "\"SLOT TEN\" 10 mm 可调 Style 2",
+      "part_number": "SLOTTEN-2-06（4.7 µH min / 10.6 µH max，据第三方转述）",
+      "L_uH": null,
+      "L_min_uH": 4.7,
+      "L_max_uH": 10.6,
+      "L_tol_pct": null,
+      "Q_min": null,
+      "Q_test_freq_MHz": null,
+      "SRF_min_MHz": null,
+      "DCR_max_ohm": null,
+      "Irms_mA": null,
+      "Irms_note": null,
+      "package": "10 mm 插件",
+      "core": "可调磁芯（slug，铁氧体，Style 2）",
+      "mounting": "THT",
+      "meets_SRF_ge_100MHz": null,
+      "datasheet": {
+        "doc": "Coilcraft Document 113-2 Selection Guide（仅样式级 L 范围与相对 Q）",
+        "url": "https://www.alldatasheet.jp/html-pdf/843950/COILCRAFT/SLOTTEN-1-01/988/2/SLOTTEN-1-01.html"
+      },
+      "procurement": [
+        {
+          "channel": "立创商城 LCSC",
+          "code": null,
+          "price_usd_1pc": null,
+          "price_source": null,
+          "stock": null,
+          "orderable_2026_11_17": false,
+          "url": null
+        }
+      ],
+      "notes": "厂家样式表只给：Style 1 0.8–624 µH、Style 2 0.8–927 µH，并注明相对 Q『Hi』——**没有单值 Q 与 SRF 数字**。具体 4.7 µH 档的 L 范围来自第三方商品描述（『Variable Inductor, 4.7uH Min, 10.6uH Max, Ferrite-Core』），属转述非厂家保证。未查到立创/JLC 渠道。",
+      "source_url": "https://www.alldatasheet.jp/html-pdf/843950/COILCRAFT/SLOTTEN-1-01/988/2/SLOTTEN-1-01.html"
+    },
+    {
+      "id": "TB-WANPINJIA-2R1-6R8",
+      "tier": "C",
+      "mfr": "深圳市万品佳科技（淘宝）",
+      "series": "7*7-26T 可调电感",
+      "part_number": "商品ID 648252965502（无厂家型号）",
+      "L_uH": null,
+      "L_min_uH": 2.1,
+      "L_max_uH": 6.8,
+      "L_tol_pct": null,
+      "Q_min": null,
+      "Q_test_freq_MHz": null,
+      "SRF_min_MHz": null,
+      "DCR_max_ohm": null,
+      "Irms_mA": null,
+      "Irms_note": null,
+      "package": "7×7 mm 插件",
+      "core": "未知（可调磁芯）",
+      "mounting": "THT",
+      "meets_SRF_ge_100MHz": null,
+      "datasheet": {
+        "doc": null,
+        "url": null
+      },
+      "procurement": [
+        {
+          "channel": "淘宝",
+          "code": null,
+          "price_cny": 0.42,
+          "price_source": "商品页（前期已核实）",
+          "stock": null,
+          "orderable_2026_11_17": true,
+          "url": "https://item.taobao.com/item.htm?id=648252965502",
+          "shipping_cny": 6
+        }
+      ],
+      "notes": "量程 2.1–6.8 µH 覆盖本轮需求，单价最低。**无任何 Q、SRF、Irms 数据**。按纪律不得赋予理想 Q 值：若按 Q31=100 做链路预算即属编造。只能作为『买回来实测』对象，不能进 A/B 类比较。",
+      "source_url": "https://item.taobao.com/item.htm?id=648252965502"
+    },
+    {
+      "id": "TB-SHUOQISHI-2R1-6R8",
+      "tier": "C",
+      "mfr": "硕骑士旗舰店（天猫，淘宝）",
+      "series": "磁芯微调电感多 SKU 页",
+      "part_number": "商品ID 662363577366，2.1–6.8 µH 档（5 只装）",
+      "L_uH": null,
+      "L_min_uH": 2.1,
+      "L_max_uH": 6.8,
+      "L_tol_pct": null,
+      "Q_min": null,
+      "Q_test_freq_MHz": null,
+      "SRF_min_MHz": null,
+      "DCR_max_ohm": null,
+      "Irms_mA": null,
+      "Irms_note": null,
+      "package": "插件（尺寸未标注）",
+      "core": "未知（可调磁芯）",
+      "mounting": "THT",
+      "meets_SRF_ge_100MHz": null,
+      "datasheet": {
+        "doc": null,
+        "url": null
+      },
+      "procurement": [
+        {
+          "channel": "淘宝/天猫",
+          "code": null,
+          "price_cny": 5.55,
+          "price_source": "商品页默认 SKU（前期已核实）；2.1–6.8 µH 档单价未逐档核实",
+          "stock": null,
+          "orderable_2026_11_17": true,
+          "url": "https://item.taobao.com/item.htm?id=662363577366",
+          "shipping_cny": 0
+        }
+      ],
+      "notes": "多 SKU 页，页面上 ¥5.55 是默认档价格，**不能当作 2.1–6.8 µH 档的确认价**。同样零 RF 数据。",
+      "source_url": "https://item.taobao.com/item.htm?id=662363577366"
+    },
+    {
+      "id": "TB-JIKE-zhongzhou",
+      "tier": "C",
+      "mfr": "HK集科电子元件商城（淘宝）",
+      "series": "可调中周/扼流",
+      "part_number": "商品ID 822517986745",
+      "L_uH": null,
+      "L_min_uH": 1,
+      "L_max_uH": 82000,
+      "L_tol_pct": null,
+      "Q_min": null,
+      "Q_test_freq_MHz": null,
+      "SRF_min_MHz": null,
+      "DCR_max_ohm": null,
+      "Irms_mA": null,
+      "Irms_note": null,
+      "package": "插件",
+      "core": "未知（中周）",
+      "mounting": "THT",
+      "meets_SRF_ge_100MHz": false,
+      "datasheet": {
+        "doc": null,
+        "url": null
+      },
+      "procurement": [
+        {
+          "channel": "淘宝",
+          "code": null,
+          "price_cny": 2,
+          "price_source": "商品页（前期已核实）",
+          "stock": null,
+          "orderable_2026_11_17": true,
+          "url": "https://item.taobao.com/item.htm?id=822517986745",
+          "shipping_cny": 2.5
+        }
+      ],
+      "notes": "标题『5.9-82MH』的单位是毫亨(mH)不是 MHz。SKU 实为 1–5900 µH 与 5–82 mH，比 31 MHz 所需约 3 µH 大 10³ 倍。已在上一阶段排除，此处保留记录以防再被误读为『5.9–82 MHz 可调中周』。",
+      "source_url": "https://item.taobao.com/item.htm?id=822517986745"
+    }
+  ],
+  "tunable_assessment": {
+    "question": "可调电感（用于覆盖不同长度）是否有任何一款有 31 MHz 的 Q/SRF 数据？",
+    "answer": "没有。",
+    "detail": [
+      "Coilcraft 是本轮唯一给出可调件厂家 Q 值的厂商，但其 Q 值全部定义在 7.9 MHz（7M2/7M3 的中等档）或 2.5 MHz（大电感档）或 25–50 MHz（小电感档），**没有任何一档标注 31 MHz 的 Q**。",
+      "Coilcraft 可调系列（148/132/164/165/146/150）**根本没有 SRF 一列**——只有『No core SRF』（无磁芯时的自谐振），插芯后的 SRF 厂家不给。7M2/7M3 的 datasheet 连 SRF 列都没有。",
+      "电感量落在 2.5–5.5 µH 且给出厂家 Q 的可调件，只有 7M2-472（4.2–5.2 µH，Q min 27@7.9MHz）与 7M3-472（3.8–5.6 µH，Q min 40@7.9MHz）。",
+      "其余 Coilcraft 可调件最大电感量都远低于需求：164/165 系列 ≤281 nH，146/150 系列 ≤540 nH，148 系列 ≤710 nH，132 固定系列 ≤709 nH。对 2.98–3.88 µH 的需求，这些『可调』件量程不够，除非串接固定电感。",
+      "SLOT TEN（10 mm）量程够（Style 1 0.8–624 µH、Style 2 0.8–927 µH），但厂家只给样式级 L 范围和定性『相对 Q：Hi/Low/Med』，**没有单值 Q 与 SRF**。",
+      "淘宝 2.1–6.8 µH 可调件（万品佳 ¥0.42、硕骑士 ¥5.55）零 RF 数据，属 C 类。"
+    ],
+    "conclusion": "因此『买可调电感覆盖不同长度』这条路在 31 MHz 上没有任何厂家数据支撑，只能靠 VNA 实测自行标定 Q31 与全行程 SRF。若坚持走可调路线，唯一有厂家 Q 起点的候选是 Coilcraft 7M3-472（Q min 40@7.9MHz，DCR 0.898 Ω），但仍须实测 31 MHz 表现。",
+    "excluded_tunables": [
+      {
+        "part": "Coilcraft 148-13J12L",
+        "L_max_uH": 0.71,
+        "Q_min": 64,
+        "Q_freq_MHz": 25,
+        "no_core_SRF_MHz": 320,
+        "reason": "量程不足（<1 µH）"
+      },
+      {
+        "part": "Coilcraft 146-10J08L",
+        "L_max_uH": 0.54,
+        "Q_min": 60,
+        "Q_freq_MHz": 40,
+        "no_core_SRF_MHz": 290,
+        "reason": "量程不足"
+      },
+      {
+        "part": "Coilcraft 164-11A06L",
+        "L_max_uH": 0.281,
+        "Q_min": 92,
+        "Q_freq_MHz": 100,
+        "no_core_SRF_MHz": 360,
+        "reason": "量程不足"
+      },
+      {
+        "part": "Coilcraft 132-20L (固定)",
+        "L_max_uH": 0.709,
+        "Q_min": 66,
+        "Q_freq_MHz": 25,
+        "no_core_SRF_MHz": 275,
+        "reason": "非可调且量程不足"
+      }
+    ],
+    "excluded_sources": [
+      "https://www.coilcraft.com/pdfs/1812cs.pdf",
+      "https://www.coilcraft.com/getmedia/aaa9fcd2-5ef1-4ee2-b9b8-0ec1aa8c8db0/uni7.pdf",
+      "https://www.unikeyic.com/media/datasheet/24/e8/b1fe/24/c0200b843dbee7217e96c173416dde34.pdf",
+      "https://www.icpdf.com/COILCRAFT_datasheet/7M3_pdf_24768964/"
+    ]
+  },
+  "verdict": {
+    "A_count": 6,
+    "A_parts": [
+      "Coilcraft 1812CS-272XJLC",
+      "Coilcraft 1812CS-332XJLC",
+      "Coilcraft 1812CS-392XGRC",
+      "Coilcraft 1812CS-472XJLC",
+      "Coilcraft 1008CS-332XGLC",
+      "Coilcraft 1008CS-472XGRC"
+    ],
+    "better_than_1812CS_found": false,
+    "better_than_1812CS_reasoning": "在 2.5–5.5 µH、SRF≥100 MHz、且同时具备厂家 Q/SRF 数据与可下单渠道的交集里，没有出现 Q 或 SRF 优于 1812CS 的型号。Vishay IMC-1812 的 DCR（1.0 Ω）远低于 1812CS-472（5.4 Ω），但 SRF 仅 35 MHz，在 31 MHz 已逼近自谐振，不能算更优。1008CS 与 Abracon AISC-1210 的 Q 只有 14–25，远低于 1812CS 的 63–69。Murata LQW2UAS4R7（¥1 级、库存 1596）价格与可得性最好，但缺 Q/SRF 数据，不能据以断言更优。可调件 7M2/7M3-472 的 Q min 27/40 定义在 7.9 MHz，也不构成 31 MHz 更优证据。",
+    "material_new_finding": "1812CS 的国内可下单性问题已解决：立创商城有确切编码与库存（472→C46470453 ¥4.83/19 只；392→C40634571 $1.168/89 只；332→C38021502 ¥6.06/319 只；272→C20882986 $1.3237/44 只）。上一阶段文档『国内货源未核实』的表述应据此更新，但 472 仅 19 只属薄库存。",
+    "caveats": [
+      "厂家 Q 均为特定频率下的 Q min（1812CS 在 50 MHz、1008CS 在 25 MHz、Vishay 在 7.96 MHz），**没有一家给 31 MHz 的 Q**。31 MHz 实际 Q 仍须由厂家 SPICE 模型或实测确定。",
+      "所有价格为 2026-11-17 单次查询值，USD/CNY 计价口径不同，且库存实时变化，下单前必须复核。",
+      "本轮未取得 Murata、TDK、Würth 的官方 PDF（站点 403/404 或返回 HTML），故这些厂家的 Q/SRF 一律记为 null，未做任何推测。"
+    ]
+  },
+  "verification_log": {
+    "fetched_ok": [
+      "https://www.coilcraft.com/pdfs/1812cs.pdf (Document 105-1/105-2, Rev 08/08/22)",
+      "https://www.coilcraft.com/pdfs/1008cs.pdf (Document 101-1/101-2, Rev 08/05/22)",
+      "https://www.coilcraft.com/pdfs/0805cs.pdf (Document 100-1, Rev 08/05/22)",
+      "https://www.coilcraft.com/pdfs/0603cs.pdf",
+      "https://www.coilcraft.com/getmedia/aaa9fcd2-.../uni7.pdf (146/150 7mm, Rev 09/21/23)",
+      "https://www.unikeyic.com/.../c0200b843dbee7217e96c173416dde34.pdf (164/165 5mm)",
+      "https://www.coilcraft.com/pdfs/148.pdf (148 Series, Document 111)",
+      "https://www.coilcraft.com/pdfs/132.pdf (132 Series, Document 114)",
+      "https://www.vishay.com/docs/34044/imc1812.pdf (Rev 19-Dec-2024)",
+      "https://pdf.utmel.com/r/datasheets/25af81c58c3f0b8fd30489ad1eeff4f7.pdf (Abracon AISC-1210)",
+      "https://www.icpdf.com/COILCRAFT_datasheet/7M3_pdf_24768964/ (7M2/7M3 Slot Seven, Document 112-2/112-3)",
+      "https://www.alldatasheet.jp/html-pdf/843950/COILCRAFT/SLOTTEN-1-01/988/2/SLOTTEN-1-01.html (SLOT TEN Document 113-2)",
+      "http://www.szdst.com.cn/UploadFile/2021102914354765.pdf (顺络射频电感选型目录)",
+      "https://item.szlcsc.com/48587917.html (1812CS-472XJLC, ¥4.83, 19 只)",
+      "https://item.szlcsc.com/39745045.html (1812CS-332XJLC, ¥6.06, 319 只)",
+      "https://www.lcsc.com/product-detail/C20623553.html (1008CS-472XJLC)",
+      "https://www.lcsc.com/product-detail/C41062739.html (1008CS-472XGLC)"
+    ],
+    "failed": [
+      "murata.com pdfdownloadapi / 直连 PDF：返回 HTML 或 404，未取得 LQW2UAS 官方 PDF",
+      "abracon.com/datasheets/AISC-1210.pdf：404（改用 utmel 镜像成功）",
+      "we-online.com 数据手册：403",
+      "digikey.com 商品/搜索页：403（无法核实 Digi-Key 现货）",
+      "mouser.com 搜索页：返回 JS 壳，无法核实 Mouser 现货",
+      "coilcraft.com 产品页（en-us/products/...）：JS 渲染，规格表不在初始 HTML 中；改用 /pdfs/*.pdf 取到原厂表格",
+      "立创国际站搜索页（lcsc.com/search）：JS 渲染，无结果；改用 item.szlcsc.com 商品页 JSON-LD + JLCPCB 器件库接口"
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+* AM-ALT.3 frozen-driver round2: d05
+* C3 numerical-consistency run: c4_trap_0p125n_2k_rtol1e5
+* Circuit identical to c2_two_load.cir; numerical options only.
+*   method=trap maxord=2 reltol=1e-5 trtol=7 tmax=0.125n tstep=0.25n tstop=5m tstart=3m rload=2k
+VSUP vcc 0 PWL(0 0 1u 5)
+* --- crystal Colpitts (unchanged from C1) ---
+R1 vcc b 10k
+R2 b 0 10k
+Q1 vcc b e 2N3904
+R3 e 0 4.7k
+C1 b e 33p
+C2 e 0 33p
+C3 vcc 0 100n
+C4 vcc 0 10u
+CSTRAY b 0 1p
+CX0 b 0 3.0p
+VXM b xr 0
+RM xr xl 30
+LM xl xc 0.002637081993366925
+CM xc 0 10.0f
+* --- emitter follower buffer (unchanged from C1) ---
+CIN e bf 1n
+RBT vcc bf 10k
+RBB bf 0 10k
+QB vcc bf ef 2N3904
+REB ef 0 330
+COUTB ef bo 1n
+* --- common-emitter gain stage (unchanged from C1) ---
+CG bo bg 10n
+RG1 vcc bg 22k
+RG2 bg 0 4.7k
+QG cg bg eg 2N3904
+RCG vcc cg 1k
+REG eg 0 56
+COUTG cg out 10n
+.model 2N3904   NPN(Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259
++               Ise=6.734f Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2 Isc=0 Ikr=0 Rc=1
++               Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75
++               Tr=239.5n Tf=301.2p Itf=.4 Vtf=4 Xtf=2 Rb=10)
+.options method=trap maxord=2 reltol=1e-5 trtol=7 temp=27 tnom=27
+
+RTP2DC out 0 1meg
+
+
+* RF attenuation/coupling to base; no uncontrolled floating transistor terminal.
+RMRF out mrftap 2200
+RMRG mrftap 0 10
+CMRF mrftap mb 1e-10
+* DC-coupled base injection: no duty-dependent coupling-capacitor baseline.
+RMT vcc mb 15000
+RMB mb 0 3300
+RPRE vm mod_env 10000
+CENV mod_env 0 4.7e-11
+RMINJ mod_env mb 37000
+QM mc mb me 2N3904
+RMC vcc mc 1000
+RME me 0 470
+CME me 0 1e-09
+* TP3 is the AC-coupled MODULATOR output, not automatically v3.
+CMOUT mc tp3 1e-10
+RTP3DC tp3 0 1000
+* Explicit output follower and final AC-coupled connector.
+* Measurement fixture, NOT a specified antenna or course load.
+.options method=trap maxord=2 reltol=1e-5 trtol=7 temp=27 tnom=27
+
+* TI LM393 macromodel from installed NI Multisim master database LM393/TI.
+* U1A: DIP pins IN+=3 IN-=2 V+=8 GND=4 OUT=1
+* U1B: DIP pins IN+=5 IN-=6 V+=8 GND=4 OUT=7
+V5 V5 0 5
+CDEC V5 0 100n
+CBULK V5 0 10u
+RPU1 V5 OSC 2.2k
+RHT V5 HYST 30k
+RHB HYST 0 10k
+RHF OSC HYST 20k
+RFIX OSC FSET 22k
+RVRF FSET RAMP 15288.86443
+CT RAMP 0 1n
+XU1A HYST RAMP V5 0 OSC LM393_TI
+* VDUTY resistor chain: 10k + 10k potentiometer + 4.7k.
+RDT V5 DUTY_TOP 10k
+RVDT DUTY_TOP DUTY 7362.468268
+RVDB DUTY DUTY_BOT 2637.531732
+RDB DUTY_BOT 0 4.7k
+XU1B DUTY RAMP V5 0 PWM_RAW LM393_TI
+RPU2 V5 PWM_RAW 2200
+* 20k amplitude potentiometer, wiper at V1, includes specified load.
+RVAT PWM_RAW V1 931.277842280237
+RVAB V1 0 19068.722157719763
+RINPUT V1 0 1000000
+CINPUT V1 0 15p
+*****************************************************************************
+
+* (C) Copyright 2002 Texas Instruments Incorporated. All rights reserved.
+
+*****************************************************************************
+
+** This model is designed as an aid for customers of Texas Instruments.
+
+** TI and its licensors and suppliers make no warranties, either expressed
+
+** or implied, with respect to this model, including the warranties of 
+
+** merchantability or fitness for a particular purpose.  The model is
+
+** provided solely on an as is basis.  The entire risk as to its quality
+
+** and performance is with the customer.
+
+*****************************************************************************
+
+* LM393 VOLTAGE COMPARATOR "MACROMODEL" SUBCIRCUIT
+
+* CREATED USING PARTS VERSION 4.03 ON 03/07/90 AT 14:17
+
+* REV (N/A)
+
+* CONNECTIONS:   NON-INVERTING INPUT
+
+*                | INVERTING INPUT
+
+*                | | POSITIVE POWER SUPPLY
+
+*                | | | NEGATIVE POWER SUPPLY
+
+*                | | | | OPEN COLLECTOR OUTPUT
+
+*                | | | | |
+
+.SUBCKT LM393_TI    1 2 3 4 5
+
+*
+
+  F1    9  3 V1 1
+
+  IEE   3  7 DC 100.0E-6
+
+  VI1  21  1 DC .75
+
+  VI2  22  2 DC .75
+
+  Q1    9 21  7 QIN
+
+  Q2    8 22  7 QIN
+
+  Q3    9  8  4 QMO
+
+  Q4    8  8  4 QMI
+
+.MODEL QIN PNP(IS=800.0E-18 BF=2.000E3)
+
+.MODEL QMI NPN(IS=800.0E-18 BF=1002)
+
+.MODEL QMO NPN(IS=800.0E-18 BF=1000 CJC=1E-15 TR=807.4E-9)
+
+  E1   10  4  9  4  1
+
+  V1   10 11 DC 0
+
+  Q5    5 11  4 QOC
+
+.MODEL QOC NPN(IS=800.0E-18 BF=20.29E3 CJC=1E-15 TF=942.6E-12 TR=543.8E-9)
+
+  DP    4  3 DX
+
+  RP 3  4 46.3E3
+
+.MODEL DX  D(IS=800.0E-18)
+
+*
+
+.ENDS
+
+
+RBBPORT V1 vm 0.001
+
+.options method=trap maxord=2 reltol=1e-5 trtol=7 temp=27 tnom=27
+
+CDRV tp3 drv_b 10n
+RDB1 vcc drv_b 40000
+RDB2 drv_b 0 10000
+QCE drv_c drv_b drv_e 2N3904
+RDC vcc drv_c 1250
+RDE drv_e 0 150
+CDE drv_e 0 100n
+QEF vcc drv_c ef_e 2N3904
+REF ef_e 0 200
+RSENSE ef_e sense_out 10
+* AM-ALT.3.4 candidate h90_472_ct2
+* Coilcraft 1812CS-472: Document 158 TYPICAL lumped model, Rskin frozen at 31 MHz.
+* Retuned to 31 MHz for THIS candidate; trimmer loss included.
+VRS  sense_out rs_node 0
+VCOIL rs_node coil_a 0
+RCOILDC coil_a coil_b 5.4
+RCOILSKIN coil_b coil_c 10.0219758531
+LTUNE coil_c coil_out 4.775e-06
+CCOIL coil_a coil_d 1.22e-13
+RCOILPAR coil_d coil_out 85
+CINSTALL rs_node coil_out 1e-18
+CTRIM coil_out trim_a 1.42892012116e-11
+RTRIM trim_a trim_b 0.898236078121
+
+
+LLEAD trim_b ant_feed 2e-09
+CBASE ant_feed cb_ret 5e-13
+VCB cb_ret 0 0
+VANT ant_feed ant_r 0
+RANT ant_r ant_l 5.4153
+LANT ant_l ant_n2 3.40463227456e-07
+CANT ant_n2 0 7.38991186901e-12
+.control
+set filetype=binary
+set num_threads=1
+save v(v1) v(vcc) v(v5) v(tp3) v(drv_b) v(drv_c) v(drv_e) v(ef_e) v(sense_out) i(ltune) i(vant) i(vrs) i(vcoil) i(vcb) i(llead) v(ant_feed) v(ant_r) v(ant_l) v(ant_n2) v(sense_out) v(rs_node) v(coil_out) v(coil_a) v(trim_b) i(vsup) i(v5) @qce[ic] @qce[ib] @qef[ic] @qef[ib]
+tran 0.25n 0.002 0.00185 0.25n uic
+write h90_472_ct2.raw
+quit
+.endc
+.end

@@ -1,0 +1,167 @@
+Coilcraft 1812CS - raw HTML table extract (fetched 2026-11-17 via curl.exe)
+Source: https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-(4532)/1812cs/
+
+===== 1812CS-272  (
+https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-(4532)/1812cs/1812cs-272/) =====
+Part number 1 || Inductance (µH) 2 || Tolerance (%) 3 || Q min @ 50 MHz 4 || SRF min (MHz) 5 || DCR max (Ω) 6 || Irms (mA) 7
+
+1812CS-272X_RC || 2.7 || 2,5 || 63 || 160 || 3.2 || 300
+
+===== 1812CS-332  (
+https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-(4532)/1812cs/1812cs-332/) =====
+Part number 1 || Inductance (µH) 2 || Tolerance (%) 3 || Q min @ 50 MHz 4 || SRF min (MHz) 5 || DCR max (Ω) 6 || Irms (mA) 7
+
+1812CS-332X_RC || 3.3 || 2,5 || 65 || 145 || 3.8 || 270
+
+===== 1812CS-392  (
+https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-(4532)/1812cs/1812cs-392/) =====
+Part number 1 || Inductance (µH) 2 || Tolerance (%) 3 || Q min @ 50 MHz 4 || SRF min (MHz) 5 || DCR max (Ω) 6 || Irms (mA) 7
+
+1812CS-392X_RC || 3.9 || 2,5 || 69 || 130 || 5.0 || 240
+
+===== 1812CS-472  (
+https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-(4532)/1812cs/1812cs-472/) =====
+Part number 1 || Inductance (µH) 2 || Tolerance (%) 3 || Q min @ 50 MHz 4 || SRF min (MHz) 5 || DCR max (Ω) 6 || Irms (mA) 7
+
+1812CS-472XJRC || 4.7 || 5 || 63 || 115 || 5.4 || 230
+
+===== 1812CS-562  (
+https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-(4532)/1812cs/1812cs-562/) =====
+Part number 1 || Inductance (µH) 2 || Tolerance (%) 3 || Q min @ 50 MHz 4 || SRF min (MHz) 5 || DCR max (Ω) 6 || Irms (mA) 7
+
+1812CS-562XJRC || 5.6 || 5 || 59 || 100 || 5.7 || 220
+
+===== SERIES PAGE FULL TABLE =====
+Part number 1 || Inductance (µH) 2 || Tolerance (%) 3 || Q min 4 || SRF min (MHz) 5 || DCR max (Ω) 6 || Irms (mA) 7
+
+1812CS-102XJRC || 1.0 @ 8 MHz || 5 [BOLD=stock] || 60 @ 50 MHz || 310 || 1.2 || 480
+1812CS-122XJRC || 1.2 @ 8 MHz || 5 [BOLD=stock] || 62 @ 50 MHz || 230 || 1.2 || 480
+1812CS-152X_RC || 1.5 @ 8 MHz || 2 , 5 [BOLD=stock] || 65 @ 50 MHz || 210 || 1.6 || 430
+1812CS-182XJRC || 1.8 @ 8 MHz || 5 [BOLD=stock] || 68 @ 50 MHz || 190 || 2.0 || 380
+1812CS-222X_RC || 2.2 @ 8 MHz || 2 , 5 [BOLD=stock] || 63 @ 50 MHz || 170 || 2.2 || 340
+1812CS-272X_RC || 2.7 @ 8 MHz || 2 , 5 [BOLD=stock] || 63 @ 50 MHz || 160 || 3.2 || 300
+1812CS-332X_RC || 3.3 @ 8 MHz || 2 , 5 [BOLD=stock] || 65 @ 50 MHz || 145 || 3.8 || 270
+1812CS-392X_RC || 3.9 @ 8 MHz || 2 , 5 [BOLD=stock] || 69 @ 50 MHz || 130 || 5.0 || 240
+1812CS-472XJRC || 4.7 @ 8 MHz || 5 [BOLD=stock] || 63 @ 50 MHz || 115 || 5.4 || 230
+1812CS-562XJRC || 5.6 @ 8 MHz || 5 [BOLD=stock] || 59 @ 50 MHz || 100 || 5.7 || 220
+1812CS-682XJRC || 6.8 @ 8 MHz || 5 [BOLD=stock] || 60 @ 50 MHz || 90.0 || 6.6 || 210
+1812CS-822X_RC || 8.2 @ 8 MHz || 2 , 5 [BOLD=stock] || 47 @ 50 MHz || 80.0 || 7.0 || 200
+1812CS-103XJRC || 10 @ 8 MHz || 5 [BOLD=stock] || 36 @ 50 MHz || 70.0 || 7.7 || 190
+1812CS-123XJRC || 12 @ 3 MHz || 5 [BOLD=stock] || 35 @ 10 MHz || 60.0 || 8.7 || 180
+1812CS-153X_RC || 15 @ 3 MHz || 2 , 5 [BOLD=stock] || 34 @ 10 MHz || 50.0 || 9.6 || 170
+1812CS-183XJRC || 18 @ 3 MHz || 5 [BOLD=stock] || 30 @ 10 MHz || 45.0 || 10.5 || 160
+1812CS-223X_RC || 22 @ 3 MHz || 2 , 5 [BOLD=stock] || 32 @ 10 MHz || 40.0 || 11.5 || 155
+1812CS-273XJRC || 27 @ 3 MHz || 5 [BOLD=stock] || 29 @ 10 MHz || 30.0 || 12.5 || 150
+1812CS-333X_RC || 33 @ 3 MHz || 2 , 5 [BOLD=stock] || 20 @ 10 MHz || 20.0 || 13.5 || 145
+
+===== SERIES PAGE - NOTES / ENVIRONMENTAL / AEC (verbatim text) =====
+ss="cc-td">3.8
+270
+Notes
+When ordering, please specify  tolerance ,  termination  and  packaging  codes: e.g. 1812CS-333X GRC
+Inductance measured using a Coilcraft SMD-A fixture in an Agilent/HP 4286A impedance analyzer with Coilcraft-provided correlation pieces.
+Tolerances in bold are stocked for immediate shipment.
+Q measured using an Agilent/HP 4291A with an Agilent/HP 16193 test fixture.
+SRF measured using an Agilent/HP 8753D network analyzer and a Coilcraft SMD-D test fixture.
+DCR measured on a Cambridge Technology micro-ohmmeter and a Coilcraft CCF859 test fixture. For other operating temperatures, use this  DCR at Temperature  calculator.
+Current that causes a 15°C temperature rise from 25°C ambient. This information is for reference only and does not represent absolute maximum ratings.
+Tolerance:
+G  = 2%,  J  = 5% (Table above shows stock tolerances in bold.)
+Termination:
+R = RoHS compliant, matte tin over nickel over silver platinum-glass frit.
+E = Halogen free component. RoHS compliant. Silver-palladium-platinum-glass frit.
+L  = RoHS compliant, not halogen-free. Silver-palladium-platinum-glass frit.
+T  = RoHS tin-silver-copper (95.5/4/0.5) (Special order, added cost)
+S  = non-RoHS tin-lead (63/37)  (Special order, added cost)
+Packaging:
+C = 7″ machine-ready reel. EIA-481 embossed plastic tape (600 parts per full reel). Quantities less than full reel available: in tape (not machine ready) or with leader and trailer ($25 charge).
+D = 13″ machine-ready reel. EIA-481 embossed plastic tape. Factory order only, not stocked (2200 parts per full reel).
+B = Less than full reel. In an effort to simplify our part numbering system, Coilcraft is eliminating the need for multiple packaging codes. When ordering, simply change the last letter of your part number from B to C.
+Environmental
+Environmental:
+RoHS compliant ,
+halogen free
+Ambient temperature range:
+–40°C to +125°C with Irms current
+Storage temperature range:
+Component: –40°C to +140°C.
+Tape and reel packaging: –40°C to +80°C
+Maximum part temperature:
++140°C (ambient + temp rise).
+Failures in Time (FIT) / Mean Time Between Failures (MTBF):
+See FIT/MTBF Calculations
+Performance curves
+L vs Frequency
+Q vs Frequency
+Physical characteristics
+A max
+B max
+C max
+D ref
+E
+F
+G
+H
+I
+J
+0.195
+0.150
+0.135
+0.070
+0.100
+0.025
+0.128
+0.120
+0.045
+0.118
+inches
+4,95
+3,81
+3,43
+1,78
+2,54
+0,64
+3,25
+3,05
+1,14
+3,00
+mm
+Height dimension (C) is before optional solder application.
+For maximum height dimension including solder, add 0.006 in / 0,152 mm.
+Tape and Reel specification
+Parts per reel
+Reel dimensions (mm)
+Tape dimensions (mm)
+Orientation
+7"  (178 mm)
+13" (330 mm)
+A
+B
+C
+D
+E
+W
+P
+Po
+P1
+H
+T
+600
+2200 *
+178/330
+60/100
+13
+18,4
+12,4
+12
+8
+4
+2
+3,7
+0,3
+*  Special order
+General specification
+<div class="
+
+===== SERIES PAGE - AEC-Q200 / DESCRIPTION (verbatim) =====
+Our 1812CS Series of wirewound ceramic chip inductors have exceptionally high Q and excellent current handling compared to non-wirewound inductors of the same size. The ceramic construction withstands high peak currents and assures high self-resonant frequencies – up to 310 MHz. This high temperature series meets AEC-Q200 Grade 1 (-40°C to +125°C). Inductance values from 1 µH to 33 µH Exceptionally high Q compared to non-wirewound inductors, especially at high frequencies Ceramic construction for high self resonance up to 3 times higher than ferrite inductors Excellent current carrying capacity for their size Defense Supply Center CID A-A-59740 AEC-Q200 Grade 1 (−40°C to +125°C) Need parts for space, military or other critical applications? <a href=https://cps.coilcraft.

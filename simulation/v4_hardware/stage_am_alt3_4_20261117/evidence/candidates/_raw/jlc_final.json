@@ -1,0 +1,261 @@
+{
+ "1812CS-332": [
+  {
+   "model": "1812CS-332XJLC",
+   "code": "C38021502",
+   "stock": 319,
+   "price1": 1.5677,
+   "moq": 1,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "1812 Inductors (SMD) ROHS"
+  }
+ ],
+ "1812CS-392": [
+  {
+   "model": "1812CS-392XGRC",
+   "code": "C40634571",
+   "stock": 89,
+   "price1": 1.168,
+   "moq": 1,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "1812 Inductors (SMD) ROHS"
+  }
+ ],
+ "1812CS-472": [
+  {
+   "model": "1812CS-472XJLC",
+   "code": "C46470453",
+   "stock": 19,
+   "price1": 0.8322,
+   "moq": 1,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "115MHz 230mA 4.7uH 5.4Ω 60@50MHz ±5% 1812 Inductors (SMD) ROHS"
+  }
+ ],
+ "1008CS-472": [
+  {
+   "model": "1008CS-472XGRC",
+   "code": "C7159458",
+   "stock": 18,
+   "price1": 0.5505,
+   "moq": 1,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "260mA 4.7uH 4Ω ±2% SMD,2.9x2.8mm Inductors (SMD) ROHS"
+  },
+  {
+   "model": "1008CS-472XJLC",
+   "code": "C20623553",
+   "stock": 5,
+   "price1": 1.15,
+   "moq": 1,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "SMD,2.9x2.8mm Inductors (SMD) ROHS"
+  },
+  {
+   "model": "1008CS-472XGLC",
+   "code": "C41062739",
+   "stock": 400,
+   "price1": 1.8544,
+   "moq": 1,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "- Inductors (SMD) ROHS"
+  },
+  {
+   "model": "1008CS-472XJRC",
+   "code": "C5471924",
+   "stock": 0,
+   "price1": 1.4613,
+   "moq": 7,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "260mA 4.7uH 4Ω AEC-Q200 ±5% 1008 Power Inductors ROHS"
+  },
+  {
+   "model": "1008CS-472XJLB",
+   "code": "C6546350",
+   "stock": 0,
+   "price1": 0.0399,
+   "moq": 441,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "SMD,2.9x2.8mm New Arrivals ROHS"
+  },
+  {
+   "model": "1008CS-472XGLC",
+   "code": "C9900334858",
+   "stock": 0,
+   "price1": 0.0399,
+   "moq": 441,
+   "lib": "expand",
+   "brand": "JLCPCB Assembly",
+   "desc": "SMD SMT ROHS"
+  }
+ ],
+ "1008CS-392": [
+  {
+   "model": "1008CS-392XJRC",
+   "code": "C6969284",
+   "stock": 0,
+   "price1": 1.4613,
+   "moq": 7,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "260mA 3.6Ω 3.9uH AEC-Q200 ±5% 1008 Power Inductors ROHS"
+  }
+ ],
+ "1008CS-332": [
+  {
+   "model": "1008CS-332XGLC",
+   "code": "C22418119",
+   "stock": 15,
+   "price1": 0.7487,
+   "moq": 1,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "110MHz 22@25MHz 290mA 3.3uH 3.4Ω Wire-wound chip inductor ±2% 1008 Inductors (SMD) ROHS"
+  },
+  {
+   "model": "1008CS-332EKTS",
+   "code": "C5470495",
+   "stock": 0,
+   "price1": 0.289,
+   "moq": 32,
+   "lib": "expand",
+   "brand": "Delta Elec",
+   "desc": "290mA 3.3uH 3.4Ω ±10% 1008 Power Inductors ROHS"
+  },
+  {
+   "model": "1008CS-332EJTS",
+   "code": "C5472851",
+   "stock": 0,
+   "price1": 0.307,
+   "moq": 30,
+   "lib": "expand",
+   "brand": "Delta Elec",
+   "desc": "290mA 3.3uH 3.4Ω ±5% 1008 Power Inductors ROHS"
+  },
+  {
+   "model": "1008CS-332XJRC",
+   "code": "C5472853",
+   "stock": 0,
+   "price1": 1.4613,
+   "moq": 7,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "290mA 3.3uH 3.4Ω AEC-Q200 ±5% 1008 Power Inductors ROHS"
+  },
+  {
+   "model": "1008CS-332EGTS",
+   "code": "C6037017",
+   "stock": 0,
+   "price1": 0.307,
+   "moq": 30,
+   "lib": "expand",
+   "brand": "Delta Elec",
+   "desc": "290mA 3.3uH 3.4Ω ±2% 1008 Power Inductors ROHS"
+  },
+  {
+   "model": "1008CS-332XGRC",
+   "code": "C7159454",
+   "stock": 0,
+   "price1": 1.8086,
+   "moq": 5,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "290mA 3.3uH 3.4Ω AEC-Q200 ±2% 1008 Power Inductors ROHS"
+  },
+  {
+   "model": "1008CS-332XJLC",
+   "code": "C20416984",
+   "stock": 0,
+   "price1": 1.2205,
+   "moq": 8,
+   "lib": "expand",
+   "brand": "Coilcraft",
+   "desc": "1008 Inductors (SMD) ROHS"
+  }
+ ],
+ "IMC1812ES4R7": [
+  {
+   "model": "IMC1812ES4R7K",
+   "code": "C1334117",
+   "stock": 0,
+   "price1": 0.4029,
+   "moq": 23,
+   "lib": "expand",
+   "brand": "Vishay Intertech",
+   "desc": "1Ω 315mA 4.7uH ±10% 1812 Power Inductors ROHS"
+  },
+  {
+   "model": "IMC1812ES4R7J",
+   "code": "C2051062",
+   "stock": 0,
+   "price1": 0.4179,
+   "moq": 22,
+   "lib": "expand",
+   "brand": "Vishay Intertech",
+   "desc": "1Ω 315mA 4.7uH ±5% 1812 Power Inductors ROHS"
+  }
+ ],
+ "AISC-1210-4R7": [
+  {
+   "model": "AISC-1210-4R7J-T",
+   "code": "C2046881",
+   "stock": 0,
+   "price1": 0.1793,
+   "moq": 51,
+   "lib": "expand",
+   "brand": "Abracon LLC",
+   "desc": "280mA 4.7uH 4Ω ±5% SMD,3x3.7mm Power Inductors ROHS"
+  }
+ ],
+ "SDWL4532C": [
+  {
+   "model": "SDWL4532C220KSTF",
+   "code": "C882637",
+   "stock": 62,
+   "price1": 0.3025,
+   "moq": 1,
+   "lib": "expand",
+   "brand": "Sunlord",
+   "desc": "11.5Ω 155mA 20MHz 20uH 25@10MHz ±10% SMD,4.5x3.2mm Inductors (SMD) ROHS"
+  },
+  {
+   "model": "SDWL4532C1R5JSTF",
+   "code": "C19720211",
+   "stock": 0,
+   "price1": 0.0399,
+   "moq": 441,
+   "lib": "expand",
+   "brand": "Sunlord",
+   "desc": "1812 Inductors (SMD) ROHS"
+  },
+  {
+   "model": "SDWL4532C330JSTF",
+   "code": "C19720267",
+   "stock": 0,
+   "price1": 0.0399,
+   "moq": 441,
+   "lib": "expand",
+   "brand": "Sunlord",
+   "desc": "1812 Inductors (SMD) ROHS"
+  },
+  {
+   "model": "SDWL4532C100JSTF",
+   "code": "C9900225802",
+   "stock": 0,
+   "price1": 0.0399,
+   "moq": 441,
+   "lib": "expand",
+   "brand": "JLCPCB Assembly",
+   "desc": "1812 SMT ROHS"
+  }
+ ],
+ "7M3-472": []
+}

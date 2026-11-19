@@ -1,0 +1,138 @@
+old mixed-basis total reproduces 30.44 ohm                 PASS  30.4371
+mixed-basis coil share reproduces 52.3%                    PASS  52.32%
+correct port-basis coil share is 53.0%                     PASS  53.02%
+port resistance differs from mixed basis                   PASS  30.0321 vs 30.4371
+three parts have distinct model ESR                        PASS  332=10.249 392=11.502 472=15.924
+15.924 ohm belongs to 472 only                             PASS  392=11.502
+Q ordering differs from ESR ordering (Q alone is not a proxy) PASS  392 Q higher, 392 ESR higher
+datasheet floors are solved per part, all different        PASS  332=1.3420 392=1.3553 472=1.2646
+floor reproduces guaranteed Q@50M for 332                  PASS  Q50=65.0000 vs 65
+floor reproduces guaranteed Q@50M for 392                  PASS  Q50=69.0000 vs 69
+floor reproduces guaranteed Q@50M for 472                  PASS  Q50=63.0000 vs 63
+332/392 floors are worse than 472 floor (model more optimistic) PASS  332 +34.1% vs 472 +26.4%
+energy closure over ALL cases below 1e-5                   PASS  worst 1.94e-07 at h90_332_cb2
+independent trapezoid RMS matches stored I_rad_total_rms   PASS  4.685997543 vs 4.685997543
+RMS is insensitive to the window-end convention            PASS  full-window 4.685993745, rel -8.1e-07
+all three principal 90 cm cases present                    PASS  [True, True, True]
+90 cm: 392 radiates more than 472                          PASS  1.26x
+90 cm: 332 radiates more than 472                          PASS  1.36x
+90 cm: 332 has lowest ESR and highest radiated power       PASS  ESR 10.249, Prad 0.01802
+h90_472 port Z real part matches stored                    PASS  30.032074
+h90_472 port Z is resonant at 31 MHz                       PASS  Im=0.00e+00
+h90_392 port Z real part matches stored                    PASS  25.039467
+h90_392 port Z is resonant at 31 MHz                       PASS  Im=2.84e-14
+h90_332 port Z real part matches stored                    PASS  23.503110
+h90_332 port Z is resonant at 31 MHz                       PASS  Im=2.84e-14
+392/472 advantage agrees at 90 and 100 cm within 5%        PASS  1.259 vs 1.258
+ordering survives every corner                             PASS  all 8 corners
+90 cm: only 472 fits the 2-18 pF trimmer alone             PASS  {'1812CS-332': False, '1812CS-392': False, '1812CS-472': True, '1812CS-562': True, '1812CS-682': True}
+no case claims measured antenna parameters                 PASS  caveat present in every metrics file
+ideal-coil ceiling is finite and below 2.2x                PASS  2.12x
+all 33 raw/cir/metrics triplets present                    PASS  33
+h90_332 restored nominal radiation agrees with handoff     PASS  target 0.018021 mW
+h90_392 restored nominal radiation agrees with handoff     PASS  target 0.016711 mW
+h90_472 restored nominal radiation agrees with handoff     PASS  target 0.013272 mW
+h100_332 restored nominal radiation agrees with handoff    PASS  target 0.021725 mW
+h100_472 restored nominal radiation agrees with handoff    PASS  target 0.015895 mW
+h90_472 canonical netlist                                  PASS  
+h90_472 assumptions match requested corner                 PASS  
+h90_472 actual netlist port impedance recorded             PASS  
+h90_392 canonical netlist                                  PASS  
+h90_392 assumptions match requested corner                 PASS  
+h90_392 actual netlist port impedance recorded             PASS  
+h90_332 canonical netlist                                  PASS  
+h90_332 assumptions match requested corner                 PASS  
+h90_332 actual netlist port impedance recorded             PASS  
+h100_472 canonical netlist                                 PASS  
+h100_472 assumptions match requested corner                PASS  
+h100_472 actual netlist port impedance recorded            PASS  
+h100_392 canonical netlist                                 PASS  
+h100_392 assumptions match requested corner                PASS  
+h100_392 actual netlist port impedance recorded            PASS  
+h100_332 canonical netlist                                 PASS  
+h100_332 assumptions match requested corner                PASS  
+h100_332 actual netlist port impedance recorded            PASS  
+h90_472_Lm5 canonical netlist                              PASS  
+h90_472_Lm5 assumptions match requested corner             PASS  
+h90_472_Lm5 detunes and reduces radiation                  PASS  
+h90_472_Lm5 actual netlist port impedance recorded         PASS  
+h90_472_Lp5 canonical netlist                              PASS  
+h90_472_Lp5 assumptions match requested corner             PASS  
+h90_472_Lp5 detunes and reduces radiation                  PASS  
+h90_472_Lp5 actual netlist port impedance recorded         PASS  
+h90_472_loss2 canonical netlist                            PASS  
+h90_472_loss2 assumptions match requested corner           PASS  
+h90_472_loss2 actual netlist port impedance recorded       PASS  
+h90_472_Qds canonical netlist                              PASS  
+h90_472_Qds assumptions match requested corner             PASS  
+h90_472_Qds actual netlist port impedance recorded         PASS  
+h90_472_srf canonical netlist                              PASS  
+h90_472_srf assumptions match requested corner             PASS  
+h90_472_srf actual netlist port impedance recorded         PASS  
+h90_472_ct2 canonical netlist                              PASS  
+h90_472_ct2 assumptions match requested corner             PASS  
+h90_472_ct2 actual netlist port impedance recorded         PASS  
+h90_472_cb2 canonical netlist                              PASS  
+h90_472_cb2 assumptions match requested corner             PASS  
+h90_472_cb2 actual netlist port impedance recorded         PASS  
+h90_472_cx5 canonical netlist                              PASS  
+h90_472_cx5 assumptions match requested corner             PASS  
+h90_472_cx5 detunes and reduces radiation                  PASS  
+h90_472_cx5 actual netlist port impedance recorded         PASS  
+h90_392_Lm5 canonical netlist                              PASS  
+h90_392_Lm5 assumptions match requested corner             PASS  
+h90_392_Lm5 detunes and reduces radiation                  PASS  
+h90_392_Lm5 actual netlist port impedance recorded         PASS  
+h90_392_Lp5 canonical netlist                              PASS  
+h90_392_Lp5 assumptions match requested corner             PASS  
+h90_392_Lp5 detunes and reduces radiation                  PASS  
+h90_392_Lp5 actual netlist port impedance recorded         PASS  
+h90_392_loss2 canonical netlist                            PASS  
+h90_392_loss2 assumptions match requested corner           PASS  
+h90_392_loss2 actual netlist port impedance recorded       PASS  
+h90_392_Qds canonical netlist                              PASS  
+h90_392_Qds assumptions match requested corner             PASS  
+h90_392_Qds actual netlist port impedance recorded         PASS  
+h90_392_srf canonical netlist                              PASS  
+h90_392_srf assumptions match requested corner             PASS  
+h90_392_srf actual netlist port impedance recorded         PASS  
+h90_392_ct2 canonical netlist                              PASS  
+h90_392_ct2 assumptions match requested corner             PASS  
+h90_392_ct2 actual netlist port impedance recorded         PASS  
+h90_392_cb2 canonical netlist                              PASS  
+h90_392_cb2 assumptions match requested corner             PASS  
+h90_392_cb2 actual netlist port impedance recorded         PASS  
+h90_392_cx5 canonical netlist                              PASS  
+h90_392_cx5 assumptions match requested corner             PASS  
+h90_392_cx5 detunes and reduces radiation                  PASS  
+h90_392_cx5 actual netlist port impedance recorded         PASS  
+h90_332_Lm5 canonical netlist                              PASS  
+h90_332_Lm5 assumptions match requested corner             PASS  
+h90_332_Lm5 detunes and reduces radiation                  PASS  
+h90_332_Lm5 actual netlist port impedance recorded         PASS  
+h90_332_Lp5 canonical netlist                              PASS  
+h90_332_Lp5 assumptions match requested corner             PASS  
+h90_332_Lp5 detunes and reduces radiation                  PASS  
+h90_332_Lp5 actual netlist port impedance recorded         PASS  
+h90_332_loss2 canonical netlist                            PASS  
+h90_332_loss2 assumptions match requested corner           PASS  
+h90_332_loss2 actual netlist port impedance recorded       PASS  
+h90_332_Qds canonical netlist                              PASS  
+h90_332_Qds assumptions match requested corner             PASS  
+h90_332_Qds actual netlist port impedance recorded         PASS  
+h90_332_srf canonical netlist                              PASS  
+h90_332_srf assumptions match requested corner             PASS  
+h90_332_srf actual netlist port impedance recorded         PASS  
+h90_332_ct2 canonical netlist                              PASS  
+h90_332_ct2 assumptions match requested corner             PASS  
+h90_332_ct2 actual netlist port impedance recorded         PASS  
+h90_332_cb2 canonical netlist                              PASS  
+h90_332_cb2 assumptions match requested corner             PASS  
+h90_332_cb2 actual netlist port impedance recorded         PASS  
+h90_332_cx5 canonical netlist                              PASS  
+h90_332_cx5 assumptions match requested corner             PASS  
+h90_332_cx5 detunes and reduces radiation                  PASS  
+h90_332_cx5 actual netlist port impedance recorded         PASS  
+
+135 checks, 0 failures
+PASS

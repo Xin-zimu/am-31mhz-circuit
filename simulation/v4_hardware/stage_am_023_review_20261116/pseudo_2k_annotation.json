@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "purpose": "Machine-readable annotation of the pseudo-2k rows in AM-02.3 deliverables",
+    "stage": "AM-02.3 (stage4_rf_oscillator/AM02_3_second_stage_20261113)",
+    "date": "2026-11-16",
+    "author_of_annotation": "P1a retrospective revision",
+    "original_files_modified": false,
+    "read_this_first": "Any downstream consumer of AM02_3_matrix.csv or results/final_matrix.json must apply the filter rules in filter_rules before use.",
+    "explanation_doc": "P1a_AM-02.3历史结论修订与伪2kΩ标注.md"
+  },
+
+  "defect": {
+    "name": "load parameter not propagated into the stage dict",
+    "script": "simulation/v4_hardware/stage4_rf_oscillator/AM02_3_second_stage_20261113/scripts/run_final_matrix.py",
+    "lines": {
+      "config_with_two_loads": "21 : \"S3\": ({..., \"lrfc\": 2.2e-6, \"reb\": 180.0}, [50.0, 2000.0]),",
+      "load_into_filename_only": "31 : tag = f\"mx_{top}_{int(load)}_{amp:g}_{int(duty*100)}\"",
+      "load_into_metadata_only": "37 : m = M.measure(M.RESULTS / (tag + \".raw\"), top, duty, p0_us=75.0, load_r=load)",
+      "silent_default": "am023_lib.py:201 -> \"ct2\": 66e-12, \"rload\": 50.0, \"cload\": 10e-12}"
+    },
+    "mechanism": "the per-case 'load' value reaches the filename and the reported metadata, but never the stage dict, so default_stage()'s rload=50.0 is always in effect",
+    "netlist_proof": {
+      "netlists/mx_S3_50_4_50.cir:38": "RLD rl 0 50",
+      "netlists/mx_S3_2000_4_50.cir:38": "RLD rl 0 50",
+      "netlists/ld2_S3_2000_4.cir:38": "RLD rl 0 2000",
+      "reading": "the file whose NAME says 2000 still loads 50; only the run_load2k.py output is a genuine 2 kohm run"
+    },
+    "bit_identity_proof": {
+      "claim": "the four rows labelled load_ohm=2000 are duplicates of the 50-ohm rows, not 2 kohm measurements",
+      "columns_compared": ["vpp_high", "vpp_low", "step_vpp", "modulation_index", "thd_high_pct", "supply_mw", "cap_v", "plateau_flatness", "overshoot"],
+      "amp_1_vpp_differing_columns": [],
+      "amp_2_vpp_differing_columns": [],
+      "amp_3_vpp_differing_columns": [],
+      "amp_4_vpp_differing_columns": [],
+      "only_difference": "cir_sha256 and the netlist path (both differ because the filename differs)"
+    }
+  },
+
+  "filter_rules": {
+    "for_AM02_3_matrix_csv": {
+      "genuine_2k_row": "row['source'] == 'load2k' and float(row['load_ohm']) == 2000.0",
+      "pseudo_2k_row": "row['source'] == 'final_matrix' and float(row['load_ohm']) == 2000.0",
+      "python": "def is_genuine_2k(row):\n    return row['source'] == 'load2k' and float(row['load_ohm']) == 2000.0"
+    },
+    "for_final_matrix_json": {
+      "problem": "this file has no 'source' column, so the label cannot be trusted",
+      "rule": "read the netlist named in the row and parse its RLD value",
+      "python": "import re, pathlib\ndef netlist_load(netlist_path):\n    txt = pathlib.Path(netlist_path).read_text(encoding='utf-8')\n    return float(re.search(r'(?im)^RLD\\s+\\S+\\s+\\S+\\s+(\\S+)', txt)[1])\n# netlist_load('.../mx_S3_2000_4_50.cir') == 50.0  -> label is wrong"
+    },
+    "blanket_rule": "for any 2 kohm claim in the AM-02.3 stage, use results/load2k_matrix.json; it is the only reliable source of true 2 kohm data"
+  },
+
+  "rows": [
+    {"source": "final_matrix", "config": "S3", "load_ohm_labelled": 2000.0, "amp_vpp": 1.0, "duty_pct": 50.0,
+     "vpp_high": 0.31979645402610424, "actual_load_ohm": 50.0, "verdict": "PSEUDO_2K",
+     "netlist": "netlists/mx_S3_2000_1_50.cir", "evidence": "RLD rl 0 50 in the netlist; all physics columns identical to the 50-ohm row"},
+    {"source": "final_matrix", "config": "S3", "load_ohm_labelled": 2000.0, "amp_vpp": 2.0, "duty_pct": 50.0,
+     "vpp_high": 0.34179610610815686, "actual_load_ohm": 50.0, "verdict": "PSEUDO_2K",
+     "netlist": "netlists/mx_S3_2000_2_50.cir", "evidence": "RLD rl 0 50 in the netlist; all physics columns identical to the 50-ohm row"},
+    {"source": "final_matrix", "config": "S3", "load_ohm_labelled": 2000.0, "amp_vpp": 3.0, "duty_pct": 50.0,
+     "vpp_high": 0.3637403772166265, "actual_load_ohm": 50.0, "verdict": "PSEUDO_2K",
+     "netlist": "netlists/mx_S3_2000_3_50.cir", "evidence": "RLD rl 0 50 in the netlist; all physics columns identical to the 50-ohm row"},
+    {"source": "final_matrix", "config": "S3", "load_ohm_labelled": 2000.0, "amp_vpp": 4.0, "duty_pct": 50.0,
+     "vpp_high": 0.38569311162061176, "actual_load_ohm": 50.0, "verdict": "PSEUDO_2K",
+     "netlist": "netlists/mx_S3_2000_4_50.cir", "evidence": "RLD rl 0 50 in the netlist; all physical columns identical to the 50-ohm row"},
+
+    {"source": "load2k", "config": "S3", "load_ohm_labelled": 2000.0, "amp_vpp": 1.0, "duty_pct": 50.0,
+     "vpp_high": 0.36494823557376627, "actual_load_ohm": 2000.0, "verdict": "GENUINE_2K",
+     "netlist": "netlists/ld2_S3_2000_1.cir", "evidence": "run_load2k.py passes rload=load explicitly (line 23)"},
+    {"source": "load2k", "config": "S3", "load_ohm_labelled": 2000.0, "amp_vpp": 2.0, "duty_pct": 50.0,
+     "vpp_high": 0.39021234556350426, "actual_load_ohm": 2000.0, "verdict": "GENUINE_2K",
+     "netlist": "netlists/ld2_S3_2000_2.cir", "evidence": "run_load2k.py passes rload=load explicitly (line 23)"},
+    {"source": "load2k", "config": "S3", "load_ohm_labelled": 2000.0, "amp_vpp": 3.0, "duty_pct": 50.0,
+     "vpp_high": 0.41542405736933863, "actual_load_ohm": 2000.0, "verdict": "GENUINE_2K",
+     "netlist": "netlists/ld2_S3_2000_3.cir", "evidence": "run_load2k.py passes rload=load explicitly (line 23)"},
+    {"source": "load2k", "config": "S3", "load_ohm_labelled": 2000.0, "amp_vpp": 4.0, "duty_pct": 50.0,
+     "vpp_high": 0.440567473966195, "actual_load_ohm": 2000.0, "verdict": "GENUINE_2K",
+     "netlist": "netlists/ld2_S3_2000_4.cir", "evidence": "RLD rl 0 2000 in the netlist; run_load2k.py passes rload explicitly"}
+  ],
+
+  "gap_recomputation": {
+    "note": "what the 'gap to 2.0 Vpp' becomes if the target is kept but the load changes",
+    "targets_vpp": {"high_envelope": 2.0, "low_envelope": 1.2, "poly_mean": 1.6},
+    "rows": [
+      {"load_ohm": 50, "s3_high_vpp": 0.38569311162061176, "s3_low_vpp": 0.2267683267244924,
+       "gap_to_2p0_db": 14.296, "gap_to_1p2_db": 14.472, "gap_to_1p6_db": 12.358, "source": "load2k_matrix.json"},
+      {"load_ohm": 2000, "s3_high_vpp": 0.440567473966195, "s3_low_vpp": 0.25848605422905924,
+       "gap_to_2p0_db": 13.140, "gap_to_1p2_db": 13.335, "gap_to_1p6_db": 11.202, "source": "load2k_matrix.json"},
+      {"load_ohm": 50, "s3_high_vpp": 0.37703694057203, "s3_low_vpp": 0.218082259720677,
+       "gap_to_2p0_db": 14.493, "gap_to_1p2_db": 14.811, "gap_to_1p6_db": 12.555, "source": "cascade_candidates.json"}
+    ],
+    "improvement_50_to_2k_db": 1.155,
+    "reading": "changing the load recovers only ~1.2 dB, so the gap magnitude is not a load-selection artifact; but neither the load nor the target is a course requirement"
+  },
+
+  "two_values_same_condition": {
+    "condition": "S3, 50 ohm || 10 pF, 4 Vpp, 50% duty, 31 MHz",
+    "A": {"file": "results/load2k_matrix.json", "producer": "run_load2k.py",
+          "vpp_high": 0.38569311162061176, "vpp_low": 0.2267683267244924,
+          "modulation_index": 0.25948537319433634, "cap_v": 1.380797676461787,
+          "solver": "solve_cap(..., stop_us=45.0, max_iter=4)  [run_load2k.py:25]"},
+    "B": {"file": "results/cascade_candidates.json", "producer": "run_cascade_candidates.py",
+          "vpp_high": 0.37703694057203, "vpp_low": 0.218082259720677,
+          "modulation_index": 0.267097214764994, "cap_v": 1.159063372093,
+          "solver": "solve_cap(...) with am023_lib.py:384 defaults max_iter=5, stop_us=50"},
+    "difference_db": 0.197,
+    "cap_v_difference_v": 0.222,
+    "report_impact": "AM02_3_报告.md quotes 14.3 dB in sections 0.1/8.1 (source A) and 14.5 dB in section 4 (source B) without explaining the 0.2 dB",
+    "recommended_citation": "for the gap figure use source A (0.385693 Vpp -> 14.3 dB); for the per-node tracking table note that it comes from a separate convergence run 0.2 dB lower",
+    "resolution_requires": "re-running with unified max_iter and stop_us (new simulation, out of scope for this round)"
+  },
+
+  "deliverable_status": {
+    "AM02_3_报告.md": "valid, but line 3 and line 248 must be read through P1a section 1.2",
+    "AM02_3_topology_table.csv": "valid",
+    "AM02_3_matrix.csv": "CONTAINS 4 PSEUDO_2K ROWS - filter before use",
+    "AM02_3_BOM.csv": "valid",
+    "AM02_3_BOM_changes.csv": "valid",
+    "AM02_3_schematic.svg": "valid",
+    "results/am01_load_sweep.json": "valid",
+    "results/schemeA_interface.json": "valid",
+    "results/topology_table.json": "valid",
+    "results/cascade_candidates.json": "valid, note the 0.2 dB offset versus load2k for the 50-ohm point",
+    "results/final_matrix.json": "CONTAINS 4 PSEUDO_2K RECORDS - verify via netlist before use",
+    "results/load2k_matrix.json": "valid - the only reliable source of true 2 kohm data",
+    "results/s6_match_sweep.json": "valid",
+    "results/s6_rax_sweep*.json": "valid",
+    "results/s6_fine_sweep.json": "valid",
+    "results/am01_level_check.json": "valid",
+    "netlists/repro_cascade_A_10000.cir": "valid",
+    "scripts/am023_lib.py": "valid but its rload=50.0 default is the root cause; always pass rload explicitly"
+  },
+
+  "downstream_rule": "Any new work reusing am023_lib.py MUST pass rload explicitly in the stage dict. Do not rely on the default. The run_final_matrix.py bug existed precisely because the default was relied upon.",
+
+  "hash_protection": {
+    "manifest": "simulation/v4_hardware/stage4_rf_oscillator/AM02_3_second_stage_20261113/SHA256SUMS.txt",
+    "entries": 1530,
+    "protected_files": [
+      {"file": "AM02_3_报告.md", "sha256": "172b3f5dc92705f8892f594be2635ceee421edeb73ae07a3d4ec6daf37000db0"},
+      {"file": "AM02_3_matrix.csv", "sha256": "1745dbb6421d20e52f7453e803102d34f3a97bba6ed96b87d43445cb3907e7a3"},
+      {"file": "results/final_matrix.json", "sha256": "bd440cfbb759e12ed8ddaa110c7eef87ec6581ed4f963e69d58fcd88b509c6a7"},
+      {"file": "results/load2k_matrix.json", "sha256": "b81487d80421fc55b25c7f05da1b75daef857720e51d9823b6f7e80848eb2b6f"}
+    ],
+    "action_taken": "none - all four files verified byte-identical to the manifest; this annotation is an ADDITION, not an edit"
+  }
+}

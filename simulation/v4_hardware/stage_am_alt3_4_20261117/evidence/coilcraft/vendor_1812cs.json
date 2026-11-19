@@ -1,0 +1,1037 @@
+{
+  "_meta": {
+    "task": "Verify vendor (datasheet) parameters for Coilcraft 1812CS ceramic-core RF inductors",
+    "generated": "2026-11-17",
+    "working_context": "31 MHz loaded 1 m short monopole antenna; project D:\\实验报告文件夹\\电路2, stage_am_alt3_4",
+    "primary_source": "Coilcraft Document 105 (Rev 08/08/22) - official 1812CS datasheet PDF, downloaded and text-extracted; cross-checked against the live product pages.",
+    "secondary_source": "Coilcraft Document 158 (SPICE models) - kept strictly separate as TYPICAL/de-embedded, never as guarantee.",
+    "kind_legend": {
+      "guaranteed": "Datasheet VALUE with a min/max or explicit spec that Coilcraft commits to.",
+      "typical": "Value published by Coilcraft but explicitly labelled typical / de-embedded / model-derived.",
+      "derived": "Computed BY THIS TASK from published model element values. Not printed by Coilcraft anywhere."
+    },
+    "files_saved": [
+      "coilcraft_1812cs_datasheet.pdf (124954 bytes, Document 105, 2 pages, verified %PDF magic)",
+      "coilcraft_doc158_spice_1812cs.pdf (68958 bytes, Document 158, 2 pages, verified %PDF magic)",
+      "vendor_1812cs_html_extract.txt (verbatim table + notes text scraped from the product pages)"
+    ],
+    "access_notes": "coilcraft.com returns HTTP 403 to plain Invoke-WebRequest/web_fetch on the table region (>100k HTML truncated). Pages and PDFs were retrieved with curl.exe using a browser User-Agent; the full 210 KB HTML was parsed locally. PDFs were text-extracted with pypdf and visually verified by rendering both pages."
+  },
+  "coilcraft_1812cs": {
+    "parts": {
+      "1812CS-272": {
+        "series": "Coilcraft 1812CS (4532) High-Q Ceramic Chip Inductor",
+        "orderable_sku_example": "1812CS-272X_RC",
+        "datasheet_document": "Coilcraft Document 105, Rev 08/08/22 (official 1812CS datasheet, 2 pages)",
+        "datasheet_pdf_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+        "datasheet_pdf_local_copy": "coilcraft_1812cs_datasheet.pdf",
+        "product_page_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/1812cs-272/",
+        "fields": {
+          "inductance_nominal": {
+            "value": 2.7,
+            "unit": "uH",
+            "condition": "measured at 7.9 MHz per Document 105; the web product page rounds this to '8 MHz'. Coilcraft SMD-A fixture + Agilent/HP 4286A, electrical specs at 25 C.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-272X_R_  2.7 @ 7.9 MHz 5,2 63 @ 50 MHz 160 3.2 300  ||  note 2: \"Inductance measured using a Coilcraft SMD-A fixture in an Agilent/HP 4286A impedance analyzer with Coilcraft-provided correlation pieces.\"  ||  note 8: \"Electrical specifications at 25°C.\"",
+            "kind": "guaranteed"
+          },
+          "inductance_tolerance": {
+            "value": "2 or 5",
+            "unit": "%",
+            "condition": "G = 2%, J = 5%. Bold in table = stocked for immediate shipment.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Tolerance:  G = 2% J = 5%\"  ||  \"Tolerances in bold are stocked for immediate shipment.\"  ||  row: \"1812CS-272X_R_  2.7 @ 7.9 MHz 5,2 63 @ 50 MHz 160 3.2 300\"",
+            "kind": "guaranteed"
+          },
+          "q_min": {
+            "value": 63,
+            "unit": "dimensionless",
+            "condition": "MINIMUM Q at 50 MHz. Agilent/HP 4291A + 16193 fixture. IMPORTANT: 50 MHz is above our 31 MHz design frequency; this value is a guaranteed minimum, not a typical.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-272X_R_  2.7 @ 7.9 MHz 5,2 63 @ 50 MHz 160 3.2 300  ||  note 4: \"Q measured using an Agilent/HP 4291A with an Agilent/HP 16193 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "q_test_frequency": {
+            "value": 50,
+            "unit": "MHz",
+            "condition": "Frequency at which the Q min column is specified (NOT 100 MHz).",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "Table column header \"Q min4\"; every row in the 1.0-10 uH block reads \"<value> @ 50 MHz\", e.g. \"1812CS-272X_R_  2.7 @ 7.9 MHz 5,2 63 @ 50 MHz 160 3.2 300\".",
+            "kind": "guaranteed"
+          },
+          "srf_min": {
+            "value": 160,
+            "unit": "MHz",
+            "condition": "MINIMUM self-resonant frequency. Agilent/HP 8753D + Coilcraft SMD-D fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-272X_R_  2.7 @ 7.9 MHz 5,2 63 @ 50 MHz 160 3.2 300  ||  note 5: \"SRF measured using an Agilent/HP 8753D network analyzer and a Coilcraft SMD-D test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "dcr_max": {
+            "value": 3.2,
+            "unit": "ohm",
+            "condition": "Maximum DC resistance. Cambridge Technology micro-ohmmeter + CCF859 fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-272X_R_  2.7 @ 7.9 MHz 5,2 63 @ 50 MHz 160 3.2 300  ||  note 6: \"DCR measured on a Cambridge Technology micro-ohmmeter and a Coilcraft CCF859 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "irms": {
+            "value": 300,
+            "unit": "mA",
+            "condition": "Current that causes a 15 C temperature rise from 25 C ambient. Coilcraft explicitly says this is for reference only and is NOT an absolute maximum rating.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-272X_R_  2.7 @ 7.9 MHz 5,2 63 @ 50 MHz 160 3.2 300  ||  note 7: \"Current that causes a 15°C temperature rise from 25°C ambient. This information is for reference only and does not represent absolute maximum ratings.\"",
+            "kind": "guaranteed"
+          },
+          "irms_temperature_rise_condition": {
+            "value": 15,
+            "unit": "degC",
+            "condition": "temperature rise above 25 C ambient at rated Irms",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Current that causes a 15°C temperature rise from 25°C ambient.\"",
+            "kind": "guaranteed"
+          },
+          "operating_temperature_range": {
+            "value": "-40 to +125",
+            "unit": "degC",
+            "condition": "ambient temperature range WITH Irms current",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Ambient temperature –40°C to +125°C with Irms current\"  ||  web: \"Ambient temperature range: –40°C to +125°C with Irms current\"",
+            "kind": "guaranteed"
+          },
+          "max_part_temperature": {
+            "value": 140,
+            "unit": "degC",
+            "condition": "ambient + temperature rise",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Maximum part temperature +140°C (ambient + temp rise).\"",
+            "kind": "guaranteed"
+          },
+          "aec_q200": {
+            "value": true,
+            "unit": null,
+            "condition": "Series-level qualification statement. Page badge reads 'AEC Q200 125°C+'. Grade 1 = -40 to +125 C.",
+            "source_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/",
+            "evidence_quote": "\"This high temperature series meets AEC-Q200 Grade 1 (-40°C to +125°C).\"  ||  bullet: \"AEC-Q200 Grade 1 (−40°C to +125°C)\"",
+            "kind": "guaranteed"
+          },
+          "temperature_coefficient_inductance": {
+            "value": "+25 to +125",
+            "unit": "ppm/degC",
+            "condition": "TCL over the operating range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Temperature Coefficient of Inductance (TCL) +25 to +125 ppm/°C\"",
+            "kind": "guaranteed"
+          },
+          "core_material": {
+            "value": "Ceramic",
+            "unit": null,
+            "condition": "wirewound on ceramic core",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Core material Ceramic\"",
+            "kind": "guaranteed"
+          },
+          "weight": {
+            "value": "109 - 128",
+            "unit": "mg",
+            "condition": "per part, series range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Weight 109 – 128 mg\"",
+            "kind": "guaranteed"
+          }
+        },
+        "doc158_spice_model": {
+          "note": "De-embedded TYPICAL model, not a datasheet guarantee. Doc 158 states the model SRF is typically higher than a board-mounted measurement and that model results may differ from datasheet specs.",
+          "source_document": "Coilcraft Document 158 (158-17 Rev 06/04/04), 'SPICE Model - 1812CS'",
+          "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+          "local_copy": "coilcraft_doc158_spice_1812cs.pdf",
+          "row_verbatim_R1_R2_C_L_k_uplimit": "1812CS-272 68 3.2 0.123 2.700 9.80E-04 310",
+          "upper_frequency_limit": {
+            "value": 310,
+            "unit": "MHz",
+            "condition": "upper frequency limit of model validity per Doc 158",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "row \"1812CS-272 68 3.2 0.123 2.700 9.80E-04 310\" (last column = Upper limit MHz)",
+            "kind": "typical"
+          },
+          "model_srf_": {
+            "value": 276.2,
+            "unit": "MHz",
+            "condition": "series resonance of the Doc 158 lumped model (Im(Z)=0), de-embedded",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from the Doc 158 element values; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_31mhz": {
+            "value": 60.5,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at f = 31 MHz, using Rvar = k*sqrt(f)",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from R1,R2,C,L,k; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_50mhz": {
+            "value": 82.1,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 50 MHz, i.e. at the datasheet Q test frequency",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          },
+          "model_q_at_100mhz": {
+            "value": 110.1,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 100 MHz",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          }
+        },
+        "gaps": [
+          "No datasheet-guaranteed Q at 31 MHz: the datasheet only guarantees Q min at 50 MHz. Q below 50 MHz is not specified by Coilcraft.",
+          "No tabulated typical Q for this inductance value: page 2 'Typical Q vs Frequency' curves are graphical and only plotted for 1.8 / 3.9 / 8.2 / 15 / 22 / 33 uH - this value is not among them except 3.9 uH (drawn, not numerically readable).",
+          "No ESR / R at 31 MHz: only DCR max is specified. AC resistance must come from the Doc 158 model (derived, typical).",
+          "Irms is not an absolute maximum rating (Coilcraft: 'for reference only')."
+        ]
+      },
+      "1812CS-332": {
+        "series": "Coilcraft 1812CS (4532) High-Q Ceramic Chip Inductor",
+        "orderable_sku_example": "1812CS-332X_RC",
+        "datasheet_document": "Coilcraft Document 105, Rev 08/08/22 (official 1812CS datasheet, 2 pages)",
+        "datasheet_pdf_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+        "datasheet_pdf_local_copy": "coilcraft_1812cs_datasheet.pdf",
+        "product_page_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/1812cs-332/",
+        "fields": {
+          "inductance_nominal": {
+            "value": 3.3,
+            "unit": "uH",
+            "condition": "measured at 7.9 MHz per Document 105; the web product page rounds this to '8 MHz'. Coilcraft SMD-A fixture + Agilent/HP 4286A, electrical specs at 25 C.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-332X_R_  3.3 @ 7.9 MHz 5,2 65 @ 50 MHz 145 3.8 270  ||  note 2: \"Inductance measured using a Coilcraft SMD-A fixture in an Agilent/HP 4286A impedance analyzer with Coilcraft-provided correlation pieces.\"  ||  note 8: \"Electrical specifications at 25°C.\"",
+            "kind": "guaranteed"
+          },
+          "inductance_tolerance": {
+            "value": "2 or 5",
+            "unit": "%",
+            "condition": "G = 2%, J = 5%. Bold in table = stocked for immediate shipment.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Tolerance:  G = 2% J = 5%\"  ||  \"Tolerances in bold are stocked for immediate shipment.\"  ||  row: \"1812CS-332X_R_  3.3 @ 7.9 MHz 5,2 65 @ 50 MHz 145 3.8 270\"",
+            "kind": "guaranteed"
+          },
+          "q_min": {
+            "value": 65,
+            "unit": "dimensionless",
+            "condition": "MINIMUM Q at 50 MHz. Agilent/HP 4291A + 16193 fixture. IMPORTANT: 50 MHz is above our 31 MHz design frequency; this value is a guaranteed minimum, not a typical.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-332X_R_  3.3 @ 7.9 MHz 5,2 65 @ 50 MHz 145 3.8 270  ||  note 4: \"Q measured using an Agilent/HP 4291A with an Agilent/HP 16193 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "q_test_frequency": {
+            "value": 50,
+            "unit": "MHz",
+            "condition": "Frequency at which the Q min column is specified (NOT 100 MHz).",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "Table column header \"Q min4\"; every row in the 1.0-10 uH block reads \"<value> @ 50 MHz\", e.g. \"1812CS-332X_R_  3.3 @ 7.9 MHz 5,2 65 @ 50 MHz 145 3.8 270\".",
+            "kind": "guaranteed"
+          },
+          "srf_min": {
+            "value": 145,
+            "unit": "MHz",
+            "condition": "MINIMUM self-resonant frequency. Agilent/HP 8753D + Coilcraft SMD-D fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-332X_R_  3.3 @ 7.9 MHz 5,2 65 @ 50 MHz 145 3.8 270  ||  note 5: \"SRF measured using an Agilent/HP 8753D network analyzer and a Coilcraft SMD-D test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "dcr_max": {
+            "value": 3.8,
+            "unit": "ohm",
+            "condition": "Maximum DC resistance. Cambridge Technology micro-ohmmeter + CCF859 fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-332X_R_  3.3 @ 7.9 MHz 5,2 65 @ 50 MHz 145 3.8 270  ||  note 6: \"DCR measured on a Cambridge Technology micro-ohmmeter and a Coilcraft CCF859 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "irms": {
+            "value": 270,
+            "unit": "mA",
+            "condition": "Current that causes a 15 C temperature rise from 25 C ambient. Coilcraft explicitly says this is for reference only and is NOT an absolute maximum rating.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-332X_R_  3.3 @ 7.9 MHz 5,2 65 @ 50 MHz 145 3.8 270  ||  note 7: \"Current that causes a 15°C temperature rise from 25°C ambient. This information is for reference only and does not represent absolute maximum ratings.\"",
+            "kind": "guaranteed"
+          },
+          "irms_temperature_rise_condition": {
+            "value": 15,
+            "unit": "degC",
+            "condition": "temperature rise above 25 C ambient at rated Irms",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Current that causes a 15°C temperature rise from 25°C ambient.\"",
+            "kind": "guaranteed"
+          },
+          "operating_temperature_range": {
+            "value": "-40 to +125",
+            "unit": "degC",
+            "condition": "ambient temperature range WITH Irms current",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Ambient temperature –40°C to +125°C with Irms current\"  ||  web: \"Ambient temperature range: –40°C to +125°C with Irms current\"",
+            "kind": "guaranteed"
+          },
+          "max_part_temperature": {
+            "value": 140,
+            "unit": "degC",
+            "condition": "ambient + temperature rise",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Maximum part temperature +140°C (ambient + temp rise).\"",
+            "kind": "guaranteed"
+          },
+          "aec_q200": {
+            "value": true,
+            "unit": null,
+            "condition": "Series-level qualification statement. Page badge reads 'AEC Q200 125°C+'. Grade 1 = -40 to +125 C.",
+            "source_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/",
+            "evidence_quote": "\"This high temperature series meets AEC-Q200 Grade 1 (-40°C to +125°C).\"  ||  bullet: \"AEC-Q200 Grade 1 (−40°C to +125°C)\"",
+            "kind": "guaranteed"
+          },
+          "temperature_coefficient_inductance": {
+            "value": "+25 to +125",
+            "unit": "ppm/degC",
+            "condition": "TCL over the operating range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Temperature Coefficient of Inductance (TCL) +25 to +125 ppm/°C\"",
+            "kind": "guaranteed"
+          },
+          "core_material": {
+            "value": "Ceramic",
+            "unit": null,
+            "condition": "wirewound on ceramic core",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Core material Ceramic\"",
+            "kind": "guaranteed"
+          },
+          "weight": {
+            "value": "109 - 128",
+            "unit": "mg",
+            "condition": "per part, series range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Weight 109 – 128 mg\"",
+            "kind": "guaranteed"
+          }
+        },
+        "doc158_spice_model": {
+          "note": "De-embedded TYPICAL model, not a datasheet guarantee. Doc 158 states the model SRF is typically higher than a board-mounted measurement and that model results may differ from datasheet specs.",
+          "source_document": "Coilcraft Document 158 (158-17 Rev 06/04/04), 'SPICE Model - 1812CS'",
+          "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+          "local_copy": "coilcraft_doc158_spice_1812cs.pdf",
+          "row_verbatim_R1_R2_C_L_k_uplimit": "1812CS-332 81 3.8 0.120 3.330 1.12E-03 260",
+          "upper_frequency_limit": {
+            "value": 260,
+            "unit": "MHz",
+            "condition": "upper frequency limit of model validity per Doc 158",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "row \"1812CS-332 81 3.8 0.120 3.330 1.12E-03 260\" (last column = Upper limit MHz)",
+            "kind": "typical"
+          },
+          "model_srf_": {
+            "value": 251.8,
+            "unit": "MHz",
+            "condition": "series resonance of the Doc 158 lumped model (Im(Z)=0), de-embedded",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from the Doc 158 element values; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_31mhz": {
+            "value": 64.3,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at f = 31 MHz, using Rvar = k*sqrt(f)",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from R1,R2,C,L,k; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_50mhz": {
+            "value": 87,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 50 MHz, i.e. at the datasheet Q test frequency",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          },
+          "model_q_at_100mhz": {
+            "value": 110.8,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 100 MHz",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          }
+        },
+        "gaps": [
+          "No datasheet-guaranteed Q at 31 MHz: the datasheet only guarantees Q min at 50 MHz. Q below 50 MHz is not specified by Coilcraft.",
+          "No tabulated typical Q for this inductance value: page 2 'Typical Q vs Frequency' curves are graphical and only plotted for 1.8 / 3.9 / 8.2 / 15 / 22 / 33 uH - this value is not among them except 3.9 uH (drawn, not numerically readable).",
+          "No ESR / R at 31 MHz: only DCR max is specified. AC resistance must come from the Doc 158 model (derived, typical).",
+          "Irms is not an absolute maximum rating (Coilcraft: 'for reference only')."
+        ]
+      },
+      "1812CS-392": {
+        "series": "Coilcraft 1812CS (4532) High-Q Ceramic Chip Inductor",
+        "orderable_sku_example": "1812CS-392X_RC",
+        "datasheet_document": "Coilcraft Document 105, Rev 08/08/22 (official 1812CS datasheet, 2 pages)",
+        "datasheet_pdf_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+        "datasheet_pdf_local_copy": "coilcraft_1812cs_datasheet.pdf",
+        "product_page_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/1812cs-392/",
+        "fields": {
+          "inductance_nominal": {
+            "value": 3.9,
+            "unit": "uH",
+            "condition": "measured at 7.9 MHz per Document 105; the web product page rounds this to '8 MHz'. Coilcraft SMD-A fixture + Agilent/HP 4286A, electrical specs at 25 C.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-392X_R_  3.9 @ 7.9 MHz 5,2 69 @ 50 MHz 130 5.0 240  ||  note 2: \"Inductance measured using a Coilcraft SMD-A fixture in an Agilent/HP 4286A impedance analyzer with Coilcraft-provided correlation pieces.\"  ||  note 8: \"Electrical specifications at 25°C.\"",
+            "kind": "guaranteed"
+          },
+          "inductance_tolerance": {
+            "value": "2 or 5",
+            "unit": "%",
+            "condition": "G = 2%, J = 5%. Bold in table = stocked for immediate shipment.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Tolerance:  G = 2% J = 5%\"  ||  \"Tolerances in bold are stocked for immediate shipment.\"  ||  row: \"1812CS-392X_R_  3.9 @ 7.9 MHz 5,2 69 @ 50 MHz 130 5.0 240\"",
+            "kind": "guaranteed"
+          },
+          "q_min": {
+            "value": 69,
+            "unit": "dimensionless",
+            "condition": "MINIMUM Q at 50 MHz. Agilent/HP 4291A + 16193 fixture. IMPORTANT: 50 MHz is above our 31 MHz design frequency; this value is a guaranteed minimum, not a typical.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-392X_R_  3.9 @ 7.9 MHz 5,2 69 @ 50 MHz 130 5.0 240  ||  note 4: \"Q measured using an Agilent/HP 4291A with an Agilent/HP 16193 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "q_test_frequency": {
+            "value": 50,
+            "unit": "MHz",
+            "condition": "Frequency at which the Q min column is specified (NOT 100 MHz).",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "Table column header \"Q min4\"; every row in the 1.0-10 uH block reads \"<value> @ 50 MHz\", e.g. \"1812CS-392X_R_  3.9 @ 7.9 MHz 5,2 69 @ 50 MHz 130 5.0 240\".",
+            "kind": "guaranteed"
+          },
+          "srf_min": {
+            "value": 130,
+            "unit": "MHz",
+            "condition": "MINIMUM self-resonant frequency. Agilent/HP 8753D + Coilcraft SMD-D fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-392X_R_  3.9 @ 7.9 MHz 5,2 69 @ 50 MHz 130 5.0 240  ||  note 5: \"SRF measured using an Agilent/HP 8753D network analyzer and a Coilcraft SMD-D test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "dcr_max": {
+            "value": 5,
+            "unit": "ohm",
+            "condition": "Maximum DC resistance. Cambridge Technology micro-ohmmeter + CCF859 fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-392X_R_  3.9 @ 7.9 MHz 5,2 69 @ 50 MHz 130 5.0 240  ||  note 6: \"DCR measured on a Cambridge Technology micro-ohmmeter and a Coilcraft CCF859 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "irms": {
+            "value": 240,
+            "unit": "mA",
+            "condition": "Current that causes a 15 C temperature rise from 25 C ambient. Coilcraft explicitly says this is for reference only and is NOT an absolute maximum rating.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-392X_R_  3.9 @ 7.9 MHz 5,2 69 @ 50 MHz 130 5.0 240  ||  note 7: \"Current that causes a 15°C temperature rise from 25°C ambient. This information is for reference only and does not represent absolute maximum ratings.\"",
+            "kind": "guaranteed"
+          },
+          "irms_temperature_rise_condition": {
+            "value": 15,
+            "unit": "degC",
+            "condition": "temperature rise above 25 C ambient at rated Irms",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Current that causes a 15°C temperature rise from 25°C ambient.\"",
+            "kind": "guaranteed"
+          },
+          "operating_temperature_range": {
+            "value": "-40 to +125",
+            "unit": "degC",
+            "condition": "ambient temperature range WITH Irms current",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Ambient temperature –40°C to +125°C with Irms current\"  ||  web: \"Ambient temperature range: –40°C to +125°C with Irms current\"",
+            "kind": "guaranteed"
+          },
+          "max_part_temperature": {
+            "value": 140,
+            "unit": "degC",
+            "condition": "ambient + temperature rise",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Maximum part temperature +140°C (ambient + temp rise).\"",
+            "kind": "guaranteed"
+          },
+          "aec_q200": {
+            "value": true,
+            "unit": null,
+            "condition": "Series-level qualification statement. Page badge reads 'AEC Q200 125°C+'. Grade 1 = -40 to +125 C.",
+            "source_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/",
+            "evidence_quote": "\"This high temperature series meets AEC-Q200 Grade 1 (-40°C to +125°C).\"  ||  bullet: \"AEC-Q200 Grade 1 (−40°C to +125°C)\"",
+            "kind": "guaranteed"
+          },
+          "temperature_coefficient_inductance": {
+            "value": "+25 to +125",
+            "unit": "ppm/degC",
+            "condition": "TCL over the operating range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Temperature Coefficient of Inductance (TCL) +25 to +125 ppm/°C\"",
+            "kind": "guaranteed"
+          },
+          "core_material": {
+            "value": "Ceramic",
+            "unit": null,
+            "condition": "wirewound on ceramic core",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Core material Ceramic\"",
+            "kind": "guaranteed"
+          },
+          "weight": {
+            "value": "109 - 128",
+            "unit": "mg",
+            "condition": "per part, series range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Weight 109 – 128 mg\"",
+            "kind": "guaranteed"
+          }
+        },
+        "doc158_spice_model": {
+          "note": "De-embedded TYPICAL model, not a datasheet guarantee. Doc 158 states the model SRF is typically higher than a board-mounted measurement and that model results may differ from datasheet specs.",
+          "source_document": "Coilcraft Document 158 (158-17 Rev 06/04/04), 'SPICE Model - 1812CS'",
+          "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+          "local_copy": "coilcraft_doc158_spice_1812cs.pdf",
+          "row_verbatim_R1_R2_C_L_k_uplimit": "1812CS-392 121 5.0 0.118 3.950 1.12E-03 240",
+          "upper_frequency_limit": {
+            "value": 240,
+            "unit": "MHz",
+            "condition": "upper frequency limit of model validity per Doc 158",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "row \"1812CS-392 121 5.0 0.118 3.950 1.12E-03 240\" (last column = Upper limit MHz)",
+            "kind": "typical"
+          },
+          "model_srf_": {
+            "value": 233.2,
+            "unit": "MHz",
+            "condition": "series resonance of the Doc 158 lumped model (Im(Z)=0), de-embedded",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from the Doc 158 element values; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_31mhz": {
+            "value": 68.1,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at f = 31 MHz, using Rvar = k*sqrt(f)",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from R1,R2,C,L,k; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_50mhz": {
+            "value": 93,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 50 MHz, i.e. at the datasheet Q test frequency",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          },
+          "model_q_at_100mhz": {
+            "value": 108.7,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 100 MHz",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          }
+        },
+        "gaps": [
+          "No datasheet-guaranteed Q at 31 MHz: the datasheet only guarantees Q min at 50 MHz. Q below 50 MHz is not specified by Coilcraft.",
+          "No tabulated typical Q for this inductance value: page 2 'Typical Q vs Frequency' curves are graphical and only plotted for 1.8 / 3.9 / 8.2 / 15 / 22 / 33 uH - this value is not among them except 3.9 uH (drawn, not numerically readable).",
+          "No ESR / R at 31 MHz: only DCR max is specified. AC resistance must come from the Doc 158 model (derived, typical).",
+          "Irms is not an absolute maximum rating (Coilcraft: 'for reference only')."
+        ]
+      },
+      "1812CS-472": {
+        "series": "Coilcraft 1812CS (4532) High-Q Ceramic Chip Inductor",
+        "orderable_sku_example": "1812CS-472XJRC",
+        "datasheet_document": "Coilcraft Document 105, Rev 08/08/22 (official 1812CS datasheet, 2 pages)",
+        "datasheet_pdf_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+        "datasheet_pdf_local_copy": "coilcraft_1812cs_datasheet.pdf",
+        "product_page_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/1812cs-472/",
+        "fields": {
+          "inductance_nominal": {
+            "value": 4.7,
+            "unit": "uH",
+            "condition": "measured at 7.9 MHz per Document 105; the web product page rounds this to '8 MHz'. Coilcraft SMD-A fixture + Agilent/HP 4286A, electrical specs at 25 C.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-472XJR_  4.7 @ 7.9 MHz 5 63 @ 50 MHz 115 5.4 230  ||  note 2: \"Inductance measured using a Coilcraft SMD-A fixture in an Agilent/HP 4286A impedance analyzer with Coilcraft-provided correlation pieces.\"  ||  note 8: \"Electrical specifications at 25°C.\"",
+            "kind": "guaranteed"
+          },
+          "inductance_tolerance": {
+            "value": "5 only",
+            "unit": "%",
+            "condition": "G = 2%, J = 5%. Bold in table = stocked for immediate shipment.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Tolerance:  G = 2% J = 5%\"  ||  \"Tolerances in bold are stocked for immediate shipment.\"  ||  row: \"1812CS-472XJR_  4.7 @ 7.9 MHz 5 63 @ 50 MHz 115 5.4 230\"",
+            "kind": "guaranteed"
+          },
+          "q_min": {
+            "value": 63,
+            "unit": "dimensionless",
+            "condition": "MINIMUM Q at 50 MHz. Agilent/HP 4291A + 16193 fixture. IMPORTANT: 50 MHz is above our 31 MHz design frequency; this value is a guaranteed minimum, not a typical.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-472XJR_  4.7 @ 7.9 MHz 5 63 @ 50 MHz 115 5.4 230  ||  note 4: \"Q measured using an Agilent/HP 4291A with an Agilent/HP 16193 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "q_test_frequency": {
+            "value": 50,
+            "unit": "MHz",
+            "condition": "Frequency at which the Q min column is specified (NOT 100 MHz).",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "Table column header \"Q min4\"; every row in the 1.0-10 uH block reads \"<value> @ 50 MHz\", e.g. \"1812CS-472XJR_  4.7 @ 7.9 MHz 5 63 @ 50 MHz 115 5.4 230\".",
+            "kind": "guaranteed"
+          },
+          "srf_min": {
+            "value": 115,
+            "unit": "MHz",
+            "condition": "MINIMUM self-resonant frequency. Agilent/HP 8753D + Coilcraft SMD-D fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-472XJR_  4.7 @ 7.9 MHz 5 63 @ 50 MHz 115 5.4 230  ||  note 5: \"SRF measured using an Agilent/HP 8753D network analyzer and a Coilcraft SMD-D test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "dcr_max": {
+            "value": 5.4,
+            "unit": "ohm",
+            "condition": "Maximum DC resistance. Cambridge Technology micro-ohmmeter + CCF859 fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-472XJR_  4.7 @ 7.9 MHz 5 63 @ 50 MHz 115 5.4 230  ||  note 6: \"DCR measured on a Cambridge Technology micro-ohmmeter and a Coilcraft CCF859 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "irms": {
+            "value": 230,
+            "unit": "mA",
+            "condition": "Current that causes a 15 C temperature rise from 25 C ambient. Coilcraft explicitly says this is for reference only and is NOT an absolute maximum rating.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-472XJR_  4.7 @ 7.9 MHz 5 63 @ 50 MHz 115 5.4 230  ||  note 7: \"Current that causes a 15°C temperature rise from 25°C ambient. This information is for reference only and does not represent absolute maximum ratings.\"",
+            "kind": "guaranteed"
+          },
+          "irms_temperature_rise_condition": {
+            "value": 15,
+            "unit": "degC",
+            "condition": "temperature rise above 25 C ambient at rated Irms",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Current that causes a 15°C temperature rise from 25°C ambient.\"",
+            "kind": "guaranteed"
+          },
+          "operating_temperature_range": {
+            "value": "-40 to +125",
+            "unit": "degC",
+            "condition": "ambient temperature range WITH Irms current",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Ambient temperature –40°C to +125°C with Irms current\"  ||  web: \"Ambient temperature range: –40°C to +125°C with Irms current\"",
+            "kind": "guaranteed"
+          },
+          "max_part_temperature": {
+            "value": 140,
+            "unit": "degC",
+            "condition": "ambient + temperature rise",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Maximum part temperature +140°C (ambient + temp rise).\"",
+            "kind": "guaranteed"
+          },
+          "aec_q200": {
+            "value": true,
+            "unit": null,
+            "condition": "Series-level qualification statement. Page badge reads 'AEC Q200 125°C+'. Grade 1 = -40 to +125 C.",
+            "source_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/",
+            "evidence_quote": "\"This high temperature series meets AEC-Q200 Grade 1 (-40°C to +125°C).\"  ||  bullet: \"AEC-Q200 Grade 1 (−40°C to +125°C)\"",
+            "kind": "guaranteed"
+          },
+          "temperature_coefficient_inductance": {
+            "value": "+25 to +125",
+            "unit": "ppm/degC",
+            "condition": "TCL over the operating range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Temperature Coefficient of Inductance (TCL) +25 to +125 ppm/°C\"",
+            "kind": "guaranteed"
+          },
+          "core_material": {
+            "value": "Ceramic",
+            "unit": null,
+            "condition": "wirewound on ceramic core",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Core material Ceramic\"",
+            "kind": "guaranteed"
+          },
+          "weight": {
+            "value": "109 - 128",
+            "unit": "mg",
+            "condition": "per part, series range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Weight 109 – 128 mg\"",
+            "kind": "guaranteed"
+          }
+        },
+        "doc158_spice_model": {
+          "note": "De-embedded TYPICAL model, not a datasheet guarantee. Doc 158 states the model SRF is typically higher than a board-mounted measurement and that model results may differ from datasheet specs.",
+          "source_document": "Coilcraft Document 158 (158-17 Rev 06/04/04), 'SPICE Model - 1812CS'",
+          "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+          "local_copy": "coilcraft_doc158_spice_1812cs.pdf",
+          "row_verbatim_R1_R2_C_L_k_uplimit": "1812CS-472 85 5.4 0.122 4.775 1.80E-03 220",
+          "upper_frequency_limit": {
+            "value": 220,
+            "unit": "MHz",
+            "condition": "upper frequency limit of model validity per Doc 158",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "row \"1812CS-472 85 5.4 0.122 4.775 1.80E-03 220\" (last column = Upper limit MHz)",
+            "kind": "typical"
+          },
+          "model_srf_": {
+            "value": 208.5,
+            "unit": "MHz",
+            "condition": "series resonance of the Doc 158 lumped model (Im(Z)=0), de-embedded",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from the Doc 158 element values; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_31mhz": {
+            "value": 59.7,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at f = 31 MHz, using Rvar = k*sqrt(f)",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from R1,R2,C,L,k; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_50mhz": {
+            "value": 79.4,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 50 MHz, i.e. at the datasheet Q test frequency",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          },
+          "model_q_at_100mhz": {
+            "value": 89.9,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 100 MHz",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          }
+        },
+        "gaps": [
+          "No datasheet-guaranteed Q at 31 MHz: the datasheet only guarantees Q min at 50 MHz. Q below 50 MHz is not specified by Coilcraft.",
+          "No tabulated typical Q for this inductance value: page 2 'Typical Q vs Frequency' curves are graphical and only plotted for 1.8 / 3.9 / 8.2 / 15 / 22 / 33 uH - this value is not among them except 3.9 uH (drawn, not numerically readable).",
+          "No ESR / R at 31 MHz: only DCR max is specified. AC resistance must come from the Doc 158 model (derived, typical).",
+          "Irms is not an absolute maximum rating (Coilcraft: 'for reference only')."
+        ]
+      },
+      "1812CS-562": {
+        "series": "Coilcraft 1812CS (4532) High-Q Ceramic Chip Inductor",
+        "orderable_sku_example": "1812CS-562XJRC",
+        "datasheet_document": "Coilcraft Document 105, Rev 08/08/22 (official 1812CS datasheet, 2 pages)",
+        "datasheet_pdf_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+        "datasheet_pdf_local_copy": "coilcraft_1812cs_datasheet.pdf",
+        "product_page_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/1812cs-562/",
+        "fields": {
+          "inductance_nominal": {
+            "value": 5.6,
+            "unit": "uH",
+            "condition": "measured at 7.9 MHz per Document 105; the web product page rounds this to '8 MHz'. Coilcraft SMD-A fixture + Agilent/HP 4286A, electrical specs at 25 C.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-562XJR_  5.6 @ 7.9 MHz 5 59 @ 50 MHz 100 5.7 220  ||  note 2: \"Inductance measured using a Coilcraft SMD-A fixture in an Agilent/HP 4286A impedance analyzer with Coilcraft-provided correlation pieces.\"  ||  note 8: \"Electrical specifications at 25°C.\"",
+            "kind": "guaranteed"
+          },
+          "inductance_tolerance": {
+            "value": "5 only",
+            "unit": "%",
+            "condition": "G = 2%, J = 5%. Bold in table = stocked for immediate shipment.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Tolerance:  G = 2% J = 5%\"  ||  \"Tolerances in bold are stocked for immediate shipment.\"  ||  row: \"1812CS-562XJR_  5.6 @ 7.9 MHz 5 59 @ 50 MHz 100 5.7 220\"",
+            "kind": "guaranteed"
+          },
+          "q_min": {
+            "value": 59,
+            "unit": "dimensionless",
+            "condition": "MINIMUM Q at 50 MHz. Agilent/HP 4291A + 16193 fixture. IMPORTANT: 50 MHz is above our 31 MHz design frequency; this value is a guaranteed minimum, not a typical.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-562XJR_  5.6 @ 7.9 MHz 5 59 @ 50 MHz 100 5.7 220  ||  note 4: \"Q measured using an Agilent/HP 4291A with an Agilent/HP 16193 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "q_test_frequency": {
+            "value": 50,
+            "unit": "MHz",
+            "condition": "Frequency at which the Q min column is specified (NOT 100 MHz).",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "Table column header \"Q min4\"; every row in the 1.0-10 uH block reads \"<value> @ 50 MHz\", e.g. \"1812CS-562XJR_  5.6 @ 7.9 MHz 5 59 @ 50 MHz 100 5.7 220\".",
+            "kind": "guaranteed"
+          },
+          "srf_min": {
+            "value": 100,
+            "unit": "MHz",
+            "condition": "MINIMUM self-resonant frequency. Agilent/HP 8753D + Coilcraft SMD-D fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-562XJR_  5.6 @ 7.9 MHz 5 59 @ 50 MHz 100 5.7 220  ||  note 5: \"SRF measured using an Agilent/HP 8753D network analyzer and a Coilcraft SMD-D test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "dcr_max": {
+            "value": 5.7,
+            "unit": "ohm",
+            "condition": "Maximum DC resistance. Cambridge Technology micro-ohmmeter + CCF859 fixture.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-562XJR_  5.6 @ 7.9 MHz 5 59 @ 50 MHz 100 5.7 220  ||  note 6: \"DCR measured on a Cambridge Technology micro-ohmmeter and a Coilcraft CCF859 test fixture.\"",
+            "kind": "guaranteed"
+          },
+          "irms": {
+            "value": 220,
+            "unit": "mA",
+            "condition": "Current that causes a 15 C temperature rise from 25 C ambient. Coilcraft explicitly says this is for reference only and is NOT an absolute maximum rating.",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "1812CS-562XJR_  5.6 @ 7.9 MHz 5 59 @ 50 MHz 100 5.7 220  ||  note 7: \"Current that causes a 15°C temperature rise from 25°C ambient. This information is for reference only and does not represent absolute maximum ratings.\"",
+            "kind": "guaranteed"
+          },
+          "irms_temperature_rise_condition": {
+            "value": 15,
+            "unit": "degC",
+            "condition": "temperature rise above 25 C ambient at rated Irms",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Current that causes a 15°C temperature rise from 25°C ambient.\"",
+            "kind": "guaranteed"
+          },
+          "operating_temperature_range": {
+            "value": "-40 to +125",
+            "unit": "degC",
+            "condition": "ambient temperature range WITH Irms current",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Ambient temperature –40°C to +125°C with Irms current\"  ||  web: \"Ambient temperature range: –40°C to +125°C with Irms current\"",
+            "kind": "guaranteed"
+          },
+          "max_part_temperature": {
+            "value": 140,
+            "unit": "degC",
+            "condition": "ambient + temperature rise",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Maximum part temperature +140°C (ambient + temp rise).\"",
+            "kind": "guaranteed"
+          },
+          "aec_q200": {
+            "value": true,
+            "unit": null,
+            "condition": "Series-level qualification statement. Page badge reads 'AEC Q200 125°C+'. Grade 1 = -40 to +125 C.",
+            "source_url": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/1812-%284532%29/1812cs/",
+            "evidence_quote": "\"This high temperature series meets AEC-Q200 Grade 1 (-40°C to +125°C).\"  ||  bullet: \"AEC-Q200 Grade 1 (−40°C to +125°C)\"",
+            "kind": "guaranteed"
+          },
+          "temperature_coefficient_inductance": {
+            "value": "+25 to +125",
+            "unit": "ppm/degC",
+            "condition": "TCL over the operating range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Temperature Coefficient of Inductance (TCL) +25 to +125 ppm/°C\"",
+            "kind": "guaranteed"
+          },
+          "core_material": {
+            "value": "Ceramic",
+            "unit": null,
+            "condition": "wirewound on ceramic core",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Core material Ceramic\"",
+            "kind": "guaranteed"
+          },
+          "weight": {
+            "value": "109 - 128",
+            "unit": "mg",
+            "condition": "per part, series range",
+            "source_url": "https://www.coilcraft.com/getmedia/677afbbb-f368-4f0b-b59e-ab9befcb1f0e/1812cs.pdf",
+            "evidence_quote": "\"Weight 109 – 128 mg\"",
+            "kind": "guaranteed"
+          }
+        },
+        "doc158_spice_model": {
+          "note": "De-embedded TYPICAL model, not a datasheet guarantee. Doc 158 states the model SRF is typically higher than a board-mounted measurement and that model results may differ from datasheet specs.",
+          "source_document": "Coilcraft Document 158 (158-17 Rev 06/04/04), 'SPICE Model - 1812CS'",
+          "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+          "local_copy": "coilcraft_doc158_spice_1812cs.pdf",
+          "row_verbatim_R1_R2_C_L_k_uplimit": "1812CS-562 198 5.7 0.165 5.700 2.01E-03 190",
+          "upper_frequency_limit": {
+            "value": 190,
+            "unit": "MHz",
+            "condition": "upper frequency limit of model validity per Doc 158",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "row \"1812CS-562 198 5.7 0.165 5.700 2.01E-03 190\" (last column = Upper limit MHz)",
+            "kind": "typical"
+          },
+          "model_srf_": {
+            "value": 164.2,
+            "unit": "MHz",
+            "condition": "series resonance of the Doc 158 lumped model (Im(Z)=0), de-embedded",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from the Doc 158 element values; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_31mhz": {
+            "value": 63.9,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at f = 31 MHz, using Rvar = k*sqrt(f)",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task from R1,R2,C,L,k; not printed by Coilcraft",
+            "kind": "derived"
+          },
+          "model_q_at_50mhz": {
+            "value": 78.8,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 50 MHz, i.e. at the datasheet Q test frequency",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          },
+          "model_q_at_100mhz": {
+            "value": 45.4,
+            "unit": "dimensionless",
+            "condition": "Q of the Doc 158 model at 100 MHz",
+            "source_url": "https://www.coilcraft.com/getmedia/570249c4-a021-466b-808d-0a2f9fe2aa78/spice_1812cs.pdf",
+            "evidence_quote": "computed by this task",
+            "kind": "derived"
+          }
+        },
+        "gaps": [
+          "No datasheet-guaranteed Q at 31 MHz: the datasheet only guarantees Q min at 50 MHz. Q below 50 MHz is not specified by Coilcraft.",
+          "No tabulated typical Q for this inductance value: page 2 'Typical Q vs Frequency' curves are graphical and only plotted for 1.8 / 3.9 / 8.2 / 15 / 22 / 33 uH - this value is not among them except 3.9 uH (drawn, not numerically readable).",
+          "No ESR / R at 31 MHz: only DCR max is specified. AC resistance must come from the Doc 158 model (derived, typical).",
+          "Irms is not an absolute maximum rating (Coilcraft: 'for reference only')."
+        ]
+      }
+    },
+    "field_closure_summary": {
+      "closed_for_all_5_parts": [
+        "inductance_nominal",
+        "inductance_tolerance",
+        "q_min",
+        "q_test_frequency",
+        "srf_min",
+        "dcr_max",
+        "irms",
+        "irms_temperature_rise_condition",
+        "operating_temperature_range",
+        "max_part_temperature",
+        "aec_q200",
+        "temperature_coefficient_inductance",
+        "core_material"
+      ],
+      "still_missing_for_all_parts": [
+        "Q at 31 MHz as a guaranteed value",
+        "tabulated typical Q per value at 31/50 MHz",
+        "ESR (AC resistance) at 31 MHz as a guaranteed value"
+      ]
+    }
+  },
+  "alternative_vendors_verified": [
+    {
+      "vendor": "Vishay Dale",
+      "part_family": "IMC-1812",
+      "document": "Document Number 34044, Revision 19-Dec-2024",
+      "source_url": "https://www.vishay.com/docs/34044/imc1812.pdf",
+      "local_copy": "not saved (fetched to .tmp only)",
+      "matching_values_2p5_to_5p5uH": [
+        {
+          "pn": "IMC1812ES3R3K",
+          "L_uH": 3.3,
+          "tol_pct": 10,
+          "test_freq_MHz": 7.96,
+          "q_min": 50,
+          "srf_min_MHz": 45,
+          "dcr_max_ohm": 0.8,
+          "rated_dc_current_mA": 355
+        },
+        {
+          "pn": "IMC1812ES3R9K",
+          "L_uH": 3.9,
+          "tol_pct": 10,
+          "test_freq_MHz": 7.96,
+          "q_min": 50,
+          "srf_min_MHz": 40,
+          "dcr_max_ohm": 0.9,
+          "rated_dc_current_mA": 330
+        },
+        {
+          "pn": "IMC1812ES4R7K",
+          "L_uH": 4.7,
+          "tol_pct": 10,
+          "test_freq_MHz": 7.96,
+          "q_min": 50,
+          "srf_min_MHz": 35,
+          "dcr_max_ohm": 1,
+          "rated_dc_current_mA": 315
+        }
+      ],
+      "evidence_quote": "\"IMC1812ES3R3K 3.3 ± 10 % 7.96 50 45.0 0.80 355\" under header \"IND. (μH) TOL. TEST FREQ. (MHz) Q MIN. SRF MIN. (MHz) DCR MAX. (Ω) RATED DC CURRENT (mA)\"",
+      "kind": "guaranteed",
+      "verdict": "NOT a substitute for our use. Coilform material is 'powdered iron for 1.0 uH to 120 uH' (not ceramic). SRF min is only 45 MHz at 3.3 uH (1.45x our 31 MHz) vs 145 MHz for 1812CS-332. Q min is specified at 7.96 MHz, not at 31 MHz. Rated DC current is on a 40 C rise at 85 C ambient, a different basis from Coilcraft's 15 C rise.",
+      "operating_temperature": "-55 C to +125 C (\"Operating temperature: -55 °C to +125 °C\")"
+    },
+    {
+      "vendor": "TDK",
+      "part": "MLF2012A3R3JTD25",
+      "document": "TDK product page (official product.tdk.com data, served via product.tdk.cn)",
+      "source_url": "https://product.tdk.cn/zh/search/inductor/inductor/smd/info?part_no=MLF2012A3R3JTD25",
+      "local_copy": null,
+      "values": {
+        "L_uH": 3.3,
+        "tol_pct": 5,
+        "L_test_freq_MHz": 10,
+        "srf_min_MHz": 60,
+        "srf_typ_MHz": 90,
+        "q_min": 45,
+        "q_min_freq_MHz": 10,
+        "q_typ": 70,
+        "dcr_typ_mohm": 280,
+        "dcr_max_mohm": 600,
+        "rated_current_mA": 50,
+        "temp_range": "-55 to +125 C",
+        "aec_q200": "YES"
+      },
+      "evidence_quote": "\"电感 3.3μH ±5% at 10MHz\" ; \"自我共振频率 [Min.] 60MHz\" ; \"自我共振频率 [Typ.] 90MHz\" ; \"Q [Min.] 45 at 10MHz\" ; \"Q [Typ.] 70 at 10MHz\" ; \"直流电阻 [Max.] 600mΩ\" ; \"使用温度范围 -55～125°C\" ; \"AEC-Q200 YES\"",
+      "kind": "guaranteed",
+      "verdict": "NOT comparable. It is a FERRITE-core shielded multilayer in 0805 body (2.00 x 1.25 x 1.25 mm), not a ceramic-core 1812 wirewound. SRF min 60 MHz is only ~1.9x our 31 MHz and rated current is just 50 mA. Listed only because the numbers were independently verified.",
+      "caveat": "This part is not in the same class as 1812CS; it is recorded to document that it was checked and rejected."
+    },
+    {
+      "vendor": "Johanson Technology",
+      "part_family": "Ceramic core RF inductors (0201/0402/0603)",
+      "source_url": "https://www.johansontechnology.com/products/ceramic-rf-inductors/ceramic-inductors/",
+      "verified_fact": "Official table covers only 0201 (0.6-39 nH), 0402 (1.0-120 nH) and 0603 (1.2-220 nH); max inductance in the ceramic line is 220 nH.",
+      "evidence_quote": "\"0201 (0603) | 0.6 - 39 nH | 4 (100 MHz) | >21 GHz (1.0 nH)\" ; \"0603 (1608) | 1.2 - 220 nH | 12 (1 MHz) | >23 GHz (1.0 nH)\"",
+      "verdict": "CANNOT COVER 2.5-5.5 uH. Johanson's ceramic line tops out at 220 nH, two decades below our range. No uH-class ceramic 1812 part exists in their published table.",
+      "kind": "guaranteed"
+    },
+    {
+      "vendor": "Chilisin",
+      "part_family": "CS1812 (apparent 1812CS clone)",
+      "source_url": null,
+      "verdict": "NOT VERIFIED. A third-party mirror (wiki.adom.inc) shows a CS1812 table with the same structure and near-identical Q/SRF/DCR/Irms numbers as Coilcraft, but chilisin.com returned the same generic 1.05 MB page for every URL tried and never served a CS1812 table or PDF. No official Chilisin datasheet could be obtained, so NO Chilisin numbers are recorded here.",
+      "kind": null
+    },
+    {
+      "vendor": "Bourns / Murata / API Delevan",
+      "verdict": "NOT VERIFIED. bourns.com served a 403 JavaScript challenge; murata.com product URLs returned 404; api-delevan.com did not resolve/respond. No official datasheet obtained, so no numbers recorded.",
+      "kind": null
+    }
+  ],
+  "key_finding": {
+    "question": "Do the datasheet Q test frequency and SRF conflict with the Document 158 model we used?",
+    "short_answer": "The Q test frequency does NOT conflict (no contradiction), but it is a SCOPE caveat. The SRF DOES conflict quantitatively: the Doc 158 model overstates SRF by 1.64x-1.81x versus the guaranteed minimum.",
+    "answer_on_q_test_frequency": "NO CONTRADICTION, but a SCOPE caveat. The datasheet guarantees Q min at 50 MHz (NOT 100 MHz) - this is ABOVE our 31 MHz operating point, so the guaranteed number does not directly apply at 31 MHz. Evaluating the Doc 158 model, Q rises monotonically from 31 to 50 MHz for every one of the five parts, so Q(31 MHz) is LOWER than Q(50 MHz). Measured gap between the 50 MHz guarantee and the model's 31 MHz Q: 1812CS-272 63 -> 60.5 (4.0% optimistic), 332 65 -> 64.3 (1.1%), 392 69 -> 68.1 (1.3%), 472 63 -> 59.7 (5.2%), 562 59 -> 63.9 (model is 8.3% HIGHER here, because this value's Q peaks between 50 and 100 MHz). So quoting 'Q >= 65' at 31 MHz for the 332 is optimistic by about 1%, and by about 5% for the 472.",
+    "answer_on_srf": "YES, A REAL QUANTITATIVE CONFLICT. The datasheet guaranteed MINIMUM SRF is materially LOWER than the SRF of the Doc 158 model, by 1.64x to 1.81x: 1812CS-272 160 vs 276.2 MHz (1.73x), 332 145 vs 251.8 (1.74x), 392 130 vs 233.2 (1.79x), 472 115 vs 208.5 (1.81x), 562 100 vs 164.2 (1.64x). The model always overstates SRF. This is precisely what Document 158 itself warns: 'Typically, the Self-Resonant Frequency (SRF) of the component model will be higher than the measurement of the component mounted on a circuit board' and 'the model results may be different from the data sheet specifications'. The mechanism is stated by Coilcraft too: 'The parasitic reactive elements of a circuit board or fixture will effectively lower the circuit resonant frequency'. In the model the shunt capacitance is the de-embedded value (0.118-0.165 pF), which understates the effective capacitance a real board presents.",
+    "practical_impact_at_31mhz": "NONE for the antenna loading calculation itself. Even the worst guaranteed SRF in the set (100 MHz for 1812CS-562) is 3.2x our 31 MHz, and the 332 is 4.7x. All five parts are far below self-resonance at 31 MHz, so the inductive (series L + R) representation is valid and the loaded-monopole result is not invalidated. The conflict is about margin accounting and about which number gets quoted, not about the validity of the 31 MHz model.",
+    "recommendation": "Quote the datasheet GUARANTEED values as the contractual numbers (SRF min, Q min @ 50 MHz, DCR max, Irms @ 15 C rise). Keep the Doc 158 model only for frequency-dependent simulation. Any Q reported at 31 MHz must be labelled derived-from-model (typical), never as a guarantee, and any SRF quoted for margin purposes must use the guaranteed minimum, not the model's resonance.",
+    "numbers_cross_check": {
+      "SRF_model_over_guaranteed_ratio": {
+        "1812CS-272": 1.73,
+        "1812CS-332": 1.74,
+        "1812CS-392": 1.79,
+        "1812CS-472": 1.81,
+        "1812CS-562": 1.64
+      },
+      "srf_guaranteed_over_31MHz_margin": {
+        "1812CS-272": 5.16,
+        "1812CS-332": 4.68,
+        "1812CS-392": 4.19,
+        "1812CS-472": 3.71,
+        "1812CS-562": 3.23
+      }
+    }
+  }
+}
