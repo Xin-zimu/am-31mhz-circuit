@@ -1,5 +1,5 @@
 <Slide
-  notes={`（1:20–1:55）四个单元：方波源用 LM393 张弛振荡，比较电压调占空比；载波最花力气——有源晶振被禁用，只能无源晶体自己搭，仿真 30.999 MHz；调幅级工作点必须放放大区中点，否则包络不对称；接收链最难，预选、放大、检波、基带环环相扣。`}
+  notes={`（1:20–1:55）四个单元：方波源用 LM393 张弛振荡，比较电压调占空比；载波最花力气——有源晶振被禁用，只能无源晶体自己搭，仿真零步长外推 30.9988 MHz；调制级是 2N3904 基极调幅，后面还要补两级驱动才推得动天线；接收链最难，预选、放大、检波、基带环环相扣。`}
   style={{ width: 1280, height: 720, padding: '60px 60px 0 60px', background: '#FFFFFF', flexDirection: 'column', fontFamily: 'Microsoft YaHei' }}
 >
   <Box style={{ flex: 1, flexDirection: 'column' }}>
@@ -25,15 +25,15 @@
     <Box style={{ flexDirection: 'row', height: 104, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
       <Text style={{ width: 40, fontSize: 15, fontWeight: 'bold', color: '#1F4E79' }}>02</Text>
       <Text style={{ width: 210, fontSize: 19, fontWeight: 'bold', color: '#111111' }}>31 MHz 载波源</Text>
-      <Text style={{ width: 620, fontSize: 17, color: '#333333', lineHeight: 1.5 }}>无源石英晶体配 S9013 共射振荡，射极跟随器隔离后级负载，抑制负载牵引引起的频率漂移</Text>
-      <Text style={{ width: 260, fontSize: 16, color: '#333333' }}>30.999 MHz；2.0 V</Text>
+      <Text style={{ width: 620, fontSize: 17, color: '#333333', lineHeight: 1.5 }}>无源石英晶体配 2N3904 共射振荡，射极跟随器隔离后级负载；五级步长收敛后外推到 30.9988 MHz</Text>
+      <Text style={{ width: 260, fontSize: 16, color: '#333333' }}>30.9988 MHz（外推）；2.0 V @ 2 kΩ</Text>
     </Box>
 
     <Box style={{ flexDirection: 'row', height: 104, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>
       <Text style={{ width: 40, fontSize: 15, fontWeight: 'bold', color: '#1F4E79' }}>03</Text>
-      <Text style={{ width: 210, fontSize: 19, fontWeight: 'bold', color: '#111111' }}>AM 调制级</Text>
-      <Text style={{ width: 620, fontSize: 17, color: '#333333', lineHeight: 1.5 }}>S9013 集电极调幅，基带经射随驱动，静态工作点设在放大区中点，保证包络上下对称、不削顶</Text>
-      <Text style={{ width: 260, fontSize: 16, color: '#333333' }}>载波 31 MHz；调制度 m ≤ 0.5</Text>
+      <Text style={{ width: 210, fontSize: 19, fontWeight: 'bold', color: '#111111' }}>调制与驱动</Text>
+      <Text style={{ width: 620, fontSize: 17, color: '#333333', lineHeight: 1.5 }}>2N3904 基极调幅，包络经 37 kΩ 注入基极；后接共射＋射随两级驱动，向可调匹配网络输出</Text>
+      <Text style={{ width: 260, fontSize: 16, color: '#333333' }}>m ≈ 27%（模型）；电池预算 304 mW</Text>
     </Box>
 
     <Box style={{ flexDirection: 'row', height: 104, alignItems: 'center', borderBottom: '1px solid #E6E6E6' }}>

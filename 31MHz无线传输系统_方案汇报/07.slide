@@ -1,5 +1,5 @@
 <Slide
-  notes={`（2:50–3:00）方案与仿真闭环、图纸与 BOM 已出，采购和实测待启动。下一步先做独立 LC 小板扫频，再联调发射链、整机 6 m 验收。汇报完毕。`}
+  notes={`（2:50–3:00）模块级仿真已闭环，图纸和 BOM 已出，材料基本到货，本周开始焊基带和载波板。下一步焊载波链、装天线调峰，再做接收和整机 6 m。汇报完毕。`}
   style={{ width: 1280, height: 720, padding: '60px 60px 0 60px', background: '#FFFFFF', flexDirection: 'column', fontFamily: 'Microsoft YaHei' }}
 >
   <Box style={{ flex: 1, flexDirection: 'column' }}>
@@ -19,17 +19,17 @@
 
         <Box style={{ flexDirection: 'row', marginTop: 16 }}>
           <Text style={{ width: 26, fontSize: 15, color: '#1F4E79' }}>①</Text>
-          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>全链路仿真闭环：v1 → 调幅 → 检波 → v2，幅度倍率 1.204</Text>
+          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>载波频率仿真收敛：零步长外推 30.9988 MHz，实物复验待进行</Text>
         </Box>
 
         <Box style={{ flexDirection: 'row', marginTop: 16 }}>
           <Text style={{ width: 26, fontSize: 15, color: '#1F4E79' }}>②</Text>
-          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>三张 KiCad 施工图（原理图、LC 小板、洞洞板布局），ERC 0 错误 0 警告</Text>
+          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>名义工况电池预算约 304 mW，满足 0.5 W 限制；边界工况驱动电流需实测复核</Text>
         </Box>
 
         <Box style={{ flexDirection: 'row', marginTop: 16 }}>
           <Text style={{ width: 26, fontSize: 15, color: '#1F4E79' }}>③</Text>
-          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>BOM 36 行，三批采购清单已逐项核对，仅 2 项需替代料</Text>
+          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>材料到货：LM393P、2N3904BU、OPA197IDR、BAT85S 已齐，基带与载波板可开焊</Text>
         </Box>
       </Box>
 
@@ -39,24 +39,24 @@
 
         <Box style={{ flexDirection: 'row', marginTop: 16 }}>
           <Text style={{ width: 26, fontSize: 15, color: '#D9534F' }}>①</Text>
-          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>大信号过载：20 mV 输入时 G = 22 档削底，动态范围上限未闭合</Text>
+          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>接收链未启动：OPA197 的 SOIC→DIP 转接板未到，LC 小件不齐</Text>
         </Box>
 
         <Box style={{ flexDirection: 'row', marginTop: 16 }}>
           <Text style={{ width: 26, fontSize: 15, color: '#D9534F' }}>②</Text>
-          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>线圈互感：两只空心线圈间距未定，k = −0.03 时带宽升至 3.0 MHz、抑制降到 −5.6 dB</Text>
+          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>天线已选定普通伸缩拉杆＋可调匹配＋地网，阻抗、损耗、匹配与辐射性能仍待实测</Text>
         </Box>
 
         <Box style={{ flexDirection: 'row', marginTop: 16 }}>
           <Text style={{ width: 26, fontSize: 15, color: '#D9534F' }}>③</Text>
-          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>供货：BAT85 直插封装已停产、132-17L 查无现货，需先验证替代料</Text>
+          <Text style={{ flex: 1, fontSize: 16, color: '#333333', lineHeight: 1.55 }}>调制度偏低：实际 m ≈ 27%，S05 按 50% 设计，v2 须按实际 m 重算</Text>
         </Box>
       </Box>
     </Box>
 
     <Box style={{ flexDirection: 'row', marginTop: 24, background: '#F7F7F7', borderLeft: '3px solid #1F4E79', padding: '14px 20px' }}>
       <Text style={{ fontSize: 17, color: '#111111', lineHeight: 1.6 }}>
-        下一步：先做独立 LC 小板并完成加载扫频 → 发射链单级联调 → 整机 6 m 实测验收
+        下一步：焊基带与载波板并复验 → 装成品天线做 31 MHz 调峰 → 接收链实物 → 整机 6 m 实测
       </Text>
     </Box>
   </Box>

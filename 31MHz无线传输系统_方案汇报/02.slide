@@ -4,7 +4,7 @@
 >
   <Box style={{ flex: 1, flexDirection: 'column' }}>
     <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#111111', lineHeight: 1.25 }}>
-      任务拆解：一组参数、六项指标、四条红线
+      任务拆解：一组参数、六项指标与禁用约束
     </Text>
     <Box style={{ width: '100%', height: 1, background: '#DCDCDC', marginTop: 12 }} />
 
