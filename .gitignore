@@ -65,3 +65,46 @@ desktop.ini
 
 # 本机沙箱/权限恢复备份与临时提取物，不入库
 .tmp/
+
+# ============================================================
+# 2026-11-19 补登记（发布前清理）：
+# ============================================================
+
+# 长截图分析切片（本机临时产物，由原图重新切即可再生）
+_slices/
+
+# 工作簿检查中间产物（artifact 工具的 inspect 输出，非证据）
+*.inspect.ndjson
+
+# 演示工具缓存与临时图片（.cache/media 里被引用到的少量图已单独跟踪）
+31MHz无线传输系统_方案汇报/tmpimg/
+31MHz无线传输系统_方案汇报/figures_src/*.html
+
+# 仿真大数组（2026-11-19 按仓库既有方针补登记）
+# 理由同上：可由 .cir/.py 重跑再生，完整性由同目录 evidence_sha256.json 核验。
+#   已验证覆盖关系（逐文件重算 SHA-256 与清单一致）：
+#     stage_am_alt3_1_20261116/evidence_sha256.json
+#       → refine.json / tabletop.json / geometry.json / final_cases.json
+#         / feed_checks.json / tuning_scan.csv / selected_environment.json
+#     stage_am_alt3_3_20261117/evidence_sha256.json → antenna_all.json
+simulation/v4_hardware/stage_am_alt3_1_20261116/refine.json
+simulation/v4_hardware/stage_am_alt3_1_20261116/tabletop.json
+simulation/v4_hardware/stage_am_alt3_1_20261116/geometry.json
+simulation/v4_hardware/stage_am_alt3_1_20261116/final_cases.json
+simulation/v4_hardware/stage_am_alt3_1_20261116/feed_checks.json
+simulation/v4_hardware/stage_am_alt3_1_20261116/tuning_scan.csv
+simulation/v4_hardware/stage_am_alt3_1_20261116/selected_environment.json
+simulation/v4_hardware/stage_am_alt3_1_20261116/loaded_crosscheck.json
+simulation/v4_hardware/stage_am_alt3_3_20261117/antenna_all.json
+
+# NEC2 运行输出（2026-11-19 补登记）
+# .nec 输入网表入库；.out 可由 nec2c 重跑再生，完整性由 evidence_sha256.json 核验
+#   stage_am_alt3_1_20261116/evidence_sha256.json → 202 个 .out（逐条已核对）
+#   stage_am_alt3_3_20261117/evidence_sha256.json →  54 个 .out（逐条已核对）
+simulation/v4_hardware/stage_am_alt3_1_20261116/runs/*.out
+simulation/v4_hardware/stage_am_alt3_3_20261117/runs/*.out
+simulation/v4_hardware/stage_am_alt3_1_20261116/*.out
+simulation/v4_hardware/stage_am_alt3_3_20261117/*.out
+
+# 采购核对工具的本机依赖与中间件
+output/procurement_audit_20261119/node_modules/

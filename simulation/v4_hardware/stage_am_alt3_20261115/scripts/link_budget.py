@@ -4,9 +4,25 @@ Everything here is an estimate from antenna theory plus the AM-ALT.2 measured
 transmitter currents. It is NOT a measurement and NOT a substitute for the 6 m
 test the course requires -- the report states that plainly.
 
+*** CORRECTED 2026-11-16 (P1b). This script previously used h_eff = h/2 for the
+*** RECEIVE antenna, which the errata in 02_AM-ALT.3_勘误与天线阻抗测量方案.md
+*** proved is wrong: a monopole over a ground plane sees the image, so the
+*** open-circuit voltage against the incident field is V_oc = E * h, not E * h/2.
+*** Taking h/2 understates h_eff by 2x, which doubles the required field and
+*** therefore doubles the required antenna current. The reciprocity check makes
+*** this conclusive: D = 3 requires A_em = 3*lambda^2/(4*pi) = 22.30 m^2, and
+*** A_em = eta0*h_eff^2/(4*R_rad) then forces h_eff = h. Using h/2 implies
+*** D = 0.749 < 1, which no antenna can achieve.
+***
+*** The historical (uncorrected) numbers are still reproducible on purpose by
+*** `scripts/link_budget_audit.py`, which recreates both defects separately and
+*** attributes them: defect A (h/2) is x2.000, defect B (rms divided by sqrt 2
+*** again) is x0.707, net x1.414. Do not "fix" that file -- it is the audit.
+
 Short-monopole relations used (h << lambda, triangular current):
     R_rad   = 395 * (h/lambda)^2                        [ohm]
-    h_eff   = h/2                                       [m]  (transmit and receive)
+    h_eff   = h                                         [m]  (transmit and receive;
+                                                              ground-plane image included)
     E_max   = sqrt(180 * P_rad) / r                     [V/m] at the horizon
     V_oc    = E * h_eff                                 [V]  at the receive antenna
 
@@ -19,22 +35,44 @@ from antenna_model import (C0, F, LAM, schelkunoff, efficiency,
 
 ETA0 = 376.730313668
 H_TX = 1.00          # m, at the course limit
-A_WIRE = 0.5e-3
+A_WIRE = 0.5e-3      # m, wire radius
 
 
-def e_max_from_power(p_rad, r):
-    return np.sqrt(180.0 * p_rad) / r
+def h_eff_monopole(h):
+    """Effective height of a monopole above a ground plane [m].
+
+    The ground-plane image doubles the tangential field at the antenna, so the
+    open-circuit voltage against the incident field is E*h. See the module
+    docstring for the reciprocity argument that forces this.
+    """
+    return h
+
+
+def e_max_from_power(p_avg, r):
+    """Peak E at distance r from an AVERAGE radiated power p_avg [W].
+
+    P = r^2 E_peak^2 / 180, so E_peak = sqrt(180 P)/r. The 180 already folds in
+    the 1/2 from time-averaging (S_avg = E_peak^2/(2 eta0)) and the hemisphere
+    pattern integral (4*pi/3). Feeding a PEAK power here would double the
+    argument and overstate E by sqrt(2) -- that was a latent defect in this
+    script, fixed in the same pass as h_eff; see the module docstring.
+    """
+    return np.sqrt(180.0 * p_avg) / r
 
 
 def field_from_current(i_peak, h=H_TX, r=6.0):
-    """Peak E at distance r, for a short monopole carrying i_peak at the base."""
-    p = i_peak ** 2 * radiation_resistance(h)
-    return e_max_from_power(p, r), p
+    """Peak E at distance r, for a short monopole carrying i_peak at the base.
+
+    Returns (E_peak, P_avg). The power must be time-averaged before it goes
+    into the far-field relation: p_avg = i_peak^2 * R_rad / 2.
+    """
+    p_avg = i_peak ** 2 * radiation_resistance(h) / 2.0
+    return e_max_from_power(p_avg, r), p_avg
 
 
 def link(i_ant_peak, h_tx=H_TX, h_rx=1.00, r=6.0):
     e, p_rad = field_from_current(i_ant_peak, h_tx, r)
-    v_oc = e * (h_rx / 2)
+    v_oc = e * h_eff_monopole(h_rx)          # was: e * (h_rx / 2)  -- see docstring
     return {"I_ant_peak_mA": i_ant_peak * 1e3,
             "P_rad_uW": p_rad * 1e6,
             "E_at_r_mV_per_m": e * 1e3,

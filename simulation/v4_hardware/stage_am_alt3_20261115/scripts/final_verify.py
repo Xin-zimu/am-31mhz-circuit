@@ -59,6 +59,15 @@ RDE drv_e 0 {p['rde']}
 CDE drv_e 0 100n
 QEF vcc drv_c ef_e 2N3904
 REF ef_e 0 {p['ref']}
+* --- v3 alias (added 2026-11-16, P1b) ---------------------------------------
+* The stage defines v3 as the voltage at the antenna feed point AFTER the
+* matching network (01 report section 8). Once ROISO was removed there is no
+* longer a node literally named v3: the feed point is ef_e. A zero-volt source
+* between v3 and ef_e restores the name without perturbing a single volt or
+* ampere, so v(v3) == v(ef_e) exactly and older save statements keep working.
+* Historical raws produced before this change have no v(v3) column at all
+* (fin_nom.raw has 6 variables); read v(ef_e) there -- it is the same quantity.
+V3ALIAS v3 ef_e 0
 LTUNE ef_e ant_n1 {L_TUNE_NH:.4f}n
 RANT ant_n1 ant_n2 {R_ANT:.6f}
 CANT ant_n2 0 {C_ANT_PF*c_scale:.6f}p
