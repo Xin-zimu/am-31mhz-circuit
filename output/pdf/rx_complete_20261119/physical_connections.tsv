@@ -1,0 +1,57 @@
+﻿Reference	Value	Nodes(Q=C,B,E;D=A,K;U=3,2,7,4,6)
+CSEL	15p	input,tank1
+CK	2.4p	tank1,tank2
+COUT	11p	tank2,port
+RPORT	1Meg	port,0
+LSEL1	470n	tank1,0
+LSEL2	470n	tank2,0
+CIN1	1n	port,b1
+RBT1	22k	vcc,b1
+RBB1	4.7k	b1,0
+Q1	2N3904	c1,b1,e1
+RC1	1000	vcc,c1
+REU1	33	e1,eb1
+REB1	220	eb1,0
+CEB1	330p	eb1,0
+CIN2	100p	c1,b2
+RBT2	22k	vcc,b2
+RBB2	4.7k	b2,0
+Q2	2N3904	c2,b2,e2
+RC2	1000	vcc,c2
+REU2	33	e2,eb2
+REB2	220	eb2,0
+CEB2	330p	eb2,0
+CBUF	100p	c2,bb
+RBTB	10k	vcc,bb
+RBBB	10k	bb,0
+QBUF	2N3904	vcc,bb,ee
+REBUF	470	ee,0
+COBUF	1n	ee,rf
+RRF	1000	rf,0
+DDET	BAT85 A,K	rf,det
+RDET	4700	det,0
+CDET	100p	det,0
+RFILT	4700	det,out
+CFILT	100p	out,0
+RVT	20k	vcc,ref
+RVB	10k	ref,0
+CVREF	10u	ref,0
+CCOUP	100n	out,bbin
+RBIAS	100k	bbin,ref
+RG	10k	neg,ref
+RFB	430000	bbo,neg
+U1	OPA197 SOIC8 3,2,7,4,6	bbin,neg,vcc,0,bbo
+ROUT	100	bbo,final
+CFIX1	27p	tank1,0
+CT1	2-18p init 11.09p	tank1,0
+CFIX2	33p	tank2,0
+CT2	2-18p init 12.38p	tank2,0
+CDQ1	100n	vcc,0
+CDQ2	100n	vcc,0
+CDBUF	100n	vcc,0
+CDU1	100n	vcc,0
+CPWR	10u	vcc,0
+CPWRHF	100n	vcc,0
+JRF	antenna/test input	input,0
+JPOWER	9V input	vcc,0
+JOUT	V2 output	final,0

@@ -1,0 +1,8 @@
+{
+  "pages": 8,
+  "physical_parts": 74,
+  "unique_refs": true,
+  "transistors": 6,
+  "matching_caps_parallel": true,
+  "scope": "5V externally regulated full TX candidate; not hardware accepted"
+}

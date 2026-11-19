@@ -1,0 +1,11 @@
+{
+  "pages": 7,
+  "physical_parts": 56,
+  "unique_refs": true,
+  "all_refs_in_pdf": true,
+  "source_sha256": "5bdca5619fc12ab434d74b8d472d10c5d4157f83ce62072f0c64f1c445e7589a",
+  "source": "G44_D50_source.cir",
+  "gain": 44,
+  "supply": "9V",
+  "scope": "candidate wiring drawing, not hardware acceptance"
+}
