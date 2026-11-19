@@ -1,0 +1,12 @@
+{
+  "name": "port_ac_recreated",
+  "config": {
+    "kind": "archived C_Q50 AC rerun"
+  },
+  "elapsed_s": 0.5636214000001019,
+  "net_sha256": "390264c33d41018f8b5fe5703e8f0673195558e8b7e02b7f78d7b4a44d1cf955",
+  "raw_sha256": "1af55221efa2310b25c0c0570d63f1755e0d8d9a8fffdd36a4a36841c000b1cf",
+  "raw_path": "D:\\ms_xsp\\s05_replacement_20261118\\port_ac_recreated.raw",
+  "log_sha256": "b1adab4e3c4e63c3f39891cabd891e73b5e756b7c7ca2579a9ff846d838d395d",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+}

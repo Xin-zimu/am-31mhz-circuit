@@ -1,0 +1,23 @@
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * s05-06. source sha256 542f17faa18642f93defb08ed4a131ff679a529f04655ee25e677afea91fc977
+
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps
+
+
+Circuit: * opa197 actual passive reference, no imposed node initial conditions
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+binary raw file "D:/ms_xsp/s05_replacement_20261118/P_G40.raw"
+ngspice-47 done

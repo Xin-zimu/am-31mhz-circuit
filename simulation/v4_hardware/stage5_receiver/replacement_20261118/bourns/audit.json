@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "name": "G40_D50",
+      "output_ge_4_vpp": false,
+      "near_rail_fraction": 0.0,
+      "repeatable": true
+    },
+    {
+      "name": "G22_D50",
+      "output_ge_4_vpp": false,
+      "near_rail_fraction": 0.0,
+      "repeatable": true
+    },
+    {
+      "name": "G44_D10",
+      "output_ge_4_vpp": true,
+      "near_rail_fraction": 0.0,
+      "repeatable": true
+    },
+    {
+      "name": "G44_D30",
+      "output_ge_4_vpp": true,
+      "near_rail_fraction": 0.0,
+      "repeatable": true
+    },
+    {
+      "name": "G44_D50",
+      "output_ge_4_vpp": true,
+      "near_rail_fraction": 0.0,
+      "repeatable": true
+    },
+    {
+      "name": "G44_D10_half",
+      "output_ge_4_vpp": false,
+      "near_rail_fraction": 0.0,
+      "repeatable": true
+    },
+    {
+      "name": "G44_D50_half",
+      "output_ge_4_vpp": false,
+      "near_rail_fraction": 0.0,
+      "repeatable": true
+    },
+    {
+      "name": "G44_D50_loss",
+      "output_ge_4_vpp": false,
+      "near_rail_fraction": 0.0,
+      "repeatable": true
+    },
+    {
+      "name": "G44_D50_fine_retry",
+      "output_ge_4_vpp": true,
+      "near_rail_fraction": 0.0,
+      "repeatable": true
+    }
+  ],
+  "half_errors": {
+    "10": 0.009268221303396773,
+    "50": 0.010862315956543078
+  },
+  "step_vpp_difference": 0.0009035368829051205,
+  "hashes_verified": true,
+  "hardware_accepted": false
+}

@@ -1,0 +1,27 @@
+{
+  "checked_date": "2026-11-18",
+  "documents": [
+    {
+      "file": "bourns_78f.pdf",
+      "url": "https://www.bourns.com/docs/Product-Datasheets/78F_series.pdf",
+      "sha256": "f68f21e55a13c8e07f2cee8749b66fc6c36d8cda24ddc890a5639264eaef4328",
+      "bytes": 217977
+    },
+    {
+      "file": "vishay_trimmer.pdf",
+      "url": "https://www.vishay.com/docs/28529/bfc280905.pdf",
+      "sha256": "46ce1362d5fe612ea5ba840d449fe483bc28531d8b3d5ab0cd9e014afff02e35",
+      "bytes": 101923
+    },
+    {
+      "file": "vishay_irf_termination.pdf",
+      "url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/9028/PTN-DI-009-2026-REV-1.pdf",
+      "sha256": "72166e6133e6c6403b05fc8727b7bbd10b79a9c060b6d8ab824181af5103caa3",
+      "bytes": 21098
+    }
+  ],
+  "listing_urls": [
+    "https://www.digikey.cn/en/products/detail/bourns-inc/78FR47K-RC/4697650",
+    "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/BFC280905217/3028993"
+  ]
+}

@@ -1,0 +1,15 @@
+* S05-08 purchasable-part loaded fixture; original active stages unchanged
+CSEL input tank1 15p
+CK tank1 tank2 2.4p
+COUT tank2 port 11p
+RPORT port 0 1Meg
+RCT1 tank1 ctl1 0.328354521338
+CTUNE1 ctl1 0 39.0890797041p
+RLOSS1 tank1 ln1 2.28865024814
+LSEL1 ln1 0 470n
+CSELF1 tank1 0 0.739290077068p
+RCT2 tank2 ctl2 0.276713495676
+CTUNE2 ctl2 0 46.3839901428p
+RLOSS2 tank2 ln2 2.28865024814
+LSEL2 ln2 0 470n
+CSELF2 tank2 0 0.739290077068p

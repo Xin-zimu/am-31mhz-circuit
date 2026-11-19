@@ -1,0 +1,12 @@
+* S05-06. Source SHA256 cd03b88e3cbaaddbf4aedd2fddca62e905f7390e647d1d0c1e6b513c89b26568
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_replacement_bourns_20261118/P_G22_source.cir
+set filetype=binary
+set num_threads=1
+save all
+op
+write D:/ms_xsp/s05_replacement_bourns_20261118/P_G22.raw
+quit
+.endc
+.end

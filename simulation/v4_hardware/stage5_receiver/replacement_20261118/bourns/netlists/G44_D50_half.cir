@@ -1,0 +1,12 @@
+* S05-06. Source SHA256 0ca812b130e9307a855f3d537c27918b64b36a0b8f9213bed0431b6c0b465609
+.control
+set ngbehavior=ps
+source D:/ms_xsp/s05_replacement_bourns_20261118/G44_D50_half_source.cir
+set filetype=binary
+set num_threads=1
+save v(src) v(input) v(port) v(b1) v(c1) v(e1) v(b2) v(c2) v(e2) v(ee) v(rf) v(det) v(out) i(vsup) v(bbin) v(ref) v(bbo) v(final)
+tran 0.5n 450u 150u 0.5n
+write D:/ms_xsp/s05_replacement_bourns_20261118/G44_D50_half.raw
+quit
+.endc
+.end
